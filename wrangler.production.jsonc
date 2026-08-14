@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "artifacts-vza-net-prod",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-13",
+  "account_id": "97358a67fb6e05c67a44b04bdd9f7558",
+  "workers_dev": true,
+  "preview_urls": false
+}
