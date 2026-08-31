@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; img-src blob: data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+    <title>Offline QR code reader</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #14213d;
+        background: #edf2f7;
+        font-synthesis: none;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        min-height: 100vh;
+        background:
+          radial-gradient(circle at top right, rgba(255, 255, 255, 0.9), transparent 36rem),
+          #edf2f7;
+      }
+
+      main {
+        width: min(100% - 2rem, 52rem);
+        margin: 0 auto;
+        padding: 3.5rem 0;
+      }
+
+      header {
+        margin-bottom: 1.75rem;
+      }
+
+      .eyebrow {
+        margin: 0 0 0.65rem;
+        color: #1d6f8a;
+        font-size: 0.76rem;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        max-width: 12ch;
+        margin-bottom: 0.9rem;
+        font-size: clamp(2.25rem, 7vw, 4.35rem);
+        line-height: 0.98;
+        letter-spacing: -0.055em;
+      }
+
+      header p:last-child {
+        max-width: 42rem;
+        margin-bottom: 0;
+        color: #46556e;
+        font-size: 1.05rem;
+        line-height: 1.6;
+      }
+
+      .card {
+        margin-top: 1rem;
+        padding: clamp(1rem, 4vw, 1.5rem);
+        border: 1px solid #d7e0eb;
+        border-radius: 1.25rem;
+        background: rgba(255, 255, 255, 0.88);
+        box-shadow: 0 1.5rem 3rem rgba(22, 45, 76, 0.08);
+      }
+
+      .drop-zone {
+        display: grid;
+        min-height: 13rem;
+        place-items: center;
+        padding: 1.5rem;
+        border: 2px dashed #8aa8bc;
+        border-radius: 1rem;
+        background: #f8fbfd;
+        color: #23415d;
+        cursor: pointer;
+        text-align: center;
+        transition: border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+      }
+
+      .drop-zone:hover,
+      .drop-zone:focus-within,
+      .drop-zone.is-dragging {
+        border-color: #1d6f8a;
+        background: #eff9fc;
+      }
+
+      .drop-zone.is-dragging {
+        transform: translateY(-2px);
+      }
+
+      .drop-zone input {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        white-space: nowrap;
+      }
+
+      .drop-icon {
+        display: grid;
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: 0 auto 0.9rem;
+        place-items: center;
+        border-radius: 1rem;
+        background: #dff2f7;
+        color: #145c75;
+        font-size: 1.7rem;
+        font-weight: 800;
+      }
+
+      .drop-title {
+        margin-bottom: 0.35rem;
+        font-size: 1.1rem;
+        font-weight: 800;
+      }
+
+      .drop-help {
+        margin-bottom: 0;
+        color: #5a6c82;
+        font-size: 0.93rem;
+      }
+
+      .file-name {
+        min-height: 1.5rem;
+        margin: 0.8rem 0 0;
+        color: #53657d;
+        font-size: 0.9rem;
+        overflow-wrap: anywhere;
+      }
+
+      .status {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.65rem;
+        margin: 1rem 0 0;
+        padding: 0.85rem 1rem;
+        border-radius: 0.75rem;
+        background: #eef4f8;
+        color: #38526b;
+        font-size: 0.94rem;
+        line-height: 1.45;
+      }
+
+      .status::before {
+        content: "i";
+        display: grid;
+        flex: 0 0 1.25rem;
+        width: 1.25rem;
+        height: 1.25rem;
+        place-items: center;
+        border-radius: 50%;
+        background: #c9e2eb;
+        color: #145c75;
+        font-size: 0.78rem;
+        font-weight: 900;
+      }
+
+      .status[data-kind="success"] {
+        background: #edf8f2;
+        color: #245a3c;
+      }
+
+      .status[data-kind="success"]::before {
+        content: "✓";
+        background: #c9edd7;
+        color: #21643d;
+      }
+
+      .status[data-kind="error"] {
+        background: #fff2f0;
+        color: #8a332d;
+      }
+
+      .status[data-kind="error"]::before {
+        content: "!";
+        background: #ffd5cf;
+        color: #9a3229;
+      }
+
+      .preview {
+        margin-top: 1rem;
+        overflow: auto;
+        max-height: 30rem;
+        border: 1px solid #d7e0eb;
+        border-radius: 0.9rem;
+        background: #17263a;
+      }
+
+      .preview canvas {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+      }
+
+      .toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 0.65rem;
+        margin-top: 1rem;
+      }
+
+      button {
+        min-height: 2.75rem;
+        padding: 0.65rem 1rem;
+        border: 1px solid #b6c6d5;
+        border-radius: 0.65rem;
+        background: #fff;
+        color: #19334e;
+        cursor: pointer;
+        font: inherit;
+        font-weight: 750;
+      }
+
+      button:hover:not(:disabled) {
+        border-color: #1d6f8a;
+        background: #f1fafc;
+      }
+
+      button:focus-visible,
+      .drop-zone:focus-within {
+        outline: 3px solid rgba(29, 111, 138, 0.28);
+        outline-offset: 3px;
+      }
+
+      button:disabled {
+        cursor: not-allowed;
+        opacity: 0.48;
+      }
+
+      .result {
+        margin-top: 1rem;
+        padding: clamp(1rem, 4vw, 1.35rem);
+        border: 1px solid #c8e4d3;
+        border-radius: 1rem;
+        background: #f5fcf7;
+      }
+
+      .result h2 {
+        margin-bottom: 0.35rem;
+        font-size: 1.05rem;
+      }
+
+      .result p {
+        margin-bottom: 0.8rem;
+        color: #4c6655;
+        font-size: 0.9rem;
+      }
+
+      textarea {
+        display: block;
+        width: 100%;
+        min-height: 8rem;
+        resize: vertical;
+        padding: 0.8rem;
+        border: 1px solid #b6d0be;
+        border-radius: 0.65rem;
+        background: #fff;
+        color: #14213d;
+        font: 0.92rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      }
+
+      footer {
+        margin-top: 1.25rem;
+        color: #66758a;
+        font-size: 0.83rem;
+        line-height: 1.55;
+        text-align: center;
+      }
+
+      [hidden] {
+        display: none !important;
+      }
+
+      @media (max-width: 560px) {
+        main {
+          width: min(100% - 1rem, 52rem);
+          padding: 2rem 0;
+        }
+
+        h1 {
+          font-size: 2.8rem;
+        }
+
+        .drop-zone {
+          min-height: 11rem;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .drop-zone {
+          transition: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">Local-only tool</p>
+        <h1>Offline QR code reader</h1>
+        <p>Choose an image or drop it below. The QR code is decoded inside this browser tab; the image and result are never uploaded.</p>
+      </header>
+
+      <section class="card" aria-labelledby="reader-heading">
+        <h2 id="reader-heading" hidden>Select an image</h2>
+        <label class="drop-zone" id="dropZone" for="fileInput">
+          <input id="fileInput" type="file" accept="image/*">
+          <span>
+            <span class="drop-icon" aria-hidden="true">⌁</span>
+            <span class="drop-title">Choose an image</span>
+            <span class="drop-help">or drag and drop a JPG, PNG, or other image here</span>
+          </span>
+        </label>
+        <p class="file-name" id="fileName">No image selected.</p>
+        <p class="status" id="status" data-kind="neutral" role="status" aria-live="polite">Ready to scan locally.</p>
+
+        <div class="preview" id="preview" hidden>
+          <canvas id="previewCanvas" aria-label="Selected image preview"></canvas>
+        </div>
+
+        <div class="toolbar">
+          <button id="clearButton" type="button" disabled>Clear</button>
+        </div>
+
+        <section class="result" id="result" aria-labelledby="result-heading" hidden>
+          <h2 id="result-heading">Decoded content</h2>
+          <p id="resultMeta">The value below is text only; it will not be opened automatically.</p>
+          <textarea id="resultText" readonly aria-label="Decoded QR content"></textarea>
+          <div class="toolbar">
+            <button id="copyButton" type="button" disabled>Copy content</button>
+          </div>
+        </section>
+      </section>
+
+      <footer>Works without a network connection. Keep this HTML file beside <code>jsqr.js</code>.</footer>
+    </main>
+
+    <noscript>This reader needs JavaScript enabled to decode images locally.</noscript>
+
+    <script src="./jsqr.js"></script>
+    <script>
+      (() => {
+        "use strict";
+
+        const MAX_FILE_BYTES = 30 * 1024 * 1024;
+        const MAX_IMAGE_DIMENSION = 4200;
+        const TILE_DIMENSION = 1400;
+        const TILE_OVERLAP = 0.25;
+        const decoderOptions = { inversionAttempts: "attemptBoth" };
+
+        const dropZone = document.querySelector("#dropZone");
+        const fileInput = document.querySelector("#fileInput");
+        const fileName = document.querySelector("#fileName");
+        const status = document.querySelector("#status");
+        const preview = document.querySelector("#preview");
+        const previewCanvas = document.querySelector("#previewCanvas");
+        const clearButton = document.querySelector("#clearButton");
+        const result = document.querySelector("#result");
+        const resultMeta = document.querySelector("#resultMeta");
+        const resultText = document.querySelector("#resultText");
+        const copyButton = document.querySelector("#copyButton");
+        const context = previewCanvas.getContext("2d", { willReadFrequently: true });
+
+        let scanId = 0;
+        let hasImage = false;
+
+        function setStatus(message, kind = "neutral") {
+          status.textContent = message;
+          status.dataset.kind = kind;
+        }
+
+        function setResult(decoded) {
+          result.hidden = false;
+          resultText.value = decoded;
+          copyButton.disabled = decoded.length === 0;
+          resultMeta.textContent = decoded.length === 0
+            ? "A QR code was detected, but it contains no text."
+            : "The value below is text only; it will not be opened automatically.";
+        }
+
+        function clearResult() {
+          result.hidden = true;
+          resultText.value = "";
+          resultMeta.textContent = "The value below is text only; it will not be opened automatically.";
+          copyButton.disabled = true;
+        }
+
+        function resetReader() {
+          scanId += 1;
+          hasImage = false;
+          fileInput.value = "";
+          fileName.textContent = "No image selected.";
+          preview.hidden = true;
+          previewCanvas.width = 1;
+          previewCanvas.height = 1;
+          context.clearRect(0, 0, 1, 1);
+          clearResult();
+          clearButton.disabled = true;
+          setStatus("Ready to scan locally.");
+        }
+
+        function nextFrame() {
+          return new Promise((resolve) => {
+            if (typeof requestAnimationFrame === "function") {
+              requestAnimationFrame(resolve);
+              return;
+            }
+            setTimeout(resolve, 0);
+          });
+        }
+
+        function imageDimensions(image) {
+          const sourceWidth = image.naturalWidth || image.width;
+          const sourceHeight = image.naturalHeight || image.height;
+          const largestSide = Math.max(sourceWidth, sourceHeight);
+          const scale = Math.min(1, MAX_IMAGE_DIMENSION / largestSide);
+
+          return {
+            width: Math.max(1, Math.round(sourceWidth * scale)),
+            height: Math.max(1, Math.round(sourceHeight * scale)),
+          };
+        }
+
+        function loadImage(file) {
+          if (typeof createImageBitmap === "function") {
+            return createImageBitmap(file, { imageOrientation: "from-image" }).catch(() => loadImageElement(file));
+          }
+          return loadImageElement(file);
+        }
+
+        function loadImageElement(file) {
+          return new Promise((resolve, reject) => {
+            const objectUrl = URL.createObjectURL(file);
+            const image = new Image();
+            image.decoding = "async";
+            image.onload = () => {
+              URL.revokeObjectURL(objectUrl);
+              resolve(image);
+            };
+            image.onerror = () => {
+              URL.revokeObjectURL(objectUrl);
+              reject(new Error("The selected image could not be read."));
+            };
+            image.src = objectUrl;
+          });
+        }
+
+        function axisStarts(length, tile, step) {
+          if (length <= tile) {
+            return [0];
+          }
+
+          const starts = [0];
+          for (let start = step; start + tile < length; start += step) {
+            starts.push(start);
+          }
+          starts.push(length - tile);
+          return [...new Set(starts)];
+        }
+
+        function regionsFor(width, height) {
+          const tile = Math.min(TILE_DIMENSION, Math.max(800, Math.min(width, height)));
+          const step = Math.max(1, Math.floor(tile * (1 - TILE_OVERLAP)));
+          const regions = [{ x: 0, y: 0, width, height }];
+
+          for (const y of axisStarts(height, tile, step)) {
+            for (const x of axisStarts(width, tile, step)) {
+              const region = {
+                x,
+                y,
+                width: Math.min(tile, width - x),
+                height: Math.min(tile, height - y),
+              };
+              if (region.width !== width || region.height !== height) {
+                regions.push(region);
+              }
+            }
+          }
+
+          return regions;
+        }
+
+        async function scanCanvas(width, height, currentScanId) {
+          if (typeof window.jsQR !== "function") {
+            throw new Error("The local decoder file is missing. Keep jsqr.js beside this HTML file.");
+          }
+
+          for (const region of regionsFor(width, height)) {
+            if (currentScanId !== scanId) {
+              return null;
+            }
+
+            const imageData = context.getImageData(region.x, region.y, region.width, region.height);
+            const decoded = window.jsQR(imageData.data, region.width, region.height, decoderOptions);
+            if (decoded) {
+              return decoded;
+            }
+            await nextFrame();
+          }
+
+          return null;
+        }
+
+        async function handleFile(file) {
+          const currentScanId = ++scanId;
+          clearResult();
+
+          if (!file) {
+            return;
+          }
+          if (!file.type.startsWith("image/")) {
+            hasImage = false;
+            clearButton.disabled = true;
+            setStatus("Choose an image file.", "error");
+            return;
+          }
+          if (file.size > MAX_FILE_BYTES) {
+            hasImage = false;
+            clearButton.disabled = true;
+            setStatus("This image is larger than 30 MB. Choose a smaller file.", "error");
+            return;
+          }
+
+          hasImage = true;
+          clearButton.disabled = false;
+          fileName.textContent = file.name;
+          preview.hidden = true;
+          setStatus("Reading the image locally…");
+
+          try {
+            const image = await loadImage(file);
+            if (currentScanId !== scanId) {
+              image.close?.();
+              return;
+            }
+
+            const dimensions = imageDimensions(image);
+            previewCanvas.width = dimensions.width;
+            previewCanvas.height = dimensions.height;
+            context.drawImage(image, 0, 0, dimensions.width, dimensions.height);
+            image.close?.();
+            preview.hidden = false;
+            setStatus("Scanning locally…");
+
+            const decoded = await scanCanvas(dimensions.width, dimensions.height, currentScanId);
+            if (currentScanId !== scanId) {
+              return;
+            }
+            if (!decoded) {
+              setStatus("No QR code was found. Try a sharper image or a closer crop.", "error");
+              return;
+            }
+
+            setResult(decoded.data);
+            setStatus("QR code found. Nothing was opened automatically.", "success");
+          } catch (error) {
+            if (currentScanId !== scanId) {
+              return;
+            }
+            const message = error instanceof Error ? error.message : "The image could not be scanned.";
+            setStatus(message, "error");
+          }
+        }
+
+        async function copyContent() {
+          if (!resultText.value) {
+            return;
+          }
+
+          try {
+            await navigator.clipboard.writeText(resultText.value);
+            setStatus("Decoded content copied to the clipboard.", "success");
+            return;
+          } catch {
+            resultText.focus();
+            resultText.select();
+            const copied = document.execCommand("copy");
+            resultText.setSelectionRange(0, 0);
+            setStatus(copied ? "Decoded content copied to the clipboard." : "Select the decoded content and copy it manually.", copied ? "success" : "error");
+          }
+        }
+
+        fileInput.addEventListener("change", () => {
+          void handleFile(fileInput.files?.[0]);
+        });
+
+        clearButton.addEventListener("click", resetReader);
+        copyButton.addEventListener("click", () => {
+          void copyContent();
+        });
+
+        for (const eventName of ["dragenter", "dragover"]) {
+          dropZone.addEventListener(eventName, (event) => {
+            event.preventDefault();
+            dropZone.classList.add("is-dragging");
+          });
+        }
+
+        for (const eventName of ["dragleave", "drop"]) {
+          dropZone.addEventListener(eventName, (event) => {
+            event.preventDefault();
+            dropZone.classList.remove("is-dragging");
+          });
+        }
+
+        dropZone.addEventListener("drop", (event) => {
+          void handleFile(event.dataTransfer?.files?.[0]);
+        });
+
+        window.addEventListener("paste", (event) => {
+          const image = [...(event.clipboardData?.files ?? [])].find((file) => file.type.startsWith("image/"));
+          if (image) {
+            void handleFile(image);
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
