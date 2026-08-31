@@ -362,7 +362,7 @@
         "use strict";
 
         const MAX_FILE_BYTES = 30 * 1024 * 1024;
-        const MAX_IMAGE_DIMENSION = 4200;
+        const MAX_PREVIEW_DIMENSION = 1600;
         const TILE_DIMENSION = 1400;
         const TILE_OVERLAP = 0.25;
         const decoderOptions = { inversionAttempts: "attemptBoth" };
@@ -379,9 +379,10 @@
         const resultText = document.querySelector("#resultText");
         const copyButton = document.querySelector("#copyButton");
         const context = previewCanvas.getContext("2d", { willReadFrequently: true });
+        const scanCanvas = document.createElement("canvas");
+        const scanContext = scanCanvas.getContext("2d", { willReadFrequently: true });
 
         let scanId = 0;
-        let hasImage = false;
 
         function setStatus(message, kind = "neutral") {
           status.textContent = message;
@@ -404,17 +405,20 @@
           copyButton.disabled = true;
         }
 
-        function resetReader() {
-          scanId += 1;
-          hasImage = false;
+        function clearImageState() {
           fileInput.value = "";
           fileName.textContent = "No image selected.";
           preview.hidden = true;
           previewCanvas.width = 1;
           previewCanvas.height = 1;
           context.clearRect(0, 0, 1, 1);
-          clearResult();
           clearButton.disabled = true;
+        }
+
+        function resetReader() {
+          scanId += 1;
+          clearImageState();
+          clearResult();
           setStatus("Ready to scan locally.");
         }
 
@@ -432,7 +436,7 @@
           const sourceWidth = image.naturalWidth || image.width;
           const sourceHeight = image.naturalHeight || image.height;
           const largestSide = Math.max(sourceWidth, sourceHeight);
-          const scale = Math.min(1, MAX_IMAGE_DIMENSION / largestSide);
+          const scale = Math.min(1, MAX_PREVIEW_DIMENSION / largestSide);
 
           return {
             width: Math.max(1, Math.round(sourceWidth * scale)),
@@ -480,26 +484,26 @@
         function regionsFor(width, height) {
           const tile = Math.min(TILE_DIMENSION, Math.max(800, Math.min(width, height)));
           const step = Math.max(1, Math.floor(tile * (1 - TILE_OVERLAP)));
-          const regions = [{ x: 0, y: 0, width, height }];
+          if (width <= tile && height <= tile) {
+            return [{ x: 0, y: 0, width, height }];
+          }
 
+          const regions = [];
           for (const y of axisStarts(height, tile, step)) {
             for (const x of axisStarts(width, tile, step)) {
-              const region = {
+              regions.push({
                 x,
                 y,
                 width: Math.min(tile, width - x),
                 height: Math.min(tile, height - y),
-              };
-              if (region.width !== width || region.height !== height) {
-                regions.push(region);
-              }
+              });
             }
           }
 
           return regions;
         }
 
-        async function scanCanvas(width, height, currentScanId) {
+        async function scanImage(image, width, height, currentScanId) {
           if (typeof window.jsQR !== "function") {
             throw new Error("The local decoder file is missing. Keep jsqr.js beside this HTML file.");
           }
@@ -509,7 +513,20 @@
               return null;
             }
 
-            const imageData = context.getImageData(region.x, region.y, region.width, region.height);
+            scanCanvas.width = region.width;
+            scanCanvas.height = region.height;
+            scanContext.drawImage(
+              image,
+              region.x,
+              region.y,
+              region.width,
+              region.height,
+              0,
+              0,
+              region.width,
+              region.height,
+            );
+            const imageData = scanContext.getImageData(0, 0, region.width, region.height);
             const decoded = window.jsQR(imageData.data, region.width, region.height, decoderOptions);
             if (decoded) {
               return decoded;
@@ -528,40 +545,38 @@
             return;
           }
           if (!file.type.startsWith("image/")) {
-            hasImage = false;
-            clearButton.disabled = true;
+            clearImageState();
             setStatus("Choose an image file.", "error");
             return;
           }
           if (file.size > MAX_FILE_BYTES) {
-            hasImage = false;
-            clearButton.disabled = true;
+            clearImageState();
             setStatus("This image is larger than 30 MB. Choose a smaller file.", "error");
             return;
           }
 
-          hasImage = true;
           clearButton.disabled = false;
           fileName.textContent = file.name;
           preview.hidden = true;
           setStatus("Reading the image locally…");
 
+          let image;
           try {
-            const image = await loadImage(file);
+            image = await loadImage(file);
             if (currentScanId !== scanId) {
-              image.close?.();
               return;
             }
 
+            const sourceWidth = image.naturalWidth || image.width;
+            const sourceHeight = image.naturalHeight || image.height;
             const dimensions = imageDimensions(image);
             previewCanvas.width = dimensions.width;
             previewCanvas.height = dimensions.height;
             context.drawImage(image, 0, 0, dimensions.width, dimensions.height);
-            image.close?.();
             preview.hidden = false;
             setStatus("Scanning locally…");
 
-            const decoded = await scanCanvas(dimensions.width, dimensions.height, currentScanId);
+            const decoded = await scanImage(image, sourceWidth, sourceHeight, currentScanId);
             if (currentScanId !== scanId) {
               return;
             }
@@ -578,6 +593,8 @@
             }
             const message = error instanceof Error ? error.message : "The image could not be scanned.";
             setStatus(message, "error");
+          } finally {
+            image?.close?.();
           }
         }
 
