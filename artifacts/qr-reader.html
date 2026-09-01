@@ -52,7 +52,7 @@
       main {
         width: min(100% - 2rem, 72rem);
         margin: 0 auto;
-        padding: 2rem 0 3.5rem;
+        padding: 1.2rem 0 3.5rem;
       }
 
       main[data-state="loaded"] > header {
@@ -64,7 +64,7 @@
         grid-template-columns: minmax(0, 1.35fr) minmax(18rem, 0.65fr);
         gap: clamp(2rem, 6vw, 5rem);
         align-items: end;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.15rem;
       }
 
       .eyebrow {
@@ -100,8 +100,8 @@
         max-width: 16ch;
         margin-bottom: 1rem;
         color: var(--ink);
-        font-size: clamp(2.9rem, 6vw, 5.2rem);
-        line-height: 0.91;
+        font-size: clamp(2.2rem, 4.2vw, 3.4rem);
+        line-height: 0.95;
         letter-spacing: -0.075em;
       }
 
@@ -109,8 +109,8 @@
         max-width: 47rem;
         margin-bottom: 0;
         color: var(--muted);
-        font-size: clamp(1rem, 1.7vw, 1.2rem);
-        line-height: 1.65;
+        font-size: clamp(0.95rem, 1.3vw, 1.05rem);
+        line-height: 1.6;
       }
 
       .hero-pills {
@@ -157,7 +157,7 @@
       }
 
       .note-copy {
-        margin-bottom: 1.1rem;
+        margin-bottom: 0;
         color: #416254;
         font-size: 0.9rem;
         line-height: 1.5;
@@ -326,13 +326,77 @@
         margin-bottom: 1.25rem;
       }
 
-      .reader[data-state="loaded"] .drop-zone,
-      .reader[data-state="loaded"] .file-name {
+      .reader[data-state="loaded"] .drop-zone {
+        min-height: 7.5rem;
+        padding: 1rem;
+      }
+
+      .reader[data-state="loaded"] .drop-icon {
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-bottom: 0.5rem;
+        border-width: 0.24rem;
+        box-shadow: inset 0 0 0 0.24rem #fff;
+      }
+
+      .reader[data-state="loaded"] .drop-title {
+        font-size: 0.94rem;
+      }
+
+      .reader[data-state="loaded"] .drop-help {
         display: none;
       }
 
-      .reader[data-state="loaded"] .result {
-        margin-top: 1rem;
+      .bench-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+        gap: 1rem;
+        margin-top: 1.25rem;
+      }
+
+      .bench-input {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        grid-area: 1 / 1;
+      }
+
+      .bench-output h2 {
+        font-size: 1.45rem;
+      }
+
+      .bench-output {
+        display: flex;
+        flex-direction: column;
+        grid-area: 1 / 2;
+        max-height: min(34rem, 56vh);
+        overflow: auto;
+        overscroll-behavior: contain;
+      }
+
+      .bench-input .drop-zone {
+        margin-top: 0;
+      }
+
+      .bench-input .toolbar {
+        margin-top: auto;
+        padding-top: 1rem;
+      }
+
+      .details-empty {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.88rem;
+        line-height: 1.55;
+      }
+
+      .panel.details .technical-details {
+        margin-top: 0;
+        border-top: 0;
+      }
+
+      .panel.details .technical-details summary {
+        margin-top: 0;
       }
 
 
@@ -367,7 +431,7 @@
 
       .drop-zone {
         display: grid;
-        min-height: 14rem;
+        min-height: 11rem;
         margin-top: 1.4rem;
         place-items: center;
         padding: 1.5rem;
@@ -491,18 +555,19 @@
 
       .preview {
         margin-top: 1rem;
-        overflow: auto;
-        max-height: 30rem;
-        border: 1px solid rgba(16, 42, 67, 0.15);
+        overflow: hidden;
+        max-height: 11rem;
+        border: 1px solid rgba(16, 42, 67, 0.12);
         border-radius: 0.95rem;
-        background: var(--ink);
+        background: #eef2ef;
       }
 
       .preview canvas {
         display: block;
         width: 100%;
-        height: auto;
+        height: 11rem;
         margin: 0 auto;
+        object-fit: contain;
       }
 
       .toolbar {
@@ -543,7 +608,7 @@
       }
 
       .result {
-        margin-top: 1.25rem;
+        margin-top: 0;
         padding: clamp(1rem, 3vw, 1.5rem);
         border: 1px solid rgba(8, 127, 91, 0.25);
         border-radius: 1.15rem;
@@ -552,6 +617,17 @@
 
       .result-heading {
         align-items: center;
+      }
+
+      .result[data-state="empty"] {
+        border-style: dashed;
+        border-color: #cfdad3;
+        background: #fbfcfb;
+      }
+
+      .result[data-state="empty"] .result-heading h2,
+      .result[data-state="empty"] .result-meta {
+        color: var(--muted);
       }
 
       .result-badge {
@@ -782,6 +858,38 @@
         display: none !important;
       }
 
+      @media (max-width: 900px) {
+        .bench-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .bench-input,
+        .bench-output {
+          grid-area: auto;
+        }
+
+        .bench-output {
+          max-height: none;
+          overflow: visible;
+        }
+
+        main[data-state="empty"] .bench-input {
+          order: 1;
+        }
+
+        main[data-state="empty"] .bench-output {
+          order: 2;
+        }
+
+        main[data-state="loaded"] .bench-output {
+          order: 1;
+        }
+
+        main[data-state="loaded"] .bench-input {
+          order: 2;
+        }
+      }
+
       @media (max-width: 820px) {
         header {
           grid-template-columns: 1fr;
@@ -843,7 +951,7 @@
         <div>
           <p class="eyebrow">Leitor local · sem upload</p>
           <h1>Leia o QR. Entenda o que ele carrega.</h1>
-          <p class="hero-copy">Uma bancada de inspeção para os códigos presentes em documentos, placas e serviços públicos brasileiros. Escolha uma imagem, arraste ou cole: a leitura acontece nesta aba, sem enviar o arquivo para a internet.</p>
+          <p class="hero-copy">Uma bancada de inspeção para os códigos de documentos, placas e serviços públicos brasileiros. Escolha, arraste ou cole uma imagem: a leitura acontece nesta aba.</p>
           <div class="hero-pills" aria-label="Garantias do leitor">
             <span class="pill">100% local</span>
             <span class="pill">sem upload</span>
@@ -853,11 +961,6 @@
         <aside class="hero-note" aria-label="Como funciona">
           <p class="note-kicker">Uma lupa, não um autenticador universal</p>
           <p class="note-copy">Decodificar revela o conteúdo. Autenticidade, validade e situação dependem do órgão emissor e do aplicativo oficial.</p>
-          <ol class="flow">
-            <li><span>01</span><div><strong>Imagem</strong>Você escolhe uma foto do código.</div></li>
-            <li><span>02</span><div><strong>Leitura</strong>O navegador procura o padrão QR localmente.</div></li>
-            <li><span>03</span><div><strong>Contexto</strong>O resultado é organizado sem abrir o conteúdo.</div></li>
-          </ol>
         </aside>
       </header>
 
@@ -865,51 +968,69 @@
 
         <div class="reader-heading">
           <div>
-            <p class="eyebrow">Passo 1 · imagem</p>
+            <p class="eyebrow">Bancada local</p>
             <h2 id="reader-heading">Escolha uma imagem</h2>
           </div>
           <span class="privacy-stamp">Tudo acontece neste dispositivo</span>
         </div>
-        <label class="drop-zone" id="dropZone" for="fileInput">
-          <input id="fileInput" type="file" accept="image/*">
-          <span>
-            <span class="drop-icon" aria-hidden="true"></span>
-            <span class="drop-title">Arraste uma imagem aqui</span>
-            <span class="drop-help">ou clique para procurar · PNG, JPG, WEBP… até 30 MB<br>Também dá para colar uma imagem (Ctrl/Cmd + V).</span>
-          </span>
-        </label>
-        <p class="file-name" id="fileName">Pronto para ler localmente.</p>
-        <section class="result" id="result" aria-labelledby="result-heading" hidden>
-          <div class="result-heading">
-            <div>
-              <p class="eyebrow">Passo 2 · interpretação</p>
-              <h2 id="result-heading">O que foi lido</h2>
+
+        <div class="bench-grid">
+          <section class="result bench-output" id="result" data-state="empty" aria-labelledby="result-heading">
+            <div class="result-heading">
+              <div>
+                <p class="eyebrow">Passo 2 · interpretação</p>
+                <h2 id="result-heading">O que foi lido</h2>
+              </div>
+              <span class="result-badge" id="resultBadge" data-state="neutral">aguardando leitura</span>
             </div>
-            <span class="result-badge" id="resultBadge" data-state="neutral">aguardando leitura</span>
+            <p class="result-meta" id="resultMeta">Escolha uma imagem ao lado. O conteúdo decodificado aparece aqui, sem abrir nada.</p>
+            <div id="resultContent"></div>
+          </section>
+
+          <div class="bench-input">
+            <p class="eyebrow">Passo 1 · imagem</p>
+            <label class="drop-zone" id="dropZone" for="fileInput">
+              <input id="fileInput" type="file" accept="image/*">
+              <span>
+                <span class="drop-icon" aria-hidden="true"></span>
+                <span class="drop-title">Arraste uma imagem aqui</span>
+                <span class="drop-help">ou clique para procurar · PNG, JPG, WEBP… até 30 MB<br>Também dá para colar uma imagem (Ctrl/Cmd + V).</span>
+              </span>
+            </label>
+            <p class="file-name" id="fileName">Pronto para ler localmente.</p>
+            <div class="preview" id="preview" hidden>
+              <canvas id="previewCanvas" aria-label="Prévia da imagem selecionada"></canvas>
+            </div>
+            <div class="toolbar">
+              <button id="clearButton" type="button" disabled>Limpar imagem</button>
+            </div>
           </div>
-          <p class="result-meta" id="resultMeta">O resultado aparecerá aqui.</p>
-          <div id="resultContent"></div>
-          <details class="technical-details" id="technicalDetails" hidden>
-            <summary>Mostrar mais detalhes</summary>
-            <div class="technical-body" id="technicalContent"></div>
-            <label class="copy-buffer-label" for="resultText">Conteúdo completo para copiar</label>
-            <textarea id="resultText" readonly aria-label="Conteúdo completo do QR Code"></textarea>
-          </details>
-          <div class="toolbar">
-            <button id="copyButton" type="button" disabled>Copiar conteúdo</button>
-          </div>
-        </section>
+        </div>
+
         <p class="status" id="status" data-kind="neutral" role="status" aria-live="polite" aria-atomic="true">Pronto para ler localmente.</p>
 
-        <div class="preview" id="preview" hidden>
-          <canvas id="previewCanvas" aria-label="Prévia da imagem selecionada"></canvas>
-        </div>
-
-        <div class="toolbar">
-          <button id="clearButton" type="button" disabled>Limpar imagem</button>
-        </div>
-
       </section>
+
+      <section class="panel details" aria-labelledby="details-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Passo 3 · verificação</p>
+            <h2 id="details-heading">Por dentro do que foi lido</h2>
+          </div>
+          <p class="section-copy">Formato, modelo, estado da assinatura e o conteúdo bruto — tudo o que sustenta o resumo acima, para quem quiser conferir.</p>
+        </div>
+        <p class="details-empty" id="detailsEmpty">Leia um código para ver o formato reconhecido, o certificado usado na conferência e o payload como ele veio.</p>
+        <details class="technical-details" id="technicalDetails" hidden>
+          <summary>Mostrar mais detalhes</summary>
+          <div class="technical-body" id="technicalContent"></div>
+          <label class="copy-buffer-label" for="resultText">Conteúdo completo para copiar</label>
+          <textarea id="resultText" readonly aria-label="Conteúdo completo do QR Code"></textarea>
+        </details>
+        <div class="toolbar">
+          <button id="copyButton" type="button" disabled>Copiar conteúdo</button>
+        </div>
+      </section>
+
       <section class="panel guide" aria-labelledby="guide-heading">
         <div class="section-heading">
           <div>
@@ -923,8 +1044,8 @@
             <span class="case-number">01</span>
             <p class="case-kicker">Documento impresso</p>
             <h3>CIN física</h3>
-            <p>O QR da carteira pode participar da conferência do documento. A leitura local mostra o endereço ou os dados encontrados.</p>
-            <span class="case-tag">validação no serviço oficial</span>
+            <p>O QR da carteira traz um token assinado pelo emissor. A leitura local abre os campos e confere a assinatura no próprio navegador.</p>
+            <span class="case-tag">token + assinatura</span>
           </article>
           <article class="case-card" data-case="vio">
             <span class="case-number">02</span>
@@ -969,6 +1090,7 @@
         const previewCanvas = document.querySelector("#previewCanvas");
         const clearButton = document.querySelector("#clearButton");
         const result = document.querySelector("#result");
+        const detailsEmpty = document.querySelector("#detailsEmpty");
 
         const reader = document.querySelector(".reader");
         const readerTitle = document.querySelector("#reader-heading");
@@ -1084,6 +1206,7 @@
           technicalContent.append(code);
           technicalDetails.hidden = false;
           technicalDetails.open = false;
+          detailsEmpty.hidden = true;
         }
 
         function appendTechnicalJson(parent, title, value, className = "technical-code") {
@@ -1125,13 +1248,14 @@
 
           technicalDetails.hidden = false;
           technicalDetails.open = false;
+          detailsEmpty.hidden = true;
         }
 
         function showResult(title, badge, state, meta) {
           main.dataset.state = "loaded";
           reader.dataset.state = "loaded";
           readerTitle.textContent = "Resultado da leitura";
-          result.hidden = false;
+          result.dataset.state = "loaded";
           resultTitle.textContent = title;
           resultBadge.textContent = badge;
           resultBadge.dataset.state = state;
@@ -1333,13 +1457,15 @@
           main.dataset.state = "empty";
           reader.dataset.state = "empty";
           readerTitle.textContent = "Escolha uma imagem";
-          result.hidden = true;
+          result.dataset.state = "empty";
           resultTitle.textContent = "O que foi lido";
           resultBadge.textContent = "aguardando leitura";
           resultBadge.dataset.state = "neutral";
+          resultMeta.textContent = "Escolha uma imagem ao lado. O conteúdo decodificado aparece aqui, sem abrir nada.";
           resultContent.replaceChildren();
           technicalContent.replaceChildren();
           technicalDetails.hidden = true;
+          detailsEmpty.hidden = false;
           technicalDetails.open = false;
           resultText.value = "";
           copyButton.disabled = true;

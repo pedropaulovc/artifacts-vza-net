@@ -1,0 +1,72 @@
+- main [ref=f3e2]:
+  - generic [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - paragraph [ref=f3e5]: Leitor local · sem upload
+      - heading "Leia o QR. Entenda o que ele carrega." [level=1] [ref=f3e6]
+      - paragraph [ref=f3e7]: "Uma bancada de inspeção para os códigos de documentos, placas e serviços públicos brasileiros. Escolha, arraste ou cole uma imagem: a leitura acontece nesta aba."
+      - generic "Garantias do leitor" [ref=f3e8]:
+        - generic [ref=f3e9]: 100% local
+        - generic [ref=f3e10]: sem upload
+        - generic [ref=f3e11]: nenhum link é aberto
+    - complementary "Como funciona" [ref=f3e12]:
+      - paragraph [ref=f3e13]: Uma lupa, não um autenticador universal
+      - paragraph [ref=f3e14]: Decodificar revela o conteúdo. Autenticidade, validade e situação dependem do órgão emissor e do aplicativo oficial.
+  - region [ref=f3e134]:
+    - generic [ref=f3e16]:
+      - generic [ref=f3e17]:
+        - paragraph [ref=f3e18]: Bancada local
+        - heading "Escolha uma imagem" [level=2] [ref=f3e135]
+      - generic [ref=f3e20]: Tudo acontece neste dispositivo
+    - generic [ref=f3e21]:
+      - region [ref=f3e136]:
+        - generic [ref=f3e23]:
+          - generic [ref=f3e24]:
+            - paragraph [ref=f3e25]: Passo 2 · interpretação
+            - heading "O que foi lido" [level=2] [ref=f3e137]
+          - generic [ref=f3e27]: aguardando leitura
+        - paragraph [ref=f3e28]: Escolha uma imagem ao lado. O conteúdo decodificado aparece aqui, sem abrir nada.
+      - generic [ref=f3e29]:
+        - paragraph [ref=f3e30]: Passo 1 · imagem
+        - generic [ref=f3e31] [cursor=pointer]:
+          - button "Arraste uma imagem aqui ou clique para procurar · PNG, JPG, WEBP… até 30 MB Também dá para colar uma imagem (Ctrl/Cmd + V)." [ref=f3e138]
+          - generic [ref=f3e33]:
+            - generic [ref=f3e35]: Arraste uma imagem aqui
+            - generic [ref=f3e36]: ou clique para procurar · PNG, JPG, WEBP… até 30 MBTambém dá para colar uma imagem (Ctrl/Cmd + V).
+        - paragraph [ref=f3e37]: cin-fisica.jpg
+        - generic "Prévia da imagem selecionada" [ref=f3e131]
+        - button "Limpar imagem" [ref=f3e39] [cursor=pointer]
+    - status [ref=f3e40]: i Procurando um QR Code…
+  - region [ref=f3e41]:
+    - generic [ref=f3e42]:
+      - generic [ref=f3e43]:
+        - paragraph [ref=f3e44]: Passo 3 · verificação
+        - heading "Por dentro do que foi lido" [level=2] [ref=f3e45]
+      - paragraph [ref=f3e46]: Formato, modelo, estado da assinatura e o conteúdo bruto — tudo o que sustenta o resumo acima, para quem quiser conferir.
+    - paragraph [ref=f3e47]: Leia um código para ver o formato reconhecido, o certificado usado na conferência e o payload como ele veio.
+    - button "Copiar conteúdo" [disabled] [ref=f3e49]
+  - region [ref=f3e50]:
+    - generic [ref=f3e51]:
+      - generic [ref=f3e52]:
+        - paragraph [ref=f3e53]: Mapa rápido
+        - heading "Qual QR você encontrou?" [level=2] [ref=f3e54]
+      - paragraph [ref=f3e55]: O mesmo desenho pode carregar um endereço, texto simples ou bytes assinados. O leitor identifica o que consegue reconhecer, mas não inventa uma validação.
+    - generic [ref=f3e56]:
+      - article [ref=f3e57]:
+        - generic [ref=f3e58]: "01"
+        - paragraph [ref=f3e59]: Documento impresso
+        - heading "CIN física" [level=3] [ref=f3e60]
+        - paragraph [ref=f3e61]: O QR da carteira traz um token assinado pelo emissor. A leitura local abre os campos e confere a assinatura no próprio navegador.
+        - generic [ref=f3e62]: token + assinatura
+      - article [ref=f3e63]:
+        - generic [ref=f3e64]: "02"
+        - paragraph [ref=f3e65]: Código seguro
+        - heading "CIN / identidade Vio" [level=3] [ref=f3e66]
+        - paragraph [ref=f3e67]: Formato binário compacto, com campos e assinatura digital. Aqui, modelos conhecidos podem ser interpretados localmente.
+        - generic [ref=f3e68]: bytes + assinatura
+      - article [ref=f3e69]:
+        - generic [ref=f3e70]: "03"
+        - paragraph [ref=f3e71]: Identificação veicular
+        - heading "Placa Mercosul" [level=3] [ref=f3e72]
+        - paragraph [ref=f3e73]: O QR da PIV funciona como selo eletrônico e se relaciona a registros do fabricante. Decodificar não consulta essa base.
+        - generic [ref=f3e74]: serial e rastreabilidade
+  - generic [ref=f3e75]: Funciona sem internet. Não substitui a conferência no app oficial ou no órgão emissor.

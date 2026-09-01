@@ -1,0 +1,106 @@
+- main [ref=f3e2]:
+  - region [ref=f3e139]:
+    - generic [ref=f3e16]:
+      - generic [ref=f3e17]:
+        - paragraph [ref=f3e18]: Bancada local
+        - heading "Resultado da leitura" [level=2] [ref=f3e140]
+      - generic [ref=f3e20]: Tudo acontece neste dispositivo
+    - generic [ref=f3e21]:
+      - region [ref=f3e141]:
+        - generic [ref=f3e23]:
+          - generic [ref=f3e24]:
+            - paragraph [ref=f3e25]: Passo 2 · interpretação
+            - heading "Documento de identidade · Vio" [level=2] [ref=f3e142]
+          - generic [ref=f3e27]: assinatura verificada
+        - paragraph [ref=f3e28]: Documento Vio lido localmente. A assinatura digital foi verificada; nenhum dado foi enviado.
+        - generic [ref=f3e80]:
+          - generic [ref=f3e143]:
+            - generic [ref=f3e144]: OK
+            - paragraph [ref=f3e145]:
+              - strong [ref=f3e146]: Assinatura digital verificada neste dispositivo
+              - text: A assinatura dos dados foi conferida com o certificado local disponível. Compare os dados com o documento físico e, quando necessário, use o aplicativo ou órgão emissor.
+          - paragraph [ref=f3e147]: RG Digital · GovBr. Reconhecimento baseado no modelo local; confirme no documento e no app oficial.
+          - generic [ref=f3e148]:
+            - generic [ref=f3e149]:
+              - term [ref=f3e150]: Nome
+              - definition [ref=f3e151]: PEDRO PAULO VEZZA CAMPOS
+            - generic [ref=f3e152]:
+              - term [ref=f3e153]: Registro Geral / CPF
+              - definition [ref=f3e154]: 080.422.029-89
+            - generic [ref=f3e155]:
+              - term [ref=f3e156]: Sexo
+              - definition [ref=f3e157]: M
+            - generic [ref=f3e158]:
+              - term [ref=f3e159]: Data de nascimento
+              - definition [ref=f3e160]: 12/03/1991
+            - generic [ref=f3e161]:
+              - term [ref=f3e162]: Nacionalidade
+              - definition [ref=f3e163]: BRA
+            - generic [ref=f3e164]:
+              - term [ref=f3e165]: Naturalidade
+              - definition [ref=f3e166]: S.ANDRÉ/SP
+            - generic [ref=f3e167]:
+              - term [ref=f3e168]: Data de validade
+              - definition [ref=f3e169]: 18/10/2034
+            - generic [ref=f3e170]:
+              - term [ref=f3e171]: Filiação 1
+              - definition [ref=f3e172]: NADIR DE ARAUJO RAMOS VEZZA CAMPOS
+            - generic [ref=f3e173]:
+              - term [ref=f3e174]: Órgão expedidor
+              - definition [ref=f3e175]: IIRGD -SP
+            - generic [ref=f3e176]:
+              - term [ref=f3e177]: Local de emissão
+              - definition [ref=f3e178]: SÃO PAULO
+            - generic [ref=f3e179]:
+              - term [ref=f3e180]: Data de emissão
+              - definition [ref=f3e181]: 18/10/2024
+            - generic [ref=f3e182]:
+              - term [ref=f3e183]: Certidão de nascimento / casamento / divórcio
+              - definition [ref=f3e184]: SANTO ANDRE SP SANTO ANDRE CN:LV.A302/FLSº221/N.184303
+            - generic [ref=f3e185]:
+              - term [ref=f3e186]: Hash
+              - definition [ref=f3e187]: 991ce2e7025bff03f9affb3a6c6e7f9368286061f893cd6cd4a548f6bfeff68e
+      - generic [ref=f3e29]:
+        - paragraph [ref=f3e30]: Passo 1 · imagem
+        - generic [ref=f3e31] [cursor=pointer]:
+          - button "Arraste uma imagem aqui" [ref=f3e188]
+          - generic [ref=f3e33]: Arraste uma imagem aqui
+        - paragraph [ref=f3e37]: tela-validacao.png
+        - generic "Prévia da imagem selecionada" [ref=f3e131]
+        - button "Limpar imagem" [ref=f3e39] [cursor=pointer]
+    - status [ref=f3e40]: OK Código Vio encontrado. O conteúdo não foi aberto automaticamente.
+  - region [ref=f3e41]:
+    - generic [ref=f3e42]:
+      - generic [ref=f3e43]:
+        - paragraph [ref=f3e44]: Passo 3 · verificação
+        - heading "Por dentro do que foi lido" [level=2] [ref=f3e45]
+      - paragraph [ref=f3e46]: Formato, modelo, estado da assinatura e o conteúdo bruto — tudo o que sustenta o resumo acima, para quem quiser conferir.
+    - group [ref=f3e132]:
+      - generic "Mostrar mais detalhes" [ref=f3e133] [cursor=pointer]
+    - button "Copiar conteúdo" [ref=f3e49] [cursor=pointer]
+  - region [ref=f3e50]:
+    - generic [ref=f3e51]:
+      - generic [ref=f3e52]:
+        - paragraph [ref=f3e53]: Mapa rápido
+        - heading "Qual QR você encontrou?" [level=2] [ref=f3e54]
+      - paragraph [ref=f3e55]: O mesmo desenho pode carregar um endereço, texto simples ou bytes assinados. O leitor identifica o que consegue reconhecer, mas não inventa uma validação.
+    - generic [ref=f3e56]:
+      - article [ref=f3e57]:
+        - generic [ref=f3e58]: "01"
+        - paragraph [ref=f3e59]: Documento impresso
+        - heading "CIN física" [level=3] [ref=f3e60]
+        - paragraph [ref=f3e61]: O QR da carteira traz um token assinado pelo emissor. A leitura local abre os campos e confere a assinatura no próprio navegador.
+        - generic [ref=f3e62]: token + assinatura
+      - article [ref=f3e63]:
+        - generic [ref=f3e64]: "02"
+        - paragraph [ref=f3e65]: Código seguro
+        - heading "CIN / identidade Vio" [level=3] [ref=f3e66]
+        - paragraph [ref=f3e67]: Formato binário compacto, com campos e assinatura digital. Aqui, modelos conhecidos podem ser interpretados localmente.
+        - generic [ref=f3e68]: bytes + assinatura
+      - article [ref=f3e69]:
+        - generic [ref=f3e70]: "03"
+        - paragraph [ref=f3e71]: Identificação veicular
+        - heading "Placa Mercosul" [level=3] [ref=f3e72]
+        - paragraph [ref=f3e73]: O QR da PIV funciona como selo eletrônico e se relaciona a registros do fabricante. Decodificar não consulta essa base.
+        - generic [ref=f3e74]: serial e rastreabilidade
+  - generic [ref=f3e75]: Funciona sem internet. Não substitui a conferência no app oficial ou no órgão emissor.

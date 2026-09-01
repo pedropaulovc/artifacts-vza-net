@@ -30,6 +30,21 @@ describe("offline QR reader artifact", () => {
     expect(html).toContain('main[data-state="loaded"] > header');
     expect(html).toContain('readerTitle.textContent = "Resultado da leitura";');
 
+    // The image chooser and the parsed result share one fold-height grid, so a
+    // read never pushes its own output off screen; the technical disclosure and
+    // the case guide stay below it.
+    expect(html.indexOf('<div class="bench-grid">')).toBeLessThan(html.indexOf('id="result"'));
+    expect(html.indexOf('class="bench-input"')).toBeGreaterThan(html.indexOf('id="result"'));
+    expect(html.indexOf('id="dropZone"')).toBeLessThan(html.indexOf('id="preview"'));
+    expect(html.indexOf('<section class="panel reader"')).toBeLessThan(html.indexOf('<section class="panel details"'));
+    expect(html.indexOf('<section class="panel details"')).toBeLessThan(html.indexOf('<section class="panel guide"'));
+    expect(html.indexOf('id="technicalDetails"')).toBeGreaterThan(html.indexOf('<section class="panel details"'));
+
+    // Loading an image shrinks the drop zone; it must never be hidden, or the
+    // next read would need a scroll back up.
+    expect(html).not.toMatch(/\.reader\[data-state="loaded"\] \.drop-zone \{\s*display: none/);
+    expect(html).toContain('.reader[data-state="loaded"] .drop-zone {');
+
     expect(html).toContain("Cabeçalho JWT");
     expect(html).toContain("Payload JWT");
     expect(html).toContain("Assinatura (Base64URL)");

@@ -1,0 +1,108 @@
+- main [ref=f2e2]:
+  - region [ref=f2e199]:
+    - generic [ref=f2e16]:
+      - generic [ref=f2e17]:
+        - paragraph [ref=f2e18]: Passo 1 · imagem
+        - heading "Resultado da leitura" [level=2] [ref=f2e200]
+      - generic [ref=f2e20]: Tudo acontece neste dispositivo
+    - generic [ref=f2e21]:
+      - region [ref=f2e201]:
+        - generic [ref=f2e23]:
+          - generic [ref=f2e24]:
+            - paragraph [ref=f2e25]: Passo 2 · interpretação
+            - heading "Documento de identidade · Vio" [level=2] [ref=f2e202]
+          - generic [ref=f2e27]: assinatura não conferiu
+        - paragraph [ref=f2e28]: Documento Vio lido localmente, mas a assinatura digital falhou. Trate os valores como não confiáveis.
+        - generic [ref=f2e81]:
+          - generic [ref=f2e203]:
+            - generic [ref=f2e204]: "!"
+            - paragraph [ref=f2e205]:
+              - strong [ref=f2e206]: Assinatura não conferiu
+              - text: Trate os dados como não confiáveis. A leitura do padrão não prova autenticidade.
+          - paragraph [ref=f2e207]: RG Digital · GovBr. Reconhecimento baseado no modelo local; confirme no documento e no app oficial.
+          - generic [ref=f2e208]:
+            - generic [ref=f2e209]:
+              - term [ref=f2e210]: Nome
+              - definition [ref=f2e211]: MARIA DE EXEMPLO SOBRENOME
+            - generic [ref=f2e212]:
+              - term [ref=f2e213]: Registro Geral / CPF
+              - definition [ref=f2e214]: 000.000.000-00
+            - generic [ref=f2e215]:
+              - term [ref=f2e216]: Sexo
+              - definition [ref=f2e217]: F
+            - generic [ref=f2e218]:
+              - term [ref=f2e219]: Data de nascimento
+              - definition [ref=f2e220]: 01/01/1990
+            - generic [ref=f2e221]:
+              - term [ref=f2e222]: Nacionalidade
+              - definition [ref=f2e223]: BRASILEIRA
+            - generic [ref=f2e224]:
+              - term [ref=f2e225]: Naturalidade
+              - definition [ref=f2e226]: SAO PAULO SP
+            - generic [ref=f2e227]:
+              - term [ref=f2e228]: Data de validade
+              - definition [ref=f2e229]: 01/01/2034
+            - generic [ref=f2e230]:
+              - term [ref=f2e231]: Filiação 1
+              - definition [ref=f2e232]: JOANA DE EXEMPLO
+            - generic [ref=f2e233]:
+              - term [ref=f2e234]: Filiação 2
+              - definition [ref=f2e235]: JOSE DE EXEMPLO
+            - generic [ref=f2e236]:
+              - term [ref=f2e237]: Órgão expedidor
+              - definition [ref=f2e238]: SSP SP
+            - generic [ref=f2e239]:
+              - term [ref=f2e240]: Local de emissão
+              - definition [ref=f2e241]: SAO PAULO SP
+            - generic [ref=f2e242]:
+              - term [ref=f2e243]: Data de emissão
+              - definition [ref=f2e244]: 01/01/2024
+            - generic [ref=f2e245]:
+              - term [ref=f2e246]: Certidão de nascimento / casamento / divórcio
+              - definition [ref=f2e247]: MATRICULA DE EXEMPLO
+            - generic [ref=f2e248]:
+              - term [ref=f2e249]: Hash
+              - definition [ref=f2e250]: "0000"
+      - generic [ref=f2e29]:
+        - generic [ref=f2e30] [cursor=pointer]:
+          - button "Arraste uma imagem aqui" [ref=f2e251]
+          - generic [ref=f2e32]: Arraste uma imagem aqui
+        - paragraph [ref=f2e36]: qr-vio.png
+        - generic "Prévia da imagem selecionada" [ref=f2e76]
+        - button "Limpar imagem" [ref=f2e38] [cursor=pointer]
+    - status [ref=f2e39]: OK Código Vio encontrado. O conteúdo não foi aberto automaticamente.
+  - region [ref=f2e40]:
+    - generic [ref=f2e41]:
+      - generic [ref=f2e42]:
+        - paragraph [ref=f2e43]: Passo 3 · verificação
+        - heading "Por dentro do que foi lido" [level=2] [ref=f2e44]
+      - paragraph [ref=f2e45]: Formato, modelo, estado da assinatura e o conteúdo bruto — tudo o que sustenta o resumo acima, para quem quiser conferir.
+    - group [ref=f2e105]:
+      - generic "Mostrar mais detalhes" [ref=f2e106] [cursor=pointer]
+    - button "Copiar conteúdo" [ref=f2e48] [cursor=pointer]
+  - region [ref=f2e49]:
+    - generic [ref=f2e50]:
+      - generic [ref=f2e51]:
+        - paragraph [ref=f2e52]: Mapa rápido
+        - heading "Qual QR você encontrou?" [level=2] [ref=f2e53]
+      - paragraph [ref=f2e54]: O mesmo desenho pode carregar um endereço, texto simples ou bytes assinados. O leitor identifica o que consegue reconhecer, mas não inventa uma validação.
+    - generic [ref=f2e55]:
+      - article [ref=f2e56]:
+        - generic [ref=f2e57]: "01"
+        - paragraph [ref=f2e58]: Documento impresso
+        - heading "CIN física" [level=3] [ref=f2e59]
+        - paragraph [ref=f2e60]: O QR da carteira traz um token assinado pelo emissor. A leitura local abre os campos e confere a assinatura no próprio navegador.
+        - generic [ref=f2e61]: token + assinatura
+      - article [ref=f2e62]:
+        - generic [ref=f2e63]: "02"
+        - paragraph [ref=f2e64]: Código seguro
+        - heading "CIN / identidade Vio" [level=3] [ref=f2e65]
+        - paragraph [ref=f2e66]: Formato binário compacto, com campos e assinatura digital. Aqui, modelos conhecidos podem ser interpretados localmente.
+        - generic [ref=f2e67]: bytes + assinatura
+      - article [ref=f2e68]:
+        - generic [ref=f2e69]: "03"
+        - paragraph [ref=f2e70]: Identificação veicular
+        - heading "Placa Mercosul" [level=3] [ref=f2e71]
+        - paragraph [ref=f2e72]: O QR da PIV funciona como selo eletrônico e se relaciona a registros do fabricante. Decodificar não consulta essa base.
+        - generic [ref=f2e73]: serial e rastreabilidade
+  - generic [ref=f2e74]: Funciona sem internet. Não substitui a conferência no app oficial ou no órgão emissor.

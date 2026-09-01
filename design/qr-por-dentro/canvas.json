@@ -5,7 +5,7 @@
       "x": 0,
       "y": 0,
       "w": 1200,
-      "h": 3800,
+      "h": 4180,
       "title": "Página completa",
       "print": "flow",
       "is_interactive": true
@@ -44,7 +44,7 @@
       "x": 1360,
       "y": -240,
       "w": 480,
-      "text": "À esquerda, a página inteira.\nÀ direita, as três seções interativas que ela usa — os mesmos quadros, isolados para editar com calma.\n\nOs campos de exemplo vêm dos testes do repositório e a assinatura aparece encurtada. Nenhum documento real."
+      "text": "À esquerda, a página inteira.\nÀ direita, as três seções interativas que ela usa — os mesmos quadros, isolados para editar com calma.\n\nTodos os valores mostrados são exemplos — nenhum documento real. A bancada no topo reproduz o layout já implementado em artifacts/qr-reader.html."
     }
   ],
   "launch": {
