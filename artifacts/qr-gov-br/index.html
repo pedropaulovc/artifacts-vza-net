@@ -933,7 +933,7 @@
         const previewCanvas = document.querySelector("#previewCanvas");
         const clearButton = document.querySelector("#clearButton");
         const result = document.querySelector("#result");
-        const detailsEmpty = document.querySelector("#detailsEmpty");
+        const resultBadge = document.querySelector("#resultBadge");
 
         const reader = document.querySelector(".reader");
         const readerTitle = document.querySelector("#reader-heading");
@@ -1281,11 +1281,17 @@
           return "binary";
         }
 
-        async function setResult(decoded) {
+        async function setResult(decoded, currentScanId) {
+          if (currentScanId !== scanId) {
+            return null;
+          }
           const text = decoded.data || "";
           const binaryData = decoded.binaryData || [];
           if (binaryData.length > 0 && typeof window.vioDecoder?.decode === "function") {
             const vio = await window.vioDecoder.decode(binaryData);
+            if (currentScanId !== scanId) {
+              return null;
+            }
             if (vio) {
               return renderVioResult(vio, binaryData);
             }
@@ -1494,7 +1500,10 @@
               return;
             }
 
-            const resultKind = await setResult(decoded);
+            const resultKind = await setResult(decoded, currentScanId);
+            if (currentScanId !== scanId) {
+              return;
+            }
             const statusMessage = resultKind === "vio"
               ? "Código Vio encontrado. O conteúdo não foi aberto automaticamente."
               : "QR Code encontrado. O conteúdo não foi aberto automaticamente.";

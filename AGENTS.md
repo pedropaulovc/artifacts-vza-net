@@ -43,6 +43,6 @@ Do not deploy during routine development or review. Deployment is an explicit Gi
 
 - Use the assets binding for static files; do not replace it with artifact-specific Worker redirects.
 - Keep account IDs and Worker names exact in their environment-specific files.
-- Keep the production custom-domain binding in `wrangler.production.jsonc`; do not configure PPE or a legacy-account fallback.
+- Keep this repository's production Worker workers.dev-only. The public `artifacts.vza.net` custom-domain binding belongs to the dedicated `vza-net-router` account and must route only to the production origin; do not configure PPE or a legacy-account fallback here.
 - Never commit Cloudflare tokens, local Wrangler state, test output, or `node_modules`.
 - Update the README when origins, environment prerequisites, triggers, smoke checks, rollback, or cleanup steps change.

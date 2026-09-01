@@ -263,6 +263,7 @@ const TICK_MS      = 100;      // render batching interval
 const REORDER_MS   = 1000;     // rank recompute interval
 const DAMP_MS      = 60000;    // (emoji, author) suppression window
 const REPLAY_SLACK = 5e6;      // µs rewound on reconnect
+const COMMIT_CACHE = 4096;     // bounded replay cache, persisted with totals
 const SAVE_MS      = 5000;     // persistence interval
 const WINDOW       = 90;       // tape width, seconds
 const RATE_WINDOW  = 10;       // posts/sec averaging window, seconds
@@ -333,10 +334,11 @@ const store = (() => {
  * data instead of a setting that only affects whatever happens next.
  * ------------------------------------------------------------------ */
 
-const raw   = new Map();   // emoji -> count, undamped
-const damp  = new Map();   // emoji -> count, damped
-const seen  = new Map();   // "emoji\0did" -> timestamp, insertion-ordered
-const dirty = new Set();
+const raw        = new Map();   // emoji -> count, undamped
+const damp       = new Map();   // emoji -> count, damped
+const seen       = new Map();   // "emoji\0did" -> timestamp, insertion-ordered
+const commitIds  = new Map();   // Jetstream commit identity -> seen timestamp
+const dirty      = new Set();
 
 let damping   = true;
 let cursor    = null;
@@ -363,8 +365,30 @@ function suppressed(emoji, did, now) {
   return prev !== undefined;
 }
 
+function commitKey(did, commit, timeUs) {
+  const revision = commit.rev ?? commit.cid ?? timeUs;
+  if (revision === undefined || revision === null) return null;
+  return [did, revision, commit.collection, commit.rkey].join("\0");
+}
+
+function trimCommitIds() {
+  while (commitIds.size > COMMIT_CACHE) {
+    const oldest = commitIds.keys().next().value;
+    if (oldest === undefined) break;
+    commitIds.delete(oldest);
+  }
+}
+
+function acceptCommit(key) {
+  if (key === null) return true;
+  if (commitIds.has(key)) return false;
+  commitIds.set(key, Date.now());
+  trimCommitIds();
+  return true;
+}
+
 function ingest(did, text, timeUs) {
-  cursor = timeUs;
+  if (Number.isFinite(timeUs)) cursor = timeUs;
   posts++;
   tickRate();
 
@@ -380,9 +404,9 @@ function ingest(did, text, timeUs) {
     if (!suppressed(emoji, did, now)) {
       damp.set(emoji, (damp.get(emoji) || 0) + 1);
     }
+    bucket++;
     dirty.add(emoji);
   }
-}
 
 function tickRate() {
   const s = (Date.now() / 1000) | 0;
@@ -535,7 +559,6 @@ setInterval(() => {
   const m = counts();
   for (const emoji of dirty) {
     paint(emoji, m.get(emoji) || 0, true);
-    bucket++;
   }
   dirty.clear();
   dirtyOrder = true;
@@ -634,7 +657,7 @@ function url() {
   /* Jetstream cursors are unix-microsecond timestamps, so rewinding
      replays a few seconds rather than skipping them. Totals are
      cumulative and the damping window absorbs the overlap. */
-  if (cursor !== null) p.set("cursor", String(Math.max(cursor - REPLAY_SLACK, 0)));
+  if (Number.isFinite(cursor)) p.set("cursor", String(Math.max(cursor - REPLAY_SLACK, 0)));
   return `wss://${host}/subscribe?${p}`;
 }
 
@@ -705,6 +728,7 @@ function connect() {
     if (!c || c.operation !== "create") return;
     const text = c.record && c.record.text;
     if (!text) return;
+    if (!acceptCommit(commitKey(e.did, c, e.time_us))) return;
     ingest(e.did, text, e.time_us);
   };
 
@@ -734,19 +758,22 @@ function save() {
     cursor,
     posts,
     damping,
-    raw:  Object.fromEntries(raw),
-    damp: Object.fromEntries(damp),
+    raw:       Object.fromEntries(raw),
+    damp:      Object.fromEntries(damp),
+    commitIds: Object.fromEntries(commitIds),
   });
 }
 
 function restore() {
   const s = store.read();
   if (!s) return;
-  cursor = s.cursor ?? null;
+  cursor = Number.isFinite(s.cursor) ? s.cursor : null;
   posts = s.posts || 0;
   damping = s.damping !== false;
-  for (const [k, v] of Object.entries(s.raw  || {})) raw.set(k, v);
+  for (const [k, v] of Object.entries(s.raw || {})) raw.set(k, v);
   for (const [k, v] of Object.entries(s.damp || {})) damp.set(k, v);
+  for (const [k, v] of Object.entries(s.commitIds || {})) commitIds.set(k, v);
+  trimCommitIds();
 }
 
 setInterval(save, SAVE_MS);
@@ -765,7 +792,7 @@ dampBtn.addEventListener("click", () => {
 });
 
 resetBtn.addEventListener("click", () => {
-  raw.clear(); damp.clear(); seen.clear(); dirty.clear();
+  raw.clear(); damp.clear(); seen.clear(); commitIds.clear(); dirty.clear();
   for (const c of cells.values()) c.el.remove();
   cells.clear();
   order = [];

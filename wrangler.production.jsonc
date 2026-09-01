@@ -6,12 +6,6 @@
   "account_id": "97358a67fb6e05c67a44b04bdd9f7558",
   "workers_dev": true,
   "preview_urls": false,
-  "routes": [
-    {
-      "pattern": "artifacts.vza.net",
-      "custom_domain": true
-    }
-  ],
   "assets": {
     "directory": "./artifacts",
     "binding": "ASSETS",

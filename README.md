@@ -30,7 +30,7 @@ The QR reader performs decoding locally in the browser. It does not call a netwo
 | Production | `97358a67fb6e05c67a44b04bdd9f7558` | `artifacts-vza-net-prod` | `https://artifacts-vza-net-prod.artifacts-vza-net-prod.workers.dev` |
 | PPE | `b84c535427bb541a804d4055918a94ab` | `artifacts-vza-net-ppe` | `https://artifacts-vza-net-ppe.artifacts-ppe-vza-net.workers.dev` |
 
-The production configuration declares the `artifacts.vza.net` custom domain. The PPE configuration has no production custom-domain binding.
+The artifact Workers are workers.dev origins. The `artifacts.vza.net` custom-domain binding belongs to the dedicated `vza-net-router` Worker in zone account `be2aff099f03e835047ba1f8cfd9aa81`; that router proxies the public host to the production origin. This repository intentionally does not declare a custom-domain route.
 
 `wrangler.production.jsonc` and `wrangler.ppe.jsonc` contain the exact target account IDs and Worker names.
 
@@ -120,13 +120,14 @@ gh workflow run deploy-ppe.yml \
 
 ## Cutover runbook
 
-The production configuration declares `artifacts.vza.net` as a custom domain for `artifacts-vza-net-prod`. Production deployment creates or maintains that binding in the production account.
+The artifact production configuration is workers.dev-only. The `artifacts.vza.net` custom-domain binding is declared and maintained in the dedicated `vza-net-router` repository and account, which proxies the public host to `artifacts-vza-net-prod`.
 
 1. Deploy the intended revision to PPE and smoke-test the PPE workers.dev origin.
 2. Merge that revision to `main`. Wait for the production deployment to finish.
-3. Smoke-test the production workers.dev origin and `https://artifacts.vza.net`.
-4. Verify `https://artifacts.vza.net/qr-gov-br` and `/emojihose/` before declaring the cutover complete.
-5. Keep the production custom domain attached only to `artifacts-vza-net-prod`.
+3. Merge and deploy the matching `vza-net-router` revision so the public binding points to the production origin.
+4. Smoke-test the production workers.dev origin and `https://artifacts.vza.net`.
+5. Verify `https://artifacts.vza.net/qr-gov-br` and `/emojihose/` before declaring the cutover complete.
+6. Keep the production custom domain attached only to `vza-net-router`; the artifact Worker remains the upstream workers.dev origin.
 
 The legacy Worker is not a deployment fallback and must be removed from Cloudflare before the cutover is complete.
 
@@ -135,18 +136,21 @@ Use this smoke check with each workers.dev origin and the public hostname:
 ```sh
 origin=https://artifacts-vza-net-ppe.artifacts-ppe-vza-net.workers.dev
 
-test "$(curl -sS -o /dev/null -w '%{http_code}:%{size_download}' "$origin/")" = "200:0"
+root_body="$(mktemp)"
+test "$(curl -sS -o "$root_body" -w '%{http_code}' "$origin/")" = "200"
+test -s "$root_body"
+rm -f "$root_body"
 test "$(curl -sS -o /dev/null -w '%{http_code}:%{size_download}' -I "$origin/")" = "200:0"
 test "$(curl -sS -o /dev/null -w '%{http_code}:%{size_download}' -X POST "$origin/")" = "405:0"
 test "$(curl -sS -o /dev/null -w '%{http_code}:%{size_download}' "$origin/contract-probe")" = "404:0"
-test "$(curl -sS -o /dev/null -w '%{http_code}' "$origin/qr-gov-br")" = "200"
-test "$(curl -sS -o /dev/null -w '%{http_code}' "$origin/emojihose/")" = "200"
+test "$(curl -sS -o /dev/null -w '%{http_code}' "$origin/qr-gov-br")" = "307"
+test "$(curl -sS -o /dev/null -w '%{http_code}' "$origin/qr-gov-br/")" = "200"
 ```
 
 Repeat with the production workers.dev origin and then `https://artifacts.vza.net`.
 
 ## Rollback
 
-Rollback stays in the production account. Revert the bad change on `main` and push the revert; the production workflow deploys the previous implementation to `artifacts-vza-net-prod`. If the custom-domain attachment is wrong while the workers.dev origin is healthy, fix the production configuration and redeploy.
+Rollback the artifact Worker by reverting the bad change on `main` and pushing the revert; the production workflow redeploys `artifacts-vza-net-prod`. If the public binding is wrong while the workers.dev origin is healthy, revert or fix the matching `vza-net-router` change and redeploy that router instead.
 
 After rollback, rerun the smoke checks against the production workers.dev origin and public hostname. Keep the QR and emojihose assets available during rollback.
