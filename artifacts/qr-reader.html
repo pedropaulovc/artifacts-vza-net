@@ -552,7 +552,8 @@
         color: var(--green-dark);
       }
 
-      .result-badge[data-state="warning"] {
+      .result-badge[data-state="warning"],
+      .result-badge[data-state="unsupported"] {
         background: #fff0ca;
         color: #755312;
       }
@@ -581,7 +582,8 @@
         color: var(--green-dark);
       }
 
-      .trust-panel[data-state="warning"] {
+      .trust-panel[data-state="warning"],
+      .trust-panel[data-state="unsupported"] {
         border-color: #eed79a;
         background: #fff9e9;
         color: #755312;
@@ -685,6 +687,29 @@
 
       .technical-body {
         margin-top: 0.45rem;
+      }
+      .technical-intro {
+        margin: 0 0 0.8rem;
+        color: #4b6657;
+        font-size: 0.84rem;
+        line-height: 1.5;
+      }
+
+      .technical-heading {
+        margin: 1rem 0 0.45rem;
+        color: var(--ink);
+        font-size: 0.8rem;
+        font-weight: 850;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .technical-meta {
+        margin-top: 0.7rem;
+      }
+
+      .jwt-signature {
+        max-height: 8rem;
       }
 
       .technical-code {
@@ -988,6 +1013,45 @@
           copy.append(heading, document.createElement("br"), message);
           panel.append(mark, copy);
           parent.append(panel);
+          return panel;
+        }
+
+        function renderJwtVerification(verification) {
+          const copy = {
+            verified: {
+              state: "verified",
+              badge: "assinatura verificada",
+              title: "Assinatura digital verificada neste dispositivo",
+            },
+            invalid: {
+              state: "invalid",
+              badge: "assinatura não conferiu",
+              title: "Assinatura não conferiu",
+            },
+            unavailable: {
+              state: "warning",
+              badge: "assinatura não verificada",
+              title: "Verificação indisponível",
+            },
+            unsupported: {
+              state: "unsupported",
+              badge: "algoritmo não verificado",
+              title: "Algoritmo não verificado",
+            },
+          }[verification?.state] ?? {
+            state: "warning",
+            badge: "assinatura não verificada",
+            title: "Verificação indisponível",
+          };
+          resultBadge.textContent = copy.badge;
+          resultBadge.dataset.state = copy.state;
+          const panel = appendTrustPanel(
+            resultContent,
+            copy.state,
+            copy.title,
+            verification?.message ?? "A assinatura não foi conferida neste navegador.",
+          );
+          resultContent.prepend(panel);
         }
 
         function fillTechnical(lines) {
@@ -996,6 +1060,47 @@
           code.className = "technical-code";
           code.textContent = lines.join("\n");
           technicalContent.append(code);
+          technicalDetails.hidden = false;
+          technicalDetails.open = false;
+        }
+
+        function appendTechnicalJson(parent, title, value, className = "technical-code") {
+          const heading = document.createElement("h3");
+          heading.className = "technical-heading";
+          heading.textContent = title;
+          const code = document.createElement("pre");
+          code.className = className;
+          code.textContent = typeof value === "string" ? value : JSON.stringify(value, null, 2);
+          parent.append(heading, code);
+        }
+
+        function fillJwtTechnical(classification, text, binaryData, verification) {
+          const jwt = classification.jwt;
+          technicalContent.replaceChildren();
+          const intro = document.createElement("p");
+          intro.className = "technical-intro";
+          intro.textContent = "Cabeçalho, payload e assinatura são exibidos localmente. A assinatura ES512 é conferida no navegador com a chave pública de produção da CIN embutida nesta página; nenhum dado é enviado.";
+          technicalContent.append(intro);
+
+          const meta = document.createElement("dl");
+          meta.className = "result-grid technical-meta";
+          const algorithm = String(jwt.header.alg ?? "não informado");
+          appendResultField(meta, "Formato", "JWT (JSON Web Token)");
+          appendResultField(meta, "Algoritmo", algorithm === "ES512" ? "ES512 (ECDSA P-521 + SHA-512)" : algorithm);
+          appendResultField(meta, "Tipo", String(jwt.header.typ ?? "não informado"));
+          appendResultField(meta, "Chave pública", "CIN produção · JWK local");
+          appendResultField(meta, "Verificação", verification?.label ?? "assinatura não verificada");
+          appendResultField(meta, "Tamanho do QR", `${binaryData.length} bytes`);
+          technicalContent.append(meta);
+          appendTechnicalJson(technicalContent, "Cabeçalho JWT", jwt.header);
+          appendTechnicalJson(technicalContent, "Payload JWT", jwt.payload);
+          appendTechnicalJson(technicalContent, "Assinatura (Base64URL)", jwt.signature, "technical-code jwt-signature");
+          appendTechnicalJson(technicalContent, "Token codificado", text);
+          const verificationMessage = document.createElement("p");
+          verificationMessage.className = "technical-intro";
+          verificationMessage.textContent = verification?.message ?? "A assinatura não foi conferida neste navegador.";
+          technicalContent.append(verificationMessage);
+
           technicalDetails.hidden = false;
           technicalDetails.open = false;
         }
@@ -1094,7 +1199,7 @@
           return "vio";
         }
 
-        function renderTextResult(text, binaryData) {
+        async function renderTextResult(text, binaryData) {
           const classification = typeof window.qrFormats?.classifyText === "function"
             ? window.qrFormats.classifyText(text)
             : {
@@ -1131,14 +1236,26 @@
             "Ler um QR Code só prova que o padrão foi decodificado. Isso não confirma que o documento, a placa ou os dados sejam autênticos.",
           );
 
-          fillTechnical([
-            `Classificação local: ${classification.kind}`,
-            `Caracteres decodificados: ${text.length}`,
-            `Bytes disponíveis: ${binaryData.length}`,
-            "",
-            "Payload bruto:",
-            text || "(vazio)",
-          ]);
+          if (classification.jwt) {
+            const verification = typeof window.qrFormats?.verifyJwtSignature === "function"
+              ? await window.qrFormats.verifyJwtSignature(classification.jwt)
+              : {
+                state: "unavailable",
+                label: "assinatura não verificada",
+                message: "O verificador local não está disponível nesta página.",
+              };
+            renderJwtVerification(verification);
+            fillJwtTechnical(classification, text, binaryData, verification);
+          } else {
+            fillTechnical([
+              `Classificação local: ${classification.kind}`,
+              `Caracteres decodificados: ${text.length}`,
+              `Bytes disponíveis: ${binaryData.length}`,
+              "",
+              "Payload bruto:",
+              text || "(vazio)",
+            ]);
+          }
           resultText.value = text;
           copyButton.disabled = resultText.value.length === 0;
           return classification.kind;

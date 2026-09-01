@@ -20,6 +20,15 @@
     iss: "Emissor",
     url: "Endereço de validação",
   });
+  // Production CIN JWK used by the official app's partial offline validation.
+  const CIN_PRODUCTION_PUBLIC_KEY = Object.freeze({
+    kty: "EC",
+    x: "ADmN2eus6YfvziHBVuc6cKlzWQ4w_hz1sU0c4qYxFFpNVnEw_d6PO_QVl0OQxMo7WxC0okYDqCVtEl9yoRUA3RLK",
+    y: "AFc1lVJVmpLHNNnqXUmFToa6u2l9c_eOOdF6TqAj7chdGtKyqJQAFTWBzVrDQzUj7A4gWE8O3-q-sMm3EnQR3v7O",
+    crv: "P-521",
+  });
+
+  const JWT_SIGNATURE_BYTES = 132;
 
   function tryUrl(value) {
     try {
@@ -69,15 +78,25 @@
     }
   }
 
-  function tokenPayload(value) {
-    const parts = value.split(".");
-    if (parts.length !== 3 || parts.some((part) => part.length === 0)) {
+  function decodeBase64Url(part) {
+    if (!/^[A-Za-z0-9_-]+$/.test(part) || part.length % 4 === 1) {
       return null;
     }
     try {
-      const normalized = parts[1].replace(/-/g, "+").replace(/_/g, "/").padEnd(Math.ceil(parts[1].length / 4) * 4, "=");
+      const normalized = part.replace(/-/g, "+").replace(/_/g, "/").padEnd(Math.ceil(part.length / 4) * 4, "=");
       const binary = atob(normalized);
-      const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
+      return Uint8Array.from(binary, (character) => character.charCodeAt(0));
+    } catch {
+      return null;
+    }
+  }
+
+  function decodeJsonPart(part) {
+    try {
+      const bytes = decodeBase64Url(part);
+      if (!bytes) {
+        return null;
+      }
       const parsed = JSON.parse(new TextDecoder().decode(bytes));
       return parsed && !Array.isArray(parsed) && typeof parsed === "object" ? parsed : null;
     } catch {
@@ -85,8 +104,89 @@
     }
   }
 
-  function baseResult(kind, title, badge, meta, warning, fields, preview) {
-    return { kind, title, badge, meta, warning, fields, preview };
+  async function verifyJwtSignature(jwt) {
+    if (jwt?.header?.alg !== "ES512") {
+      return {
+        state: "unsupported",
+        label: "algoritmo não suportado",
+        message: "Este leitor só verifica JWT da CIN com ES512 e a chave pública de produção correspondente.",
+      };
+    }
+
+    const signature = decodeBase64Url(jwt.signature);
+    if (!signature || signature.length !== JWT_SIGNATURE_BYTES) {
+      return {
+        state: "invalid",
+        label: "assinatura não conferiu",
+        message: "A assinatura ES512 não tem o formato esperado para uma assinatura ECDSA P-521.",
+      };
+    }
+
+    const subtle = root.crypto?.subtle;
+    const TextEncoderConstructor = root.TextEncoder;
+    if (!subtle || typeof subtle.importKey !== "function" || typeof subtle.verify !== "function" || !TextEncoderConstructor) {
+      return {
+        state: "unavailable",
+        label: "assinatura não verificada",
+        message: "Este navegador não disponibilizou a API Web Crypto necessária para conferir a assinatura ES512.",
+      };
+    }
+
+    try {
+      const publicKey = await subtle.importKey(
+        "jwk",
+        CIN_PRODUCTION_PUBLIC_KEY,
+        { name: "ECDSA", namedCurve: "P-521" },
+        false,
+        ["verify"],
+      );
+      const valid = await subtle.verify(
+        { name: "ECDSA", hash: "SHA-512" },
+        publicKey,
+        signature,
+        new TextEncoderConstructor().encode(`${jwt.segments[0]}.${jwt.segments[1]}`),
+      );
+      return valid
+        ? {
+          state: "verified",
+          label: "assinatura verificada",
+          message: "A assinatura ES512 conferiu com a chave pública local de produção da CIN. Isso autentica o conteúdo assinado, mas não confirma a validade ou a situação do documento.",
+        }
+        : {
+          state: "invalid",
+          label: "assinatura não conferiu",
+          message: "A assinatura ES512 não conferiu com a chave pública local de produção da CIN.",
+        };
+    } catch {
+      return {
+        state: "unavailable",
+        label: "assinatura não verificada",
+        message: "Não foi possível importar a chave pública ou conferir a assinatura ES512 neste navegador.",
+      };
+    }
+  }
+
+  function tokenDetails(value) {
+    const parts = value.split(".");
+    if (parts.length !== 3 || parts.some((part) => part.length === 0)) {
+      return null;
+    }
+    const header = decodeJsonPart(parts[0]);
+    const payload = decodeJsonPart(parts[1]);
+    if (!header || !payload) {
+      return null;
+    }
+    return {
+      format: "JWT",
+      header,
+      payload,
+      signature: parts[2],
+      segments: parts,
+    };
+  }
+
+  function baseResult(kind, title, badge, meta, warning, fields, preview, jwt = null) {
+    return { kind, title, badge, meta, warning, fields, preview, jwt };
   }
 
   function classifyText(input) {
@@ -105,19 +205,21 @@
     }
 
     const url = tryUrl(trimmed);
-    const token = tokenPayload(trimmed);
-    const structuredFields = token ? objectFields(token) : jsonFields(trimmed);
-    const semanticValue = token ? JSON.stringify(token) : trimmed;
-    const semanticUrl = tryUrl(token?.url) ?? url;
+    const token = tokenDetails(trimmed);
+    const structuredFields = token ? objectFields(token.payload) : jsonFields(trimmed);
+    const semanticValue = token ? JSON.stringify(token.payload) : trimmed;
+    const semanticUrl = tryUrl(token?.payload?.url) ?? url;
     const lower = semanticValue.toLocaleLowerCase("pt-BR");
     const isCin = hasCinSignal(semanticValue, semanticUrl)
-      || token?.iss?.toLocaleLowerCase?.("pt-BR") === "mjsp";
+      || token?.payload?.iss?.toLocaleLowerCase?.("pt-BR") === "mjsp";
     if (isCin || structuredFields.some(({ label }) => /cpf|nome/i.test(label)) && /cin|identidade/i.test(lower)) {
       return baseResult(
         "cin-fisica",
         "CIN física",
-        "possível validação",
-        "O QR parece apontar para a validação da identidade impressa. Ler o conteúdo não substitui a conferência no serviço oficial.",
+        token ? "JWT · possível validação" : "possível validação",
+        token
+          ? "O QR contém um JWT com dados indicados para a validação da identidade impressa. Ler o conteúdo não substitui a conferência no serviço oficial."
+          : "O QR parece apontar para a validação da identidade impressa. Ler o conteúdo não substitui a conferência no serviço oficial.",
         "Use o endereço oficial indicado pelo órgão emissor. A leitura local não confirma a validade do documento.",
         structuredFields.length > 0
           ? structuredFields
@@ -125,6 +227,7 @@
             ? [{ label: "Endereço de validação", value: semanticUrl.toString() }]
             : [],
         "",
+        token,
       );
     }
 
@@ -181,5 +284,5 @@
     );
   }
 
-  root.qrFormats = Object.freeze({ classifyText });
+  root.qrFormats = Object.freeze({ classifyText, verifyJwtSignature });
 })();

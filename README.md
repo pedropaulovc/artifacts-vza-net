@@ -56,6 +56,8 @@ Open `artifacts/qr-reader.html` locally, then choose, drop, or paste an image co
 
 The reader never opens decoded URLs. Text stays text, and unrecognized binary payloads remain bytes represented as Base64. All decoded values are displayed with a caveat: decoding a QR pattern does not prove that a document, plate, or value is authentic.
 
+A physical CIN payload is a JWT: the reader extracts the header and payload JSON, verifies an ES512 signature against the embedded production public key when Web Crypto is available, and keeps the encoded signature visible in the technical disclosure. A verified signature authenticates the signed payload only; it does not confirm the document's validity or current situation.
+
 The artifact also recognizes Vio QR v4 payloads. It decodes the Vio field alphabet, supports the bundled RG Digital and Placa Veicular templates, and verifies known brainpoolP256r1 signatures locally when Web Crypto is available. A `verified` result means only that the signature matched the bundled certificate; it does not check revocation, issuer databases, physical-document comparison, or current legal validity. Unsupported Vio templates remain available as their original Base64 bytes.
 
 The technical format, template ID, certificate, timestamp, field count, and raw payload are behind the reader's `Mostrar mais detalhes` disclosure. The reader makes no network requests, so it can be used offline. The official CIN flow can require the government app, an account, and internet for complete validation; the official app or the relevant issuing/traffic authority remains the source of truth.

@@ -1,9 +1,23 @@
 import { readFile } from "node:fs/promises";
 import { runInNewContext } from "node:vm";
+import { webcrypto } from "node:crypto";
 
 import { describe, expect, it } from "vitest";
 
 const decoderUrl = new URL("../artifacts/qr-formats.js", import.meta.url);
+
+type JwtDetails = {
+  format: string;
+  header: Record<string, unknown>;
+  payload: Record<string, unknown>;
+  signature: string;
+  segments: string[];
+};
+type JwtVerification = {
+  state: string;
+  label: string;
+  message: string;
+};
 
 type FormatResult = {
   kind: string;
@@ -12,6 +26,7 @@ type FormatResult = {
   meta: string;
   warning: string;
   fields: { label: string; value: string }[];
+  jwt: JwtDetails | null;
 };
 
 type FormatContext = {
@@ -19,12 +34,24 @@ type FormatContext = {
   atob: typeof atob;
   TextDecoder: typeof TextDecoder;
   Uint8Array: typeof Uint8Array;
-  qrFormats: { classifyText: (input: string) => FormatResult };
+  crypto: typeof webcrypto;
+  TextEncoder: typeof TextEncoder;
+  qrFormats: {
+    classifyText: (input: string) => FormatResult;
+    verifyJwtSignature: (jwt: JwtDetails) => Promise<JwtVerification>;
+  };
 };
 
 async function loadClassifier(): Promise<FormatContext> {
   const source = await readFile(decoderUrl, "utf8");
-  const context = { URL, atob, TextDecoder, Uint8Array } as unknown as FormatContext;
+  const context = {
+    URL,
+    atob,
+    TextDecoder,
+    TextEncoder,
+    Uint8Array,
+    crypto: webcrypto,
+  } as unknown as FormatContext;
   runInNewContext(source, context);
   return context;
 }
@@ -55,6 +82,13 @@ describe("Brazilian QR use-case classifier", () => {
       dvd: "01/02/2030",
     });
     const result = context.qrFormats.classifyText(`${header}.${payload}.assinatura`);
+    expect(result.jwt).toMatchObject({
+      format: "JWT",
+      header: { alg: "ES512", typ: "JWT" },
+      payload: { iss: "MJSP", cpf: "00000000000" },
+      signature: "assinatura",
+      segments: [header, payload, "assinatura"],
+    });
 
     expect(result).toMatchObject({ kind: "cin-fisica", title: "CIN física" });
     expect(result.fields).toEqual([
@@ -65,6 +99,26 @@ describe("Brazilian QR use-case classifier", () => {
       { label: "Data de validade", value: "01/02/2030" },
     ]);
   });
+  it("rejects a CIN JWT whose ES512 signature does not match the local key", async () => {
+    const context = await loadClassifier();
+    const header = tokenPart({ alg: "ES512", typ: "JWT" });
+    const payload = tokenPart({
+      iss: "MJSP",
+      url: "https://cin.mj.gov.br/cidadao/teste",
+      cpf: "00000000000",
+    });
+    const signature = Buffer.alloc(132, 7).toString("base64url");
+    const result = context.qrFormats.classifyText(`${header}.${payload}.${signature}`);
+
+    if (!result.jwt) {
+      throw new Error("Expected a JWT classification");
+    }
+    await expect(context.qrFormats.verifyJwtSignature(result.jwt)).resolves.toMatchObject({
+      state: "invalid",
+      label: "assinatura não conferiu",
+    });
+  });
+
 
   it("labels a vehicle payload conservatively without claiming authenticity", async () => {
     const context = await loadClassifier();
