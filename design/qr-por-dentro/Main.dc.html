@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body {
+      margin: 0;
+      color: #102a43;
+      font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+      font-synthesis: none;
+      background:
+        radial-gradient(circle at 90% -2%, rgba(245, 196, 81, 0.35), transparent 28rem),
+        radial-gradient(circle at -10% 12%, rgba(8, 127, 91, 0.1), transparent 30rem),
+        #f4f0e7;
+    }
+    * { box-sizing: border-box; }
+    a { color: #1f5f8b; }
+    a:hover { color: #16455f; }
+    button { font: inherit; }
+  </style>
+</helmet>
+<div style="position: relative; padding: 2rem 1.5rem 3rem; background: radial-gradient(rgba(16, 42, 67, 0.08) 0.06rem, transparent 0.06rem) 1rem 1rem / 1.2rem 1.2rem, radial-gradient(circle at 90% -2%, rgba(245, 196, 81, 0.35), transparent 28rem), radial-gradient(circle at -10% 12%, rgba(8, 127, 91, 0.1), transparent 30rem), #f4f0e7">
+  <div style="display: flex; flex-direction: column; gap: 1.5rem; width: 72rem; max-width: 100%; margin: 0 auto">
+
+    <div style="display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(18rem, 0.65fr); gap: 3.5rem; align-items: end">
+      <div>
+        <p style="display: flex; align-items: center; gap: 0.5rem; margin: 0 0 0.8rem; color: #087f5b; font-size: 0.72rem; font-weight: 850; letter-spacing: 0.14em; text-transform: uppercase">
+          <span style="display: block; width: 1.4rem; height: 0.2rem; border-radius: 999px; background: #f5c451"></span>
+          Leitor local · sem upload
+        </p>
+        <h1 style="max-width: 16ch; margin: 0 0 1rem; font-size: 4.5rem; line-height: 0.91; letter-spacing: -0.075em">Leia o QR. Entenda o que ele carrega.</h1>
+        <p style="max-width: 47rem; margin: 0; color: #5f7184; font-size: 1.2rem; line-height: 1.65">Uma bancada de inspeção para os códigos de documentos, placas e serviços públicos brasileiros. Leia o seu aqui — nesta aba, sem enviar nada — e depois desmonte, peça por peça, cada um dos formatos que ele reconhece.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.55rem; margin-top: 1.25rem">
+          <span style="display: inline-flex; align-items: center; padding: 0.45rem 0.7rem; border-radius: 999px; background: rgba(255, 255, 255, 0.7); color: #04543f; font-size: 0.75rem; font-weight: 800">100% local</span>
+          <span style="display: inline-flex; align-items: center; padding: 0.45rem 0.7rem; border-radius: 999px; background: rgba(255, 255, 255, 0.7); color: #04543f; font-size: 0.75rem; font-weight: 800">sem upload</span>
+          <span style="display: inline-flex; align-items: center; padding: 0.45rem 0.7rem; border-radius: 999px; background: rgba(255, 255, 255, 0.7); color: #04543f; font-size: 0.75rem; font-weight: 800">nenhum link é aberto</span>
+        </div>
+      </div>
+      <aside style="padding: 1.25rem 1.35rem; border: 1px solid rgba(8, 127, 91, 0.18); border-radius: 1.2rem; background: rgba(229, 244, 237, 0.75); box-shadow: 0 1rem 2.5rem rgba(8, 127, 91, 0.08)">
+        <p style="margin: 0 0 0.55rem; color: #04543f; font-size: 0.8rem; font-weight: 850; letter-spacing: 0.04em; text-transform: uppercase">Uma lupa, não um autenticador universal</p>
+        <p style="margin: 0 0 1.1rem; color: #416254; font-size: 0.9rem; line-height: 1.5">Decodificar revela o conteúdo. Autenticidade, validade e situação dependem do órgão emissor e do aplicativo oficial.</p>
+        <div style="display: grid; gap: 0.8rem">
+          <div style="display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.7rem; align-items: start; color: #416254; font-size: 0.83rem; line-height: 1.4">
+            <span style="display: grid; width: 1.8rem; height: 1.8rem; place-items: center; border: 1px solid rgba(8, 127, 91, 0.25); border-radius: 0.6rem; background: #fff; color: #087f5b; font-size: 0.68rem; font-weight: 850">01</span>
+            <div><strong style="display: block; margin-bottom: 0.1rem; color: #04543f">Imagem</strong>Você escolhe uma foto do código.</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.7rem; align-items: start; color: #416254; font-size: 0.83rem; line-height: 1.4">
+            <span style="display: grid; width: 1.8rem; height: 1.8rem; place-items: center; border: 1px solid rgba(8, 127, 91, 0.25); border-radius: 0.6rem; background: #fff; color: #087f5b; font-size: 0.68rem; font-weight: 850">02</span>
+            <div><strong style="display: block; margin-bottom: 0.1rem; color: #04543f">Leitura</strong>O navegador procura o padrão QR localmente.</div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.7rem; align-items: start; color: #416254; font-size: 0.83rem; line-height: 1.4">
+            <span style="display: grid; width: 1.8rem; height: 1.8rem; place-items: center; border: 1px solid rgba(8, 127, 91, 0.25); border-radius: 0.6rem; background: #fff; color: #087f5b; font-size: 0.68rem; font-weight: 850">03</span>
+            <div><strong style="display: block; margin-bottom: 0.1rem; color: #04543f">Contexto</strong>O resultado é organizado sem abrir o conteúdo.</div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <section style="padding: 1.8rem; border: 1px solid rgba(16, 42, 67, 0.1); border-radius: 1.45rem; background: rgba(255, 255, 255, 0.88); box-shadow: 0 1.8rem 4rem rgba(16, 42, 67, 0.12)">
+      <div style="display: flex; justify-content: space-between; gap: 1rem; align-items: start">
+        <div>
+          <p style="display: flex; align-items: center; gap: 0.5rem; margin: 0 0 0.35rem; color: #087f5b; font-size: 0.72rem; font-weight: 850; letter-spacing: 0.14em; text-transform: uppercase">
+            <span style="display: block; width: 1.4rem; height: 0.2rem; border-radius: 999px; background: #f5c451"></span>
+            Passo 1 · imagem
+          </p>
+          <h2 style="margin: 0; font-size: 2rem; letter-spacing: -0.04em">Comece pelo seu código</h2>
+        </div>
+        <span style="display: inline-flex; align-items: center; padding: 0.5rem 0.7rem; border-radius: 999px; background: #e5f4ed; color: #04543f; font-size: 0.75rem; font-weight: 800; white-space: nowrap"><span style="display: block; width: 0.45rem; height: 0.45rem; margin-right: 0.4rem; border-radius: 50%; background: #087f5b"></span>Tudo acontece neste dispositivo</span>
+      </div>
+      <div style="display: grid; min-height: 14rem; margin-top: 1.4rem; place-items: center; padding: 1.5rem; border: 2px dashed #8aa8a0; border-radius: 1.1rem; background: #f7fbf7; text-align: center; cursor: pointer">
+        <div>
+          <span style="display: grid; width: 4.1rem; height: 4.1rem; margin: 0 auto 0.9rem; place-items: center; border: 0.35rem solid #087f5b; border-radius: 0.95rem; background-image: linear-gradient(90deg, #f5c451 30%, transparent 30% 70%, #f5c451 70%), linear-gradient(#f5c451 30%, transparent 30% 70%, #f5c451 70%); background-color: #fff; box-shadow: inset 0 0 0 0.35rem #fff"></span>
+          <span style="display: block; margin-bottom: 0.35rem; font-size: 1.08rem; font-weight: 850">Arraste uma imagem aqui</span>
+          <span style="display: block; color: #5f7184; font-size: 0.88rem; line-height: 1.5">ou clique para procurar · PNG, JPG, WEBP… até 30 MB<br>Também dá para colar uma imagem (Ctrl/Cmd + V).</span>
+        </div>
+      </div>
+      <p style="display: flex; align-items: flex-start; gap: 0.65rem; margin: 1rem 0 0; padding: 0.85rem 1rem; border-radius: 0.8rem; background: #eef2ef; color: #476054; font-size: 0.9rem; line-height: 1.45">
+        <span style="display: grid; flex: 0 0 1.25rem; width: 1.25rem; height: 1.25rem; place-items: center; border-radius: 50%; background: #d5e0da; color: #04543f; font-size: 0.75rem; font-weight: 900">i</span>
+        Pronto para ler localmente. Não tem um QR à mão? As seções abaixo funcionam com exemplos completos.
+      </p>
+    </section>
+
+    <dc-import name="Mapa" hint-size="100%,800px"></dc-import>
+    <dc-import name="CinToken" hint-size="100%,700px"></dc-import>
+    <dc-import name="VioAnatomia" hint-size="100%,760px"></dc-import>
+
+    <section style="padding: 1.8rem; border: 1px solid rgba(16, 42, 67, 0.1); border-radius: 1.45rem; background: rgba(255, 255, 255, 0.88); box-shadow: 0 1.8rem 4rem rgba(16, 42, 67, 0.12)">
+      <div style="display: flex; flex-direction: column; gap: 0.35rem; margin-bottom: 1.25rem">
+        <p style="display: flex; align-items: center; gap: 0.5rem; margin: 0; color: #087f5b; font-size: 0.72rem; font-weight: 850; letter-spacing: 0.14em; text-transform: uppercase">
+          <span style="display: block; width: 1.4rem; height: 0.2rem; border-radius: 999px; background: #f5c451"></span>
+          A parte que importa
+        </p>
+        <h2 style="margin: 0; font-size: 2rem; letter-spacing: -0.04em">O que uma leitura prova</h2>
+        <p style="max-width: 42rem; margin: 0.25rem 0 0; color: #5f7184; font-size: 0.94rem; line-height: 1.55">Um selo verde é uma frase curta e específica. Vale a pena saber exatamente qual é.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem">
+        <div style="display: flex; flex-direction: column; gap: 0.7rem; padding: 1.2rem 1.3rem; border: 1px solid #bce2ca; border-radius: 1rem; background: #effaf2">
+          <p style="margin: 0; color: #04543f; font-size: 1.05rem; font-weight: 850; letter-spacing: -0.01em">Prova</p>
+          <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.6rem; align-items: start; color: #04543f; font-size: 0.88rem; line-height: 1.5">
+            <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #087f5b"></span>
+            <span>Que o padrão foi decodificado e o conteúdo é este.</span>
+          </div>
+          <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.6rem; align-items: start; color: #04543f; font-size: 0.88rem; line-height: 1.5">
+            <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #087f5b"></span>
+            <span>Quando a assinatura confere: que esse conteúdo saiu do emissor assim e não foi alterado depois.</span>
+          </div>
+          <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.6rem; align-items: start; color: #04543f; font-size: 0.88rem; line-height: 1.5">
+            <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #087f5b"></span>
+            <span>Que a conferência aconteceu no seu aparelho, sem mandar o código para ninguém.</span>
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 0.7rem; padding: 1.2rem 1.3rem; border: 1px solid #eed79a; border-radius: 1rem; background: #fff9e9">
+          <p style="margin: 0; color: #755312; font-size: 1.05rem; font-weight: 850; letter-spacing: -0.01em">Não prova</p>
+          <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.6rem; align-items: start; color: #755312; font-size: 0.88rem; line-height: 1.5">
+            <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #c99a2e"></span>
+            <span>Que o documento está vigente, ou que não foi cancelado depois de emitido.</span>
+          </div>
+          <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.6rem; align-items: start; color: #755312; font-size: 0.88rem; line-height: 1.5">
+            <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #c99a2e"></span>
+            <span>Que a placa está naquele carro, ou que o veículo está regular.</span>
+          </div>
+          <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.6rem; align-items: start; color: #755312; font-size: 0.88rem; line-height: 1.5">
+            <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #c99a2e"></span>
+            <span>Que quem está mostrando o código é a pessoa descrita nele.</span>
+          </div>
+          <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.6rem; align-items: start; color: #755312; font-size: 0.88rem; line-height: 1.5">
+            <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #c99a2e"></span>
+            <span>Que um código sem assinatura seja falso — ele apenas não tem nada para conferir.</span>
+          </div>
+        </div>
+      </div>
+      <p style="margin: 1rem 0 0; padding: 0.9rem 1rem; border-left: 0.25rem solid #f5c451; background: #fff9e9; color: #755312; font-size: 0.86rem; line-height: 1.5">A fonte da verdade continua sendo o aplicativo oficial ou o órgão emissor. Esta página existe para você entender o que está segurando — e para nenhuma leitura virar uma certeza maior do que merece.</p>
+    </section>
+
+    <p style="margin: 0.25rem 0 0; color: #6b7d76; font-size: 0.78rem; line-height: 1.55; text-align: center">Funciona sem internet. Não substitui a conferência no app oficial ou no órgão emissor.</p>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
