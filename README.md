@@ -46,9 +46,13 @@ npm run deploy:production
 
 ## Offline QR reader artifact
 
-`artifacts/qr-reader.html` is a standalone browser artifact. It is separate from the Cloudflare Worker and does not add a public route or change the empty-response contract. Keep it in the same directory as `artifacts/jsqr.js`.
+`artifacts/qr-reader.html` is a standalone browser artifact. It is separate from the Cloudflare Worker and does not add a public route or change the empty-response contract. Keep it in the same directory as `artifacts/jsqr.js` and `artifacts/vio.js`.
 
-Open `artifacts/qr-reader.html` locally, then choose or drop any local image containing a QR code. The reader decodes the image in the browser, shows text payloads directly or binary payloads as Base64, and never opens decoded URLs. It makes no network requests, so it can be used offline.
+Open `artifacts/qr-reader.html` locally, then choose or drop any local image containing a QR code. The reader decodes the image in the browser, shows text payloads directly, and never opens decoded URLs. Binary payloads are preserved as bytes and shown as Base64 when they are not recognized.
+
+The artifact also recognizes Vio QR v4 payloads. It decodes the Vio field alphabet and the bundled RG Digital template, verifies its known brainpoolP256r1 signature locally when Web Crypto is available, and displays the fields without uploading the image or QR data. Unsupported Vio templates remain available as their original Base64 bytes.
+
+The reader makes no network requests, so it can be used offline.
 
 `jsqr.js` is the vendored jsQR 1.4.0 browser decoder under Apache 2.0; its license is preserved in `artifacts/JSQR-LICENSE.txt`.
 

@@ -343,7 +343,7 @@
 
         <section class="result" id="result" aria-labelledby="result-heading" hidden>
           <h2 id="result-heading">Decoded content</h2>
-          <p id="resultMeta">The value below is text only; it will not be opened automatically.</p>
+          <p id="resultMeta">Text payloads are shown directly; binary payloads are shown as Base64. Nothing is opened automatically.</p>
           <textarea id="resultText" readonly aria-label="Decoded QR content"></textarea>
           <div class="toolbar">
             <button id="copyButton" type="button" disabled>Copy content</button>
@@ -351,12 +351,13 @@
         </section>
       </section>
 
-      <footer>Works without a network connection. Keep this HTML file beside <code>jsqr.js</code>.</footer>
+      <footer>Works without a network connection. Keep this HTML file beside <code>jsqr.js</code> and <code>vio.js</code>.</footer>
     </main>
 
     <noscript>This reader needs JavaScript enabled to decode images locally.</noscript>
 
     <script src="./jsqr.js"></script>
+    <script src="./vio.js"></script>
     <script>
       (() => {
         "use strict";
@@ -397,13 +398,22 @@
           }
           return btoa(binary);
         }
-
-        function setResult(decoded) {
+        async function setResult(decoded) {
           const text = decoded.data || "";
           const binaryData = decoded.binaryData || [];
+          if (binaryData.length > 0 && typeof window.vioDecoder?.decode === "function") {
+            const vio = await window.vioDecoder.decode(binaryData);
+            if (vio) {
+              result.hidden = false;
+              resultText.value = vio.text;
+              resultMeta.textContent = vio.meta;
+              copyButton.disabled = vio.text.length === 0;
+              return true;
+            }
+          }
+
           let output = text;
           let meta = "A QR code was detected, but it contains no text.";
-
           if (text) {
             meta = "The value below is text only; it will not be opened automatically.";
           }
@@ -416,12 +426,13 @@
           resultText.value = output;
           copyButton.disabled = output.length === 0;
           resultMeta.textContent = meta;
+          return false;
         }
 
         function clearResult() {
           result.hidden = true;
           resultText.value = "";
-          resultMeta.textContent = "The value below is text only; it will not be opened automatically.";
+          resultMeta.textContent = "Text payloads are shown directly; binary payloads are shown as Base64. Nothing is opened automatically.";
           copyButton.disabled = true;
         }
 
@@ -605,8 +616,8 @@
               return;
             }
 
-            setResult(decoded);
-            setStatus("QR code found. Nothing was opened automatically.", "success");
+            const isVio = await setResult(decoded);
+            setStatus(isVio ? "Vio QR code decoded locally. Nothing was opened automatically." : "QR code found. Nothing was opened automatically.", "success");
           } catch (error) {
             if (currentScanId !== scanId) {
               return;
