@@ -109,7 +109,7 @@
       return {
         state: "unsupported",
         label: "algoritmo não suportado",
-        message: "Este leitor só verifica JWT da CIN com ES512 e a chave pública de produção correspondente.",
+        message: "Esta página só confere JWT da CIN com ES512 e a chave pública de produção correspondente.",
       };
     }
 
@@ -117,7 +117,7 @@
     if (!signature || signature.length !== JWT_SIGNATURE_BYTES) {
       return {
         state: "invalid",
-        label: "assinatura não conferiu",
+        label: "assinatura não confere",
         message: "A assinatura ES512 não tem o formato esperado para uma assinatura ECDSA P-521.",
       };
     }
@@ -127,7 +127,7 @@
     if (!subtle || typeof subtle.importKey !== "function" || typeof subtle.verify !== "function" || !TextEncoderConstructor) {
       return {
         state: "unavailable",
-        label: "assinatura não verificada",
+        label: "assinatura não conferida",
         message: "Este navegador não disponibilizou a API Web Crypto necessária para conferir a assinatura ES512.",
       };
     }
@@ -149,18 +149,18 @@
       return valid
         ? {
           state: "verified",
-          label: "assinatura verificada",
-          message: "A assinatura ES512 conferiu com a chave pública local de produção da CIN. Isso autentica o conteúdo assinado, mas não confirma a validade ou a situação do documento.",
+          label: "assinatura confere",
+          message: "A assinatura ES512 confere com a chave pública local de produção da CIN. Isso autentica o conteúdo assinado, mas não confirma a validade ou a situação do documento.",
         }
         : {
           state: "invalid",
-          label: "assinatura não conferiu",
-          message: "A assinatura ES512 não conferiu com a chave pública local de produção da CIN.",
+          label: "assinatura não confere",
+          message: "A assinatura ES512 não confere com a chave pública local de produção da CIN.",
         };
     } catch {
       return {
         state: "unavailable",
-        label: "assinatura não verificada",
+        label: "assinatura não conferida",
         message: "Não foi possível importar a chave pública ou conferir a assinatura ES512 neste navegador.",
       };
     }

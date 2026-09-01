@@ -800,7 +800,7 @@
 
       <header>
         <h1>Leia o QR. Entenda o que ele carrega.</h1>
-        <p class="hero-copy">Uma bancada de inspeção para os códigos de documentos, placas e serviços públicos brasileiros. Escolha, arraste ou cole uma imagem: a leitura acontece nesta aba. Decodificar revela o conteúdo; autenticidade e validade continuam com o órgão emissor.</p>
+        <p class="hero-copy">Uma bancada de inspeção para os códigos que aparecem em documentos e placas brasileiras. Arraste uma imagem e a leitura acontece nesta aba. Decodificar mostra o conteúdo, mas quem responde por autenticidade e validade é o órgão emissor.</p>
         <ul class="hero-facts">
           <li>leitura 100% local</li>
           <li>nenhum arquivo enviado</li>
@@ -822,7 +822,7 @@
               <h2 id="result-heading">O que foi lido</h2>
               <span class="result-badge" id="resultBadge" data-state="neutral">aguardando leitura</span>
             </div>
-            <p class="result-meta" id="resultMeta">Escolha uma imagem ao lado. O conteúdo decodificado aparece aqui, sem abrir nada.</p>
+            <p class="result-meta" id="resultMeta">Escolha uma imagem ao lado. O conteúdo decodificado aparece aqui, e nenhum link é aberto.</p>
             <div id="resultContent"></div>
           </section>
 
@@ -839,7 +839,7 @@
                 <span class="drop-help">ou clique para procurar. PNG, JPG, WEBP, até 30 MB. Também dá para colar com Ctrl/Cmd + V.</span>
               </span>
             </label>
-            <p class="file-name" id="fileName">Pronto para ler localmente.</p>
+            <p class="file-name" id="fileName">Nenhuma imagem escolhida.</p>
             <div class="preview" id="preview" hidden>
               <canvas id="previewCanvas" aria-label="Prévia da imagem selecionada"></canvas>
             </div>
@@ -858,7 +858,7 @@
           <h2 id="details-heading">Por dentro do que foi lido</h2>
           <p class="panel-note">Formato, modelo, estado da assinatura e o conteúdo bruto: tudo o que sustenta o resumo acima.</p>
         </div>
-        <p class="details-empty" id="detailsEmpty">Leia um código para ver o formato reconhecido, o certificado usado na conferência e o payload como ele veio.</p>
+        <p class="details-empty" id="detailsEmpty">Leia um código para ver o formato reconhecido e o payload como ele veio.</p>
         <details class="technical-details" id="technicalDetails" hidden>
           <summary>Mostrar mais detalhes</summary>
           <div class="technical-body" id="technicalContent"></div>
@@ -875,7 +875,7 @@
           <h2 id="guide-heading">Qual QR você encontrou?</h2>
         </div>
         <table class="cases">
-          <caption>O mesmo desenho pode carregar um endereço, texto simples ou bytes assinados. O leitor identifica o que consegue reconhecer e não inventa uma validação.</caption>
+          <caption>O mesmo desenho pode carregar um endereço, texto simples ou bytes assinados. Esta página reconhece o que sabe reconhecer e não inventa uma validação.</caption>
           <thead>
             <tr>
               <th scope="col">Código</th>
@@ -889,18 +889,18 @@
               <th scope="row">CIN física</th>
               <td class="case-where">carteira impressa</td>
               <td>Um token assinado pelo emissor, com poucos campos e o endereço oficial de validação.</td>
-              <td>A assinatura é conferida aqui. Vigência e situação, não.</td>
+              <td>A assinatura é conferida aqui. Vigência e situação ficam com o emissor.</td>
             </tr>
             <tr>
               <th scope="row">Identidade Vio</th>
               <td class="case-where">app e tela de validação</td>
               <td>Bytes compactos com os campos do documento e a assinatura de quem os emitiu.</td>
-              <td>Os campos vêm nomeados pelo modelo conhecido; a assinatura é conferida quando há certificado.</td>
+              <td>Os campos vêm nomeados pelo modelo conhecido. A assinatura é conferida quando há certificado local.</td>
             </tr>
             <tr>
               <th scope="row">Placa Mercosul</th>
               <td class="case-where">placa veicular</td>
-              <td>O mesmo formato Vio, carregando só o número de série da placa.</td>
+              <td>O mesmo formato Vio, com um campo só: o número de série da placa.</td>
               <td>Nada aqui consulta o fabricante ou o órgão de trânsito.</td>
             </tr>
           </tbody>
@@ -910,7 +910,7 @@
       <footer>Não substitui a conferência no app oficial ou no órgão emissor.</footer>
     </main>
 
-    <noscript>Este leitor precisa de JavaScript ativado para decodificar imagens localmente.</noscript>
+    <noscript>Esta página precisa de JavaScript ativado para decodificar imagens localmente.</noscript>
 
     <script src="./jsqr.js"></script>
     <script src="./vio.js"></script>
@@ -1007,28 +1007,28 @@
           const copy = {
             verified: {
               state: "verified",
-              badge: "assinatura verificada",
-              title: "Assinatura digital verificada neste dispositivo",
+              badge: "assinatura confere",
+              title: "Assinatura digital conferida neste dispositivo",
             },
             invalid: {
               state: "invalid",
-              badge: "assinatura não conferiu",
-              title: "Assinatura não conferiu",
+              badge: "assinatura não confere",
+              title: "A assinatura não confere com a chave pública",
             },
             unavailable: {
               state: "warning",
-              badge: "assinatura não verificada",
-              title: "Verificação indisponível",
+              badge: "assinatura não conferida",
+              title: "Não foi possível conferir",
             },
             unsupported: {
               state: "unsupported",
-              badge: "algoritmo não verificado",
-              title: "Algoritmo não verificado",
+              badge: "algoritmo não conferido",
+              title: "Algoritmo não conferido",
             },
           }[verification?.state] ?? {
             state: "warning",
-            badge: "assinatura não verificada",
-            title: "Verificação indisponível",
+            badge: "assinatura não conferida",
+            title: "Não foi possível conferir",
           };
           resultBadge.textContent = copy.badge;
           resultBadge.dataset.state = copy.state;
@@ -1067,7 +1067,7 @@
           technicalContent.replaceChildren();
           const intro = document.createElement("p");
           intro.className = "technical-intro";
-          intro.textContent = "Cabeçalho, payload e assinatura são exibidos localmente. A assinatura ES512 é conferida no navegador com a chave pública de produção da CIN embutida nesta página; nenhum dado é enviado.";
+          intro.textContent = "Cabeçalho, payload e assinatura são exibidos localmente. A assinatura ES512 é conferida no navegador com a chave pública de produção da CIN embutida nesta página, e nenhum dado é enviado.";
           technicalContent.append(intro);
 
           const meta = document.createElement("dl");
@@ -1077,7 +1077,7 @@
           appendResultField(meta, "Algoritmo", algorithm === "ES512" ? "ES512 (ECDSA P-521 + SHA-512)" : algorithm);
           appendResultField(meta, "Tipo", String(jwt.header.typ ?? "não informado"));
           appendResultField(meta, "Chave pública", "CIN produção · JWK local");
-          appendResultField(meta, "Verificação", verification?.label ?? "assinatura não verificada");
+          appendResultField(meta, "Verificação", verification?.label ?? "assinatura não conferida");
           appendResultField(meta, "Tamanho do QR", `${binaryData.length} bytes`);
           technicalContent.append(meta);
           appendTechnicalJson(technicalContent, "Cabeçalho JWT", jwt.header);
@@ -1111,10 +1111,10 @@
           const isPlate = template?.kind === "placa-mercosul";
           const verificationState = vio.verification?.state ?? "unavailable";
           const badge = verificationState === "verified"
-            ? "assinatura verificada"
+            ? "assinatura confere"
             : verificationState === "invalid"
-              ? "assinatura não conferiu"
-              : "assinatura não verificada";
+              ? "assinatura não confere"
+              : "assinatura não conferida";
           const title = isPlate
             ? "Placa Mercosul"
             : template
@@ -1126,22 +1126,22 @@
             appendTrustPanel(
               resultContent,
               "verified",
-              "Assinatura digital verificada neste dispositivo",
+              "Assinatura digital conferida neste dispositivo",
               "A assinatura dos dados foi conferida com o certificado local disponível. Compare os dados com o documento físico e, quando necessário, use o aplicativo ou órgão emissor.",
             );
           } else if (verificationState === "invalid") {
             appendTrustPanel(
               resultContent,
               "invalid",
-              "Assinatura não conferiu",
+              "Assinatura não confere",
               "Trate os dados como não confiáveis. A leitura do padrão não prova autenticidade.",
             );
           } else {
             appendTrustPanel(
               resultContent,
               "warning",
-              "Formato reconhecido; assinatura não verificada",
-              "Este leitor não tem um certificado local válido para conferir este modelo. Trate os dados como não confiáveis.",
+              "Formato reconhecido, assinatura não conferida",
+              "Esta página não tem certificado local para conferir este modelo. Trate os dados como não confiáveis.",
             );
           }
 
@@ -1225,7 +1225,7 @@
           }
           appendWarning(
             resultContent,
-            "Ler um QR Code só prova que o padrão foi decodificado. Isso não confirma que o documento, a placa ou os dados sejam autênticos.",
+            "Ler um QR Code só prova que o padrão foi decodificado. Não prova que o documento ou os dados sejam autênticos.",
           );
 
           if (classification.jwt) {
@@ -1233,8 +1233,8 @@
               ? await window.qrFormats.verifyJwtSignature(classification.jwt)
               : {
                 state: "unavailable",
-                label: "assinatura não verificada",
-                message: "O verificador local não está disponível nesta página.",
+                label: "assinatura não conferida",
+                message: "Esta página não carregou o conferidor de assinatura.",
               };
             renderJwtVerification(verification);
             fillJwtTechnical(classification, text, binaryData, verification);
@@ -1267,7 +1267,7 @@
           resultContent.append(previewText);
           appendWarning(
             resultContent,
-            "Este leitor não reconheceu um modelo Vio local para estes bytes. Trate o conteúdo como não confiável.",
+            "Esta página não reconheceu um modelo Vio para estes bytes. Trate o conteúdo como não confiável.",
           );
           fillTechnical([
             "Classificação local: binário não identificado",
@@ -1304,7 +1304,7 @@
           resultTitle.textContent = "O que foi lido";
           resultBadge.textContent = "aguardando leitura";
           resultBadge.dataset.state = "neutral";
-          resultMeta.textContent = "Escolha uma imagem ao lado. O conteúdo decodificado aparece aqui, sem abrir nada.";
+          resultMeta.textContent = "Escolha uma imagem ao lado. O conteúdo decodificado aparece aqui, e nenhum link é aberto.";
           resultContent.replaceChildren();
           technicalContent.replaceChildren();
           technicalDetails.hidden = true;
@@ -1316,7 +1316,7 @@
 
         function clearImageState() {
           fileInput.value = "";
-          fileName.textContent = "Pronto para ler localmente.";
+          fileName.textContent = "Nenhuma imagem escolhida.";
           preview.hidden = true;
           previewCanvas.width = 1;
           previewCanvas.height = 1;
@@ -1414,7 +1414,7 @@
 
         async function scanImage(image, width, height, currentScanId) {
           if (typeof window.jsQR !== "function") {
-            throw new Error("O decodificador local está ausente. Mantenha jsqr.js ao lado deste HTML.");
+            throw new Error("Falta o jsqr.js. Mantenha o arquivo ao lado deste HTML.");
           }
 
           for (const region of regionsFor(width, height)) {
@@ -1490,7 +1490,7 @@
               return;
             }
             if (!decoded) {
-              setStatus("Não encontrei um QR Code. Tente uma imagem mais nítida, com menos reflexo ou um recorte mais próximo.", "error");
+              setStatus("Nenhum QR Code nesta imagem. Tente uma foto mais nítida ou um recorte mais próximo.", "error");
               return;
             }
 

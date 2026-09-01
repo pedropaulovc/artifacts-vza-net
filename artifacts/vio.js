@@ -373,7 +373,7 @@
       return { state: "invalid", reason: "a assinatura Vio tem um formato inválido" };
     }
     if (!root.crypto?.subtle) {
-      return { state: "unavailable", reason: "este navegador não oferece Web Crypto para verificar a assinatura" };
+      return { state: "unavailable", reason: "este navegador não oferece Web Crypto para conferir a assinatura" };
     }
 
     try {
@@ -388,23 +388,23 @@
       const valid = result !== null && mod(result.x, BRAINPOOL_P256.n) === signature.r;
       return {
         state: valid ? "verified" : "invalid",
-        reason: valid ? "assinatura digital verificada" : "a verificação da assinatura digital falhou",
+        reason: valid ? "assinatura digital conferida" : "a assinatura digital não confere",
         certificateId: certificate.id,
         curve: certificate.curve,
       };
     } catch {
-      return { state: "unavailable", reason: "o navegador não conseguiu verificar esta assinatura Vio" };
+      return { state: "unavailable", reason: "o navegador não conseguiu conferir esta assinatura Vio" };
     }
   }
 
   function formatVerification(verification) {
     if (verification.state === "verified") {
-      return `verificada (${verification.curve}, certificado ${verification.certificateId})`;
+      return `conferida (${verification.curve}, certificado ${verification.certificateId})`;
     }
     if (verification.state === "invalid") {
-      return "falhou; trate os valores como não confiáveis";
+      return "não confere; trate os valores como não confiáveis";
     }
-    return `não verificada (${verification.reason})`;
+    return `não conferida (${verification.reason})`;
   }
 
   function formatDecoded(parsed, verification) {
@@ -430,12 +430,12 @@
     const verification = await verifySignature(parsed);
     const isPlate = parsed.template?.kind === "placa-mercosul";
     const meta = verification.state === "verified"
-      ? `${isPlate ? "Código Vio da placa" : "Documento Vio"} lido localmente. A assinatura digital foi verificada; nenhum dado foi enviado.`
+      ? `${isPlate ? "Código Vio da placa" : "Documento Vio"} lido localmente. A assinatura digital confere e nenhum dado foi enviado.`
       : verification.state === "invalid"
-        ? `${isPlate ? "Código Vio da placa" : "Documento Vio"} lido localmente, mas a assinatura digital falhou. Trate os valores como não confiáveis.`
+        ? `${isPlate ? "Código Vio da placa" : "Documento Vio"} lido localmente, mas a assinatura digital não confere. Trate os valores como não confiáveis.`
         : isPlate
-          ? "Código Vio da placa lido localmente, mas a assinatura digital não pôde ser verificada. Trate os valores como não confiáveis."
-          : "Campos Vio lidos localmente, mas a assinatura digital não pôde ser verificada. Trate os valores como não confiáveis.";
+          ? "Código Vio da placa lido localmente, mas a assinatura digital não pôde ser conferida. Trate os valores como não confiáveis."
+          : "Campos Vio lidos localmente, mas a assinatura digital não pôde ser conferida. Trate os valores como não confiáveis.";
     return {
       ...parsed,
       verification,

@@ -115,7 +115,7 @@ describe("Brazilian QR use-case classifier", () => {
     }
     await expect(context.qrFormats.verifyJwtSignature(result.jwt)).resolves.toMatchObject({
       state: "invalid",
-      label: "assinatura não conferiu",
+      label: "assinatura não confere",
     });
   });
 
