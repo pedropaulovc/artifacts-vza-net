@@ -1,0 +1,1515 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; img-src blob: data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+    <title>QR gov.br — leitor offline</title>
+    <style>
+      /*
+        Ink on paper. The page is a working document, not a landing page:
+        one sheet, hairline rules, square corners, no shadows and no gradients.
+        Colour is reserved for one job — saying whether a signature checked out —
+        so a green on this page always means the same thing.
+      */
+      :root {
+        color-scheme: light;
+        --field: #d9ddd7;
+        --sheet: #fcfcfa;
+        --sheet-sunk: #f2f4f0;
+        --ink: #16221c;
+        --ink-2: #4c5a53;
+        --ink-3: #6d7a73;
+        --rule: #c6ccc4;
+        --rule-strong: #97a099;
+        --verified: #17603f;
+        --verified-bg: #e4efe7;
+        --warn: #7d5b0e;
+        --warn-bg: #f6efdc;
+        --fail: #94302a;
+        --fail-bg: #f7e6e3;
+        --serif: "Iowan Old Style", "Charter", "Bitstream Charter", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+        --mono: ui-monospace, "Cascadia Mono", "SF Mono", SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace;
+        font-family: var(--serif);
+        color: var(--ink);
+        background: var(--field);
+        font-synthesis: none;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        min-height: 100vh;
+        padding: 1.5rem 1rem 3rem;
+        background: var(--field);
+        font-size: 17px;
+        line-height: 1.6;
+      }
+
+      main {
+        width: min(100%, 68rem);
+        margin: 0 auto;
+        border: 1px solid var(--rule-strong);
+        background: var(--sheet);
+      }
+
+      main[data-state="loaded"] > header {
+        display: none;
+      }
+
+      header {
+        padding: 2rem 2rem 1.75rem;
+        border-bottom: 1px solid var(--rule-strong);
+      }
+
+      h1,
+      h2,
+      h3,
+      p,
+      dl,
+      figure {
+        margin-top: 0;
+      }
+
+      h1 {
+        max-width: 22ch;
+        margin-bottom: 0.75rem;
+        font-size: 2.6rem;
+        font-weight: 600;
+        line-height: 1.08;
+        letter-spacing: -0.005em;
+      }
+
+      .hero-copy {
+        max-width: 62ch;
+        margin-bottom: 1.25rem;
+        color: var(--ink-2);
+        font-size: 1.0625rem;
+      }
+
+      .hero-facts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 1.5rem;
+        margin: 0;
+        padding: 0.7rem 0 0;
+        border-top: 1px solid var(--rule);
+        color: var(--ink-3);
+        font: 0.78rem/1.9 var(--mono);
+        letter-spacing: 0.02em;
+        list-style: none;
+      }
+
+      .panel {
+        padding: 1.75rem 2rem;
+        border-top: 1px solid var(--rule-strong);
+      }
+
+      .panel:first-of-type {
+        border-top: 0;
+      }
+
+      .panel-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 1.5rem;
+        align-items: baseline;
+        margin-bottom: 1.25rem;
+      }
+
+      h2 {
+        margin-bottom: 0;
+        font-size: 1.75rem;
+        font-weight: 600;
+        letter-spacing: -0.005em;
+      }
+
+      .panel-note {
+        max-width: 46ch;
+        margin-bottom: 0;
+        color: var(--ink-2);
+        font-size: 0.95rem;
+      }
+
+      .stamp {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.25rem 0.5rem;
+        border: 1px solid var(--rule-strong);
+        color: var(--ink-2);
+        font: 0.72rem/1.5 var(--mono);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+
+      .bench-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+        gap: 0;
+        border: 1px solid var(--rule);
+      }
+
+      .bench-input {
+        display: flex;
+        flex-direction: column;
+        grid-area: 1 / 1;
+        padding: 1.1rem;
+        border-right: 1px solid var(--rule);
+        background: var(--sheet-sunk);
+      }
+
+      .bench-output {
+        display: flex;
+        flex-direction: column;
+        grid-area: 1 / 2;
+        max-height: min(34rem, 56vh);
+        overflow: auto;
+        overscroll-behavior: contain;
+        padding: 1.1rem 1.25rem;
+      }
+
+      .field-label {
+        margin-bottom: 0.6rem;
+        color: var(--ink-3);
+        font: 0.72rem/1.5 var(--mono);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .drop-zone {
+        display: flex;
+        gap: 0.9rem;
+        align-items: center;
+        min-height: 8.5rem;
+        padding: 1rem;
+        border: 1px dashed var(--rule-strong);
+        background: var(--sheet);
+        color: var(--ink);
+        cursor: pointer;
+        text-align: left;
+      }
+
+      .drop-zone:hover,
+      .drop-zone:focus-within,
+      .drop-zone.is-dragging {
+        border-color: var(--verified);
+        border-style: solid;
+        background: var(--verified-bg);
+      }
+
+      .drop-zone input {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip-path: inset(50%);
+        white-space: nowrap;
+      }
+
+      .drop-mark {
+        flex: 0 0 auto;
+        color: var(--ink-2);
+      }
+
+      .drop-title {
+        display: block;
+        font-size: 1.0625rem;
+        font-weight: 600;
+      }
+
+      .drop-help {
+        display: block;
+        margin-top: 0.15rem;
+        color: var(--ink-2);
+        font-size: 0.9rem;
+        line-height: 1.45;
+      }
+
+      .reader[data-state="loaded"] .drop-zone {
+        min-height: 0;
+        padding: 0.7rem 0.85rem;
+      }
+
+      .reader[data-state="loaded"] .drop-help {
+        display: none;
+      }
+
+      .file-name {
+        margin: 0.6rem 0 0;
+        color: var(--ink-3);
+        font: 0.78rem/1.5 var(--mono);
+        overflow-wrap: anywhere;
+      }
+
+      .preview {
+        margin-top: 0.7rem;
+        overflow: hidden;
+        max-height: 11rem;
+        border: 1px solid var(--rule);
+        background: #fff;
+      }
+
+      .preview canvas {
+        display: block;
+        width: 100%;
+        height: 11rem;
+        margin: 0 auto;
+        object-fit: contain;
+      }
+
+      .toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 0.5rem;
+        margin-top: 1rem;
+      }
+
+      .bench-input .toolbar {
+        margin-top: 0.7rem;
+      }
+
+      .panel.details .toolbar {
+        justify-content: flex-start;
+        margin-top: 1.1rem;
+      }
+
+      button {
+        min-height: 2.5rem;
+        padding: 0.5rem 0.9rem;
+        border: 1px solid var(--rule-strong);
+        border-radius: 0;
+        background: var(--sheet);
+        color: var(--ink);
+        cursor: pointer;
+        font: 0.82rem/1.4 var(--mono);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+      }
+
+      button:hover:not(:disabled) {
+        border-color: var(--ink);
+        background: var(--ink);
+        color: var(--sheet);
+      }
+
+      button:active:not(:disabled) {
+        background: var(--verified);
+        border-color: var(--verified);
+        color: #fff;
+      }
+
+      button:focus-visible,
+      .drop-zone:focus-within,
+      .technical-details summary:focus-visible {
+        outline: 2px solid var(--verified);
+        outline-offset: 2px;
+      }
+
+      button:disabled {
+        border-color: var(--rule);
+        color: var(--ink-3);
+        cursor: not-allowed;
+      }
+
+      .result {
+        background: var(--sheet);
+      }
+
+      .result-heading {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        align-items: baseline;
+        padding-bottom: 0.6rem;
+        border-bottom: 1px solid var(--rule);
+      }
+
+      .result-heading h2 {
+        font-size: 1.45rem;
+      }
+
+      .result[data-state="empty"] .result-heading h2,
+      .result[data-state="empty"] .result-meta {
+        color: var(--ink-3);
+      }
+
+      .result-badge {
+        flex: 0 0 auto;
+        padding: 0.25rem 0.5rem;
+        border: 1px solid currentColor;
+        color: var(--ink-3);
+        font: 0.72rem/1.5 var(--mono);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+
+      .result-badge[data-state="verified"] {
+        background: var(--verified-bg);
+        color: var(--verified);
+      }
+
+      .result-badge[data-state="warning"],
+      .result-badge[data-state="unsupported"] {
+        background: var(--warn-bg);
+        color: var(--warn);
+      }
+
+      .result-badge[data-state="invalid"] {
+        background: var(--fail-bg);
+        color: var(--fail);
+      }
+
+      .result-meta {
+        margin: 0.8rem 0 0;
+        max-width: 62ch;
+        color: var(--ink-2);
+        font-size: 0.95rem;
+      }
+
+      .trust-panel {
+        display: flex;
+        gap: 0.7rem;
+        align-items: flex-start;
+        margin-top: 1rem;
+        padding: 0.8rem 0.9rem;
+        border: 1px solid var(--verified);
+        background: var(--verified-bg);
+        color: var(--verified);
+      }
+
+      .trust-panel[data-state="warning"],
+      .trust-panel[data-state="unsupported"] {
+        border-color: var(--warn);
+        background: var(--warn-bg);
+        color: var(--warn);
+      }
+
+      .trust-panel[data-state="invalid"] {
+        border-color: var(--fail);
+        background: var(--fail-bg);
+        color: var(--fail);
+      }
+
+      .trust-mark {
+        display: grid;
+        flex: 0 0 1.35rem;
+        width: 1.35rem;
+        height: 1.35rem;
+        place-items: center;
+        border: 1px solid currentColor;
+        font: 700 0.62rem/1 var(--mono);
+      }
+
+      .trust-copy {
+        margin: 0;
+        max-width: 58ch;
+        font-size: 0.92rem;
+        line-height: 1.5;
+      }
+
+      .trust-copy strong {
+        font-weight: 700;
+      }
+
+      .result-grid {
+        margin-top: 1rem;
+        border-top: 1px solid var(--rule);
+      }
+
+      .result-field {
+        display: grid;
+        grid-template-columns: minmax(9rem, 0.42fr) minmax(0, 1fr);
+        gap: 0 1rem;
+        margin: 0;
+        padding: 0.55rem 0;
+        border-bottom: 1px solid var(--rule);
+      }
+
+      .result-field dt {
+        color: var(--ink-3);
+        font: 0.72rem/1.9 var(--mono);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .result-field dd {
+        margin: 0;
+        color: var(--ink);
+        font: 0.95rem/1.5 var(--mono);
+        overflow-wrap: anywhere;
+      }
+
+      .result-warning {
+        margin: 0.9rem 0 0;
+        padding: 0.7rem 0 0;
+        max-width: 66ch;
+        border-top: 1px solid var(--rule);
+        color: var(--ink-2);
+        font-size: 0.9rem;
+        line-height: 1.5;
+      }
+
+      .payload-preview {
+        margin: 1rem 0 0;
+        padding: 0.9rem;
+        overflow: auto;
+        border: 1px solid var(--rule);
+        background: #fff;
+        color: var(--ink);
+        font: 0.88rem/1.55 var(--mono);
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+      }
+
+      .status {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.6rem;
+        margin: 1rem 0 0;
+        padding: 0.65rem 0.85rem;
+        border: 1px solid var(--rule-strong);
+        background: var(--sheet-sunk);
+        color: var(--ink-2);
+        font: 0.88rem/1.5 var(--mono);
+      }
+
+      .status::before {
+        content: "···";
+        color: var(--ink-3);
+        font-weight: 700;
+      }
+
+      .status[data-kind="success"] {
+        border-color: var(--verified);
+        background: var(--verified-bg);
+        color: var(--verified);
+      }
+
+      .status[data-kind="success"]::before {
+        content: "ok";
+        color: inherit;
+      }
+
+      .status[data-kind="error"] {
+        border-color: var(--fail);
+        background: var(--fail-bg);
+        color: var(--fail);
+      }
+
+      .status[data-kind="error"]::before {
+        content: "!!";
+        color: inherit;
+      }
+
+      .details-empty {
+        margin: 0;
+        max-width: 62ch;
+        color: var(--ink-2);
+        font-size: 0.95rem;
+      }
+
+      .technical-details summary {
+        width: fit-content;
+        padding: 0.4rem 0;
+        color: var(--ink);
+        cursor: pointer;
+        font: 0.82rem/1.4 var(--mono);
+        letter-spacing: 0.03em;
+        text-decoration: underline;
+        text-underline-offset: 0.25em;
+      }
+
+      .technical-intro {
+        margin: 0.8rem 0;
+        max-width: 68ch;
+        color: var(--ink-2);
+        font-size: 0.92rem;
+      }
+
+      .technical-heading {
+        margin: 1.1rem 0 0.35rem;
+        color: var(--ink-3);
+        font: 0.72rem/1.5 var(--mono);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .technical-meta {
+        margin-top: 0.8rem;
+      }
+
+      .technical-code {
+        margin: 0;
+        max-height: 18rem;
+        overflow: auto;
+        padding: 0.85rem;
+        border: 1px solid var(--rule);
+        background: #fff;
+        color: var(--ink);
+        font: 0.8rem/1.55 var(--mono);
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+      }
+
+      .jwt-signature {
+        max-height: 8rem;
+      }
+
+      .copy-buffer-label {
+        display: block;
+        margin-top: 1rem;
+        color: var(--ink-3);
+        font: 0.72rem/1.5 var(--mono);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      textarea {
+        display: block;
+        width: 100%;
+        min-height: 6rem;
+        margin-top: 0.4rem;
+        resize: vertical;
+        padding: 0.7rem;
+        border: 1px solid var(--rule-strong);
+        border-radius: 0;
+        background: #fff;
+        color: var(--ink);
+        font: 0.84rem/1.5 var(--mono);
+      }
+
+      .cases {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.95rem;
+      }
+
+      .cases caption {
+        margin-bottom: 0.75rem;
+        color: var(--ink-2);
+        font-size: 0.95rem;
+        text-align: left;
+      }
+
+      .cases th,
+      .cases td {
+        padding: 0.7rem 1rem 0.7rem 0;
+        border-bottom: 1px solid var(--rule);
+        text-align: left;
+        vertical-align: top;
+      }
+
+      .cases thead th {
+        border-bottom: 1px solid var(--rule-strong);
+        color: var(--ink-3);
+        font: 0.72rem/1.5 var(--mono);
+        font-weight: 400;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .cases tbody th {
+        width: 12rem;
+        color: var(--ink);
+        font-size: 1.0625rem;
+        font-weight: 600;
+      }
+
+      .cases tbody td {
+        color: var(--ink-2);
+      }
+
+      .cases .case-where {
+        color: var(--ink-3);
+        font: 0.82rem/1.5 var(--mono);
+      }
+
+      footer {
+        padding: 1.25rem 2rem 1.5rem;
+        border-top: 1px solid var(--rule-strong);
+        color: var(--ink-3);
+        font: 0.8rem/1.6 var(--mono);
+      }
+
+      code {
+        font: 0.92em var(--mono);
+      }
+
+      [hidden] {
+        display: none !important;
+      }
+
+      @media (max-width: 900px) {
+        .bench-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .bench-input,
+        .bench-output {
+          grid-area: auto;
+        }
+
+        .bench-input {
+          border-right: 0;
+          border-bottom: 1px solid var(--rule);
+        }
+
+        .bench-output {
+          max-height: none;
+          overflow: visible;
+        }
+
+        main[data-state="empty"] .bench-input {
+          order: 1;
+        }
+
+        main[data-state="empty"] .bench-output {
+          order: 2;
+        }
+
+        main[data-state="loaded"] .bench-output {
+          order: 1;
+        }
+
+        main[data-state="loaded"] .bench-input {
+          order: 2;
+        }
+      }
+
+      @media (max-width: 640px) {
+        body {
+          padding: 0.75rem 0.5rem 2rem;
+          font-size: 16px;
+        }
+
+        header,
+        .panel,
+        footer {
+          padding-right: 1.1rem;
+          padding-left: 1.1rem;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+
+        .panel-head,
+        .result-heading {
+          display: block;
+        }
+
+        .result-badge,
+        .stamp {
+          margin-top: 0.6rem;
+        }
+
+        .result-field {
+          grid-template-columns: 1fr;
+          gap: 0.15rem;
+        }
+
+        .cases,
+        .cases tbody,
+        .cases tr,
+        .cases th,
+        .cases td {
+          display: block;
+          width: auto;
+        }
+
+        .cases thead {
+          display: none;
+        }
+
+        .cases tbody tr {
+          padding: 0.5rem 0;
+          border-bottom: 1px solid var(--rule);
+        }
+
+        .cases th,
+        .cases td {
+          border: 0;
+          padding: 0.15rem 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main data-state="empty">
+
+      <header>
+        <h1>Leia o QR. Entenda o que ele carrega.</h1>
+        <p class="hero-copy">Uma bancada de inspeção para os códigos de documentos, placas e serviços públicos brasileiros. Escolha, arraste ou cole uma imagem: a leitura acontece nesta aba. Decodificar revela o conteúdo; autenticidade e validade continuam com o órgão emissor.</p>
+        <ul class="hero-facts">
+          <li>leitura 100% local</li>
+          <li>nenhum arquivo enviado</li>
+          <li>nenhum link aberto</li>
+          <li>funciona sem internet</li>
+        </ul>
+      </header>
+
+      <section class="panel reader" data-state="empty" aria-labelledby="reader-heading">
+
+        <div class="panel-head">
+          <h2 id="reader-heading">Escolha uma imagem</h2>
+          <span class="stamp">Tudo acontece neste dispositivo</span>
+        </div>
+
+        <div class="bench-grid">
+          <section class="result bench-output" id="result" data-state="empty" aria-labelledby="result-heading">
+            <div class="result-heading">
+              <h2 id="result-heading">O que foi lido</h2>
+              <span class="result-badge" id="resultBadge" data-state="neutral">aguardando leitura</span>
+            </div>
+            <p class="result-meta" id="resultMeta">Escolha uma imagem ao lado. O conteúdo decodificado aparece aqui, sem abrir nada.</p>
+            <div id="resultContent"></div>
+          </section>
+
+          <div class="bench-input">
+            <p class="field-label">Imagem</p>
+            <label class="drop-zone" id="dropZone" for="fileInput">
+              <input id="fileInput" type="file" accept="image/*">
+              <svg class="drop-mark" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+                <path d="M3 8V4h4M21 8V4h-4M3 16v4h4M21 16v4h-4"></path>
+                <rect x="8" y="8" width="8" height="8"></rect>
+              </svg>
+              <span>
+                <span class="drop-title">Arraste uma imagem aqui</span>
+                <span class="drop-help">ou clique para procurar. PNG, JPG, WEBP, até 30 MB. Também dá para colar com Ctrl/Cmd + V.</span>
+              </span>
+            </label>
+            <p class="file-name" id="fileName">Pronto para ler localmente.</p>
+            <div class="preview" id="preview" hidden>
+              <canvas id="previewCanvas" aria-label="Prévia da imagem selecionada"></canvas>
+            </div>
+            <div class="toolbar">
+              <button id="clearButton" type="button" disabled>Limpar imagem</button>
+            </div>
+          </div>
+        </div>
+
+        <p class="status" id="status" data-kind="neutral" role="status" aria-live="polite" aria-atomic="true">Pronto para ler localmente.</p>
+
+      </section>
+
+      <section class="panel details" aria-labelledby="details-heading">
+        <div class="panel-head">
+          <h2 id="details-heading">Por dentro do que foi lido</h2>
+          <p class="panel-note">Formato, modelo, estado da assinatura e o conteúdo bruto: tudo o que sustenta o resumo acima.</p>
+        </div>
+        <p class="details-empty" id="detailsEmpty">Leia um código para ver o formato reconhecido, o certificado usado na conferência e o payload como ele veio.</p>
+        <details class="technical-details" id="technicalDetails" hidden>
+          <summary>Mostrar mais detalhes</summary>
+          <div class="technical-body" id="technicalContent"></div>
+          <label class="copy-buffer-label" for="resultText">Conteúdo completo para copiar</label>
+          <textarea id="resultText" readonly aria-label="Conteúdo completo do QR Code"></textarea>
+        </details>
+        <div class="toolbar">
+          <button id="copyButton" type="button" disabled>Copiar conteúdo</button>
+        </div>
+      </section>
+
+      <section class="panel guide" aria-labelledby="guide-heading">
+        <div class="panel-head">
+          <h2 id="guide-heading">Qual QR você encontrou?</h2>
+        </div>
+        <table class="cases">
+          <caption>O mesmo desenho pode carregar um endereço, texto simples ou bytes assinados. O leitor identifica o que consegue reconhecer e não inventa uma validação.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Código</th>
+              <th scope="col">Onde aparece</th>
+              <th scope="col">O que carrega</th>
+              <th scope="col">O que a leitura prova</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">CIN física</th>
+              <td class="case-where">carteira impressa</td>
+              <td>Um token assinado pelo emissor, com poucos campos e o endereço oficial de validação.</td>
+              <td>A assinatura é conferida aqui. Vigência e situação, não.</td>
+            </tr>
+            <tr>
+              <th scope="row">Identidade Vio</th>
+              <td class="case-where">app e tela de validação</td>
+              <td>Bytes compactos com os campos do documento e a assinatura de quem os emitiu.</td>
+              <td>Os campos vêm nomeados pelo modelo conhecido; a assinatura é conferida quando há certificado.</td>
+            </tr>
+            <tr>
+              <th scope="row">Placa Mercosul</th>
+              <td class="case-where">placa veicular</td>
+              <td>O mesmo formato Vio, carregando só o número de série da placa.</td>
+              <td>Nada aqui consulta o fabricante ou o órgão de trânsito.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <footer>Não substitui a conferência no app oficial ou no órgão emissor.</footer>
+    </main>
+
+    <noscript>Este leitor precisa de JavaScript ativado para decodificar imagens localmente.</noscript>
+
+    <script src="./jsqr.js"></script>
+    <script src="./vio.js"></script>
+    <script src="./qr-formats.js"></script>
+    <script>
+      (() => {
+        "use strict";
+
+        const MAX_FILE_BYTES = 30 * 1024 * 1024;
+        const MAX_PREVIEW_DIMENSION = 1600;
+        const TILE_DIMENSION = 1600;
+        const TILE_OVERLAP = 0.5;
+        const decoderOptions = { inversionAttempts: "attemptBoth" };
+
+        const dropZone = document.querySelector("#dropZone");
+        const fileInput = document.querySelector("#fileInput");
+        const fileName = document.querySelector("#fileName");
+        const status = document.querySelector("#status");
+        const preview = document.querySelector("#preview");
+        const previewCanvas = document.querySelector("#previewCanvas");
+        const clearButton = document.querySelector("#clearButton");
+        const result = document.querySelector("#result");
+        const detailsEmpty = document.querySelector("#detailsEmpty");
+
+        const reader = document.querySelector(".reader");
+        const readerTitle = document.querySelector("#reader-heading");
+
+        const main = document.querySelector("main");
+
+        const resultMeta = document.querySelector("#resultMeta");
+        const resultTitle = document.querySelector("#result-heading");
+        const resultContent = document.querySelector("#resultContent");
+        const technicalDetails = document.querySelector("#technicalDetails");
+        const technicalContent = document.querySelector("#technicalContent");
+        const resultText = document.querySelector("#resultText");
+        const copyButton = document.querySelector("#copyButton");
+        const context = previewCanvas.getContext("2d", { willReadFrequently: true });
+        const scanCanvas = document.createElement("canvas");
+        const scanContext = scanCanvas.getContext("2d", { willReadFrequently: true });
+
+        let scanId = 0;
+
+        function setStatus(message, kind = "neutral") {
+          status.textContent = message;
+          status.dataset.kind = kind;
+        }
+
+        function bytesToBase64(bytes) {
+          let binary = "";
+          const chunkSize = 0x8000;
+          for (let offset = 0; offset < bytes.length; offset += chunkSize) {
+            binary += String.fromCharCode(...bytes.slice(offset, offset + chunkSize));
+          }
+          return btoa(binary);
+        }
+
+        function appendResultField(parent, label, value) {
+          const field = document.createElement("div");
+          field.className = "result-field";
+          const term = document.createElement("dt");
+          term.textContent = label;
+          const description = document.createElement("dd");
+          description.textContent = value;
+          field.append(term, description);
+          parent.append(field);
+        }
+
+        function appendWarning(parent, message) {
+          const warning = document.createElement("p");
+          warning.className = "result-warning";
+          warning.textContent = message;
+          parent.append(warning);
+        }
+
+        function appendTrustPanel(parent, state, title, message) {
+          const panel = document.createElement("div");
+          panel.className = "trust-panel";
+          panel.dataset.state = state;
+          const mark = document.createElement("span");
+          mark.className = "trust-mark";
+          mark.setAttribute("aria-hidden", "true");
+          mark.textContent = state === "verified" ? "OK" : state === "invalid" ? "!" : "?";
+          const copy = document.createElement("p");
+          copy.className = "trust-copy";
+          const heading = document.createElement("strong");
+          heading.textContent = title;
+          copy.append(heading, document.createElement("br"), message);
+          panel.append(mark, copy);
+          parent.append(panel);
+          return panel;
+        }
+
+        function renderJwtVerification(verification) {
+          const copy = {
+            verified: {
+              state: "verified",
+              badge: "assinatura verificada",
+              title: "Assinatura digital verificada neste dispositivo",
+            },
+            invalid: {
+              state: "invalid",
+              badge: "assinatura não conferiu",
+              title: "Assinatura não conferiu",
+            },
+            unavailable: {
+              state: "warning",
+              badge: "assinatura não verificada",
+              title: "Verificação indisponível",
+            },
+            unsupported: {
+              state: "unsupported",
+              badge: "algoritmo não verificado",
+              title: "Algoritmo não verificado",
+            },
+          }[verification?.state] ?? {
+            state: "warning",
+            badge: "assinatura não verificada",
+            title: "Verificação indisponível",
+          };
+          resultBadge.textContent = copy.badge;
+          resultBadge.dataset.state = copy.state;
+          const panel = appendTrustPanel(
+            resultContent,
+            copy.state,
+            copy.title,
+            verification?.message ?? "A assinatura não foi conferida neste navegador.",
+          );
+          resultContent.prepend(panel);
+        }
+
+        function fillTechnical(lines) {
+          technicalContent.replaceChildren();
+          const code = document.createElement("pre");
+          code.className = "technical-code";
+          code.textContent = lines.join("\n");
+          technicalContent.append(code);
+          technicalDetails.hidden = false;
+          technicalDetails.open = false;
+          detailsEmpty.hidden = true;
+        }
+
+        function appendTechnicalJson(parent, title, value, className = "technical-code") {
+          const heading = document.createElement("h3");
+          heading.className = "technical-heading";
+          heading.textContent = title;
+          const code = document.createElement("pre");
+          code.className = className;
+          code.textContent = typeof value === "string" ? value : JSON.stringify(value, null, 2);
+          parent.append(heading, code);
+        }
+
+        function fillJwtTechnical(classification, text, binaryData, verification) {
+          const jwt = classification.jwt;
+          technicalContent.replaceChildren();
+          const intro = document.createElement("p");
+          intro.className = "technical-intro";
+          intro.textContent = "Cabeçalho, payload e assinatura são exibidos localmente. A assinatura ES512 é conferida no navegador com a chave pública de produção da CIN embutida nesta página; nenhum dado é enviado.";
+          technicalContent.append(intro);
+
+          const meta = document.createElement("dl");
+          meta.className = "result-grid technical-meta";
+          const algorithm = String(jwt.header.alg ?? "não informado");
+          appendResultField(meta, "Formato", "JWT (JSON Web Token)");
+          appendResultField(meta, "Algoritmo", algorithm === "ES512" ? "ES512 (ECDSA P-521 + SHA-512)" : algorithm);
+          appendResultField(meta, "Tipo", String(jwt.header.typ ?? "não informado"));
+          appendResultField(meta, "Chave pública", "CIN produção · JWK local");
+          appendResultField(meta, "Verificação", verification?.label ?? "assinatura não verificada");
+          appendResultField(meta, "Tamanho do QR", `${binaryData.length} bytes`);
+          technicalContent.append(meta);
+          appendTechnicalJson(technicalContent, "Cabeçalho JWT", jwt.header);
+          appendTechnicalJson(technicalContent, "Payload JWT", jwt.payload);
+          appendTechnicalJson(technicalContent, "Assinatura (Base64URL)", jwt.signature, "technical-code jwt-signature");
+          appendTechnicalJson(technicalContent, "Token codificado", text);
+          const verificationMessage = document.createElement("p");
+          verificationMessage.className = "technical-intro";
+          verificationMessage.textContent = verification?.message ?? "A assinatura não foi conferida neste navegador.";
+          technicalContent.append(verificationMessage);
+
+          technicalDetails.hidden = false;
+          technicalDetails.open = false;
+          detailsEmpty.hidden = true;
+        }
+
+        function showResult(title, badge, state, meta) {
+          main.dataset.state = "loaded";
+          reader.dataset.state = "loaded";
+          readerTitle.textContent = "Resultado da leitura";
+          result.dataset.state = "loaded";
+          resultTitle.textContent = title;
+          resultBadge.textContent = badge;
+          resultBadge.dataset.state = state;
+          resultMeta.textContent = meta;
+          resultContent.replaceChildren();
+        }
+
+        function renderVioResult(vio, binaryData) {
+          const template = vio.template;
+          const isPlate = template?.kind === "placa-mercosul";
+          const verificationState = vio.verification?.state ?? "unavailable";
+          const badge = verificationState === "verified"
+            ? "assinatura verificada"
+            : verificationState === "invalid"
+              ? "assinatura não conferiu"
+              : "assinatura não verificada";
+          const title = isPlate
+            ? "Placa Mercosul"
+            : template
+              ? `Documento de identidade · Vio`
+              : "Código Vio";
+          showResult(title, badge, verificationState, vio.meta);
+
+          if (verificationState === "verified") {
+            appendTrustPanel(
+              resultContent,
+              "verified",
+              "Assinatura digital verificada neste dispositivo",
+              "A assinatura dos dados foi conferida com o certificado local disponível. Compare os dados com o documento físico e, quando necessário, use o aplicativo ou órgão emissor.",
+            );
+          } else if (verificationState === "invalid") {
+            appendTrustPanel(
+              resultContent,
+              "invalid",
+              "Assinatura não conferiu",
+              "Trate os dados como não confiáveis. A leitura do padrão não prova autenticidade.",
+            );
+          } else {
+            appendTrustPanel(
+              resultContent,
+              "warning",
+              "Formato reconhecido; assinatura não verificada",
+              "Este leitor não tem um certificado local válido para conferir este modelo. Trate os dados como não confiáveis.",
+            );
+          }
+
+          if (template) {
+            const source = document.createElement("p");
+            source.className = "result-warning";
+            source.textContent = `${template.name} · ${template.owner}. Reconhecimento baseado no modelo local; confirme no documento e no app oficial.`;
+            resultContent.append(source);
+          }
+
+          const fields = document.createElement("dl");
+          fields.className = "result-grid";
+          for (const field of vio.fields ?? []) {
+            if (field.value.length > 0) {
+              appendResultField(fields, field.label, field.value);
+            }
+          }
+          if (fields.children.length > 0) {
+            resultContent.append(fields);
+          } else {
+            appendWarning(resultContent, "O modelo foi reconhecido, mas não trouxe campos preenchidos para exibir.");
+          }
+
+          if (vio.fieldCountMatches === false && template) {
+            appendWarning(resultContent, `O código trouxe ${vio.values.length} valores; o modelo espera ${template.fields.length}.`);
+          }
+
+          const certificate = vio.verification?.certificateId ?? "indisponível";
+          const curve = vio.verification?.curve ?? "indisponível";
+          fillTechnical([
+            "Formato: Vio QR",
+            `Versão: ${vio.version}`,
+            `ID do modelo: ${vio.templateId}`,
+            `Modelo local: ${template?.name ?? "desconhecido"}`,
+            `Data indicada no payload: ${vio.createdAt}`,
+            `Estado da assinatura: ${verificationState}`,
+            `Certificado local: ${certificate}`,
+            `Curva: ${curve}`,
+            `Quantidade de campos: ${vio.values.length}`,
+            `Tamanho do payload: ${binaryData.length} bytes`,
+            "",
+            "Payload bruto (Base64):",
+            bytesToBase64(binaryData),
+          ]);
+          resultText.value = vio.text;
+          copyButton.disabled = resultText.value.length === 0;
+          return "vio";
+        }
+
+        async function renderTextResult(text, binaryData) {
+          const classification = typeof window.qrFormats?.classifyText === "function"
+            ? window.qrFormats.classifyText(text)
+            : {
+              kind: "text",
+              title: "QR genérico",
+              badge: "texto legível",
+              meta: "O conteúdo foi decodificado localmente. Nada foi aberto automaticamente.",
+              warning: "A leitura do conteúdo não confirma autenticidade.",
+              fields: [],
+              preview: text,
+            };
+          const state = ["cin-fisica", "placa-mercosul"].includes(classification.kind) ? "warning" : "neutral";
+          showResult(classification.title, classification.badge, state, classification.meta);
+
+          if (classification.fields.length > 0) {
+            const fields = document.createElement("dl");
+            fields.className = "result-grid";
+            for (const field of classification.fields) {
+              appendResultField(fields, field.label, field.value);
+            }
+            resultContent.append(fields);
+          }
+          if (classification.preview) {
+            const previewText = document.createElement("pre");
+            previewText.className = "payload-preview";
+            previewText.textContent = classification.preview;
+            resultContent.append(previewText);
+          }
+          if (classification.warning) {
+            appendWarning(resultContent, classification.warning);
+          }
+          appendWarning(
+            resultContent,
+            "Ler um QR Code só prova que o padrão foi decodificado. Isso não confirma que o documento, a placa ou os dados sejam autênticos.",
+          );
+
+          if (classification.jwt) {
+            const verification = typeof window.qrFormats?.verifyJwtSignature === "function"
+              ? await window.qrFormats.verifyJwtSignature(classification.jwt)
+              : {
+                state: "unavailable",
+                label: "assinatura não verificada",
+                message: "O verificador local não está disponível nesta página.",
+              };
+            renderJwtVerification(verification);
+            fillJwtTechnical(classification, text, binaryData, verification);
+          } else {
+            fillTechnical([
+              `Classificação local: ${classification.kind}`,
+              `Caracteres decodificados: ${text.length}`,
+              `Bytes disponíveis: ${binaryData.length}`,
+              "",
+              "Payload bruto:",
+              text || "(vazio)",
+            ]);
+          }
+          resultText.value = text;
+          copyButton.disabled = resultText.value.length === 0;
+          return classification.kind;
+        }
+
+        function renderBinaryResult(binaryData) {
+          const base64 = bytesToBase64(binaryData);
+          showResult(
+            "Dados binários",
+            "bytes preservados",
+            "warning",
+            "O QR contém bytes que não correspondem a texto simples. Eles foram preservados sem interpretação automática.",
+          );
+          const previewText = document.createElement("pre");
+          previewText.className = "payload-preview";
+          previewText.textContent = `Payload binário preservado: ${binaryData.length} bytes.`;
+          resultContent.append(previewText);
+          appendWarning(
+            resultContent,
+            "Este leitor não reconheceu um modelo Vio local para estes bytes. Trate o conteúdo como não confiável.",
+          );
+          fillTechnical([
+            "Classificação local: binário não identificado",
+            `Tamanho do payload: ${binaryData.length} bytes`,
+            "",
+            "Payload bruto (Base64):",
+            base64,
+          ]);
+          resultText.value = `Base64 (${binaryData.length} bytes):\n${base64}`;
+          copyButton.disabled = false;
+          return "binary";
+        }
+
+        async function setResult(decoded) {
+          const text = decoded.data || "";
+          const binaryData = decoded.binaryData || [];
+          if (binaryData.length > 0 && typeof window.vioDecoder?.decode === "function") {
+            const vio = await window.vioDecoder.decode(binaryData);
+            if (vio) {
+              return renderVioResult(vio, binaryData);
+            }
+          }
+          if (!text && binaryData.length > 0) {
+            return renderBinaryResult(binaryData);
+          }
+          return renderTextResult(text, binaryData);
+        }
+
+        function clearResult() {
+          main.dataset.state = "empty";
+          reader.dataset.state = "empty";
+          readerTitle.textContent = "Escolha uma imagem";
+          result.dataset.state = "empty";
+          resultTitle.textContent = "O que foi lido";
+          resultBadge.textContent = "aguardando leitura";
+          resultBadge.dataset.state = "neutral";
+          resultMeta.textContent = "Escolha uma imagem ao lado. O conteúdo decodificado aparece aqui, sem abrir nada.";
+          resultContent.replaceChildren();
+          technicalContent.replaceChildren();
+          technicalDetails.hidden = true;
+          detailsEmpty.hidden = false;
+          technicalDetails.open = false;
+          resultText.value = "";
+          copyButton.disabled = true;
+        }
+
+        function clearImageState() {
+          fileInput.value = "";
+          fileName.textContent = "Pronto para ler localmente.";
+          preview.hidden = true;
+          previewCanvas.width = 1;
+          previewCanvas.height = 1;
+          context.clearRect(0, 0, 1, 1);
+          clearButton.disabled = true;
+        }
+
+        function resetReader() {
+          scanId += 1;
+          clearImageState();
+          clearResult();
+          setStatus("Pronto para ler localmente.");
+        }
+
+        function nextFrame() {
+          return new Promise((resolve) => {
+            if (typeof requestAnimationFrame === "function") {
+              requestAnimationFrame(resolve);
+              return;
+            }
+            setTimeout(resolve, 0);
+          });
+        }
+
+        function imageDimensions(image) {
+          const sourceWidth = image.naturalWidth || image.width;
+          const sourceHeight = image.naturalHeight || image.height;
+          const largestSide = Math.max(sourceWidth, sourceHeight);
+          const scale = Math.min(1, MAX_PREVIEW_DIMENSION / largestSide);
+
+          return {
+            width: Math.max(1, Math.round(sourceWidth * scale)),
+            height: Math.max(1, Math.round(sourceHeight * scale)),
+          };
+        }
+
+        function loadImage(file) {
+          if (typeof createImageBitmap === "function") {
+            return createImageBitmap(file, { imageOrientation: "from-image" }).catch(() => loadImageElement(file));
+          }
+          return loadImageElement(file);
+        }
+
+        function loadImageElement(file) {
+          return new Promise((resolve, reject) => {
+            const objectUrl = URL.createObjectURL(file);
+            const image = new Image();
+            image.decoding = "async";
+            image.onload = () => {
+              URL.revokeObjectURL(objectUrl);
+              resolve(image);
+            };
+            image.onerror = () => {
+              URL.revokeObjectURL(objectUrl);
+              reject(new Error("A imagem selecionada não pôde ser lida."));
+            };
+            image.src = objectUrl;
+          });
+        }
+
+        function axisStarts(length, tile, step) {
+          if (length <= tile) {
+            return [0];
+          }
+
+          const starts = [0];
+          for (let start = step; start + tile < length; start += step) {
+            starts.push(start);
+          }
+          starts.push(length - tile);
+          return [...new Set(starts)];
+        }
+
+        function regionsFor(width, height) {
+          const tile = Math.min(TILE_DIMENSION, Math.max(800, Math.min(width, height)));
+          const step = Math.max(1, Math.floor(tile * (1 - TILE_OVERLAP)));
+          if (width <= tile && height <= tile) {
+            return [{ x: 0, y: 0, width, height }];
+          }
+
+          const regions = [];
+          for (const y of axisStarts(height, tile, step)) {
+            for (const x of axisStarts(width, tile, step)) {
+              regions.push({
+                x,
+                y,
+                width: Math.min(tile, width - x),
+                height: Math.min(tile, height - y),
+              });
+            }
+          }
+
+          return regions;
+        }
+
+        async function scanImage(image, width, height, currentScanId) {
+          if (typeof window.jsQR !== "function") {
+            throw new Error("O decodificador local está ausente. Mantenha jsqr.js ao lado deste HTML.");
+          }
+
+          for (const region of regionsFor(width, height)) {
+            if (currentScanId !== scanId) {
+              return null;
+            }
+
+            scanCanvas.width = region.width;
+            scanCanvas.height = region.height;
+            scanContext.drawImage(
+              image,
+              region.x,
+              region.y,
+              region.width,
+              region.height,
+              0,
+              0,
+              region.width,
+              region.height,
+            );
+            const imageData = scanContext.getImageData(0, 0, region.width, region.height);
+            const decoded = window.jsQR(imageData.data, region.width, region.height, decoderOptions);
+            if (decoded) {
+              return decoded;
+            }
+            await nextFrame();
+          }
+
+          return null;
+        }
+
+        async function handleFile(file) {
+          const currentScanId = ++scanId;
+          clearResult();
+
+          if (!file) {
+            return;
+          }
+          if (!file.type.startsWith("image/")) {
+            clearImageState();
+            setStatus("Escolha um arquivo de imagem.", "error");
+            return;
+          }
+          if (file.size > MAX_FILE_BYTES) {
+            clearImageState();
+            setStatus("Esta imagem ultrapassa 30 MB. Escolha um arquivo menor.", "error");
+            return;
+          }
+
+          clearButton.disabled = false;
+          fileName.textContent = file.name;
+          preview.hidden = true;
+          setStatus("Lendo a imagem neste dispositivo…");
+
+          let image;
+          try {
+            image = await loadImage(file);
+            if (currentScanId !== scanId) {
+              return;
+            }
+
+            const sourceWidth = image.naturalWidth || image.width;
+            const sourceHeight = image.naturalHeight || image.height;
+            const dimensions = imageDimensions(image);
+            previewCanvas.width = dimensions.width;
+            previewCanvas.height = dimensions.height;
+            context.drawImage(image, 0, 0, dimensions.width, dimensions.height);
+            preview.hidden = false;
+            setStatus("Procurando um QR Code…");
+
+            const decoded = await scanImage(image, sourceWidth, sourceHeight, currentScanId);
+            if (currentScanId !== scanId) {
+              return;
+            }
+            if (!decoded) {
+              setStatus("Não encontrei um QR Code. Tente uma imagem mais nítida, com menos reflexo ou um recorte mais próximo.", "error");
+              return;
+            }
+
+            const resultKind = await setResult(decoded);
+            const statusMessage = resultKind === "vio"
+              ? "Código Vio encontrado. O conteúdo não foi aberto automaticamente."
+              : "QR Code encontrado. O conteúdo não foi aberto automaticamente.";
+            setStatus(statusMessage, "success");
+          } catch (error) {
+            if (currentScanId !== scanId) {
+              return;
+            }
+            const message = error instanceof Error ? error.message : "A imagem não pôde ser lida.";
+            setStatus(message, "error");
+          } finally {
+            image?.close?.();
+          }
+        }
+
+        async function copyContent() {
+          if (!resultText.value) {
+            return;
+          }
+
+          try {
+            await navigator.clipboard.writeText(resultText.value);
+            setStatus("Conteúdo copiado para a área de transferência.", "success");
+            return;
+          } catch {
+            technicalDetails.open = true;
+            resultText.focus();
+            resultText.select();
+            const copied = document.execCommand("copy");
+            resultText.setSelectionRange(0, 0);
+            setStatus(copied ? "Conteúdo copiado para a área de transferência." : "Abra os detalhes e copie o conteúdo manualmente.", copied ? "success" : "error");
+          }
+        }
+
+        fileInput.addEventListener("change", () => {
+          void handleFile(fileInput.files?.[0]);
+        });
+
+        clearButton.addEventListener("click", resetReader);
+        copyButton.addEventListener("click", () => {
+          void copyContent();
+        });
+
+        for (const eventName of ["dragenter", "dragover"]) {
+          dropZone.addEventListener(eventName, (event) => {
+            event.preventDefault();
+            dropZone.classList.add("is-dragging");
+          });
+        }
+
+        for (const eventName of ["dragleave", "drop"]) {
+          dropZone.addEventListener(eventName, (event) => {
+            event.preventDefault();
+            dropZone.classList.remove("is-dragging");
+          });
+        }
+
+        dropZone.addEventListener("drop", (event) => {
+          void handleFile(event.dataTransfer?.files?.[0]);
+        });
+
+        window.addEventListener("paste", (event) => {
+          const image = [...(event.clipboardData?.files ?? [])].find((file) => file.type.startsWith("image/"));
+          if (image) {
+            void handleFile(image);
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>

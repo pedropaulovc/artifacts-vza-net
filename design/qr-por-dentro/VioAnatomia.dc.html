@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body {
+      margin: 0;
+      background: #fcfcfa;
+      font-family: "Iowan Old Style", "Charter", "Bitstream Charter", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+      color: #16221c;
+      font-synthesis: none;
+    }
+    * { box-sizing: border-box; }
+    a { color: #16221c; }
+    a:hover { color: #16221c; }
+    button { font: inherit; }
+  </style>
+</helmet>
+<div style="display: flex; flex-direction: column; gap: 1.25rem; padding: 1.8rem; background: #fcfcfa; border: 1px solid #97a099; border-radius: 0">
+  <div style="display: flex; justify-content: space-between; gap: 1.5rem; align-items: start">
+    <div style="display: flex; flex-direction: column; gap: 0.35rem">
+      <h2 style="margin: 0; font-size: 1.7rem; letter-spacing: -0.005em">O código Vio carrega o documento inteiro</h2>
+      <p style="max-width: 46rem; margin: 0.25rem 0 0; color: #4c5a53; font-size: 0.94rem; line-height: 1.55">Nada de endereço para consultar depois: os campos vêm dentro do próprio código, junto com a assinatura de quem os emitiu. Clique em cada peça para ver o que ela faz.</p>
+    </div>
+    <div style="display: flex; gap: 0.4rem">
+      <sc-for list="{{templates}}" as="option" hint-placeholder-count="2">
+        <button type="button" onClick="{{option.pick}}" style="min-height: 2.75rem; padding: 0.6rem 0.9rem; border: 1px solid {{option.borderColor}}; border-radius: 0; background: {{option.background}}; color: {{option.color}}; cursor: pointer; font-size: 0.8rem; font-weight: 800; white-space: nowrap">{{option.label}}</button>
+      </sc-for>
+    </div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 1.1rem; align-items: start">
+    <div style="display: flex; flex-direction: column; gap: 0.5rem">
+      <sc-for list="{{parts}}" as="part" hint-placeholder-count="5">
+        <button type="button" onClick="{{part.pick}}" style="display: grid; grid-template-columns: 1.6rem 1fr; gap: 0.85rem; align-items: center; min-height: 3.4rem; padding: 0; overflow: hidden; border: 1px solid {{part.borderColor}}; border-radius: 0; background: {{part.background}}; color: #16221c; cursor: pointer; text-align: left">
+          <span style="display: grid; width: 1.6rem; height: 100%; place-items: center; border-right: 1px solid #c6ccc4; color: {{part.accent}}; font: 0.72rem ui-monospace, monospace">{{part.index}}</span>
+          <span style="display: flex; justify-content: space-between; gap: 0.75rem; align-items: center; padding: 0.75rem 0.9rem 0.75rem 0">
+            <span style="font-size: 0.92rem; font-weight: 800">{{part.label}}</span>
+            <span style="color: #4c5a53; font-size: 0.75rem; font-weight: 700; white-space: nowrap">{{part.tag}}</span>
+          </span>
+        </button>
+      </sc-for>
+      <p style="margin: 0.35rem 0 0; color: #4c5a53; font-size: 0.78rem; line-height: 1.5">As peças aparecem na ordem em que o leitor as encontra dentro do código.</p>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 0.9rem; padding: 1.2rem 1.3rem; border: 1px solid #c6ccc4; border-radius: 0; background: #fcfcfa">
+      <h3 style="margin: 0; color: {{current.accent}}; font-size: 1.15rem; letter-spacing: -0.005em">{{current.title}}</h3>
+      <p style="margin: 0; color: #4c5a53; font-size: 0.9rem; line-height: 1.55">{{current.summary}}</p>
+      <sc-for list="{{current.notes}}" as="note" hint-placeholder-count="2">
+        <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.55rem; align-items: start; color: #4c5a53; font-size: 0.86rem; line-height: 1.5">
+          <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #17603f"></span>
+          <span>{{note.text}}</span>
+        </div>
+      </sc-for>
+      <sc-if value="{{current.showsFields}}" hint-placeholder-val="{{true}}">
+        <div style="display: flex; flex-direction: column; gap: 0.5rem; padding-top: 0.35rem; border-top: 1px solid #c6ccc4">
+          <p style="margin: 0.55rem 0 0; color: #6d7a73; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase">{{template.name}} · {{template.fieldCount}}</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.4rem">
+            <sc-for list="{{template.fields}}" as="field" hint-placeholder-count="6">
+              <span style="display: inline-flex; align-items: center; padding: 0.4rem 0.65rem; border-radius: 0; background: #f2f4f0; color: #4c5a53; font-size: 0.76rem; font-weight: 700">{{field.label}}</span>
+            </sc-for>
+          </div>
+        </div>
+      </sc-if>
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 0.75rem; align-items: flex-start; padding: 0.95rem 1.1rem; border: 1px solid #7d5b0e; border-radius: 0; background: #f6efdc; color: #7d5b0e">
+    <span style="display: grid; flex: 0 0 1.55rem; width: 1.55rem; height: 1.55rem; place-items: center; border-radius: 0; background: currentColor; color: #f6efdc; font-size: 0.62rem; font-weight: 900">?</span>
+    <p style="margin: 0; font-size: 0.86rem; line-height: 1.5"><strong>Reconhecer o modelo e conferir a assinatura são duas coisas diferentes.</strong><br>Sem o modelo, os valores aparecem numerados em vez de nomeados. E mesmo um modelo conhecido pode apontar para um certificado que não vem embutido aqui — é o caso de um dos dois modelos de placa: o leitor mostra os campos e diz, na mesma tela, que a assinatura ficou sem conferência.</p>
+  </div>
+</div>
+</x-dc>
+<script data-dc-script>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { part: "campos", template: "rg" };
+  }
+
+  templateData() {
+    return [
+      {
+        id: "rg",
+        label: "RG Digital",
+        name: "RG Digital · GovBr",
+        fieldCount: "15 campos",
+        fields: [
+          "Nome", "Nome social", "Registro Geral / CPF", "Sexo", "Data de nascimento",
+          "Nacionalidade", "Naturalidade", "Data de validade", "Filiação 1", "Filiação 2",
+          "Órgão expedidor", "Local de emissão", "Data de emissão", "Certidão de nascimento / casamento / divórcio", "Hash",
+        ].map((label) => ({ label })),
+      },
+      {
+        id: "placa",
+        label: "Placa Mercosul",
+        name: "Placa veicular Mercosul · SENATRAN",
+        fieldCount: "1 campo",
+        fields: [{ label: "Número de série da placa" }],
+      },
+    ];
+  }
+
+  partData() {
+    return [
+      {
+        id: "data",
+        label: "Quando o código foi gerado",
+        tag: "carimbo de tempo",
+        accent: "#16221c",
+        activeBackground: "#f2f4f0",
+        title: "A data que o próprio código declara",
+        summary: "O primeiro pedaço marca o momento em que aquele código foi criado. O leitor mostra essa data como ela veio.",
+        notes: [
+          "Serve para saber se o código foi gerado dentro do período em que o certificado do emissor valia.",
+          "É uma data declarada dentro do código, não uma data confirmada por um relógio oficial.",
+        ],
+        showsFields: false,
+      },
+      {
+        id: "versao",
+        label: "Versão do formato",
+        tag: "versão 4",
+        accent: "#4c5a53",
+        activeBackground: "#f2f4f0",
+        title: "Qual gramática o código usa",
+        summary: "O formato Vio mudou ao longo do tempo. Esta página entende a versão 4. Se a versão for outra, o código simplesmente deixa de ser reconhecido como Vio e volta a ser tratado como bytes ou texto comum.",
+        notes: [
+          "A troca é essa: nada de palpite, mas também nenhum aviso na tela dizendo que era um Vio de outra versão. Um leitor que adivinha seria pior.",
+        ],
+        showsFields: false,
+      },
+      {
+        id: "modelo",
+        label: "Qual modelo de documento",
+        tag: "identificador do modelo",
+        accent: "#17603f",
+        activeBackground: "#e4efe7",
+        title: "O número que dá nome aos campos",
+        summary: "Os campos viajam sem etiqueta. É o modelo que diz o que é o primeiro valor, o que é o segundo, e assim por diante. Sem ele, sobram valores soltos.",
+        notes: [
+          "Um mesmo formato serve para uma carteira de identidade e para uma placa de carro; muda só o modelo.",
+          "Os modelos conhecidos por esta página estão embutidos nela — por isso ela funciona sem internet.",
+        ],
+        showsFields: true,
+      },
+      {
+        id: "assinatura",
+        label: "Assinatura digital",
+        tag: "carimbo do emissor",
+        accent: "#7d5b0e",
+        activeBackground: "#f6efdc",
+        title: "O carimbo que cobre todo o resto",
+        summary: "A assinatura é calculada sobre tudo o que vem junto: a data, a versão, o modelo, o bloco de dados e os campos. Mexer em qualquer um deles quebra o carimbo.",
+        notes: [
+          "A conferência acontece no seu navegador, contra certificados que vieram junto com a página — e nem todo modelo conhecido tem o seu aqui.",
+          "Verificado quer dizer que o conteúdo não mudou depois de assinado. Não fala sobre validade, situação, revogação ou propriedade.",
+        ],
+        showsFields: false,
+      },
+      {
+        id: "campos",
+        label: "Os campos do documento",
+        tag: "conteúdo",
+        accent: "#17603f",
+        activeBackground: "#e4efe7",
+        title: "Os dados, escritos de forma compacta",
+        summary: "Para caber em um QR, os campos são gravados em um alfabeto próprio do formato, um atrás do outro, com um marcador entre eles. Por isso o conteúdo bruto não parece texto.",
+        notes: [
+          "Compacto não é criptografado: quem tiver o código consegue ler os campos. Trate a foto do seu QR como trataria a foto do documento.",
+          "O leitor casa cada valor com o nome que o modelo indica e mostra apenas os que vieram preenchidos.",
+        ],
+        showsFields: true,
+      },
+    ];
+  }
+
+  renderVals() {
+    const parts = this.partData();
+    const templates = this.templateData();
+    const current = parts.find((item) => item.id === this.state.part) ?? parts[0];
+    const template = templates.find((item) => item.id === this.state.template) ?? templates[0];
+    return {
+      parts: parts.map((item, index) => ({
+        ...item,
+        index: String(index + 1).padStart(2, "0"),
+        pick: () => this.setState({ part: item.id }),
+        borderColor: item.id === current.id ? item.accent : "#c6ccc4",
+        background: item.id === current.id ? item.activeBackground : "#fcfcfa",
+      })),
+      templates: templates.map((item) => ({
+        ...item,
+        pick: () => this.setState({ template: item.id }),
+        borderColor: item.id === template.id ? "#17603f" : "#97a099",
+        background: item.id === template.id ? "#e4efe7" : "#fcfcfa",
+        color: item.id === template.id ? "#17603f" : "#16221c",
+      })),
+      current: { ...current, notes: current.notes.map((text) => ({ text })) },
+      template,
+    };
+  }
+}
+</script>
+</body>
+</html>

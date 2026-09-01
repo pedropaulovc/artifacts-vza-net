@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body {
+      margin: 0;
+      background: #fcfcfa;
+      font-family: "Iowan Old Style", "Charter", "Bitstream Charter", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+      color: #16221c;
+      font-synthesis: none;
+    }
+    * { box-sizing: border-box; }
+    a { color: #16221c; }
+    a:hover { color: #16221c; }
+    button { font: inherit; }
+  </style>
+</helmet>
+<div style="display: flex; flex-direction: column; gap: 1.25rem; padding: 1.8rem; background: #fcfcfa; border: 1px solid #97a099; border-radius: 0">
+  <div style="display: flex; flex-direction: column; gap: 0.35rem">
+    <h2 style="margin: 0; font-size: 1.7rem; letter-spacing: -0.005em">Como o leitor decide qual QR você encontrou</h2>
+    <p style="max-width: 44rem; margin: 0.25rem 0 0; color: #4c5a53; font-size: 0.94rem; line-height: 1.55">Ele faz uma pergunta de cada vez, sempre nesta ordem. Clique em qualquer resultado para ver o que aparece na tela — e o que continua sem prova.</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.1rem; align-items: start">
+    <div style="display: flex; flex-direction: column; gap: 1rem">
+      <sc-for list="{{groups}}" as="group" hint-placeholder-count="2">
+        <div style="display: flex; flex-direction: column; gap: 0.6rem; padding: 1rem 1.1rem; border: 1px solid #c6ccc4; border-radius: 0; background: #fcfcfa">
+          <p style="margin: 0; color: #16221c; font-size: 0.9rem; font-weight: 800; line-height: 1.4">{{group.question}}</p>
+          <p style="margin: 0; color: #4c5a53; font-size: 0.82rem; line-height: 1.45">{{group.hint}}</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.15rem">
+            <sc-for list="{{group.options}}" as="item" hint-placeholder-count="3">
+              <button type="button" onClick="{{item.pick}}" style="min-height: 2.75rem; padding: 0.6rem 0.9rem; border: 1px solid {{item.borderColor}}; border-radius: 0; background: {{item.background}}; color: {{item.color}}; cursor: pointer; font-size: 0.84rem; font-weight: 800; text-align: left">{{item.label}}</button>
+            </sc-for>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 0.9rem; padding: 1.2rem 1.3rem; border: 1px solid #c6ccc4; border-radius: 0; background: #fcfcfa">
+      <div style="display: flex; justify-content: space-between; gap: 1rem; align-items: center">
+        <h3 style="margin: 0; font-size: 1.15rem; letter-spacing: -0.005em">{{current.title}}</h3>
+        <span style="display: inline-flex; align-items: center; padding: 0.5rem 0.7rem; border-radius: 0; background: {{current.badgeBackground}}; color: {{current.badgeColor}}; font-size: 0.75rem; font-weight: 800; white-space: nowrap">{{current.badge}}</span>
+      </div>
+      <p style="margin: 0; color: #4c5a53; font-size: 0.9rem; line-height: 1.55">{{current.summary}}</p>
+
+      <div style="display: flex; flex-direction: column; gap: 0.4rem">
+        <p style="margin: 0; color: #6d7a73; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase">O que a tela mostra</p>
+        <sc-for list="{{current.shows}}" as="line" hint-placeholder-count="3">
+          <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.55rem; align-items: start; color: #4c5a53; font-size: 0.86rem; line-height: 1.5">
+            <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #17603f"></span>
+            <span>{{line.text}}</span>
+          </div>
+        </sc-for>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; align-items: flex-start; padding: 0.9rem 1rem; border: 1px solid #7d5b0e; border-radius: 0; background: #f6efdc; color: #7d5b0e">
+        <span style="display: grid; flex: 0 0 1.55rem; width: 1.55rem; height: 1.55rem; place-items: center; border-radius: 0; background: currentColor; color: #f6efdc; font-size: 0.62rem; font-weight: 900">!</span>
+        <p style="margin: 0; font-size: 0.86rem; line-height: 1.5"><strong>Continua sem prova.</strong> {{current.limit}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script data-dc-script>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { selected: "cin" };
+  }
+
+  cases() {
+    return [
+      {
+        id: "vio-doc",
+        group: 0,
+        tone: "verified",
+        label: "Documento Vio",
+        title: "Documento de identidade · Vio",
+        badge: "assinatura verificada",
+        summary: "O conteúdo encaixou no formato Vio e o modelo é um dos que a página conhece. Os valores são remontados com os nomes daquele modelo e a assinatura é conferida aqui mesmo.",
+        shows: ["Campos como nome, filiação, data de validade e órgão expedidor", "O modelo reconhecido e quem responde por ele", "O estado da assinatura, em verde apenas quando ela confere"],
+        limit: "Uma assinatura que confere diz que aqueles dados não mudaram depois de assinados. Não diz que a carteira está vigente, nem que quem a apresenta é o titular.",
+      },
+      {
+        id: "vio-placa",
+        group: 0,
+        tone: "warning",
+        label: "Placa Mercosul",
+        title: "Placa Mercosul",
+        badge: "depende do certificado",
+        summary: "O mesmo formato Vio, com um modelo que carrega só o número de série da placa. É o selo eletrônico da placa, não o cadastro do veículo.",
+        shows: ["O número de série da placa", "O modelo do SENATRAN reconhecido localmente", "O estado da assinatura — e há mais de um modelo de placa"],
+        limit: "Um dos modelos de placa aponta para um certificado que não vem embutido nesta página: nesse caso a assinatura fica sem conferência, mesmo com o modelo reconhecido. E nada aqui consulta a base do fabricante ou do órgão de trânsito.",
+      },
+      {
+        id: "vio-desconhecido",
+        group: 0,
+        tone: "warning",
+        label: "Modelo Vio desconhecido",
+        title: "Código Vio",
+        badge: "campos sem nome",
+        summary: "O formato foi reconhecido, mas o modelo não está embutido aqui. Os valores aparecem na ordem em que vieram, sem os nomes que dariam sentido a eles.",
+        shows: ["Os valores encontrados, numerados em vez de nomeados", "O número do modelo, para quem quiser investigar", "O aviso de que não há certificado local para conferir a assinatura"],
+        limit: "Sem o modelo, a página não sabe se o terceiro valor é uma data de emissão ou um número de série. E sem certificado, não há assinatura a conferir.",
+      },
+      {
+        id: "binario",
+        group: 1,
+        tone: "warning",
+        label: "Nada de texto · bytes preservados",
+        title: "Dados binários",
+        badge: "bytes preservados",
+        summary: "O conteúdo não encaixou no formato Vio e também não trouxe texto legível. A página guarda os bytes como vieram, sem inventar uma leitura.",
+        shows: ["O tamanho do conteúdo em bytes", "O conteúdo bruto em Base64, para você levar a outro lugar", "Um aviso de que nada foi interpretado"],
+        limit: "Não reconhecer um formato não é sinal de fraude — e reconhecer também não seria sinal de autenticidade.",
+      },
+      {
+        id: "cin",
+        group: 2,
+        tone: "warning",
+        label: "Sinais da CIN",
+        title: "CIN física",
+        badge: "JWT · possível validação",
+        summary: "O texto traz sinais da identidade nacional — o emissor MJSP, um endereço oficial de validação. Quando ele também vem em três partes separadas por ponto, é um token assinado e a página confere a assinatura.",
+        shows: ["Os campos que o emissor colocou no token", "O endereço oficial de validação, sem abri-lo", "A conferência da assinatura feita no seu navegador"],
+        limit: "A validação completa da CIN passa pelo serviço oficial. Esta página lê e confere o carimbo; ela não consulta o cadastro.",
+      },
+      {
+        id: "placa-texto",
+        group: 2,
+        tone: "warning",
+        label: "Sinais de placa ou veículo",
+        title: "Placa Mercosul",
+        badge: "possível código de placa",
+        summary: "O texto menciona Mercosul, SENATRAN, DENATRAN ou placa veicular — ou traz campos chamados placa, chassi ou RENAVAM. A página trata isso como uma pista, não como um veredicto.",
+        shows: ["Os campos de veículo encontrados no texto", "O endereço, quando houver, sem abrir", "Um enquadramento conservador: é apenas um possível código de placa"],
+        limit: "Texto pode ser escrito por qualquer pessoa. Sem assinatura, não há nada para conferir.",
+      },
+      {
+        id: "url",
+        group: 2,
+        tone: "warning",
+        label: "Um endereço http ou https",
+        title: "Link ou endereço",
+        badge: "texto legível",
+        summary: "O código carrega um endereço e nada indica CIN ou placa. Ele aparece por extenso e permanece fechado — a página nunca navega por você.",
+        shows: ["O endereço completo, para você conferir o domínio antes", "O aviso de que nada foi aberto automaticamente"],
+        limit: "Um QR bonito pode levar a qualquer lugar. O domínio é a única coisa que você tem para julgar antes de abrir.",
+      },
+      {
+        id: "texto",
+        group: 2,
+        tone: "warning",
+        label: "JSON ou texto simples",
+        title: "Dados estruturados ou texto",
+        badge: "texto legível",
+        summary: "Sobrou texto comum. Se ele estiver em JSON, os campos aparecem organizados; caso contrário, aparece como veio.",
+        shows: ["Os campos, quando o texto é estruturado", "O conteúdo completo, disponível para copiar"],
+        limit: "Texto legível não tem origem nem carimbo. Ele prova apenas que alguém escreveu aquilo dentro do código.",
+      },
+    ];
+  }
+
+  renderVals() {
+    const selected = this.state.selected;
+    const all = this.cases();
+    const decorate = (item) => ({
+      ...item,
+      pick: () => this.setState({ selected: item.id }),
+      borderColor: item.id === selected ? "#17603f" : "#97a099",
+      background: item.id === selected ? "#e4efe7" : "#fcfcfa",
+      color: item.id === selected ? "#17603f" : "#16221c",
+    });
+    const current = all.find((item) => item.id === selected) ?? all[0];
+    return {
+      groups: [
+        {
+          question: "1 · Os bytes encaixam no formato Vio?",
+          hint: "Esta é a primeira pergunta, antes de qualquer outra: a página tenta ler o conteúdo como um código Vio versão 4 — o formato usado em documentos e placas.",
+          options: all.filter((item) => item.group === 0).map(decorate),
+        },
+        {
+          question: "2 · Não encaixou. Sobrou algum texto?",
+          hint: "Se o código não trouxe nada legível, a leitura para aqui.",
+          options: all.filter((item) => item.group === 1).map(decorate),
+        },
+        {
+          question: "3 · Há texto. Que tipo de texto?",
+          hint: "Agora as perguntas vêm nesta ordem: sinais da CIN, sinais de placa, um endereço, dados organizados e, por último, texto comum.",
+          options: all.filter((item) => item.group === 2).map(decorate),
+        },
+      ],
+      current: {
+        ...current,
+        shows: current.shows.map((text) => ({ text })),
+        badgeBackground: current.tone === "verified" ? "#e4efe7" : "#f6efdc",
+        badgeColor: current.tone === "verified" ? "#17603f" : "#7d5b0e",
+      },
+    };
+  }
+}
+</script>
+</body>
+</html>

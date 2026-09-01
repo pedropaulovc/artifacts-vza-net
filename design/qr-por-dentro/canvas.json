@@ -1,0 +1,53 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 1200,
+      "h": 4180,
+      "title": "Página completa",
+      "print": "flow",
+      "is_interactive": true
+    },
+    {
+      "file": "Mapa.dc.html",
+      "x": 1360,
+      "y": 0,
+      "w": 1120,
+      "h": 770,
+      "title": "Seção · mapa de decisão",
+      "is_interactive": true
+    },
+    {
+      "file": "CinToken.dc.html",
+      "x": 1360,
+      "y": 890,
+      "w": 1120,
+      "h": 720,
+      "title": "Seção · token da CIN",
+      "is_interactive": true
+    },
+    {
+      "file": "VioAnatomia.dc.html",
+      "x": 1360,
+      "y": 1730,
+      "w": 1120,
+      "h": 750,
+      "title": "Seção · anatomia do Vio",
+      "is_interactive": true
+    }
+  ],
+  "annotations": [
+    {
+      "id": "leia-me",
+      "x": 1360,
+      "y": -240,
+      "w": 480,
+      "text": "À esquerda, a página inteira.\nÀ direita, as três seções interativas que ela usa — os mesmos quadros, isolados para editar com calma.\n\nTodos os valores mostrados são exemplos — nenhum documento real. A bancada no topo reproduz o layout já implementado em artifacts/qr-reader.html."
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}
