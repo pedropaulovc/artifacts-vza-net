@@ -2,10 +2,10 @@ import { readFile } from "node:fs/promises";
 
 import { describe, expect, it } from "vitest";
 
-const artifactUrl = new URL("../artifacts/qr-gov-br.html", import.meta.url);
-const decoderUrl = new URL("../artifacts/jsqr.js", import.meta.url);
-const vioDecoderUrl = new URL("../artifacts/vio.js", import.meta.url);
-const formatDecoderUrl = new URL("../artifacts/qr-formats.js", import.meta.url);
+const artifactUrl = new URL("../artifacts/qr-gov-br/index.html", import.meta.url);
+const decoderUrl = new URL("../artifacts/qr-gov-br/jsqr.js", import.meta.url);
+const vioDecoderUrl = new URL("../artifacts/qr-gov-br/vio.js", import.meta.url);
+const formatDecoderUrl = new URL("../artifacts/qr-gov-br/qr-formats.js", import.meta.url);
 describe("offline QR reader artifact", () => {
   it("ships its decoders locally and forbids network connections", async () => {
     const [html, decoder, vioDecoder, formatDecoder] = await Promise.all([

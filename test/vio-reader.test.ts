@@ -3,7 +3,7 @@ import { runInNewContext } from "node:vm";
 
 import { describe, expect, it } from "vitest";
 
-const decoderUrl = new URL("../artifacts/vio.js", import.meta.url);
+const decoderUrl = new URL("../artifacts/qr-gov-br/vio.js", import.meta.url);
 const alphabet = " ABCÇDEFGHIJKLMNOPQRSTUVWXYZabcçdefghijklmnopqrstuvwxyz0123456789áàéíóúüñÁÀÉÍÓÚÜÑÃãÂâÔôÕõ=+-/\\*_|()[]{}<>#%&@'\".:;,!?$\n~^êÊºª§";
 
 type VioField = { name: string; label: string; value: string };

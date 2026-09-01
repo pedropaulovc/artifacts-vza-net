@@ -4,7 +4,7 @@ import { webcrypto } from "node:crypto";
 
 import { describe, expect, it } from "vitest";
 
-const decoderUrl = new URL("../artifacts/qr-formats.js", import.meta.url);
+const decoderUrl = new URL("../artifacts/qr-gov-br/qr-formats.js", import.meta.url);
 
 type JwtDetails = {
   format: string;
