@@ -93,7 +93,7 @@ gh workflow run deploy-production.yml \
   --ref main
 ```
 
-PPE is manual, so a branch or commit must be selected deliberately:
+The direct PPE deployment workflow is manual, so a branch or commit must be selected deliberately:
 
 ```sh
 gh workflow run deploy-ppe.yml \
