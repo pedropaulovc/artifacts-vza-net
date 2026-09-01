@@ -389,13 +389,33 @@
           status.dataset.kind = kind;
         }
 
+        function bytesToBase64(bytes) {
+          let binary = "";
+          const chunkSize = 0x8000;
+          for (let offset = 0; offset < bytes.length; offset += chunkSize) {
+            binary += String.fromCharCode(...bytes.slice(offset, offset + chunkSize));
+          }
+          return btoa(binary);
+        }
+
         function setResult(decoded) {
+          const text = decoded.data || "";
+          const binaryData = decoded.binaryData || [];
+          let output = text;
+          let meta = "A QR code was detected, but it contains no text.";
+
+          if (text) {
+            meta = "The value below is text only; it will not be opened automatically.";
+          }
+          if (!text && binaryData.length > 0) {
+            output = `Binary payload (${binaryData.length} bytes)\nBase64:\n${bytesToBase64(binaryData)}`;
+            meta = "The QR code contains binary data, represented below as Base64.";
+          }
+
           result.hidden = false;
-          resultText.value = decoded;
-          copyButton.disabled = decoded.length === 0;
-          resultMeta.textContent = decoded.length === 0
-            ? "A QR code was detected, but it contains no text."
-            : "The value below is text only; it will not be opened automatically.";
+          resultText.value = output;
+          copyButton.disabled = output.length === 0;
+          resultMeta.textContent = meta;
         }
 
         function clearResult() {
@@ -585,7 +605,7 @@
               return;
             }
 
-            setResult(decoded.data);
+            setResult(decoded);
             setStatus("QR code found. Nothing was opened automatically.", "success");
           } catch (error) {
             if (currentScanId !== scanId) {
