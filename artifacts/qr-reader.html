@@ -55,6 +55,10 @@
         padding: 2rem 0 3.5rem;
       }
 
+      main[data-state="loaded"] > header {
+        display: none;
+      }
+
       header {
         display: grid;
         grid-template-columns: minmax(0, 1.35fr) minmax(18rem, 0.65fr);
@@ -321,6 +325,16 @@
         margin-top: 0;
         margin-bottom: 1.25rem;
       }
+
+      .reader[data-state="loaded"] .drop-zone,
+      .reader[data-state="loaded"] .file-name {
+        display: none;
+      }
+
+      .reader[data-state="loaded"] .result {
+        margin-top: 1rem;
+      }
+
 
       .reader-heading,
       .result-heading {
@@ -823,7 +837,8 @@
     </style>
   </head>
   <body>
-    <main>
+    <main data-state="empty">
+
       <header>
         <div>
           <p class="eyebrow">Leitor local · sem upload</p>
@@ -846,7 +861,8 @@
         </aside>
       </header>
 
-      <section class="panel reader" aria-labelledby="reader-heading">
+      <section class="panel reader" data-state="empty" aria-labelledby="reader-heading">
+
         <div class="reader-heading">
           <div>
             <p class="eyebrow">Passo 1 · imagem</p>
@@ -863,16 +879,6 @@
           </span>
         </label>
         <p class="file-name" id="fileName">Pronto para ler localmente.</p>
-        <p class="status" id="status" data-kind="neutral" role="status" aria-live="polite" aria-atomic="true">Pronto para ler localmente.</p>
-
-        <div class="preview" id="preview" hidden>
-          <canvas id="previewCanvas" aria-label="Prévia da imagem selecionada"></canvas>
-        </div>
-
-        <div class="toolbar">
-          <button id="clearButton" type="button" disabled>Limpar imagem</button>
-        </div>
-
         <section class="result" id="result" aria-labelledby="result-heading" hidden>
           <div class="result-heading">
             <div>
@@ -893,6 +899,16 @@
             <button id="copyButton" type="button" disabled>Copiar conteúdo</button>
           </div>
         </section>
+        <p class="status" id="status" data-kind="neutral" role="status" aria-live="polite" aria-atomic="true">Pronto para ler localmente.</p>
+
+        <div class="preview" id="preview" hidden>
+          <canvas id="previewCanvas" aria-label="Prévia da imagem selecionada"></canvas>
+        </div>
+
+        <div class="toolbar">
+          <button id="clearButton" type="button" disabled>Limpar imagem</button>
+        </div>
+
       </section>
       <section class="panel guide" aria-labelledby="guide-heading">
         <div class="section-heading">
@@ -953,6 +969,12 @@
         const previewCanvas = document.querySelector("#previewCanvas");
         const clearButton = document.querySelector("#clearButton");
         const result = document.querySelector("#result");
+
+        const reader = document.querySelector(".reader");
+        const readerTitle = document.querySelector("#reader-heading");
+
+        const main = document.querySelector("main");
+
         const resultMeta = document.querySelector("#resultMeta");
         const resultTitle = document.querySelector("#result-heading");
         const resultContent = document.querySelector("#resultContent");
@@ -1106,6 +1128,9 @@
         }
 
         function showResult(title, badge, state, meta) {
+          main.dataset.state = "loaded";
+          reader.dataset.state = "loaded";
+          readerTitle.textContent = "Resultado da leitura";
           result.hidden = false;
           resultTitle.textContent = title;
           resultBadge.textContent = badge;
@@ -1305,6 +1330,9 @@
         }
 
         function clearResult() {
+          main.dataset.state = "empty";
+          reader.dataset.state = "empty";
+          readerTitle.textContent = "Escolha uma imagem";
           result.hidden = true;
           resultTitle.textContent = "O que foi lido";
           resultBadge.textContent = "aguardando leitura";
