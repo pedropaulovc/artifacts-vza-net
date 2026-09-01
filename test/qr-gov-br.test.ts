@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 
 import { describe, expect, it } from "vitest";
 
-const artifactUrl = new URL("../artifacts/qr-reader.html", import.meta.url);
+const artifactUrl = new URL("../artifacts/qr-gov-br.html", import.meta.url);
 const decoderUrl = new URL("../artifacts/jsqr.js", import.meta.url);
 const vioDecoderUrl = new URL("../artifacts/vio.js", import.meta.url);
 const formatDecoderUrl = new URL("../artifacts/qr-formats.js", import.meta.url);

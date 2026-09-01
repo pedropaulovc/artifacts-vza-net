@@ -46,9 +46,9 @@ npm run deploy:production
 
 ## Offline QR reader artifact
 
-`artifacts/qr-reader.html` is a standalone browser artifact. It is separate from the Cloudflare Worker and does not add a public route or change the empty-response contract. Keep it in the same directory as `artifacts/jsqr.js`, `artifacts/vio.js`, and `artifacts/qr-formats.js`.
+`artifacts/qr-gov-br.html` is a standalone browser artifact. It is separate from the Cloudflare Worker and does not add a public route or change the empty-response contract. Keep it in the same directory as `artifacts/jsqr.js`, `artifacts/vio.js`, and `artifacts/qr-formats.js`.
 
-Open `artifacts/qr-reader.html` locally, then choose, drop, or paste an image containing a QR code. The Brazilian Portuguese interface organizes readable payloads around three common cases:
+Open `artifacts/qr-gov-br.html` locally, then choose, drop, or paste an image containing a QR code. The Brazilian Portuguese interface organizes readable payloads around three common cases:
 
 - a physical CIN QR, shown as a possible validation address or structured identity data;
 - a Vio identity/document code, with known local templates such as RG Digital rendered as fields;

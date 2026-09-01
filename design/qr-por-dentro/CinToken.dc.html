@@ -10,71 +10,67 @@
   <style>
     body {
       margin: 0;
-      background: #fbfaf6;
-      font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
-      color: #102a43;
+      background: #fcfcfa;
+      font-family: "Iowan Old Style", "Charter", "Bitstream Charter", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+      color: #16221c;
       font-synthesis: none;
     }
     * { box-sizing: border-box; }
-    a { color: #1f5f8b; }
-    a:hover { color: #16455f; }
+    a { color: #16221c; }
+    a:hover { color: #16221c; }
     button { font: inherit; }
   </style>
 </helmet>
-<div style="display: flex; flex-direction: column; gap: 1.25rem; padding: 1.8rem; background: rgba(255, 255, 255, 0.88); border: 1px solid rgba(16, 42, 67, 0.1); border-radius: 1.45rem">
+<div style="display: flex; flex-direction: column; gap: 1.25rem; padding: 1.8rem; background: #fcfcfa; border: 1px solid #97a099; border-radius: 0">
   <div style="display: flex; justify-content: space-between; gap: 1.5rem; align-items: start">
     <div style="display: flex; flex-direction: column; gap: 0.35rem">
-      <p style="display: flex; align-items: center; gap: 0.5rem; margin: 0; color: #087f5b; font-size: 0.72rem; font-weight: 850; letter-spacing: 0.14em; text-transform: uppercase">
-        <span style="display: block; width: 1.4rem; height: 0.2rem; border-radius: 999px; background: #f5c451"></span>
-        Caso 01 · documento impresso
-      </p>
-      <h2 style="margin: 0; font-size: 1.7rem; letter-spacing: -0.04em">O QR da CIN é um token assinado</h2>
-      <p style="max-width: 45rem; margin: 0.25rem 0 0; color: #5f7184; font-size: 0.94rem; line-height: 1.55">O texto vem em três partes separadas por ponto — o formato JWT. Clique em cada uma para ver o que ela carrega.</p>
+      <h2 style="margin: 0; font-size: 1.7rem; letter-spacing: -0.005em">O QR da CIN é um token assinado</h2>
+      <p style="max-width: 45rem; margin: 0.25rem 0 0; color: #4c5a53; font-size: 0.94rem; line-height: 1.55">O texto vem em três partes separadas por ponto — o formato JWT. Clique em cada uma para ver o que ela carrega.</p>
     </div>
-    <span style="display: inline-flex; align-items: center; padding: 0.5rem 0.7rem; border-radius: 999px; background: #e5f4ed; color: #04543f; font-size: 0.75rem; font-weight: 800; white-space: nowrap">exemplo dos testes · nenhum documento real</span>
+    <span style="display: inline-flex; align-items: center; padding: 0.5rem 0.7rem; border-radius: 0; background: #e4efe7; color: #17603f; font-size: 0.75rem; font-weight: 800; white-space: nowrap">exemplo dos testes · nenhum documento real</span>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; padding: 1rem; border: 1px solid #dce5df; border-radius: 0.95rem; background: #fff">
+  <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: stretch; padding: 1rem; border: 1px solid #c6ccc4; border-radius: 0; background: #fcfcfa">
     <sc-for list="{{segments}}" as="segment" hint-placeholder-count="3">
-      <button type="button" onClick="{{segment.pick}}" style="display: flex; flex-direction: column; gap: 0.35rem; flex: {{segment.flex}}; min-height: 3.4rem; padding: 0.6rem 0.75rem; border: 2px solid {{segment.borderColor}}; border-radius: 0.7rem; background: {{segment.background}}; color: #102a43; cursor: pointer; text-align: left">
-        <span style="color: {{segment.accent}}; font-size: 0.66rem; font-weight: 850; letter-spacing: 0.09em; text-transform: uppercase">{{segment.name}}</span>
-        <span style="overflow: hidden; color: #5f7184; font: 0.74rem/1.35 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; overflow-wrap: anywhere">{{segment.sample}}</span>
+      <button type="button" onClick="{{segment.pick}}" style="display: flex; flex-direction: column; gap: 0.35rem; flex: {{segment.flex}}; min-width: 0; min-height: 3.4rem; padding: 0.6rem 0.75rem; border: 2px solid {{segment.borderColor}}; border-radius: 0; background: {{segment.background}}; color: #16221c; cursor: pointer; text-align: left">
+        <span style="color: {{segment.accent}}; font-size: 0.66rem; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase">{{segment.name}}</span>
+        <span style="overflow: hidden; color: #4c5a53; font: 0.74rem/1.35 ui-monospace, "Cascadia Mono", "SF Mono", SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace; overflow-wrap: anywhere">{{segment.sample}}</span>
       </button>
     </sc-for>
   </div>
 
   <div style="display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 1.1rem; align-items: start">
-    <div style="display: flex; flex-direction: column; gap: 0.75rem; padding: 1.2rem 1.3rem; border: 1px solid #dce5df; border-radius: 1.15rem; background: #fbfaf6">
-      <h3 style="margin: 0; color: {{current.accent}}; font-size: 1.15rem; letter-spacing: -0.02em">{{current.title}}</h3>
-      <p style="margin: 0; color: #4b6657; font-size: 0.9rem; line-height: 1.55">{{current.summary}}</p>
+    <div style="display: flex; flex-direction: column; gap: 0.75rem; padding: 1.2rem 1.3rem; border: 1px solid #c6ccc4; border-radius: 0; background: #fcfcfa">
+      <h3 style="margin: 0; color: {{current.accent}}; font-size: 1.15rem; letter-spacing: -0.005em">{{current.title}}</h3>
+      <p style="margin: 0; color: #4c5a53; font-size: 0.9rem; line-height: 1.55">{{current.summary}}</p>
       <sc-for list="{{current.notes}}" as="note" hint-placeholder-count="2">
-        <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.55rem; align-items: start; color: #416254; font-size: 0.86rem; line-height: 1.5">
-          <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #087f5b"></span>
+        <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.55rem; align-items: start; color: #4c5a53; font-size: 0.86rem; line-height: 1.5">
+          <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #17603f"></span>
           <span>{{note.text}}</span>
         </div>
       </sc-for>
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 0.6rem">
-      <p style="margin: 0; color: #6a7b70; font-size: 0.7rem; font-weight: 850; letter-spacing: 0.07em; text-transform: uppercase">{{current.panelLabel}}</p>
+      <p style="margin: 0; color: #6d7a73; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase">{{current.panelLabel}}</p>
       <sc-if value="{{current.hasFields}}" hint-placeholder-val="{{true}}">
         <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem">
           <sc-for list="{{current.fields}}" as="field" hint-placeholder-count="4">
-            <div style="padding: 0.8rem 0.9rem; border: 1px solid #dce5df; border-radius: 0.75rem; background: #fff">
-              <p style="margin: 0 0 0.3rem; color: #6a7b70; font-size: 0.7rem; font-weight: 850; letter-spacing: 0.07em; text-transform: uppercase">{{field.label}}</p>
-              <p style="margin: 0; color: #102a43; font-size: 0.9rem; font-weight: 700; line-height: 1.45; overflow-wrap: anywhere">{{field.value}}</p>
+            <div style="padding: 0.8rem 0.9rem; border: 1px solid #c6ccc4; border-radius: 0; background: #fcfcfa">
+              <p style="margin: 0 0 0.3rem; color: #6d7a73; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase">{{field.label}}</p>
+              <p style="margin: 0; color: #16221c; font-size: 0.9rem; font-weight: 700; line-height: 1.45; overflow-wrap: anywhere">{{field.value}}</p>
             </div>
           </sc-for>
         </div>
       </sc-if>
       <sc-if value="{{current.hasCode}}" hint-placeholder-val="{{true}}">
-        <pre style="margin: 0; max-height: 11rem; overflow: auto; padding: 0.9rem; border-radius: 0.75rem; background: #102a43; color: #dcebe4; font: 0.78rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre-wrap; overflow-wrap: anywhere">{{current.code}}</pre>
+        <pre style="margin: 0; max-height: 11rem; overflow: auto; padding: 0.9rem; border-radius: 0; background: #16221c; color: #16221c; font: 0.78rem/1.5 ui-monospace, "Cascadia Mono", "SF Mono", SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace; white-space: pre-wrap; overflow-wrap: anywhere">{{current.code}}</pre>
       </sc-if>
     </div>
   </div>
 
-  <div style="display: flex; gap: 0.75rem; align-items: flex-start; padding: 0.95rem 1.1rem; border: 1px solid #bce2ca; border-radius: 0.8rem; background: #effaf2; color: #04543f">
-    <span style="display: grid; flex: 0 0 1.55rem; width: 1.55rem; height: 1.55rem; place-items: center; border-radius: 0.5rem; background: currentColor; color: #effaf2; font-size: 0.62rem; font-weight: 900">OK</span>
+  <div style="display: flex; gap: 0.75rem; align-items: flex-start; padding: 0.95rem 1.1rem; border: 1px solid #17603f; border-radius: 0; background: #e4efe7; color: #17603f">
+    <span style="display: grid; flex: 0 0 1.55rem; width: 1.55rem; height: 1.55rem; place-items: center; border-radius: 0; background: currentColor; color: #e4efe7; font-size: 0.62rem; font-weight: 900">OK</span>
     <p style="margin: 0; font-size: 0.86rem; line-height: 1.5"><strong>Quando a assinatura confere, isso quer dizer uma coisa só.</strong><br>Aqueles dados saíram do emissor daquele jeito e não foram mexidos depois. Não quer dizer que a carteira esteja vigente, que o cadastro esteja em dia, nem que quem mostra o código seja o titular. Para isso continua valendo o aplicativo oficial ou o órgão emissor.</p>
   </div>
 </div>
@@ -93,8 +89,8 @@ class Component extends DCLogic {
         name: "1 · cabeçalho",
         sample: "eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9",
         flex: "1 1 12rem",
-        accent: "#087f5b",
-        activeBackground: "#e5f4ed",
+        accent: "#17603f",
+        activeBackground: "#e4efe7",
         title: "Cabeçalho · como o token foi assinado",
         summary: "A parte mais curta. Ela não guarda dados da pessoa: diz apenas que o conteúdo é um JWT e qual algoritmo o emissor usou para assiná-lo.",
         notes: [
@@ -114,8 +110,8 @@ class Component extends DCLogic {
         name: "2 · dados",
         sample: "eyJpc3MiOiJNSlNQIiwidXJsIjoiaHR0cHM6Ly9jaW4ubWouZ292LmJyL2NpZGFkYW8vdGVzdGUiLCJjcGYiOiIwMDAwMDAwMDAwMCIsImRucyI6IjAxLzAxLzE5OTAiLCJkdmQiOiIwMS8wMS8yMDM0In0",
         flex: "2 1 20rem",
-        accent: "#1f5f8b",
-        activeBackground: "#eef5fa",
+        accent: "#16221c",
+        activeBackground: "#f2f4f0",
         title: "Dados · o que o emissor colocou dentro",
         summary: "São poucos campos, escolhidos pelo emissor: quem emitiu, o endereço de validação daquela carteira e o suficiente para casar com o documento na mão. Parecem embaralhados, mas não estão escondidos — é texto comum reescrito com um alfabeto seguro para endereços, e qualquer pessoa com o código consegue lê-los.",
         notes: [
@@ -138,8 +134,8 @@ class Component extends DCLogic {
         name: "3 · assinatura",
         sample: "AT7hK2n0pQ… (encurtada)",
         flex: "1 1 12rem",
-        accent: "#755312",
-        activeBackground: "#fff9e9",
+        accent: "#7d5b0e",
+        activeBackground: "#f6efdc",
         title: "Assinatura · o carimbo do emissor",
         summary: "Um carimbo criptográfico calculado sobre as duas partes anteriores. Mudou uma vírgula nos dados, o carimbo deixa de fechar.",
         notes: [
@@ -167,8 +163,8 @@ class Component extends DCLogic {
       segments: all.map((item) => ({
         ...item,
         pick: () => this.setState({ selected: item.id }),
-        borderColor: item.id === selected ? item.accent : "#dce5df",
-        background: item.id === selected ? item.activeBackground : "#fbfaf6",
+        borderColor: item.id === selected ? item.accent : "#c6ccc4",
+        background: item.id === selected ? item.activeBackground : "#fcfcfa",
       })),
       current: {
         ...current,

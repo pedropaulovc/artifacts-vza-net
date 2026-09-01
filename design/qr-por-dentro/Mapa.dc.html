@@ -10,61 +10,57 @@
   <style>
     body {
       margin: 0;
-      background: #fbfaf6;
-      font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
-      color: #102a43;
+      background: #fcfcfa;
+      font-family: "Iowan Old Style", "Charter", "Bitstream Charter", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+      color: #16221c;
       font-synthesis: none;
     }
     * { box-sizing: border-box; }
-    a { color: #1f5f8b; }
-    a:hover { color: #16455f; }
+    a { color: #16221c; }
+    a:hover { color: #16221c; }
     button { font: inherit; }
   </style>
 </helmet>
-<div style="display: flex; flex-direction: column; gap: 1.25rem; padding: 1.8rem; background: rgba(255, 255, 255, 0.88); border: 1px solid rgba(16, 42, 67, 0.1); border-radius: 1.45rem">
+<div style="display: flex; flex-direction: column; gap: 1.25rem; padding: 1.8rem; background: #fcfcfa; border: 1px solid #97a099; border-radius: 0">
   <div style="display: flex; flex-direction: column; gap: 0.35rem">
-    <p style="display: flex; align-items: center; gap: 0.5rem; margin: 0; color: #087f5b; font-size: 0.72rem; font-weight: 850; letter-spacing: 0.14em; text-transform: uppercase">
-      <span style="display: block; width: 1.4rem; height: 0.2rem; border-radius: 999px; background: #f5c451"></span>
-      Mapa de decisão
-    </p>
-    <h2 style="margin: 0; font-size: 1.7rem; letter-spacing: -0.04em">Como o leitor decide qual QR você encontrou</h2>
-    <p style="max-width: 44rem; margin: 0.25rem 0 0; color: #5f7184; font-size: 0.94rem; line-height: 1.55">Ele faz uma pergunta de cada vez, sempre nesta ordem. Clique em qualquer resultado para ver o que aparece na tela — e o que continua sem prova.</p>
+    <h2 style="margin: 0; font-size: 1.7rem; letter-spacing: -0.005em">Como o leitor decide qual QR você encontrou</h2>
+    <p style="max-width: 44rem; margin: 0.25rem 0 0; color: #4c5a53; font-size: 0.94rem; line-height: 1.55">Ele faz uma pergunta de cada vez, sempre nesta ordem. Clique em qualquer resultado para ver o que aparece na tela — e o que continua sem prova.</p>
   </div>
 
   <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.1rem; align-items: start">
     <div style="display: flex; flex-direction: column; gap: 1rem">
       <sc-for list="{{groups}}" as="group" hint-placeholder-count="2">
-        <div style="display: flex; flex-direction: column; gap: 0.6rem; padding: 1rem 1.1rem; border: 1px solid #d8ded9; border-radius: 1rem; background: #fbfaf6">
-          <p style="margin: 0; color: #102a43; font-size: 0.9rem; font-weight: 800; line-height: 1.4">{{group.question}}</p>
-          <p style="margin: 0; color: #5f7184; font-size: 0.82rem; line-height: 1.45">{{group.hint}}</p>
+        <div style="display: flex; flex-direction: column; gap: 0.6rem; padding: 1rem 1.1rem; border: 1px solid #c6ccc4; border-radius: 0; background: #fcfcfa">
+          <p style="margin: 0; color: #16221c; font-size: 0.9rem; font-weight: 800; line-height: 1.4">{{group.question}}</p>
+          <p style="margin: 0; color: #4c5a53; font-size: 0.82rem; line-height: 1.45">{{group.hint}}</p>
           <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.15rem">
             <sc-for list="{{group.options}}" as="item" hint-placeholder-count="3">
-              <button type="button" onClick="{{item.pick}}" style="min-height: 2.75rem; padding: 0.6rem 0.9rem; border: 1px solid {{item.borderColor}}; border-radius: 0.7rem; background: {{item.background}}; color: {{item.color}}; cursor: pointer; font-size: 0.84rem; font-weight: 800; text-align: left">{{item.label}}</button>
+              <button type="button" onClick="{{item.pick}}" style="min-height: 2.75rem; padding: 0.6rem 0.9rem; border: 1px solid {{item.borderColor}}; border-radius: 0; background: {{item.background}}; color: {{item.color}}; cursor: pointer; font-size: 0.84rem; font-weight: 800; text-align: left">{{item.label}}</button>
             </sc-for>
           </div>
         </div>
       </sc-for>
     </div>
 
-    <div style="display: flex; flex-direction: column; gap: 0.9rem; padding: 1.2rem 1.3rem; border: 1px solid rgba(8, 127, 91, 0.25); border-radius: 1.15rem; background: linear-gradient(160deg, #f7fcf8, #fff)">
+    <div style="display: flex; flex-direction: column; gap: 0.9rem; padding: 1.2rem 1.3rem; border: 1px solid #c6ccc4; border-radius: 0; background: #fcfcfa">
       <div style="display: flex; justify-content: space-between; gap: 1rem; align-items: center">
-        <h3 style="margin: 0; font-size: 1.15rem; letter-spacing: -0.02em">{{current.title}}</h3>
-        <span style="display: inline-flex; align-items: center; padding: 0.5rem 0.7rem; border-radius: 999px; background: {{current.badgeBackground}}; color: {{current.badgeColor}}; font-size: 0.75rem; font-weight: 800; white-space: nowrap">{{current.badge}}</span>
+        <h3 style="margin: 0; font-size: 1.15rem; letter-spacing: -0.005em">{{current.title}}</h3>
+        <span style="display: inline-flex; align-items: center; padding: 0.5rem 0.7rem; border-radius: 0; background: {{current.badgeBackground}}; color: {{current.badgeColor}}; font-size: 0.75rem; font-weight: 800; white-space: nowrap">{{current.badge}}</span>
       </div>
-      <p style="margin: 0; color: #4b6657; font-size: 0.9rem; line-height: 1.55">{{current.summary}}</p>
+      <p style="margin: 0; color: #4c5a53; font-size: 0.9rem; line-height: 1.55">{{current.summary}}</p>
 
       <div style="display: flex; flex-direction: column; gap: 0.4rem">
-        <p style="margin: 0; color: #6a7b70; font-size: 0.7rem; font-weight: 850; letter-spacing: 0.07em; text-transform: uppercase">O que a tela mostra</p>
+        <p style="margin: 0; color: #6d7a73; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase">O que a tela mostra</p>
         <sc-for list="{{current.shows}}" as="line" hint-placeholder-count="3">
-          <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.55rem; align-items: start; color: #416254; font-size: 0.86rem; line-height: 1.5">
-            <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #087f5b"></span>
+          <div style="display: grid; grid-template-columns: 1.1rem 1fr; gap: 0.55rem; align-items: start; color: #4c5a53; font-size: 0.86rem; line-height: 1.5">
+            <span style="display: block; width: 0.45rem; height: 0.45rem; margin-top: 0.5rem; border-radius: 50%; background: #17603f"></span>
             <span>{{line.text}}</span>
           </div>
         </sc-for>
       </div>
 
-      <div style="display: flex; gap: 0.75rem; align-items: flex-start; padding: 0.9rem 1rem; border: 1px solid #eed79a; border-radius: 0.8rem; background: #fff9e9; color: #755312">
-        <span style="display: grid; flex: 0 0 1.55rem; width: 1.55rem; height: 1.55rem; place-items: center; border-radius: 0.5rem; background: currentColor; color: #fff9e9; font-size: 0.62rem; font-weight: 900">!</span>
+      <div style="display: flex; gap: 0.75rem; align-items: flex-start; padding: 0.9rem 1rem; border: 1px solid #7d5b0e; border-radius: 0; background: #f6efdc; color: #7d5b0e">
+        <span style="display: grid; flex: 0 0 1.55rem; width: 1.55rem; height: 1.55rem; place-items: center; border-radius: 0; background: currentColor; color: #f6efdc; font-size: 0.62rem; font-weight: 900">!</span>
         <p style="margin: 0; font-size: 0.86rem; line-height: 1.5"><strong>Continua sem prova.</strong> {{current.limit}}</p>
       </div>
     </div>
@@ -177,9 +173,9 @@ class Component extends DCLogic {
     const decorate = (item) => ({
       ...item,
       pick: () => this.setState({ selected: item.id }),
-      borderColor: item.id === selected ? "#087f5b" : "#b5c4c0",
-      background: item.id === selected ? "#e5f4ed" : "#fff",
-      color: item.id === selected ? "#04543f" : "#102a43",
+      borderColor: item.id === selected ? "#17603f" : "#97a099",
+      background: item.id === selected ? "#e4efe7" : "#fcfcfa",
+      color: item.id === selected ? "#17603f" : "#16221c",
     });
     const current = all.find((item) => item.id === selected) ?? all[0];
     return {
@@ -203,8 +199,8 @@ class Component extends DCLogic {
       current: {
         ...current,
         shows: current.shows.map((text) => ({ text })),
-        badgeBackground: current.tone === "verified" ? "#ccefd9" : "#fff0ca",
-        badgeColor: current.tone === "verified" ? "#04543f" : "#755312",
+        badgeBackground: current.tone === "verified" ? "#e4efe7" : "#f6efdc",
+        badgeColor: current.tone === "verified" ? "#17603f" : "#7d5b0e",
       },
     };
   }
