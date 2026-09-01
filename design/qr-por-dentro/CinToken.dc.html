@@ -112,15 +112,15 @@ class Component extends DCLogic {
       {
         id: "dados",
         name: "2 · dados",
-        sample: "eyJpc3MiOiJNSlNQIiwidXJsIjoiaHR0cHM6Ly9jaW4ubWouZ292LmJyL2NpZGFkYW8vdGVzdGUiLCJjcGYiOiIwMDAwMDAwMDAwMCJ9",
+        sample: "eyJpc3MiOiJNSlNQIiwidXJsIjoiaHR0cHM6Ly9jaW4ubWouZ292LmJyL2NpZGFkYW8vdGVzdGUiLCJjcGYiOiIwMDAwMDAwMDAwMCIsImRucyI6IjAxLzAxLzE5OTAiLCJkdmQiOiIwMS8wMS8yMDM0In0",
         flex: "2 1 20rem",
         accent: "#1f5f8b",
         activeBackground: "#eef5fa",
         title: "Dados · o que o emissor colocou dentro",
-        summary: "Aqui ficam os campos escolhidos pelo emissor. Eles parecem embaralhados, mas não estão escondidos: é texto comum reescrito com um alfabeto seguro para endereços. Qualquer pessoa com o código consegue lê-los.",
+        summary: "São poucos campos, escolhidos pelo emissor: quem emitiu, o endereço de validação daquela carteira e o suficiente para casar com o documento na mão. Parecem embaralhados, mas não estão escondidos — é texto comum reescrito com um alfabeto seguro para endereços, e qualquer pessoa com o código consegue lê-los.",
         notes: [
           "Embaralhado não é secreto, e nada aqui é criptografado. Um QR de documento deve ser tratado como algo que você mostra, não como algo que você publica.",
-          "O endereço de validação aparece por extenso, e a página não o abre por você.",
+          "O endereço de validação é único para cada carteira, e a página não o abre por você.",
         ],
         panelLabel: "Os campos deste exemplo",
         hasFields: true,
@@ -129,6 +129,8 @@ class Component extends DCLogic {
           { label: "Emissor", value: "MJSP" },
           { label: "Endereço de validação", value: "https://cin.mj.gov.br/cidadao/teste" },
           { label: "CPF", value: "000.000.000-00 (valor de teste)" },
+          { label: "Data de nascimento", value: "01/01/1990 (valor de teste)" },
+          { label: "Data de validade", value: "01/01/2034 (valor de teste)" },
         ],
       },
       {
