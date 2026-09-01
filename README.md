@@ -83,6 +83,7 @@ Create these repository environments before the first deployment:
   - secret `CLOUDFLARE_API_TOKEN` scoped to deploy Workers in that account
 
 The workflows do not accept custom text inputs. GitHub's standard workflow `--ref` selection chooses the PPE revision. The production job refuses to run unless the selected ref is `main`. Each workflow checks its environment account ID against the account baked into the matching Wrangler configuration before it calls Wrangler.
+The `deploy-pr.yml` `pull_request_target` workflow deploys the head revision of an internal pull request targeting `main` to a disposable Worker in the PPE account when it is opened, updated, or reopened. It runs tests and typechecks against the pull request source without the Cloudflare token, then uses the Wrangler binary and configuration checked out from `main` for the privileged deployment. The Worker is named `artifacts-vza-net-pr-<number>` and its URL is `https://artifacts-vza-net-pr-<number>.artifacts-ppe-vza-net.workers.dev`; the job publishes that URL through GitHub's `cloudflare-ppe` environment. When the pull request closes, the workflow deletes the Worker. Fork pull requests are intentionally skipped because this deployment is restricted to repository-owned branches; use the manual PPE workflow for a trusted revision when a preview is required.
 
 A push to `main` deploys production. Operators can also rerun production explicitly:
 
@@ -92,7 +93,7 @@ gh workflow run deploy-production.yml \
   --ref main
 ```
 
-PPE is manual, so a branch or commit must be selected deliberately:
+The direct PPE deployment workflow is manual, so a branch or commit must be selected deliberately:
 
 ```sh
 gh workflow run deploy-ppe.yml \
