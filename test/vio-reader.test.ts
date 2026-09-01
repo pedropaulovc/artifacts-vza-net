@@ -44,7 +44,7 @@ function uint16(value: number): number[] {
   return [(value >> 8) & 0xff, value & 0xff];
 }
 
-function makeVioV4Payload(fieldText: string): Uint8Array {
+function makeVioV4Payload(fieldText: string, templateId = 92): Uint8Array {
   const signature = new Uint8Array(70);
   const data = new Uint8Array([0xde, 0xad]);
   const fields = encodeFields(fieldText);
@@ -54,7 +54,7 @@ function makeVioV4Payload(fieldText: string): Uint8Array {
     0x03,
     0x04,
     4,
-    ...uint16(92),
+    ...uint16(templateId),
     ...uint16(signature.length),
     ...signature,
     ...uint16(data.length),
@@ -84,9 +84,22 @@ describe("offline Vio QR decoder", () => {
       fieldCountMatches: true,
     });
     expect(parsed.values).toEqual(fieldText.split("^"));
-    expect(parsed.fields[0]).toEqual({ name: "nome", label: "Nome / Name", value: "Alice" });
+    expect(parsed.fields[0]).toEqual({ name: "nome", label: "Nome", value: "Alice" });
     expect(parsed.fields[14]).toEqual({ name: "hash", label: "Hash", value: "hash" });
     expect(parsed.signedData).toHaveLength(13 + encodeFields(fieldText).length);
+  });
+  it("maps the Mercosur plate template to its serial field", async () => {
+    const source = await readFile(decoderUrl, "utf8");
+    const context = { ArrayBuffer, BigInt, Date, Uint8Array } as unknown as VioContext;
+    runInNewContext(source, context);
+
+    const parsed = context.vioDecoder.parse(makeVioV4Payload("ABC", 17));
+    if (!parsed) {
+      throw new Error("The Mercosur Vio fixture did not parse.");
+    }
+
+    expect(parsed).toMatchObject({ version: 4, templateId: 17, fieldCountMatches: true });
+    expect(parsed.fields).toEqual([{ name: "serial", label: "Número de série da placa", value: "ABC" }]);
   });
 
   it("rejects payloads with unsupported Vio versions", async () => {

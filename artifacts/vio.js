@@ -5,6 +5,8 @@
   const VIO_ALPHABET = " ABCÇDEFGHIJKLMNOPQRSTUVWXYZabcçdefghijklmnopqrstuvwxyz0123456789áàéíóúüñÁÀÉÍÓÚÜÑÃãÂâÔôÕõ=+-/\\*_|()[]{}<>#%&@'\".:;,!?$\n~^êÊºª§";
   const VIO_CERTIFICATE_GROUP = "36bbdb5f-28e6-47a8-8b48-9a2a2ae2fed3";
   const VIO_CERTIFICATE_ID = "b3ba1091-e72f-4f4a-904b-b57977c9c359";
+  const VIO_VEHICLE_CERTIFICATE_GROUP = "6d15023d-bdb8-4860-b73f-cb66934369f4";
+  const VIO_VEHICLE_CERTIFICATE_ID = "7016a8bc-b4e1-40fc-a509-973227355126";
   const BRAINPOOL_P256 = Object.freeze({
     p: BigInt("0xA9FB57DBA1EEA9BC3E660A909D838D726E3BF623D52620282013481D1F6E5377"),
     a: BigInt("0x7D5A0975FC2C3057EEF67530417AFFE7FB8055C126DC5C6CE94A4B44F330B5D9"),
@@ -22,28 +24,55 @@
       x: BigInt("0x58509ECAB43BF9A4EBC00A6BE4533E05B773D0E6604B1E75D81CFEA185483C1C"),
       y: BigInt("0x38EA47B5A04F60F0A24278D7897074D7B1474289D6057F609B1C020BCD6A22F4"),
     }),
+    [VIO_VEHICLE_CERTIFICATE_GROUP]: Object.freeze({
+      id: VIO_VEHICLE_CERTIFICATE_ID,
+      curve: "brainpoolP256r1",
+      validFrom: Date.parse("2019-08-13T11:00:00.000Z"),
+      validUntil: Date.parse("2029-08-13T11:00:00.000Z"),
+      x: BigInt("0x7C4A5378163249F927852FAAF8503B0D929A2390CBF752D98626EF83DF82C177"),
+      y: BigInt("0x5AC71DC5B75D3BB77E515CCC93DF0CAC7A6EE2A3BC57A9BCF4D484F0E4B689B8"),
+    }),
   });
   const VIO_TEMPLATES = Object.freeze({
     92: Object.freeze({
+      kind: "cin-vio",
       name: "RG Digital",
       owner: "GovBr",
       certificateGroup: VIO_CERTIFICATE_GROUP,
       fields: Object.freeze([
-        ["nome", "Nome / Name"],
-        ["nome_social", "Nome Social / Social Name"],
-        ["cpf", "Registro Geral-CPF / Personal Number"],
-        ["sexo", "Sexo / Sex"],
-        ["data_nascimento", "Data de Nascimento / Date of Birth"],
-        ["nacionalidade", "Nacionalidade / Nationality"],
-        ["naturalidade", "Naturalidade / Place of Birth"],
-        ["data_validade", "Data de Validade / Date of Expiry"],
-        ["filiacao_1", "Filiação / Filiation"],
-        ["filiacao_2", "Filiação / Filiation"],
-        ["orgao_expedidor", "Órgão Expedidor / Card Issuer"],
-        ["local_emissao", "Local / Place of Issue"],
-        ["data_emissao", "Data de Emissão / Issue Date"],
-        ["certidao", "Certidão de Nasc / Casamento / Averb. Divórcio"],
+        ["nome", "Nome"],
+        ["nome_social", "Nome social"],
+        ["cpf", "Registro Geral / CPF"],
+        ["sexo", "Sexo"],
+        ["data_nascimento", "Data de nascimento"],
+        ["nacionalidade", "Nacionalidade"],
+        ["naturalidade", "Naturalidade"],
+        ["data_validade", "Data de validade"],
+        ["filiacao_1", "Filiação 1"],
+        ["filiacao_2", "Filiação 2"],
+        ["orgao_expedidor", "Órgão expedidor"],
+        ["local_emissao", "Local de emissão"],
+        ["data_emissao", "Data de emissão"],
+        ["certidao", "Certidão de nascimento / casamento / divórcio"],
         ["hash", "Hash"],
+      ]),
+    }),
+    17: Object.freeze({
+      kind: "placa-mercosul",
+      name: "Placa veicular Mercosul",
+      owner: "SENATRAN",
+      certificateGroup: VIO_VEHICLE_CERTIFICATE_GROUP,
+      fields: Object.freeze([
+        ["serial", "Número de série da placa"],
+      ]),
+    }),
+    11: Object.freeze({
+      kind: "placa-mercosul",
+      name: "Placa veicular Mercosul",
+      owner: "SENATRAN",
+      certificateGroup: "37234581-512c-4906-a4ea-591d25dee539",
+      fields: Object.freeze([
+        ["serial", "Número de série da placa"],
       ]),
     }),
   });
@@ -333,18 +362,18 @@
   async function verifySignature(parsed) {
     const certificate = parsed.certificate;
     if (!certificate) {
-      return { state: "unavailable", reason: "No local Vio certificate is available for this template." };
+      return { state: "unavailable", reason: "não há certificado Vio local para este modelo" };
     }
     const createdAt = parsed.timestamp * 1000;
     if (createdAt < certificate.validFrom || createdAt > certificate.validUntil) {
-      return { state: "unavailable", reason: "The local Vio certificate is outside its validity period." };
+      return { state: "unavailable", reason: "o certificado Vio local está fora da validade" };
     }
     const signature = parseDerSignature(parsed.signature);
     if (!signature || signature.r <= 0n || signature.r >= BRAINPOOL_P256.n || signature.s <= 0n || signature.s >= BRAINPOOL_P256.n) {
-      return { state: "invalid", reason: "The Vio signature has an invalid encoding." };
+      return { state: "invalid", reason: "a assinatura Vio tem um formato inválido" };
     }
     if (!root.crypto?.subtle) {
-      return { state: "unavailable", reason: "This browser does not expose Web Crypto for signature verification." };
+      return { state: "unavailable", reason: "este navegador não oferece Web Crypto para verificar a assinatura" };
     }
 
     try {
@@ -359,37 +388,37 @@
       const valid = result !== null && mod(result.x, BRAINPOOL_P256.n) === signature.r;
       return {
         state: valid ? "verified" : "invalid",
-        reason: valid ? "Digital signature verified." : "Digital signature verification failed.",
+        reason: valid ? "assinatura digital verificada" : "a verificação da assinatura digital falhou",
         certificateId: certificate.id,
         curve: certificate.curve,
       };
     } catch {
-      return { state: "unavailable", reason: "The browser could not verify this Vio signature." };
+      return { state: "unavailable", reason: "o navegador não conseguiu verificar esta assinatura Vio" };
     }
   }
 
   function formatVerification(verification) {
     if (verification.state === "verified") {
-      return `verified (${verification.curve}, certificate ${verification.certificateId})`;
+      return `verificada (${verification.curve}, certificado ${verification.certificateId})`;
     }
     if (verification.state === "invalid") {
-      return "invalid; treat these values as untrusted";
+      return "falhou; trate os valores como não confiáveis";
     }
-    return `not verified (${verification.reason})`;
+    return `não verificada (${verification.reason})`;
   }
 
   function formatDecoded(parsed, verification) {
-    const templateName = parsed.template ? `${parsed.template.name} (${parsed.template.owner})` : `unknown template ${parsed.templateId}`;
+    const templateName = parsed.template ? `${parsed.template.name} (${parsed.template.owner})` : `modelo desconhecido ${parsed.templateId}`;
+    const title = parsed.template?.kind === "placa-mercosul" ? "Código da placa Mercosul" : `Documento Vio: ${templateName}`;
     const lines = [
-      `Vio document: ${templateName}`,
-      `Template ID: ${parsed.templateId}`,
-      `Created: ${parsed.createdAt}`,
-      `Signature: ${formatVerification(verification)}`,
+      title,
+      `Assinatura: ${formatVerification(verification)}`,
+      "",
+      ...parsed.fields.filter((field) => field.value.length > 0).map((field) => `${field.label}: ${field.value}`),
     ];
     if (parsed.fieldCountMatches === false) {
-      lines.push(`Fields: ${parsed.values.length} values; template expects ${parsed.template.fields.length}`);
+      lines.splice(2, 0, `Aviso: foram encontrados ${parsed.values.length} valores; o modelo espera ${parsed.template.fields.length}.`, "");
     }
-    lines.push("", ...parsed.fields.map((field) => `${field.label}: ${field.value}`));
     return lines.join("\n");
   }
 
@@ -399,11 +428,14 @@
       return null;
     }
     const verification = await verifySignature(parsed);
+    const isPlate = parsed.template?.kind === "placa-mercosul";
     const meta = verification.state === "verified"
-      ? "Vio QR decoded locally. The digital signature is verified; no data was uploaded."
+      ? `${isPlate ? "Código Vio da placa" : "Documento Vio"} lido localmente. A assinatura digital foi verificada; nenhum dado foi enviado.`
       : verification.state === "invalid"
-        ? "Vio QR decoded locally, but the digital signature failed. Treat the values as untrusted."
-        : "Vio QR fields decoded locally, but the digital signature could not be verified. Treat the values as untrusted.";
+        ? `${isPlate ? "Código Vio da placa" : "Documento Vio"} lido localmente, mas a assinatura digital falhou. Trate os valores como não confiáveis.`
+        : isPlate
+          ? "Código Vio da placa lido localmente, mas a assinatura digital não pôde ser verificada. Trate os valores como não confiáveis."
+          : "Campos Vio lidos localmente, mas a assinatura digital não pôde ser verificada. Trate os valores como não confiáveis.";
     return {
       ...parsed,
       verification,
@@ -411,6 +443,7 @@
       meta,
     };
   }
+
 
   root.vioDecoder = Object.freeze({
     decode: decodeVioPayload,

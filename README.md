@@ -46,13 +46,26 @@ npm run deploy:production
 
 ## Offline QR reader artifact
 
-`artifacts/qr-reader.html` is a standalone browser artifact. It is separate from the Cloudflare Worker and does not add a public route or change the empty-response contract. Keep it in the same directory as `artifacts/jsqr.js` and `artifacts/vio.js`.
+`artifacts/qr-reader.html` is a standalone browser artifact. It is separate from the Cloudflare Worker and does not add a public route or change the empty-response contract. Keep it in the same directory as `artifacts/jsqr.js`, `artifacts/vio.js`, and `artifacts/qr-formats.js`.
 
-Open `artifacts/qr-reader.html` locally, then choose or drop any local image containing a QR code. The reader decodes the image in the browser, shows text payloads directly, and never opens decoded URLs. Binary payloads are preserved as bytes and shown as Base64 when they are not recognized.
+Open `artifacts/qr-reader.html` locally, then choose, drop, or paste an image containing a QR code. The Brazilian Portuguese interface organizes readable payloads around three common cases:
 
-The artifact also recognizes Vio QR v4 payloads. It decodes the Vio field alphabet and the bundled RG Digital template, verifies its known brainpoolP256r1 signature locally when Web Crypto is available, and displays the fields without uploading the image or QR data. Unsupported Vio templates remain available as their original Base64 bytes.
+- a physical CIN QR, shown as a possible validation address or structured identity data;
+- a Vio identity/document code, with known local templates such as RG Digital rendered as fields;
+- a Mercosur plate code, rendered conservatively as vehicle-identification data.
 
-The reader makes no network requests, so it can be used offline.
+The reader never opens decoded URLs. Text stays text, and unrecognized binary payloads remain bytes represented as Base64. All decoded values are displayed with a caveat: decoding a QR pattern does not prove that a document, plate, or value is authentic.
+
+The artifact also recognizes Vio QR v4 payloads. It decodes the Vio field alphabet, supports the bundled RG Digital and Placa Veicular templates, and verifies known brainpoolP256r1 signatures locally when Web Crypto is available. A `verified` result means only that the signature matched the bundled certificate; it does not check revocation, issuer databases, physical-document comparison, or current legal validity. Unsupported Vio templates remain available as their original Base64 bytes.
+
+The technical format, template ID, certificate, timestamp, field count, and raw payload are behind the reader's `Mostrar mais detalhes` disclosure. The reader makes no network requests, so it can be used offline. The official CIN flow can require the government app, an account, and internet for complete validation; the official app or the relevant issuing/traffic authority remains the source of truth.
+
+Primary references for the use-case copy and limitations:
+
+- [Gov.br: Verificar validade de QR Code da CIN](https://www.gov.br/pt-br/servicos/verificar-validade-de-qr-code-da-carteira-de-identidade-nacional)
+- [Gov.br: Perguntas frequentes sobre a CIN](https://www.gov.br/governodigital/pt-br/identidade/cin/perguntas-frequentes-sobre-a-cin)
+- [SERPRO Vio app listing](https://play.google.com/store/apps/details?id=br.gov.serpro.lince&hl=pt_BR)
+- [Resolução Contran nº 969/2022](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/resolucao9692022.pdf)
 
 `jsqr.js` is the vendored jsQR 1.4.0 browser decoder under Apache 2.0; its license is preserved in `artifacts/JSQR-LICENSE.txt`.
 
