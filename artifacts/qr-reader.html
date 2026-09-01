@@ -52,7 +52,7 @@
       main {
         width: min(100% - 2rem, 72rem);
         margin: 0 auto;
-        padding: 2.5rem 0 3.5rem;
+        padding: 2rem 0 3.5rem;
       }
 
       header {
@@ -60,7 +60,7 @@
         grid-template-columns: minmax(0, 1.35fr) minmax(18rem, 0.65fr);
         gap: clamp(2rem, 6vw, 5rem);
         align-items: end;
-        margin-bottom: 2.25rem;
+        margin-bottom: 1.5rem;
       }
 
       .eyebrow {
@@ -93,10 +93,10 @@
       }
 
       h1 {
-        max-width: 12ch;
+        max-width: 16ch;
         margin-bottom: 1rem;
         color: var(--ink);
-        font-size: clamp(2.9rem, 7vw, 6.4rem);
+        font-size: clamp(2.9rem, 6vw, 5.2rem);
         line-height: 0.91;
         letter-spacing: -0.075em;
       }
@@ -206,7 +206,7 @@
       }
 
       .guide {
-        margin-bottom: 1.25rem;
+        margin-bottom: 0;
       }
 
       .section-heading {
@@ -318,7 +318,8 @@
       }
 
       .reader {
-        margin-top: 1.25rem;
+        margin-top: 0;
+        margin-bottom: 1.25rem;
       }
 
       .reader-heading,
@@ -774,7 +775,7 @@
         }
 
         .hero-note {
-          max-width: 34rem;
+          display: none;
         }
       }
 
@@ -845,39 +846,6 @@
         </aside>
       </header>
 
-      <section class="panel guide" aria-labelledby="guide-heading">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Mapa rápido</p>
-            <h2 id="guide-heading">Qual QR você encontrou?</h2>
-          </div>
-          <p class="section-copy">O mesmo desenho pode carregar um endereço, texto simples ou bytes assinados. O leitor identifica o que consegue reconhecer, mas não inventa uma validação.</p>
-        </div>
-        <div class="case-grid">
-          <article class="case-card" data-case="cin-fisica">
-            <span class="case-number">01</span>
-            <p class="case-kicker">Documento impresso</p>
-            <h3>CIN física</h3>
-            <p>O QR da carteira pode participar da conferência do documento. A leitura local mostra o endereço ou os dados encontrados.</p>
-            <span class="case-tag">validação no serviço oficial</span>
-          </article>
-          <article class="case-card" data-case="vio">
-            <span class="case-number">02</span>
-            <p class="case-kicker">Código seguro</p>
-            <h3>CIN / identidade Vio</h3>
-            <p>Formato binário compacto, com campos e assinatura digital. Aqui, modelos conhecidos podem ser interpretados localmente.</p>
-            <span class="case-tag">bytes + assinatura</span>
-          </article>
-          <article class="case-card" data-case="plate">
-            <span class="case-number">03</span>
-            <p class="case-kicker">Identificação veicular</p>
-            <h3>Placa Mercosul</h3>
-            <p>O QR da PIV funciona como selo eletrônico e se relaciona a registros do fabricante. Decodificar não consulta essa base.</p>
-            <span class="case-tag">serial e rastreabilidade</span>
-          </article>
-        </div>
-      </section>
-
       <section class="panel reader" aria-labelledby="reader-heading">
         <div class="reader-heading">
           <div>
@@ -925,6 +893,38 @@
             <button id="copyButton" type="button" disabled>Copiar conteúdo</button>
           </div>
         </section>
+      </section>
+      <section class="panel guide" aria-labelledby="guide-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Mapa rápido</p>
+            <h2 id="guide-heading">Qual QR você encontrou?</h2>
+          </div>
+          <p class="section-copy">O mesmo desenho pode carregar um endereço, texto simples ou bytes assinados. O leitor identifica o que consegue reconhecer, mas não inventa uma validação.</p>
+        </div>
+        <div class="case-grid">
+          <article class="case-card" data-case="cin-fisica">
+            <span class="case-number">01</span>
+            <p class="case-kicker">Documento impresso</p>
+            <h3>CIN física</h3>
+            <p>O QR da carteira pode participar da conferência do documento. A leitura local mostra o endereço ou os dados encontrados.</p>
+            <span class="case-tag">validação no serviço oficial</span>
+          </article>
+          <article class="case-card" data-case="vio">
+            <span class="case-number">02</span>
+            <p class="case-kicker">Código seguro</p>
+            <h3>CIN / identidade Vio</h3>
+            <p>Formato binário compacto, com campos e assinatura digital. Aqui, modelos conhecidos podem ser interpretados localmente.</p>
+            <span class="case-tag">bytes + assinatura</span>
+          </article>
+          <article class="case-card" data-case="plate">
+            <span class="case-number">03</span>
+            <p class="case-kicker">Identificação veicular</p>
+            <h3>Placa Mercosul</h3>
+            <p>O QR da PIV funciona como selo eletrônico e se relaciona a registros do fabricante. Decodificar não consulta essa base.</p>
+            <span class="case-tag">serial e rastreabilidade</span>
+          </article>
+        </div>
       </section>
 
       <footer>Funciona sem internet. Não substitui a conferência no app oficial ou no órgão emissor.</footer>

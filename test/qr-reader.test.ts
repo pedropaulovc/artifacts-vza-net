@@ -21,6 +21,9 @@ describe("offline QR reader artifact", () => {
     expect(html).toContain('<script src="./qr-formats.js"></script>');
     expect(html).toContain('id="fileInput"');
     expect(html).toContain("Mostrar mais detalhes");
+    expect(html).toContain('aria-labelledby="reader-heading"');
+    expect(html).toContain("Tudo acontece neste dispositivo");
+    expect(html.indexOf('<section class="panel reader"')).toBeLessThan(html.indexOf('<section class="panel guide"'));
     expect(html).toContain("Cabeçalho JWT");
     expect(html).toContain("Payload JWT");
     expect(html).toContain("Assinatura (Base64URL)");
