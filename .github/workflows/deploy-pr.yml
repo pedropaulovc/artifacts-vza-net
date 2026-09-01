@@ -79,6 +79,10 @@ jobs:
       - name: Install trusted Wrangler
         working-directory: deploy
         run: npm ci --ignore-scripts
+      - name: Stage pull request assets
+        run: |
+          rm -rf deploy/artifacts
+          cp -R source/artifacts deploy/artifacts
       - name: Verify target account
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}

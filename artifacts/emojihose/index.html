@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>emojihose — realtime emoji on Bluesky</title>
+<style>
+  @property --heat {
+    syntax: "<number>";
+    inherits: false;
+    initial-value: 0;
+  }
+
+  :root {
+    --ink:   #0b1020;
+    --panel: #131a30;
+    --rule:  #223055;
+    --text:  #cdd8f0;
+    --dim:   #6b7ba6;
+    --hot:   #ffb547;
+    --sky:   #4aa8ff;
+
+    --cell-w: 76px;
+    --cell-h: 84px;
+    --gap: 4px;
+    --tape-h: 46px;
+
+    --mono: ui-monospace, "SF Mono", "JetBrains Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: var(--ink);
+    color: var(--text);
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body { display: flex; flex-direction: column; overflow: hidden; }
+
+  /* ---- header ---- */
+
+  header { flex: 0 0 auto; border-bottom: 1px solid var(--rule); background: var(--panel); }
+
+  .bar {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    padding: 14px 18px 10px;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+
+  h1 span { color: var(--sky); }
+
+  .live {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--dim);
+  }
+
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--dim); }
+  .live[data-state="open"] .dot { background: var(--sky); animation: pulse 2.4s ease-out infinite; }
+  .live[data-state="lost"] .dot { background: var(--hot); }
+
+  @keyframes pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(74,168,255,.45); }
+    70%  { box-shadow: 0 0 0 7px rgba(74,168,255,0); }
+    100% { box-shadow: 0 0 0 0 rgba(74,168,255,0); }
+  }
+
+  .stats { display: flex; gap: 22px; margin-left: auto; align-items: baseline; }
+  .stat { display: flex; flex-direction: column; gap: 2px; }
+  .stat b { font-size: 14px; font-weight: 600; }
+  .stat i, .lbl {
+    font-style: normal;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--dim);
+  }
+
+  /* ---- controls ---- */
+
+  .ctl {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  button {
+    font: inherit;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--dim);
+    background: transparent;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: color 140ms, border-color 140ms, background-color 140ms;
+  }
+
+  button:hover { color: var(--text); border-color: var(--dim); }
+  button:focus-visible { outline: 2px solid var(--sky); outline-offset: 2px; }
+  button[aria-pressed="true"] {
+    color: var(--ink);
+    background: var(--hot);
+    border-color: var(--hot);
+    font-weight: 600;
+  }
+
+  /* ---- rate tape ---- */
+
+  .tape { position: relative; margin: 0; height: var(--tape-h); border-top: 1px solid var(--rule); }
+  .tape canvas { display: block; width: 100%; height: var(--tape-h); }
+
+  .tape figcaption, .tape .peak {
+    position: absolute;
+    bottom: 5px;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--dim);
+    pointer-events: none;
+  }
+
+  .tape figcaption { left: 18px; }
+  .tape .peak { right: 18px; color: var(--hot); }
+
+  /* ---- grid ---- */
+
+  main { flex: 1 1 auto; overflow-y: auto; overflow-x: hidden; padding: 18px; }
+  #grid { position: relative; margin: 0; padding: 0; }
+
+  .cell {
+    position: absolute;
+    top: 0; left: 0;
+    width: var(--cell-w);
+    height: var(--cell-h);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    --heat: 0;
+    background: color-mix(in srgb, var(--hot) calc(var(--heat) * 24%), var(--panel));
+    border-color: color-mix(in srgb, var(--hot) calc(var(--heat) * 72%), var(--rule));
+    transition: transform 620ms cubic-bezier(.22,.61,.36,1);
+    will-change: transform;
+  }
+
+  .glyph {
+    font-size: 30px;
+    line-height: 1;
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  }
+
+  .n {
+    font-size: 12px;
+    font-weight: 600;
+    color: color-mix(in srgb, var(--hot) calc(var(--heat) * 100%), var(--dim));
+  }
+
+  .cell:focus-visible { outline: 2px solid var(--sky); outline-offset: 2px; }
+
+  #note {
+    color: var(--dim);
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 40px 18px;
+    text-align: center;
+    max-width: 46ch;
+    margin: 0 auto;
+  }
+
+  #note b { color: var(--hot); font-weight: 600; }
+  #note code { color: var(--text); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .cell { transition: none; }
+    .dot { animation: none; }
+  }
+
+  @media (max-width: 700px) {
+    :root { --cell-w: 62px; --cell-h: 72px; }
+    .glyph { font-size: 24px; }
+    .bar { gap: 14px; }
+    .stats { width: 100%; margin-left: 0; gap: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <h1>emoji<span>hose</span></h1>
+    <span class="live" id="live" data-state="init"><span class="dot"></span><span id="liveLabel">connecting</span></span>
+
+    <span class="ctl">
+      <button id="damp" aria-pressed="true" title="Count each emoji at most once per author per minute">damping</button>
+      <button id="reset" title="Clear all counts and stored history">reset</button>
+    </span>
+
+    <div class="stats">
+      <span class="stat"><b id="sPosts">—</b><i>posts/sec</i></span>
+      <span class="stat"><b id="sDistinct">—</b><i>distinct</i></span>
+      <span class="stat"><b id="sTotal">—</b><i>counted</i></span>
+      <span class="stat"><b id="sSup">—</b><i>suppressed</i></span>
+    </div>
+  </div>
+
+  <figure class="tape">
+    <canvas id="tape"></canvas>
+    <figcaption>emoji per second · last 90s</figcaption>
+    <span class="peak" id="peak"></span>
+  </figure>
+</header>
+
+<main>
+  <div id="grid" role="list" aria-label="Emoji counts, most frequent first"></div>
+  <p id="note">Waiting for the first emoji to come down the wire.</p>
+</main>
+
+<script>
+(() => {
+"use strict";
+
+/* ------------------------------------------------------------------ *
+ * Config
+ * ------------------------------------------------------------------ */
+
+const HOSTS = [
+  "jetstream1.us-east.bsky.network",
+  "jetstream2.us-east.bsky.network",
+  "jetstream1.us-west.bsky.network",
+  "jetstream2.us-west.bsky.network",
+];
+
+const COLLECTION   = "app.bsky.feed.post";
+const TICK_MS      = 100;      // render batching interval
+const REORDER_MS   = 1000;     // rank recompute interval
+const DAMP_MS      = 60000;    // (emoji, author) suppression window
+const REPLAY_SLACK = 5e6;      // µs rewound on reconnect
+const COMMIT_CACHE = 4096;     // bounded replay cache, persisted with totals
+const SAVE_MS      = 5000;     // persistence interval
+const WINDOW       = 90;       // tape width, seconds
+const RATE_WINDOW  = 10;       // posts/sec averaging window, seconds
+const TAPE_H       = 46;
+
+/* ------------------------------------------------------------------ *
+ * Emoji segmentation
+ *
+ * The server version leaned on a Python package carrying its own copy of
+ * the Unicode emoji tables. The browser already has them: \p{RGI_Emoji}
+ * under the `v` flag matches whole Recommended-for-General-Interchange
+ * sequences, so ZWJ families, skin-tone modifiers, keycaps and
+ * regional-indicator flag pairs each come back as one match.
+ *
+ * It also arrives pre-canonicalised, which deleted two chunks of the
+ * Python. RGI only matches emoji-presentation forms, so bare U+2764 and
+ * qualified U+2764 U+FE0F no longer need folding into one key, and the
+ * hand-maintained exclusion list for (c)/(r)/(tm) is unnecessary because
+ * RGI never matched them in the first place.
+ * ------------------------------------------------------------------ */
+
+let RGI = null;
+try { RGI = new RegExp("\\p{RGI_Emoji}", "gv"); } catch { /* handled below */ }
+
+const extract = text => RGI ? text.match(RGI) : null;
+
+/* ------------------------------------------------------------------ *
+ * Persistence — localStorage where allowed, memory where not.
+ * Probed once rather than assumed: sandboxed iframes and hardened
+ * privacy modes throw on access, and the page should still run.
+ * ------------------------------------------------------------------ */
+
+const store = (() => {
+  const KEY = "emojihose.v1";
+  let backing = null;
+  try {
+    localStorage.setItem(KEY + ".probe", "1");
+    localStorage.removeItem(KEY + ".probe");
+    backing = localStorage;
+  } catch { backing = null; }
+
+  return {
+    persistent: backing !== null,
+    read() {
+      if (!backing) return null;
+      try { return JSON.parse(backing.getItem(KEY)); } catch { return null; }
+    },
+    write(obj) {
+      if (!backing) return;
+      try { backing.setItem(KEY, JSON.stringify(obj)); } catch { /* quota */ }
+    },
+    clear() {
+      if (!backing) return;
+      try { backing.removeItem(KEY); } catch {}
+    },
+  };
+})();
+
+/* ------------------------------------------------------------------ *
+ * Counters
+ *
+ * Two tallies are kept in parallel, not one behind a flag. Bluesky
+ * carries roughly 33 posts/sec of which about 18% contain an emoji, and
+ * that is thin enough for one scheduled account to own the leaderboard:
+ * in a sampled window, a single DID produced 100% of the observed U+23EC.
+ * Damping counts an (emoji, author) pair at most once a minute. Keeping
+ * the raw tally alongside it makes the toggle an instant A/B on live
+ * data instead of a setting that only affects whatever happens next.
+ * ------------------------------------------------------------------ */
+
+const raw        = new Map();   // emoji -> count, undamped
+const damp       = new Map();   // emoji -> count, damped
+const seen       = new Map();   // "emoji\0did" -> timestamp, insertion-ordered
+const commitIds  = new Map();   // Jetstream commit identity -> seen timestamp
+const dirty      = new Set();
+
+let damping   = true;
+let cursor    = null;
+let posts     = 0;
+let rateBuf   = [];
+let rateSec   = 0;
+let rateCount = 0;
+
+const counts = () => (damping ? damp : raw);
+
+function prune(now) {
+  const cutoff = now - DAMP_MS;
+  for (const [pair, t] of seen) {
+    if (t >= cutoff) break;       // Map iterates in insertion order
+    seen.delete(pair);
+  }
+}
+
+function suppressed(emoji, did, now) {
+  const pair = emoji + "\0" + did;
+  const prev = seen.get(pair);
+  seen.delete(pair);
+  seen.set(pair, now);
+  return prev !== undefined;
+}
+
+function commitKey(did, commit, timeUs) {
+  const revision = commit.rev ?? commit.cid ?? timeUs;
+  if (revision === undefined || revision === null) return null;
+  return [did, revision, commit.collection, commit.rkey].join("\0");
+}
+
+function trimCommitIds() {
+  while (commitIds.size > COMMIT_CACHE) {
+    const oldest = commitIds.keys().next().value;
+    if (oldest === undefined) break;
+    commitIds.delete(oldest);
+  }
+}
+
+function acceptCommit(key) {
+  if (key === null) return true;
+  if (commitIds.has(key)) return false;
+  commitIds.set(key, Date.now());
+  trimCommitIds();
+  return true;
+}
+
+function ingest(did, text, timeUs) {
+  if (Number.isFinite(timeUs)) cursor = timeUs;
+  posts++;
+  tickRate();
+
+  const found = extract(text);
+  if (!found) return;
+
+  const now = Date.now();
+  prune(now);
+
+  const unique = new Set(found);
+  for (const emoji of unique) {
+    raw.set(emoji, (raw.get(emoji) || 0) + 1);
+    if (!suppressed(emoji, did, now)) {
+      damp.set(emoji, (damp.get(emoji) || 0) + 1);
+    }
+    bucket++;
+    dirty.add(emoji);
+  }
+}
+
+function tickRate() {
+  const s = (Date.now() / 1000) | 0;
+  if (s === rateSec) { rateCount++; return; }
+  rateBuf.push([rateSec, rateCount]);
+  if (rateBuf.length > RATE_WINDOW) rateBuf.shift();
+  rateSec = s;
+  rateCount = 1;
+}
+
+function rate() {
+  const now = (Date.now() / 1000) | 0;
+  const live = rateBuf.filter(([s]) => s > now - RATE_WINDOW);
+  const total = live.reduce((a, [, n]) => a + n, 0) + rateCount;
+  const span = Math.max(now - (live.length ? live[0][0] : now), 1);
+  return total / span;
+}
+
+/* ------------------------------------------------------------------ *
+ * Rendering
+ * ------------------------------------------------------------------ */
+
+const grid      = document.getElementById("grid");
+const note      = document.getElementById("note");
+const live      = document.getElementById("live");
+const liveLabel = document.getElementById("liveLabel");
+const dampBtn   = document.getElementById("damp");
+const resetBtn  = document.getElementById("reset");
+const reduced   = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+const cells = new Map();   // emoji -> {el, nEl, shown, anim}
+let order = [];
+let dirtyOrder = true;
+
+const compact = new Intl.NumberFormat(undefined, { notation: "compact", maximumFractionDigits: 1 });
+const plain   = new Intl.NumberFormat();
+const fmt     = n => (n >= 10000 ? compact.format(n) : plain.format(n));
+
+const px = name => parseInt(getComputedStyle(document.documentElement).getPropertyValue(name));
+
+function ensure(emoji) {
+  let c = cells.get(emoji);
+  if (c) return c;
+
+  const el = document.createElement("div");
+  el.className = "cell";
+  el.setAttribute("role", "listitem");
+  el.tabIndex = 0;
+
+  const g = document.createElement("span");
+  g.className = "glyph";
+  g.textContent = emoji;
+
+  const n = document.createElement("span");
+  n.className = "n";
+  n.textContent = "0";
+
+  el.append(g, n);
+  grid.appendChild(el);
+
+  c = { el, nEl: n, shown: -1, anim: null };
+  cells.set(emoji, c);
+  dirtyOrder = true;
+  note.hidden = true;
+  return c;
+}
+
+/* Attack is instant, decay runs about a second. Re-hitting a warm cell
+   cancels the running animation rather than stacking on it, so a busy
+   emoji reads as sustained heat instead of strobe. */
+function heat(c) {
+  if (reduced) return;
+  c.anim?.cancel();
+  c.anim = c.el.animate(
+    [{ "--heat": 1 }, { "--heat": 0 }],
+    { duration: 1000, easing: "cubic-bezier(.2,.7,.3,1)" }
+  );
+}
+
+function paint(emoji, total, flash) {
+  const c = ensure(emoji);
+  if (total !== c.shown) {
+    c.shown = total;
+    c.nEl.textContent = fmt(total);
+    /* No name table is shipped. Screen readers already announce the
+       emoji itself, in the user's own locale, so the label only has to
+       supply the number the glyph cannot carry. */
+    c.el.setAttribute("aria-label", `${emoji} ${plain.format(total)}`);
+  }
+  if (flash) heat(c);
+}
+
+function layout() {
+  const w = grid.clientWidth;
+  const cw = px("--cell-w") + px("--gap");
+  const ch = px("--cell-h") + px("--gap");
+  const cols = Math.max(1, Math.floor((w + px("--gap")) / cw));
+  for (let i = 0; i < order.length; i++) {
+    const c = cells.get(order[i]);
+    if (!c) continue;
+    c.el.style.transform =
+      `translate3d(${(i % cols) * cw}px, ${Math.floor(i / cols) * ch}px, 0)`;
+  }
+  grid.style.height = `${Math.ceil(order.length / cols) * ch}px`;
+}
+
+/* Rank changes move cells by transform alone. Nothing reflows, so a full
+   reorder of a few thousand cells stays on the compositor. */
+function reorder() {
+  if (!dirtyOrder) return;
+  dirtyOrder = false;
+  const m = counts();
+  const next = [...cells.keys()].sort((a, b) => {
+    const d = (m.get(b) || 0) - (m.get(a) || 0);
+    return d !== 0 ? d : (a < b ? -1 : 1);
+  });
+  const changed = next.length !== order.length || next.some((k, i) => k !== order[i]);
+  order = next;
+  if (changed) layout();
+}
+
+/* Walks the tallies, not the existing cells. On a toggle those are the
+   same set, but on boot the tallies come back from storage with no cells
+   built yet, and walking cells would restore the numbers into nothing. */
+function repaintAll() {
+  const m = counts();
+  const every = new Set([...raw.keys(), ...damp.keys(), ...cells.keys()]);
+  for (const emoji of every) paint(emoji, m.get(emoji) || 0, false);
+  dirtyOrder = true;
+  reorder();
+  layout();
+}
+
+/* ------------------------------------------------------------------ *
+ * The tick.
+ *
+ * This is the load-bearing idea carried over from emojitracker, and it
+ * matters more here than it did behind a server: the socket and the
+ * renderer now share a thread. Touching the DOM per message would couple
+ * frame rate to traffic rate, and a cursor replay bursts to several
+ * hundred messages a second. Messages accumulate into a dirty set and
+ * the DOM is touched on a fixed 100ms tick, so render cost is bounded by
+ * the tick rate no matter what the network does.
+ * ------------------------------------------------------------------ */
+
+let bucket = 0;
+
+setInterval(() => {
+  if (!dirty.size) return;
+  const m = counts();
+  for (const emoji of dirty) {
+    paint(emoji, m.get(emoji) || 0, true);
+  }
+  dirty.clear();
+  dirtyOrder = true;
+  stats();
+}, TICK_MS);
+
+setInterval(reorder, REORDER_MS);
+addEventListener("resize", layout);
+
+function sum(map) {
+  let n = 0;
+  for (const v of map.values()) n += v;
+  return n;
+}
+
+function stats() {
+  const m = counts();
+  document.getElementById("sPosts").textContent = rate().toFixed(1);
+  document.getElementById("sDistinct").textContent = fmt(m.size);
+  document.getElementById("sTotal").textContent = fmt(sum(m));
+  /* Independent of which tally is on screen: how much of the raw traffic
+     damping is holding back. That difference is the whole argument for it. */
+  document.getElementById("sSup").textContent = fmt(sum(raw) - sum(damp));
+}
+
+/* ------------------------------------------------------------------ *
+ * Rate tape
+ * ------------------------------------------------------------------ */
+
+const tape = document.getElementById("tape");
+const ctx  = tape.getContext("2d");
+const peakEl = document.getElementById("peak");
+const series = new Array(WINDOW).fill(0);
+
+function sizeTape() {
+  const dpr = devicePixelRatio || 1;
+  tape.width  = Math.floor(tape.clientWidth * dpr);
+  tape.height = Math.floor(TAPE_H * dpr);
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
+
+/* A chart recorder, not a bar chart: the quantity is continuous, and
+   gaps in a bar chart read as missing data rather than as quiet seconds. */
+function drawTape() {
+  const w = tape.clientWidth, h = TAPE_H;
+  ctx.clearRect(0, 0, w, h);
+
+  const peak = Math.max(4, ...series);
+  const step = w / (WINDOW - 1);
+  const base = h - 3;
+  const y = v => base - (v / peak) * (h - 16);
+
+  ctx.beginPath();
+  ctx.moveTo(0, base);
+  for (let i = 0; i < WINDOW; i++) ctx.lineTo(i * step, y(series[i]));
+  ctx.lineTo(w, base);
+  ctx.closePath();
+  const fill = ctx.createLinearGradient(0, 0, 0, h);
+  fill.addColorStop(0, "rgba(255, 181, 71, .38)");
+  fill.addColorStop(1, "rgba(255, 181, 71, .05)");
+  ctx.fillStyle = fill;
+  ctx.fill();
+
+  ctx.beginPath();
+  for (let i = 0; i < WINDOW; i++) {
+    const x = i * step, yy = y(series[i]);
+    i === 0 ? ctx.moveTo(x, yy) : ctx.lineTo(x, yy);
+  }
+  ctx.strokeStyle = "rgba(255, 181, 71, .95)";
+  ctx.lineWidth = 1.5;
+  ctx.lineJoin = "round";
+  ctx.stroke();
+
+  ctx.fillStyle = "rgba(107, 123, 166, .4)";
+  ctx.fillRect(0, base + 1, w, 1);
+  peakEl.textContent = `peak ${peak}/s`;
+}
+
+setInterval(() => { series.shift(); series.push(bucket); bucket = 0; drawTape(); }, 1000);
+addEventListener("resize", () => { sizeTape(); drawTape(); });
+sizeTape();
+drawTape();
+
+/* ------------------------------------------------------------------ *
+ * Transport
+ * ------------------------------------------------------------------ */
+
+let ws = null;
+let backoff = 500;
+let host = HOSTS[1];
+let attempts = 0;
+let everOpen = false;
+
+function url() {
+  const p = new URLSearchParams({ wantedCollections: COLLECTION });
+  /* Jetstream cursors are unix-microsecond timestamps, so rewinding
+     replays a few seconds rather than skipping them. Totals are
+     cumulative and the damping window absorbs the overlap. */
+  if (Number.isFinite(cursor)) p.set("cursor", String(Math.max(cursor - REPLAY_SLACK, 0)));
+  return `wss://${host}/subscribe?${p}`;
+}
+
+function setLive(state, label) {
+  live.dataset.state = state;
+  liveLabel.textContent = label;
+}
+
+let lastError = null;
+
+/* Shared failure path. A dropped socket and a socket that was never allowed
+   to exist both land here, because only the retry schedule is common to
+   them; the message shown to the reader is not. */
+function fail() {
+  attempts++;
+  if (!everOpen && attempts >= 3) blocked();
+  setLive("lost", everOpen ? "reconnecting" : "blocked");
+
+  const delay = backoff * (1 + Math.random());
+  backoff = Math.min(backoff * 2, 30000);
+  /* Rotate hosts on repeated failure: all four instances carry the same
+     stream and share a cursor space, so this costs nothing. */
+  if (backoff > 4000) host = HOSTS[(HOSTS.indexOf(host) + 1) % HOSTS.length];
+  setTimeout(connect, delay);
+}
+
+function connect() {
+  setLive("init", "connecting");
+
+  let sock;
+  try {
+    sock = new WebSocket(url());
+  } catch (e) {
+    lastError = String(e);
+    fail();
+    return;
+  }
+  ws = sock;
+
+  /* A policy rejection does not throw and does not close: the socket is
+     handed back already in CLOSED, and only "error" ever fires. Hanging the
+     retry off onclose alone leaves the page reading "connecting" forever, so
+     both events settle the attempt and a guard keeps the ordinary
+     error-then-close sequence from counting twice. */
+  if (sock.readyState === WebSocket.CLOSED) {
+    lastError = "socket returned already closed — connection refused by policy";
+  }
+
+  let settled = false;
+  const settle = () => {
+    if (settled || ws !== sock) return;
+    settled = true;
+    fail();
+  };
+
+  sock.onopen = () => {
+    backoff = 500;
+    attempts = 0;
+    everOpen = true;
+    lastError = null;
+    setLive("open", "live");
+  };
+
+  sock.onmessage = ev => {
+    const e = JSON.parse(ev.data);
+    if (e.kind !== "commit") return;
+    const c = e.commit;
+    if (!c || c.operation !== "create") return;
+    const text = c.record && c.record.text;
+    if (!text) return;
+    if (!acceptCommit(commitKey(e.did, c, e.time_us))) return;
+    ingest(e.did, text, e.time_us);
+  };
+
+  sock.onerror = settle;
+  sock.onclose = settle;
+}
+
+function blocked() {
+  note.hidden = false;
+  note.innerHTML =
+    "<b>Cannot reach Jetstream.</b><br><br>" +
+    "The WebSocket to <code>" + host + "</code> never opened, after " +
+    attempts + " attempts. Retries continue in the background.<br><br>" +
+    (lastError ? "<code>" + lastError + "</code><br><br>" : "") +
+    "If this is running inside a sandboxed frame, its content policy may " +
+    "have no <code>connect-src</code> entry for that host, which fails " +
+    "identically to an outage. Opening this file in a browser tab of its " +
+    "own will tell you which it is.";
+}
+
+/* ------------------------------------------------------------------ *
+ * Save / restore
+ * ------------------------------------------------------------------ */
+
+function save() {
+  store.write({
+    cursor,
+    posts,
+    damping,
+    raw:       Object.fromEntries(raw),
+    damp:      Object.fromEntries(damp),
+    commitIds: Object.fromEntries(commitIds),
+  });
+}
+
+function restore() {
+  const s = store.read();
+  if (!s) return;
+  cursor = Number.isFinite(s.cursor) ? s.cursor : null;
+  posts = s.posts || 0;
+  damping = s.damping !== false;
+  for (const [k, v] of Object.entries(s.raw || {})) raw.set(k, v);
+  for (const [k, v] of Object.entries(s.damp || {})) damp.set(k, v);
+  for (const [k, v] of Object.entries(s.commitIds || {})) commitIds.set(k, v);
+  trimCommitIds();
+}
+
+setInterval(save, SAVE_MS);
+addEventListener("pagehide", save);
+
+/* ------------------------------------------------------------------ *
+ * Controls
+ * ------------------------------------------------------------------ */
+
+dampBtn.addEventListener("click", () => {
+  damping = !damping;
+  dampBtn.setAttribute("aria-pressed", String(damping));
+  repaintAll();
+  stats();
+  save();
+});
+
+resetBtn.addEventListener("click", () => {
+  raw.clear(); damp.clear(); seen.clear(); commitIds.clear(); dirty.clear();
+  for (const c of cells.values()) c.el.remove();
+  cells.clear();
+  order = [];
+  posts = 0; cursor = null; rateBuf = []; rateCount = 0;
+  series.fill(0);
+  grid.style.height = "0px";
+  note.hidden = false;
+  note.textContent = "Cleared. Waiting for the next emoji.";
+  store.clear();
+  drawTape();
+  stats();
+});
+
+/* ------------------------------------------------------------------ *
+ * Boot
+ * ------------------------------------------------------------------ */
+
+if (!RGI) {
+  note.innerHTML =
+    "This browser has no <code>\\p{RGI_Emoji}</code> support, so emoji " +
+    "sequences cannot be segmented correctly and nothing is counted. " +
+    "It needs Chrome 112+, Safari 17+ or Firefox 116+.<br><br>" +
+    "<b>Not counting.</b> Failing loudly beats a plausible-looking grid " +
+    "that silently splits every flag and family into pieces.";
+  setLive("lost", "unsupported");
+} else {
+  restore();
+  dampBtn.setAttribute("aria-pressed", String(damping));
+  repaintAll();
+  stats();
+  connect();
+  if (!store.persistent) {
+    console.info("emojihose: storage unavailable, counts are session-only");
+  }
+}
+
+/* Exposed for measurement; harmless in normal use. */
+window.emojihose = { raw, damp, seen, cells, stats, rate, get cursor() { return cursor; } };
+
+})();
+</script>
+</body>
+</html>

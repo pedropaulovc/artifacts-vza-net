@@ -1,18 +1,20 @@
 # AGENTS.md
 
-## Repository purpose
-
-This repository contains the intentionally empty-response Cloudflare Worker for `artifacts.vza.net`. Keep the implementation small and explicit. Do not add application behavior, storage, bindings, redirects, or a source-account fallback unless the service contract changes and the change is documented.
+This repository contains the Cloudflare Worker and self-contained static artifact folders for `artifacts.vza.net`. Keep the Worker generic: the asset binding serves the directory listing and every artifact folder. Do not add artifact-specific redirects or a source-account fallback.
 
 ## Response contract
 
-`src/index.ts` must preserve these observable results:
+`src/index.ts` must delegate static requests to the configured asset binding. The asset directory must preserve these observable results:
 
-- `GET /` and `HEAD /`: HTTP 200 with an empty body
+- `GET /`: HTTP 200 with the Apache-style artifact directory listing
+- `HEAD /`: HTTP 200 with an empty body
 - other methods on `/`: HTTP 405 with an empty body
-- any method on another path: HTTP 404 with an empty body
+- `GET /<artifact>`: HTTP 307 to `/<artifact>/` when the artifact is a folder
+- `GET /<artifact>/`: HTTP 200 with that folder's `index.html`
+- `HEAD /<artifact>/`: HTTP 200 with an empty body
+- any method on an unsupported path: HTTP 404 with an empty body
 
-Update `test/worker.test.ts` whenever the contract changes. Tests must assert both status and body.
+Each artifact must live in its own `artifacts/<name>/` folder. Update `test/worker.test.ts` whenever the contract changes. Tests must assert both status and body.
 
 ## Cloudflare boundaries
 
@@ -39,8 +41,8 @@ Do not deploy during routine development or review. Deployment is an explicit Gi
 
 ## Change discipline
 
-- Preserve the no-bindings design unless a documented requirement needs a binding.
+- Use the assets binding for static files; do not replace it with artifact-specific Worker redirects.
 - Keep account IDs and Worker names exact in their environment-specific files.
-- Do not add public routes to Wrangler configuration. Public cutover is a separate operator action described in `README.md`.
+- Keep this repository's production Worker workers.dev-only. The public `artifacts.vza.net` custom-domain binding belongs to the dedicated `vza-net-router` account and must route only to the production origin; do not configure PPE or a legacy-account fallback here.
 - Never commit Cloudflare tokens, local Wrangler state, test output, or `node_modules`.
 - Update the README when origins, environment prerequisites, triggers, smoke checks, rollback, or cleanup steps change.

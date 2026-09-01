@@ -1,15 +1,13 @@
+type AssetFetcher = {
+  fetch(request: Request): Promise<Response>;
+};
+
+export interface Env {
+  ASSETS: AssetFetcher;
+}
+
 export default {
-  fetch(request: Request): Response {
-    const { pathname } = new URL(request.url);
-
-    if (pathname !== "/") {
-      return new Response(null, { status: 404 });
-    }
-
-    if (request.method !== "GET" && request.method !== "HEAD") {
-      return new Response(null, { status: 405 });
-    }
-
-    return new Response(null, { status: 200 });
+  fetch(request: Request, env: Env): Promise<Response> {
+    return env.ASSETS.fetch(request);
   },
 };

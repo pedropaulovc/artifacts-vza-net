@@ -5,5 +5,12 @@
   "compatibility_date": "2026-08-13",
   "account_id": "b84c535427bb541a804d4055918a94ab",
   "workers_dev": true,
-  "preview_urls": false
+  "preview_urls": false,
+  "assets": {
+    "directory": "./artifacts",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none",
+    "run_worker_first": true
+  }
 }
