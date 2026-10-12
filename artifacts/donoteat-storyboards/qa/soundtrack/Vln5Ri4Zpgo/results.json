@@ -1,0 +1,1158 @@
+{
+  "id": "Vln5Ri4Zpgo",
+  "title": "A new Cities: Skylines Series: Franklin",
+  "requests": [
+    {
+      "sourceIdentity": {
+        "source": "videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+        "sourceBytes": 1101248,
+        "sourceMtimeNs": 1791766570701323747
+      },
+      "sampleStartSeconds": 0,
+      "sampleEndSeconds": 20.0,
+      "requestedEndSeconds": 20,
+      "clip": "qa/soundtrack/Vln5Ri4Zpgo/clips/0.000-20.000.wav",
+      "sha256": "af8d50d5f5c1f15c210f2cb545778cf2ca5510e651afc6ac71c9265947a182ea",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "0",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/Vln5Ri4Zpgo/clips/0.000-20.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:10:42.506294+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,gCX+ysv/pLUcDQAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAD9AgAAAHwAAAAAQBwNAABAAANg5gAAABqILnoNDlotPg4YHS+dCg5fLu0MLdIsgQ4IejASDwkJLiQNK6g1BAmSQU36DTHBODUJAmxM1g4XLFEBDiRQUoUOGOdYVg0rB1c1CgKwWkEOD5xgZA0OrVyTCwfBXgQLGEFsCQoCV2EVDiCDZbYKC1FlPw0Xu24MCh5NbCoLJsVpCQom428UDl5zbngKFddjmRAsEGxNDiMNZfMMDmNumgoDlmj7DQxadDgLKBhtego9q2NsEAEmWl0MIJdj+A4h02aYEB4YazsNIKNqfBAh72XyDiK9bnEQC5VtOQ0pLW48Dj+DdTELAABBAANg4wMAABi2J+4fAZIlLykDLiw9EgHIK04VAEoowCUC+iV3GAiUIq8eBB4l/RgFKyQ4IwLIKVYWDDwqUxEC3ipsKgZsKpgUA9gk9BkB7iR2LAOKKb0VAYom3CUCojFoEgugJY0cACckTCACkSQLLAGmJ64kDJAn5yADsS2LFguuJzUdFSErOCkC7yaNGAUiLPsUBWsmJyUKTCrdJQwwJ00kCvE/AhsMkykLKwZVLWoUAJ4sDSkLziszIQODLf8lB5FB8h0IiTDCJAELL8QrCOlJqRwKBTMkEgfLLsEoDukudRMIxEprGwLbMrASAp8tASQCQjUJLQZyL0EUAB0wzCUBpE+vHAdJLwMnADc1ViwNKS/WIgA9MpQoFKFRAxwSYTWBEwFwObwnATU3GCQCCDeuLAsVUc8dBDk4lyobPi+FFCpkMmgiA2hB9yoBV1mYHASMMeMiDkJCDCgIdlvwGwJsQhUSEyxD/SoKJFucHQSZOyQiAsJJLRQCMkGxLAE/Ya4cGjlTpxIBok9yFhI2YdYbAZhITCsKOFbTEwOBSs4sAZJjex0CJ0nLFwEhTaYkBfliGRsHA0zVJwu9SncoApVP8SIDtFnqFAOXWtwRFe5LySwHlUswKwKXWUEUAK5LnyQDFVI7IQufbAobB1dO9ycKdFONEgBIapkcAKJLSC0CSFP5Fh8hZJ4TAC9jJx8DZk+UJAGNS4UsC7RuGBsAaFGlJx5jcH4cFwFWaCoQOVg7IgvmWM4kCMhgMiADk1zDIwYeYMYoDtZnMhQK9GYPFwJcYiIRBm1j0iodQFMeLQZkZfogA9JmDyoP/WY0EQi+WSgYCq1ulBwUbGAAIQROYb4TCR9VWSUJ62P7EAfDXfshASddUyoDw181FwsPY1kVCChbki0DVWRrIQ00YioSCDRftBgEzGCWHAArViwkFOVZlyMGeWfAGxt9ZP4gA2RjgxMDOlL0JwEfYXcdA71SHC4J7F9HHwv/ZWQSBH1gRBYCFV9FJQY1UfQsCu9maRoOWGatEwAzYUcuArdlLSEBjlvoJwe/aZkcFeBhUxEAgmSBIgLYUHIpA3VcHhUZt1dEJwEsWuoTAYFlCh4AaVi2KgG+afIgANpckS0L3mpHHwsla1UbB7NoaBIBUF71FQCzVhQsARtaRCgChV9FJQ2xaZIcDXlmlSAA2mKCLQO5U+sWAKFb/yYCQmOIEwfEYuktB11meR4HgGJ5Ggt7a88bGx5fdyoE6G17HAmLXkUjCadgzSAMdmEHFQh6XDYoEe9mzRcF/2X+KwamYFMhBIVZLSYEVGZTERvwXMgnAo1feyQChWjEExpSYa0UAEIAA2AvCAAAFVYg0DQBXiK5UwC7IJBjAb4g81sB4STqTAEcIR9FBzAfWW0CzSGdNwC7IDZdAj0jSFgCEyJFPgCgI/tSAtMgVmkBaSExOALzIPNiAxIgP0EBWR9mawM9IRFIA6AgFzkCriP/LgHRHvozAYMis1ADQCX6PARWInpbAq0kSVUEph/WZwO+IcRaAY4hUF8BwiN/OgGbI7ZLAQcjCzECBB70NgViIdFJAQUiMVoAyiHMbAJlIX5hAVUgzFID3CJTXQPEIMFmCHolOTABziMZOQ6cI5BHAqkiBjgIDSQzTQlRJUE/AqolEmgBmCg/VwC7KvljAFIp9mwBLiZOXAELKY9SAn8m2EEBWyTsPQaVKLcyAMIpdEUDJCdnbQcmJY9pAYwppzkAwiivYgFmKOBNAUwpakIAYis0SQBvKDZTFckqU08A9ybBbwEJLHlKAeEqikcAQyjQagKfKfgxBWQlqF8DwChyWgT4J6VdAkwqSEQA+yRLZgKsKUZSBtopMEsB8Cz8VAHpKXBFDE0vpVUBaSvCSQFgKf1FAKgyb1kAfyq5bgE8MbQ7AGwr72ABMiykTADSJxJkA8MrLkACNzJJOgG3LhYxBFkra0EDDi4ILwBpK39bAXooUmgEVij4bQKrKgBDCcUxKjQEjinDaAYELTpFANgn82YFUzWIawNVOdg1AOU2jFACAip2bwSOKm0/AAAr9WABaC3oMQG7KBBmBKYuy1cC2DNAUwJzLxFLAZYzqFoA0SsAbwHmLfJpAS8tvUAASy62RgIMLuwvARAoKGQB2ze3PAHLPKY5AdUxbFIBaTCIVgFiLcpMCX0wr0cCHC9DTAAiKRFlAT8qOWAHlC/8TgfQLbRIAos+aDgHFDAKRgVHNrZrBOouJUILSDUtWQPSODpcArcuhEwC4j5BPQpDNX1aFtRGKjoBfjbXRQHKL9ZhAwZEqzQA1zR7awEeSKE3A/0uwi8G8zznUAOKMkFCCeUwJ2EBWi95TQF8MAVlAWMuakMAPTXXRwAmQD9ZBBY6lFUFAUHnPAMKQL9UAwhHMzgEcjXGbgSkMf1CCMAsxkEFVzt3RgDZNWxiAy0+kFME9i4aTQRrOY5vBDdAyVAKpS2HYwWnLoJLAk4/QV0HbD28WQICRvw5AGwzDUwETUDiVQeKNXNHChFINm4CXTI7YQFqLqpnCWNAVVUCBjzmbwbAPFBCAw1Q8jUAHkbIUAbDS45TBYtTMjgEXTsWTAPOSpJdFGk83EEHkEBKRQLLS1RYALg1iWIBpEWCMQRwQ4YuB/A2518KPDj8YQesTao8AptTsDQADDyCQwA1SSJpAWZBiFwCf1MBTwABNp1jAb5WADkDMkudWQHfUn5TBC1MgG8EfVMMPAA1RblCAWRLQ1oKiTgJZwNrSRRsBYk5imYEaECYTADsTltVFiJHDE8CfEWuagRDSPNvA3pLgksAcEOtbAHKVgNUAClKA1oD113vNwAxSXs+CtVMqEIC91U0UQENVAQ7AJ1FDGwHpUYCQgqCUDRFBFFOCW4DX0x0MgLvTctFDzRYFlQHal3wVQOHZS04FMJdDzoEI1NCQwDRTbNbAaJKb2MCWVR4PQAkSrJqBEBRykcC1k1NYgKMUcRBAp1LxDQBX0oBaga0WCZPAUxSD2UDQUkQNAQDXFVRATBLZmgBxFF9SQEGV+g+A7RRNkcIJ1vYUgpDWqQ8AUNRxEYFtU2IWgK8S8ZLBbBPA0YFkltDMgWaUoc/AAdTNkUDg1FMOwMGT8VKBHlOg2MB/1G8QQCvTb9cDC9PkmgBJkZ3YQF2WfNRAMxOuW0D6FHDRwMATnw+BbNa9VIATlUEbwW9WwtUCCBl/zcBZmAxVQIyT6dkCOBiuTgEQVSAQQJxT1xiAXdRTE0C70kNZgS6WNlGBwZWjEcDNFM3RAEVU1JdA2tYly4Db0uXagLOWOMxAaFRQEUA4FLEWwMBVa9AAdpZCzwCRVSNSgIHVfhCB0xV+00CB0l6aQLEVq9YAWdb0VMAd1TFXQOaVPs6AeZTDmMBwUjyaAVHVjFCCdxU7WQQ7Fe5XgtlUfBABD1JBFsB7VNWRgERRO1uC8BT+zYDDUDNbQX2TBBPAcVNSFIFfUuDRQbxRBxtAQ1UnTcE5FZdOwAfTmRIARBNk1wC8kQIVwf7QoduASxGaVYDilLKXQlQTtw+DmBV7TMAXkqZSgJKQVJhCu9URjURzFVkSAJJXvI8AR5dbVsB6UesYwTeV8JWABtSfl4FLU8PQgSOXAM4BPlNKWoDB1febgEaVM5PAsxhQVMFTFrNWQOYXLEwAC9Ku2EJNVY8NQKxTENDC5hP8lsDq1A/VwPJVoVHAdNQHGgDjlVWXgB+SoZiAa5eADsKSVeNPgZuTI5rBSpPb24FJFTMQQCEU/pIABhOGmYD0003XwKwUgZZARNcBjQARVMbQwB1WYVUBp5Z/1MBRlB+XQXUYAk4CdpNDU0DGF+eOgC/Ui9bAHFVN20BCVQQaAQYU0o2Apxe8kcADFM9YgIFU9dbAXROzmoD5k09TwaMVEc1CvdNIFACyVuMbA1HbHw4A39gcVMBPForVwGgUc9uBmFUxDAAw1XIPgLITMphEb1iGzwF8l+0QwdbaflHAj9SA2kCd2nNTAUxUM9kAvVrQFYIBFL+UAbwWDFFAfZwHVwGmmCXQQALTTRtBHhXvmcHVVnDMwBdbQVbArBbDWYCulkvMwQUWHZlBhVPtmAD1lrJQwMSW7kxAypqAFoJt1EcYw5rV/1JCv5eFkIDI2B7UwVnYAxUAUBafW4CDGbMNwA=",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 0,
+        "sourceEndSeconds": 12.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "631533118",
+            "offset": 1.232411743,
+            "timeskew": 0.002638936,
+            "frequencyskew": 0.0021933317
+          },
+          {
+            "id": "209278912",
+            "offset": -1.388833007,
+            "timeskew": 0.006774068,
+            "frequencyskew": 0.0064646006
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778244159,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "56677947",
+          "title": "Night on the Bare Mountain",
+          "subtitle": "Leopold Stokovski & The Philadelphia Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "joecolor": "b:562d28p:f5e0c9s:dcd1c0t:d5bca9q:c1b0a1"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/56677947"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Night on the Bare Mountain - Leopold Stokovski & The Philadelphia Orchestra",
+            "text": "Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra",
+            "href": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/56677947?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/56677947"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1474408289"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/64/6b/90/646b90e3-b207-1f28-a810-4d8428a54666/mzaf_2919614100394602134.plus.aac.ep.m4a"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+                  "caption": "Night on the Bare Mountain"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Leopold Stokowski Conducts Russian Spectacular"
+                },
+                {
+                  "title": "Label",
+                  "text": "Dutton Epoch"
+                },
+                {
+                  "title": "Released",
+                  "text": "1994"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+          "artists": [
+            {
+              "alias": "leopold-stokovski",
+              "id": "42",
+              "adamid": "333305626"
+            },
+            {
+              "alias": "the-philadelphia-orchestra",
+              "id": "42",
+              "adamid": "267973"
+            }
+          ],
+          "alias": "night-on-the-bare-mountain",
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Night+on+the+Bare+Mountain",
+            "{trackartist}": "Leopold+Stokovski+%26+The+Philadelphia+Orchestra"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1474408185",
+          "trackadamid": "1474408289",
+          "releasedate": "01-01-1994",
+          "isrc": "GBKPL1960926"
+        },
+        "tagid": "CCA2F469-6054-421A-95F9-465A4F4BD4D6"
+      },
+      "status": "match",
+      "match": {
+        "key": "56677947",
+        "title": "Night on the Bare Mountain",
+        "artist": "Leopold Stokovski & The Philadelphia Orchestra",
+        "serviceURL": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+                "caption": "Night on the Bare Mountain"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Leopold Stokowski Conducts Russian Spectacular"
+              },
+              {
+                "title": "Label",
+                "text": "Dutton Epoch"
+              },
+              {
+                "title": "Released",
+                "text": "1994"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/05E0255C-A629-4B42-8BAB-180887C62AEC/CCA2F469-6054-421A-95F9-465A4F4BD4D6?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:10:42 GMT",
+          "X-Forensic-Id": "36156742-dbc1-4429-81d3-066f3ad4d41b",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"631533118\",\"offset\":1.232411743,\"timeskew\":0.002638936,\"frequencyskew\":0.0021933317},{\"id\":\"209278912\",\"offset\":-1.388833007,\"timeskew\":0.006774068,\"frequencyskew\":0.0064646006}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778244159,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"56677947\",\"title\":\"Night on the Bare Mountain\",\"subtitle\":\"Leopold Stokovski & The Philadelphia Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"joecolor\":\"b:562d28p:f5e0c9s:dcd1c0t:d5bca9q:c1b0a1\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/56677947\"}]},\"share\":{\"subject\":\"Night on the Bare Mountain - Leopold Stokovski & The Philadelphia Orchestra\",\"text\":\"Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra\",\"href\":\"https://www.shazam.com/track/56677947/night-on-the-bare-mountain\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/56677947?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/56677947\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1474408289\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/64/6b/90/646b90e3-b207-1f28-a810-4d8428a54666/mzaf_2919614100394602134.plus.aac.ep.m4a\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"caption\":\"Night on the Bare Mountain\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Leopold Stokowski Conducts Russian Spectacular\"},{\"title\":\"Label\",\"text\":\"Dutton Epoch\"},{\"title\":\"Released\",\"text\":\"1994\"}]}],\"url\":\"https://www.shazam.com/track/56677947/night-on-the-bare-mountain\",\"artists\":[{\"alias\":\"leopold-stokovski\",\"id\":\"42\",\"adamid\":\"333305626\"},{\"alias\":\"the-philadelphia-orchestra\",\"id\":\"42\",\"adamid\":\"267973\"}],\"alias\":\"night-on-the-bare-mountain\",\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Night+on+the+Bare+Mountain\",\"{trackartist}\":\"Leopold+Stokovski+%26+The+Philadelphia+Orchestra\"},\"highlightsurls\":{},\"albumadamid\":\"1474408185\",\"trackadamid\":\"1474408289\",\"releasedate\":\"01-01-1994\",\"isrc\":\"GBKPL1960926\"},\"tagid\":\"CCA2F469-6054-421A-95F9-465A4F4BD4D6\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+        "sourceBytes": 1101248,
+        "sourceMtimeNs": 1791766570701323747
+      },
+      "sampleStartSeconds": 1.288,
+      "sampleEndSeconds": 21.288,
+      "requestedEndSeconds": 21.288,
+      "clip": "qa/soundtrack/Vln5Ri4Zpgo/clips/1.288-21.288.wav",
+      "sha256": "e641274e4c578143bde984793130d3e3697382ad533d6854ac409126c6c39300",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1.288",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/Vln5Ri4Zpgo/clips/1.288-21.288.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:10:44.746900+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1.288,
+        "sourceEndSeconds": 13.288
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "631533118",
+            "offset": 2.523185302,
+            "timeskew": 0.0023931265,
+            "frequencyskew": 0.0017412901
+          },
+          {
+            "id": "209278912",
+            "offset": -0.095136482,
+            "timeskew": 0.006238222,
+            "frequencyskew": 0.005654216
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778246360,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "56677947",
+          "title": "Night on the Bare Mountain",
+          "subtitle": "Leopold Stokovski & The Philadelphia Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "joecolor": "b:562d28p:f5e0c9s:dcd1c0t:d5bca9q:c1b0a1"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/56677947"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Night on the Bare Mountain - Leopold Stokovski & The Philadelphia Orchestra",
+            "text": "Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra",
+            "href": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/56677947?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/56677947"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1474408289"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/64/6b/90/646b90e3-b207-1f28-a810-4d8428a54666/mzaf_2919614100394602134.plus.aac.ep.m4a"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+                  "caption": "Night on the Bare Mountain"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Leopold Stokowski Conducts Russian Spectacular"
+                },
+                {
+                  "title": "Label",
+                  "text": "Dutton Epoch"
+                },
+                {
+                  "title": "Released",
+                  "text": "1994"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+          "artists": [
+            {
+              "alias": "leopold-stokovski",
+              "id": "42",
+              "adamid": "333305626"
+            },
+            {
+              "alias": "the-philadelphia-orchestra",
+              "id": "42",
+              "adamid": "267973"
+            }
+          ],
+          "alias": "night-on-the-bare-mountain",
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Night+on+the+Bare+Mountain",
+            "{trackartist}": "Leopold+Stokovski+%26+The+Philadelphia+Orchestra"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1474408185",
+          "trackadamid": "1474408289",
+          "releasedate": "01-01-1994",
+          "isrc": "GBKPL1960926"
+        },
+        "tagid": "6DBD7268-1860-4E46-9A5E-553B9A780A5C"
+      },
+      "status": "match",
+      "match": {
+        "key": "56677947",
+        "title": "Night on the Bare Mountain",
+        "artist": "Leopold Stokovski & The Philadelphia Orchestra",
+        "serviceURL": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+                "caption": "Night on the Bare Mountain"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Leopold Stokowski Conducts Russian Spectacular"
+              },
+              {
+                "title": "Label",
+                "text": "Dutton Epoch"
+              },
+              {
+                "title": "Released",
+                "text": "1994"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/F449C59C-8F27-4064-9B0C-D64344D5967C/6DBD7268-1860-4E46-9A5E-553B9A780A5C?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:10:44 GMT",
+          "X-Forensic-Id": "dcd62bd7-9cc1-46a3-b182-a4bdc5d910aa",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"631533118\",\"offset\":2.523185302,\"timeskew\":0.0023931265,\"frequencyskew\":0.0017412901},{\"id\":\"209278912\",\"offset\":-0.095136482,\"timeskew\":0.006238222,\"frequencyskew\":0.005654216}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778246360,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"56677947\",\"title\":\"Night on the Bare Mountain\",\"subtitle\":\"Leopold Stokovski & The Philadelphia Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"joecolor\":\"b:562d28p:f5e0c9s:dcd1c0t:d5bca9q:c1b0a1\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/56677947\"}]},\"share\":{\"subject\":\"Night on the Bare Mountain - Leopold Stokovski & The Philadelphia Orchestra\",\"text\":\"Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra\",\"href\":\"https://www.shazam.com/track/56677947/night-on-the-bare-mountain\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/56677947?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/56677947\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1474408289\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/64/6b/90/646b90e3-b207-1f28-a810-4d8428a54666/mzaf_2919614100394602134.plus.aac.ep.m4a\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"caption\":\"Night on the Bare Mountain\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Leopold Stokowski Conducts Russian Spectacular\"},{\"title\":\"Label\",\"text\":\"Dutton Epoch\"},{\"title\":\"Released\",\"text\":\"1994\"}]}],\"url\":\"https://www.shazam.com/track/56677947/night-on-the-bare-mountain\",\"artists\":[{\"alias\":\"leopold-stokovski\",\"id\":\"42\",\"adamid\":\"333305626\"},{\"alias\":\"the-philadelphia-orchestra\",\"id\":\"42\",\"adamid\":\"267973\"}],\"alias\":\"night-on-the-bare-mountain\",\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Night+on+the+Bare+Mountain\",\"{trackartist}\":\"Leopold+Stokovski+%26+The+Philadelphia+Orchestra\"},\"highlightsurls\":{},\"albumadamid\":\"1474408185\",\"trackadamid\":\"1474408289\",\"releasedate\":\"01-01-1994\",\"isrc\":\"GBKPL1960926\"},\"tagid\":\"6DBD7268-1860-4E46-9A5E-553B9A780A5C\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+        "sourceBytes": 1101248,
+        "sourceMtimeNs": 1791766570701323747
+      },
+      "sampleStartSeconds": 20,
+      "sampleEndSeconds": 40.0,
+      "requestedEndSeconds": 40,
+      "clip": "qa/soundtrack/Vln5Ri4Zpgo/clips/20.000-40.000.wav",
+      "sha256": "843c01cae7e89ace578a372a72e68b44b80ac65df0a67b236831ca7b08688c66",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "20",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/Vln5Ri4Zpgo/clips/20.000-40.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:10:46.951273+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 20,
+        "sourceEndSeconds": 32.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "631533118",
+            "offset": 21.28090625,
+            "timeskew": 0.0028231144,
+            "frequencyskew": 0.0028635263
+          },
+          {
+            "id": "209278912",
+            "offset": 18.73690039,
+            "timeskew": 0.006354928,
+            "frequencyskew": 0.0055327415
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778246382,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "56677947",
+          "title": "Night on the Bare Mountain",
+          "subtitle": "Leopold Stokovski & The Philadelphia Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "joecolor": "b:562d28p:f5e0c9s:dcd1c0t:d5bca9q:c1b0a1"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/56677947"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Night on the Bare Mountain - Leopold Stokovski & The Philadelphia Orchestra",
+            "text": "Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra",
+            "href": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/56677947?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/56677947"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1474408289"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/64/6b/90/646b90e3-b207-1f28-a810-4d8428a54666/mzaf_2919614100394602134.plus.aac.ep.m4a"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+                  "caption": "Night on the Bare Mountain"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Leopold Stokowski Conducts Russian Spectacular"
+                },
+                {
+                  "title": "Label",
+                  "text": "Dutton Epoch"
+                },
+                {
+                  "title": "Released",
+                  "text": "1994"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+          "artists": [
+            {
+              "alias": "leopold-stokovski",
+              "id": "42",
+              "adamid": "333305626"
+            },
+            {
+              "alias": "the-philadelphia-orchestra",
+              "id": "42",
+              "adamid": "267973"
+            }
+          ],
+          "alias": "night-on-the-bare-mountain",
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Night+on+the+Bare+Mountain",
+            "{trackartist}": "Leopold+Stokovski+%26+The+Philadelphia+Orchestra"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1474408185",
+          "trackadamid": "1474408289",
+          "releasedate": "01-01-1994",
+          "isrc": "GBKPL1960926"
+        },
+        "tagid": "E13651EC-6A82-4607-89F8-CA67C69F2F90"
+      },
+      "status": "match",
+      "match": {
+        "key": "56677947",
+        "title": "Night on the Bare Mountain",
+        "artist": "Leopold Stokovski & The Philadelphia Orchestra",
+        "serviceURL": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+                "caption": "Night on the Bare Mountain"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Leopold Stokowski Conducts Russian Spectacular"
+              },
+              {
+                "title": "Label",
+                "text": "Dutton Epoch"
+              },
+              {
+                "title": "Released",
+                "text": "1994"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/CF8C04E6-B7C5-42B9-90C7-5A9754FF8135/E13651EC-6A82-4607-89F8-CA67C69F2F90?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:10:46 GMT",
+          "X-Forensic-Id": "1412ef74-3494-40e7-865c-65f17d3ac278",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"631533118\",\"offset\":21.28090625,\"timeskew\":0.0028231144,\"frequencyskew\":0.0028635263},{\"id\":\"209278912\",\"offset\":18.73690039,\"timeskew\":0.006354928,\"frequencyskew\":0.0055327415}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778246382,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"56677947\",\"title\":\"Night on the Bare Mountain\",\"subtitle\":\"Leopold Stokovski & The Philadelphia Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"joecolor\":\"b:562d28p:f5e0c9s:dcd1c0t:d5bca9q:c1b0a1\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/56677947\"}]},\"share\":{\"subject\":\"Night on the Bare Mountain - Leopold Stokovski & The Philadelphia Orchestra\",\"text\":\"Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra\",\"href\":\"https://www.shazam.com/track/56677947/night-on-the-bare-mountain\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/56677947?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/56677947\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1474408289\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/64/6b/90/646b90e3-b207-1f28-a810-4d8428a54666/mzaf_2919614100394602134.plus.aac.ep.m4a\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"caption\":\"Night on the Bare Mountain\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Leopold Stokowski Conducts Russian Spectacular\"},{\"title\":\"Label\",\"text\":\"Dutton Epoch\"},{\"title\":\"Released\",\"text\":\"1994\"}]}],\"url\":\"https://www.shazam.com/track/56677947/night-on-the-bare-mountain\",\"artists\":[{\"alias\":\"leopold-stokovski\",\"id\":\"42\",\"adamid\":\"333305626\"},{\"alias\":\"the-philadelphia-orchestra\",\"id\":\"42\",\"adamid\":\"267973\"}],\"alias\":\"night-on-the-bare-mountain\",\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Night+on+the+Bare+Mountain\",\"{trackartist}\":\"Leopold+Stokovski+%26+The+Philadelphia+Orchestra\"},\"highlightsurls\":{},\"albumadamid\":\"1474408185\",\"trackadamid\":\"1474408289\",\"releasedate\":\"01-01-1994\",\"isrc\":\"GBKPL1960926\"},\"tagid\":\"E13651EC-6A82-4607-89F8-CA67C69F2F90\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+        "sourceBytes": 1101248,
+        "sourceMtimeNs": 1791766570701323747
+      },
+      "sampleStartSeconds": 21.288,
+      "sampleEndSeconds": 41.269875,
+      "requestedEndSeconds": 41.288,
+      "clip": "qa/soundtrack/Vln5Ri4Zpgo/clips/21.288-41.288.wav",
+      "sha256": "96f4878af8f224dbcd7f6f3ca75c20a1b3faaa22b3c558ceab47bccf70745ca8",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "21.288",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+        "-t",
+        "19.999999999999996",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/Vln5Ri4Zpgo/clips/21.288-41.288.wav"
+      ],
+      "actualAudioDurationSeconds": 19.981875,
+      "requestedAt": "2026-10-12T04:10:47.022407+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,gCX+yoB6aWGsCgAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAD9AgAAAHwAAAAAQKwKAABAAANgvgAAABz2dMgMB6lqlRAB+nE/DUr9b2gIDid2ewoYonOBDSuWcH8KCdty3QxTnW/zDRvJaxkLPe92NQsQl3JUDQ46cPENG1t2OwsXJ3OzDGvjcrIMV15suQsTumj7DSiua2kJHVhr0AsTUGthCTaJb/MNLzFjbxARi3DCC0qCZlIJCI5nuAsUF2L8DRciab4OJwJlvQsN82MTDi4EZbMPDDlnAAgS6mm4C0GFa9YLQbhrdAw5QW/mDj2lZ70LPfpvcwwAAEEAA2ARAwAADnBouSQFGGzQGgVvaEQtApBm+yEGSHK2FA8FbwQdCf1pfyUAYmnCLQG8a28cCK9tUCEB/20CGRKsaagpBd9t2RQUHXFCHQFPZ6sQFB1kOB8AgWkGKgGJZdISC7FuzRoIyV+cJxccaiscBtNlECkBjmpOFQQ7aBAiC5VkQSgCmGP5JBadab8YEXBnsBYEj2fHEAFbcUMcAd5oWCAGImvuKRMAcRMhCZptVxcZvW3tGwP5b6sSAVJtOiU1+2aGKgn1azUbAY5irygP8WxOHAFpXkcnBQNpdxYV/2kELQTras4SBdNm6yAV6GWFKgBKX7UtDrVqpiEAN2b4KQEyaQ8dDI9nUikH02uVEgbrbA4ZADtviiUEhm1MFgaoZ0MsCJRq+BIJqmfIHSejbfwUAnxpFx0Ah2YqLAata7clAupnCR4DrWo2GQNFa2IqAsJsexYIK2zmEgbWbPopM5RctCAFG2hSEgDFY/gpASVaNhoRl2pzJgUOcWArDoxtMBwCqmJSKQPUauAhCXVf5BEBHWE0FwD6ZfgpFmhcRBYCYlr9GQRnZr8SBfZqqiUHv2zoJgk7awIeB71qvi0dUm00JgpwXRgXAmVpuRIOBXM+KwmZZ9ApAYpoPxwHKWvAIRATatEgCBhuJyAFX2e1EhfUcYYkDatrlBcEmWoaHA7+abASAS1oDSYhlmVwIwseYwkqFKRklxciel2zJAMpZwsWAqVoPB4GU1tZJRWCaawSBvVf6BcW+mfOGwbhackUANZlLhwBZF5pIxFkWOggCp9myxIR7l/oJQ9UbOgXAe9XTioBxFeCIwG2WwIeNWJSwiYGFmP4EQGZWzAcDV5ZeiMBfmNwIAJCZJQXAjBXOyoeYF25JQKNYUMiBQVeBRkCp2m9HQGaZf0SA5dX2yYJkmjcFAMFYrIiBkJiPSkEPF+HIxaxZaQRAmVfAxkNvWSLKwKnZH4WAkBkgiUHA2pAHwjAZ78SDIxhDhYXQWQJFQuiYDwjG5NmihEU91rCIQXKVWIpCt5g/x0HvGXJJAKGYgUrBglyixIAAABCAANguAYAAArOYNs/AW9c8jAAtl6CVATaWz1rA+5b708AOFFhYgG4Vd1bBFZToGYBjFznQQS/XQZPAjtatUUBEWOANgNyXsFTCftYh18EiFuwaQFJWuhWAeFYrW8FgWDMRgJhX4JCAClc9UoARVWuZwFDZRIyAnFVqmQFoF5IPwJ9ZTA4C+9fzD4G42KyUAJTWTZbBDVaAGsDMGC8UQWTWjFgA0ZWLVwEQWKQVAEAX/lCAYdXTmQF31tHRgBfW81fCiBP+2IEaWsCOAaIYJ9QAUVauGwSQmTNNQJmYa8/DuBbZkYB4mh1OAHiYX5UBnVb7G8FK1LBXQAzUYBhCzpYb0gANmCnUAQUXwkwBEVbLDoARFtUQgQ0WgdHAS1cz08BOFrZagFWVLNkBqRfuT8DTVtUagR8YhExAWVfMlQI9V7LMQBxTi9gAyRSRk0HcFkzWQA7VG1hAU9T5mYH/FtBSwMcW5VcAjZh7jMF01IRbAlNVyJkAWtaOF4E0WVGSgDKWKhaCwddg28BhWf4NwKHWsBbAItWRWIAXFS5agEeYgBDBe9rpS4C5WTHQQJSUxBnAX9kv1MAcFSCYwHiWdpdAUpgwkYHbFYuWQFkX0FPAYxefTwDQlR9ZgkPVO5rAoxgfTUM5VvoSgMFXH8yBSBaq1oBBmTOQhCOZVI4BChY/GIGV1r5WAk6YuZQCCZaAWsEQWV5NgYYYSFVA25Y5loBn1m7Twh0ZwY4AbpablkAK1WEYgG5ZAhEBPxUbGMGLVGPXg/WW2pQAQRQ2W4BYl0HMQGUXrFCAbFT8F0Fm1d5WgVCXCtUChFY7lgBJ1OpaAWSW8RTBFBa9EEGUFo2UgKkZAZMAm9gwy8BEWNzMwPZXb9XAPdZbmMBDmV/SgFqXCtBAJRaAUYGz1t7QgBMVyleBdFk6koEuVtxPwJ2YJoxAopO/m0B9V/EOivmYu8+AF5dP00BIlV9WgFhaP9TA31hnTIBAV3TOgHlV5xQAS1fMkwB+l/0SAD+V8FlALFgEWkB+VpZLwCIWKdfAhlSA24C8V7bOwIlXhlSAuRhxlQDLlpDQwf1XAxLCJ9cfUIr9WIIOAGCWyVeAGBZ7mACvmvALwgiUH48ABZf5WEDnGU3TgHibDMwArJNDD0P41ftVgYjXiZlBL5d/kYB42HVUgBuTrppAxRRdz4AHll+ZAEQaRpDAzFiM1IIsl9BWAnEcSswCdNnx0sDU2NAXgELaSw4AKJX7W4X102fagFLWfdgA+xfkEIBW16iWwFKatM9A39LTGgJMU+DUwLKaSI9EHZhFkoDVWQ+YwVVZJJLCMdrNzAD9FKaXQjLTwFVA71d6DoA8lxRTQCvY8JjARRUpmcChVJyVgdiWM5sAa1q10IJ0WlgOBKLYg06AV1V428C3WMhQABfWdRPAfNoakgBu1/sXwM6VEpuCDlhvEoCRGXWYAFUZbhABFZSfU4CFWhSMAYcWLhcBYRZWVQXckC/aw3JYrQvAaNMvUIG71orSwK2WuhGAQ1XeV8EYFf3Xww/U3pqAg1b8j8A0lUUVQLUQJZkAmNgNEwQZV7KSw5zTU04Ci9iqy8DfV//RgaXNo9tCX1LblMBLVlNOwIyWhdZA3VOSjMJeVcGQgBcXr1KBMtCQG8E31pZTAJzU4VaASNU9EII/WHaLwNfVkFgDXZZdkcQAFBZPgLQTS5oDGpEcFwBFkx4bwI2WA9VASJY+TEEg19LOARUXTFMBQhQuF0QD0mZQQL8WI9LByBVS0gHu1VbRgEAV0JYANJYWmAAEUnWaQsyWaQ0Ecthyi8ApV8GTAFTVGpHAehfCDgGCz/4bwHqQOVqCRNVi0oDUTwzZgX5S89RA+FBLGwJHUNjVRAgUrs0AFdG3F4FF05KOwdVS8RPA+xXPzgAmU2aQwF0V3ozBypDEG0BkEXtZgjXRa1oA1dNelEAlU/1VgM4WLs1AeBVeEoLA0pOaQIRVllFAHlVzk0Bw0kxUwkcUhRGBIBWSVoA4k9NYwCzUAxvAaxXPEABpFTzSwCpVYFdAcJM0WkCR0ezVAKJX6EwB6FQLUkGm1HDVwMBV6c7CTtXxDoAMVlNRAJMTcRmBo5Sx2EAwU4zbgIRVN9KBqxeWDMBS14GOAUlSTdpA21ZhEMK91ezUABGTVRfA31MWkcFWFtPQgGuTbdYBt5Idl4B/1D/TAEeRLxqA7VK50cBA05nPwP1UjQ1BPhEcVwCtFm2MQBVSDtOCQFK/DULq0XGWwPwT5EvHwZQEzABEUaIUQfzSnpuAXVTNksHzFLiVAIeT/VeDkZP+z0=",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 21.288,
+        "sourceEndSeconds": 33.288
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "631533118",
+            "offset": 22.5750625,
+            "timeskew": 0.0025465488,
+            "frequencyskew": 0.0031867027
+          },
+          {
+            "id": "209278912",
+            "offset": 20.033773437,
+            "timeskew": 0.006289363,
+            "frequencyskew": 0.005735278
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778248345,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "56677947",
+          "title": "Night on the Bare Mountain",
+          "subtitle": "Leopold Stokovski & The Philadelphia Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "joecolor": "b:562d28p:f5e0c9s:dcd1c0t:d5bca9q:c1b0a1"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/56677947"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Night on the Bare Mountain - Leopold Stokovski & The Philadelphia Orchestra",
+            "text": "Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra",
+            "href": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/56677947?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/56677947"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1474408289"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/64/6b/90/646b90e3-b207-1f28-a810-4d8428a54666/mzaf_2919614100394602134.plus.aac.ep.m4a"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+                  "caption": "Night on the Bare Mountain"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Leopold Stokowski Conducts Russian Spectacular"
+                },
+                {
+                  "title": "Label",
+                  "text": "Dutton Epoch"
+                },
+                {
+                  "title": "Released",
+                  "text": "1994"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+          "artists": [
+            {
+              "alias": "leopold-stokovski",
+              "id": "42",
+              "adamid": "333305626"
+            },
+            {
+              "alias": "the-philadelphia-orchestra",
+              "id": "42",
+              "adamid": "267973"
+            }
+          ],
+          "alias": "night-on-the-bare-mountain",
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Night+on+the+Bare+Mountain",
+            "{trackartist}": "Leopold+Stokovski+%26+The+Philadelphia+Orchestra"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1474408185",
+          "trackadamid": "1474408289",
+          "releasedate": "01-01-1994",
+          "isrc": "GBKPL1960926"
+        },
+        "tagid": "988D26FE-5A6F-47DE-A3AA-D6E3349DC594"
+      },
+      "status": "match",
+      "match": {
+        "key": "56677947",
+        "title": "Night on the Bare Mountain",
+        "artist": "Leopold Stokovski & The Philadelphia Orchestra",
+        "serviceURL": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg",
+                "caption": "Night on the Bare Mountain"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Leopold Stokowski Conducts Russian Spectacular"
+              },
+              {
+                "title": "Label",
+                "text": "Dutton Epoch"
+              },
+              {
+                "title": "Released",
+                "text": "1994"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/9AB95F70-6032-4105-8354-569672C5160E/988D26FE-5A6F-47DE-A3AA-D6E3349DC594?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:10:48 GMT",
+          "X-Forensic-Id": "8c4bc8d7-9cdc-4851-a0ec-0aa477098b94",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"631533118\",\"offset\":22.5750625,\"timeskew\":0.0025465488,\"frequencyskew\":0.0031867027},{\"id\":\"209278912\",\"offset\":20.033773437,\"timeskew\":0.006289363,\"frequencyskew\":0.005735278}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778248345,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"56677947\",\"title\":\"Night on the Bare Mountain\",\"subtitle\":\"Leopold Stokovski & The Philadelphia Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"joecolor\":\"b:562d28p:f5e0c9s:dcd1c0t:d5bca9q:c1b0a1\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/56677947\"}]},\"share\":{\"subject\":\"Night on the Bare Mountain - Leopold Stokovski & The Philadelphia Orchestra\",\"text\":\"Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra\",\"href\":\"https://www.shazam.com/track/56677947/night-on-the-bare-mountain\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Night on the Bare Mountain by Leopold Stokovski & The Philadelphia Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/56677947?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/56677947\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1474408289\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/64/6b/90/646b90e3-b207-1f28-a810-4d8428a54666/mzaf_2919614100394602134.plus.aac.ep.m4a\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/night-on-the-bare-mountain/1474408185?i=1474408289&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/84/eb/9784eb75-9c5a-7d07-9663-1e714dbadb90/5054526952942_1.jpg/400x400cc.jpg\",\"caption\":\"Night on the Bare Mountain\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Leopold Stokowski Conducts Russian Spectacular\"},{\"title\":\"Label\",\"text\":\"Dutton Epoch\"},{\"title\":\"Released\",\"text\":\"1994\"}]}],\"url\":\"https://www.shazam.com/track/56677947/night-on-the-bare-mountain\",\"artists\":[{\"alias\":\"leopold-stokovski\",\"id\":\"42\",\"adamid\":\"333305626\"},{\"alias\":\"the-philadelphia-orchestra\",\"id\":\"42\",\"adamid\":\"267973\"}],\"alias\":\"night-on-the-bare-mountain\",\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Night+on+the+Bare+Mountain\",\"{trackartist}\":\"Leopold+Stokovski+%26+The+Philadelphia+Orchestra\"},\"highlightsurls\":{},\"albumadamid\":\"1474408185\",\"trackadamid\":\"1474408289\",\"releasedate\":\"01-01-1994\",\"isrc\":\"GBKPL1960926\"},\"tagid\":\"988D26FE-5A6F-47DE-A3AA-D6E3349DC594\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+        "sourceBytes": 1101248,
+        "sourceMtimeNs": 1791766570701323747
+      },
+      "sampleStartSeconds": 40,
+      "sampleEndSeconds": 41.269875,
+      "requestedEndSeconds": 41.288,
+      "clip": "qa/soundtrack/Vln5Ri4Zpgo/clips/40.000-41.288.wav",
+      "sha256": "b75da081b49ffcf9e79db8b24a97c458bd0fa64ce05ca02d30197884feb782c9",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "40",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+        "-t",
+        "1.2879999999999967",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/Vln5Ri4Zpgo/clips/40.000-41.288.wav"
+      ],
+      "actualAudioDurationSeconds": 1.269875,
+      "requestedAt": "2026-10-12T04:10:48.956051+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,gCX+ykc7TGuoAAAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAABeAAAAAHwAAAAAQKgAAABAAANgDwAAABSBRiIJBJVLvwwZ4kLYCQBBAANgKAAAABY2T38RAG5KUSIaSFWyKgFlTzUTAO5OXiQAqV0YLgG5WE8aAPdQ6R1CAANgUAAAABSrTAVJAe1NkTMAMVNQRADUWGtQALVRymcEe0fKXBeBTWVYAPlNMmsBZ0yINAAPUc03AGhZSEEAfVvhTgB5T61kAE5QO2gBLVEcPQDPSjdV",
+        "samplems": 1264,
+        "sampleRateHz": 16000,
+        "numberSamples": 20224,
+        "sourceStartSeconds": 40,
+        "sourceEndSeconds": 41.264
+      },
+      "rawResponse": {
+        "matches": [],
+        "tagid": "9F619BEE-5063-458A-9CEC-FD255C489A5D",
+        "retryms": 5000
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/F4F94A37-78A3-48A7-B140-40B6D9D57D04/9F619BEE-5063-458A-9CEC-FD255C489A5D?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:10:50 GMT",
+          "X-Forensic-Id": "dcbf186e-a00e-4382-997c-03d9f9a14845",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"tagid\":\"9F619BEE-5063-458A-9CEC-FD255C489A5D\",\"retryms\":5000}"
+      }
+    }
+  ],
+  "status": "probed",
+  "timingLimits": "Sample intervals and actual fingerprint intervals are evidence windows only, not cue boundaries. No listening claim.",
+  "recordingCandidates": [
+    {
+      "key": "56677947",
+      "title": "Night on the Bare Mountain",
+      "artist": "Leopold Stokovski & The Philadelphia Orchestra",
+      "serviceURL": "https://www.shazam.com/track/56677947/night-on-the-bare-mountain",
+      "evidence": [
+        {
+          "sampleStartSeconds": 0,
+          "sampleEndSeconds": 20.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,gCX+ysv/pLUcDQAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAD9AgAAAHwAAAAAQBwNAABAAANg5gAAABqILnoNDlotPg4YHS+dCg5fLu0MLdIsgQ4IejASDwkJLiQNK6g1BAmSQU36DTHBODUJAmxM1g4XLFEBDiRQUoUOGOdYVg0rB1c1CgKwWkEOD5xgZA0OrVyTCwfBXgQLGEFsCQoCV2EVDiCDZbYKC1FlPw0Xu24MCh5NbCoLJsVpCQom428UDl5zbngKFddjmRAsEGxNDiMNZfMMDmNumgoDlmj7DQxadDgLKBhtego9q2NsEAEmWl0MIJdj+A4h02aYEB4YazsNIKNqfBAh72XyDiK9bnEQC5VtOQ0pLW48Dj+DdTELAABBAANg4wMAABi2J+4fAZIlLykDLiw9EgHIK04VAEoowCUC+iV3GAiUIq8eBB4l/RgFKyQ4IwLIKVYWDDwqUxEC3ipsKgZsKpgUA9gk9BkB7iR2LAOKKb0VAYom3CUCojFoEgugJY0cACckTCACkSQLLAGmJ64kDJAn5yADsS2LFguuJzUdFSErOCkC7yaNGAUiLPsUBWsmJyUKTCrdJQwwJ00kCvE/AhsMkykLKwZVLWoUAJ4sDSkLziszIQODLf8lB5FB8h0IiTDCJAELL8QrCOlJqRwKBTMkEgfLLsEoDukudRMIxEprGwLbMrASAp8tASQCQjUJLQZyL0EUAB0wzCUBpE+vHAdJLwMnADc1ViwNKS/WIgA9MpQoFKFRAxwSYTWBEwFwObwnATU3GCQCCDeuLAsVUc8dBDk4lyobPi+FFCpkMmgiA2hB9yoBV1mYHASMMeMiDkJCDCgIdlvwGwJsQhUSEyxD/SoKJFucHQSZOyQiAsJJLRQCMkGxLAE/Ya4cGjlTpxIBok9yFhI2YdYbAZhITCsKOFbTEwOBSs4sAZJjex0CJ0nLFwEhTaYkBfliGRsHA0zVJwu9SncoApVP8SIDtFnqFAOXWtwRFe5LySwHlUswKwKXWUEUAK5LnyQDFVI7IQufbAobB1dO9ycKdFONEgBIapkcAKJLSC0CSFP5Fh8hZJ4TAC9jJx8DZk+UJAGNS4UsC7RuGBsAaFGlJx5jcH4cFwFWaCoQOVg7IgvmWM4kCMhgMiADk1zDIwYeYMYoDtZnMhQK9GYPFwJcYiIRBm1j0iodQFMeLQZkZfogA9JmDyoP/WY0EQi+WSgYCq1ulBwUbGAAIQROYb4TCR9VWSUJ62P7EAfDXfshASddUyoDw181FwsPY1kVCChbki0DVWRrIQ00YioSCDRftBgEzGCWHAArViwkFOVZlyMGeWfAGxt9ZP4gA2RjgxMDOlL0JwEfYXcdA71SHC4J7F9HHwv/ZWQSBH1gRBYCFV9FJQY1UfQsCu9maRoOWGatEwAzYUcuArdlLSEBjlvoJwe/aZkcFeBhUxEAgmSBIgLYUHIpA3VcHhUZt1dEJwEsWuoTAYFlCh4AaVi2KgG+afIgANpckS0L3mpHHwsla1UbB7NoaBIBUF71FQCzVhQsARtaRCgChV9FJQ2xaZIcDXlmlSAA2mKCLQO5U+sWAKFb/yYCQmOIEwfEYuktB11meR4HgGJ5Ggt7a88bGx5fdyoE6G17HAmLXkUjCadgzSAMdmEHFQh6XDYoEe9mzRcF/2X+KwamYFMhBIVZLSYEVGZTERvwXMgnAo1feyQChWjEExpSYa0UAEIAA2AvCAAAFVYg0DQBXiK5UwC7IJBjAb4g81sB4STqTAEcIR9FBzAfWW0CzSGdNwC7IDZdAj0jSFgCEyJFPgCgI/tSAtMgVmkBaSExOALzIPNiAxIgP0EBWR9mawM9IRFIA6AgFzkCriP/LgHRHvozAYMis1ADQCX6PARWInpbAq0kSVUEph/WZwO+IcRaAY4hUF8BwiN/OgGbI7ZLAQcjCzECBB70NgViIdFJAQUiMVoAyiHMbAJlIX5hAVUgzFID3CJTXQPEIMFmCHolOTABziMZOQ6cI5BHAqkiBjgIDSQzTQlRJUE/AqolEmgBmCg/VwC7KvljAFIp9mwBLiZOXAELKY9SAn8m2EEBWyTsPQaVKLcyAMIpdEUDJCdnbQcmJY9pAYwppzkAwiivYgFmKOBNAUwpakIAYis0SQBvKDZTFckqU08A9ybBbwEJLHlKAeEqikcAQyjQagKfKfgxBWQlqF8DwChyWgT4J6VdAkwqSEQA+yRLZgKsKUZSBtopMEsB8Cz8VAHpKXBFDE0vpVUBaSvCSQFgKf1FAKgyb1kAfyq5bgE8MbQ7AGwr72ABMiykTADSJxJkA8MrLkACNzJJOgG3LhYxBFkra0EDDi4ILwBpK39bAXooUmgEVij4bQKrKgBDCcUxKjQEjinDaAYELTpFANgn82YFUzWIawNVOdg1AOU2jFACAip2bwSOKm0/AAAr9WABaC3oMQG7KBBmBKYuy1cC2DNAUwJzLxFLAZYzqFoA0SsAbwHmLfJpAS8tvUAASy62RgIMLuwvARAoKGQB2ze3PAHLPKY5AdUxbFIBaTCIVgFiLcpMCX0wr0cCHC9DTAAiKRFlAT8qOWAHlC/8TgfQLbRIAos+aDgHFDAKRgVHNrZrBOouJUILSDUtWQPSODpcArcuhEwC4j5BPQpDNX1aFtRGKjoBfjbXRQHKL9ZhAwZEqzQA1zR7awEeSKE3A/0uwi8G8zznUAOKMkFCCeUwJ2EBWi95TQF8MAVlAWMuakMAPTXXRwAmQD9ZBBY6lFUFAUHnPAMKQL9UAwhHMzgEcjXGbgSkMf1CCMAsxkEFVzt3RgDZNWxiAy0+kFME9i4aTQRrOY5vBDdAyVAKpS2HYwWnLoJLAk4/QV0HbD28WQICRvw5AGwzDUwETUDiVQeKNXNHChFINm4CXTI7YQFqLqpnCWNAVVUCBjzmbwbAPFBCAw1Q8jUAHkbIUAbDS45TBYtTMjgEXTsWTAPOSpJdFGk83EEHkEBKRQLLS1RYALg1iWIBpEWCMQRwQ4YuB/A2518KPDj8YQesTao8AptTsDQADDyCQwA1SSJpAWZBiFwCf1MBTwABNp1jAb5WADkDMkudWQHfUn5TBC1MgG8EfVMMPAA1RblCAWRLQ1oKiTgJZwNrSRRsBYk5imYEaECYTADsTltVFiJHDE8CfEWuagRDSPNvA3pLgksAcEOtbAHKVgNUAClKA1oD113vNwAxSXs+CtVMqEIC91U0UQENVAQ7AJ1FDGwHpUYCQgqCUDRFBFFOCW4DX0x0MgLvTctFDzRYFlQHal3wVQOHZS04FMJdDzoEI1NCQwDRTbNbAaJKb2MCWVR4PQAkSrJqBEBRykcC1k1NYgKMUcRBAp1LxDQBX0oBaga0WCZPAUxSD2UDQUkQNAQDXFVRATBLZmgBxFF9SQEGV+g+A7RRNkcIJ1vYUgpDWqQ8AUNRxEYFtU2IWgK8S8ZLBbBPA0YFkltDMgWaUoc/AAdTNkUDg1FMOwMGT8VKBHlOg2MB/1G8QQCvTb9cDC9PkmgBJkZ3YQF2WfNRAMxOuW0D6FHDRwMATnw+BbNa9VIATlUEbwW9WwtUCCBl/zcBZmAxVQIyT6dkCOBiuTgEQVSAQQJxT1xiAXdRTE0C70kNZgS6WNlGBwZWjEcDNFM3RAEVU1JdA2tYly4Db0uXagLOWOMxAaFRQEUA4FLEWwMBVa9AAdpZCzwCRVSNSgIHVfhCB0xV+00CB0l6aQLEVq9YAWdb0VMAd1TFXQOaVPs6AeZTDmMBwUjyaAVHVjFCCdxU7WQQ7Fe5XgtlUfBABD1JBFsB7VNWRgERRO1uC8BT+zYDDUDNbQX2TBBPAcVNSFIFfUuDRQbxRBxtAQ1UnTcE5FZdOwAfTmRIARBNk1wC8kQIVwf7QoduASxGaVYDilLKXQlQTtw+DmBV7TMAXkqZSgJKQVJhCu9URjURzFVkSAJJXvI8AR5dbVsB6UesYwTeV8JWABtSfl4FLU8PQgSOXAM4BPlNKWoDB1febgEaVM5PAsxhQVMFTFrNWQOYXLEwAC9Ku2EJNVY8NQKxTENDC5hP8lsDq1A/VwPJVoVHAdNQHGgDjlVWXgB+SoZiAa5eADsKSVeNPgZuTI5rBSpPb24FJFTMQQCEU/pIABhOGmYD0003XwKwUgZZARNcBjQARVMbQwB1WYVUBp5Z/1MBRlB+XQXUYAk4CdpNDU0DGF+eOgC/Ui9bAHFVN20BCVQQaAQYU0o2Apxe8kcADFM9YgIFU9dbAXROzmoD5k09TwaMVEc1CvdNIFACyVuMbA1HbHw4A39gcVMBPForVwGgUc9uBmFUxDAAw1XIPgLITMphEb1iGzwF8l+0QwdbaflHAj9SA2kCd2nNTAUxUM9kAvVrQFYIBFL+UAbwWDFFAfZwHVwGmmCXQQALTTRtBHhXvmcHVVnDMwBdbQVbArBbDWYCulkvMwQUWHZlBhVPtmAD1lrJQwMSW7kxAypqAFoJt1EcYw5rV/1JCv5eFkIDI2B7UwVnYAxUAUBafW4CDGbMNwA=",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 0,
+            "sourceEndSeconds": 12.0
+          },
+          "clip": "qa/soundtrack/Vln5Ri4Zpgo/clips/0.000-20.000.wav"
+        },
+        {
+          "sampleStartSeconds": 1.288,
+          "sampleEndSeconds": 21.288,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,gCX+yplgSElsDAAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAD9AgAAAHwAAAAAQGwMAABAAANg3AAAAAxVMF4LC6Q1AgmSSk36DTG9ODUJAW5M2A4YK1EBDiRMUoMOGONYVg0rCFc0CgKxWkEOD5lgZA0OslyTCwfDXgQLFz5sCwoDXWEVDiB5ZbUKC1BlPg0Xt24LCh5ObCkLJsZpCQom5G8UDl16bnUKFt5jmBAsDWxMDiMSZfQMDmRumgoDk2j7DQxUdDgLKBltewo9smNsEAEpWl0MIJFj+A4gz2aWEB8eazwNIKNqfRBCum5uEAyYbTkNKSxuPA4/g3UxC1CNcDUOCyJtkApBy3AVDB7ca7EKIBdvRg5BAANgtgMAAA8mJ0wkBXosSREF8j8BGwybKQsrBlYtaRQApCwNKQrQKzkhBIAt/yUHh0HyHQiLMMIkAQ0vxisI5EmoHAoQMyUSBtYuwigO9C55EwnDSmwbAdsysRIDoi0CJAJDNQktBmsvQRQAp0+uHAAeMM0lCE4vAycANzVWLA0rL9UiADoylCgUp1EBHBJjNYATAXM5vCcBMzcXJAL/Nq0sCxhRzB0EMziYKhpIL4cUK2UyaSIDXkH3KgFUWZkcBJAx4iIOQkILKAh0W/AbAmxCFRITLEP+KgovW5wdBJs7JCICxkksFAItQbAsAUFhrRwaNFOmEgGjT3IWESth1hsCoEhMKwoxVtMTA4NKziwBkmN7HQItScoXACRNoiQGA2MXGwYITNknDLpKdigBi0/0IgS4WesUA5Ja3BEV7kvJLAeNSzArApVZQRQAskufJAMXUjshC6ZsCRsHUk72JwlIapscAXtTjRIAoEtILQJQU/kWHiJkmxMBMGMmHwNrT5UkAItLjSwLtW4UGwFrUaUnHmJwfBwXB1ZoKhA1WDwiCuNYwSQJw2AzIAOZXMIjBhxgySgOzmcyFArzZg4XAVZiKBEHc2PQKhxDUxwtB1xl+SAD1mYPKg/7ZjMRCLpZKBgKrW6THBRvYP8gA1JhwBMJElVcJQrhY/oQB8Jd/CEBIl1TKgO+XzUXCwtjVxUIJFuTLQNUZGshDTBiKBIIM1+yGATPYJUcADhWLCQU4VmWIwV1Z8UbHHRk/iADZmOEEwM1UvQnASNhdx0DxFIbLgnwX0cfCwRmZBIEemBHFgINX0YlBjRR9CwK8mZoGg5TZqwTADBhSC4CumUuIQGHW+gnB7xpmRwUg2SFIgHfYVIRAtlQcykDc1weFRi9V04nAjNa6RMAbli6KgGLZQceAcVp8yAA2VyQLQvgakcfCyNrVRsHuWhpEgCyVg0sAUte9hUBHFpEKAKIX0YlDbdpkhwNc2aVIADeYoMtA7xT7BYAqlsBJwE5Y4kTCMdi6S0HW2Z6HgeEYncaC31rzxsbIV93KgTpbXscCYVeRSMJsWDNIAx+YQcVCHZcNSgR82bOFwX0Zf0rBqZgUyEEflksJgRRZlMRG+5cxicCj196JAKGaMUTGklhrRQK2WBFKgMqYkEVBSVePCMDTmlxEQSycHIcAOBfrioZRmHDEwOsX0shBjBeIiQD1G/JFxyNX74jBIRiOhICm1e4JwRRXQEjCP5aeyAAIFgBKRMbYgEqDFNaViEKyFxKIwT5cYocAABCAANgtwcAAAw1JDtlAcYm7DIBKSjHSArMKlJPAF8lHmMA+ybCbwH/K3pKAUgohEIA3CqJRwBKKNBqApcp+DEFZSWoXwO5KHNaA/Inp10DRCpHRAD5JEpmAqwpRlIG2CkvSwHyLPxUAfApcUUMTS+lVQFjK8JJAT0xtTsAYyn9RQCpMm9ZAHsquW4BZyvuYAEpLKNMANQnEmQDxysvQAGiK4VOATYySDoBry4YMQRPK2tBAmUrfVsBBC4ILwF2KFJoBFgo920CsCoCQwnFMSs0A5MpvGgH/Sw6RQDUJ/NmA0kpP2MCVzWGawNSOdg1AN42jFACASp2bwOPKmk/AAIr82ACZi3oMQGxKBBmBKwuylcC3jM/UwJ9LxBLAZQzp1oA6y32aQDbKwBvATAtvUAAPS62RgMMLuwvAA4oJmQC5De5PAHLPKY5ANgxZVICYzCJVgFrLchMCHswqEcDFi9ETAAhKRBlAUQqN2AHmC/7TgbVLbdIA4U+aTgHFzAKRgVGNrVrA/EuKEIMSTUsWQPOODtcAa8uf0wD5D5APQpLNX1aEe4r8WMF2EYqOgF8NtdFAcUv12EC2TR8awEMRKw0ACFIpTcE9y7BLwXwPO1QBI0yQUIJ6jAoYQFhL3tNAUE1zkcAgjACZQFeLmpDACZAP1kJAkHmPAMJQL9UAwVHMzgEajXGbgSiMf1CB8ssy0EFYDuERgHXNWtiAzY+j1MD+C4YTQVvOY1vBDtAyVAKpC2GYwWfLoBLAk4/QV0HaT29WQH8RQY6AW4zDkwESkDhVQeGNXNHChRINm4CZzI6YQFiLqpnCWVAVFUIwTxQQgMNUPI1AB1GyFAGxUuPUwWFUzI4BFw7FkwC0EqTXRVpPN1BB5BASkUCokV/MQDKS1NYALs1imIFc0OFLgfpNudfCjw4/GEHpE2qPAEzSSJpAZxTsDQAAjyGQwFuQYdcAoZTAk8A/TWdYwG5VgE5AzNLnFkB2lJ9UwQxTIJvA4RTDjwBPEW6QgFnS0VaCog4CGcDcEkVbAWIOYtmA/NOXlUBZ0CYTBUfRwVPAMxSf1QCgUWwagU9SPJvA3hLgUsAbUOtbAHOVgNUACpKAloD2F3vNwAzSXo+CtdMqEIB/VUxUQISVAQ7AJdFCmwHsEYEQgqGUDVFBFNOCG4DXEx0MgLzTctFA2xPpW4MNlgWVAdzXe9VA4llLTgUu10POgQXU0NDANFNs1sAoUpoYwNTVHo9ACNKs2oEQlHJRwLUTU5iAopRxEECo0vENAFWSgBqBrZYKE8BRVITZQM3SRA0BAVcVVEBNUtmaAHGUX5JAQVX6D4DuFE1RwcuW8xSC0NapDwBOlHDRgW6TYpaArRLxksEsE8DRgaVW0MyBZxShT8A/lI2RQKDUVM7BP9OxEoDfE55YwH2UbpBAKhNw1wIjVSvOgUkRnxhADNPkWgBxk6zbQF1WfJRA+NRxEcDBE58PgS2WvxSAU5VA28Fv1sMVAgfZQA4AW1gMFUCKU+nZAjkYrg4BERUgEECaE9cYgF7UUxNAuFJDWYDvljYRggIVotHAy1TN0QBClNSXQNyWJYuA3NLmGoBx1jrMQKbUT5FAN9SxFsD/1SuQAHYWQo8AkpUjUoCCVX3QgdOVflNAhJJemkCwVavWAFuW9JTAH5Uxl0DmVT7OgHrUw9jAbVI8mgFRlYxQgnbVOxkD+9Xwl4MZFHvQAQ7SQZbAelTVkYBFkTsbgu7U/o2AxFAz20F7kwRTwHLTUhSBX9LgkUG8UQcbQEJVJ03BN9WXjsAF05kSAENTZNcAvJEB1cG/EKBbgIkRmlWA41Sy10JUE7bPg5UVe0zAFVKmkoCSEFQYQrmVEY1EdRVZUgCRV7xPAEgXW5bAehHrWMD3lfHVgEnUn1eBTRPD0IEj1wGOAT9TSpqAgtX2m4CGlTPTwLQYUFTBURazVkDmlyzMAAoSrphCTVWOTUCt0xDQwqTT+lbBLJQPlcDw1aHRwHUUBxoA6he+ToAj1VWXgB4SoZiC0lXjT4GbEyNawUyT3BuBCZUxkEBEVlgMwCJU/tIABlOGmYC0U0uXwOmUgdZAQ1cBjQAQFMcQwB5WYVUBqBZ/lMBR1B9XQXVYAg4CdZND00DI1+eOgDFUi5bAG5VN20BCVQPaAacXvRHAAVTP2IB/FLVWwJ2Ts5qAulNQE8GjFQ6NQvzTSBQAspbjGwNQ2x7OAOEYHFTAThaK1cBo1HPbgZhVMUwAMVVyT4CzUzKYRG3Yhs8BfhftUMHW2n7RwI/UgNpAm9pzEwENFDNZAPra0BWCPlR/VAG6VgxRQH1cB1cBZhglUEADE0ubQV9V75nB1VtBVsCqVsNZgLAWS8zBBBYdmUGFU+1YAPUWshDAxtbuTEDJWoAWgm9URxjDnVX/0kK814VQgMuYHtTBWNgDVQBPFp9bgITZsw3CrxcnG8RSmbUOwjTavhGBfFerVQCkmsbTQROXf5AAs5hv1YDxmIoWgmhaM0wAcVfRT4CSmncRwFCU2htAW50BWIBYWgCMAZ1Vi1RCQVyNWELVW9GYBA2bA5VCO5jPk0C/Wm4RgK0YH1CAxVRkG8DHWWlPwJ/UAVuA9tssTgIQ14cNAFVX2hoBk9YHG0MVF3tOwHHWORZA2tYTV0A",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1.288,
+            "sourceEndSeconds": 13.288
+          },
+          "clip": "qa/soundtrack/Vln5Ri4Zpgo/clips/1.288-21.288.wav"
+        },
+        {
+          "sampleStartSeconds": 20,
+          "sampleEndSeconds": 40.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 20,
+            "sourceEndSeconds": 32.0
+          },
+          "clip": "qa/soundtrack/Vln5Ri4Zpgo/clips/20.000-40.000.wav"
+        },
+        {
+          "sampleStartSeconds": 21.288,
+          "sampleEndSeconds": 41.269875,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 21.288,
+            "sourceEndSeconds": 33.288
+          },
+          "clip": "qa/soundtrack/Vln5Ri4Zpgo/clips/21.288-41.288.wav"
+        }
+      ],
+      "adjacentIndependentConfirmation": true,
+      "independentMatchCount": 4,
+      "limits": "Recording candidate; evidence windows are not continuous cue boundaries."
+    }
+  ],
+  "fingerprintMethod": "python_legacy",
+  "legacyRustRequestCount": 0
+}

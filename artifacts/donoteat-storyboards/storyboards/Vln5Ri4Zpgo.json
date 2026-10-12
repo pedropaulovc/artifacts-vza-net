@@ -2,96 +2,96 @@
   "id": "Vln5Ri4Zpgo",
   "title": "A new Cities: Skylines Series: Franklin",
   "durationSeconds": 41.288,
-  "premise": "Donoteat announces Franklin using escalating title cards that promise a Cities: Skylines series across time, education and entertainment, then reveal the series name, creator credit and June 23 arrival date. These are promotional claims, not independently verified historical assertions or a narrated city plot.",
-  "coverage": "Inspected all 9 indexed frames on visual/Vln5Ri4Zpgo/sheet-0001.jpg (the only sheet), sampled at the first available frame of each 5-second bin with additional scene-score >0.30 selection enabled; no additional scene-threshold frames occur here. Inspected 20 native-resolution targeted stills at 0, 1, 2, 4.5, 7, 8, 10, 12, 13, 15, 17, 20, 23, 25, 30, 33, 35, 37, 39 and 40 seconds. Read the full transcript: only 'Thank you.' at 4.34–4.64 seconds, uncertain ASR. Full speech is source-derived by the shared renderer from the complete timestamped transcript, never manually excerpted. Panel ranges are derived from successive starts, with the final range ending at the source ffprobe/index duration of 41.288 seconds. Boundaries are approximate editorial groupings, not exact cuts. Fixed compositions and sampled darkening support holds/fades, not camera movement. Eight useful panels omit the redundant 30.030-second hold. The emblem-only 39-second targeted still is described in the final caption because it has no indexed tile. Empty sound arrays mean unannotated audio, not silence. Sparse samples cannot guarantee every brief insert; no soundtrack or additional dialogue is invented.",
+  "premise": "Donoteat announces Franklin using escalating title cards that promise a Cities: Skylines series across time, education and entertainment, then reveal the series name, creator credit and June 23 arrival date. The grand claims are trailer hype, and no city story is narrated.",
+  "coverage": "Black title cards build toward the Franklin name, creator credit and June 23 release announcement. The tiny possible “Thank you” is uncertain; no speaker is identified. The year is not printed.",
   "panels": [
     {
       "startSeconds": 0,
       "frameNumber": 1,
       "heading": "Black opening",
-      "description": "The opening image is entirely black. The trailer begins without a city view, character or explanatory scene; the first claim will appear next.",
-      "camera": "Static full-frame black at indexed 0.000 seconds and targeted 1 second. No pan, tilt or zoom is established.",
-      "action": "No visible character or gameplay action; black screen.",
+      "description": "The trailer opens on a black screen, with no city view, character or explanatory scene before the first title card.",
+      "camera": "Static black screen.",
+      "action": "Nothing happens on screen yet.",
       "sound": [],
       "visualGag": null,
-      "notes": "First text is visible by targeted 2 seconds; its exact onset is unresolved. No audio has been annotated."
+      "notes": "The first title card follows after a moment of black."
     },
     {
       "startSeconds": 1.5,
       "frameNumber": 2,
       "heading": "Setup: unprecedented trailer claim",
-      "description": "Centered white capitals on black read 'FOR THE FIRST TIME ON YOUTUBE'. This is a promotional title card, not a subtitle of the ASR line and not verified evidence of novelty.",
-      "camera": "Fixed centered card at targeted 2 and 4.5 seconds and indexed 5.005 seconds. Text dims by targeted 7 seconds and is gone at 8, supporting a fade out rather than camera motion.",
-      "action": "Static typography holds, then darkens. No characters are visible.",
+      "description": "Centered white capitals on black read 'FOR THE FIRST TIME ON YOUTUBE'. The novelty claim is pure promotion.",
+      "camera": "Fixed centered lettering that fades to black.",
+      "action": "The card holds, then darkens. No characters appear.",
       "sound": [],
-      "visualGag": "Setup for the mock-grand trailer sequence: an unprecedented-YouTube claim leads into 'TRANSCEND THE BOUNDARIES OF TIME', then eventually the 'SCREEN NEAR YOU' release formula. Its humorous inflation is interpretive, not proof of an objectively first-ever series.",
-      "notes": "The sole complete ASR segment is 4.34–4.64 seconds. 'Thank you.' is reproduced exactly but is uncertain machine recognition in predominantly non-speech audio; speaker and intelligibility were not independently established. It does not narrate the printed card."
+      "visualGag": "The mock-grand trailer starts with 'FOR THE FIRST TIME ON YOUTUBE', escalates to 'TRANSCEND THE BOUNDARIES OF TIME' and ends on 'SCREEN NEAR YOU'. Pitching a Cities: Skylines series in such sweeping language reads as playful hyperbole.",
+      "notes": "A faint “Thank you” may be audible under this card. The speaker is unknown, and the words have nothing to do with the printed text."
     },
     {
       "startSeconds": 8,
       "frameNumber": 3,
       "heading": "Escalation: boundaries of time",
-      "description": "White two-line capitals read 'A CITIES SKYLINES SERIES WILL / TRANSCEND THE BOUNDARIES OF TIME'. The card explains the grand promise through text, without showing historical city development or literal time travel.",
-      "camera": "Fixed two-line composition at indexed 10.010 and targeted 10 seconds; text is dim at targeted 12 seconds and absent at 13, supporting a fade to black. No pan, tilt or zoom.",
-      "action": "A static card holds and darkens. No gameplay or visible character action.",
+      "description": "White two-line capitals read 'A CITIES SKYLINES SERIES WILL / TRANSCEND THE BOUNDARIES OF TIME'. The grand promise is made entirely in text; no city history or time travel is shown.",
+      "camera": "Fixed two-line lettering that fades to black.",
+      "action": "The card holds and darkens, with no gameplay or characters.",
       "sound": [],
-      "visualGag": "Continuation/payoff of the preceding 'FOR THE FIRST TIME ON YOUTUBE' setup: a city-building series receives sweeping, time-transcending trailer language. The disproportion can read as playful hyperbole; do not turn it into a fictitious time-travel plot. The movie-trailer register also sets up the later 'SCREEN NEAR YOU' wording.",
-      "notes": "Source description says the series follows city development over time; this is metadata context, not spoken dialogue in this card. Boundaries are approximate; sampled black at 13 precedes the next card."
+      "visualGag": "A city-building series gets the sweeping promise 'TRANSCEND THE BOUNDARIES OF TIME', and the hyperbole keeps up the movie-trailer tone.",
+      "notes": "According to the video description, the series follows a city's development over time."
     },
     {
       "startSeconds": 13.5,
       "frameNumber": 4,
       "heading": "The educational and entertainment promise",
-      "description": "Centered white capitals read 'AND EDUCATE AND ENTERTAIN YOU / ALONG THE WAY'. The trailer states its purpose through a third plain text card rather than presenting examples.",
-      "camera": "Fixed two-line framing at targeted 15 and 17 seconds and indexed 15.015 seconds. The subsequent logo is present by 20 seconds; the intervening transition mechanism is not established.",
-      "action": "Static text card; no visible character movement or city-building action.",
+      "description": "Centered white capitals read 'AND EDUCATE AND ENTERTAIN YOU / ALONG THE WAY'. This third plain text card states the series' purpose without showing any examples.",
+      "camera": "Fixed two-line card, followed by the logo.",
+      "action": "Static text card, with no characters or city building.",
       "sound": [],
-      "visualGag": "Bridge in the same trailer-rhetoric sequence: the time-transcending promise is brought back to education and entertainment before the title and release-date reveal. No separate punchline is established on this card.",
-      "notes": "Printed wording is observed visual text, not ASR speech. Exact exit time is unresolved."
+      "visualGag": "This card bridges the sequence, bringing the time-transcending promise back down to education and entertainment before the title and release date arrive. It has no punchline of its own.",
+      "notes": null
     },
     {
       "startSeconds": 19,
       "frameNumber": 5,
       "heading": "Title reveal: Franklin",
-      "description": "A large orange FRANKLIN wordmark, with dark outlined/extruded-looking edges and a cracked bell emblem on its right, appears alone on black. This is the series identity reveal, not a city panorama.",
-      "camera": "Fixed centered logo at indexed 20.020 seconds and targeted 20 and 23 seconds. No enlargement, pan, tilt or zoom is established by these samples.",
-      "action": "Static graphic title. No characters are present and the bell is not observed ringing.",
+      "description": "A large orange FRANKLIN wordmark, with dark outlined, extruded-looking edges and a cracked bell emblem on its right, appears alone on black.",
+      "camera": "Fixed centered logo.",
+      "action": "The title holds on screen and the bell emblem stays still.",
       "sound": [],
-      "visualGag": "Title-reveal beat in the preceding hyperbolic trailer setup; the reveal names an ordinary Cities: Skylines series rather than demonstrating literal time travel. The bell is an observed emblem, not independently a gag.",
-      "notes": "Logo is alone at 23 seconds and has the creator-credit line by 25. No bell sound is inferred from its image."
+      "visualGag": "After all that buildup, the trailer reveals the name: Franklin. The bell is part of the logo rather than a separate joke.",
+      "notes": null
     },
     {
       "startSeconds": 24,
       "frameNumber": 6,
       "heading": "Creator-credit layer",
-      "description": "The orange Franklin title remains. Beneath it, white text reads 'A DONOTEAT' and 'SERIES', separated by a round coin-like creator emblem with a reddish diagonal band. The announcement adds authorship as another layer.",
-      "camera": "Fixed framing. Indexed 25.025 and 30.030 seconds and targeted 25 and 30 seconds show the same credit layout; this is a hold, not a pan or zoom.",
-      "action": "Static title and creator-credit graphics. The circular mark is not observed spinning or moving.",
+      "description": "The orange Franklin title remains. Beneath it, white text reads 'A DONOTEAT' and 'SERIES' on either side of a round, coin-like creator emblem with a reddish diagonal band.",
+      "camera": "Fixed title and credit layout.",
+      "action": "The title and credit hold still, round emblem included.",
       "sound": [],
-      "visualGag": "Continuation of the trailer-style buildup: staged name and creator credits prepare the final 'ARRIVING AT A SCREEN NEAR YOU' release-date payoff. No separate coin-action joke is established.",
-      "notes": "Indexed frame 7 at 30.030 seconds was inspected but omitted as a redundant hold. Tiny lettering on the round emblem is not confidently transcribed."
+      "visualGag": "The staged name and creator credit keep the trailer buildup going toward the 'ARRIVING AT A SCREEN NEAR YOU' release date.",
+      "notes": "The tiny lettering on the round emblem is too small to read."
     },
     {
       "startSeconds": 32,
       "frameNumber": 8,
       "heading": "Payoff: arriving at a screen near you",
-      "description": "The completed card retains the Franklin title and creator credit and adds 'ARRIVING AT A SCREEN NEAR YOU JUNE 23' across the lower portion. This supplies the release announcement after the escalating promises.",
-      "camera": "Fixed full-card framing at targeted 33, 35 and 37 seconds and indexed 35.002 seconds. No pan, tilt or zoom; the date line is an added graphic layer, not a camera move.",
-      "action": "Static completed announcement card holds; no visible characters or gameplay.",
+      "description": "The completed card keeps the Franklin title and creator credit and adds 'ARRIVING AT A SCREEN NEAR YOU JUNE 23' across the lower portion, delivering the release date after all the escalating promises.",
+      "camera": "Fixed framing on the full announcement card.",
+      "action": "The finished card holds, with no characters or gameplay.",
       "sound": [],
-      "visualGag": "Payoff to the earlier grand promotional cards and staged credits: 'ARRIVING AT A SCREEN NEAR YOU' adapts the familiar theatrical-release formula to an online Cities: Skylines series. The gag is printed wording and trailer register, not transcribed speech.",
-      "notes": "The card gives June 23 but no printed year. No separate historical conclusion or gameplay demonstration follows."
+      "visualGag": "The payoff borrows the theatrical-release formula 'ARRIVING AT A SCREEN NEAR YOU' for an online Cities: Skylines series. The joke is printed on the card in movie-trailer language rather than spoken.",
+      "notes": "The card gives June 23 without a year."
     },
     {
       "startSeconds": 37.5,
       "frameNumber": 9,
       "heading": "Exit: lingering emblem, then black",
-      "description": "The selected indexed image is fully black at 40.007 seconds. Before this black tail, a targeted still at 39 seconds shows only the round creator emblem in its former credit-line position after all text and the Franklin title have vanished. The trailer ends without another scene.",
-      "camera": "Framing remains fixed. Targeted 37 seconds shows the complete card, 39 shows only the emblem, and 40 plus indexed 40.007 show black. These samples establish staged disappearance, not a pan, tilt or zoom; exact fade/cut mechanics are unresolved.",
-      "action": "Title and credit/date text disappear, followed by the remaining emblem. No character action and no established movement of the emblem.",
+      "description": "The title and surrounding text vanish, leaving only the round creator emblem where the credit line was. Then the screen goes black, and the trailer ends without another scene.",
+      "camera": "Fixed framing while the text and title disappear, then the emblem, ending on black.",
+      "action": "The title, credit and date text disappear first, followed by the emblem. Nothing moves.",
       "sound": [],
       "visualGag": null,
-      "notes": "The lingering-emblem exit is observed but not confidently a separate joke. Its actual targeted evidence is visual/Vln5Ri4Zpgo/targeted/at-39.000s.png; there is no indexed emblem-only tile, so this panel honestly uses the black ending frame instead. Audio remains unannotated, not asserted silent."
+      "notes": "The panel image is the final black screen; the emblem-only moment just before it is brief."
     }
   ]
 }

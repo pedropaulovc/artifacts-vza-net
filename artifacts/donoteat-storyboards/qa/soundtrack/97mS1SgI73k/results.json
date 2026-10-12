@@ -1,0 +1,2324 @@
+{
+  "id": "97mS1SgI73k",
+  "title": "Cities Skylines | Franklin Episode 7: Liberalism",
+  "requests": [
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 0,
+      "sampleEndSeconds": 20.0,
+      "requestedEndSeconds": 20,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/0.000-20.000.wav",
+      "sha256": "bc200a2b709a58b4e73fca894d004011cdae41adc1837e87088e2fff8a01ae2b",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "0",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/0.000-20.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:59:13.004899+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 0,
+        "sourceEndSeconds": 12.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777554549,
+        "timezone": "Europe/Moscow",
+        "tagid": "1FF6B82F-6483-4B93-BD63-F52D8189DCD3"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/BE23E6BA-C0DF-463B-A91F-48DE1E92020D/1FF6B82F-6483-4B93-BD63-F52D8189DCD3?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:59:17 GMT",
+          "X-Forensic-Id": "0c4ce4f1-0d38-4b77-b50a-50689484867c",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777554549,\"timezone\":\"Europe/Moscow\",\"tagid\":\"1FF6B82F-6483-4B93-BD63-F52D8189DCD3\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 20,
+      "sampleEndSeconds": 40.0,
+      "requestedEndSeconds": 40,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/20.000-40.000.wav",
+      "sha256": "caf85d2eaf31d152c04de3a1398b7091151e46318a93e38ebed8909164ea99c1",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "20",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/20.000-40.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:59:19.211000+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 20,
+        "sourceEndSeconds": 32.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777560623,
+        "timezone": "Europe/Moscow",
+        "tagid": "822E164A-4DCA-48B3-A034-CB292F33FB9B"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/DBD2356C-6AC1-4A85-A60F-DE611BDFF44D/822E164A-4DCA-48B3-A034-CB292F33FB9B?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:59:23 GMT",
+          "X-Forensic-Id": "0bd1795b-09ad-4112-a3b1-2369527e0763",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777560623,\"timezone\":\"Europe/Moscow\",\"tagid\":\"822E164A-4DCA-48B3-A034-CB292F33FB9B\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 40,
+      "sampleEndSeconds": 60.0,
+      "requestedEndSeconds": 60,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/40.000-60.000.wav",
+      "sha256": "036dc71163c8cb50992e5d0171db33ed1727573ffd023fb841835cb561c09873",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "40",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/40.000-60.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:59:25.182494+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 40,
+        "sourceEndSeconds": 52.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777567368,
+        "timezone": "Europe/Moscow",
+        "tagid": "9BF004C4-DD5B-4DAA-8221-2C2DDA14405D"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/ED587BBA-8A83-4E6C-A133-078CCEE08051/9BF004C4-DD5B-4DAA-8221-2C2DDA14405D?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:59:28 GMT",
+          "X-Forensic-Id": "40a733ff-6ef8-4ceb-9376-ae46e190707c",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777567368,\"timezone\":\"Europe/Moscow\",\"tagid\":\"9BF004C4-DD5B-4DAA-8221-2C2DDA14405D\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 120,
+      "sampleEndSeconds": 140.0,
+      "requestedEndSeconds": 140,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/120.000-140.000.wav",
+      "sha256": "81daced5a6cf3560569347d2d6c4b981eee527159ea24c046b4a405bde02080a",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "120",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/120.000-140.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:59:31.271721+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 120,
+        "sourceEndSeconds": 132.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "574462009",
+            "offset": 9.958753906,
+            "timeskew": -0.0018824339,
+            "frequencyskew": -0.00028187037
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777573407,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "71188704",
+          "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+          "subtitle": "Passionata Symphony Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "joecolor": "b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/71188704"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro - Passionata Symphony Orchestra",
+            "text": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra",
+            "href": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/71188704?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/71188704"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1280339543"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/ad/5f/bfad5fd9-4f49-790b-1aa3-f5d5c43e3c77/mzaf_14470575942373263264.plus.aac.ep.m4a"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Symphony%20No.%205%20In%20C%20Minor%2C%20Op.%2067%3A%20IV.%20Allegro%20Passionata%20Symphony%20Orchestra"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro%27%20artist%3A%27Passionata+Symphony+Orchestra%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              },
+              {
+                "caption": "BUY",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "buy",
+                  "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                  "caption": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+                },
+                {
+                  "title": "Label",
+                  "text": "Maestro Music Distribution"
+                },
+                {
+                  "title": "Released",
+                  "text": "2012"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "1280339537"
+            }
+          ],
+          "genres": {
+            "primary": "Orchestral"
+          },
+          "urlparams": {
+            "{tracktitle}": "Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro",
+            "{trackartist}": "Passionata+Symphony+Orchestra"
+          },
+          "myshazam": {
+            "apple": {
+              "actions": [
+                {
+                  "name": "myshazam:apple",
+                  "type": "uri",
+                  "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                }
+              ]
+            }
+          },
+          "highlightsurls": {},
+          "albumadamid": "1280338802",
+          "isrc": "DELJ81754945"
+        },
+        "tagid": "635BE51D-98E1-421F-B958-4E41E0F8ADA0"
+      },
+      "status": "match",
+      "match": {
+        "key": "71188704",
+        "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+        "artist": "Passionata Symphony Orchestra",
+        "serviceURL": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                "caption": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+              },
+              {
+                "title": "Label",
+                "text": "Maestro Music Distribution"
+              },
+              {
+                "title": "Released",
+                "text": "2012"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/D53B07CD-625B-4762-A095-023140F4B06F/635BE51D-98E1-421F-B958-4E41E0F8ADA0?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:59:34 GMT",
+          "X-Forensic-Id": "b6fa8219-089e-446d-94f7-793b4639b516",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"574462009\",\"offset\":9.958753906,\"timeskew\":-0.0018824339,\"frequencyskew\":-2.8187037E-4}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777573407,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"71188704\",\"title\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\",\"subtitle\":\"Passionata Symphony Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"joecolor\":\"b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/71188704\"}]},\"share\":{\"subject\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro - Passionata Symphony Orchestra\",\"text\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra\",\"href\":\"https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/71188704?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/71188704\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1280339543\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/ad/5f/bfad5fd9-4f49-790b-1aa3-f5d5c43e3c77/mzaf_14470575942373263264.plus.aac.ep.m4a\"}],\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Symphony%20No.%205%20In%20C%20Minor%2C%20Op.%2067%3A%20IV.%20Allegro%20Passionata%20Symphony%20Orchestra\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro%27%20artist%3A%27Passionata+Symphony+Orchestra%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"},{\"caption\":\"BUY\",\"actions\":[{\"type\":\"uri\",\"uri\":\"https://itunes.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"buy\",\"providername\":\"itunes\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"type\":\"buy\",\"listcaption\":\"Buy on iTunes\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"itunes\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"caption\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67\"},{\"title\":\"Label\",\"text\":\"Maestro Music Distribution\"},{\"title\":\"Released\",\"text\":\"2012\"}]}],\"url\":\"https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro\",\"artists\":[{\"id\":\"42\",\"adamid\":\"1280339537\"}],\"genres\":{\"primary\":\"Orchestral\"},\"urlparams\":{\"{tracktitle}\":\"Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro\",\"{trackartist}\":\"Passionata+Symphony+Orchestra\"},\"myshazam\":{\"apple\":{\"actions\":[{\"name\":\"myshazam:apple\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}]}},\"highlightsurls\":{},\"albumadamid\":\"1280338802\",\"isrc\":\"DELJ81754945\"},\"tagid\":\"635BE51D-98E1-421F-B958-4E41E0F8ADA0\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 240,
+      "sampleEndSeconds": 260.0,
+      "requestedEndSeconds": 260,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/240.000-260.000.wav",
+      "sha256": "323bdd17b2c332d32e3e35f73e8b2e20f92cedf1904656f7f969ab1ab3127342",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "240",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/240.000-260.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:59:35.476002+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 240,
+        "sourceEndSeconds": 252.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777577023,
+        "timezone": "Europe/Moscow",
+        "tagid": "86C1A1C5-B75B-4C73-9378-4D5DE50CFD23"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/4A841875-A0CB-42AD-9C4E-176A06272AF1/86C1A1C5-B75B-4C73-9378-4D5DE50CFD23?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:59:40 GMT",
+          "X-Forensic-Id": "3df0ae96-8e04-4e68-86f1-41be9d532991",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777577023,\"timezone\":\"Europe/Moscow\",\"tagid\":\"86C1A1C5-B75B-4C73-9378-4D5DE50CFD23\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 360,
+      "sampleEndSeconds": 380.0,
+      "requestedEndSeconds": 380,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/360.000-380.000.wav",
+      "sha256": "1f743a18ee383149957bdb77c9d065d9b72db912b2e82808f090d321d136ce67",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "360",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/360.000-380.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:59:41.395985+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 360,
+        "sourceEndSeconds": 372.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777583212,
+        "timezone": "Europe/Moscow",
+        "tagid": "A3CF3B6F-CFC8-49E8-A321-8E67168C360F"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/C334D888-EE49-45D3-85C2-FE6298D8CF8F/A3CF3B6F-CFC8-49E8-A321-8E67168C360F?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:59:45 GMT",
+          "X-Forensic-Id": "51610858-aeff-48c4-887c-84824cee21e9",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777583212,\"timezone\":\"Europe/Moscow\",\"tagid\":\"A3CF3B6F-CFC8-49E8-A321-8E67168C360F\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 480,
+      "sampleEndSeconds": 500.0,
+      "requestedEndSeconds": 500,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/480.000-500.000.wav",
+      "sha256": "611e6d08364b1b05895ed7dc7ebf4a3741392eb1b7e959e156b3f490d24c7163",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "480",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/480.000-500.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:59:47.536247+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 480,
+        "sourceEndSeconds": 492.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777589072,
+        "timezone": "Europe/Moscow",
+        "tagid": "75F1C918-8C1A-4E7A-B44F-74BCD07724EE"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/C5ED607C-5B0D-4C37-82A3-D79B5D9FBF28/75F1C918-8C1A-4E7A-B44F-74BCD07724EE?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:59:51 GMT",
+          "X-Forensic-Id": "226b1e70-7aa0-4d2a-b9f4-47e2017a9b12",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777589072,\"timezone\":\"Europe/Moscow\",\"tagid\":\"75F1C918-8C1A-4E7A-B44F-74BCD07724EE\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 600,
+      "sampleEndSeconds": 620.0,
+      "requestedEndSeconds": 620,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/600.000-620.000.wav",
+      "sha256": "bdddcdb0b6c6b8819ae7dbde4e328e35b6c73ab8b5cb902c04164a36be37e7b9",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "600",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/600.000-620.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:59:53.348375+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 600,
+        "sourceEndSeconds": 612.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777594968,
+        "timezone": "Europe/Moscow",
+        "tagid": "10434275-5636-4B68-B648-9DDE7AA343D6"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/A2625296-959A-44EF-975C-ADE4F9DE742D/10434275-5636-4B68-B648-9DDE7AA343D6?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:59:57 GMT",
+          "X-Forensic-Id": "1e4af340-e3c4-45ae-a76f-31d0775a0618",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777594968,\"timezone\":\"Europe/Moscow\",\"tagid\":\"10434275-5636-4B68-B648-9DDE7AA343D6\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 720,
+      "sampleEndSeconds": 740.0,
+      "requestedEndSeconds": 740,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/720.000-740.000.wav",
+      "sha256": "e3a912b20ec7f95d92921db8d7d00dceaa690be9ef8893e14f85d1b74a2ee921",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "720",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/720.000-740.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:59:59.354278+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 720,
+        "sourceEndSeconds": 732.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777601061,
+        "timezone": "Europe/Moscow",
+        "tagid": "DAE6D856-AABC-4A3C-AE3A-FC091ACC51FD"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/CE4ECEFB-2CC3-4632-A4BC-2C8877B2C297/DAE6D856-AABC-4A3C-AE3A-FC091ACC51FD?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:00:02 GMT",
+          "X-Forensic-Id": "e0633e42-3427-471f-bc80-39ff1fce114d",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777601061,\"timezone\":\"Europe/Moscow\",\"tagid\":\"DAE6D856-AABC-4A3C-AE3A-FC091ACC51FD\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 840,
+      "sampleEndSeconds": 860.0,
+      "requestedEndSeconds": 860,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/840.000-860.000.wav",
+      "sha256": "f2683de82b9604607afc42eec929833f234b62f35778d3c6ae57a520510a369d",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "840",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/840.000-860.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:00:03.539710+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 840,
+        "sourceEndSeconds": 852.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777605227,
+        "timezone": "Europe/Moscow",
+        "tagid": "7CC076DB-74EE-4BC4-B4F2-D2A8487B4713"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/D9B5B71E-2B2B-4A08-AC66-D5E8895A7896/7CC076DB-74EE-4BC4-B4F2-D2A8487B4713?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:00:08 GMT",
+          "X-Forensic-Id": "4069990d-c498-4189-8897-d3b9e501e3a4",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777605227,\"timezone\":\"Europe/Moscow\",\"tagid\":\"7CC076DB-74EE-4BC4-B4F2-D2A8487B4713\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 960,
+      "sampleEndSeconds": 980.0,
+      "requestedEndSeconds": 980,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/960.000-980.000.wav",
+      "sha256": "790acbc4a6fb79c5ef58566d58a10c26dd61322ade2f6e195bbc3d3b4db4ec58",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "960",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/960.000-980.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:00:09.536106+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 960,
+        "sourceEndSeconds": 972.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777611081,
+        "timezone": "Europe/Moscow",
+        "tagid": "75EBA8C5-FFDE-4354-A391-73C6508F8E33"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/C4088F89-FBED-4090-A64A-AD3470AF2256/75EBA8C5-FFDE-4354-A391-73C6508F8E33?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:00:14 GMT",
+          "X-Forensic-Id": "21f2ff79-630e-4085-9a9a-065d2bd4db7f",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777611081,\"timezone\":\"Europe/Moscow\",\"tagid\":\"75EBA8C5-FFDE-4354-A391-73C6508F8E33\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 1080,
+      "sampleEndSeconds": 1100.0,
+      "requestedEndSeconds": 1100,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/1080.000-1100.000.wav",
+      "sha256": "4bc893f6bcf5b6841b77092b86045e744321566fb4e96da904e59613014d583d",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1080",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/1080.000-1100.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:00:15.553420+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1080,
+        "sourceEndSeconds": 1092.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "629566409",
+            "offset": 84.448421875,
+            "timeskew": 9.1433525e-05,
+            "frequencyskew": 0.0
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777617274,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "154925680",
+          "title": "Hebrides Overture Fingal's Cave",
+          "subtitle": "Felix Mendelssohn",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/154925680"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Hebrides Overture Fingal's Cave - Felix Mendelssohn",
+            "text": "Hebrides Overture Fingal's Cave by Felix Mendelssohn",
+            "href": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Hebrides Overture Fingal's Cave by Felix Mendelssohn.",
+            "html": "https://www.shazam.com/snippets/email-share/154925680?lang=en-US&country=GB",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/154925680"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Hebrides%20Overture%20Fingal%27s%20Cave%20Felix%20Mendelssohn"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Hebrides+Overture+Fingal%5C%27s+Cave%27%20artist%3A%27Felix+Mendelssohn%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:subscribe",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:subscribe",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+                  "caption": "Felix Mendelssohn"
+                },
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+                  "caption": "Hebrides Overture Fingal's Cave"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": []
+            }
+          ],
+          "url": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "222829"
+            }
+          ],
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Hebrides+Overture+Fingal%27s+Cave",
+            "{trackartist}": "Felix+Mendelssohn"
+          },
+          "highlightsurls": {}
+        },
+        "tagid": "45DDEAEB-6B53-44FC-BB8E-A7BE05C5577E"
+      },
+      "status": "match",
+      "match": {
+        "key": "154925680",
+        "title": "Hebrides Overture Fingal's Cave",
+        "artist": "Felix Mendelssohn",
+        "serviceURL": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+                "caption": "Felix Mendelssohn"
+              },
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+                "caption": "Hebrides Overture Fingal's Cave"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": []
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/E04DD225-3500-4888-93B2-B9E56DEB6550/45DDEAEB-6B53-44FC-BB8E-A7BE05C5577E?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:00:19 GMT",
+          "X-Forensic-Id": "83d2cd5d-1208-4710-9c3a-182f92517c77",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"629566409\",\"offset\":84.448421875,\"timeskew\":9.1433525E-5,\"frequencyskew\":0.0}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777617274,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"154925680\",\"title\":\"Hebrides Overture Fingal's Cave\",\"subtitle\":\"Felix Mendelssohn\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/154925680\"}]},\"share\":{\"subject\":\"Hebrides Overture Fingal's Cave - Felix Mendelssohn\",\"text\":\"Hebrides Overture Fingal's Cave by Felix Mendelssohn\",\"href\":\"https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Hebrides Overture Fingal's Cave by Felix Mendelssohn.\",\"html\":\"https://www.shazam.com/snippets/email-share/154925680?lang=en-US&country=GB\",\"avatar\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/154925680\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png\",\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Hebrides%20Overture%20Fingal%27s%20Cave%20Felix%20Mendelssohn\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Hebrides+Overture+Fingal%5C%27s+Cave%27%20artist%3A%27Felix+Mendelssohn%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:subscribe\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"},{\"name\":\"hub:applemusic:subscribe\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"caption\":\"Felix Mendelssohn\"},{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"caption\":\"Hebrides Overture Fingal's Cave\"}],\"tabname\":\"Song\",\"metadata\":[]}],\"url\":\"https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave\",\"artists\":[{\"id\":\"42\",\"adamid\":\"222829\"}],\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Hebrides+Overture+Fingal%27s+Cave\",\"{trackartist}\":\"Felix+Mendelssohn\"},\"highlightsurls\":{}},\"tagid\":\"45DDEAEB-6B53-44FC-BB8E-A7BE05C5577E\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 1195.088,
+      "sampleEndSeconds": 1215.088,
+      "requestedEndSeconds": 1215.088,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/1195.088-1215.088.wav",
+      "sha256": "89b5d22c5a7acf51135e88fc39a270b52ba828ee2d807da99802a6550a0c37a4",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1195.088",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/1195.088-1215.088.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:00:21.478201+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1195.088,
+        "sourceEndSeconds": 1207.088
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "629566409",
+            "offset": 199.532625,
+            "timeskew": 9.393692e-05,
+            "frequencyskew": 0.0
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777623077,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "154925680",
+          "title": "Hebrides Overture Fingal's Cave",
+          "subtitle": "Felix Mendelssohn",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/154925680"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Hebrides Overture Fingal's Cave - Felix Mendelssohn",
+            "text": "Hebrides Overture Fingal's Cave by Felix Mendelssohn",
+            "href": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Hebrides Overture Fingal's Cave by Felix Mendelssohn.",
+            "html": "https://www.shazam.com/snippets/email-share/154925680?lang=en-US&country=GB",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/154925680"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png",
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Hebrides%20Overture%20Fingal%27s%20Cave%20Felix%20Mendelssohn"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in YouTube Music",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:youtubemusic:androiddeeplink",
+                    "type": "uri",
+                    "uri": "https://music.youtube.com/search?q=Hebrides+Overture+Fingals+Cave+Felix+Mendelssohn&feature=shazam"
+                  }
+                ],
+                "type": "YOUTUBEMUSIC"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Hebrides+Overture+Fingal%5C%27s+Cave%27%20artist%3A%27Felix+Mendelssohn%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "image": "https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+                  "caption": "Felix Mendelssohn"
+                },
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+                  "caption": "Hebrides Overture Fingal's Cave"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": []
+            }
+          ],
+          "url": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "222829"
+            }
+          ],
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Hebrides+Overture+Fingal%27s+Cave",
+            "{trackartist}": "Felix+Mendelssohn"
+          },
+          "highlightsurls": {}
+        },
+        "tagid": "555FDE10-63FE-44D4-ADF0-931560BFB8D1"
+      },
+      "status": "match",
+      "match": {
+        "key": "154925680",
+        "title": "Hebrides Overture Fingal's Cave",
+        "artist": "Felix Mendelssohn",
+        "serviceURL": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+                "caption": "Felix Mendelssohn"
+              },
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+                "caption": "Hebrides Overture Fingal's Cave"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": []
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/733B9D6C-7211-4A80-B06C-043565E5A836/555FDE10-63FE-44D4-ADF0-931560BFB8D1?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:00:25 GMT",
+          "X-Forensic-Id": "90dc03d8-ea89-4bb0-a230-f258b499e17e",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"629566409\",\"offset\":199.532625,\"timeskew\":9.393692E-5,\"frequencyskew\":0.0}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777623077,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"154925680\",\"title\":\"Hebrides Overture Fingal's Cave\",\"subtitle\":\"Felix Mendelssohn\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/154925680\"}]},\"share\":{\"subject\":\"Hebrides Overture Fingal's Cave - Felix Mendelssohn\",\"text\":\"Hebrides Overture Fingal's Cave by Felix Mendelssohn\",\"href\":\"https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Hebrides Overture Fingal's Cave by Felix Mendelssohn.\",\"html\":\"https://www.shazam.com/snippets/email-share/154925680?lang=en-US&country=GB\",\"avatar\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/154925680\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png\",\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Hebrides%20Overture%20Fingal%27s%20Cave%20Felix%20Mendelssohn\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in YouTube Music\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:youtubemusic:androiddeeplink\",\"type\":\"uri\",\"uri\":\"https://music.youtube.com/search?q=Hebrides+Overture+Fingals+Cave+Felix+Mendelssohn&feature=shazam\"}],\"type\":\"YOUTUBEMUSIC\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Hebrides+Overture+Fingal%5C%27s+Cave%27%20artist%3A%27Felix+Mendelssohn%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"caption\":\"Felix Mendelssohn\"},{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"caption\":\"Hebrides Overture Fingal's Cave\"}],\"tabname\":\"Song\",\"metadata\":[]}],\"url\":\"https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave\",\"artists\":[{\"id\":\"42\",\"adamid\":\"222829\"}],\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Hebrides+Overture+Fingal%27s+Cave\",\"{trackartist}\":\"Felix+Mendelssohn\"},\"highlightsurls\":{}},\"tagid\":\"555FDE10-63FE-44D4-ADF0-931560BFB8D1\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 1200,
+      "sampleEndSeconds": 1220.0,
+      "requestedEndSeconds": 1220,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/1200.000-1220.000.wav",
+      "sha256": "8a827f344ca351e0cf1e998d6b6316b248aa9fb59a909445f76cf95ab213da58",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1200",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/1200.000-1220.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:00:27.518951+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1200,
+        "sourceEndSeconds": 1212.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "629566409",
+            "offset": 204.44915625,
+            "timeskew": 3.1471252e-05,
+            "frequencyskew": 0.0
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777629182,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "154925680",
+          "title": "Hebrides Overture Fingal's Cave",
+          "subtitle": "Felix Mendelssohn",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/154925680"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Hebrides Overture Fingal's Cave - Felix Mendelssohn",
+            "text": "Hebrides Overture Fingal's Cave by Felix Mendelssohn",
+            "href": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Hebrides Overture Fingal's Cave by Felix Mendelssohn.",
+            "html": "https://www.shazam.com/snippets/email-share/154925680?lang=en-US&country=GB",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/154925680"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:subscribe",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:subscribe",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+                  "caption": "Felix Mendelssohn"
+                },
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+                  "caption": "Hebrides Overture Fingal's Cave"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": []
+            }
+          ],
+          "url": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+          "artists": [
+            {
+              "alias": "felix-mendelssohn",
+              "id": "42",
+              "adamid": "222829"
+            }
+          ],
+          "alias": "hebrides-overture-fingals-cave",
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Hebrides+Overture+Fingal%27s+Cave",
+            "{trackartist}": "Felix+Mendelssohn"
+          },
+          "highlightsurls": {}
+        },
+        "tagid": "F310B386-A553-40B3-BF46-C255B16CA706"
+      },
+      "status": "match",
+      "match": {
+        "key": "154925680",
+        "title": "Hebrides Overture Fingal's Cave",
+        "artist": "Felix Mendelssohn",
+        "serviceURL": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+                "caption": "Felix Mendelssohn"
+              },
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+                "caption": "Hebrides Overture Fingal's Cave"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": []
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/0F225E38-D1C7-4798-AF7F-6B2572235158/F310B386-A553-40B3-BF46-C255B16CA706?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:00:30 GMT",
+          "X-Forensic-Id": "c038a971-2bc4-4e44-9219-d719dc4ffa0b",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"629566409\",\"offset\":204.44915625,\"timeskew\":3.1471252E-5,\"frequencyskew\":0.0}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777629182,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"154925680\",\"title\":\"Hebrides Overture Fingal's Cave\",\"subtitle\":\"Felix Mendelssohn\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/154925680\"}]},\"share\":{\"subject\":\"Hebrides Overture Fingal's Cave - Felix Mendelssohn\",\"text\":\"Hebrides Overture Fingal's Cave by Felix Mendelssohn\",\"href\":\"https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Hebrides Overture Fingal's Cave by Felix Mendelssohn.\",\"html\":\"https://www.shazam.com/snippets/email-share/154925680?lang=en-US&country=GB\",\"avatar\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/154925680\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:subscribe\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:subscribe\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"caption\":\"Felix Mendelssohn\"},{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"caption\":\"Hebrides Overture Fingal's Cave\"}],\"tabname\":\"Song\",\"metadata\":[]}],\"url\":\"https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave\",\"artists\":[{\"alias\":\"felix-mendelssohn\",\"id\":\"42\",\"adamid\":\"222829\"}],\"alias\":\"hebrides-overture-fingals-cave\",\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Hebrides+Overture+Fingal%27s+Cave\",\"{trackartist}\":\"Felix+Mendelssohn\"},\"highlightsurls\":{}},\"tagid\":\"F310B386-A553-40B3-BF46-C255B16CA706\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 1215.088,
+      "sampleEndSeconds": 1235.088,
+      "requestedEndSeconds": 1235.088,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/1215.088-1235.088.wav",
+      "sha256": "c12b505fbaafbe157a91b6cfef6c4eb66ccf508a03b96aa685d5cf728ff54048",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1215.088",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/1215.088-1235.088.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:00:31.630080+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1215.088,
+        "sourceEndSeconds": 1227.088
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "629566409",
+            "offset": 219.5360625,
+            "timeskew": 7.045269e-05,
+            "frequencyskew": -4.029274e-05
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777633327,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "154925680",
+          "title": "Hebrides Overture Fingal's Cave",
+          "subtitle": "Felix Mendelssohn",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/154925680"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Hebrides Overture Fingal's Cave - Felix Mendelssohn",
+            "text": "Hebrides Overture Fingal's Cave by Felix Mendelssohn",
+            "href": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Hebrides Overture Fingal's Cave by Felix Mendelssohn.",
+            "html": "https://www.shazam.com/snippets/email-share/154925680?lang=en-US&country=GB",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/154925680"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png",
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Hebrides%20Overture%20Fingal%27s%20Cave%20Felix%20Mendelssohn"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in YouTube Music",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:youtubemusic:androiddeeplink",
+                    "type": "uri",
+                    "uri": "https://music.youtube.com/search?q=Hebrides+Overture+Fingals+Cave+Felix+Mendelssohn&feature=shazam"
+                  }
+                ],
+                "type": "YOUTUBEMUSIC"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Hebrides+Overture+Fingal%5C%27s+Cave%27%20artist%3A%27Felix+Mendelssohn%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "image": "https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+                  "caption": "Felix Mendelssohn"
+                },
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+                  "caption": "Hebrides Overture Fingal's Cave"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": []
+            }
+          ],
+          "url": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "222829"
+            }
+          ],
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Hebrides+Overture+Fingal%27s+Cave",
+            "{trackartist}": "Felix+Mendelssohn"
+          },
+          "highlightsurls": {}
+        },
+        "tagid": "690C2478-7415-4573-A646-4733BAB1EE86"
+      },
+      "status": "match",
+      "match": {
+        "key": "154925680",
+        "title": "Hebrides Overture Fingal's Cave",
+        "artist": "Felix Mendelssohn",
+        "serviceURL": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+                "caption": "Felix Mendelssohn"
+              },
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+                "caption": "Hebrides Overture Fingal's Cave"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": []
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/50D33849-02B1-4141-95F3-3F488A4EF9A2/690C2478-7415-4573-A646-4733BAB1EE86?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:00:36 GMT",
+          "X-Forensic-Id": "9873567c-3d6f-4c67-8517-4fea5fe2bc23",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"629566409\",\"offset\":219.5360625,\"timeskew\":7.045269E-5,\"frequencyskew\":-4.029274E-5}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777633327,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"154925680\",\"title\":\"Hebrides Overture Fingal's Cave\",\"subtitle\":\"Felix Mendelssohn\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/154925680\"}]},\"share\":{\"subject\":\"Hebrides Overture Fingal's Cave - Felix Mendelssohn\",\"text\":\"Hebrides Overture Fingal's Cave by Felix Mendelssohn\",\"href\":\"https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Hebrides Overture Fingal's Cave by Felix Mendelssohn.\",\"html\":\"https://www.shazam.com/snippets/email-share/154925680?lang=en-US&country=GB\",\"avatar\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/154925680\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png\",\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Hebrides%20Overture%20Fingal%27s%20Cave%20Felix%20Mendelssohn\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in YouTube Music\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:youtubemusic:androiddeeplink\",\"type\":\"uri\",\"uri\":\"https://music.youtube.com/search?q=Hebrides+Overture+Fingals+Cave+Felix+Mendelssohn&feature=shazam\"}],\"type\":\"YOUTUBEMUSIC\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Hebrides+Overture+Fingal%5C%27s+Cave%27%20artist%3A%27Felix+Mendelssohn%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"caption\":\"Felix Mendelssohn\"},{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"caption\":\"Hebrides Overture Fingal's Cave\"}],\"tabname\":\"Song\",\"metadata\":[]}],\"url\":\"https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave\",\"artists\":[{\"id\":\"42\",\"adamid\":\"222829\"}],\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Hebrides+Overture+Fingal%27s+Cave\",\"{trackartist}\":\"Felix+Mendelssohn\"},\"highlightsurls\":{}},\"tagid\":\"690C2478-7415-4573-A646-4733BAB1EE86\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "sourceBytes": 615155171,
+        "sourceMtimeNs": 1791766013851791858
+      },
+      "sampleStartSeconds": 1235.088,
+      "sampleEndSeconds": 1255.081375,
+      "requestedEndSeconds": 1255.088,
+      "clip": "qa/soundtrack/97mS1SgI73k/clips/1235.088-1255.088.wav",
+      "sha256": "113a1dbef541bbe5923448cc2df525e13d1505e3fe6954b8d4834543e7ebed07",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1235.088",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/97mS1SgI73k/97mS1SgI73k.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/97mS1SgI73k/clips/1235.088-1255.088.wav"
+      ],
+      "actualAudioDurationSeconds": 19.993375,
+      "requestedAt": "2026-10-12T04:00:37.598752+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1235.088,
+        "sourceEndSeconds": 1247.088
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "629566409",
+            "offset": 239.53690625,
+            "timeskew": 4.339218e-05,
+            "frequencyskew": -8.0525875e-05
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777639441,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "154925680",
+          "title": "Hebrides Overture Fingal's Cave",
+          "subtitle": "Felix Mendelssohn",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/154925680"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Hebrides Overture Fingal's Cave - Felix Mendelssohn",
+            "text": "Hebrides Overture Fingal's Cave by Felix Mendelssohn",
+            "href": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Hebrides Overture Fingal's Cave by Felix Mendelssohn.",
+            "html": "https://www.shazam.com/snippets/email-share/154925680?lang=en-US&country=GB",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/154925680"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:subscribe",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:subscribe",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+                  "caption": "Felix Mendelssohn"
+                },
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+                  "caption": "Hebrides Overture Fingal's Cave"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": []
+            }
+          ],
+          "url": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+          "artists": [
+            {
+              "alias": "felix-mendelssohn",
+              "id": "42",
+              "adamid": "222829"
+            }
+          ],
+          "alias": "hebrides-overture-fingals-cave",
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Hebrides+Overture+Fingal%27s+Cave",
+            "{trackartist}": "Felix+Mendelssohn"
+          },
+          "highlightsurls": {}
+        },
+        "tagid": "95D4FA1F-C58C-422C-BA24-E58853460FD3"
+      },
+      "status": "match",
+      "match": {
+        "key": "154925680",
+        "title": "Hebrides Overture Fingal's Cave",
+        "artist": "Felix Mendelssohn",
+        "serviceURL": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg",
+                "caption": "Felix Mendelssohn"
+              },
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg",
+                "caption": "Hebrides Overture Fingal's Cave"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": []
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/DED7362B-8D5D-4FCD-8360-6D6505F0ED1A/95D4FA1F-C58C-422C-BA24-E58853460FD3?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:00:42 GMT",
+          "X-Forensic-Id": "80add4b1-95c9-48f2-9057-0ba68b09179f",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"629566409\",\"offset\":239.53690625,\"timeskew\":4.339218E-5,\"frequencyskew\":-8.0525875E-5}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777639441,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"154925680\",\"title\":\"Hebrides Overture Fingal's Cave\",\"subtitle\":\"Felix Mendelssohn\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/154925680\"}]},\"share\":{\"subject\":\"Hebrides Overture Fingal's Cave - Felix Mendelssohn\",\"text\":\"Hebrides Overture Fingal's Cave by Felix Mendelssohn\",\"href\":\"https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Hebrides Overture Fingal's Cave by Felix Mendelssohn.\",\"html\":\"https://www.shazam.com/snippets/email-share/154925680?lang=en-US&country=GB\",\"avatar\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/154925680\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:subscribe\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:subscribe\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d6/97/cc/d697cca2-017d-3d3b-9dd9-ecaf1c4c6e3b/mza_1003973128545134921.png/800x800cc.jpg\",\"caption\":\"Felix Mendelssohn\"},{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/21/76/55/217655fb-9864-22e9-72c7-fcf33f7a1c82/5054316076643_cover.jpg/400x400cc.jpg\",\"caption\":\"Hebrides Overture Fingal's Cave\"}],\"tabname\":\"Song\",\"metadata\":[]}],\"url\":\"https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave\",\"artists\":[{\"alias\":\"felix-mendelssohn\",\"id\":\"42\",\"adamid\":\"222829\"}],\"alias\":\"hebrides-overture-fingals-cave\",\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Hebrides+Overture+Fingal%27s+Cave\",\"{trackartist}\":\"Felix+Mendelssohn\"},\"highlightsurls\":{}},\"tagid\":\"95D4FA1F-C58C-422C-BA24-E58853460FD3\"}"
+      }
+    }
+  ],
+  "status": "probed",
+  "timingLimits": "Sample intervals and actual fingerprint intervals are evidence windows only, not cue boundaries. No listening claim.",
+  "recordingCandidates": [
+    {
+      "key": "71188704",
+      "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+      "artist": "Passionata Symphony Orchestra",
+      "serviceURL": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+      "evidence": [
+        {
+          "sampleStartSeconds": 120,
+          "sampleEndSeconds": 140.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 120,
+            "sourceEndSeconds": 132.0
+          },
+          "clip": "qa/soundtrack/97mS1SgI73k/clips/120.000-140.000.wav"
+        }
+      ],
+      "adjacentIndependentConfirmation": false,
+      "independentMatchCount": 1,
+      "limits": "Recording candidate; evidence windows are not continuous cue boundaries."
+    },
+    {
+      "key": "154925680",
+      "title": "Hebrides Overture Fingal's Cave",
+      "artist": "Felix Mendelssohn",
+      "serviceURL": "https://www.shazam.com/track/154925680/hebrides-overture-fingals-cave",
+      "evidence": [
+        {
+          "sampleStartSeconds": 1080,
+          "sampleEndSeconds": 1100.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1080,
+            "sourceEndSeconds": 1092.0
+          },
+          "clip": "qa/soundtrack/97mS1SgI73k/clips/1080.000-1100.000.wav"
+        },
+        {
+          "sampleStartSeconds": 1195.088,
+          "sampleEndSeconds": 1215.088,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1195.088,
+            "sourceEndSeconds": 1207.088
+          },
+          "clip": "qa/soundtrack/97mS1SgI73k/clips/1195.088-1215.088.wav"
+        },
+        {
+          "sampleStartSeconds": 1200,
+          "sampleEndSeconds": 1220.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1200,
+            "sourceEndSeconds": 1212.0
+          },
+          "clip": "qa/soundtrack/97mS1SgI73k/clips/1200.000-1220.000.wav"
+        },
+        {
+          "sampleStartSeconds": 1215.088,
+          "sampleEndSeconds": 1235.088,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,gCX+yi17zFX8CAAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAD9AgAAAHwAAAAAQPwIAABAAANg/wAAAAxfa6EMCCplagkXvm+qDiUQb9YPA/5tewk0uWtODyEpb3MJCHpthgwGg3DND0HWbH4JDPNtkAwDWG/QDzTCaN4NC2l17wsAqmo8D1DbcN0LAsttQwgugWiuCRObaEQJMu9k5QsFH2rqDxQLa8kOCV1kAQge1HA3Di1iarEJHGVwxg8E3nXuC1Pib38KEoxmmQwSeHPFDwLVaBYIFgdkuggf63Q9DhaFYCcKHTB2JA4E+l5wCAVAYFcJL/xquAoRPG/5CyD1a3cJLKpsKQwvknAkDijbZ8QME/dr/A8LDWxzCU0Yan4JFjppKg0kQXhFDjZwaY0KSQ5xOg4D2WZ7CgBBAANgdgIAAAokaUkWAAhxQi0IxVaLHAAGaJsfBIxzHyYCEHQKExIMY4kdE9txGS4aanDwEgP1YHwcAhpzUi0B9mnRFgSUb8YfDWJs7iULtWQAHhQFc/ItD0huph8HfWd9FgGUcfQSE7Nx9SUFI2VyHA3VZXgeKfR01SwGqG2vHwBTcAEmBv5p6hYD03GoLQWMcv4SFZtsNB4fEGKHGghYXlkdAcpgiyAUkWFRHADBePYlBZJx8xINlHPnFwPmbdkjAPJVcyoJrFg7HR3pVkQhBVNbBx4SnW4LKwaoWEAfB2dv5RIFjG+3JQNbWFkcG35rCSQQ5nIREwEQbOYXEDpWCRsB+2vlESgCacUdCJlsVB4PSmUWIAvxW8IqBidgZBULk2RmHArCZnQZCTtctiMKUWrsJQHraRQYCZBs+RIO2HBMFQbGZ6kfALp3uiovcF2tIwGNawASAoFTSx4J0VaBHQs3aoEZBqJlgh8E0Xi3KgbMdAwTAMFlFyYUgHALEgBVXl4jHJhi3x8QBmA1JAnGbE0cAHpbNSMrhWMOIAGXXDsbG79iZRUFemhvHAOBcoEqERts+SECYmNTGSITbe8RAKBmGRUAOVvmHwbEapMkCBFh+hcDbXDqEiWfccwlI8NlOBwDmFpKFwXxX90hA+Ju1Cgmt24EEQ+sY3QcAwdvvyUDg27xEwD5YcshEdF2MisBuHFRFQJQWZQZBA5mHCA8FGxIFRaha3gWBFJx+xICF3dvLQM0Y4EcEjpevSEATXLEJS8rcj0mBkJ2PisGhWh+HBaxcgUTDu5ZHCAE/HQ/FREhVYEYCbNxxyULpV+EHAlIWfgfOIJV6R8D4HJOFQAAQgADYGQFAAAL1Ws/OQWJYKhLAHFkWlsB41MdbQKATTBVBIVcq0gG/l72YQY+VExJAWhOAWcHZWFePAqiUbVPC+dfo2ALx1LEVQLjYLlMAJZTc2UEOGhCXABjT8xoBidS6jIBv2F/XwNhV8FGAE5kvksCrmixWgHzbc44Al1t9T8FSl45RAmUV7ZvCYFN6WkGy2NUPBYAT6RlBtFiOEwBukvUawF6UYpTCOZmpEsABlVGVAD7Uy1lBGtlyF4EoFKaVQGjZidOAPlPrmgHHHDSOAOsZypaAkdmQT8HR2fAQwMWZjk8CMBQg2oM12QHYBFOYvdLA0ZOq1MEbVNJZQTEZRRcAU5nDEUBeGU6XwFXXupNAZ1lOTgBGGuDPwCbUXNnA6xTg1QBE2LnQwIEXSVNA1No+zgBbmr1QAiMZ4paAsNj0GAFskl5agIhZ308ByhLw2kV+k53bwsVT6xPC6JM+VEGDXs2MAANanleBM5nOkgDgGlMOQThVBxCA7Fvsl8EjGUWTAWLTPdnAihXvGsKemlxRwBNVbBTEPp6xS8X8ki5ZwKlaaw4BupTAUICFWrAXwIrVwE0BkhnAlYB7VVHPwTmVUs+D2RpFE0BXVBpQRUfZLxIAdRVx1gBjWrYbBcqWadfA4xxFjAHrF+IagNjTzJlAbFdiDUBTmB0OQTMYyZsAdZkQkcCcV1+Ngc5XtZpAQ1RW1AAG2G2YAJKaC5AAeZNtFcEZFC6UAq/UvVSABZnRGEEr2HDPAFkVO1JDx1kO1sIfmnKQAXAVsBPCx5WSDQAMWi3OAUuZ2ZWFwdbi0wKjFzQYAGiYINIBeJagzsP+mdvNAVOXllNAVdiEmYFVGwNQAJZZIYzCn5ihVUCKmB7RwNCZ8kvBL1csWACBGFESBJ8XGRQA+phKDwHPkvoWwO4X9A8AUBYeVEHAF6zZAMWT8ZZEetZFjoB1k18RQW8bPE/AexhrEsCilm1OAB3ZWBVAUFmvGoFj2OpMgIsVRdeD/ta90cLTlWNbwlRUqNfAYpo/TUA21vHTwJDYAEwDe1ki0YB0VY9bAGGY744BIVa+1UAUlo+WQJIZSk4AB9cekkE3lZNbgFIX4tUBHFfimMMqls9VRljWY1EAe9hSy8D3lADbAEtW3A1CSZWql4G51CNbgaIXY1TBNBkPjICIF70ZQQ5WANDA7tZOUABaGMsMwCRYNpUA+tpjDgAfmeWRgEWUIpLBYJbNmMeeV/uNAQ7ViZIAbdReFsC1E+3bQNzVAc/Bc9SPGoGSlpARwN4Y2s5AE1gxUwBkVC3VQO7VAtrBBFUtT8DHGFuSwM6bJU4AMxcLV4BW1OBUgbjV91nA49hCkIBKmIPLwIKW8BUMXFRjWQEjmCKTwGYTHxYAxJjdi8CJGE+QgEwYrg7AwVShmsC5VMERgCVWchUAZpcl14BLFgsYwRPWmUzAmpDdVkBtWb0UAUdWeBdB29bOUsEIVoCNAj3WdZGAlRaJmUbglwIVgC8WARqBYhnez8AFV2qVgLOZ/I4AcJjllMBc2UALwgGZqlAAktarGoDnmDMXgEyXbxLDXxX5W8EL2DyVBHAZto/FhFLATQF/WHXQwNZWQ1QAOtU6WgOB14ITAJkXkpbAhdbv0QK7VHsZwHhXblaCuhfeEsBs10uMQH1YQlDChpdWVoHUlE8NQQIZY9DDr5iVVUCUFyETAOHUtxkCEhquz8FaWDCVgT1aF85AvFUi18BZVuQSwQlYEJHAfFre2oVEV+JYwkIX0hVEzdfmUsDEExIMQ3cQuFYAnJSizQHvWGGXgX2ZrE4MK5Sw04DFFMXLwW2Z501AZNqRkcEbWf1PwDaWT1bCSp4TTk=",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1215.088,
+            "sourceEndSeconds": 1227.088
+          },
+          "clip": "qa/soundtrack/97mS1SgI73k/clips/1215.088-1235.088.wav"
+        },
+        {
+          "sampleStartSeconds": 1235.088,
+          "sampleEndSeconds": 1255.081375,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1235.088,
+            "sourceEndSeconds": 1247.088
+          },
+          "clip": "qa/soundtrack/97mS1SgI73k/clips/1235.088-1255.088.wav"
+        }
+      ],
+      "adjacentIndependentConfirmation": true,
+      "independentMatchCount": 5,
+      "limits": "Recording candidate; evidence windows are not continuous cue boundaries."
+    }
+  ],
+  "fingerprintMethod": "python_legacy",
+  "legacyRustRequestCount": 0
+}

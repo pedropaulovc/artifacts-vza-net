@@ -1,0 +1,480 @@
+{
+  "createdAt": "2026-10-12T05:41:45.718211+00:00",
+  "controllerSha256": "55036ae4aecb91e5d4056514688136cef4fe2bc914bd9485e49fa94063e7e63d",
+  "priorReportPath": "/home/pedro/src/tmp-donoteat/qa/audio-llm/calibration/trials/ef6026fba6f0455d87fd1059b2ed37f1/paired-report.json",
+  "priorReportSha256": "2f16d75288547505078941ff5f8cea2ea49d2d9e727b19c13337388e4672133e",
+  "previousPhysicalInstanceReused": false,
+  "physicalInstanceId": "2318840b0e5345c391aa96ea3d7361fa",
+  "sameLoadedModelInstanceForAllFollowUpCases": true,
+  "model": {
+    "name": "Qwen/Qwen2.5-Omni-7B",
+    "revision": "ae9e1690543ffd5c0221dc27f79834d0294cba00",
+    "precision": "BF16",
+    "device": "cuda:0",
+    "gpuName": "NVIDIA GeForce RTX 3090",
+    "loader": "Qwen2_5OmniThinkerForConditionalGeneration",
+    "audioOutput": false,
+    "attentionImplementation": "sdpa",
+    "loadSeconds": 14.545282728038728,
+    "audioEncoderDtype": "torch.bfloat16",
+    "generationSettings": {
+      "doSample": false,
+      "maxNewTokens": 4096,
+      "useCache": true,
+      "eosTokenId": 151645,
+      "padTokenId": 151643,
+      "formatConstraint": "lm-format-enforcer-json-schema",
+      "formatEnforcerVersion": "0.11.3",
+      "jsonSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "events"
+        ],
+        "properties": {
+          "events": {
+            "type": "array",
+            "maxItems": 6,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "description",
+                "evidence"
+              ],
+              "properties": {
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "audio-gag-candidate",
+                    "music",
+                    "sound-effect",
+                    "speech-correction",
+                    "vocal-delivery"
+                  ]
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 240
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 240
+                }
+              }
+            }
+          }
+        }
+      },
+      "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+    },
+    "packages": {
+      "torch": "2.7.1",
+      "torchvision": "0.22.1",
+      "transformers": "4.57.6",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "soundfile": "0.14.0",
+      "numpy": "2.5.4",
+      "lm-format-enforcer": "0.11.3"
+    }
+  },
+  "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+  "prompts": {
+    "v1": {
+      "version": "v1",
+      "prompt": "Listen to the supplied waveform, not a transcript. Describe audible nonroutine music and sounds, and distinctive voice delivery. Report music instrumentation, rhythm, mood, transitions; sound effects/stings/clicks; hesitation, emphasis, laughter, echo or reverb; speech/music incongruity and possible audio jokes. Do not invent sounds or name a song/composer from contextual guesses. Omit routine narration and generic 'male voice speaking'. Keep only clearly heard observations, at most 6 events. No precise event timestamps: this entire clip is a coarse review interval. Return ONLY JSON in this exact schema: {\"events\":[{\"kind\":\"music|sound-effect|vocal-delivery|speech-correction|audio-gag-candidate\",\"description\":\"what is heard\",\"evidence\":\"specific audible features supporting this description\"}]}. Use one allowed kind per event, not the vertical-bar list. Empty events is valid only if no nonroutine events are audible. A speech correction needs the actual heard words, not speculation.\nFor vocal-delivery events, report distinctive deviations or changes, not the narrator's routine baseline voice. Describe unusual pronunciation or foreign-language words only with actually heard syllables/features; do not assume correctness from a person's identity or from written spellings.\nAcross the collection we are also looking for possible Chinese anthem 'March of the Volunteers' (义勇军进行曲), distinct from North Korea's anthem 'Aegukka'. Only if the audible melody, lyrics or instrumentation actually supports a candidate, describe those heard features and label the identity UNCONFIRMED CANDIDATE. Do not treat a march or brass alone as proof, do not assert exact song/composer/catalogue identity.",
+      "promptSha256": "13f3ba2d5e3186feb68803d07712f4547477d1da2202bdd4559e21a8fb622086"
+    },
+    "v2": {
+      "version": "v2",
+      "prompt": "Listen directly to the supplied audio waveform. Annotate physical, nonroutine things that can actually be heard, not the subject of the narration or guessed intentions.\n\nPriorities: background music and its audible instrumentation/rhythm/mood/transitions; brief NONVERBAL stings or impacts; clicks, mechanical/projector-like sounds; conspicuous echo/reverb or other voice-processing changes; clearly salient vocal departures from the ordinary local narration. Omit routine background hiss unless it conspicuously changes.\n\nORDINARY SPEECH IS NOT AN EVENT: do not report normal narration, argument development, topic changes, clear articulation, the narrator's baseline voice, ordinary pauses, contractions, or the words Okay, basically, uh, um, I mean or similar fillers just because they occur. A pause or filler does not establish a correction, emphasis, joke or intention. If the clip contains only ordinary speech with no nonroutine audible event, return {\"events\":[]}.\n\nKinds:\n- music: describe actually audible musical features and transitions, not a guessed catalogue identity.\n- sound-effect: describe a distinct nonverbal sound/sting/click/impact and its physical audible character.\n- vocal-delivery: describe a salient acoustic departure such as an unusual abrupt pitch/volume change, deliberate elongation, laughter, echo or reverb; not routine speech delivery.\n- speech-correction: ONLY an AUDIBLE spoken self-repair where a mistaken word/phrase is rejected and replaced by a DIFFERENT audible word/phrase. Quote the before -> after words in evidence. Repeating the same word, continuing a sentence, a contraction, a topic change, a pause, Okay or uh is NOT self-repair. No ASR text is supplied, so you cannot propose a written transcript correction.\n- audio-gag-candidate: require a distinct audible event plus specific audible incongruity. Do not infer a gag or comic intention from a pause, filler, political topic or unusual argument alone.\n\nFirst listen for nonverbal/background audio even when speech is foregrounded. For every event, state what physical sound is heard and the actual audible features supporting it. Separate audible features from any uncertain interpretation. Do not invent visual details or infer sound from the meaning of spoken words. Unfamiliar pronunciation may be described through actually heard syllables, not presumed incorrectness from written spellings.\n\nReturn ONLY JSON in this schema: {\"events\":[{\"kind\":\"music|sound-effect|vocal-delivery|speech-correction|audio-gag-candidate\",\"description\":\"concise physical audible observation\",\"evidence\":\"specific actually heard acoustic features; before -> after words for genuine self-repair\"}]}. Use one allowed kind, not the vertical-bar list. At most 6 event clusters; group repeated similar sounds. Be concise. Empty events is allowed for ordinary speech/no nonroutine events, not for uncertainty about a sound you actually hear. These are coarse clip bounds, NOT precise event-onset timestamps.\n\nWe are also searching across the collection for possible Chinese anthem March of the Volunteers (义勇军进行曲), DISTINCT from North Korea's Aegukka. A named musical work is only an UNCONFIRMED CANDIDATE when recognisable audible melody or lyrics supports it; supply those heard features. A march, brass, choir, national/political narration or a guessed song title alone is not identification evidence. Do not assert an exact composer/work/catalogue identity.",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be"
+    }
+  },
+  "identityComparisons": {
+    "modelConfiguration": {
+      "previous": {
+        "name": "Qwen/Qwen2.5-Omni-7B",
+        "revision": "ae9e1690543ffd5c0221dc27f79834d0294cba00",
+        "precision": "BF16",
+        "device": "cuda:0",
+        "loader": "Qwen2_5OmniThinkerForConditionalGeneration",
+        "audioOutput": false,
+        "attentionImplementation": "sdpa",
+        "audioEncoderDtype": "torch.bfloat16"
+      },
+      "current": {
+        "name": "Qwen/Qwen2.5-Omni-7B",
+        "revision": "ae9e1690543ffd5c0221dc27f79834d0294cba00",
+        "precision": "BF16",
+        "device": "cuda:0",
+        "loader": "Qwen2_5OmniThinkerForConditionalGeneration",
+        "audioOutput": false,
+        "attentionImplementation": "sdpa",
+        "audioEncoderDtype": "torch.bfloat16"
+      },
+      "equal": true
+    },
+    "decoder": {
+      "previous": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "current": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "equal": true
+    },
+    "prompts": {
+      "previous": {
+        "v1": {
+          "version": "v1",
+          "prompt": "Listen to the supplied waveform, not a transcript. Describe audible nonroutine music and sounds, and distinctive voice delivery. Report music instrumentation, rhythm, mood, transitions; sound effects/stings/clicks; hesitation, emphasis, laughter, echo or reverb; speech/music incongruity and possible audio jokes. Do not invent sounds or name a song/composer from contextual guesses. Omit routine narration and generic 'male voice speaking'. Keep only clearly heard observations, at most 6 events. No precise event timestamps: this entire clip is a coarse review interval. Return ONLY JSON in this exact schema: {\"events\":[{\"kind\":\"music|sound-effect|vocal-delivery|speech-correction|audio-gag-candidate\",\"description\":\"what is heard\",\"evidence\":\"specific audible features supporting this description\"}]}. Use one allowed kind per event, not the vertical-bar list. Empty events is valid only if no nonroutine events are audible. A speech correction needs the actual heard words, not speculation.\nFor vocal-delivery events, report distinctive deviations or changes, not the narrator's routine baseline voice. Describe unusual pronunciation or foreign-language words only with actually heard syllables/features; do not assume correctness from a person's identity or from written spellings.\nAcross the collection we are also looking for possible Chinese anthem 'March of the Volunteers' (义勇军进行曲), distinct from North Korea's anthem 'Aegukka'. Only if the audible melody, lyrics or instrumentation actually supports a candidate, describe those heard features and label the identity UNCONFIRMED CANDIDATE. Do not treat a march or brass alone as proof, do not assert exact song/composer/catalogue identity.",
+          "promptSha256": "13f3ba2d5e3186feb68803d07712f4547477d1da2202bdd4559e21a8fb622086"
+        },
+        "v2": {
+          "version": "v2",
+          "prompt": "Listen directly to the supplied audio waveform. Annotate physical, nonroutine things that can actually be heard, not the subject of the narration or guessed intentions.\n\nPriorities: background music and its audible instrumentation/rhythm/mood/transitions; brief NONVERBAL stings or impacts; clicks, mechanical/projector-like sounds; conspicuous echo/reverb or other voice-processing changes; clearly salient vocal departures from the ordinary local narration. Omit routine background hiss unless it conspicuously changes.\n\nORDINARY SPEECH IS NOT AN EVENT: do not report normal narration, argument development, topic changes, clear articulation, the narrator's baseline voice, ordinary pauses, contractions, or the words Okay, basically, uh, um, I mean or similar fillers just because they occur. A pause or filler does not establish a correction, emphasis, joke or intention. If the clip contains only ordinary speech with no nonroutine audible event, return {\"events\":[]}.\n\nKinds:\n- music: describe actually audible musical features and transitions, not a guessed catalogue identity.\n- sound-effect: describe a distinct nonverbal sound/sting/click/impact and its physical audible character.\n- vocal-delivery: describe a salient acoustic departure such as an unusual abrupt pitch/volume change, deliberate elongation, laughter, echo or reverb; not routine speech delivery.\n- speech-correction: ONLY an AUDIBLE spoken self-repair where a mistaken word/phrase is rejected and replaced by a DIFFERENT audible word/phrase. Quote the before -> after words in evidence. Repeating the same word, continuing a sentence, a contraction, a topic change, a pause, Okay or uh is NOT self-repair. No ASR text is supplied, so you cannot propose a written transcript correction.\n- audio-gag-candidate: require a distinct audible event plus specific audible incongruity. Do not infer a gag or comic intention from a pause, filler, political topic or unusual argument alone.\n\nFirst listen for nonverbal/background audio even when speech is foregrounded. For every event, state what physical sound is heard and the actual audible features supporting it. Separate audible features from any uncertain interpretation. Do not invent visual details or infer sound from the meaning of spoken words. Unfamiliar pronunciation may be described through actually heard syllables, not presumed incorrectness from written spellings.\n\nReturn ONLY JSON in this schema: {\"events\":[{\"kind\":\"music|sound-effect|vocal-delivery|speech-correction|audio-gag-candidate\",\"description\":\"concise physical audible observation\",\"evidence\":\"specific actually heard acoustic features; before -> after words for genuine self-repair\"}]}. Use one allowed kind, not the vertical-bar list. At most 6 event clusters; group repeated similar sounds. Be concise. Empty events is allowed for ordinary speech/no nonroutine events, not for uncertainty about a sound you actually hear. These are coarse clip bounds, NOT precise event-onset timestamps.\n\nWe are also searching across the collection for possible Chinese anthem March of the Volunteers (义勇军进行曲), DISTINCT from North Korea's Aegukka. A named musical work is only an UNCONFIRMED CANDIDATE when recognisable audible melody or lyrics supports it; supply those heard features. A march, brass, choir, national/political narration or a guessed song title alone is not identification evidence. Do not assert an exact composer/work/catalogue identity.",
+          "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be"
+        }
+      },
+      "current": {
+        "v1": {
+          "version": "v1",
+          "prompt": "Listen to the supplied waveform, not a transcript. Describe audible nonroutine music and sounds, and distinctive voice delivery. Report music instrumentation, rhythm, mood, transitions; sound effects/stings/clicks; hesitation, emphasis, laughter, echo or reverb; speech/music incongruity and possible audio jokes. Do not invent sounds or name a song/composer from contextual guesses. Omit routine narration and generic 'male voice speaking'. Keep only clearly heard observations, at most 6 events. No precise event timestamps: this entire clip is a coarse review interval. Return ONLY JSON in this exact schema: {\"events\":[{\"kind\":\"music|sound-effect|vocal-delivery|speech-correction|audio-gag-candidate\",\"description\":\"what is heard\",\"evidence\":\"specific audible features supporting this description\"}]}. Use one allowed kind per event, not the vertical-bar list. Empty events is valid only if no nonroutine events are audible. A speech correction needs the actual heard words, not speculation.\nFor vocal-delivery events, report distinctive deviations or changes, not the narrator's routine baseline voice. Describe unusual pronunciation or foreign-language words only with actually heard syllables/features; do not assume correctness from a person's identity or from written spellings.\nAcross the collection we are also looking for possible Chinese anthem 'March of the Volunteers' (义勇军进行曲), distinct from North Korea's anthem 'Aegukka'. Only if the audible melody, lyrics or instrumentation actually supports a candidate, describe those heard features and label the identity UNCONFIRMED CANDIDATE. Do not treat a march or brass alone as proof, do not assert exact song/composer/catalogue identity.",
+          "promptSha256": "13f3ba2d5e3186feb68803d07712f4547477d1da2202bdd4559e21a8fb622086"
+        },
+        "v2": {
+          "version": "v2",
+          "prompt": "Listen directly to the supplied audio waveform. Annotate physical, nonroutine things that can actually be heard, not the subject of the narration or guessed intentions.\n\nPriorities: background music and its audible instrumentation/rhythm/mood/transitions; brief NONVERBAL stings or impacts; clicks, mechanical/projector-like sounds; conspicuous echo/reverb or other voice-processing changes; clearly salient vocal departures from the ordinary local narration. Omit routine background hiss unless it conspicuously changes.\n\nORDINARY SPEECH IS NOT AN EVENT: do not report normal narration, argument development, topic changes, clear articulation, the narrator's baseline voice, ordinary pauses, contractions, or the words Okay, basically, uh, um, I mean or similar fillers just because they occur. A pause or filler does not establish a correction, emphasis, joke or intention. If the clip contains only ordinary speech with no nonroutine audible event, return {\"events\":[]}.\n\nKinds:\n- music: describe actually audible musical features and transitions, not a guessed catalogue identity.\n- sound-effect: describe a distinct nonverbal sound/sting/click/impact and its physical audible character.\n- vocal-delivery: describe a salient acoustic departure such as an unusual abrupt pitch/volume change, deliberate elongation, laughter, echo or reverb; not routine speech delivery.\n- speech-correction: ONLY an AUDIBLE spoken self-repair where a mistaken word/phrase is rejected and replaced by a DIFFERENT audible word/phrase. Quote the before -> after words in evidence. Repeating the same word, continuing a sentence, a contraction, a topic change, a pause, Okay or uh is NOT self-repair. No ASR text is supplied, so you cannot propose a written transcript correction.\n- audio-gag-candidate: require a distinct audible event plus specific audible incongruity. Do not infer a gag or comic intention from a pause, filler, political topic or unusual argument alone.\n\nFirst listen for nonverbal/background audio even when speech is foregrounded. For every event, state what physical sound is heard and the actual audible features supporting it. Separate audible features from any uncertain interpretation. Do not invent visual details or infer sound from the meaning of spoken words. Unfamiliar pronunciation may be described through actually heard syllables, not presumed incorrectness from written spellings.\n\nReturn ONLY JSON in this schema: {\"events\":[{\"kind\":\"music|sound-effect|vocal-delivery|speech-correction|audio-gag-candidate\",\"description\":\"concise physical audible observation\",\"evidence\":\"specific actually heard acoustic features; before -> after words for genuine self-repair\"}]}. Use one allowed kind, not the vertical-bar list. At most 6 event clusters; group repeated similar sounds. Be concise. Empty events is allowed for ordinary speech/no nonroutine events, not for uncertainty about a sound you actually hear. These are coarse clip bounds, NOT precise event-onset timestamps.\n\nWe are also searching across the collection for possible Chinese anthem March of the Volunteers (义勇军进行曲), DISTINCT from North Korea's Aegukka. A named musical work is only an UNCONFIRMED CANDIDATE when recognisable audible melody or lyrics supports it; supply those heard features. A march, brass, choir, national/political narration or a guessed song title alone is not identification evidence. Do not assert an exact composer/work/catalogue identity.",
+          "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be"
+        }
+      },
+      "equal": true
+    },
+    "pipelineSha256": {
+      "previous": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "current": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "equal": true
+    },
+    "modelProvenance": {
+      "previous": {
+        "name": "Qwen/Qwen2.5-Omni-7B",
+        "revision": "ae9e1690543ffd5c0221dc27f79834d0294cba00",
+        "precision": "BF16",
+        "device": "cuda:0",
+        "gpuName": "NVIDIA GeForce RTX 3090",
+        "loader": "Qwen2_5OmniThinkerForConditionalGeneration",
+        "audioOutput": false,
+        "attentionImplementation": "sdpa",
+        "loadSeconds": 51.5945954110357,
+        "audioEncoderDtype": "torch.bfloat16",
+        "generationSettings": {
+          "doSample": false,
+          "maxNewTokens": 4096,
+          "useCache": true,
+          "eosTokenId": 151645,
+          "padTokenId": 151643,
+          "formatConstraint": "lm-format-enforcer-json-schema",
+          "formatEnforcerVersion": "0.11.3",
+          "jsonSchema": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "events"
+            ],
+            "properties": {
+              "events": {
+                "type": "array",
+                "maxItems": 6,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "kind",
+                    "description",
+                    "evidence"
+                  ],
+                  "properties": {
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "audio-gag-candidate",
+                        "music",
+                        "sound-effect",
+                        "speech-correction",
+                        "vocal-delivery"
+                      ]
+                    },
+                    "description": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 240
+                    },
+                    "evidence": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 240
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+        },
+        "packages": {
+          "torch": "2.7.1",
+          "torchvision": "0.22.1",
+          "transformers": "4.57.6",
+          "accelerate": "1.15.0",
+          "bitsandbytes": "0.50.2",
+          "soundfile": "0.14.0",
+          "numpy": "2.5.4",
+          "lm-format-enforcer": "0.11.3"
+        }
+      },
+      "current": {
+        "name": "Qwen/Qwen2.5-Omni-7B",
+        "revision": "ae9e1690543ffd5c0221dc27f79834d0294cba00",
+        "precision": "BF16",
+        "device": "cuda:0",
+        "gpuName": "NVIDIA GeForce RTX 3090",
+        "loader": "Qwen2_5OmniThinkerForConditionalGeneration",
+        "audioOutput": false,
+        "attentionImplementation": "sdpa",
+        "loadSeconds": 14.545282728038728,
+        "audioEncoderDtype": "torch.bfloat16",
+        "generationSettings": {
+          "doSample": false,
+          "maxNewTokens": 4096,
+          "useCache": true,
+          "eosTokenId": 151645,
+          "padTokenId": 151643,
+          "formatConstraint": "lm-format-enforcer-json-schema",
+          "formatEnforcerVersion": "0.11.3",
+          "jsonSchema": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "events"
+            ],
+            "properties": {
+              "events": {
+                "type": "array",
+                "maxItems": 6,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "kind",
+                    "description",
+                    "evidence"
+                  ],
+                  "properties": {
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "audio-gag-candidate",
+                        "music",
+                        "sound-effect",
+                        "speech-correction",
+                        "vocal-delivery"
+                      ]
+                    },
+                    "description": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 240
+                    },
+                    "evidence": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 240
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+        },
+        "packages": {
+          "torch": "2.7.1",
+          "torchvision": "0.22.1",
+          "transformers": "4.57.6",
+          "accelerate": "1.15.0",
+          "bitsandbytes": "0.50.2",
+          "soundfile": "0.14.0",
+          "numpy": "2.5.4",
+          "lm-format-enforcer": "0.11.3"
+        }
+      },
+      "equal": false
+    },
+    "sources": {
+      "apk-K0sQutc": {
+        "previous": {
+          "sha256": "c5c0ebdb43c9cdd26fea1a3727a0129de9f5fd7a9ce095e99e967a8cadd1e665",
+          "sampleRate": 16000,
+          "frames": 1484459
+        },
+        "current": {
+          "sha256": "c5c0ebdb43c9cdd26fea1a3727a0129de9f5fd7a9ce095e99e967a8cadd1e665",
+          "sampleRate": 16000,
+          "frames": 1484459
+        },
+        "equal": true
+      },
+      "X_FU22yPyRE": {
+        "previous": {
+          "sha256": "f55f3d9a1372e3c6cb89a4dba0cbbc580d52e470949ff57bdcd90a482d1fdacb",
+          "sampleRate": 16000,
+          "frames": 12450816
+        },
+        "current": {
+          "sha256": "f55f3d9a1372e3c6cb89a4dba0cbbc580d52e470949ff57bdcd90a482d1fdacb",
+          "sampleRate": 16000,
+          "frames": 12450816
+        },
+        "equal": true
+      },
+      "cX-r5ulpoQQ": {
+        "previous": {
+          "sha256": "5f07d371745562bc6105045a1ba7933a0f78a0d13c9c95cd0363e124d0a05583",
+          "sampleRate": 16000,
+          "frames": 42747221
+        },
+        "current": {
+          "sha256": "5f07d371745562bc6105045a1ba7933a0f78a0d13c9c95cd0363e124d0a05583",
+          "sampleRate": 16000,
+          "frames": 42747221
+        },
+        "equal": true
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "cX-r5ulpoQQ",
+      "promptVersion": "v2",
+      "path": "/home/pedro/src/tmp-donoteat/qa/audio-llm/calibration/trials/6fa192191a1d47a1b6224691ddf5bb98/raw/cX-r5ulpoQQ-42-52-v2.json",
+      "fileSha256": "d022a90cc1a394322cf50d782eda4e123b116af9738601b85ed74a61e6da7343"
+    },
+    {
+      "id": "cX-r5ulpoQQ",
+      "promptVersion": "v2",
+      "path": "/home/pedro/src/tmp-donoteat/qa/audio-llm/calibration/trials/6fa192191a1d47a1b6224691ddf5bb98/raw/cX-r5ulpoQQ-35-75-v2.json",
+      "fileSha256": "8f8ac1bc181605da43e7c0746a1546bd6748c82a851b25131ec5ee9dc628313b"
+    }
+  ],
+  "inferenceAttempts": 2,
+  "invocationPath": "/home/pedro/src/tmp-donoteat/qa/audio-llm/calibration/trials/6fa192191a1d47a1b6224691ddf5bb98/invocation.json",
+  "evaluationMetadataPath": "/home/pedro/src/tmp-donoteat/qa/audio-llm/calibration/trials/6fa192191a1d47a1b6224691ddf5bb98/evaluation-metadata.json",
+  "decisionPolicy": "Human evaluation only; no semantic match inferred from model output."
+}

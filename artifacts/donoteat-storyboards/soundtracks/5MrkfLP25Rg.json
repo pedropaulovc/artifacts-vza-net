@@ -45,6 +45,25 @@
           "evidence": "qa/soundtrack/5MrkfLP25Rg/results.json requests[14], rawResponse.track.key=71192767, tagid=3077908A-AB45-42DB-B1C1-71E481ECD38F; fingerprint.sourceStartSeconds=1200, sourceEndSeconds=1212.0, samplems=12000. Submitted signature interval only; extracted clip 1200–1220.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
         }
       ]
+    },
+    {
+      "title": "Minecraft",
+      "composer": "Daniel Rosenfeld (C418)",
+      "performer": null,
+      "identification": "audio-reference-match",
+      "evidence": "Same-recording-content waveform match to the artist-hosted recording \"Minecraft\" by C418, track 8 of Minecraft - Volume Alpha, https://c418.bandcamp.com/track/minecraft (track_id 1691975503). qa/artesian-music/canonical-proof.json and offline-waveform-proof.json retain exact source queries, reference SHA256, full-recording cross-correlation searches, and 11 wrong-track controls. Both source windows and four independent subwindows recover source-minus-reference offset 82.679875 seconds at 8 kHz. Composer credit: https://www.minecraft.net/en-us/credits explicitly lists Daniel Rosenfeld under \"Music composed by\"; qa/artesian-music/credits.json preserves this primary credit and the artist-hosted recording credit, with Library of Congress-hosted supporting evidence identifying C418 as Rosenfeld's stage name. The recording is credited to C418; no separately named instrumental performer is established, so performer remains null. The video's description credits only Beethoven for titles and cinematics and does not name this cue. Cached 120–132-second and fresh 122.1–134.1-second Shazam signatures were unmatched with HTTP200; exact identity comes from the reference waveform comparison, not either nonmatch. No direct listening claim or full cue boundaries.",
+      "samples": [
+        {
+          "startSeconds": 99,
+          "endSeconds": 122.1,
+          "evidence": "qa/artesian-music/offline-waveform-proof.json references[3].comparisons[0]: exact source query 99–122.1 seconds matches artist-hosted reference 16.320125–39.420125 seconds, normalized waveform correlation 0.15065223294867913. Independent 99–111 and 111–122.1 queries recover the same offset. Query window only; not cue onset/end."
+        },
+        {
+          "startSeconds": 122.1,
+          "endSeconds": 137,
+          "evidence": "qa/artesian-music/offline-waveform-proof.json references[3].comparisons[1]: exact source query 122.1–137 seconds matches artist-hosted reference 39.420125–54.320125 seconds, normalized waveform correlation 0.28888453660425306. Independent 122.1–129.55 and 129.55–137 queries recover the same offset. Highest of 11 wrong-track controls on this query is 0.06309972899587452. Query window only; not cue onset/end."
+        }
+      ]
     }
   ]
 }

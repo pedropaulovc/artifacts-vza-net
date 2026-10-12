@@ -1,0 +1,485 @@
+{
+  "id": "apk-K0sQutc",
+  "title": "Episode 4 of Power, Planning, and Politics is on Bsquiklehausen's channel",
+  "requests": [
+    {
+      "sourceIdentity": {
+        "source": "videos/apk-K0sQutc/apk-K0sQutc.mkv",
+        "sourceBytes": 3575717,
+        "sourceMtimeNs": 1791765703224331617
+      },
+      "sampleStartSeconds": 0,
+      "sampleEndSeconds": 20.0,
+      "requestedEndSeconds": 20,
+      "clip": "qa/soundtrack/apk-K0sQutc/clips/0.000-20.000.wav",
+      "sha256": "1ef93965b4c40952cfd932b5114a811517efae0825d4125b1e4f5e46369f94b8",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "0",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/apk-K0sQutc/apk-K0sQutc.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/apk-K0sQutc/clips/0.000-20.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:55:05.416581+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,gCX+yuZnC6Q8BwAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAD9AgAAAHwAAAAAQDwHAABAAANgzQAAADwbXM4IAWtaywsNVWB9DS8WX0QJB6ZlwwwAwWrzDxBLaSsOBmdolQsMbWmqDhgYYIYMA3thOwlFoFCRCE/OaokKCBdzxg0MsXCEEApRabQMB6JqNA8kEWSICRkXXekOOnddvwsg0lo4DRgdXZALwrRj8g8Br16kCQN0acMMCchnEwwhQF/tCEMOac0MEtlmDg9R5F6LDUAbXuMOBYBfgA0lRl9LDAfUXgQNPMlXAw0gI18uCwJXX+kNtJlorw0eQWoyEBmAZCIJAzRlQg8AAABBAANgKwIAAD1oarQRASdqhxQSwmkLFRXdY4gYAGdZiB4ASGa8JwYUZ0kWAGRiYhkAqljVHwAOaI4pAnZjtSwEM2WuFQSocn0SLQVWKhoFWFoYHQHnbIQRAG9eKRcCV18vIAJ0W08jBUhauiQBdl9nKAE1a5YSA2lYryxG2jIKGgPANQgVAKgy+x0N2DM7F1LNVUkrAohcricB4FpoJAMXVUMXAKxKgBoBHmfMEwGwWrogASpMgx0NJ07DGwKxTnoYJ581YCc+Zl3lIQc9XS0jAytksRQBDF8OJwGeaeoRAdVRYy0BgFKqKhnbWqkkK1VsuRAHAWe9EwIYTQocAG9MpyEFcVC2JgndUDQgA1Nh1BFf01lsFAE+XJIRAMY0NSAAtlD1LT+cZvgSAElDrBwAtVJdLC36UvAaAoJm+hEAzGnvFACpWSAhACdWES0BFmr8JgerUnccADdm8CcBJmQLEUtjVmweAeVkAxIVFVt+LQT7Y9QXAIZfrCcBlFEVHQa/XUUoMyxi4xAIVWEBEgYrRPshAqJOCScHE0g/IAE1SPkbAXBMdRYEYEiDGyWsRtQnG+9RtigADVEMLgJwYsASNF1pzxIA7lwuIACKXesiAc9pcRUBGUtxLQfbXJkkOAVMOSAIsj3dGgBoR9wnBnRYbREFK0omLmiOW98QMCRrhxEBTVz6FACHTlAuHslWCicJ5U6OGAwUWLEhAVlHcxsC9mxUEgDEVbMkAFVW8ioBh1UkLgBCAANgHwQAAET5OEBZAWBLwFEnqFj5YgDbXVlsAWVbzEIAT1r0ZQDNX4dvAuFauUUCrmSHLwfiYaY3AG1Wqz0Ap1bEQACiVwdHAIFLJFABYlPaQwCDVwlKALpLNVMAtER6XAFCYpM6MhVTGmsDlVJEaAEQRw9BANdKRGIC3U0mUQH7RDVfACJO6G8FND4xWQrGO7tagQlHeTMAuFYXNwIjUX86AZtKyj0AiUFCWQw5UGtmAYtY00MARFGUUQA+S3xfAC9L5GIA3VJWbQJCVXVHANVUKU4BkksbPQG1VjdAAvRUMzkAsE2OSgFdT4JsAWNTbzIC6lUKLzkcOsVEADw4FFwE11DGOAGJN89JAIhDRVMDqToKYQjERZpmAkM4DloANEd5bhDySyYwAFc68kEBcjs+WR4mRDpRB6ZGrFAGez0SQQIlUKZnABhJz20DI0yCMABzSs5OAc5Fx0sdn1NDLwOiTnQzApFF0l8Q0k1+YwGgS3VNAKNGMlgCh031RwG/TcxmAb1MZ1EBAFCyQAU5UCk+BF9Ty2EBuFGNZAE8XDM3ANRDvWwG/kvBTgHgUXFDAFJAB1oBR147NQBLVPdIADRF4moBnEw4ZQF3VocvRKgkgV0AxyXOYSwzUeowAGlH3jYAPjgDTgEvRC1IFttDvmQBtEBcXwA/RbloELtGxUwAXT2ZXABcRr5iABtKm2YBx07zQACFUetPAfxODEQA2UrRSQDROS9ZDRg7QzwBzEdEMwh4TWdRKaJMbzUAx0raSAFlSulDA4NIVDsAr0n7ZgHRTRc2Aj1La1ECf0AZXAD5Sb1nAfNGBGIAR0y7agANT6ptA0ZRoTAibUwpMwlzQDdZAEBJAF0AYk9YbQFjTWhkEPk9aUoA3juNTQDvPeFQJp5P0j8BQVSUQgEsTn01NNZKiVsAIk5OXgAHViRmAc1Sf1EI5kkuRAAKTs5IBBdYfzcE6UWoPwQXUeQuMecq5lcBkUAMUQxdO3tgBMc/TmQO9kZ5OwBKRX5DAe1GYTMAp0gvNgB5QyM+GNM7ElIDAU2ZbA0LNOVTDXNJVTAAfkenNQH9Q/M6AMBNE0MAgjXWTQcvR4IxAFlDNj4gIjvyWwAwSlZtAjpLzDgA+FiCZgLYRSdUBTw9NU8GuTlBSQATO/5LAJE47VwBgzR9RhUrTdoxAXI410AA1zXOSAM2PytRA0c58EE4pDU6NSgWOjVhAAFHMWgErCs1PwDdRURvA6s1/zUxaEYLXwCBTBVmAHxPEW0BCU+5UAHvQrBIAStMYTMAW0WTOgAyPlI+AKQ9sEEAqD7sRAG6RsNLNSZYQjEBvkmMVQERXG00AD1Vgk8AdFEHawGfV2Y3AEROSUAAw1F5UgBdTc9bADpP7F4A3lIFbgEyWGI6AUdIQEwAmVTCZwMdSclIAA==",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 0,
+        "sourceEndSeconds": 12.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777306685,
+        "timezone": "Europe/Moscow",
+        "tagid": "916B5D8F-3B14-492C-9063-5CB0F64E87B7"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/9E119DBF-5594-4CCA-8741-A5C9E42ADC21/916B5D8F-3B14-492C-9063-5CB0F64E87B7?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:55:09 GMT",
+          "X-Forensic-Id": "802e3140-0545-4d50-be2b-0ed0f9de45b1",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777306685,\"timezone\":\"Europe/Moscow\",\"tagid\":\"916B5D8F-3B14-492C-9063-5CB0F64E87B7\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/apk-K0sQutc/apk-K0sQutc.mkv",
+        "sourceBytes": 3575717,
+        "sourceMtimeNs": 1791765703224331617
+      },
+      "sampleStartSeconds": 20,
+      "sampleEndSeconds": 40.0,
+      "requestedEndSeconds": 40,
+      "clip": "qa/soundtrack/apk-K0sQutc/clips/20.000-40.000.wav",
+      "sha256": "c91cc3003b62410464e0a8d90799791627750a6985185bbe532b740c87bf1716",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "20",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/apk-K0sQutc/apk-K0sQutc.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/apk-K0sQutc/clips/20.000-40.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:55:11.489862+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 20,
+        "sourceEndSeconds": 32.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777312819,
+        "timezone": "Europe/Moscow",
+        "tagid": "83A42A56-C8B4-4E11-91B9-C7EC4229E9CC"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/459FC10D-EF1C-4A82-AF16-0BE0A09F5402/83A42A56-C8B4-4E11-91B9-C7EC4229E9CC?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:55:15 GMT",
+          "X-Forensic-Id": "ed44ba8d-e325-48dc-9b5a-7c393105ab8f",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777312819,\"timezone\":\"Europe/Moscow\",\"tagid\":\"83A42A56-C8B4-4E11-91B9-C7EC4229E9CC\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/apk-K0sQutc/apk-K0sQutc.mkv",
+        "sourceBytes": 3575717,
+        "sourceMtimeNs": 1791765703224331617
+      },
+      "sampleStartSeconds": 32.808,
+      "sampleEndSeconds": 52.808,
+      "requestedEndSeconds": 52.808,
+      "clip": "qa/soundtrack/apk-K0sQutc/clips/32.808-52.808.wav",
+      "sha256": "659c514db5fa4febbf8c1caf912423aa089389978034e9aef82ec1bab7caa0ac",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "32.808",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/apk-K0sQutc/apk-K0sQutc.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/apk-K0sQutc/clips/32.808-52.808.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:55:17.490850+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 32.808,
+        "sourceEndSeconds": 44.808
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777318768,
+        "timezone": "Europe/Moscow",
+        "tagid": "00AC257B-0785-4587-B1A1-C9AF1BE51C70"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/25CE0CB8-6711-44C1-91BA-BF2C2BD3A11A/00AC257B-0785-4587-B1A1-C9AF1BE51C70?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:55:21 GMT",
+          "X-Forensic-Id": "301ce7a4-a3d8-46b4-8638-34e4ba8e36f2",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777318768,\"timezone\":\"Europe/Moscow\",\"tagid\":\"00AC257B-0785-4587-B1A1-C9AF1BE51C70\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/apk-K0sQutc/apk-K0sQutc.mkv",
+        "sourceBytes": 3575717,
+        "sourceMtimeNs": 1791765703224331617
+      },
+      "sampleStartSeconds": 40,
+      "sampleEndSeconds": 60.0,
+      "requestedEndSeconds": 60,
+      "clip": "qa/soundtrack/apk-K0sQutc/clips/40.000-60.000.wav",
+      "sha256": "7027546ccb424bc6c8362ba3afa68b18245907e590ae166632c965a94b0853cf",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "40",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/apk-K0sQutc/apk-K0sQutc.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/apk-K0sQutc/clips/40.000-60.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:55:21.649142+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 40,
+        "sourceEndSeconds": 52.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777322755,
+        "timezone": "Europe/Moscow",
+        "tagid": "8A7C31AC-FDC1-4C28-9F50-D0E0C7007E79"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/10500FFE-E485-4085-87D3-F0977DF3926E/8A7C31AC-FDC1-4C28-9F50-D0E0C7007E79?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:55:26 GMT",
+          "X-Forensic-Id": "823254a6-68da-4a17-a285-674a24c9aa51",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777322755,\"timezone\":\"Europe/Moscow\",\"tagid\":\"8A7C31AC-FDC1-4C28-9F50-D0E0C7007E79\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/apk-K0sQutc/apk-K0sQutc.mkv",
+        "sourceBytes": 3575717,
+        "sourceMtimeNs": 1791765703224331617
+      },
+      "sampleStartSeconds": 52.808,
+      "sampleEndSeconds": 72.80799999999999,
+      "requestedEndSeconds": 72.80799999999999,
+      "clip": "qa/soundtrack/apk-K0sQutc/clips/52.808-72.808.wav",
+      "sha256": "5c08297ce30bd8d0f1b661d87eb62054c6ae58fbbdb735047ef68789f88923a7",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "52.808",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/apk-K0sQutc/apk-K0sQutc.mkv",
+        "-t",
+        "19.999999999999993",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/apk-K0sQutc/clips/52.808-72.808.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T03:55:27.640318+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 52.808,
+        "sourceEndSeconds": 64.80799999999999
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777328795,
+        "timezone": "Europe/Moscow",
+        "tagid": "9678FD54-73D4-437B-8AFB-903C651A8FBB"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/3D7B8028-AF61-4A23-B887-08471DACC895/9678FD54-73D4-437B-8AFB-903C651A8FBB?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:55:32 GMT",
+          "X-Forensic-Id": "0edf1cee-8e8a-4b9d-9a24-b43e3565823b",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777328795,\"timezone\":\"Europe/Moscow\",\"tagid\":\"9678FD54-73D4-437B-8AFB-903C651A8FBB\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/apk-K0sQutc/apk-K0sQutc.mkv",
+        "sourceBytes": 3575717,
+        "sourceMtimeNs": 1791765703224331617
+      },
+      "sampleStartSeconds": 72.808,
+      "sampleEndSeconds": 92.786688,
+      "requestedEndSeconds": 92.808,
+      "clip": "qa/soundtrack/apk-K0sQutc/clips/72.808-92.808.wav",
+      "sha256": "6eb3190ed44109555765959dc4e6148b9515e0eee2008822c177249dbd7a2d89",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "72.808",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/apk-K0sQutc/apk-K0sQutc.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/apk-K0sQutc/clips/72.808-92.808.wav"
+      ],
+      "actualAudioDurationSeconds": 19.978688,
+      "requestedAt": "2026-10-12T03:55:33.640984+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 72.808,
+        "sourceEndSeconds": 84.808
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777334820,
+        "timezone": "Europe/Moscow",
+        "tagid": "FB7709ED-63D5-4240-8E13-F214AFE8A948"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/AD58E31F-860A-49D0-A6A0-BB5798DC3202/FB7709ED-63D5-4240-8E13-F214AFE8A948?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 03:55:37 GMT",
+          "X-Forensic-Id": "422f4501-c6a9-4383-92f3-0b4b5a1345a7",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777334820,\"timezone\":\"Europe/Moscow\",\"tagid\":\"FB7709ED-63D5-4240-8E13-F214AFE8A948\"}"
+      }
+    }
+  ],
+  "status": "probed",
+  "timingLimits": "Sample intervals and actual fingerprint intervals are evidence windows only, not cue boundaries. No listening claim.",
+  "recordingCandidates": [],
+  "fingerprintMethod": "python_legacy",
+  "legacyRustRequestCount": 0
+}

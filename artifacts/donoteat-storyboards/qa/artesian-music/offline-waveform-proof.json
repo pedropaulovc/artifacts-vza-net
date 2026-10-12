@@ -1,0 +1,897 @@
+{
+  "method": "Zero-mean normalized waveform cross-correlation over exact source slices at 8 kHz; full artist-hosted recording searched independently for each window.",
+  "rateHz": 8000,
+  "sourceExcerpt": "qa/artesian-music/99.000-137.000.wav",
+  "sourceExcerptSha256": "ae35c0afca42925e7f516d05e9f9bdd69ec4c50fb6a7102e7dee51056674e13d",
+  "limits": "Numerical recording-content correspondence, not a direct listening claim; these source query windows are not full music cue bounds. Unmatched reference recordings are comparison controls, not proof of absence.",
+  "references": [
+    {
+      "title": "Dry Hands",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/dry-hands",
+      "path": "qa/artesian-music/references/dry-hands.mp3",
+      "sha256": "2dec4f5ec9d026c508ac4759800061deb0652d853472bc56f990fd617180af67",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 22.7065,
+          "referenceEndSeconds": 45.8065,
+          "sourceMinusReferenceSeconds": 76.2935,
+          "maxAbsoluteWaveformCorrelation": 0.031178489721500696,
+          "signedWaveformCorrelation": 0.031178489721500696
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 0.9315,
+          "referenceEndSeconds": 15.8315,
+          "sourceMinusReferenceSeconds": 121.1685,
+          "maxAbsoluteWaveformCorrelation": 0.04677319720392243,
+          "signedWaveformCorrelation": -0.04677319720392243
+        },
+        {
+          "sourceWindowSeconds": [
+            99,
+            111
+          ],
+          "referenceStartSeconds": 2.828125,
+          "referenceEndSeconds": 14.828125,
+          "sourceMinusReferenceSeconds": 96.171875,
+          "maxAbsoluteWaveformCorrelation": 0.03722731794305045,
+          "signedWaveformCorrelation": -0.03722731794305045
+        },
+        {
+          "sourceWindowSeconds": [
+            111,
+            122.1
+          ],
+          "referenceStartSeconds": 3.920125,
+          "referenceEndSeconds": 15.020125,
+          "sourceMinusReferenceSeconds": 107.079875,
+          "maxAbsoluteWaveformCorrelation": 0.05405314624479859,
+          "signedWaveformCorrelation": 0.05405314624479859
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            129.55
+          ],
+          "referenceStartSeconds": 10.119625,
+          "referenceEndSeconds": 17.569625,
+          "sourceMinusReferenceSeconds": 111.980375,
+          "maxAbsoluteWaveformCorrelation": 0.09644206019212043,
+          "signedWaveformCorrelation": -0.09644206019212043
+        },
+        {
+          "sourceWindowSeconds": [
+            129.55,
+            137
+          ],
+          "referenceStartSeconds": 1.961625,
+          "referenceEndSeconds": 9.411625,
+          "sourceMinusReferenceSeconds": 127.58837500000001,
+          "maxAbsoluteWaveformCorrelation": 0.04210099194112393,
+          "signedWaveformCorrelation": -0.04210099194112393
+        }
+      ]
+    },
+    {
+      "title": "Wet Hands",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/wet-hands",
+      "path": "qa/artesian-music/references/wet-hands.mp3",
+      "sha256": "20a41f07c3fd18ecc87ffd8edebf68faadd752de49a45b4fa6a601d5e78c76ec",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 31.954,
+          "referenceEndSeconds": 55.054,
+          "sourceMinusReferenceSeconds": 67.04599999999999,
+          "maxAbsoluteWaveformCorrelation": 0.025077314468618137,
+          "signedWaveformCorrelation": 0.025077314468618137
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 1.737625,
+          "referenceEndSeconds": 16.637625,
+          "sourceMinusReferenceSeconds": 120.362375,
+          "maxAbsoluteWaveformCorrelation": 0.029092945534487713,
+          "signedWaveformCorrelation": 0.029092945534487713
+        },
+        {
+          "sourceWindowSeconds": [
+            99,
+            111
+          ],
+          "referenceStartSeconds": 26.45575,
+          "referenceEndSeconds": 38.455749999999995,
+          "sourceMinusReferenceSeconds": 72.54425,
+          "maxAbsoluteWaveformCorrelation": 0.03685328349457867,
+          "signedWaveformCorrelation": -0.03685328349457867
+        },
+        {
+          "sourceWindowSeconds": [
+            111,
+            122.1
+          ],
+          "referenceStartSeconds": 33.05175,
+          "referenceEndSeconds": 44.15175,
+          "sourceMinusReferenceSeconds": 77.94825,
+          "maxAbsoluteWaveformCorrelation": 0.03914957425853466,
+          "signedWaveformCorrelation": 0.03914957425853466
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            129.55
+          ],
+          "referenceStartSeconds": 27.667125,
+          "referenceEndSeconds": 35.117125,
+          "sourceMinusReferenceSeconds": 94.432875,
+          "maxAbsoluteWaveformCorrelation": 0.0411669287816019,
+          "signedWaveformCorrelation": 0.0411669287816019
+        },
+        {
+          "sourceWindowSeconds": [
+            129.55,
+            137
+          ],
+          "referenceStartSeconds": 12.130375,
+          "referenceEndSeconds": 19.580375,
+          "sourceMinusReferenceSeconds": 117.41962500000001,
+          "maxAbsoluteWaveformCorrelation": 0.041573795890341395,
+          "signedWaveformCorrelation": 0.041573795890341395
+        }
+      ]
+    },
+    {
+      "title": "Sweden",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/sweden",
+      "path": "qa/artesian-music/references/sweden.mp3",
+      "sha256": "0ac89e0fdd4c6285dfb17c7e7f214064114984bc5c361e38d57e7cce07be0fcd",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 121.638875,
+          "referenceEndSeconds": 144.738875,
+          "sourceMinusReferenceSeconds": -22.638875,
+          "maxAbsoluteWaveformCorrelation": 0.024778112123442983,
+          "signedWaveformCorrelation": 0.024778112123442983
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 106.564625,
+          "referenceEndSeconds": 121.46462500000001,
+          "sourceMinusReferenceSeconds": 15.535374999999988,
+          "maxAbsoluteWaveformCorrelation": 0.03964880826736406,
+          "signedWaveformCorrelation": -0.03964880826736406
+        },
+        {
+          "sourceWindowSeconds": [
+            99,
+            111
+          ],
+          "referenceStartSeconds": 122.388625,
+          "referenceEndSeconds": 134.388625,
+          "sourceMinusReferenceSeconds": -23.388625000000005,
+          "maxAbsoluteWaveformCorrelation": 0.034846917461620844,
+          "signedWaveformCorrelation": 0.034846917461620844
+        },
+        {
+          "sourceWindowSeconds": [
+            111,
+            122.1
+          ],
+          "referenceStartSeconds": 122.915875,
+          "referenceEndSeconds": 134.015875,
+          "sourceMinusReferenceSeconds": -11.915875,
+          "maxAbsoluteWaveformCorrelation": 0.04262984850796082,
+          "signedWaveformCorrelation": 0.04262984850796082
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            129.55
+          ],
+          "referenceStartSeconds": 159.850375,
+          "referenceEndSeconds": 167.300375,
+          "sourceMinusReferenceSeconds": -37.75037500000002,
+          "maxAbsoluteWaveformCorrelation": 0.05339308781510093,
+          "signedWaveformCorrelation": 0.05339308781510093
+        },
+        {
+          "sourceWindowSeconds": [
+            129.55,
+            137
+          ],
+          "referenceStartSeconds": 61.621875,
+          "referenceEndSeconds": 69.071875,
+          "sourceMinusReferenceSeconds": 67.92812500000001,
+          "maxAbsoluteWaveformCorrelation": 0.07914209947092597,
+          "signedWaveformCorrelation": 0.07914209947092597
+        }
+      ]
+    },
+    {
+      "title": "Minecraft",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/minecraft",
+      "path": "qa/artesian-music/references/minecraft.mp3",
+      "sha256": "f40609c75df83de1e3648d00acc79d2c263905044a26d173fd98202401594700",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 16.320125,
+          "referenceEndSeconds": 39.420125,
+          "sourceMinusReferenceSeconds": 82.679875,
+          "maxAbsoluteWaveformCorrelation": 0.15065223294867913,
+          "signedWaveformCorrelation": 0.15065223294867913
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 39.420125,
+          "referenceEndSeconds": 54.320125,
+          "sourceMinusReferenceSeconds": 82.679875,
+          "maxAbsoluteWaveformCorrelation": 0.28888453660425306,
+          "signedWaveformCorrelation": 0.28888453660425306
+        },
+        {
+          "sourceWindowSeconds": [
+            99,
+            111
+          ],
+          "referenceStartSeconds": 16.320125,
+          "referenceEndSeconds": 28.320125,
+          "sourceMinusReferenceSeconds": 82.679875,
+          "maxAbsoluteWaveformCorrelation": 0.10094451942351551,
+          "signedWaveformCorrelation": 0.10094451942351551
+        },
+        {
+          "sourceWindowSeconds": [
+            111,
+            122.1
+          ],
+          "referenceStartSeconds": 28.320125,
+          "referenceEndSeconds": 39.420125,
+          "sourceMinusReferenceSeconds": 82.679875,
+          "maxAbsoluteWaveformCorrelation": 0.18473561272064318,
+          "signedWaveformCorrelation": 0.18473561272064318
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            129.55
+          ],
+          "referenceStartSeconds": 39.420125,
+          "referenceEndSeconds": 46.870125,
+          "sourceMinusReferenceSeconds": 82.679875,
+          "maxAbsoluteWaveformCorrelation": 0.2449632903208119,
+          "signedWaveformCorrelation": 0.2449632903208119
+        },
+        {
+          "sourceWindowSeconds": [
+            129.55,
+            137
+          ],
+          "referenceStartSeconds": 46.870125,
+          "referenceEndSeconds": 54.320125000000004,
+          "sourceMinusReferenceSeconds": 82.67987500000001,
+          "maxAbsoluteWaveformCorrelation": 0.3242438068623011,
+          "signedWaveformCorrelation": 0.3242438068623011
+        }
+      ]
+    },
+    {
+      "title": "Clark",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/clark",
+      "path": "qa/artesian-music/references/clark.mp3",
+      "sha256": "28e01e14d2d823c3f0a9f57fa4b6d5dc1e4aa8537d23ab55643f0f8a177c5aec",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 124.31425,
+          "referenceEndSeconds": 147.41425,
+          "sourceMinusReferenceSeconds": -25.31425,
+          "maxAbsoluteWaveformCorrelation": 0.03698427557352371,
+          "signedWaveformCorrelation": -0.03698427557352371
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 147.59875,
+          "referenceEndSeconds": 162.49875,
+          "sourceMinusReferenceSeconds": -25.49875,
+          "maxAbsoluteWaveformCorrelation": 0.04908485092455614,
+          "signedWaveformCorrelation": 0.04908485092455614
+        },
+        {
+          "sourceWindowSeconds": [
+            99,
+            111
+          ],
+          "referenceStartSeconds": 147.638375,
+          "referenceEndSeconds": 159.638375,
+          "sourceMinusReferenceSeconds": -48.638374999999996,
+          "maxAbsoluteWaveformCorrelation": 0.056825249324821844,
+          "signedWaveformCorrelation": -0.056825249324821844
+        },
+        {
+          "sourceWindowSeconds": [
+            111,
+            122.1
+          ],
+          "referenceStartSeconds": 155.06575,
+          "referenceEndSeconds": 166.16575,
+          "sourceMinusReferenceSeconds": -44.06575000000001,
+          "maxAbsoluteWaveformCorrelation": 0.0622692152753712,
+          "signedWaveformCorrelation": -0.0622692152753712
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            129.55
+          ],
+          "referenceStartSeconds": 142.6975,
+          "referenceEndSeconds": 150.14749999999998,
+          "sourceMinusReferenceSeconds": -20.597499999999997,
+          "maxAbsoluteWaveformCorrelation": 0.06287890301206875,
+          "signedWaveformCorrelation": -0.06287890301206875
+        },
+        {
+          "sourceWindowSeconds": [
+            129.55,
+            137
+          ],
+          "referenceStartSeconds": 155.04375,
+          "referenceEndSeconds": 162.49374999999998,
+          "sourceMinusReferenceSeconds": -25.493749999999977,
+          "maxAbsoluteWaveformCorrelation": 0.07856284292913686,
+          "signedWaveformCorrelation": -0.07856284292913686
+        }
+      ]
+    },
+    {
+      "title": "Mice on Venus",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/mice-on-venus",
+      "path": "qa/artesian-music/references/mice-on-venus.mp3",
+      "sha256": "32d857aa90cc74550d46069130789146c745b3cd7846f5717457a5f150b9f9ec",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 44.352,
+          "referenceEndSeconds": 67.452,
+          "sourceMinusReferenceSeconds": 54.648,
+          "maxAbsoluteWaveformCorrelation": 0.0332685441527919,
+          "signedWaveformCorrelation": 0.0332685441527919
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 45.99225,
+          "referenceEndSeconds": 60.89225,
+          "sourceMinusReferenceSeconds": 76.10775,
+          "maxAbsoluteWaveformCorrelation": 0.04907709110103438,
+          "signedWaveformCorrelation": 0.04907709110103438
+        },
+        {
+          "sourceWindowSeconds": [
+            99,
+            111
+          ],
+          "referenceStartSeconds": 48.705,
+          "referenceEndSeconds": 60.705,
+          "sourceMinusReferenceSeconds": 50.295,
+          "maxAbsoluteWaveformCorrelation": 0.03772323447753699,
+          "signedWaveformCorrelation": 0.03772323447753699
+        },
+        {
+          "sourceWindowSeconds": [
+            111,
+            122.1
+          ],
+          "referenceStartSeconds": 56.43775,
+          "referenceEndSeconds": 67.53775,
+          "sourceMinusReferenceSeconds": 54.56225,
+          "maxAbsoluteWaveformCorrelation": 0.053486222601284515,
+          "signedWaveformCorrelation": -0.053486222601284515
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            129.55
+          ],
+          "referenceStartSeconds": 272.133875,
+          "referenceEndSeconds": 279.583875,
+          "sourceMinusReferenceSeconds": -150.033875,
+          "maxAbsoluteWaveformCorrelation": 0.06745989687581873,
+          "signedWaveformCorrelation": 0.06745989687581873
+        },
+        {
+          "sourceWindowSeconds": [
+            129.55,
+            137
+          ],
+          "referenceStartSeconds": 102.184125,
+          "referenceEndSeconds": 109.634125,
+          "sourceMinusReferenceSeconds": 27.365875000000017,
+          "maxAbsoluteWaveformCorrelation": 0.08111904959740045,
+          "signedWaveformCorrelation": 0.08111904959740045
+        }
+      ]
+    },
+    {
+      "title": "Subwoofer Lullaby",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/subwoofer-lullaby",
+      "path": "qa/artesian-music/references/subwoofer-lullaby.mp3",
+      "sha256": "f6e162def2f0557898fcf8de15bf878a0a8aaacab04696d739c6272257ad1f1b",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 23.2515,
+          "referenceEndSeconds": 46.3515,
+          "sourceMinusReferenceSeconds": 75.7485,
+          "maxAbsoluteWaveformCorrelation": 0.05047868569051055,
+          "signedWaveformCorrelation": -0.05047868569051055
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 23.08475,
+          "referenceEndSeconds": 37.98475,
+          "sourceMinusReferenceSeconds": 99.01525,
+          "maxAbsoluteWaveformCorrelation": 0.055887081308185635,
+          "signedWaveformCorrelation": 0.055887081308185635
+        },
+        {
+          "sourceWindowSeconds": [
+            99,
+            111
+          ],
+          "referenceStartSeconds": 27.53775,
+          "referenceEndSeconds": 39.53775,
+          "sourceMinusReferenceSeconds": 71.46225,
+          "maxAbsoluteWaveformCorrelation": 0.0460335568516811,
+          "signedWaveformCorrelation": 0.0460335568516811
+        },
+        {
+          "sourceWindowSeconds": [
+            111,
+            122.1
+          ],
+          "referenceStartSeconds": 35.256125,
+          "referenceEndSeconds": 46.356125,
+          "sourceMinusReferenceSeconds": 75.743875,
+          "maxAbsoluteWaveformCorrelation": 0.07993961459081116,
+          "signedWaveformCorrelation": 0.07993961459081116
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            129.55
+          ],
+          "referenceStartSeconds": 36.257375,
+          "referenceEndSeconds": 43.707375000000006,
+          "sourceMinusReferenceSeconds": 85.842625,
+          "maxAbsoluteWaveformCorrelation": 0.06234990685410274,
+          "signedWaveformCorrelation": 0.06234990685410274
+        },
+        {
+          "sourceWindowSeconds": [
+            129.55,
+            137
+          ],
+          "referenceStartSeconds": 35.2895,
+          "referenceEndSeconds": 42.7395,
+          "sourceMinusReferenceSeconds": 94.26050000000001,
+          "maxAbsoluteWaveformCorrelation": 0.10265193463845562,
+          "signedWaveformCorrelation": 0.10265193463845562
+        }
+      ]
+    },
+    {
+      "title": "Living Mice",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/living-mice",
+      "path": "qa/artesian-music/references/living-mice.mp3",
+      "sha256": "cc0e7f47f88c10db1b3220b3a8be35bb767a061ca763e1f86f361e6f9b9b86b1",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 62.890375,
+          "referenceEndSeconds": 85.990375,
+          "sourceMinusReferenceSeconds": 36.109625,
+          "maxAbsoluteWaveformCorrelation": 0.04361233426069949,
+          "signedWaveformCorrelation": -0.04361233426069949
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 144.758125,
+          "referenceEndSeconds": 159.658125,
+          "sourceMinusReferenceSeconds": -22.658125000000013,
+          "maxAbsoluteWaveformCorrelation": 0.04389467102712328,
+          "signedWaveformCorrelation": -0.04389467102712328
+        },
+        {
+          "sourceWindowSeconds": [
+            99,
+            111
+          ],
+          "referenceStartSeconds": 104.847125,
+          "referenceEndSeconds": 116.847125,
+          "sourceMinusReferenceSeconds": -5.8471250000000055,
+          "maxAbsoluteWaveformCorrelation": 0.049549170456364894,
+          "signedWaveformCorrelation": -0.049549170456364894
+        },
+        {
+          "sourceWindowSeconds": [
+            111,
+            122.1
+          ],
+          "referenceStartSeconds": 151.5165,
+          "referenceEndSeconds": 162.6165,
+          "sourceMinusReferenceSeconds": -40.51650000000001,
+          "maxAbsoluteWaveformCorrelation": 0.07295491275422843,
+          "signedWaveformCorrelation": -0.07295491275422843
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            129.55
+          ],
+          "referenceStartSeconds": 145.02325,
+          "referenceEndSeconds": 152.47324999999998,
+          "sourceMinusReferenceSeconds": -22.923249999999996,
+          "maxAbsoluteWaveformCorrelation": 0.0691745165911747,
+          "signedWaveformCorrelation": -0.0691745165911747
+        },
+        {
+          "sourceWindowSeconds": [
+            129.55,
+            137
+          ],
+          "referenceStartSeconds": 151.54675,
+          "referenceEndSeconds": 158.99675,
+          "sourceMinusReferenceSeconds": -21.99674999999999,
+          "maxAbsoluteWaveformCorrelation": 0.08008960307879216,
+          "signedWaveformCorrelation": 0.08008960307879216
+        }
+      ]
+    },
+    {
+      "title": "Haggstrom",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/haggstrom",
+      "path": "qa/artesian-music/references/haggstrom.mp3",
+      "sha256": "1d19d49263bd422338a644dd092998fb82014c2d95fccc7511631d78a3449f57",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 33.218625,
+          "referenceEndSeconds": 56.318625000000004,
+          "sourceMinusReferenceSeconds": 65.781375,
+          "maxAbsoluteWaveformCorrelation": 0.034244090085074924,
+          "signedWaveformCorrelation": -0.034244090085074924
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 29.369625,
+          "referenceEndSeconds": 44.269625,
+          "sourceMinusReferenceSeconds": 92.730375,
+          "maxAbsoluteWaveformCorrelation": 0.033335205027267514,
+          "signedWaveformCorrelation": 0.033335205027267514
+        },
+        {
+          "sourceWindowSeconds": [
+            99,
+            111
+          ],
+          "referenceStartSeconds": 57.048625,
+          "referenceEndSeconds": 69.048625,
+          "sourceMinusReferenceSeconds": 41.951375,
+          "maxAbsoluteWaveformCorrelation": 0.029614155122931328,
+          "signedWaveformCorrelation": 0.029614155122931328
+        },
+        {
+          "sourceWindowSeconds": [
+            111,
+            122.1
+          ],
+          "referenceStartSeconds": 45.024625,
+          "referenceEndSeconds": 56.124625,
+          "sourceMinusReferenceSeconds": 65.975375,
+          "maxAbsoluteWaveformCorrelation": 0.05579565765171271,
+          "signedWaveformCorrelation": -0.05579565765171271
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            129.55
+          ],
+          "referenceStartSeconds": 54.652625,
+          "referenceEndSeconds": 62.102625,
+          "sourceMinusReferenceSeconds": 67.447375,
+          "maxAbsoluteWaveformCorrelation": 0.042566233566347096,
+          "signedWaveformCorrelation": -0.042566233566347096
+        },
+        {
+          "sourceWindowSeconds": [
+            129.55,
+            137
+          ],
+          "referenceStartSeconds": 37.860125,
+          "referenceEndSeconds": 45.310125,
+          "sourceMinusReferenceSeconds": 91.68987500000001,
+          "maxAbsoluteWaveformCorrelation": 0.04780128044655035,
+          "signedWaveformCorrelation": -0.04780128044655035
+        }
+      ]
+    },
+    {
+      "title": "Danny",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/danny",
+      "path": "qa/artesian-music/references/danny.mp3",
+      "sha256": "3613bb1119208ceac9ca624637bae70e018530f0d428cce2f3da90a92336bae1",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 81.024125,
+          "referenceEndSeconds": 104.12412499999999,
+          "sourceMinusReferenceSeconds": 17.975875000000002,
+          "maxAbsoluteWaveformCorrelation": 0.04354044506544122,
+          "signedWaveformCorrelation": -0.04354044506544122
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 132.283125,
+          "referenceEndSeconds": 147.18312500000002,
+          "sourceMinusReferenceSeconds": -10.183125000000018,
+          "maxAbsoluteWaveformCorrelation": 0.06309972899587452,
+          "signedWaveformCorrelation": 0.06309972899587452
+        },
+        {
+          "sourceWindowSeconds": [
+            99,
+            111
+          ],
+          "referenceStartSeconds": 74.995375,
+          "referenceEndSeconds": 86.995375,
+          "sourceMinusReferenceSeconds": 24.004625000000004,
+          "maxAbsoluteWaveformCorrelation": 0.04420598498686289,
+          "signedWaveformCorrelation": 0.04420598498686289
+        },
+        {
+          "sourceWindowSeconds": [
+            111,
+            122.1
+          ],
+          "referenceStartSeconds": 139.522625,
+          "referenceEndSeconds": 150.622625,
+          "sourceMinusReferenceSeconds": -28.522625000000005,
+          "maxAbsoluteWaveformCorrelation": 0.08857880845460839,
+          "signedWaveformCorrelation": -0.08857880845460839
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            129.55
+          ],
+          "referenceStartSeconds": 77.202125,
+          "referenceEndSeconds": 84.652125,
+          "sourceMinusReferenceSeconds": 44.897875,
+          "maxAbsoluteWaveformCorrelation": 0.07008267514078081,
+          "signedWaveformCorrelation": 0.07008267514078081
+        },
+        {
+          "sourceWindowSeconds": [
+            129.55,
+            137
+          ],
+          "referenceStartSeconds": 93.248125,
+          "referenceEndSeconds": 100.698125,
+          "sourceMinusReferenceSeconds": 36.30187500000001,
+          "maxAbsoluteWaveformCorrelation": 0.10600684609098215,
+          "signedWaveformCorrelation": -0.10600684609098215
+        }
+      ]
+    },
+    {
+      "title": "Key",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/key",
+      "path": "qa/artesian-music/references/key.mp3",
+      "sha256": "636709e713729fb7beeed4009d6251995cea0b693bc5ed0c29a42170ab82102d",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 5.277625,
+          "referenceEndSeconds": 28.377625000000002,
+          "sourceMinusReferenceSeconds": 93.722375,
+          "maxAbsoluteWaveformCorrelation": 0.015607822046354684,
+          "signedWaveformCorrelation": 0.015607822046354684
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 4.26325,
+          "referenceEndSeconds": 19.16325,
+          "sourceMinusReferenceSeconds": 117.83675,
+          "maxAbsoluteWaveformCorrelation": 0.022712335408136806,
+          "signedWaveformCorrelation": -0.022712335408136806
+        },
+        {
+          "sourceWindowSeconds": [
+            99,
+            111
+          ],
+          "referenceStartSeconds": 22.821125,
+          "referenceEndSeconds": 34.821124999999995,
+          "sourceMinusReferenceSeconds": 76.178875,
+          "maxAbsoluteWaveformCorrelation": 0.023894307421614552,
+          "signedWaveformCorrelation": -0.023894307421614552
+        },
+        {
+          "sourceWindowSeconds": [
+            111,
+            122.1
+          ],
+          "referenceStartSeconds": 5.149625,
+          "referenceEndSeconds": 16.249625,
+          "sourceMinusReferenceSeconds": 105.850375,
+          "maxAbsoluteWaveformCorrelation": 0.02862244089626991,
+          "signedWaveformCorrelation": -0.02862244089626991
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            129.55
+          ],
+          "referenceStartSeconds": 30.034625,
+          "referenceEndSeconds": 37.484625,
+          "sourceMinusReferenceSeconds": 92.06537499999999,
+          "maxAbsoluteWaveformCorrelation": 0.036094414100518155,
+          "signedWaveformCorrelation": -0.036094414100518155
+        },
+        {
+          "sourceWindowSeconds": [
+            129.55,
+            137
+          ],
+          "referenceStartSeconds": 11.71325,
+          "referenceEndSeconds": 19.16325,
+          "sourceMinusReferenceSeconds": 117.83675000000001,
+          "maxAbsoluteWaveformCorrelation": 0.031839397285102336,
+          "signedWaveformCorrelation": -0.031839397285102336
+        }
+      ]
+    },
+    {
+      "title": "Oxygène",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/oxyg-ne",
+      "path": "qa/artesian-music/references/oxyg-ne.mp3",
+      "sha256": "6113d06287cd30ef350aba28a9334e8ac1303d6603a9088339292b9f58fb2faf",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 11.054625,
+          "referenceEndSeconds": 34.154625,
+          "sourceMinusReferenceSeconds": 87.945375,
+          "maxAbsoluteWaveformCorrelation": 0.019645860892498476,
+          "signedWaveformCorrelation": 0.019645860892498476
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 14.49475,
+          "referenceEndSeconds": 29.394750000000002,
+          "sourceMinusReferenceSeconds": 107.60525,
+          "maxAbsoluteWaveformCorrelation": 0.029829527557896276,
+          "signedWaveformCorrelation": 0.029829527557896276
+        },
+        {
+          "sourceWindowSeconds": [
+            99,
+            111
+          ],
+          "referenceStartSeconds": 24.76125,
+          "referenceEndSeconds": 36.761250000000004,
+          "sourceMinusReferenceSeconds": 74.23875,
+          "maxAbsoluteWaveformCorrelation": 0.018331006436732415,
+          "signedWaveformCorrelation": 0.018331006436732415
+        },
+        {
+          "sourceWindowSeconds": [
+            111,
+            122.1
+          ],
+          "referenceStartSeconds": 22.63275,
+          "referenceEndSeconds": 33.73275,
+          "sourceMinusReferenceSeconds": 88.36725,
+          "maxAbsoluteWaveformCorrelation": 0.036790118271923744,
+          "signedWaveformCorrelation": -0.036790118271923744
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            129.55
+          ],
+          "referenceStartSeconds": 20.27175,
+          "referenceEndSeconds": 27.72175,
+          "sourceMinusReferenceSeconds": 101.82825,
+          "maxAbsoluteWaveformCorrelation": 0.0348800848396355,
+          "signedWaveformCorrelation": 0.0348800848396355
+        },
+        {
+          "sourceWindowSeconds": [
+            129.55,
+            137
+          ],
+          "referenceStartSeconds": 21.85375,
+          "referenceEndSeconds": 29.30375,
+          "sourceMinusReferenceSeconds": 107.69625,
+          "maxAbsoluteWaveformCorrelation": 0.05530963250759124,
+          "signedWaveformCorrelation": 0.05530963250759124
+        }
+      ]
+    }
+  ]
+}

@@ -3,40 +3,40 @@
   "title": "Cities: Skylines | Franklin, Episode 3: Founding Franklin",
   "durationSeconds": 1559.588,
   "premise": "Donoteat argues that Franklin’s rational green-country-town plan is immediately reshaped by port commerce, property subdivision and exploitative colonial labor, with distilling embedded in that economy.",
-  "coverage": "Viewed34 original sheets/397frames plus6 supplemental sheets extra-000398 through extra-000403:40sheets/403frames. £5 appears in both827.4/827.6 supplements; frame403827.4 is selected. Original5-second/scene-score>0.30 sampling missed inserts found by QA dense inspection: singer, Dutch flag, £5 and book cover; early corn-caption onset corrected. Full speech renderer-derived from all ASR words. Sound includes QA source-audio measurements for lecture setup/slide changes; projector identification contextual inference. Empty sound means unannotated, not silent. Sparse coverage not exhaustive; history presenter-attributed.",
+  "coverage": "The classroom slide sequence leads into Franklin’s street grid, port growth, coerced labor and whiskey economy, ending with a tour of the town. Historical claims are the presenter’s account; the city and founder are fictional. Projector-like sounds accompany slide changes, though their exact mechanical source is uncertain.",
   "panels": [
     {
       "startSeconds": 0,
       "frameNumber": 3,
       "heading": "Opening identity",
       "description": "Orange FRANKLIN and white A DONOTEAT SERIES lettering over the completed colonial town.",
-      "camera": "The 0–20s samples change from black/title to several aerial town compositions; cuts and changing framing, not a single established continuous move.",
+      "camera": "The opening cuts between black, the title and several aerial views of the town.",
       "action": "Title lettering appears over city images.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 27,
       "frameNumber": 7,
       "heading": "Episode 3: Founding Franklin",
       "description": "Episode title at upper left over the wide regional game map.",
-      "camera": "Wide overhead map; subsequent samples move closer to the river settlements.",
+      "camera": "Wide overhead map; subsequent views move closer to the river settlements.",
       "action": "Map navigation begins.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 55,
       "frameNumber": 15,
       "heading": "Fight me: setup",
       "description": "Road-tool gameplay over forest and river accompanies the invitation to fight over planning politics.",
-      "camera": "Overhead gameplay reframes between 60–75s; exact path not established.",
+      "camera": "The overhead gameplay reframes around the road work.",
       "action": "Blue road previews and a red invalid placement line change.",
       "sound": [],
       "visualGag": "Setup for the Uwe Boll reversal: the confident fight invitation is about to be contradicted by the follow notification and boxing insert.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 76,
@@ -46,63 +46,63 @@
       "camera": "Static notification composited over overhead gameplay.",
       "action": "Notification appears; underlying road placement continues.",
       "sound": [],
-      "visualGag": "Evidence for the spoken Uwe Boll name-drop, connecting the fight invitation to the boxing payoff next.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "visualGag": "Uwe Boll’s name in the follow notification turns the fight invitation into a threat, followed by the boxing footage.",
+      "notes": null
     },
     {
       "startSeconds": 82.7,
       "frameNumber": 19,
       "heading": "Boxing payoff",
       "description": "Live-action boxing ring: black-clad boxer, red-clad opponent and white-shirted referee.",
-      "camera": "Hard cut from gameplay to boxing; 82.733–88.466 samples show changing positions and shot compositions.",
-      "action": "Boxers and referee change positions; no exact blow reconstructed from sparse samples.",
+      "camera": "Hard cut from gameplay to boxing footage, with changing ring positions and shot compositions.",
+      "action": "The boxers and referee change position in the ring.",
       "sound": [],
       "visualGag": "Inserted fight footage makes the Lowtax/Uwe Boll reference concrete and punctures the challenge; connected to the concession after the cut back.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 89.4,
       "frameNumber": 25,
       "heading": "I concede",
       "description": "Back to top-down game road construction beside a river.",
-      "camera": "Hard cut back at sampled 89.4s; overhead game view.",
+      "camera": "Hard cut back to the overhead game view.",
       "action": "Road preview changes angle and terrain tools follow.",
       "sound": [],
-      "visualGag": "Payoff to fight invitation/notification/boxing sequence: narrator concedes rather than challenge Boll.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "visualGag": "After the fight invitation, follow notification and boxing footage, the narrator concedes to Boll.",
+      "notes": null
     },
     {
       "startSeconds": 108,
       "frameNumber": 28,
       "heading": "Microphone thanks",
       "description": "White B SQUICKLE lettering at bottom over terrain editing.",
-      "camera": "Overhead terrain-tool view changes scale and position across 105–130s.",
+      "camera": "The overhead terrain view changes scale and position.",
       "action": "Colored circular terrain brush moves over the landscape.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 139.4,
       "frameNumber": 399,
       "heading": "Dutch conquest",
       "description": "Red-white-blue horizontal Dutch tricolor overlays game terrain.",
-      "camera": "Static flag insert; QA locates its source cut at141.4s, and registered141.7s frame is directly inspected.",
+      "camera": "Static Dutch flag over game terrain, followed by the Union flag.",
       "action": "Flag appears during the Dutch conquest summary.",
       "sound": [],
       "visualGag": null,
-      "notes": "139.4 begins the ASR phrase conquered by the Dutch, not the image cut: QA places flag appearance at141.4 and Union replacement144.633. Earlier gameplay remains in the preceding panel interval. Full speech renderer-derived; empty sound unannotated."
+      "notes": "The Dutch flag appears after the conquest phrase begins, then gives way to the Union flag."
     },
     {
       "startSeconds": 144.633,
       "frameNumber": 35,
       "heading": "British conquest follows",
       "description": "Union flag replaces the Dutch tricolor over game terrain.",
-      "camera": "Static flag insert; sampled144.633/145s evidence.",
+      "camera": "Static Union flag over terrain.",
       "action": "Flag replacement summarizes successive conquest without staged warfare.",
       "sound": [],
       "visualGag": null,
-      "notes": "144.633 is the QA-located replacement cut and actual sampled frame35 timestamp. Neither flag is a literal battle reenactment."
+      "notes": "The flag change summarizes conquest without reenacting a battle."
     },
     {
       "startSeconds": 150,
@@ -112,19 +112,19 @@
       "camera": "Static screenshot overlay; no battle action visible.",
       "action": "Inset appears, then disappears.",
       "sound": [],
-      "visualGag": "Visual aside answers the demand for conquest footage with Paradox's Europa Universalis IV rather than staging warfare in Franklin. The incongruous Texas empire is pictured; mod, version and save context remain unestablished.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "visualGag": "The demand for conquest footage gets a screenshot of Paradox’s Europa Universalis IV instead of warfare in Franklin. Its incongruous Texas empire adds to the aside.",
+      "notes": null
     },
     {
       "startSeconds": 175,
       "frameNumber": 43,
       "heading": "Urban planning is art",
       "description": "Regional game map with a two-lane-road tooltip.",
-      "camera": "Wide overhead view, then closer road layout views in adjacent samples.",
+      "camera": "The wide overhead map gives way to closer views of the road layout.",
       "action": "Road tool remains open.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 185,
@@ -134,8 +134,8 @@
       "camera": "Static centered photo insert over gameplay.",
       "action": "No visible character movement in the photograph.",
       "sound": [],
-      "visualGag": "Absurd-looking road/house conflict is a visual counterpoint to traffic-engineering reductionism; its location and backstory are not independently established here.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "visualGag": "The house stranded between road lanes counters the reduction of planning to traffic engineering. Its location and backstory are unknown.",
+      "notes": null
     },
     {
       "startSeconds": 200,
@@ -146,7 +146,7 @@
       "action": "Road construction continues.",
       "sound": [],
       "visualGag": "Connected projector/classroom gag setup: architectural expertise supposedly requires a Kodak Carousel, followed by the literal projector and faux projected slides.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 211,
@@ -156,195 +156,195 @@
       "camera": "Static product-photo insert.",
       "action": "Projector image appears; no operator is shown.",
       "sound": [],
-      "visualGag": "Literalizes the architecture-classroom joke and sets up the simulated slide deck. The sound payoff follows at approximately 226.7s after the grad-student setup line and a pause: QA-measured broadband non-speech projector-like noise.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "visualGag": "The Kodak Carousel photograph turns architectural expertise into classroom equipment. After the grad-student line and a pause, projector-like noise begins the simulated lecture.",
+      "notes": null
     },
     {
       "startSeconds": 225,
       "frameNumber": 55,
       "heading": "Urban Planning 101",
       "description": "Rounded, vignetted slide reads URBAN PLANNING 101 / from prehistory to the 17th century over a city map.",
-      "camera": "Black frame at 225, blurred slide at 228.267/230, focused slide at 235: a simulated projector focus change, not camera zoom.",
-      "action": "Slide sharpens; remains static through 260s.",
-      "sound": [{"startSeconds": 226.7, "text": "Projector-like setup noise, approximately 226.7–231s: QAEarlyFranklin measured an abrupt broadband non-speech source-audio burst after a silent interval, under black/blurred lecture slides. Mechanical projector identification is contextual inference; timing approximate."}],
+      "camera": "The slide emerges from black and blur, comes into focus, then holds.",
+      "action": "The slide sharpens and holds.",
+      "sound": [{"startSeconds": 226.7, "text": "Projector-like setup noise accompanies the slide coming into focus."}],
       "visualGag": "Audiovisual payoff to projector-photo/grad-student setup: after the pause, projector-like noise accompanies the blurred slide coming into focus, turning the game into an old-fashioned lecture. Subsequent slide advances repeat the gag.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 263,
       "frameNumber": 63,
       "heading": "Gilgamesh, via Star Trek",
       "description": "Star Trek: The Next Generation still shows Jean-Luc Picard beside the ridged-forehead Tamarian captain Dathon outdoors, rather than an archaeological city image.",
-      "camera": "Black transition at 263.4, blurred image 264.633, sharp at 265; fixed slide thereafter.",
-      "action": "Static television still; no character action established.",
-      "sound": [{"startSeconds": 263.6, "text": "Slide-advance/projector-like burst, approximately 263.6–265s, measured in source audio by QAEarlyFranklin; effect identity inferred from the repeated next-slide/black-blur-focus context."}],
-      "visualGag": "Pop-culture Gilgamesh illustration supplied by Star Trek: The Next Generation's Picard and Dathon. The Darmok association is a recognizable-reference inference, not an on-screen source credit. Also a callback to the projector setup: next-slide speech, a QA-measured non-speech burst, and a new rounded slide form the recurring audiovisual lecture joke.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "camera": "The image replaces black, appears blurred, then sharpens into a fixed slide.",
+      "action": "Picard and Dathon remain in a static television still.",
+      "sound": [{"startSeconds": 263.6, "text": "A projector-like burst accompanies the slide change and refocusing."}],
+      "visualGag": "Picard and Dathon from Star Trek: The Next Generation illustrate Gilgamesh in a likely Darmok reference. A mechanical burst and the refocusing slide repeat the classroom-projector gag.",
+      "notes": null
     },
     {
       "startSeconds": 294,
       "frameNumber": 72,
       "heading": "A plan we can look at",
       "description": "Old map labeled LE PIRÉE, with harbor outlines and street pattern.",
-      "camera": "Black/blur/focus slide transition across 294.8–300s; static map afterwards.",
+      "camera": "A black-and-blurred transition resolves into the static map.",
       "action": "Map replaces television still.",
-      "sound": [{"startSeconds": 294.5, "text": "Recurring projector-like slide-change burst, approximately 294.5–296s; QAEarlyFranklin source-audio measurement, identity contextual inference."}],
-      "visualGag": "Recurring classroom/projector callback: next-slide request is answered by a measured non-speech mechanical-like burst and black/blur/focus replacement.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "sound": [{"startSeconds": 294.5, "text": "Another projector-like burst accompanies the map slide’s arrival."}],
+      "visualGag": "The next-slide request gets another mechanical burst, followed by the map coming into focus.",
+      "notes": null
     },
     {
       "startSeconds": 323,
       "frameNumber": 80,
       "heading": "The dirtiest word: grid",
       "description": "Overhead image of regular street blocks and a green square.",
-      "camera": "Black at 323.5/325, blurred grid at 327.166, sharp at 330; slide stays fixed.",
+      "camera": "Black gives way to a blurred street-grid slide that sharpens and holds.",
       "action": "Street-grid image replaces Piraeus map.",
-      "sound": [{"startSeconds": 323.6, "text": "Recurring projector-like slide-change noise, approximately 323.6–329s; QAEarlyFranklin source-audio measurement, identity contextual inference."}],
-      "visualGag": "The dirtiest-word tease reveals an ordinary grid, not an obscenity. The reveal also repeats the audiovisual projector joke: next slide, mechanical-like non-speech noise, black/blur, focus.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "sound": [{"startSeconds": 323.6, "text": "Projector-like slide-change noise accompanies the grid reveal."}],
+      "visualGag": "The dirtiest-word tease reveals an ordinary grid. A slide request, mechanical noise and simulated refocusing repeat the projector joke.",
+      "notes": null
     },
     {
       "startSeconds": 354,
       "frameNumber": 87,
       "heading": "Etruscan visual detour",
       "description": "A game-rendered boar sculpture in a fenced, fern-filled garden surrounded by benches.",
-      "camera": "Black transition then fixed rounded slide at 360.",
+      "camera": "A black transition gives way to the fixed, rounded slide.",
       "action": "Static game asset image.",
-      "sound": [{"startSeconds": 354.5, "text": "Projector-like slide-change burst, approximately 354.5–355.7s; QAEarlyFranklin source-audio measurement, contextual identification."}, {"startSeconds": 362.6, "text": "Next projector-like slide-advance burst, approximately 362.6–362.9s, immediately before the Roman-plan panel. QAEarlyFranklin source-audio measurement; onset belongs to this interval, identity contextual inference."}],
-      "visualGag": "Unexpected boar-park illustration during the Etruscan discussion; exact reference unresolved. Recurring audiovisual projector callback advances into this image and then toward the Roman fort: measured mechanical-like noise connects to the slide replacements.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "sound": [{"startSeconds": 354.5, "text": "A projector-like burst accompanies the boar-park slide."}, {"startSeconds": 362.6, "text": "Another projector-like burst precedes the Roman fort plan."}],
+      "visualGag": "The Etruscan discussion gets an unexpected boar-park illustration whose exact reference is unclear. Mechanical bursts accompany this slide and the Roman fort plan that follows.",
+      "notes": null
     },
     {
       "startSeconds": 363,
       "frameNumber": 89,
       "heading": "Roman castrum",
       "description": "Black-and-white fort plan divided into regular blocks.",
-      "camera": "Blurred replacement at 363.9, clear by 365; static plan.",
+      "camera": "The blurred replacement sharpens into a static fort plan.",
       "action": "Diagram appears.",
       "sound": [],
-      "visualGag": "Payoff to the preceding 362.6s projector-like advance: black/blur/focus reveals the Roman fort plan. Sound onset is captioned in the preceding panel rather than moved to an invented timestamp.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "visualGag": "The Roman fort plan appears through black, blur and refocusing after the preceding projector-like sound.",
+      "notes": null
     },
     {
       "startSeconds": 373,
       "frameNumber": 93,
       "heading": "Cardo and decumanus",
       "description": "Fort diagram gains red vertical CARDO and green horizontal DECUMONUS labels.",
-      "camera": "Black/blur/focus replacement around 373.533–375, not a pan.",
+      "camera": "The slide passes through black and blur before the labelled plan comes into focus.",
       "action": "Colored axes annotate the plan.",
-      "sound": [{"startSeconds": 373.5, "text": "Projector-like slide-advance burst, approximately 373.5–374.3s; QAEarlyFranklin source-audio measurement, effect identity inferred from lecture context."}],
-      "visualGag": "Recurring audiovisual projector callback adds the street axes via next-slide speech, measured mechanical-like burst and simulated refocusing.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "sound": [{"startSeconds": 373.5, "text": "A projector-like burst accompanies the street-axis slide."}],
+      "visualGag": "The next-slide request adds the street axes with another mechanical burst and simulated refocusing.",
+      "notes": null
     },
     {
       "startSeconds": 387,
       "frameNumber": 98,
       "heading": "Forum means forum",
       "description": "Simtropolis website screenshot with the Forums section visible.",
-      "camera": "Black transition at 387.033, blurred site at 388.1, clear at 390.",
+      "camera": "The website replaces black and blur, then holds in focus.",
       "action": "Static website screenshot replaces ancient plan.",
       "sound": [],
       "visualGag": "Wordplay: Roman civic forum becomes an internet city-building forum; connected to the preceding axes and narrated intersection.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 396,
       "frameNumber": 102,
       "heading": "A distorted surviving grid",
       "description": "Aerial photograph of Florence with dense reddish rooftops and partially regular streets.",
-      "camera": "Slide changes through black and blur at 396.067/397.034, clear at 400; static image.",
+      "camera": "The aerial photograph appears through black and blur, then holds in focus.",
       "action": "Photograph appears.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 412,
       "frameNumber": 107,
       "heading": "Medieval urban problems",
       "description": "Engraved riverside view labeled LONDON.",
-      "camera": "Blurred replacement at 414.334, focused by 415; fixed slide.",
+      "camera": "The replacement sharpens into a fixed engraving.",
       "action": "Static engraving.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 427,
       "frameNumber": 112,
       "heading": "Renaissance ideal city",
       "description": "Perspective painting of an orderly plaza with central fountain and classical buildings.",
-      "camera": "Black/blur/focus change at 427.434–430; fixed painting.",
-      "action": "Static painted figures, not enacted character action.",
-      "sound": [{"startSeconds": 427.3, "text": "Projector-like slide-change burst, approximately 427.3–428.1s; QAEarlyFranklin source-audio measurement, contextual identification."}],
-      "visualGag": "Recurring projector/classroom callback: another next-slide request, mechanical-like non-speech burst and black/blur/focus reveal.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "camera": "The painting comes into focus after a black-and-blurred slide change.",
+      "action": "The painting holds.",
+      "sound": [{"startSeconds": 427.3, "text": "A projector-like burst accompanies the ideal-city slide."}],
+      "visualGag": "Another next-slide request gets a mechanical burst and the ideal-city painting coming into focus.",
+      "notes": null
     },
     {
       "startSeconds": 442,
       "frameNumber": 117,
       "heading": "Order at building scale",
       "description": "Photograph of arcaded hospital facade and square.",
-      "camera": "Black at 442.533, blurred image at 443.967, focused at 445.",
+      "camera": "The architectural photograph emerges from black and blur, then sharpens.",
       "action": "Static architectural photograph.",
-      "sound": [{"startSeconds": 442.5, "text": "Projector-like slide-change burst, approximately 442.5–443.3s; QAEarlyFranklin source-audio measurement, contextual identification."}],
-      "visualGag": "Recurring audiovisual projector callback replaces the ideal-city painting with an actual incremental intervention, using the measured advance burst and simulated focus.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "sound": [{"startSeconds": 442.5, "text": "A projector-like burst accompanies the hospital-facade slide."}],
+      "visualGag": "The projector noise and simulated refocusing replace the ideal-city painting with an example of order at building scale.",
+      "notes": null
     },
     {
       "startSeconds": 465,
       "frameNumber": 123,
       "heading": "Facade, not wholesale reconstruction",
       "description": "Photograph of a church with finished lower facade and rough upper masonry.",
-      "camera": "Replacement through black at 465.267, sharp by 470; fixed photograph.",
+      "camera": "The photograph replaces black, comes into focus and holds.",
       "action": "Static architecture image.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 487,
       "frameNumber": 128,
       "heading": "Baroque Rome",
       "description": "Two domed churches on a plaza, with pedestrians in the photograph.",
-      "camera": "Blurred slide at 487.6, focused at 490; fixed composition.",
-      "action": "Static photograph; no pedestrian movement inferred.",
-      "sound": [{"startSeconds": 487, "text": "Brief projector-like slide-change burst, approximately 487.0–487.3s; QAEarlyFranklin source-audio measurement, contextual effect identification."}],
-      "visualGag": "Recurring lecture/projector callback: measured brief advance noise precedes the blurred-to-focused Baroque image.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "camera": "The blurred Baroque slide comes into focus and holds.",
+      "action": "The pedestrians remain still in the photograph.",
+      "sound": [{"startSeconds": 487, "text": "A brief projector-like burst accompanies the Baroque slide."}],
+      "visualGag": "A brief projector-like noise precedes the Baroque image coming into focus.",
+      "notes": null
     },
     {
       "startSeconds": 504,
       "frameNumber": 133,
       "heading": "Our founder?",
       "description": "Portrait-like still of Danny DeVito as Frank Reynolds from It's Always Sunny in Philadelphia, wearing a brown vest and colonial-costume clothing.",
-      "camera": "Black at 504.5/505, image appears by 510 and remains through 515.",
+      "camera": "The portrait appears after black and holds.",
       "action": "Static character still.",
       "sound": [],
-      "visualGag": "Comic substitution for founder William Franklin: It's Always Sunny in Philadelphia's Frank Reynolds, played by Danny DeVito, supplies the sitcom portrait. A Frank/Franklin name association is interpretive; the exact episode is not established. Episode 4 widens this same image to include Charlie Day.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "visualGag": "Danny DeVito’s Frank Reynolds from It’s Always Sunny in Philadelphia stands in for William Franklin. A Frank/Franklin pun may be intended; the exact television episode is uncertain. Episode 4 widens the same image to include Charlie Day.",
+      "notes": null
     },
     {
       "startSeconds": 522,
       "frameNumber": 138,
       "heading": "Franklin by crossing out Philadelphia",
       "description": "Antique Philadelphia plan has its city name struck through in red and FRANKLIN written beside it.",
-      "camera": "Static overlay over resumed gameplay; disappears by 533.033.",
+      "camera": "The static map overlays the resumed gameplay, then clears.",
       "action": "Edited name relabels the historic plan.",
       "sound": [],
       "visualGag": "Transparent fictional renaming is the joke: Philadelphia remains legible under the red strike-through while the plan is presented as Franklin.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 535,
       "frameNumber": 141,
       "heading": "Center-square precedents",
       "description": "Modern aerial photograph of a town center square over the game.",
-      "camera": "Static aerial inset, with a second center-square composition at 545.",
+      "camera": "A static aerial inset gives way to a second view of a center square.",
       "action": "Illustrative inset changes; game continues beneath.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 550,
@@ -355,7 +355,7 @@
       "action": "Road-building previews change beneath the list.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 564,
@@ -365,85 +365,85 @@
       "camera": "Static annotated map overlay.",
       "action": "Four squares are highlighted.",
       "sound": [],
-      "visualGag": "Callback to the crossed-out Philadelphia/FRANKLIN map gag; green annotations explain the plan, not a new independently verified Franklin document.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "visualGag": "The crossed-out Philadelphia map returns as Franklin, now with green annotations marking four squares.",
+      "notes": null
     },
     {
       "startSeconds": 575,
       "frameNumber": 151,
       "heading": "Greene Country Towne",
       "description": "Large white GREENE COUNTRY TOWNE caption over sparse game blocks.",
-      "camera": "Overhead game view; scale changes in surrounding samples.",
+      "camera": "Overhead game view; scale changes in surrounding views.",
       "action": "Caption appears as roads are laid.",
       "sound": [],
       "visualGag": "Mock-archaic spelling packages the utopian green-town slogan; connected to the final grim welcome reversal.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 585,
       "frameNumber": 156,
       "heading": "Low-density lots and tolerance",
       "description": "Large mostly wooded rectangular blocks outlined by dirt roads.",
-      "camera": "Overhead view moves between block-scale and town-scale across 585–605s; exact continuous path not established.",
+      "camera": "Overhead views change between the individual blocks and the whole town.",
       "action": "Building placement begins within large parcels.",
       "sound": [],
       "visualGag": "Visual setup for green-town reversal: the spacious grid will later be occupied unevenly by port density.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 605,
       "frameNumber": 161,
       "heading": "The port fixes the economics",
       "description": "Timber dock buildings and road approach beside the river.",
-      "camera": "Closer overhead dock view, after wider shots at 605/610.",
+      "camera": "A closer overhead view of the dock follows the wider town views.",
       "action": "Dock/road tools and horse vehicle options are manipulated.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 634,
       "frameNumber": 166,
       "heading": "Subdividing the ideal",
       "description": "Long red-brick building and open lots near the waterfront.",
-      "camera": "Overhead game view, nearer streets across 635–650s.",
+      "camera": "The overhead view moves closer to the waterfront streets.",
       "action": "Buildings are placed and new road/lot previews appear.",
       "sound": [],
       "visualGag": "Payoff to spacious-lot setup: port development begins filling and subdividing the ideal town.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 664,
       "frameNumber": 175,
       "heading": "Rich houses, small houses, immigrants",
       "description": "Growing waterfront blocks, including large red-brick houses and small neighboring structures.",
-      "camera": "Changing overhead neighborhood views across 665–695s, not a reconstructed single camera move.",
+      "camera": "Changing overhead views show the growing waterfront neighborhood.",
       "action": "Construction placement previews continue.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 695,
       "frameNumber": 180,
       "heading": "Three passage mechanisms",
-      "description": "White PENAL TRANSPORTATION / INDENTURED SERVITUDE list over building gameplay; ATLANTIC SLAVE TRADE is added in the next interval.",
+      "description": "PENAL TRANSPORTATION and INDENTURED SERVITUDE appear over building gameplay, followed by ATLANTIC SLAVE TRADE.",
       "camera": "Overhead game plus static list.",
-      "action": "List grows from one line at 705 to two by 710; third line is visible at 715.",
+      "action": "The list builds from one line to three.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 715,
       "frameNumber": 182,
       "heading": "Indenture: setup for a modern analogy",
-      "description": "INDENTURED SERVITUDE caption over the game at 720, after the three-line passage list is complete at 715.",
+      "description": "INDENTURED SERVITUDE appears over gameplay after the three-line passage list is complete.",
       "camera": "Static heading over overhead streets.",
       "action": "Building tool remains active.",
       "sound": [],
       "visualGag": "Setup for the Musk/rocket/Mars inserts that translate the wealthy sponsor and colonial passage into a modern space-colonization analogy.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 723,
@@ -454,18 +454,18 @@
       "action": "No visible photographed movement.",
       "sound": [],
       "visualGag": "First payoff in the indenture analogy: a modern billionaire substitutes visually for the wealthy person in the contract.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 726,
       "frameNumber": 185,
       "heading": "Transportation to the colony",
       "description": "SpaceX rocket-launch photograph.",
-      "camera": "Hard replacement of Musk photo; static launch image, not footage motion established.",
+      "camera": "The Musk photograph gives way to a static rocket-launch image.",
       "action": "Rocket is visibly launching in a still photograph.",
       "sound": [],
       "visualGag": "Connected indenture/Musk/Mars gag: transportation becomes a space launch.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 727,
@@ -473,10 +473,10 @@
       "heading": "New-world destination",
       "description": "Large orange-red image of Mars over colonial-town gameplay.",
       "camera": "Static planet image replaces launch photograph.",
-      "action": "Mars image remains through 730s.",
+      "action": "The Mars image holds over the gameplay.",
       "sound": [],
       "visualGag": "Connected analogy relocates the colonial destination to Mars.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 730.3,
@@ -484,21 +484,21 @@
       "heading": "Labor on Mars",
       "description": "Illustration of an astronaut working outside a small Mars settlement.",
       "camera": "Static illustration replaces planet image.",
-      "action": "Depicted astronaut tending equipment; no animated character action established.",
+      "action": "The illustration depicts an astronaut tending equipment.",
       "sound": [],
       "visualGag": "Final payoff to the modern indenture sequence: unpaid colonial service is rendered as labor in a Mars outpost.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 732.7,
       "frameNumber": 193,
       "heading": "Fixed term, qualified consent",
       "description": "Back to developing Franklin blocks with blue building previews.",
-      "camera": "Hard return to overhead game by 732.767; neighborhood framing changes subsequently.",
+      "camera": "Hard cut back to overhead gameplay, followed by changing neighborhood views.",
       "action": "Row-house placement continues.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 756,
@@ -509,7 +509,7 @@
       "action": "Building previews fill small lots.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 780,
@@ -520,29 +520,29 @@
       "action": "Caption appears.",
       "sound": [],
       "visualGag": "Scare quotes undermine the nominal promise of education before narration describes field and mine labor.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 795,
       "frameNumber": 208,
       "heading": "Human cash on delivery",
       "description": "Waterfront town and rows of newly placed buildings.",
-      "camera": "Town-scale views at 795/800 give way to closer rows at 810/815.",
+      "camera": "Town-wide views give way to closer rows of houses.",
       "action": "Buildings are selected and moved; no literal market is represented by the game.",
       "sound": [],
       "visualGag": "Setup for the later £5 redemptioner-price caption and contrasting £200 chattel-slavery caption. This is an explanatory price comparison, not a comic claim that the labor systems are equivalent.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 822.2,
       "frameNumber": 403,
       "heading": "Redemptioner price: five pounds",
       "description": "Huge white £5 caption over rows of houses and game placement tools.",
-      "camera": "Static text overlay at directly inspected supplemental827.4s and827.6s frames.",
+      "camera": "Static £5 text over gameplay.",
       "action": "Price caption appears during the five-British-pounds explanation.",
       "sound": [],
       "visualGag": "Visual price-comparison setup for the later £200 caption: fixed-term indenture is priced differently from hereditary lifetime ownership. Explanatory contrast, not treated as an amusing auction or equivalence.",
-      "notes": "Narrative start822.2 follows QA-supplied speech cue; selected frame403827.4 directly shows overlay. Exact caption cut onset not established."
+      "notes": "The £5 caption compares fixed-term indenture with hereditary lifetime enslavement; it is not an equivalence."
     },
     {
       "startSeconds": 835,
@@ -553,7 +553,7 @@
       "action": "Heading appears and disappears as construction continues.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 874,
@@ -564,7 +564,7 @@
       "action": "Building placement/selection continues; no prisoner transport is visually enacted.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 900,
@@ -575,7 +575,7 @@
       "action": "Label appears in quotation marks.",
       "sound": [],
       "visualGag": "Setup for the later InfoWars quarantine: the captions display terms the narrator explicitly rejects, not endorsements of those labels.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 902,
@@ -586,7 +586,7 @@
       "action": "Label appears then vanishes.",
       "sound": [],
       "visualGag": "Connected rejected-label/InfoWars sequence: the misleading term is introduced for rebuttal and later visually quarantined.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 949,
@@ -597,7 +597,7 @@
       "action": "Heading appears.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 959,
@@ -605,21 +605,21 @@
       "heading": "Roman comparison insert",
       "description": "Recognizable Ben-Hur Roman-galley still shows a helmeted officer in a red cloak among crowded rowing benches.",
       "camera": "Static cinematic inset over game.",
-      "action": "Depicted seated rowers and standing officer; motion not established from the still.",
+      "action": "The still shows seated rowers and a standing officer.",
       "sound": [],
-      "visualGag": "Visual companion to the hyperbolic lifetime-spa comparison; literal galley image does not validate the historical comparison. Incidental absurd game headline above it reads Rap Music Causes Hangnails, Study Shows; authorship or deliberate synchronization is not established.",
-      "notes": "Native reread at 960s resolves the Ben-Hur galley and news ticker. Film attribution is visual recognition, not a production credit or license claim; no release year is inferred. Panel boundary is a narrative grouping, not exact cut claim. Full speech is renderer-derived ASR; sound unannotated."
+      "visualGag": "The Ben-Hur galley illustrates the narrator’s hyperbolic lifetime-spa comparison. Above it, the game ticker reads “Rap Music Causes Hangnails, Study Shows”; whether the timing is deliberate is unclear.",
+      "notes": "Ben-Hur supplies the galley image."
     },
     {
       "startSeconds": 965,
       "frameNumber": 251,
       "heading": "The slave ship",
       "description": "Historical diagram packs human figures into two ship-deck plans.",
-      "camera": "Static centered diagram, shown at 971.934/975 and removed by 978.033.",
+      "camera": "The static ship diagram overlays gameplay, then clears.",
       "action": "No character animation; figures are diagrammatic.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 980,
@@ -630,18 +630,18 @@
       "action": "Price appears then disappears.",
       "sound": [],
       "visualGag": "Payoff to the earlier £5 redemptioner-price visual: £200 reinforces the narrated contrast with permanent, hereditary ownership. This is a grave explanatory comparison, not an equivalence or joke about enslavement.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1005,
       "frameNumber": 262,
       "heading": "Permanent legal dispossession",
       "description": "White list: PROPERTY FOR LIFE / NO LEGAL RIGHTS / NO MEANS OF LEGAL RECOURSE / NEARLY LIVESTOCK.",
-      "camera": "Static accumulating text over game; complete list visible at 1020.",
-      "action": "List grows across 1010–1020s.",
+      "camera": "The list builds over gameplay until all four lines are visible.",
+      "action": "The list accumulates over the city.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1025,
@@ -652,139 +652,139 @@
       "action": "Construction continues; no escape sequence is depicted.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1042,
       "frameNumber": 273,
       "heading": "The modern misuse of history",
       "description": "Wider riverfront grid and buildings as the narrator discusses modern slavery apologetics.",
-      "camera": "Wide overhead view at 1060, then nearer blocks.",
+      "camera": "The wide riverfront view gives way to nearer blocks.",
       "action": "Buildings are added and selected.",
       "sound": [],
-      "visualGag": "Setup for the immediate InfoWars visual quarantine payoff; commentary is the presenters argument, not independently verified motives of unnamed speakers.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "visualGag": "The presenter’s attack on modern slavery apologetics sets up the InfoWars quarantine gag.",
+      "notes": null
     },
     {
       "startSeconds": 1072,
       "frameNumber": 275,
       "heading": "Quarantine at InfoWars",
       "description": "Large black-and-white INFOWARS.COM logo with “WHITE SLAVERY” text across it.",
-      "camera": "Static logo over wide town view; cut back by 1078.5.",
+      "camera": "The logo overlays the wide town view before gameplay resumes.",
       "action": "Logo/text overlay appears.",
       "sound": [],
       "visualGag": "Payoff to the rejected Irish/white-slavery labels: the phrase is visibly sent to InfoWars rather than retained as an explanatory category.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1078,
       "frameNumber": 281,
       "heading": "Cheap and exploitable labor",
       "description": "Increasingly dense town blocks and remaining large empty squares.",
-      "camera": "Overhead town view alternates scale in adjacent samples.",
+      "camera": "Overhead town view alternates scale in successive views.",
       "action": "Construction fills houses and service buildings.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1103,
       "frameNumber": 286,
       "heading": "No wages needed",
       "description": "Town-wide and street-level overhead views show dense waterfront housing beside open interior plots.",
-      "camera": "Wide at 1105, closer at 1115/1122.967, wider again at 1125.",
+      "camera": "The overhead view alternates between the whole town and closer housing rows.",
       "action": "Town decoration and placement continue.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1132,
       "frameNumber": 297,
       "heading": "Masters and colonial industry",
       "description": "Densely built dirt-street blocks with a terrain/detail brush.",
-      "camera": "Rapid changing overhead neighborhood compositions across 1140–1165; exact path not reconstructed.",
+      "camera": "The overhead view shifts rapidly among neighborhood compositions.",
       "action": "Surface/detail brush moves along streets and buildings.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1175,
       "frameNumber": 309,
       "heading": "Distilling and the western farms",
       "description": "Church with a cemetery filled by repeated gravestone props.",
-      "camera": "Overhead game, close cemetery view around 1182.833–1185.",
-      "action": "Cemetery props are placed and selected; this is not a literal depiction of corn cultivation.",
+      "camera": "The overhead view closes in on the cemetery.",
+      "action": "Gravestone props are placed and selected.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1192,
       "frameNumber": 312,
       "heading": "Rain, corn, whiskey",
       "description": "Overhead neighborhood view with row houses, dirt streets and placement tools during the corn/whiskey lyric.",
-      "camera": "Overhead gameplay; the representative frame is1195s, before the brief singer-photo cut.",
-      "action": "Detail placement continues; the singer photograph appears in the next panel rather than being absent from the whole lyric sequence.",
+      "camera": "Overhead gameplay before the singer photograph.",
+      "action": "Detail placement continues; the singer photograph appears in the next panel briefly.",
       "sound": [],
-      "visualGag": "Setup for the country-singer insert: rain/corn/whiskey narration quotes a song lyric, with the photo payoff falling on frisky at approximately1197.3–1198.2s. Luke Bryan/Rain Is a Good Thing attribution is contextual inference.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "visualGag": "The rain/corn/whiskey lyric sets up a singer photograph on “frisky”. The possible Luke Bryan reference remains uncertain.",
+      "notes": null
     },
     {
       "startSeconds": 1196.73,
       "frameNumber": 398,
       "heading": "Frisky: brief singer-photo payoff",
       "description": "Smiling man in dark cap and plaid shirt, in-ear monitor and hand on a microphone/stand, under purple stage lighting; photograph overlays Front Street gameplay and barrel props.",
-      "camera": "Static photograph insert. QA10fps source inspection gives approximate visible interval1197.27–1198.23; native1197.7 and registered supplemental frame398 directly show it.",
-      "action": "Photo appears briefly and disappears; the photographed singer is not animated by the game.",
+      "camera": "A brief static singer photograph overlays gameplay.",
+      "action": "The photograph appears briefly, then clears.",
       "sound": [],
-      "visualGag": "Payoff to rain/corn/whiskey lyric setup: singer photograph lands at the end of frisky. Luke Bryan identity inferred from appearance and matching Rain Is a Good Thing chorus; lyric reference:https://genius.com/Luke-bryan-rain-is-a-good-thing-lyrics. No separate song recording is claimed.",
-      "notes": "Start1196.73 is ASR onset of frisky, not image-cut onset; ASR word ends1197.27, QA image begins around1197.27. Speech grouping preserves punchline with actual singer frame1197.7 inside panel. Frame398 registered in extra-000398.jpg."
+      "visualGag": "The singer photograph lands on “frisky” in the rain/corn/whiskey lyric. The man may be Luke Bryan, and the lyric matches “Rain Is a Good Thing.”",
+      "notes": "The singer’s identity is uncertain; the lyric matches “Rain Is a Good Thing.”"
     },
     {
       "startSeconds": 1198.23,
       "frameNumber": 314,
       "heading": "Back to whiskey transport economics",
       "description": "Overhead wooden docks and barrels beside the waterfront after the brief singer photograph disappears.",
-      "camera": "Return to overhead game; representative frame1205s. Approximate return boundary1198.23 supplied by QA dense source inspection.",
+      "camera": "Return to overhead waterfront gameplay.",
       "action": "Detail placement continues beneath the corn/whiskey transport explanation.",
       "sound": [],
-      "visualGag": "Exit from singer-photo lyric payoff: pop-culture detour ends and narration returns to colonial transport costs. Connected to the preceding lyric setup and brief insert.",
-      "notes": "Boundary approximate; full ASR words remain renderer-derived. No distillery process visually enacted."
+      "visualGag": "The singer photograph clears, ending the pop-culture detour as the narration returns to colonial transport costs.",
+      "notes": "The narration returns to transport costs."
     },
     {
       "startSeconds": 1220,
       "frameNumber": 322,
       "heading": "Turning bulky grain into value",
       "description": "House and surrounding row houses, open yard, trees and dirt streets during the grain-to-whiskey explanation.",
-      "camera": "Overhead game; representative1230s frame precedes the cited-book insert.",
+      "camera": "Overhead neighborhood gameplay before the book cover.",
       "action": "Ground/prop details are edited.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1233.7,
       "frameNumber": 401,
       "heading": "The Alcoholic Republic: source shown",
       "description": "Red book cover reads THE ALCOHOLIC REPUBLIC / AN AMERICAN TRADITION / W. J. RORABAUGH over neighborhood gameplay.",
-      "camera": "Static book-cover overlay; directly viewed1236.5s supplemental frame.",
+      "camera": "Static book cover over gameplay.",
       "action": "Book cover appears as the presenter cites it, then is gone by the early bushel caption.",
       "sound": [],
       "visualGag": null,
-      "notes": "Cover resolves ASR Rohrbach as W.J.Rorabaugh. This verifies what source is cited, not the economic claim independently. Start1233.7 uses QA speech grouping, not an exact image-cut claim."
+      "notes": "The cited author is W. J. Rorabaugh."
     },
     {
       "startSeconds": 1241.27,
       "frameNumber": 402,
       "heading": "A bushel becomes whiskey",
-      "description": "First caption line reads1 BUSHEL (~9 GALLONS) CORN @25 CENTS over churchyard gameplay; =2.5 GALLONS WHISKEY WORTH $1.25 is added by1250.",
-      "camera": "Static calculation overlay; first line directly observed1241.3s, both lines in original1250s frame326.",
+      "description": "The churchyard calculation begins with 1 BUSHEL (~9 GALLONS) CORN @25 CENTS, then adds =2.5 GALLONS WHISKEY WORTH $1.25.",
+      "camera": "Static calculation grows from one line into two.",
       "action": "Calculation text accumulates.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1265,
@@ -795,7 +795,7 @@
       "action": "First numbered reason appears.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1274,
@@ -806,18 +806,18 @@
       "action": "Second reason replaces first; fields are added.",
       "sound": [],
       "visualGag": "Deadpan second-item payoff to the sober economic first reason: the reason list ends in habitual drunkenness.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1305,
       "frameNumber": 341,
       "heading": "Liquor wages and the green-town callback",
       "description": "Open farm blocks and small houses beside dense rows.",
-      "camera": "Overhead game views change field scale; exact camera motion not established.",
+      "camera": "Overhead views change scale around the farm blocks.",
       "action": "Field colors/surfaces are painted.",
       "sound": [],
       "visualGag": "Setup and beginning of the final welcome reversal: productive open land coexists with the inequality described in the ironic green-town welcome.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1330,
@@ -827,118 +827,118 @@
       "camera": "Overhead farm-block view.",
       "action": "White fences are laid along parcel boundaries.",
       "sound": [],
-      "visualGag": "Payoff to GREENE COUNTRY TOWNE slogan: the narrator welcomes viewers with slavery, sewers, drunkenness, disease and crime rather than the founders promised improvement.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "visualGag": "The GREENE COUNTRY TOWNE promise ends in an ironic welcome to slavery, sewers, drunkenness, disease and crime.",
+      "notes": null
     },
     {
       "startSeconds": 1361,
       "frameNumber": 353,
       "heading": "Worse before better",
       "description": "Close view of small rural building, brown yard and road, with fence selection panel.",
-      "camera": "Closer overhead gameplay following fence placement at 1365.",
+      "camera": "A closer overhead view follows the fence placement.",
       "action": "Final yard/fence detailing.",
       "sound": [],
       "visualGag": "Ends the green-town reversal with the explicit next-episode promise that conditions worsen.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1376,
       "frameNumber": 357,
       "heading": "Finished town: church and cemetery",
       "description": "UI-free view of white clock-tower church, rows of red-brick houses, cemetery and horses.",
-      "camera": "Hard cut from black at 1375 to cinematic church view at 1376.667; 1380–1395 progressively pull back and reframe to include more cemetery.",
-      "action": "Horses and tiny pedestrians visible; exact individual trajectories not reconstructed.",
+      "camera": "Black gives way to a cinematic church view that pulls back to include more of the cemetery.",
+      "action": "Horses and tiny pedestrians are visible around the church and houses.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1397,
       "frameNumber": 365,
       "heading": "Dirt streets and row houses",
       "description": "UI-free low oblique view along brick row houses, muddy street puddles and horses.",
-      "camera": "Hard change at 1397.63; 1400–1440 traverse along the street-facing facades, an observed lateral fly-through at sample resolution.",
-      "action": "Horse/pedestrian positions differ between samples; no invented character story.",
+      "camera": "A cut introduces a lateral fly-through along the street-facing facades.",
+      "action": "Horse and pedestrian positions change along the muddy street.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1443,
       "frameNumber": 376,
       "heading": "The port draws the town",
       "description": "Wide low aerial view across town toward river, then down a broad dirt street toward waterfront warehouses.",
-      "camera": "New view at 1443.333; 1445–1475 shift across town and toward the waterfront. Sparse samples support a flyover, not precise velocity or a continuous single shot.",
+      "camera": "A new view shifts across the town toward the waterfront.",
       "action": "Town showcased without game UI.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1478,
       "frameNumber": 379,
       "heading": "Harbor and warehouses",
       "description": "Overhead oblique view of warehouses and projecting wooden piers.",
-      "camera": "Cut to waterfront at 1478.533/1480; different roof-level angle follows at 1481.6.",
+      "camera": "Cut to the waterfront, followed by a different roof-level angle.",
       "action": "Waterfront shown without UI.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1481,
       "frameNumber": 383,
       "heading": "Rooftops, churchyards, and river",
       "description": "High oblique view over roofs, cemetery blocks, warehouses and docks.",
-      "camera": "1485–1510 sampled compositions change elevation/angle across town and port; edits cannot be ruled out between samples.",
+      "camera": "Changing elevated views show the town and port from several angles.",
       "action": "Scenic town montage continues.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1511,
       "frameNumber": 388,
       "heading": "Last close city pass",
       "description": "Low oblique churchyard and nearby white/brick buildings.",
-      "camera": "New close rooftop view at 1511.8; church and cemetery by 1515.",
-      "action": "Town showcase; no particular character action established.",
+      "camera": "A close rooftop view gives way to the church and cemetery.",
+      "action": "The town showcase continues.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1516,
       "frameNumber": 390,
       "heading": "Finished density, unbuilt hinterland",
       "description": "Aerial view of dense waterfront row houses, followed by increasingly wide regional views.",
-      "camera": "New aerial at 1516.734/1520; 1525–1535 pull rapidly outward to the whole grid and then region, darkening.",
+      "camera": "The aerial view pulls outward from the town to the whole grid and region, then darkens.",
       "action": "City recedes into the regional map.",
       "sound": [],
       "visualGag": "Visual callback to the green-town reversal: dense waterfront remains a small edge of an enormous mostly empty planned grid.",
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1543,
       "frameNumber": 395,
       "heading": "Donoteat closing mark",
       "description": "Circular coin-like logo with diagonal stripe and DNE lettering on black.",
-      "camera": "Static centered logo at 1545/1550 after black at 1540.",
-      "action": "Logo appears; no credits list observed.",
+      "camera": "The centered DNE logo follows the black transition.",
+      "action": "The logo appears on black.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     },
     {
       "startSeconds": 1553,
       "frameNumber": 397,
       "heading": "End on black",
-      "description": "Black frame at 1555; source ends at 1559.588.",
+      "description": "The screen stays black through the ending.",
       "camera": "Black hold; no camera motion.",
       "action": "No visible action.",
       "sound": [],
       "visualGag": null,
-      "notes": "Panel boundary is a narrative grouping, not an exact cut claim. Speech is full machine ASR supplied by the renderer; empty sound means unannotated, not silent."
+      "notes": null
     }
   ]
 }

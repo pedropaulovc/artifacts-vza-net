@@ -2,15 +2,15 @@
   "id": "0tLxb5rtmyM",
   "title": "Cities: Skylines | Franklin, Episode 8: TRAINS!",
   "durationSeconds": 1648.728,
-  "premise": "Donoteat uses Franklin's new railroads to argue that transformative speed coexisted with unsafe operations, land speculation, charter loopholes, fragmented private networks and dangerous labor; historical claims remain attributed to the presenter.",
-  "coverage": "Entire supplied ASR read; all 35 original contact sheets and 416 original indexed frames inspected, plus all 3 newly registered supplemental sheets/frames (417–419), totaling 38 sheets and 419 registered frames. Seven native stills inspected at 360, 370.9, 372.5, 558.8, 977.8, 1008.4 and 1360.6 seconds. Original sampling: first frame per 5-second bin plus FFmpeg scene score >0.30 at 480px detection width. Supplementary QA recovered the Whyte/white title-disclaimer gag and B&O emblem between original samples; both were directly reread and added through the authorized helper. Full speech is source-derived by the shared renderer from every timestamped transcript word, assigned by panel-start boundaries; no authored dialogue excerpts or end times remain. Machine speech/timing errors remain possible. Sparse samples may miss brief gags; camera movement is described only where adjacent inspected frames support it. Sound annotations identify metadata-specified music with approximate sequence placement; empty sound arrays mean unannotated, not silence. No direct audio-effect listening or independent historical fact check is claimed. Evidence links are in story-sheets/0tLxb5rtmyM.md.",
+  "premise": "Donoteat uses Franklin's new railroads to argue that transformative speed coexisted with unsafe operations, land speculation, charter loopholes, fragmented private networks and dangerous labor; the historical claims are the presenter's.",
+  "coverage": "Franklin's railroads introduce steam engines, wheel classification, unsafe travel, charter loopholes, incompatible gauges, and dangerous construction labor. Historical claims are the presenter's account; fictional railway spellings remain uncertain.",
   "panels": [
     {
       "startSeconds": 0,
       "frameNumber": 7,
       "heading": "Primal craving",
       "description": "A single DNE token sits in a black field while the narrator builds suspense.",
-      "camera": "Static central logo across frames 2–8; no camera movement established.",
+      "camera": "Static central logo.",
       "action": "No visible character action.",
       "visualGag": "Spoken addiction setup; the visual payoff is the next panel.",
       "notes": null,
@@ -24,7 +24,7 @@
       "camera": "Hard cut from logo to static card.",
       "action": "Static photograph.",
       "visualGag": "The dramatic craving monologue resolves into this oversized rail-enthusiast punchline.",
-      "notes": "The TRAINS card is observed at indexed 39.1 seconds; this panel boundary groups the approaching spoken reveal, not a claim of exact cut onset.",
+      "notes": "The huge TRAINS card follows the spoken craving monologue.",
       "sound": []
     },
     {
@@ -32,14 +32,14 @@
       "frameNumber": 14,
       "heading": "Franklin titles",
       "description": "Orange Franklin and Liberty Bell branding overlays the city; white A DONOTEAT SERIES appears beneath.",
-      "camera": "Changing aerial framing in frames 12–15, then black and cut to gameplay.",
+      "camera": "Changing aerial views, then black and a cut to gameplay.",
       "action": "Title graphics overlay city views.",
-      "visualGag": "The late-series joke is spoken, not a distinct visual gag.",
+      "visualGag": "The late-series joke is spoken rather than shown.",
       "notes": null,
       "sound": [
         {
           "startSeconds": 41,
-          "text": "Title music: Beethoven Symphony no. 5 finale (IV. Allegro), identified by source metadata. Approximate placement at title sequence; onset not independently listened or frame-aligned."
+          "text": "Title music: Beethoven Symphony No. 5, IV. Allegro, as credited for the title sequence."
         }
       ]
     },
@@ -48,10 +48,10 @@
       "frameNumber": 29,
       "heading": "Waterfront to railroad",
       "description": "Parallel sidings and platforms sit near streets and undeveloped gridded land.",
-      "camera": "Top-down gameplay reframes and changes scale across frames 19–33; continuous pan path not established.",
+      "camera": "Overhead gameplay changes framing and distance across the railway site.",
       "action": "Track/platform selections and placement previews change.",
       "visualGag": null,
-      "notes": "Good Hill Water Works episode-6 connection is narrated; not independently identified from this panel.",
+      "notes": "The presenter connects the waterfront to episode 6's Good Hill Water Works.",
       "sound": []
     },
     {
@@ -60,9 +60,9 @@
       "heading": "Two lines, not three",
       "description": "A fan of sidings spreads from the railway junction.",
       "camera": "Closer overhead framing than earlier town-wide shots.",
-      "action": "Track selections and rolling-stock props change across frames 34–39.",
+      "action": "The player selects track and rolling-stock props around the junction.",
       "visualGag": null,
-      "notes": "Fictional railway names are uncertain ASR spellings.",
+      "notes": null,
       "sound": []
     },
     {
@@ -70,19 +70,19 @@
       "frameNumber": 40,
       "heading": "Steam origins introduction",
       "description": "The railway-build gameplay continues; STEAM ENGINES appears over the sidings before the ancient-machine engraving is inserted.",
-      "camera": "Overhead gameplay reframes across sidings and buildings; the section title is an overlay, not an aeolipile image.",
+      "camera": "Overhead gameplay reframes the sidings and buildings beneath the section title.",
       "action": "Rolling-stock props and selections change in the rail yard.",
       "sound": [],
       "visualGag": null,
-      "notes": "Separates the spoken introduction from the later aeolipile visual, which first appears in the scene-change sample at 197.1."
+      "notes": null
     },
     {
       "startSeconds": 197.1,
       "frameNumber": 44,
       "heading": "Ancient steam novelty",
       "description": "An aeolipile engraving is overlaid on the build footage.",
-      "camera": "Static engraving; underlying gameplay changes framing in frames 44–46.",
-      "action": "No motion within the engraving is established.",
+      "camera": "Static engraving over changing gameplay.",
+      "action": "Static aeolipile engraving.",
       "visualGag": null,
       "notes": null,
       "sound": []
@@ -92,10 +92,10 @@
       "frameNumber": 50,
       "heading": "Newcomen mine pump",
       "description": "A cutaway engraving shows a beam pump, cylinder and boiler structure.",
-      "camera": "Static insert over changing gameplay; hard cut back by frame 52.",
+      "camera": "Static pump illustration over gameplay, then a cut back to the build.",
       "action": "Static illustration.",
       "visualGag": null,
-      "notes": "Historical account attributed to presenter; full speech is derived from transcript words by the shared renderer.",
+      "notes": "The historical account is the presenter's.",
       "sound": []
     },
     {
@@ -103,7 +103,7 @@
       "frameNumber": 55,
       "heading": "Trevithick locomotive",
       "description": "A monochrome drawing shows a high-pressure locomotive with a large flywheel.",
-      "camera": "Static insert; cut back to gameplay at frame 57.",
+      "camera": "Static locomotive illustration, then gameplay.",
       "action": "Static illustration.",
       "visualGag": null,
       "notes": null,
@@ -114,9 +114,9 @@
       "frameNumber": 62,
       "heading": "Steam lesson begins",
       "description": "A deliberately rough brown locomotive sits under a turquoise sky and a smiling sun in sunglasses; a cutaway exposes the firebox.",
-      "camera": "Static side-on diagram; graphic details are added between frames 59–64, not a camera zoom.",
+      "camera": "Static side-on diagram gains graphic details.",
       "action": "FIREBOX label and flames appear.",
-      "visualGag": "The smiling sunglass sun is a recurring whimsical motif; the literal firebox definition is spoken.",
+      "visualGag": "The smiling sunglasses sun adds a cheerful, childish touch to the steam lesson.",
       "notes": null,
       "sound": []
     },
@@ -128,7 +128,7 @@
       "camera": "Hard cut to static photograph, then back to diagram.",
       "action": "No visible character action.",
       "visualGag": null,
-      "notes": "Fire-tube explanation leads directly into this photographic cut; full speech is assigned by chronological panel boundaries.",
+      "notes": null,
       "sound": []
     },
     {
@@ -136,10 +136,10 @@
       "frameNumber": 68,
       "heading": "Pressure building",
       "description": "BOILER and FIREBOX arrows point to a cutaway drawn locomotive with horizontal tubes.",
-      "camera": "Static side-on diagram across frames 67–71.",
+      "camera": "Static side-on diagram.",
       "action": "No visible character action.",
-      "visualGag": "Smiling sunglass sun continues the same whimsical technical-drawing motif; this is not a separate moving-sun gag.",
-      "notes": "Smiling sun continues the motif already introduced.",
+      "visualGag": "The smiling sunglasses sun remains through the boiler lesson.",
+      "notes": null,
       "sound": []
     },
     {
@@ -148,9 +148,9 @@
       "heading": "Piston stroke",
       "description": "A cylinder close-up shows a labeled PISTON, pipes and hand-drawn arrows.",
       "camera": "Cut from whole-engine view to fixed diagram close-up.",
-      "action": "Piston changes position and arrows change direction across frames 73–76.",
+      "action": "The piston changes position as arrows reverse direction.",
       "visualGag": "Smiling sunglass sun persists through the piston lesson, continuing the earlier playful drawing motif.",
-      "notes": "Diagram animation inferred only between observed sampled positions; exact intermediate motion not reconstructed.",
+      "notes": "The exact intermediate piston motion is unclear.",
       "sound": []
     },
     {
@@ -170,7 +170,7 @@
       "heading": "Alternating pressure",
       "description": "The same cylinder returns with changed piston position and opposing arrows.",
       "camera": "Fixed diagram framing, changing graphic states.",
-      "action": "Piston reciprocation illustrated across frames 79–84.",
+      "action": "The piston moves between alternate positions.",
       "visualGag": "Smiling sunglass sun remains during changing piston/steam-arrow states, continuing the earlier drawing motif.",
       "notes": null,
       "sound": []
@@ -180,10 +180,10 @@
       "frameNumber": 87,
       "heading": "Wheels and rods",
       "description": "Whole-engine drawing labels SIDE RODS and then TRAILING WHEELS; the sunglass sun remains.",
-      "camera": "Cut back to static whole-engine diagram; label changes across frames 85–87.",
+      "camera": "Cut back to the whole-engine diagram as labels change.",
       "action": "No visible character action.",
-      "visualGag": "Smiling sunglass sun continues the intentionally playful technical-drawing motif introduced in Steam lesson begins; no new sun action is observed.",
-      "notes": "Native still at 360 confirms rear-wheel label; diagram not treated as precise engineering scale.",
+      "visualGag": "The smiling sunglasses sun remains through the wheel-and-rod lesson.",
+      "notes": "The rough diagram is not a scale engineering drawing.",
       "sound": []
     },
     {
@@ -191,38 +191,38 @@
       "frameNumber": 89,
       "heading": "Classification prelude",
       "description": "Overhead gameplay shows track sidings beside industrial buildings before the wheel-classification title appears.",
-      "camera": "Cut from the whole-engine drawing back to overhead gameplay; framing changes across sampled frames 88–90.",
-      "action": "Railway selection and placement interface remains visible; no character animation is established.",
+      "camera": "Cut from the diagram back to changing overhead views of the railway.",
+      "action": "The railway selection and placement interface stays visible.",
       "sound": [
         {
           "startSeconds": 369.18,
-          "text": "Whyte-classification music: Brahms Tragic Overture, identified by source metadata. Approximate sequence placement; no precise audio onset established."
+          "text": "Whyte-classification music: Brahms's Tragic Overture, as credited for this sequence."
         }
       ],
-      "visualGag": "Prelude to the connected Whyte/white homophone gag: the coming THE WHYTE SYSTEM title is followed by a disclaimer about racism. This gameplay image itself is not the payoff.",
-      "notes": "The title/disclaimer lies between original indexed samples and was recovered through supplementary QA and native source rereads."
+      "visualGag": "The coming THE WHYTE SYSTEM title sets up a white/Whyte homophone joke with a disclaimer about racism.",
+      "notes": null
     },
     {
       "startSeconds": 369.4,
       "frameNumber": 417,
       "heading": "Whyte system / white-system setup",
-      "description": "Large white THE WHYTE SYSTEM lettering overlays the overhead siding build; no disclaimer is yet present in this selected frame.",
-      "camera": "Text overlay on overhead gameplay. Native still at 370.9 is closer to the sidings than the later 372.5 view; exact continuous zoom path is not reconstructed.",
+      "description": "Large white THE WHYTE SYSTEM lettering overlays the overhead siding build, still without its disclaimer.",
+      "camera": "The title overlays overhead gameplay as the siding view widens.",
       "action": "Track-selection circles and gameplay interface remain visible while the title stays centered.",
       "sound": [],
-      "visualGag": "Setup for the next disclaimer payoff: the classification name Whyte sounds like white, creating a possible racial reading. This title-only state is followed by NOT A RACIST THING, JUST THE GUY'S NAME.",
-      "notes": "Actual registered source frame 417 at 370.9; native reread directly inspected. The panel boundary groups the narrated classification introduction, not a verified exact title onset."
+      "visualGag": "Setup for the disclaimer payoff: Whyte sounds like white, inviting a racial reading before NOT A RACIST THING, JUST THE GUY'S NAME appears.",
+      "notes": null
     },
     {
       "startSeconds": 371.75,
       "frameNumber": 418,
       "heading": "Whyte disclaimer payoff",
       "description": "THE WHYTE SYSTEM now has a second line: (NOT A RACIST THING, JUST THE GUY'S NAME), over the same railway-build gameplay.",
-      "camera": "Centered title and new subtitle over a wider overhead gameplay framing than the 370.9 setup still. No separate character-camera shot.",
-      "action": "The added subtitle is the observed graphic change between native rereads; gameplay selection interface remains visible.",
+      "camera": "Centered title and new subtitle over a wider overhead siding view.",
+      "action": "A subtitle appears beneath the title while the track-selection interface remains visible.",
       "sound": [],
       "visualGag": "Payoff to the preceding Whyte/white homophone setup: an unsolicited anti-racist disclaimer clarifies that the name refers to a person. The next Thomas panel returns to the straight classification lesson.",
-      "notes": "Actual registered source frame 418 at 372.5; native reread confirms exact wording. Supplementary QA located the subtitle near 371.75; direct inspection establishes its presence at 372.5, not frame-exact onset. The original 5-second samples missed this overlay."
+      "notes": null
     },
     {
       "startSeconds": 375.3,
@@ -231,7 +231,7 @@
       "description": "Thomas the Tank Engine from Thomas & Friends, blue with his smiling face and three pairs of driving wheels appears over gameplay.",
       "camera": "Static character photograph over changing overhead build views.",
       "action": "No character movement in the insert.",
-      "visualGag": "After the Whyte/white disclaimer payoff, the lesson returns to children's characters as engineering specimens. Thomas sets up the later Henry tunnel interruption; the disclaimer itself is no longer present.",
+      "visualGag": "After the Whyte/white disclaimer, Thomas becomes an engineering specimen and sets up Henry's tunnel interruption.",
       "notes": null,
       "sound": []
     },
@@ -239,7 +239,7 @@
       "startSeconds": 384.4,
       "frameNumber": 98,
       "heading": "Henry setup",
-      "description": "A photograph of Henry, the green engine from Thomas & Friends, appears; 4-6-0 text is visible by frame 98.",
+      "description": "Henry, the green engine from Thomas & Friends, appears with 4-6-0 classification text.",
       "camera": "Static insert over gameplay; text added.",
       "action": "Static character image.",
       "visualGag": "Worried Henry is the setup for the literal tunnel imprisonment in the next panel.",
@@ -251,11 +251,16 @@
       "frameNumber": 100,
       "heading": "Henry payoff",
       "description": "Henry from Thomas & Friends peers out above a brick wall built across a tunnel mouth.",
-      "camera": "Hard cut to a static tunnel image, held across frames 99–100.",
+      "camera": "Hard cut to the static tunnel photograph.",
       "action": "Henry is visibly blocked; no live bricklaying action.",
       "visualGag": "The engineering lesson is derailed by the character's imprisonment: wheel arrangement becomes irrelevant.",
       "notes": null,
-      "sound": []
+      "sound": [
+        {
+          "startSeconds": 395.21,
+          "text": "Sad trombone (wah-wah) punctuates “Although he's stuck in a tunnel, so it doesn't matter.” Henry from Thomas & Friends is bricked into the tunnel, making his wheel classification comically beside the point."
+        }
+      ]
     },
     {
       "startSeconds": 402.5,
@@ -264,7 +269,7 @@
       "description": "Gordon, the smiling blue engine from Thomas & Friends, and his tender illustrate 4-6-2, with classification text added below.",
       "camera": "Brief return to gameplay, then static photo insert.",
       "action": "No character action in still.",
-      "visualGag": "Returns to the straight anthropomorphic wheel-classification motif after Henry's brick-wall punchline; no new Gordon action is depicted.",
+      "visualGag": "Gordon returns the lesson to wheel classification after Henry's tunnel punchline.",
       "notes": null,
       "sound": []
     },
@@ -295,10 +300,10 @@
       "frameNumber": 119,
       "heading": "Taxonomy breaks",
       "description": "A monochrome side-view tank locomotive has an unusual wheel arrangement.",
-      "camera": "Hard cut from gameplay to static photo at 446.7.",
+      "camera": "Hard cut from gameplay to a static photo.",
       "action": "Static locomotive photograph.",
       "visualGag": "The irregular visual example supplies the anti-climax to the orderly classification lecture.",
-      "notes": "Profanity preserved in ASR's censored spelling; machine identity not asserted.",
+      "notes": "The odd locomotive's identity is uncertain.",
       "sound": []
     },
     {
@@ -309,7 +314,7 @@
       "camera": "Static locomotive inserts alternate with overhead gameplay; K4s and L1s photos are separate cuts.",
       "action": "Buildings and rail-car props are placed in the gameplay.",
       "visualGag": null,
-      "notes": "Presenter compares K4s and L1s; this single panel does not independently identify every locomotive by visible lettering.",
+      "notes": "The presenter compares K4s and L1s locomotives; visible lettering does not identify every image.",
       "sound": []
     },
     {
@@ -317,11 +322,11 @@
       "frameNumber": 135,
       "heading": "Experimental designs introduction",
       "description": "Gameplay shows the industrial rail yard and a selected warehouse roof while the narrator introduces experimental locomotive failures.",
-      "camera": "Overhead gameplay; the Crampton photograph has not yet appeared in this selected frame.",
+      "camera": "Overhead view of the selected warehouse before the Crampton photograph.",
       "action": "Building-selection overlay remains visible.",
       "sound": [],
       "visualGag": null,
-      "notes": "Separates the general failure setup from the Crampton insert that appears around 514.5."
+      "notes": null
     },
     {
       "startSeconds": 514.5,
@@ -339,7 +344,7 @@
       "frameNumber": 147,
       "heading": "Fontaine wheel scheme",
       "description": "Locomotive engraving shows a huge upper wheel above lower wheels.",
-      "camera": "Static insert across frames 145–147.",
+      "camera": "Static locomotive engraving.",
       "action": "No mechanical movement in insert.",
       "visualGag": null,
       "notes": null,
@@ -350,7 +355,7 @@
       "frameNumber": 151,
       "heading": "Holman grift setup",
       "description": "A monochrome locomotive photo shows small wheels stacked beneath the driving wheels.",
-      "camera": "Static photo, then return to gameplay at 553.3.",
+      "camera": "Static photo, then a return to gameplay.",
       "action": "No live wheel action.",
       "visualGag": "Visibly elaborate wheel-stacking prepares the modern transport-hype punchline.",
       "notes": null,
@@ -361,10 +366,10 @@
       "frameNumber": 154,
       "heading": "Hyperloop punchline",
       "description": "A green station/pod promotional render explicitly reads HYPERLOOP.",
-      "camera": "Hard-cut static insert; gone by frame 156.",
+      "camera": "Hard cut to a static render, then back to gameplay.",
       "action": "Illustrated figures stand beside the futuristic pod; no visible movement.",
       "visualGag": "Hyperloop appears as the visual answer to the Holman stock-swindle analogy.",
-      "notes": "Satirical comparison attributed to presenter, not a factual fraud adjudication. Native reread at 558.8.",
+      "notes": "The Hyperloop comparison is the presenter's satire, not a finding of fraud.",
       "sound": []
     },
     {
@@ -375,18 +380,18 @@
       "camera": "Static insert then close and wide overhead gameplay reframing.",
       "action": "Building selections/previews change.",
       "visualGag": null,
-      "notes": "ASR's Tube 4-0 interpreted contextually as 2-4-0, not a secure verbatim machine name.",
+      "notes": "The fleet is described as 2-4-0 John Bulls; the fictional railway names remain uncertain.",
       "sound": []
     },
     {
       "startSeconds": 601.467,
       "frameNumber": 173,
       "heading": "Cars by cargo",
-      "description": "Freight-car and passenger-car images alternate; selected panel shows a modern red boxcar.",
+      "description": "Freight- and passenger-car images alternate, including a modern red boxcar.",
       "camera": "Static image inserts separated by gameplay cuts.",
       "action": "No character action.",
       "visualGag": null,
-      "notes": "Modern boxcar is a comparison insert, not represented as 1830 equipment.",
+      "notes": null,
       "sound": []
     },
     {
@@ -394,10 +399,10 @@
       "frameNumber": 182,
       "heading": "Terrifying speed setup",
       "description": "Overhead rail-yard view shows converging tracks, platforms and sheds.",
-      "camera": "Gameplay reframing across frames 178–182.",
+      "camera": "Changing overhead views of the rail yard.",
       "action": "Build selections change.",
-      "visualGag": "Setup for No, seriously: ordinary rail-yard footage accompanies the absurd uterus-speed rumor; the next text-overlay panel acknowledges its implausibility. No flying anatomy is depicted.",
-      "notes": "Presenter recounts grotesque historical speed fears; no literal anatomy gag is shown.",
+      "visualGag": "The absurd uterus-speed rumor plays over an ordinary rail-yard build before NO, SERIOUSLY acknowledges how implausible it sounds. No flying anatomy appears.",
+      "notes": null,
       "sound": []
     },
     {
@@ -405,10 +410,10 @@
       "frameNumber": 183,
       "heading": "No, seriously",
       "description": "Large white (NO, SERIOUSLY) overlays the build footage.",
-      "camera": "Text overlay on overhead gameplay; absent in following sample.",
-      "action": "No visible character gag action.",
+      "camera": "Text overlay on overhead gameplay, gone shortly afterward.",
+      "action": "No character action.",
       "visualGag": "Editorial insistence acknowledges how unbelievable the uterus-speed rumor sounds.",
-      "notes": "Overlay sampled at 660, after the ASR rumor segment; exact onset not established.",
+      "notes": null,
       "sound": []
     },
     {
@@ -416,7 +421,7 @@
       "frameNumber": 193,
       "heading": "Comfort and manual braking",
       "description": "A black-and-white photograph shows a railway worker crouching at a handbrake beside a rail vehicle.",
-      "camera": "Static insert at 704.733–705, then gameplay returns.",
+      "camera": "Static insert, then gameplay returns.",
       "action": "Worker is frozen in the photograph; no running animation is shown.",
       "visualGag": null,
       "notes": null,
@@ -427,10 +432,10 @@
       "frameNumber": 206,
       "heading": "Street-running danger",
       "description": "A bright red cowcatcher dominates a locomotive front photograph.",
-      "camera": "Static insert at 755.167–760 amid overhead street/track building shots.",
-      "action": "Smoke-trailing trains change position in adjacent gameplay; photo itself static.",
+      "camera": "Static cowcatcher photograph amid street-and-track construction.",
+      "action": "Smoke-trailing trains move through gameplay; the photograph stays still.",
       "visualGag": null,
-      "notes": "The cow remaining dead is a spoken bleak joke, not a depicted collision.",
+      "notes": null,
       "sound": []
     },
     {
@@ -438,10 +443,10 @@
       "frameNumber": 219,
       "heading": "Catastrophic collision",
       "description": "A photograph shows one wooden rail car thrust into another.",
-      "camera": "Static insert at 809.5–815; cut back to gameplay.",
+      "camera": "Static insert, then a cut back to gameplay.",
       "action": "No live collision animation.",
       "visualGag": null,
-      "notes": "No invented fire shown; narration discusses stoves and fires separately.",
+      "notes": "The photograph shows telescoped wooden cars; stove fires are discussed separately.",
       "sound": []
     },
     {
@@ -449,7 +454,7 @@
       "frameNumber": 228,
       "heading": "Charter powers",
       "description": "RIGHT-OF-WAY text appears over gridded land, buildings and railway tracks.",
-      "camera": "Caption on overhead gameplay; scale and angle change across frames 223–237.",
+      "camera": "Caption over overhead gameplay with changing angle and distance.",
       "action": "Track/building selection and placement continue.",
       "visualGag": null,
       "notes": null,
@@ -460,10 +465,10 @@
       "frameNumber": 239,
       "heading": "Uninhabited correction",
       "description": "Photograph shows a teepee with Native people seated beside it.",
-      "camera": "Static overlay at 886.233–890; then gameplay returns.",
+      "camera": "Static overlay, then gameplay returns.",
       "action": "People are static within photograph.",
       "visualGag": "Visible residents puncture the narrator's sarcastic uninhabited premise.",
-      "notes": "Critical irony rather than slapstick; no independent identification of photographed people.",
+      "notes": null,
       "sound": []
     },
     {
@@ -471,7 +476,7 @@
       "frameNumber": 254,
       "heading": "Land profits and vague charters",
       "description": "A red Pennsylvania Railroad keystone emblem overlays housing construction.",
-      "camera": "Static logo insert at 959.1–960, otherwise top-down gameplay reframing.",
+      "camera": "A brief static logo insert; otherwise top-down gameplay reframing.",
       "action": "Housing and industrial placement continues.",
       "visualGag": null,
       "notes": null,
@@ -484,8 +489,8 @@
       "description": "Overhead gameplay shows parallel streets, railway tracks and long industrial buildings while the narrator introduces the Washington-access dispute.",
       "camera": "Overhead gameplay reframes between housing blocks and the railway approaches.",
       "action": "Building/rail selections change; no literal monopoly negotiation is enacted.",
-      "visualGag": "Narrative setup for the later Bowie place-name portrait pun and branch/main reversal. This gameplay image itself is not a visual punchline; the intervening B&O emblem identifies the monopoly holder.",
-      "notes": "Presenter describes PRR, Baltimore and Potomac, and B&O charter politics.",
+      "visualGag": "The Washington-access dispute leads through the B&O emblem to Bowie's place-name pun and the branch/main-line reversal.",
+      "notes": null,
       "sound": []
     },
     {
@@ -493,32 +498,32 @@
       "frameNumber": 419,
       "heading": "Baltimore and Ohio monopoly holder",
       "description": "A large navy-and-gold circular emblem bearing B&O and a Capitol dome overlays the railway-build footage.",
-      "camera": "Static emblem insert centered over overhead gameplay; no logo animation established from the inspected still.",
+      "camera": "Static emblem centered over overhead gameplay.",
       "action": "The emblem is static; the underlying railway interface remains visible.",
       "sound": [],
       "visualGag": null,
-      "notes": "Actual registered frame 419 at 977.8 and native-resolution reread directly inspected. This is an illustrative institution identifier, not forced into a visual joke. The narrator associates B&O with Maryland's protected Washington monopoly; no independent history check."
+      "notes": "B&O identifies the railroad whose Washington monopoly Maryland protects in the presenter's account."
     },
     {
       "startSeconds": 994,
       "frameNumber": 263,
       "heading": "Baltimore and Potomac charter geography",
       "description": "A regional map labels BALTIMORE over the gameplay, establishing the starting point for the Port Tobacco main-line and Washington-branch explanation.",
-      "camera": "Static map overlay in inspected frames at 994–995; gameplay subsequently returns.",
-      "action": "No character action or animated route drawing is established in this map frame.",
+      "camera": "Static Baltimore map, then gameplay.",
+      "action": "Static map; no route animation.",
       "sound": [],
-      "visualGag": "Geographical setup for the connected Bowie place-name portrait pun and later ironic BRANCH LINE / MAIN LINE labels. This initial Baltimore map is explanatory rather than itself the punchline.",
-      "notes": "Retains the original representative map image while the newly recovered B&O logo receives its own panel."
+      "visualGag": "The Baltimore map establishes the charter geography before Bowie's portrait and the ironic BRANCH LINE / MAIN LINE labels.",
+      "notes": null
     },
     {
       "startSeconds": 1008.33,
       "frameNumber": 268,
       "heading": "Bowie visual pun",
       "description": "David Bowie's lightning-bolt portrait abruptly fills the center.",
-      "camera": "Hard-cut static portrait; removed by next sampled frame at 1009.63.",
+      "camera": "Hard cut to a static portrait, gone about a second later.",
       "action": "No character movement in portrait.",
-      "visualGag": "Place-name Bowie triggers an actual musician homonym insert.",
-      "notes": "Brief insert confirmed by native-resolution targeted still at 1008.4; panel boundary groups the place-name setup with its visual punchline.",
+      "visualGag": "The place name Bowie triggers an insert of the musician who shares it.",
+      "notes": "Bowie, Maryland, gets a brief David Bowie portrait.",
       "sound": []
     },
     {
@@ -526,10 +531,10 @@
       "frameNumber": 271,
       "heading": "Branch becomes main",
       "description": "Junction aerial labels the Washington route BRANCH LINE and the Port Tobacco route MAIN LINE, both in quotation marks.",
-      "camera": "Static aerial/map graphic, then return to gameplay by 1019.7.",
-      "action": "No live route drawing established from these samples.",
+      "camera": "Static aerial/map graphic, then a return to gameplay.",
+      "action": "Static labeled junction aerial.",
       "visualGag": "The labels visualize the reversal between charter terminology and actual route importance.",
-      "notes": "M-Tracks is an ASR error for Amtrak in context.",
+      "notes": null,
       "sound": []
     },
     {
@@ -537,10 +542,10 @@
       "frameNumber": 280,
       "heading": "Gauge incompatibility",
       "description": "Two drawn rails beneath a sunglass sun are separated by an arrow labeled GAUGE.",
-      "camera": "Static diagram insert at 1043.23–1045; gameplay resumes.",
+      "camera": "Static diagram insert; gameplay resumes.",
       "action": "No character action.",
       "visualGag": "Sunglass sun returns as a visual callback to the steam diagrams; the odd nice-even gauge measurement is a separate spoken joke.",
-      "notes": "The odd nice-even measurement is spoken; sun motif recurs visually.",
+      "notes": null,
       "sound": []
     },
     {
@@ -548,10 +553,10 @@
       "frameNumber": 289,
       "heading": "Transfer chaos",
       "description": "Historical cartoon packs travelers, porters and baggage together beside TO THE BIRMINGHAM TRAIN signage.",
-      "camera": "Static insert at 1070.53–1075; no animated crowd.",
-      "action": "Illustrated people lug baggage, but remain static.",
+      "camera": "Static insert; the crowd is not animated.",
+      "action": "The illustrated people lug baggage but do not move.",
       "visualGag": "The crowded satirical image visually amplifies the inconvenience of changing nearly identical cars.",
-      "notes": "Heading reads THE BREAK OF GAUGE AT GLOUCESTER in contact sheet; no independent historical validation.",
+      "notes": "The cartoon is headed THE BREAK OF GAUGE AT GLOUCESTER.",
       "sound": []
     },
     {
@@ -559,10 +564,10 @@
       "frameNumber": 305,
       "heading": "Navvies: wages and catch",
       "description": "Gameplay places housing blocks and reshapes the rail-side district.",
-      "camera": "Changing overhead angles and scales across frames 294–309; continuous camera path not established.",
-      "action": "Building previews and placements change; no observed navvy reenactment.",
+      "camera": "Changing overhead angles and distances around housing and railway construction.",
+      "action": "Building previews and placements change; there is no navvy reenactment.",
       "visualGag": null,
-      "notes": "ASR Navis interpreted as navvies; do not identify these gameplay houses as historical worker camps.",
+      "notes": "Navvies are described in narration; these game houses do not depict historical worker camps.",
       "sound": []
     },
     {
@@ -571,9 +576,9 @@
       "heading": "Fast, dirty, dangerous",
       "description": "A large station-like building fronts the tracks in the growing district.",
       "camera": "Overhead gameplay shifts to closer oblique station view, then back.",
-      "action": "Build selections change; trains appear in adjacent rail-yard views.",
+      "action": "Build selections change; trains appear in the rail-yard views around it.",
       "visualGag": null,
-      "notes": "Labor nationalities and construction risks are narrated, not reenacted in sampled imagery.",
+      "notes": null,
       "sound": []
     },
     {
@@ -584,7 +589,7 @@
       "camera": "Wide aerial and closer overhead gameplay alternate.",
       "action": "Housing placement continues.",
       "visualGag": null,
-      "notes": "Announcements change the narrative topic without a separate presenter-camera shot.",
+      "notes": null,
       "sound": []
     },
     {
@@ -592,10 +597,10 @@
       "frameNumber": 338,
       "heading": "Greenwood bonus",
       "description": "A monochrome historical street photograph shows people, cars and smoke rising beyond buildings.",
-      "camera": "Static photo at 1301.57–1305, then gameplay returns.",
+      "camera": "Static photo, then gameplay returns.",
       "action": "Static people and vehicles.",
       "visualGag": null,
-      "notes": "Photograph associated with Tulsa by narration; specific scene not independently identified.",
+      "notes": null,
       "sound": []
     },
     {
@@ -614,18 +619,18 @@
       "frameNumber": 351,
       "heading": "Rent control punchline",
       "description": "RENT CONTROL fills a black screen in enormous white capitals.",
-      "camera": "Hard cut to static full-screen card; return to gameplay at 1361.7.",
+      "camera": "Hard cut to a static full-screen card, then back to gameplay.",
       "action": "No character action.",
       "visualGag": "Proposed shirt slogan becomes an emphatic standalone graphic.",
-      "notes": "Native targeted still at 1360.6 confirms exact wording.",
+      "notes": null,
       "sound": []
     },
     {
       "startSeconds": 1362.12,
       "frameNumber": 358,
       "heading": "Thanks and transition",
-      "description": "Gameplay finishes house rows beside the railway; next sample is black.",
-      "camera": "Overhead gameplay then black at 1395.",
+      "description": "Gameplay finishes house rows beside the railway before the screen goes black.",
+      "camera": "Overhead gameplay, then black.",
       "action": "Selections and placements change.",
       "visualGag": null,
       "notes": null,
@@ -636,14 +641,14 @@
       "frameNumber": 362,
       "heading": "City payoff",
       "description": "UI-free aerial view shows train sidings, brick warehouses, street tracks and dense row houses.",
-      "camera": "Camera sweeps across the district in frames 360–364; sampled positions establish lateral travel, not exact intermediate trajectory.",
+      "camera": "An aerial sweep crosses the district; its exact path is uncertain.",
       "action": "Trains and smoke are visible among the completed buildings.",
       "visualGag": null,
-      "notes": "ASR contains no dialogue in the cinematic section.",
+      "notes": "The narration has ended.",
       "sound": [
         {
           "startSeconds": 1400,
-          "text": "Cinematics music: Mendelssohn The Hebrides, identified by source metadata. Approximate placement from cinematic transition; not independently listened or frame-aligned."
+          "text": "Cinematic music: Mendelssohn's The Hebrides, as credited for the closing city tour."
         }
       ]
     },
@@ -652,10 +657,10 @@
       "frameNumber": 368,
       "heading": "Waterfront sweep",
       "description": "Aerial view shows piers and sheds alongside rails; a smoke-emitting train changes position.",
-      "camera": "High camera translates and rotates relative to waterfront/buildings across frames 365–372.",
-      "action": "Train advances along waterfront/street track between samples.",
+      "camera": "The high view shifts sideways and rotates around the waterfront.",
+      "action": "The train advances along waterfront street tracks.",
       "visualGag": null,
-      "notes": "Motion description grounded in sampled positions; no continuous replay claimed.",
+      "notes": null,
       "sound": []
     },
     {
@@ -663,8 +668,8 @@
       "frameNumber": 375,
       "heading": "Rail-level ride",
       "description": "Low view looks forward along street-embedded rails between tree-lined brick residences.",
-      "camera": "Hard cut to low forward camera; closer buildings shift past between frames 373–375, establishing forward travel.",
-      "action": "No protagonist visible; travel viewpoint supplies the action.",
+      "camera": "Hard cut to a low forward view as buildings pass beside the rails.",
+      "action": "The viewpoint advances along the rails; no protagonist appears.",
       "visualGag": null,
       "notes": null,
       "sound": []
@@ -674,10 +679,10 @@
       "frameNumber": 380,
       "heading": "Yard orbit",
       "description": "High oblique view shows converging tracks, sheds, station and orange rail cars.",
-      "camera": "Cut back to aerial; angle rotates and scale varies across frames 376–387, including a wider yard reveal.",
+      "camera": "Cut back to changing aerial angles and distances around the yard.",
       "action": "Smoke-trailing locomotives change position.",
       "visualGag": null,
-      "notes": "Exact pan versus orbital path between sparse frames is not fully resolved.",
+      "notes": "The exact orbit or pan is uncertain.",
       "sound": []
     },
     {
@@ -685,7 +690,7 @@
       "frameNumber": 391,
       "heading": "Riverside district",
       "description": "UI-free aerial passes the waterfront warehouse blocks and housing.",
-      "camera": "Hard cut to waterfront angle, then sampled aerial sweep along the river in frames 388–392.",
+      "camera": "Cut to a waterfront angle, then a sweep along the river.",
       "action": "A locomotive smoke plume changes position near the street track.",
       "visualGag": null,
       "notes": null,
@@ -696,7 +701,7 @@
       "frameNumber": 395,
       "heading": "Street-running ride",
       "description": "Low rails curve between industrial walls, then continue beside residential streets.",
-      "camera": "Hard cut to low forward track view; successive landmarks pass in frames 393–397.",
+      "camera": "Hard cut to a low forward track view as landmarks pass.",
       "action": "View advances along rails; buildings and track alignment change in foreground.",
       "visualGag": null,
       "notes": null,
@@ -707,8 +712,8 @@
       "frameNumber": 404,
       "heading": "Final waterfront reveal",
       "description": "Warehouses and piers fill the foreground, with the larger city behind.",
-      "camera": "Brief high street view, cut to river-facing view at 1568; aerial sweep and widening perspective across frames 400–406.",
-      "action": "Smoke-emitting train advances near the waterfront in adjacent frames.",
+      "camera": "A brief high street view, then a cut to a river-facing view; an aerial sweep widens the perspective.",
+      "action": "A smoke-emitting train advances near the waterfront.",
       "visualGag": null,
       "notes": null,
       "sound": []
@@ -718,10 +723,10 @@
       "frameNumber": 411,
       "heading": "Patron credits",
       "description": "White patron names scroll on black.",
-      "camera": "Fixed black background; names rise between frames 407–413.",
+      "camera": "Names rise against a fixed black background.",
       "action": "Text scrolls upward.",
       "visualGag": null,
-      "notes": "No patron names are treated as narrative characters.",
+      "notes": null,
       "sound": []
     },
     {
@@ -729,10 +734,10 @@
       "frameNumber": 416,
       "heading": "Token returns",
       "description": "The DNE token returns alone on black.",
-      "camera": "Static centered logo across frames 415–416.",
+      "camera": "Static centered logo.",
       "action": "No character action.",
       "visualGag": null,
-      "notes": "Last inspected sample is 1645; full source duration is 1648.728.",
+      "notes": null,
       "sound": []
     }
   ]

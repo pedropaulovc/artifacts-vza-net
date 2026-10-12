@@ -1,0 +1,2567 @@
+{
+  "id": "fLxHVF1uiOE",
+  "title": "Cities: Skylines | Franklin, Episode 3: Founding Franklin",
+  "requests": [
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 0,
+      "sampleEndSeconds": 20.0,
+      "requestedEndSeconds": 20,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/0.000-20.000.wav",
+      "sha256": "c29e154fbe8efecd7cc0046616ab26ded46e7864990ab13f33e824b2b0687171",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "0",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/0.000-20.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:07:05.621073+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 0,
+        "sourceEndSeconds": 12.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "574462009",
+            "offset": -0.091907363,
+            "timeskew": 2.7418137e-06,
+            "frequencyskew": -0.00010740757
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778027261,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "71188704",
+          "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+          "subtitle": "Passionata Symphony Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "joecolor": "b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/71188704"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro - Passionata Symphony Orchestra",
+            "text": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra",
+            "href": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/71188704?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/71188704"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1280339543"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/ad/5f/bfad5fd9-4f49-790b-1aa3-f5d5c43e3c77/mzaf_14470575942373263264.plus.aac.ep.m4a"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Symphony%20No.%205%20In%20C%20Minor%2C%20Op.%2067%3A%20IV.%20Allegro%20Passionata%20Symphony%20Orchestra"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro%27%20artist%3A%27Passionata+Symphony+Orchestra%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              },
+              {
+                "caption": "BUY",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "buy",
+                  "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                  "caption": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+                },
+                {
+                  "title": "Label",
+                  "text": "Maestro Music Distribution"
+                },
+                {
+                  "title": "Released",
+                  "text": "2012"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "1280339537"
+            }
+          ],
+          "genres": {
+            "primary": "Orchestral"
+          },
+          "urlparams": {
+            "{tracktitle}": "Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro",
+            "{trackartist}": "Passionata+Symphony+Orchestra"
+          },
+          "myshazam": {
+            "apple": {
+              "actions": [
+                {
+                  "name": "myshazam:apple",
+                  "type": "uri",
+                  "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                }
+              ]
+            }
+          },
+          "highlightsurls": {},
+          "albumadamid": "1280338802",
+          "isrc": "DELJ81754945"
+        },
+        "tagid": "D4A44C24-D47E-4218-A6C1-F8BBB2F86B3E"
+      },
+      "status": "match",
+      "match": {
+        "key": "71188704",
+        "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+        "artist": "Passionata Symphony Orchestra",
+        "serviceURL": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                "caption": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+              },
+              {
+                "title": "Label",
+                "text": "Maestro Music Distribution"
+              },
+              {
+                "title": "Released",
+                "text": "2012"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/9DD30208-0D9B-4527-B940-875FDD7EF159/D4A44C24-D47E-4218-A6C1-F8BBB2F86B3E?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:07:10 GMT",
+          "X-Forensic-Id": "ef8387f4-c714-4dc9-9e76-1b6d545f9bab",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"574462009\",\"offset\":-0.091907363,\"timeskew\":2.7418137E-6,\"frequencyskew\":-1.0740757E-4}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778027261,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"71188704\",\"title\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\",\"subtitle\":\"Passionata Symphony Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"joecolor\":\"b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/71188704\"}]},\"share\":{\"subject\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro - Passionata Symphony Orchestra\",\"text\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra\",\"href\":\"https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/71188704?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/71188704\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1280339543\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/ad/5f/bfad5fd9-4f49-790b-1aa3-f5d5c43e3c77/mzaf_14470575942373263264.plus.aac.ep.m4a\"}],\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Symphony%20No.%205%20In%20C%20Minor%2C%20Op.%2067%3A%20IV.%20Allegro%20Passionata%20Symphony%20Orchestra\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro%27%20artist%3A%27Passionata+Symphony+Orchestra%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"},{\"caption\":\"BUY\",\"actions\":[{\"type\":\"uri\",\"uri\":\"https://itunes.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"buy\",\"providername\":\"itunes\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"type\":\"buy\",\"listcaption\":\"Buy on iTunes\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"itunes\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"caption\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67\"},{\"title\":\"Label\",\"text\":\"Maestro Music Distribution\"},{\"title\":\"Released\",\"text\":\"2012\"}]}],\"url\":\"https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro\",\"artists\":[{\"id\":\"42\",\"adamid\":\"1280339537\"}],\"genres\":{\"primary\":\"Orchestral\"},\"urlparams\":{\"{tracktitle}\":\"Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro\",\"{trackartist}\":\"Passionata+Symphony+Orchestra\"},\"myshazam\":{\"apple\":{\"actions\":[{\"name\":\"myshazam:apple\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}]}},\"highlightsurls\":{},\"albumadamid\":\"1280338802\",\"isrc\":\"DELJ81754945\"},\"tagid\":\"D4A44C24-D47E-4218-A6C1-F8BBB2F86B3E\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 20,
+      "sampleEndSeconds": 40.0,
+      "requestedEndSeconds": 40,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/20.000-40.000.wav",
+      "sha256": "b21ba918f7b2c3bb7bfc1c581cd233d38b9954954afc48d2b6548644b7d1a40d",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "20",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/20.000-40.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:07:11.744777+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 20,
+        "sourceEndSeconds": 32.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "574462009",
+            "offset": 19.91036914,
+            "timeskew": -2.670288e-05,
+            "frequencyskew": -0.000120818615
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778033332,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "71188704",
+          "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+          "subtitle": "Passionata Symphony Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "joecolor": "b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/71188704"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro - Passionata Symphony Orchestra",
+            "text": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra",
+            "href": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/71188704?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/71188704"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1280339543"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/ad/5f/bfad5fd9-4f49-790b-1aa3-f5d5c43e3c77/mzaf_14470575942373263264.plus.aac.ep.m4a"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                  "caption": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+                },
+                {
+                  "title": "Label",
+                  "text": "Maestro Music Distribution"
+                },
+                {
+                  "title": "Released",
+                  "text": "2012"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+          "artists": [
+            {
+              "alias": "passionata-symphony-orchestra",
+              "id": "42",
+              "adamid": "1280339537"
+            }
+          ],
+          "alias": "symphony-no-5-in-c-minor-op-67-iv-allegro",
+          "genres": {
+            "primary": "Orchestral"
+          },
+          "urlparams": {
+            "{tracktitle}": "Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro",
+            "{trackartist}": "Passionata+Symphony+Orchestra"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1280338802",
+          "trackadamid": "1280339543",
+          "releasedate": "15-05-2012",
+          "isrc": "DELJ81754945"
+        },
+        "tagid": "3302AD04-67CB-414E-9654-0C8EED84FE1C"
+      },
+      "status": "match",
+      "match": {
+        "key": "71188704",
+        "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+        "artist": "Passionata Symphony Orchestra",
+        "serviceURL": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                "caption": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+              },
+              {
+                "title": "Label",
+                "text": "Maestro Music Distribution"
+              },
+              {
+                "title": "Released",
+                "text": "2012"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/35C7DC83-5376-4E8E-B17B-AEA07210DD74/3302AD04-67CB-414E-9654-0C8EED84FE1C?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:07:16 GMT",
+          "X-Forensic-Id": "549bc3f3-2e55-47da-a9de-0ee502446a03",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"574462009\",\"offset\":19.91036914,\"timeskew\":-2.670288E-5,\"frequencyskew\":-1.20818615E-4}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778033332,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"71188704\",\"title\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\",\"subtitle\":\"Passionata Symphony Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"joecolor\":\"b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/71188704\"}]},\"share\":{\"subject\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro - Passionata Symphony Orchestra\",\"text\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra\",\"href\":\"https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/71188704?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/71188704\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1280339543\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/ad/5f/bfad5fd9-4f49-790b-1aa3-f5d5c43e3c77/mzaf_14470575942373263264.plus.aac.ep.m4a\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"caption\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67\"},{\"title\":\"Label\",\"text\":\"Maestro Music Distribution\"},{\"title\":\"Released\",\"text\":\"2012\"}]}],\"url\":\"https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro\",\"artists\":[{\"alias\":\"passionata-symphony-orchestra\",\"id\":\"42\",\"adamid\":\"1280339537\"}],\"alias\":\"symphony-no-5-in-c-minor-op-67-iv-allegro\",\"genres\":{\"primary\":\"Orchestral\"},\"urlparams\":{\"{tracktitle}\":\"Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro\",\"{trackartist}\":\"Passionata+Symphony+Orchestra\"},\"highlightsurls\":{},\"albumadamid\":\"1280338802\",\"trackadamid\":\"1280339543\",\"releasedate\":\"15-05-2012\",\"isrc\":\"DELJ81754945\"},\"tagid\":\"3302AD04-67CB-414E-9654-0C8EED84FE1C\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 40,
+      "sampleEndSeconds": 60.0,
+      "requestedEndSeconds": 60,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/40.000-60.000.wav",
+      "sha256": "ca7d36e8054bca3210997fb98a1fb3b8cda8f626e5d3b28e0f5ce1ffc9cd3e55",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "40",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/40.000-60.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:07:17.715943+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 40,
+        "sourceEndSeconds": 52.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778039123,
+        "timezone": "Europe/Moscow",
+        "tagid": "AF9FDED5-2882-44B9-BA72-2DDCEF47BE77"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/0FDD34D1-7180-4C80-BD5D-63918448644F/AF9FDED5-2882-44B9-BA72-2DDCEF47BE77?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:07:21 GMT",
+          "X-Forensic-Id": "d5864405-5cc5-4ccc-91cc-952f54cd0679",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778039123,\"timezone\":\"Europe/Moscow\",\"tagid\":\"AF9FDED5-2882-44B9-BA72-2DDCEF47BE77\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 120,
+      "sampleEndSeconds": 140.0,
+      "requestedEndSeconds": 140,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/120.000-140.000.wav",
+      "sha256": "85cf5909886c33013731223306a3a457c0e5fbed14780328a640f0c45d138d3c",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "120",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/120.000-140.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:07:23.784414+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 120,
+        "sourceEndSeconds": 132.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778045226,
+        "timezone": "Europe/Moscow",
+        "tagid": "7035BF51-1E54-4309-9587-C8F8B3BEE904"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/C5EBF189-7E04-41FF-B2CD-230B6A7B8CA1/7035BF51-1E54-4309-9587-C8F8B3BEE904?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:07:27 GMT",
+          "X-Forensic-Id": "dd41b562-3466-4199-a828-a5d4948425a1",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778045226,\"timezone\":\"Europe/Moscow\",\"tagid\":\"7035BF51-1E54-4309-9587-C8F8B3BEE904\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 240,
+      "sampleEndSeconds": 259.9925,
+      "requestedEndSeconds": 260,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/240.000-260.000.wav",
+      "sha256": "138b89a4a95b870baf339ddbadf01ab9a3b4eb628f942ad6885a2b7187976f7b",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "240",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/240.000-260.000.wav"
+      ],
+      "actualAudioDurationSeconds": 19.9925,
+      "requestedAt": "2026-10-12T04:07:29.741912+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 240,
+        "sourceEndSeconds": 252.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778051193,
+        "timezone": "Europe/Moscow",
+        "tagid": "427ABD24-A6C5-4E12-9872-DD5AD8870093"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/2C8FF93B-CFEB-49BE-BA57-52BFFC9A5743/427ABD24-A6C5-4E12-9872-DD5AD8870093?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:07:33 GMT",
+          "X-Forensic-Id": "21c411b0-7cd0-4696-918b-e3631b2e974d",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778051193,\"timezone\":\"Europe/Moscow\",\"tagid\":\"427ABD24-A6C5-4E12-9872-DD5AD8870093\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 360,
+      "sampleEndSeconds": 380.0,
+      "requestedEndSeconds": 380,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/360.000-380.000.wav",
+      "sha256": "29863aef826767aa1840536c8bd7ded27dbbb8f68163e57f709298b9d932191d",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "360",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/360.000-380.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:07:33.941645+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 360,
+        "sourceEndSeconds": 372.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778055664,
+        "timezone": "Europe/Moscow",
+        "tagid": "3B59C4F9-2B74-4B03-A1DF-D615394590D3"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/F5004242-4CFE-4E42-AE52-9DCF6F9714A4/3B59C4F9-2B74-4B03-A1DF-D615394590D3?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:07:38 GMT",
+          "X-Forensic-Id": "505bfd23-a2fc-4362-afab-1d905ca3ca7c",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778055664,\"timezone\":\"Europe/Moscow\",\"tagid\":\"3B59C4F9-2B74-4B03-A1DF-D615394590D3\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 480,
+      "sampleEndSeconds": 499.9925,
+      "requestedEndSeconds": 500,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/480.000-500.000.wav",
+      "sha256": "d49edfb8569b3a15adaafc26491f7f361755213a27d150d31b9f6a6e556a1821",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "480",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/480.000-500.000.wav"
+      ],
+      "actualAudioDurationSeconds": 19.9925,
+      "requestedAt": "2026-10-12T04:07:39.902992+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 480,
+        "sourceEndSeconds": 492.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778061741,
+        "timezone": "Europe/Moscow",
+        "tagid": "1CC3F464-5A2E-42FB-8C64-CA363276C723"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/34C1632A-18DA-4367-B51A-6D9FFE80ABDA/1CC3F464-5A2E-42FB-8C64-CA363276C723?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:07:44 GMT",
+          "X-Forensic-Id": "38fca055-359e-4cf5-ad2d-cec1bdc21299",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778061741,\"timezone\":\"Europe/Moscow\",\"tagid\":\"1CC3F464-5A2E-42FB-8C64-CA363276C723\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 600,
+      "sampleEndSeconds": 620.0,
+      "requestedEndSeconds": 620,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/600.000-620.000.wav",
+      "sha256": "e07a3b19dbb5c092d56cf1796736c7dfaf1a840d8f3e70b2e3864650d781c8c5",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "600",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/600.000-620.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:07:45.927129+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 600,
+        "sourceEndSeconds": 612.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778067289,
+        "timezone": "Europe/Moscow",
+        "tagid": "96B262D2-BFFE-409B-B6C1-19E8B32BA29C"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/711AABEE-10D4-435B-A7A5-4C8B29391A0A/96B262D2-BFFE-409B-B6C1-19E8B32BA29C?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:07:49 GMT",
+          "X-Forensic-Id": "0cd6f839-0803-4647-a195-cff44744518f",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778067289,\"timezone\":\"Europe/Moscow\",\"tagid\":\"96B262D2-BFFE-409B-B6C1-19E8B32BA29C\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 720,
+      "sampleEndSeconds": 739.9925,
+      "requestedEndSeconds": 740,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/720.000-740.000.wav",
+      "sha256": "4e505bddd8ed2bc84453f70aecd51886b99f0546f48d036281c65c730615c837",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "720",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/720.000-740.000.wav"
+      ],
+      "actualAudioDurationSeconds": 19.9925,
+      "requestedAt": "2026-10-12T04:07:51.836723+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 720,
+        "sourceEndSeconds": 732.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778073565,
+        "timezone": "Europe/Moscow",
+        "tagid": "88829D01-B16C-4A51-B99A-08CD754EC251"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/3E51C2B7-9086-4211-86DE-640683D50097/88829D01-B16C-4A51-B99A-08CD754EC251?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:07:55 GMT",
+          "X-Forensic-Id": "5f344688-ec5b-441e-88e7-a778ba3b787a",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778073565,\"timezone\":\"Europe/Moscow\",\"tagid\":\"88829D01-B16C-4A51-B99A-08CD754EC251\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 840,
+      "sampleEndSeconds": 860.0,
+      "requestedEndSeconds": 860,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/840.000-860.000.wav",
+      "sha256": "decf4e2ce02a711403bded44e77ba86af7df3a6c32d392c818ac77d4e0686b66",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "840",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/840.000-860.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:07:57.873555+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 840,
+        "sourceEndSeconds": 852.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778077907,
+        "timezone": "Europe/Moscow",
+        "tagid": "937D1210-1241-439E-ADDE-EC34F86CDD90"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/A3A44453-AC08-4AEB-A74E-E382048231D2/937D1210-1241-439E-ADDE-EC34F86CDD90?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:08:01 GMT",
+          "X-Forensic-Id": "036da97e-6278-44fe-8974-c67ddd341fbb",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778077907,\"timezone\":\"Europe/Moscow\",\"tagid\":\"937D1210-1241-439E-ADDE-EC34F86CDD90\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 960,
+      "sampleEndSeconds": 979.9925,
+      "requestedEndSeconds": 980,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/960.000-980.000.wav",
+      "sha256": "b4abf471c8d998f514421b09ee6703bc94d74bcf893f4b0f92b74a73c8dcb446",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "960",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/960.000-980.000.wav"
+      ],
+      "actualAudioDurationSeconds": 19.9925,
+      "requestedAt": "2026-10-12T04:08:01.933178+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 960,
+        "sourceEndSeconds": 972.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778083754,
+        "timezone": "Europe/Moscow",
+        "tagid": "E1603932-B1D2-4741-B1D3-5FFE75581B58"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/5B5AB81B-6EDC-4218-A5CB-C6647F3CFAD9/E1603932-B1D2-4741-B1D3-5FFE75581B58?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:08:06 GMT",
+          "X-Forensic-Id": "f0763930-507e-42de-9ff4-4467814bbee1",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778083754,\"timezone\":\"Europe/Moscow\",\"tagid\":\"E1603932-B1D2-4741-B1D3-5FFE75581B58\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 1080,
+      "sampleEndSeconds": 1100.0,
+      "requestedEndSeconds": 1100,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/1080.000-1100.000.wav",
+      "sha256": "f7c2cb29b5a480a8780fe25501f4c3b100841ed40394d51ca8fed0ce01ff577b",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1080",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/1080.000-1100.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:08:08.031087+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1080,
+        "sourceEndSeconds": 1092.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778089450,
+        "timezone": "Europe/Moscow",
+        "tagid": "A33F0D77-5D00-43F5-A23B-6492D701D625"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/5675F7F0-C139-425F-84C9-1CC908B85445/A33F0D77-5D00-43F5-A23B-6492D701D625?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:08:12 GMT",
+          "X-Forensic-Id": "d17bc257-f0f6-4b95-b722-1b4ef3debc59",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778089450,\"timezone\":\"Europe/Moscow\",\"tagid\":\"A33F0D77-5D00-43F5-A23B-6492D701D625\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 1200,
+      "sampleEndSeconds": 1219.9925,
+      "requestedEndSeconds": 1220,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/1200.000-1220.000.wav",
+      "sha256": "1c9538449e493f5235b03b24f5ef8d6761a7fba1af4d4876405ef043005c49c5",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1200",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/1200.000-1220.000.wav"
+      ],
+      "actualAudioDurationSeconds": 19.9925,
+      "requestedAt": "2026-10-12T04:08:13.995847+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1200,
+        "sourceEndSeconds": 1212.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778095642,
+        "timezone": "Europe/Moscow",
+        "tagid": "7A74009A-75D6-4E04-812B-770619FA6900"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/7BD4BE22-CE25-4F0D-A2A7-23DBDBA7FF2C/7A74009A-75D6-4E04-812B-770619FA6900?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:08:18 GMT",
+          "X-Forensic-Id": "c5607678-d30c-4fc9-9dd2-2f73abbae7ce",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778095642,\"timezone\":\"Europe/Moscow\",\"tagid\":\"7A74009A-75D6-4E04-812B-770619FA6900\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 1320,
+      "sampleEndSeconds": 1340.0,
+      "requestedEndSeconds": 1340,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/1320.000-1340.000.wav",
+      "sha256": "b12557a652361cf7b2319c3e26d1e7161fed0c98bc8055453baedc4e87714d6b",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1320",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/1320.000-1340.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:08:19.985926+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1320,
+        "sourceEndSeconds": 1332.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778101966,
+        "timezone": "Europe/Moscow",
+        "tagid": "DF2D1430-B4A1-4D5C-ACEA-49C7455A96DC"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/93574F67-5BDC-43C6-A4B4-52929BAE680B/DF2D1430-B4A1-4D5C-ACEA-49C7455A96DC?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:08:23 GMT",
+          "X-Forensic-Id": "59166147-9831-46d3-a84a-ae295f9f8eaf",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778101966,\"timezone\":\"Europe/Moscow\",\"tagid\":\"DF2D1430-B4A1-4D5C-ACEA-49C7455A96DC\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 1440,
+      "sampleEndSeconds": 1459.9925,
+      "requestedEndSeconds": 1460,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/1440.000-1460.000.wav",
+      "sha256": "df064f504860a96e0f603ac071f62546898f67719d140d4ff822b596ed2da5e5",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1440",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/1440.000-1460.000.wav"
+      ],
+      "actualAudioDurationSeconds": 19.9925,
+      "requestedAt": "2026-10-12T04:08:25.946075+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1440,
+        "sourceEndSeconds": 1452.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "590349524",
+            "offset": 59.140683593,
+            "timeskew": 0.00060379505,
+            "frequencyskew": -0.00016111135
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778106759,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "72330504",
+          "title": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)",
+          "subtitle": "The Metropolitan Philharmonic Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg",
+            "joecolor": "b:314777p:dfe0e4s:b4c4ddt:bcc1ceq:9aabc8"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/72330504"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall) - The Metropolitan Philharmonic Orchestra",
+            "text": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall) by The Metropolitan Philharmonic Orchestra",
+            "href": "https://www.shazam.com/track/72330504/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall) by The Metropolitan Philharmonic Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/72330504?lang=en-US&country=GB",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/72330504"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "957441592"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/02/5c/9b/025c9b64-1b20-4d70-619d-ef13522c077c/mzaf_6255162747587624494.plus.aac.ep.m4a"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king/957441582?i=957441592&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king/957441582?i=957441592&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg",
+                  "caption": "The Metropolitan Philharmonic Orchestra"
+                },
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg",
+                  "caption": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Grieg: Peer Gynt, Op. 46, Suite No. 1"
+                },
+                {
+                  "title": "Label",
+                  "text": "Arboretum"
+                },
+                {
+                  "title": "Released",
+                  "text": "2015"
+                }
+              ]
+            },
+            {
+              "type": "RELATED",
+              "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/web/-/tracks/track-similarities-id-72330504?startFrom=0&pageSize=20&connected=",
+              "tabname": "Related"
+            }
+          ],
+          "url": "https://www.shazam.com/track/72330504/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king",
+          "artists": [
+            {
+              "alias": "the-metropolitan-philharmonic-orchestra",
+              "id": "42",
+              "adamid": "951136362"
+            }
+          ],
+          "alias": "peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king",
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Peer+Gynt%2C+Op.+46%2C+IV.+In+the+Hall+of+the+Mountain+King+%28I+Dovregubbens+hall%29",
+            "{trackartist}": "The+Metropolitan+Philharmonic+Orchestra"
+          },
+          "highlightsurls": {},
+          "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/web/-/tracks/track-similarities-id-72330504?startFrom=0&pageSize=20&connected=",
+          "albumadamid": "957441582",
+          "trackadamid": "957441592",
+          "releasedate": "23-02-2015",
+          "isrc": "GBG3H1500106"
+        },
+        "tagid": "8AB6DB56-2B79-4396-8D43-7D21E81E2B42"
+      },
+      "status": "match",
+      "match": {
+        "key": "72330504",
+        "title": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)",
+        "artist": "The Metropolitan Philharmonic Orchestra",
+        "serviceURL": "https://www.shazam.com/track/72330504/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg",
+                "caption": "The Metropolitan Philharmonic Orchestra"
+              },
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg",
+                "caption": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Grieg: Peer Gynt, Op. 46, Suite No. 1"
+              },
+              {
+                "title": "Label",
+                "text": "Arboretum"
+              },
+              {
+                "title": "Released",
+                "text": "2015"
+              }
+            ]
+          },
+          {
+            "type": "RELATED",
+            "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/web/-/tracks/track-similarities-id-72330504?startFrom=0&pageSize=20&connected=",
+            "tabname": "Related"
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/C8B06554-9D10-4BE8-8407-C74E82E6AD03/8AB6DB56-2B79-4396-8D43-7D21E81E2B42?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:08:29 GMT",
+          "X-Forensic-Id": "3b541780-7832-4234-ba51-403d4d63f2b8",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"590349524\",\"offset\":59.140683593,\"timeskew\":6.0379505E-4,\"frequencyskew\":-1.6111135E-4}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778106759,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"72330504\",\"title\":\"Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)\",\"subtitle\":\"The Metropolitan Philharmonic Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg\",\"joecolor\":\"b:314777p:dfe0e4s:b4c4ddt:bcc1ceq:9aabc8\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/72330504\"}]},\"share\":{\"subject\":\"Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall) - The Metropolitan Philharmonic Orchestra\",\"text\":\"Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall) by The Metropolitan Philharmonic Orchestra\",\"href\":\"https://www.shazam.com/track/72330504/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall) by The Metropolitan Philharmonic Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/72330504?lang=en-US&country=GB\",\"avatar\":\"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/72330504\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"957441592\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/02/5c/9b/025c9b64-1b20-4d70-619d-ef13522c077c/mzaf_6255162747587624494.plus.aac.ep.m4a\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king/957441582?i=957441592&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king/957441582?i=957441592&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg\",\"caption\":\"The Metropolitan Philharmonic Orchestra\"},{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg\",\"caption\":\"Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Grieg: Peer Gynt, Op. 46, Suite No. 1\"},{\"title\":\"Label\",\"text\":\"Arboretum\"},{\"title\":\"Released\",\"text\":\"2015\"}]},{\"type\":\"RELATED\",\"url\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/web/-/tracks/track-similarities-id-72330504?startFrom=0&pageSize=20&connected=\",\"tabname\":\"Related\"}],\"url\":\"https://www.shazam.com/track/72330504/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king\",\"artists\":[{\"alias\":\"the-metropolitan-philharmonic-orchestra\",\"id\":\"42\",\"adamid\":\"951136362\"}],\"alias\":\"peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king\",\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Peer+Gynt%2C+Op.+46%2C+IV.+In+the+Hall+of+the+Mountain+King+%28I+Dovregubbens+hall%29\",\"{trackartist}\":\"The+Metropolitan+Philharmonic+Orchestra\"},\"highlightsurls\":{},\"relatedtracksurl\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/web/-/tracks/track-similarities-id-72330504?startFrom=0&pageSize=20&connected=\",\"albumadamid\":\"957441582\",\"trackadamid\":\"957441592\",\"releasedate\":\"23-02-2015\",\"isrc\":\"GBG3H1500106\"},\"tagid\":\"8AB6DB56-2B79-4396-8D43-7D21E81E2B42\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 1499.588,
+      "sampleEndSeconds": 1519.588,
+      "requestedEndSeconds": 1519.588,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/1499.588-1519.588.wav",
+      "sha256": "b59f8882956d18bcfe18e401ce4c37e0da66d39e1ce32ae7b0e4feed1340861f",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1499.588",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/1499.588-1519.588.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:08:29.995955+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1499.588,
+        "sourceEndSeconds": 1511.588
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "590349524",
+            "offset": 118.726,
+            "timeskew": -0.0006082654,
+            "frequencyskew": -0.001408577
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778111963,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "72330504",
+          "title": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)",
+          "subtitle": "The Metropolitan Philharmonic Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg",
+            "joecolor": "b:314777p:dfe0e4s:b4c4ddt:bcc1ceq:9aabc8"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/72330504"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall) - The Metropolitan Philharmonic Orchestra",
+            "text": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall) by The Metropolitan Philharmonic Orchestra",
+            "href": "https://www.shazam.com/track/72330504/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall) by The Metropolitan Philharmonic Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/72330504?lang=en-US&country=GB",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/72330504"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "957441592"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/02/5c/9b/025c9b64-1b20-4d70-619d-ef13522c077c/mzaf_6255162747587624494.plus.aac.ep.m4a"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Peer%20Gynt%2C%20Op.%2046%2C%20IV.%20In%20the%20Hall%20of%20the%20Mountain%20King%20%28I%20Dovregubbens%20hall%29%20The%20Metropolitan%20Philharmonic%20Orchestra"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Peer+Gynt%2C+Op.+46%2C+IV.+In+the+Hall+of+the+Mountain+King+%28I+Dovregubbens+hall%29%27%20artist%3A%27The+Metropolitan+Philharmonic+Orchestra%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king/957441582?i=957441592&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king/957441582?i=957441592&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              },
+              {
+                "caption": "BUY",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/gb/album/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king/957441582?i=957441592&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "buy",
+                  "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg",
+                  "caption": "The Metropolitan Philharmonic Orchestra"
+                },
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg",
+                  "caption": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Grieg: Peer Gynt, Op. 46, Suite No. 1"
+                },
+                {
+                  "title": "Label",
+                  "text": "Arboretum"
+                },
+                {
+                  "title": "Released",
+                  "text": "2015"
+                }
+              ]
+            },
+            {
+              "type": "RELATED",
+              "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-72330504?startFrom=0&pageSize=20&connected=",
+              "tabname": "Related"
+            }
+          ],
+          "url": "https://www.shazam.com/track/72330504/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "951136362"
+            }
+          ],
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Peer+Gynt%2C+Op.+46%2C+IV.+In+the+Hall+of+the+Mountain+King+%28I+Dovregubbens+hall%29",
+            "{trackartist}": "The+Metropolitan+Philharmonic+Orchestra"
+          },
+          "myshazam": {
+            "apple": {
+              "actions": [
+                {
+                  "name": "myshazam:apple",
+                  "type": "uri",
+                  "uri": "https://music.apple.com/gb/album/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king/957441582?i=957441592&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                }
+              ]
+            }
+          },
+          "highlightsurls": {},
+          "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-72330504?startFrom=0&pageSize=20&connected=",
+          "albumadamid": "957441582",
+          "isrc": "GBG3H1500106"
+        },
+        "tagid": "2C49AF7E-9141-44BA-BFA1-09918AD644D7"
+      },
+      "status": "match",
+      "match": {
+        "key": "72330504",
+        "title": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)",
+        "artist": "The Metropolitan Philharmonic Orchestra",
+        "serviceURL": "https://www.shazam.com/track/72330504/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg",
+                "caption": "The Metropolitan Philharmonic Orchestra"
+              },
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg",
+                "caption": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Grieg: Peer Gynt, Op. 46, Suite No. 1"
+              },
+              {
+                "title": "Label",
+                "text": "Arboretum"
+              },
+              {
+                "title": "Released",
+                "text": "2015"
+              }
+            ]
+          },
+          {
+            "type": "RELATED",
+            "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-72330504?startFrom=0&pageSize=20&connected=",
+            "tabname": "Related"
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/70034B03-C870-45CC-9117-28E1B6569FC0/2C49AF7E-9141-44BA-BFA1-09918AD644D7?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:08:34 GMT",
+          "X-Forensic-Id": "f26084dd-be21-4efe-a65e-683d4b818e50",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"590349524\",\"offset\":118.726,\"timeskew\":-6.082654E-4,\"frequencyskew\":-0.001408577}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778111963,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"72330504\",\"title\":\"Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)\",\"subtitle\":\"The Metropolitan Philharmonic Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg\",\"joecolor\":\"b:314777p:dfe0e4s:b4c4ddt:bcc1ceq:9aabc8\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/72330504\"}]},\"share\":{\"subject\":\"Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall) - The Metropolitan Philharmonic Orchestra\",\"text\":\"Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall) by The Metropolitan Philharmonic Orchestra\",\"href\":\"https://www.shazam.com/track/72330504/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall) by The Metropolitan Philharmonic Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/72330504?lang=en-US&country=GB\",\"avatar\":\"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/72330504\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"957441592\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/02/5c/9b/025c9b64-1b20-4d70-619d-ef13522c077c/mzaf_6255162747587624494.plus.aac.ep.m4a\"}],\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Peer%20Gynt%2C%20Op.%2046%2C%20IV.%20In%20the%20Hall%20of%20the%20Mountain%20King%20%28I%20Dovregubbens%20hall%29%20The%20Metropolitan%20Philharmonic%20Orchestra\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Peer+Gynt%2C+Op.+46%2C+IV.+In+the+Hall+of+the+Mountain+King+%28I+Dovregubbens+hall%29%27%20artist%3A%27The+Metropolitan+Philharmonic+Orchestra%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king/957441582?i=957441592&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king/957441582?i=957441592&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"},{\"caption\":\"BUY\",\"actions\":[{\"type\":\"uri\",\"uri\":\"https://itunes.apple.com/gb/album/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king/957441582?i=957441592&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"buy\",\"providername\":\"itunes\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"type\":\"buy\",\"listcaption\":\"Buy on iTunes\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"itunes\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/1b/b1/d6/1bb1d6bd-d90a-4003-978f-ac862c89bc72/pr_source.png/800x800cc.jpg\",\"caption\":\"The Metropolitan Philharmonic Orchestra\"},{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/96/d3/a8/96d3a83d-a787-c1be-6d92-d4c1ce60950a/cover.jpg/400x400cc.jpg\",\"caption\":\"Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Grieg: Peer Gynt, Op. 46, Suite No. 1\"},{\"title\":\"Label\",\"text\":\"Arboretum\"},{\"title\":\"Released\",\"text\":\"2015\"}]},{\"type\":\"RELATED\",\"url\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-72330504?startFrom=0&pageSize=20&connected=\",\"tabname\":\"Related\"}],\"url\":\"https://www.shazam.com/track/72330504/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king\",\"artists\":[{\"id\":\"42\",\"adamid\":\"951136362\"}],\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Peer+Gynt%2C+Op.+46%2C+IV.+In+the+Hall+of+the+Mountain+King+%28I+Dovregubbens+hall%29\",\"{trackartist}\":\"The+Metropolitan+Philharmonic+Orchestra\"},\"myshazam\":{\"apple\":{\"actions\":[{\"name\":\"myshazam:apple\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king/957441582?i=957441592&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}]}},\"highlightsurls\":{},\"relatedtracksurl\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-72330504?startFrom=0&pageSize=20&connected=\",\"albumadamid\":\"957441582\",\"isrc\":\"GBG3H1500106\"},\"tagid\":\"2C49AF7E-9141-44BA-BFA1-09918AD644D7\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 1519.588,
+      "sampleEndSeconds": 1539.588,
+      "requestedEndSeconds": 1539.588,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/1519.588-1539.588.wav",
+      "sha256": "80aecd718cdd334ace28b6e0976833f54fdde89a779f0b5f31dda3106e38252b",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1519.588",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/1519.588-1539.588.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:08:36.023075+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1519.588,
+        "sourceEndSeconds": 1531.588
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "814069398",
+            "offset": 142.83978125,
+            "timeskew": -5.6505203e-05,
+            "frequencyskew": -0.000120818615
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778117919,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "131080832",
+          "title": "Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King",
+          "subtitle": "Vienna Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "joecolor": "b:0d0e0bp:e6eef4s:e0e2e4t:bac1c5q:b6b8b9"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/131080832"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King - Vienna Orchestra",
+            "text": "Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King by Vienna Orchestra",
+            "href": "https://www.shazam.com/track/131080832/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King by Vienna Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/131080832?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/131080832"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1441605710"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0a/14/5e/0a145e8d-f751-f23e-5455-dccda60a1e91/mzaf_10052398371168163770.plus.aac.ep.m4a"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Peer%20Gynt%20Suite%20No.%201%2C%20Op.%2046%3A%20IV.%20In%20the%20Hall%20of%20the%20Mountain%20King%20Vienna%20Orchestra"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+IV.+In+the+Hall+of+the+Mountain+King%27%20artist%3A%27Vienna+Orchestra%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king/1441605705?i=1441605710&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king/1441605705?i=1441605710&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              },
+              {
+                "caption": "BUY",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/gb/album/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king/1441605705?i=1441605710&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "buy",
+                  "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+                  "caption": "Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Grieg: Peer Gynt Suite No. 1, Op. 46 - EP"
+                },
+                {
+                  "title": "Label",
+                  "text": "Vienna Orchestra"
+                },
+                {
+                  "title": "Released",
+                  "text": "2018"
+                }
+              ]
+            },
+            {
+              "type": "RELATED",
+              "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-131080832?startFrom=0&pageSize=20&connected=",
+              "tabname": "Related"
+            }
+          ],
+          "url": "https://www.shazam.com/track/131080832/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "528293465"
+            }
+          ],
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+IV.+In+the+Hall+of+the+Mountain+King",
+            "{trackartist}": "Vienna+Orchestra"
+          },
+          "myshazam": {
+            "apple": {
+              "actions": [
+                {
+                  "name": "myshazam:apple",
+                  "type": "uri",
+                  "uri": "https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king/1441605705?i=1441605710&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                }
+              ]
+            }
+          },
+          "highlightsurls": {},
+          "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-131080832?startFrom=0&pageSize=20&connected=",
+          "albumadamid": "1441605705",
+          "isrc": "QZ22B2024021"
+        },
+        "tagid": "9E1F27DC-0113-48CF-82A5-79B024650B20"
+      },
+      "status": "match",
+      "match": {
+        "key": "131080832",
+        "title": "Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King",
+        "artist": "Vienna Orchestra",
+        "serviceURL": "https://www.shazam.com/track/131080832/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+                "caption": "Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Grieg: Peer Gynt Suite No. 1, Op. 46 - EP"
+              },
+              {
+                "title": "Label",
+                "text": "Vienna Orchestra"
+              },
+              {
+                "title": "Released",
+                "text": "2018"
+              }
+            ]
+          },
+          {
+            "type": "RELATED",
+            "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-131080832?startFrom=0&pageSize=20&connected=",
+            "tabname": "Related"
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/0A45E64C-1EB6-4694-A5AA-C291B7F93E09/9E1F27DC-0113-48CF-82A5-79B024650B20?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:08:40 GMT",
+          "X-Forensic-Id": "4f389183-ad75-4fca-8860-0bf52d17ce18",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"814069398\",\"offset\":142.83978125,\"timeskew\":-5.6505203E-5,\"frequencyskew\":-1.20818615E-4}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778117919,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"131080832\",\"title\":\"Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King\",\"subtitle\":\"Vienna Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"joecolor\":\"b:0d0e0bp:e6eef4s:e0e2e4t:bac1c5q:b6b8b9\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/131080832\"}]},\"share\":{\"subject\":\"Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King - Vienna Orchestra\",\"text\":\"Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King by Vienna Orchestra\",\"href\":\"https://www.shazam.com/track/131080832/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King by Vienna Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/131080832?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/131080832\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1441605710\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0a/14/5e/0a145e8d-f751-f23e-5455-dccda60a1e91/mzaf_10052398371168163770.plus.aac.ep.m4a\"}],\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Peer%20Gynt%20Suite%20No.%201%2C%20Op.%2046%3A%20IV.%20In%20the%20Hall%20of%20the%20Mountain%20King%20Vienna%20Orchestra\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+IV.+In+the+Hall+of+the+Mountain+King%27%20artist%3A%27Vienna+Orchestra%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king/1441605705?i=1441605710&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king/1441605705?i=1441605710&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"},{\"caption\":\"BUY\",\"actions\":[{\"type\":\"uri\",\"uri\":\"https://itunes.apple.com/gb/album/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king/1441605705?i=1441605710&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"buy\",\"providername\":\"itunes\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"type\":\"buy\",\"listcaption\":\"Buy on iTunes\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"itunes\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"caption\":\"Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Grieg: Peer Gynt Suite No. 1, Op. 46 - EP\"},{\"title\":\"Label\",\"text\":\"Vienna Orchestra\"},{\"title\":\"Released\",\"text\":\"2018\"}]},{\"type\":\"RELATED\",\"url\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-131080832?startFrom=0&pageSize=20&connected=\",\"tabname\":\"Related\"}],\"url\":\"https://www.shazam.com/track/131080832/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king\",\"artists\":[{\"id\":\"42\",\"adamid\":\"528293465\"}],\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+IV.+In+the+Hall+of+the+Mountain+King\",\"{trackartist}\":\"Vienna+Orchestra\"},\"myshazam\":{\"apple\":{\"actions\":[{\"name\":\"myshazam:apple\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king/1441605705?i=1441605710&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}]}},\"highlightsurls\":{},\"relatedtracksurl\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-131080832?startFrom=0&pageSize=20&connected=\",\"albumadamid\":\"1441605705\",\"isrc\":\"QZ22B2024021\"},\"tagid\":\"9E1F27DC-0113-48CF-82A5-79B024650B20\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "sourceBytes": 622838416,
+        "sourceMtimeNs": 1791766442834026336
+      },
+      "sampleStartSeconds": 1539.588,
+      "sampleEndSeconds": 1559.574688,
+      "requestedEndSeconds": 1559.588,
+      "clip": "qa/soundtrack/fLxHVF1uiOE/clips/1539.588-1559.588.wav",
+      "sha256": "b0e2184ffac9ca684ddc5dcc3be303a9ba5e5044be06d8ff0f0736dcdd3ea88a",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1539.588",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/fLxHVF1uiOE/clips/1539.588-1559.588.wav"
+      ],
+      "actualAudioDurationSeconds": 19.986688,
+      "requestedAt": "2026-10-12T04:08:42.012016+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,gCX+ysHecv90AgAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAADwBAAAAHwAAAAAQHQCAABAAANgNwAAAP8tBQAAAM8qNQ0PaiokCUQEJT8JbpRGIQkDyUvBDBmTQ98JU4ckqg8BajDPCBaDIPgLDbwmXQsAQQADYLQAAAD/GgUAAAAkH7sRFbQh+CsBdSeBGwFrKHEYANsr0CIAxSRDJyz9G7kUF/0MZCdm9kndEgBWSnkpAYJL2yAU9kiKFgA8SlIiAfVOhhEaQU89EwBzTlkkABNVsyoA9VwcLgEqWEsaAHVQ5h1orBHvLAJlF80VAqwV9R4NnRBOLAFBEM4nAQAReyMHZxRPGAJHEtAdAkcQzCgBixnOEgr4Do0pAf0QPCYGBBjzFQHgGEERALoNRydCAANgaAEAAP8uBQAAAFEuA2oBnin1RAC4JYhSANkwE10A2C9WZQFxKTc0AGEvb1gBJSVrPTPoCS1UBogGclwC+wwMOgFCC05WBaUKojgCLwg/YltHPRNeC09RfD0AYU2BQwDpTrdIAG1JGFQAclSzaACuSb5uAa1P5TEAykrQXwEuRy5bEm5NiTMAwVJPRACZWGdQANRRzWcE6EfOXBhOTJQ0APpYT0EAq0sRSADlTXNYANNQOGgBF1r/MADeUdo3AJRQHj0AD1vkTgCTUjJSAMdPrmQA3E3ibAHMS0dVY9wISVoHgAkRaQTCEQQyAx4LSF0CFxDTQAMgCHZnAFoLim8B5Q+XRADuC2VeAbsPakoF8AiHawH/Dgw8ACQMJFIDDBL/MwDHCkFXAJAH1F8B5grRZgP9EYY3AYkLuk4ASgg/YQSPCwlbASYLPFUCywsoPQDOC2lCBJIOz0YEPw+XLgGEDkc5AcMO2TQAvgdwbA==",
+        "samplems": 19984,
+        "sampleRateHz": 16000,
+        "numberSamples": 319744,
+        "sourceStartSeconds": 1539.588,
+        "sourceEndSeconds": 1559.572
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778123885,
+        "timezone": "Europe/Moscow",
+        "tagid": "F751543E-BA16-4AAB-A222-D918778D4F94"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/5B7B0875-2619-4834-B648-5AD1101628E6/F751543E-BA16-4AAB-A222-D918778D4F94?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:08:46 GMT",
+          "X-Forensic-Id": "37b5d899-2a6b-4ea1-8608-dfbe706ce102",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778123885,\"timezone\":\"Europe/Moscow\",\"tagid\":\"F751543E-BA16-4AAB-A222-D918778D4F94\"}"
+      }
+    }
+  ],
+  "status": "probed",
+  "timingLimits": "Sample intervals and actual fingerprint intervals are evidence windows only, not cue boundaries. No listening claim.",
+  "recordingCandidates": [
+    {
+      "key": "71188704",
+      "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+      "artist": "Passionata Symphony Orchestra",
+      "serviceURL": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+      "evidence": [
+        {
+          "sampleStartSeconds": 0,
+          "sampleEndSeconds": 20.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 0,
+            "sourceEndSeconds": 12.0
+          },
+          "clip": "qa/soundtrack/fLxHVF1uiOE/clips/0.000-20.000.wav"
+        },
+        {
+          "sampleStartSeconds": 20,
+          "sampleEndSeconds": 40.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 20,
+            "sourceEndSeconds": 32.0
+          },
+          "clip": "qa/soundtrack/fLxHVF1uiOE/clips/20.000-40.000.wav"
+        }
+      ],
+      "adjacentIndependentConfirmation": true,
+      "independentMatchCount": 2,
+      "limits": "Recording candidate; evidence windows are not continuous cue boundaries."
+    },
+    {
+      "key": "72330504",
+      "title": "Peer Gynt, Op. 46, IV. In the Hall of the Mountain King (I Dovregubbens hall)",
+      "artist": "The Metropolitan Philharmonic Orchestra",
+      "serviceURL": "https://www.shazam.com/track/72330504/peer-gynt-op-46-iv-in-the-hall-of-the-mountain-king",
+      "evidence": [
+        {
+          "sampleStartSeconds": 1440,
+          "sampleEndSeconds": 1459.9925,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1440,
+            "sourceEndSeconds": 1452.0
+          },
+          "clip": "qa/soundtrack/fLxHVF1uiOE/clips/1440.000-1460.000.wav"
+        },
+        {
+          "sampleStartSeconds": 1499.588,
+          "sampleEndSeconds": 1519.588,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1499.588,
+            "sourceEndSeconds": 1511.588
+          },
+          "clip": "qa/soundtrack/fLxHVF1uiOE/clips/1499.588-1519.588.wav"
+        }
+      ],
+      "adjacentIndependentConfirmation": false,
+      "independentMatchCount": 2,
+      "limits": "Recording candidate; evidence windows are not continuous cue boundaries."
+    },
+    {
+      "key": "131080832",
+      "title": "Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King",
+      "artist": "Vienna Orchestra",
+      "serviceURL": "https://www.shazam.com/track/131080832/peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king",
+      "evidence": [
+        {
+          "sampleStartSeconds": 1519.588,
+          "sampleEndSeconds": 1539.588,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1519.588,
+            "sourceEndSeconds": 1531.588
+          },
+          "clip": "qa/soundtrack/fLxHVF1uiOE/clips/1519.588-1539.588.wav"
+        }
+      ],
+      "adjacentIndependentConfirmation": false,
+      "independentMatchCount": 1,
+      "limits": "Recording candidate; evidence windows are not continuous cue boundaries."
+    }
+  ],
+  "fingerprintMethod": "python_legacy",
+  "legacyRustRequestCount": 0
+}

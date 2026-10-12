@@ -2,16 +2,16 @@
   "id": "Yvl_7_Up7zU",
   "title": "donoteat this BONUS EPISODE 2: KILLDOZER!",
   "durationSeconds": 2003.568,
-  "premise": "The presenter dismantles the viral folk-hero account of Marvin Heemeyer by reconstructing Granby’s property, planning and sewer disputes, arguing that accommodation and sanitary-waste requirements—not an inaccessible ruined business—preceded the destructive rampage.",
-  "coverage": "Inspected all 39 original contact sheets and their 462 tiles, plus all four supplemental single-frame sheets (466 indexed frames across 43 sheets total). Original sampling: first available frame in every five-second bin plus FFmpeg scene-score >0.30 selections at 480px detection width. Read full timestamped machine-ASR transcript; full dialogue is source-derived by shared renderer, never authored excerpts. Camera/action descriptions rely on adjacent sampled frames; this is not continuous viewing and brief gags can be missed. Inspected four native targeted stills at requested 387.517, 696.2, 697.333 and 963.9 seconds. Registered and inspected portrait, CATHOLICS!, dust/noise-card and FINISHED SOME WORK supplements at actual source times 387.533, 696.2, 963.9 and 1363.733. Sound annotations identify metadata-documented music only with approximate section anchors; empty sound arrays mean unannotated, not silence.",
+  "premise": "The presenter challenges the viral folk-hero account of Marvin Heemeyer through Granby’s property, planning and sewer disputes. He traces the offers of accommodation and sewer-connection requirements that preceded the destructive rampage, disputing the story of a ruined business cut off from the road.",
+  "coverage": "The viral Heemeyer story, Granby’s land and sewer disputes, the armored rampage and the sanitation lesson, through the credits. The game town illustrates the geography; archival news footage shows the destruction. Historical claims and judgments about motives are the presenter’s account.",
   "panels": [
     {
       "startSeconds": 0,
       "frameNumber": 6,
       "heading": "Patron bonus and personal introduction",
       "description": "Cities: Skylines editor lays a curved dirt-road loop beside a paved road as the presenter explains the paid/pirated bonus and delayed production.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
-      "action": "Road previews and completed road segments change across the opening samples.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
+      "action": "Road previews appear and completed segments extend the loop.",
       "sound": [],
       "visualGag": null,
       "notes": null
@@ -21,7 +21,7 @@
       "frameNumber": 9,
       "heading": "Never meet your heroes",
       "description": "The game view widens to the road loop and sparse buildings; the presenter announces the popular-demand Killdozer episode.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Road-building continues; no Killdozer action is depicted.",
       "sound": [],
       "visualGag": null,
@@ -32,22 +32,22 @@
       "frameNumber": 14,
       "heading": "The viral folk-hero account",
       "description": "A Facebook screenshot by Tyler Macfarlane replaces the game, introducing a reasonable man driven to unreasonable action.",
-      "camera": "Cut from game to screenshot; subsequent samples show its vertical crop shifting.",
+      "camera": "Cut from game to screenshot; the screenshot shows its vertical crop shifting.",
       "action": "The screenshot scroll/crop progressively exposes later paragraphs.",
       "sound": [],
       "visualGag": null,
-      "notes": "Quoted account is being challenged, not endorsed; ASR says 2014 later, but visible post says 2004."
+      "notes": "The Facebook post dates the rampage to 2004. The presenter challenges its folk-hero account."
     },
     {
       "startSeconds": 83,
       "frameNumber": 22,
       "heading": "Access-road claim versus corrections",
       "description": "The same Facebook account is shown while narration rates its muffler-shop, access-road and petition assertions.",
-      "camera": "Screenshot shifts vertically across adjacent samples.",
+      "camera": "Screenshot shifts vertically.",
       "action": "Later paragraphs move into the visible crop.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter calls the blocked-road claim incorrect; actual geographical comparison comes later."
+      "notes": "The presenter calls the blocked-road claim incorrect; the geographical comparison follows later."
     },
     {
       "startSeconds": 137,
@@ -58,7 +58,7 @@
       "action": "Text continues to be revealed.",
       "sound": [],
       "visualGag": null,
-      "notes": "This sets up the long sanitation explanation rather than proving a historical fact independently."
+      "notes": "The disputed sewer claim leads into the sanitation explanation."
     },
     {
       "startSeconds": 160,
@@ -76,7 +76,7 @@
       "frameNumber": 50,
       "heading": "The myth completes its rampage",
       "description": "The lower post and attached Killdozer photograph appear as the quoted account celebrates buildings destroyed and a folk hero.",
-      "camera": "Vertical screenshot reframing across samples.",
+      "camera": "The screenshot’s vertical crop shifts down the post.",
       "action": "Lower text and attached photograph enter view.",
       "sound": [],
       "visualGag": null,
@@ -91,18 +91,18 @@
       "action": "No live vehicle motion; attached image is a photograph.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter rejects the account as inaccurate, announcing map and diorama examination."
+      "notes": null
     },
     {
       "startSeconds": 294,
       "frameNumber": 63,
       "heading": "Patrick Brower is the source",
       "description": "Killdozer book cover by Patrick Brower overlays the forested game editor.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "The cover is static while the background game view changes.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter identifies Brower as local reporter and one of the perceived targets; this is source attribution."
+      "notes": "The presenter identifies Patrick Brower as a local reporter and one of Heemeyer’s perceived targets."
     },
     {
       "startSeconds": 333,
@@ -124,14 +124,14 @@
       "action": "Handwritten labels/arrow, no human action.",
       "sound": [],
       "visualGag": null,
-      "notes": "ASR misrenders Granby as Grand Beach; map spelling resolves it."
+      "notes": "The map names Granby."
     },
     {
       "startSeconds": 350,
       "frameNumber": 76,
       "heading": "A small auto-oriented town",
       "description": "Granby aerial map gains red street lines, a Route 40 line, circles and arrows for the town layout.",
-      "camera": "Static map with changing drawn annotations across samples.",
+      "camera": "The map stays fixed while drawn annotations are added.",
       "action": "Annotations point out streets, station, housing and city hall.",
       "sound": [],
       "visualGag": null,
@@ -142,10 +142,10 @@
       "frameNumber": 78,
       "heading": "Zero Street and the two-dimensional model",
       "description": "The map gives way to the game editor with the modeled railway station, tracks and street grid; narrator corrects the numbered-street count and remarks on Zero Street.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
-      "action": "The game reconstruction is assembled; adjacent samples show changing views.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
+      "action": "The editor shows the town reconstruction from changing viewpoints.",
       "sound": [],
-      "visualGag": "Spoken surprise at Zero Street punctures the town survey; the limited-model admission continues around the following portrait introduction and yard reveal.",
+      "visualGag": "The narrator’s surprise at Zero Street interrupts the town survey. His next admission, that he left out the hills, makes the reconstruction less grand.",
       "notes": null
     },
     {
@@ -153,21 +153,21 @@
       "frameNumber": 463,
       "heading": "Introducing Heemeyer with a portrait",
       "description": "A close-up photograph of a smiling gray/white-haired, bearded man overlays the game editor and station during the introduction of Marvin Heemeyer.",
-      "camera": "Static portrait overlay; source inspection reported by QA places this insert about 385.03–390 seconds, not a moving portrait shot.",
+      "camera": "Static portrait overlay.",
       "action": "Still photograph; no live facial action.",
       "sound": [],
       "visualGag": null,
-      "notes": "Identity is contextual to the narrated introduction, not labelled in the photograph. Native requested still at 387.517; registered representative actual source time 387.533."
+      "notes": "The portrait accompanies Heemeyer’s introduction but has no identifying label."
     },
     {
       "startSeconds": 390,
       "frameNumber": 84,
       "heading": "The shop reconstructed without hills",
       "description": "Game imagery returns to a dirt-road industrial yard bordered by trees, sheds and vehicles.",
-      "camera": "Adjacent samples at 393.433, 395 and 400 seconds show changing angle and scale around the modeled yard; precise continuous camera path is not established.",
-      "action": "The editor presents the illustrative yard; it is not footage of historical construction.",
+      "camera": "Changing angles and scale around the modeled yard.",
+      "action": "The editor presents the reconstructed industrial yard.",
       "sound": [],
-      "visualGag": "The limited-model admission pays off the preceding town survey: narrator says the hills were more than he wanted to deal with, qualifying the reconstruction rather than claiming a faithful terrain model.",
+      "visualGag": "After surveying the town, the narrator admits the hills were more than he wanted to deal with. The flat game model gives away the shortcut.",
       "notes": null
     },
     {
@@ -175,11 +175,11 @@
       "frameNumber": 91,
       "heading": "Welder, property and Cody Docheff",
       "description": "Game street grid alternates with a satellite locator; $42,000 IN 1992 and CODY DOCHEFF labels identify the auction and former owner.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Road/building editing and explanatory text overlays.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter distinguishes Heemeyer from an idealized leftist/anarchist hero."
+      "notes": null
     },
     {
       "startSeconds": 435,
@@ -197,10 +197,10 @@
       "frameNumber": 98,
       "heading": "This story is about poop",
       "description": "A large smiling poop emoji overlays the shop/editor view.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Emoji appears as a static overlay.",
       "sound": [],
-      "visualGag": "Payoff to the property setup: the heroic Killdozer premise is bluntly replaced by a giant smiling poop; this returns at 19:05.",
+      "visualGag": "A giant smiling poop emoji replaces the heroic Killdozer story with a sewer problem. It returns when the dispute comes back to waste disposal.",
       "notes": null
     },
     {
@@ -208,10 +208,10 @@
       "frameNumber": 102,
       "heading": "What a proper septic tank would do",
       "description": "Hand-drawn turquoise-and-brown cross-section labels SEPTIC TANK, POOP THAT FLOATS, POO GAS and CLEAN WATER TO LEECH; a sunglasses-wearing sun smiles above it.",
-      "camera": "Static diagram insert; repeated samples show the same composition.",
-      "action": "Diagram represents settling and drainage, not filmed physical flow.",
+      "camera": "The diagram holds on screen.",
+      "action": "The drawing shows how waste settles and water drains from the tank.",
       "sound": [],
-      "visualGag": "Technical instruction is deliberately drawn with repeated poop labels and an incongruously cool cartoon sun; establishes the diagram style reused for backup and lift station.",
+      "visualGag": "Blunt poop labels and a sunglasses-wearing sun turn the septic lesson into a cartoon. The same style returns for the blocked sewer and lift station.",
       "notes": null
     },
     {
@@ -222,7 +222,7 @@
       "camera": "Cut from cartoon diagram to static truck photograph.",
       "action": "Photograph only.",
       "sound": [],
-      "visualGag": "The proper-septic setup pays off with an improvised old concrete-truck barrel as sewage storage; the visual comparison underscores the absurd substitution, not a moving burial scene.",
+      "visualGag": "After the proper septic-tank diagram, a concrete mixer illustrates the discarded truck barrel used to store sewage. The substitution makes the improvised system look absurd.",
       "notes": null
     },
     {
@@ -231,17 +231,17 @@
       "heading": "Concrete has a ticking clock",
       "description": "Tall construction-site photograph showing many concrete delivery/pumping lines overlays the editor.",
       "camera": "Static photographic insert over reframed game background.",
-      "action": "Still photograph; no concrete motion established.",
+      "action": "The construction-site photograph holds on screen.",
       "sound": [],
       "visualGag": null,
-      "notes": "Illustrates the presenter’s aside about rejected/hardened loads and discarded drums, not a photograph of this specific buried tank."
+      "notes": "The construction photograph illustrates hardened concrete loads and discarded drums, not this particular buried sewage tank."
     },
     {
       "startSeconds": 535,
       "frameNumber": 119,
       "heading": "Annexation and a private hookup",
       "description": "Game shops and street grid return while narration explains a hundred feet of line and a lift station at the owner’s expense.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Building and road previews change; sewer construction is narrated, not visibly performed.",
       "sound": [],
       "visualGag": null,
@@ -256,14 +256,14 @@
       "action": "Drawn pipe topology.",
       "sound": [],
       "visualGag": "Setup of the toilet-backup gag: cheerful crude drawing makes the engineering explanation concrete; same sun and poop vocabulary as the septic panel.",
-      "notes": "Narrator explicitly refers viewers to Franklin episode 6 for open-channel flow."
+      "notes": "The narrator refers viewers to Franklin episode 6 for open-channel flow."
     },
     {
       "startSeconds": 568,
       "frameNumber": 124,
       "heading": "Poop gets stuck",
       "description": "Diagram switches to an uphill pipe and the label POOP GETS STUCK.",
-      "camera": "Diagram changes between adjacent samples; not a camera move.",
+      "camera": "Diagram changes.",
       "action": "The pipe shape and label change.",
       "sound": [],
       "visualGag": "Middle beat of gravity-flow gag: trying to send sewage uphill produces a blunt POOP GETS STUCK warning, leading to the toilet eruption.",
@@ -285,10 +285,10 @@
       "frameNumber": 129,
       "heading": "Lift station resolves the cartoon failure",
       "description": "Diagram adds a deep vertical wetwell, black pump/grinder and discharge pipe above the hill.",
-      "camera": "Static diagram with labels appearing/changing across samples.",
+      "camera": "The diagram stays fixed as its labels change.",
       "action": "Wetwell and PUMP/GRINDER annotations identify the mechanism.",
       "sound": [],
-      "visualGag": "Resolution of the stuck/backup sequence; returns to sober engineering but keeps the same poop-and-cool-sun cartoon language.",
+      "visualGag": "The pump resolves the blocked-pipe and erupting-toilet sequence. The engineering gets practical again, but the poop labels and cool sun remain.",
       "notes": null
     },
     {
@@ -296,18 +296,18 @@
       "frameNumber": 136,
       "heading": "Seventy thousand dollars and cheaper alternatives",
       "description": "The game editor resumes placing shop/parking elements while the presenter prices the required private sewer work and mentions a cheaper proper septic tank.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Parking and building assets are selected/placed.",
       "sound": [],
       "visualGag": null,
-      "notes": "Cost and district practice are presenter claims, not independently verified here."
+      "notes": "The cost and district-practice claims are the presenter’s."
     },
     {
       "startSeconds": 644,
       "frameNumber": 145,
       "heading": "Normal hookup becomes conspiracy",
       "description": "Industrial sheds and streets are edited while narration explains Heemeyer’s suspicion of sewer-board member Ron Thompson and his family excavation company.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "The game viewport and building selections change.",
       "sound": [],
       "visualGag": "Setup for the Catholic/Irish-republican cutaway in the next panel: the narrator ends the perceived-conspiracy escalation with worst of all, Catholics.",
@@ -318,34 +318,34 @@
       "frameNumber": 464,
       "heading": "Worst of all: CATHOLICS!",
       "description": "Oversized white CATHOLICS! text appears across the industrial game-editor view.",
-      "camera": "Static text overlay on the editor; the brief insert is established by native targeted stills and QA source inspection.",
-      "action": "Text caption, not a filmed religious group.",
+      "camera": "Static text overlay on the editor.",
+      "action": "The CATHOLICS! caption appears over the editor.",
       "sound": [],
       "visualGag": "The perceived sewer-board conspiracy culminates in a mock-horrified CATHOLICS! reveal. This sets up the immediately following masked armed-group cutaway and later Catholic/IRA callbacks.",
-      "notes": "Actual selected frame is 696.2 seconds. The panel start is a narrative grouping boundary informed by QA approximate insert onset, not a verified frame-exact cut claim."
+      "notes": null
     },
     {
       "startSeconds": 697.333,
       "frameNumber": 149,
       "heading": "Catholics: unrelated armed cutaway",
-      "description": "Black-and-white photograph of a group of masked, armed people in an alley abruptly overlays the editor; native reread reveals additional partly occluded figures behind the foreground people.",
-      "camera": "Abrupt cutaway, then return to game by 11:39.633.",
+      "description": "A black-and-white photograph of masked, armed people in an alley abruptly overlays the editor, with partly obscured figures behind the foreground group.",
+      "camera": "An abrupt photographic cutaway interrupts the game view, which then returns.",
       "action": "Still photograph, not live armed action.",
       "sound": [
         {
           "startSeconds": 698.36,
-          "text": "Spoken slogan, user-confirmed: “Tiocfaidh ár lá” (“our day will come”), after the deadpan “unrelated” in the Catholic/Irish-republican cutaway gag. Raw ASR incorrectly renders “Chucky R. Law,”; it is not a person. Coarse cue anchored to the first misrecognized source word at 698.36s, not independently measured audio onset. The gag is not an endorsement of the armed group."
+          "text": "The deadpan “unrelated” is followed by “Tiocfaidh ár lá” (“our day will come”) over the Catholic/Irish-republican cutaway."
         }
       ],
-      "visualGag": "Payoff to the preceding CATHOLICS! card: the ostensibly unrelated masked armed-group image redirects the Catholic-prejudice punchline toward an Irish-republican association, accompanied by the user-confirmed slogan “Tiocfaidh ár lá” (“our day will come”). The armed-woman photograph and explicit IRA graphic later repeat the same slogan/cutaway gag; not an endorsement of the armed group.",
-      "notes": "Native still inspected: visual/Yvl_7_Up7zU/targeted/at-697.333s.png. The user confirms the spoken phrase as “Tiocfaidh ár lá,” not raw ASR’s false-person rendering “Chucky R. Law,”. Raw word span 698.36–699.2s supplies the coarse annotation anchor; the user’s approximately11:37.5 reference introduces the sequence, not an independently measured slogan onset. Photograph subjects and original image source remain unknown; later explicit IRISH REPUBLICAN ARMY graphic establishes the running-gag association. Raw transcript remains unchanged; the correction sidecar supplies reviewed display wording."
+      "visualGag": "The CATHOLICS! card cuts to masked, armed people as the narrator calls the image “unrelated.” The slogan makes the Irish-republican association obvious. An armed-woman photograph and an IRA graphic later repeat the joke.",
+      "notes": "The cutaways are a running joke, not an endorsement of the armed group. The people in the photographs are unidentified."
     },
     {
       "startSeconds": 711.9,
       "frameNumber": 155,
       "heading": "Extortion by government fiat",
       "description": "Game returns; large quoted overlay reads EXTORTION BY GOVERNMENT FIAT as the sewer dispute is narrated.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Static quotation overlays the changing editor.",
       "sound": [],
       "visualGag": "Sarcastic quotation frames an ordinary private hookup bill as grand governmental extortion; connected to the conspiracy/Catholic escalation.",
@@ -356,11 +356,11 @@
       "frameNumber": 160,
       "heading": "Ignored hookup; 1997 concrete proposal",
       "description": "The game industrial plot develops, 1997 appears, and a red-outlined aerial parcel returns.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Prop/building editing and static map inset.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter says the board annexed the property and tolerated the missing connection before the Docheffs proposed a plant."
+      "notes": "The presenter says the board annexed the property and tolerated the missing connection before the plant proposal."
     },
     {
       "startSeconds": 747,
@@ -379,17 +379,17 @@
       "heading": "The rotary-kiln distinction",
       "description": "Photograph of a large rotary kiln overlays the game.",
       "camera": "Static comparison insert.",
-      "action": "No kiln operation inferred from still.",
+      "action": "The kiln photograph holds on screen.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter explicitly says the proposed enclosed batch plant was not this dustier outdoor kiln type."
+      "notes": "The proposed enclosed batch plant is distinguished from the dustier outdoor kiln."
     },
     {
       "startSeconds": 802,
       "frameNumber": 178,
       "heading": "Joe Docheff negotiates: first price",
       "description": "Aerial parcels are outlined in blue/red; game then displays $250,000.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Maps and text identify lots and asking price.",
       "sound": [],
       "visualGag": "Setup for escalating asking-price series; ordinary negotiations become a moving target in the following two panels.",
@@ -400,7 +400,7 @@
       "frameNumber": 182,
       "heading": "The price moves to $375,000",
       "description": "Large $375,000 label overlays the game as the presenter describes Joe returning with the initially requested money.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Static price overlay.",
       "sound": [],
       "visualGag": "First payoff to $250,000 setup: meeting the asking price immediately causes a higher demand; connects forward to $450,000.",
@@ -411,7 +411,7 @@
       "frameNumber": 186,
       "heading": "The price moves again to $450,000",
       "description": "Large $450,000 label overlays the same town-building context.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Static price overlay.",
       "sound": [],
       "visualGag": "Second payoff of the escalating-price visual series: even an outside investor and $350,000 offer cannot stop the target moving.",
@@ -426,15 +426,15 @@
       "action": "Parcel outlines show alternatives.",
       "sound": [],
       "visualGag": null,
-      "notes": "Narrated failed attempt to buy land out from under the Docheffs is not shown as a transaction."
+      "notes": null
     },
     {
       "startSeconds": 888,
       "frameNumber": 200,
       "heading": "Land swap and a new building demand",
       "description": "Game camera closes on a READY 2 ROLL auto-shop asset in a dirt yard; trucks, trees and other props accumulate.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
-      "action": "Adjacent samples show dirt texture, trees and parked vehicles added around the shop.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
+      "action": "The view shows dirt texture, trees and parked vehicles added around the shop.",
       "sound": [],
       "visualGag": "Continuation of the moving-target negotiation motif: the proposed swap also gains a demand for a 4,000-square-foot building; model is illustrative, not literal historical shop branding.",
       "notes": null
@@ -444,7 +444,7 @@
       "frameNumber": 203,
       "heading": "NIMBY activist",
       "description": "Large NIMBY ACTIVIST text appears over the shop yard, followed by a satellite circle around nearby housing.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Caption identifies the new activist role; housing map is static.",
       "sound": [],
       "visualGag": "The increasingly demanding seller gets a mock job-title reveal, NIMBY ACTIVIST, connecting the land negotiation to his opposition campaign.",
@@ -455,7 +455,7 @@
       "frameNumber": 208,
       "heading": "Illegal rezoning in scare quotes",
       "description": "The cluttered auto-shop yard carries the quoted caption ILLEGAL REZONING.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Static ironic text over editor.",
       "sound": [],
       "visualGag": "The scare-quoted illegal-rezoning complaint is undercut by narration that the site already had concrete zoning; it sets up the next explicit dust/noise quote over a muffler-shop yard.",
@@ -466,30 +466,30 @@
       "frameNumber": 465,
       "heading": "A muffler shop fears dust and noise",
       "description": "Quoted caption WHOSE DUST AND NOISE WOULD RUIN HIS BUSINESS fills the screen over the READY 2 ROLL shop yard, parked vehicles, equipment and dirt.",
-      "camera": "Static caption over editor view. Native still establishes the brief insert at actual source time 963.9; QA source inspection reports a roughly 963.4–964.1 display interval.",
+      "camera": "The caption stays fixed over the editor view.",
       "action": "Caption overlays the modeled industrial yard; no historical owner is shown complaining.",
       "sound": [],
       "visualGag": "Payoff to NIMBY ACTIVIST and ILLEGAL REZONING: the noisy/dirty nature of a muffler-repair shop undercuts its owner's dust/noise grievance, with the visibly industrial yard reinforcing the contrast.",
-      "notes": "Panel begins with the spoken grievance setup, not the exact overlay cut; selected frame lies within the derived 961.9–978 interval. Native reread: visual/Yvl_7_Up7zU/targeted/at-963.900s.png."
+      "notes": null
     },
     {
       "startSeconds": 978,
       "frameNumber": 220,
       "heading": "Hearings and concessions",
       "description": "Game shifts from shop yard to a Food Lion-like building and its parking lot while the presenter recounts rejected negotiations, hearings, suit, dust/noise controls and landscaping.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Parking elements and landscaping are edited.",
       "sound": [],
       "visualGag": null,
-      "notes": "These editor assets are explanatory background, not footage of the actual hearings."
+      "notes": null
     },
     {
       "startSeconds": 1026,
       "frameNumber": 230,
       "heading": "Restarted approval; opposition ebbs",
       "description": "Game street and lots gain shrubs, parked spaces and props as the presenter describes redoing legal procedure and Fay Rumsey’s letter.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
-      "action": "Landscaping and asset placement change across samples.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
+      "action": "Landscaping and asset placement change.",
       "sound": [],
       "visualGag": null,
       "notes": null
@@ -499,7 +499,7 @@
       "frameNumber": 235,
       "heading": "A corrupt town allows a shed",
       "description": "Caption reads SCREWED OVER BY A CORRUPT AND DISHONEST TOWN over the game industrial yard; sheds and trailers then populate it.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Ironic quoted caption, then props added.",
       "sound": [],
       "visualGag": "The enormous grievance language is juxtaposed with narration’s deliberately mundane offense: allowing a shed across from an auto shop; payoff to extortion and illegal-rezoning captions.",
@@ -510,8 +510,8 @@
       "frameNumber": 244,
       "heading": "Construction proceeds despite lawsuit",
       "description": "The game yard fills with warehouse, trailers, stacked yellow materials and trucks as the presenter describes the Docheffs accepting litigation risk.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
-      "action": "Adjacent samples show the illustrative industrial model gaining stock and vehicles.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
+      "action": "The view shows the illustrative industrial model gaining stock and vehicles.",
       "sound": [],
       "visualGag": null,
       "notes": null
@@ -524,7 +524,7 @@
       "camera": "Overlay on changing game view.",
       "action": "Static emoji.",
       "sound": [],
-      "visualGag": "Direct callback to 7:35: the supposedly grand dispute returns to sanitation at Joe’s proposed solution.",
+      "visualGag": "The smiling poop emoji returns as Joe’s proposed solution brings the supposedly grand dispute back to sewage.",
       "notes": null
     },
     {
@@ -535,7 +535,7 @@
       "camera": "Caption overlay followed by static map insert.",
       "action": "Drawn watercourse route, not filmed waste discharge.",
       "sound": [],
-      "visualGag": "Connected setup/payoff to up shit creek: repeated literally insists the idiom means actual sewage dumped into the irrigation ditch; emoji pivot is its setup.",
+      "visualGag": "“Up shit creek” becomes literal. The captions insist on actual sewage in the irrigation ditch, then the map traces the watercourse.",
       "notes": null
     },
     {
@@ -543,7 +543,7 @@
       "frameNumber": 260,
       "heading": "Neighbors complain; illegal line fails",
       "description": "Game parking lots and street edges are edited while narration describes rain-dependent pumping and a rejected unauthorized neighbor hookup.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Parking/tree assets change; no historical pumping or trench-digging is visibly filmed.",
       "sound": [],
       "visualGag": null,
@@ -554,10 +554,10 @@
       "frameNumber": 268,
       "heading": "Town compels a sanitary connection",
       "description": "Game shrubs and roads continue changing as the presenter recounts July 2001 enforcement and leniency.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Tree/brush edits continue.",
       "sound": [],
-      "visualGag": "Narration’s clearly unreasonable demand to stop dumping literal shit is sarcastic payoff to Heemeyer’s earlier extortion framing; no separate insert is claimed.",
+      "visualGag": "The narrator sarcastically calls the demand to stop dumping sewage “clearly unreasonable,” returning to Heemeyer’s earlier claims of extortion.",
       "notes": null
     },
     {
@@ -565,11 +565,11 @@
       "frameNumber": 273,
       "heading": "A free connection is rejected",
       "description": "The game town model remains on screen as narration describes Joe’s free easement and construction offer, the hang-up and lost suit.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Background editing continues; the phone call is not visually reenacted.",
       "sound": [],
       "visualGag": null,
-      "notes": "A decisive reversal in presenter’s argument: accommodation rather than ruined livelihood."
+      "notes": null
     },
     {
       "startSeconds": 1279,
@@ -580,7 +580,7 @@
       "action": "Photographed vehicle does not move.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter introduces the purchase-purpose myth before demonstrating access remained available."
+      "notes": null
     },
     {
       "startSeconds": 1298,
@@ -591,7 +591,7 @@
       "action": "Map only.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter identifies this as 1999; comparison partner follows."
+      "notes": null
     },
     {
       "startSeconds": 1301,
@@ -602,7 +602,7 @@
       "action": "Map comparison only.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter identifies this as 2005 and argues the dirt-road connection was never severed."
+      "notes": null
     },
     {
       "startSeconds": 1338,
@@ -620,22 +620,22 @@
       "frameNumber": 466,
       "heading": "Until he finished some work",
       "description": "Large white quoted text FINISHED SOME WORK overlays the game town grid and commercial buildings.",
-      "camera": "Static quoted text overlay; supplemental source frame at 1363.733 establishes the brief insert that regular sampling missed.",
+      "camera": "Static quoted text overlay.",
       "action": "Text overlay, not footage of welding or armor construction.",
       "sound": [],
-      "visualGag": "The leaseback explanation supplies the setup: he stays until he finished some work. Scare quotes turn that ordinary euphemism into the covert armored-bulldozer project revealed by the following MK TANK panel. Connected setup and reveal, not an isolated text card.",
-      "notes": "Panel boundary groups the end of the spoken leaseback setup with the slightly later visual caption. QA brief-sheet inspection located approximate card cut at1363.43; frame timestamp is actual1363.733."
+      "visualGag": "The leaseback’s innocent-sounding “finished some work” appears in scare quotes before the MK TANK reveal: Heemeyer has been secretly building an armored bulldozer.",
+      "notes": null
     },
     {
       "startSeconds": 1364.1,
       "frameNumber": 302,
       "heading": "Marv’s Komatsu tank",
       "description": "Water-information view is followed by MK TANK / MARV’S KOMATSU TANK label.",
-      "camera": "Game overlay mode changes; viewport shifts across adjacent samples.",
+      "camera": "Game overlay mode changes; viewport shifts.",
       "action": "Tank name is written as static text.",
       "sound": [],
       "visualGag": "Reveal/payoff to the preceding FINISHED SOME WORK scare-quote card: the innocuous leaseback work becomes Marv’s Komatsu tank, an armored bulldozer secretly built in the retained shop space.",
-      "notes": "Presenter says failure to sell the bulldozer was treated as a divine sign; this is attributed psychological interpretation."
+      "notes": "The presenter says Heemeyer interpreted the failed bulldozer sale as a divine sign."
     },
     {
       "startSeconds": 1394,
@@ -647,22 +647,22 @@
       "sound": [
         {
           "startSeconds": 1394.14,
-          "text": "Music identification from downloaded description: feature montage uses Brahms, Tragic Overture Op. 81 (Musopen Symphony). Caption anchored approximately to narrated feature section, not a source-listened onset."
+          "text": "Brahms’s Tragic Overture, Op. 81, performed by the Musopen Symphony, accompanies the feature montage."
         }
       ],
       "visualGag": null,
-      "notes": "Presenter describes steel/concrete sandwich thickness; images do not independently measure it."
+      "notes": "Armor thickness is the presenter’s description, not a measurement from the photograph."
     },
     {
       "startSeconds": 1400,
       "frameNumber": 308,
       "heading": "Weapons mounted inside",
-      "description": "Interior photograph shows a rifle/optic mounted through a metal opening; subsequent samples show other mounted weapons.",
+      "description": "An interior photograph shows a rifle and optic mounted through a metal opening. Other mounted weapons follow in the photographic sequence.",
       "camera": "Cuts among static weapon photographs.",
       "action": "No firing or weapon handling is shown.",
       "sound": [],
       "visualGag": null,
-      "notes": "Exact gun names/calibers are uncertain ASR and explicitly disclaimed by presenter."
+      "notes": "Gun names and calibers remain uncertain; the presenter disclaims expertise."
     },
     {
       "startSeconds": 1416,
@@ -684,7 +684,7 @@
       "action": "Arrows change; vehicle and people are photographed, not moving.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter argues a hatch existed and rejects permanent entombment; visible arrows guide that explanation."
+      "notes": "The presenter argues there was a hatch and rejects the entombment story."
     },
     {
       "startSeconds": 1448,
@@ -692,10 +692,10 @@
       "heading": "Cabin monitors",
       "description": "Vertical interior photograph shows wires, equipment and a person looking into an opening.",
       "camera": "Cut from exterior to static interior photograph.",
-      "action": "No live person movement inferred.",
+      "action": "The person and cabin equipment appear in a still photograph.",
       "sound": [],
       "visualGag": null,
-      "notes": "Supports cabin description; not an independently legible count of monitors at contact-sheet scale."
+      "notes": "The photograph illustrates the cabin interior; the presenter describes its monitors."
     },
     {
       "startSeconds": 1459,
@@ -706,7 +706,7 @@
       "action": "Arrow points to feature.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter describes porthole, plexiglass/visor and extra cooling; only literal opening/arrow claimed visually."
+      "notes": "The presenter describes a porthole, visor and extra cooling; the photograph shows an opening and arrow."
     },
     {
       "startSeconds": 1476,
@@ -727,7 +727,7 @@
       "camera": "Abrupt cut from armored vehicle to isolated appliance photograph.",
       "action": "Static appliance photograph.",
       "sound": [],
-      "visualGag": "Payoff to the blade/ripper feature catalogue: mundane window AC is an incongruous final amenity for an armored rampage machine; not proof this exact appliance was installed.",
+      "visualGag": "The blade-and-ripper catalogue ends with an ordinary window air conditioner on black. Domestic comfort makes an incongruous final amenity for the armored bulldozer.",
       "notes": null
     },
     {
@@ -735,10 +735,10 @@
       "frameNumber": 340,
       "heading": "Poop bucket and old habits",
       "description": "Game water/power information screens return over the modeled town.",
-      "camera": "Adjacent five-second samples show the game viewport changing position, scale and angle while editing; exact continuous camera path is not established.",
+      "camera": "The editor view changes position, scale and angle around the game town.",
       "action": "Information mode and asset selections change.",
       "sound": [],
-      "visualGag": "Spoken bucket/dump-in-ditch callback to the sewer dispute; the previous comfort panel becomes ironic because living quarters lack water/sewage. No bucket image was observed.",
+      "visualGag": "The narrator returns to the bucket-and-ditch sewage story because the living quarters lacked water and sewers. “Old habits die hard” undercuts the preceding air-conditioning luxury.",
       "notes": null
     },
     {
@@ -746,34 +746,34 @@
       "frameNumber": 347,
       "heading": "Cannot do the rampage in the game",
       "description": "Game water view cuts to CBS4 archival aerial footage labelled BREAKING NEWS / Granby / EARLIER, showing armored dozer moving near another yellow machine.",
-      "camera": "Cut from game to aerial news video; adjacent samples show vehicle position changing.",
-      "action": "Dozer travels along roadway; source is edited archival footage.",
+      "camera": "The game cuts to aerial news footage following the vehicles.",
+      "action": "The dozer travels along the roadway in the archival footage.",
       "sound": [],
       "visualGag": null,
-      "notes": "Narrator admits inability to recreate this part in Cities: Skylines."
+      "notes": "The narrator says he cannot recreate the rampage in Cities: Skylines."
     },
     {
       "startSeconds": 1530,
       "frameNumber": 350,
       "heading": "Catholic Church target: armed callback",
       "description": "Black-and-white still of an armed woman with another person behind her interrupts the news video.",
-      "camera": "Abrupt cutaway then return to footage at 25:35.6.",
+      "camera": "The still photograph briefly interrupts the aerial news footage.",
       "action": "Static photograph.",
       "sound": [
         {
           "startSeconds": 1533.7,
-          "text": "Spoken slogan callback, user-confirmed: “Tiocfaidh ár lá” (“our day will come”), again after “unrelated” with the Catholic Church/armed-woman cutaway. Raw ASR incorrectly renders “Chucky R. Law,”. Coarse cue anchored to source word start1533.7s; not independently measured audio onset. This repeats the Irish-republican gag, not endorsement of an armed group."
+          "text": "“Tiocfaidh ár lá” (“our day will come”) returns after “unrelated” over the armed-woman photograph."
         }
       ],
-      "visualGag": "Callback to the first Catholic/Irish-republican cutaway: the Catholic Church target triggers another supposedly unrelated armed image and repeats the user-confirmed “Tiocfaidh ár lá” (“our day will come”) slogan; connects forward to the explicit IRA graphic and third slogan repetition. Not an endorsement of the armed group.",
-      "notes": "User-confirmed spoken slogan is “Tiocfaidh ár lá,” not raw ASR’s “Chucky R. Law,”. Raw word span1533.7–1534.64s supplies a coarse anchor, not independently measured audio timing. Photograph does not establish the individuals’ identities or original image source. Raw transcript is unchanged; reviewed display wording comes from the correction sidecar."
+      "visualGag": "The Catholic Church target prompts another supposedly “unrelated” armed photograph. The Irish slogan repeats the masked-group joke and sets up the later IRA graphic.",
+      "notes": null
     },
     {
       "startSeconds": 1536,
       "frameNumber": 353,
       "heading": "Scraper confronts the dozer",
       "description": "News aerial view shows long yellow scraper and armored dozer close together along street.",
-      "camera": "Aerial tracking/reframing established by adjacent footage samples; precise path not reconstructed.",
+      "camera": "The aerial camera follows the vehicles along the street.",
       "action": "Vehicles change relative position along the street.",
       "sound": [],
       "visualGag": "Sets up the Docheff-name gag card in the next panel within a serious target-list narration.",
@@ -795,22 +795,22 @@
       "frameNumber": 360,
       "heading": "Thirteen buildings and an attempted propane attack",
       "description": "Aerial news footage returns, then shows armored dozer beside a red storefront with dust rising.",
-      "camera": "Cuts and aerial tracking; adjacent samples show approach and dust changes.",
+      "camera": "Cuts and aerial tracking; the footage shows approach and dust changes.",
       "action": "Vehicle pushes into building edge; damage and dust follow.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter’s propane-tank attempt claim is narrated; these frames do not identify a propane field."
+      "notes": "The propane-tank attack is narrated; no propane field is identified in the footage."
     },
     {
       "startSeconds": 1570,
       "frameNumber": 365,
       "heading": "Building parts are heavy",
       "description": "Successive aerial frames show storefront collapse, debris and a thick dust cloud around the dozer.",
-      "camera": "Aerial camera follows/reframes vehicle across neighboring samples.",
+      "camera": "Aerial camera follows/reframes vehicle.",
       "action": "Wall/roof debris falls and dust expands as dozer moves through the structure.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter rebuts deliberately nonviolent framing and credits reverse-911 evacuation; no casualties shown."
+      "notes": "The presenter credits reverse-911 evacuation and rejects the nonviolent-rampage story."
     },
     {
       "startSeconds": 1593,
@@ -821,17 +821,17 @@
       "action": "Dozer changes location; rubble rides on shell.",
       "sound": [],
       "visualGag": null,
-      "notes": "Target names and firing are presenter assertions; no gunfire is visually established by these frames."
+      "notes": "The targets and firing are the presenter’s account; gunfire is not visible."
     },
     {
       "startSeconds": 1621,
       "frameNumber": 376,
       "heading": "Street trees blamed for lost business",
       "description": "News footage follows dozer down Main Street near street trees and parked cars.",
-      "camera": "Aerial tracking/reframing across samples.",
+      "camera": "The aerial camera follows the vehicles along the street.",
       "action": "Dozer travels beside tree-lined frontage.",
       "sound": [],
-      "visualGag": "Setup for small-business insanity card and tree-demolition payoff: narrator attributes an owner’s lost trade to irrational blame on street trees, not a verified economic causal claim.",
+      "visualGag": "The narrator recounts a restaurant owner blaming lost trade on street trees. That grievance sets up the small-business card and the joke about uprooting the trees as a favor.",
       "notes": null
     },
     {
@@ -842,7 +842,7 @@
       "camera": "Abrupt cut from news footage to text.",
       "action": "Static title card.",
       "sound": [],
-      "visualGag": "Editorial punchline to restaurant-owner/tree story; recurs as lesson one at 30:15.7.",
+      "visualGag": "The black card delivers the narrator’s punchline to the restaurant-owner story. It returns as the first lesson at the end.",
       "notes": null
     },
     {
@@ -850,10 +850,10 @@
       "frameNumber": 381,
       "heading": "Doing a friend a favor by kill-dosing trees",
       "description": "News footage returns to dozer pushing into frontage amid trees, rooflines and dust.",
-      "camera": "Aerial video cuts/reframes closer across samples.",
+      "camera": "The aerial footage cuts to a closer view of the frontage.",
       "action": "Vehicle pushes against frontage; dust/debris increase.",
       "sound": [],
-      "visualGag": "Connected payoff to tree-blame setup and insanity card: narrator describes destruction as a favor. Observed frontage destruction does not independently prove each tree’s target status.",
+      "visualGag": "As the dozer pushes into the tree-lined frontage, the narrator calls the destruction a favor for the owner who blamed the trees. It pays off the grievance and small-business card.",
       "notes": null
     },
     {
@@ -866,32 +866,32 @@
       "sound": [
         {
           "startSeconds": 1656.84,
-          "text": "Third spoken slogan callback, user-confirmed: “Tiocfaidh ár lá” (“our day will come”), after “Unrelated” with the explicitly labeled Irish Republican Army graphic. Raw ASR incorrectly renders “Chucky R. Law.” Coarse cue anchored to source word start1656.84s; not independently measured audio onset. The recurring cutaway gag is not an endorsement of the armed group."
+          "text": "“Tiocfaidh ár lá” (“our day will come”) follows “Unrelated” a third time, now over the Irish Republican Army graphic."
         }
       ],
-      "visualGag": "Third Catholic-associated cutaway explicitly labels the Irish Republican Army and repeats the user-confirmed “Tiocfaidh ár lá” (“our day will come”) slogan, linking the earlier masked-group and armed-woman inserts; narrator follows with God not being on his side. Running-gag association, not endorsement of the armed group.",
-      "notes": "User-confirmed third spoken slogan is “Tiocfaidh ár lá.”, not raw ASR’s “Chucky R. Law.” Raw word span1656.84–1657.74s supplies a coarse anchor, not independently measured audio timing. The graphic gives the clearest affiliation cue for the running joke, not historical evidence about Heemeyer’s targets or proof of the graphic’s original source. Raw transcript is unchanged; reviewed display wording comes from the correction sidecar."
+      "visualGag": "The IRA graphic spells out the association in the earlier armed cutaways while the slogan returns. The narrator then jokes that God was not on Heemeyer’s side.",
+      "notes": null
     },
     {
       "startSeconds": 1659,
       "frameNumber": 389,
       "heading": "Campbell’s and the end of the mission",
       "description": "Aerial footage shows dozer pressing into collapsing commercial roof/walls amid dust.",
-      "camera": "Aerial camera reframes the same destruction across samples.",
+      "camera": "The aerial camera reframes the collapsing building around the dozer.",
       "action": "Vehicle becomes surrounded/obscured by building debris.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter says it stuck in a half-basement at Campbell’s, overheated and Heemeyer died by suicide; edited images alone cannot establish exact sequence or interior events."
+      "notes": "The presenter says the dozer became stuck at Campbell’s, overheated and Heemeyer died by suicide. The footage does not show the interior events."
     },
     {
       "startSeconds": 1682,
       "frameNumber": 393,
       "heading": "Getting inside; a hatch all along",
-      "description": "News footage shows dozer beside damaged building; game model returns after 28:23.9.",
+      "description": "News footage shows the dozer beside a damaged building before the game model returns.",
       "camera": "Aerial cuts followed by cut back to game.",
       "action": "Exterior vehicle/debris footage, then model.",
       "sound": [],
-      "visualGag": "Narrated ironic callback to entombment myth: arduous armor-cutting allegedly reveals a hatch all along. No footage of C4 or body recovery is claimed.",
+      "visualGag": "The narrator says arduous armor-cutting revealed a hatch all along, an ironic return to the opening entombment myth.",
       "notes": null
     },
     {
@@ -899,11 +899,11 @@
       "frameNumber": 401,
       "heading": "Instant folk-hero response",
       "description": "Finished game model is toured from overhead down toward Main Street.",
-      "camera": "Adjacent samples show descent/reframing from high aerial to lower street-facing view.",
+      "camera": "The view shows descent/reframing from high aerial to lower street-facing view.",
       "action": "Traffic moves in the model; no historical callers appear.",
       "sound": [],
       "visualGag": null,
-      "notes": "Presenter recounts sympathetic calls while damage was ongoing and letters to newspaper."
+      "notes": "The presenter recounts sympathetic calls during the destruction and letters to the newspaper."
     },
     {
       "startSeconds": 1737,
@@ -921,10 +921,10 @@
       "frameNumber": 414,
       "heading": "Accommodated, not ruined",
       "description": "Game tour moves from wider town to the dirt-road industrial yard now containing a rubble patch where shop assets stood.",
-      "camera": "Adjacent samples establish changing orbit/viewpoint around yard.",
-      "action": "Model traffic changes position; ruined yard is static at each sample.",
+      "camera": "The view shows changing orbit/viewpoint around yard.",
+      "action": "Traffic moves through the model while the ruined yard remains unchanged.",
       "sound": [],
-      "visualGag": "The $400,000 sale/free hookup reversals return as argument against the opening ruined-business myth; actual yard model is not financial evidence.",
+      "visualGag": "The narrator returns to the 400,000-dollar sale and free sewer offer to dispute the opening story of a ruined business.",
       "notes": null
     },
     {
@@ -936,7 +936,7 @@
       "action": "Static text.",
       "sound": [],
       "visualGag": "Setup for the dozen-assholes reversal on next card; prepares narrator’s final literal/metaphorical poop pun.",
-      "notes": "Presenter vaguely attributes this saying to a cop in a TV show; the show/character and original quotation source are unknown, not established by these text cards."
+      "notes": "The cop-in-a-TV-show quotation’s show, character and original source remain unknown."
     },
     {
       "startSeconds": 1794,
@@ -954,10 +954,10 @@
       "frameNumber": 420,
       "heading": "Literal and metaphorical poop",
       "description": "Game panorama returns near the train station and town streets.",
-      "camera": "Adjacent samples show viewpoint changing over rail corridor.",
+      "camera": "The view shows viewpoint changing over rail corridor.",
       "action": "Train/traffic positions change in model.",
       "sound": [],
-      "visualGag": "Narration pays off the asshole cards with eventually pooped all over everyone in more ways than one; panorama contains no invented poop overlay.",
+      "visualGag": "The narrator ends the asshole-card sequence by saying Heemeyer eventually “pooped all over everyone” in more ways than one. The sewage story becomes a metaphor for the attack.",
       "notes": null
     },
     {
@@ -968,7 +968,7 @@
       "camera": "Cut to static lesson card.",
       "action": "Static text.",
       "sound": [],
-      "visualGag": "Explicit callback to 27:11 small-business card, now presented as a mock generalized moral, attributed to presenter.",
+      "visualGag": "The earlier small-business card returns as the narrator’s exaggerated first lesson.",
       "notes": null
     },
     {
@@ -976,7 +976,7 @@
       "frameNumber": 425,
       "heading": "Don’t shit where you eat expands",
       "description": "Second black lesson card lists DON’T SHIT WHERE YOU EAT / OR WHERE YOU WORK / OR IN SOMEONE’S CREEK.",
-      "camera": "Text list expands between neighboring samples.",
+      "camera": "Text list expands.",
       "action": "Additional lines appear.",
       "sound": [],
       "visualGag": "Setup/payoff sequence turns a familiar metaphorical proverb into a literal site-by-site sanitation checklist; full version follows.",
@@ -987,7 +987,7 @@
       "frameNumber": 427,
       "heading": "An inspected and approved system",
       "description": "Expanded card adds illegal sewage tank and ultimately toilet with inspected and approved septic or sewerage system.",
-      "camera": "Static expanded list; no camera move.",
+      "camera": "Static expanded list.",
       "action": "Completed text card.",
       "sound": [],
       "visualGag": "Payoff to abbreviated proverb: the comic overlong specificity resolves the entire septic/barrel/ditch/bucket narrative into a genuine public-health rule.",
@@ -1009,34 +1009,34 @@
       "frameNumber": 443,
       "heading": "Thanks and patron credits",
       "description": "My Patreons heading and three white name columns rise from bottom of black screen.",
-      "camera": "Locked composition; upward credit scroll established by adjacent samples.",
+      "camera": "The composition stays fixed while the credits scroll upward.",
       "action": "Credit text scrolls upward.",
       "sound": [
         {
           "startSeconds": 1900,
-          "text": "Credits music identified by downloaded description as Brahms, Tragic Overture Op. 81, Musopen Symphony. Approximate credit-section caption, not a listened exact onset."
+          "text": "The patron roll credits Brahms’s Tragic Overture, Op. 81, performed by the Musopen Symphony."
         }
       ],
       "visualGag": null,
-      "notes": "Speech ends around 31:36; full source-derived dialogue is retained by shared renderer."
+      "notes": null
     },
     {
       "startSeconds": 1950,
       "frameNumber": 457,
       "heading": "Long credit roll",
       "description": "Three densely packed patron-name columns continue scrolling on black.",
-      "camera": "Static frame with upward text movement across samples.",
+      "camera": "The patron names continue upward through the fixed frame.",
       "action": "Patron names scroll.",
       "sound": [],
       "visualGag": null,
-      "notes": "No attempt to transcribe every patron name from contact-sheet tiles."
+      "notes": null
     },
     {
       "startSeconds": 1990,
       "frameNumber": 462,
       "heading": "Final DNE fare-token logo",
       "description": "Credits clear and DNE fare-token logo returns centered on black.",
-      "camera": "Cut/fade transition between sampled credits and static logo; exact transition not resolved.",
+      "camera": "Cut/fade transition between credits and static logo.",
       "action": "Static ending logo.",
       "sound": [],
       "visualGag": null,

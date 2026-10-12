@@ -1,0 +1,362 @@
+{
+  "recognitionComplete": false,
+  "blocker": {
+    "id": "8LysiXf-DJU",
+    "start": 2040,
+    "error": {
+      "type": "ClientResponseError",
+      "message": "429, message='Too Many Requests', url='https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/440BC3A6-2B56-4F79-B1ED-4E34F1EF1B14/26FA7886-3CF5-4ACC-A8AA-DFB37F11F502?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3'"
+    },
+    "httpStatus": 429
+  },
+  "counts": {
+    "plannedBase": 501,
+    "baseAttempted": 371,
+    "baseHttpSuccessful": 370,
+    "pythonRequests": 374,
+    "matchedCandidates": 100,
+    "unmatched": 273,
+    "errors": 1,
+    "extraSmokeRequests": 3
+  },
+  "videos": [
+    {
+      "id": "V44gkRzML9k",
+      "results": "qa/soundtrack/V44gkRzML9k/results.json",
+      "plannedBaseSamples": 39,
+      "successfulBaseSamples": 39,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 39
+    },
+    {
+      "id": "7oeLnpAmmfI",
+      "results": "qa/soundtrack/7oeLnpAmmfI/results.json",
+      "plannedBaseSamples": 37,
+      "successfulBaseSamples": 37,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 37
+    },
+    {
+      "id": "cX-r5ulpoQQ",
+      "results": "qa/soundtrack/cX-r5ulpoQQ/results.json",
+      "plannedBaseSamples": 28,
+      "successfulBaseSamples": 28,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 28
+    },
+    {
+      "id": "xqJbE1bvdgo",
+      "results": "qa/soundtrack/xqJbE1bvdgo/results.json",
+      "plannedBaseSamples": 34,
+      "successfulBaseSamples": 34,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 34
+    },
+    {
+      "id": "3HA3S_O_yxs",
+      "results": "qa/soundtrack/3HA3S_O_yxs/results.json",
+      "plannedBaseSamples": 30,
+      "successfulBaseSamples": 30,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 30
+    },
+    {
+      "id": "apk-K0sQutc",
+      "results": "qa/soundtrack/apk-K0sQutc/results.json",
+      "plannedBaseSamples": 6,
+      "successfulBaseSamples": 6,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 6
+    },
+    {
+      "id": "0tLxb5rtmyM",
+      "results": "qa/soundtrack/0tLxb5rtmyM/results.json",
+      "plannedBaseSamples": 19,
+      "successfulBaseSamples": 19,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 19
+    },
+    {
+      "id": "LdeirDrinWk",
+      "results": "qa/soundtrack/LdeirDrinWk/results.json",
+      "plannedBaseSamples": 19,
+      "successfulBaseSamples": 19,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 19
+    },
+    {
+      "id": "97mS1SgI73k",
+      "results": "qa/soundtrack/97mS1SgI73k/results.json",
+      "plannedBaseSamples": 16,
+      "successfulBaseSamples": 16,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 16
+    },
+    {
+      "id": "5MrkfLP25Rg",
+      "results": "qa/soundtrack/5MrkfLP25Rg/results.json",
+      "plannedBaseSamples": 16,
+      "successfulBaseSamples": 16,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 16
+    },
+    {
+      "id": "rseaKBPkRPU",
+      "results": "qa/soundtrack/rseaKBPkRPU/results.json",
+      "plannedBaseSamples": 14,
+      "successfulBaseSamples": 14,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 14
+    },
+    {
+      "id": "X_FU22yPyRE",
+      "results": "qa/soundtrack/X_FU22yPyRE/results.json",
+      "plannedBaseSamples": 12,
+      "successfulBaseSamples": 12,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 15
+    },
+    {
+      "id": "6e-vfEif9LI",
+      "results": "qa/soundtrack/6e-vfEif9LI/results.json",
+      "plannedBaseSamples": 15,
+      "successfulBaseSamples": 15,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 15
+    },
+    {
+      "id": "0lvUByM-fZk",
+      "results": "qa/soundtrack/0lvUByM-fZk/results.json",
+      "plannedBaseSamples": 12,
+      "successfulBaseSamples": 12,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 12
+    },
+    {
+      "id": "fLxHVF1uiOE",
+      "results": "qa/soundtrack/fLxHVF1uiOE/results.json",
+      "plannedBaseSamples": 18,
+      "successfulBaseSamples": 18,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 18
+    },
+    {
+      "id": "gQzfa4iXxZ4",
+      "results": "qa/soundtrack/gQzfa4iXxZ4/results.json",
+      "plannedBaseSamples": 17,
+      "successfulBaseSamples": 17,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 17
+    },
+    {
+      "id": "KTfuA2hXi8s",
+      "results": "qa/soundtrack/KTfuA2hXi8s/results.json",
+      "plannedBaseSamples": 14,
+      "successfulBaseSamples": 14,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 14
+    },
+    {
+      "id": "Vln5Ri4Zpgo",
+      "results": "qa/soundtrack/Vln5Ri4Zpgo/results.json",
+      "plannedBaseSamples": 5,
+      "successfulBaseSamples": 5,
+      "missingOrFailedBaseStartsSeconds": [],
+      "networkRequests": 5
+    },
+    {
+      "id": "8LysiXf-DJU",
+      "results": "qa/soundtrack/8LysiXf-DJU/results.json",
+      "plannedBaseSamples": 31,
+      "successfulBaseSamples": 19,
+      "missingOrFailedBaseStartsSeconds": [
+        2040,
+        2160,
+        2280,
+        2400,
+        2520,
+        2640,
+        2760,
+        2880,
+        3000,
+        3060.528,
+        3080.528,
+        3100.528
+      ],
+      "networkRequests": 20
+    },
+    {
+      "id": "4dn6ZVpJLxs",
+      "results": "qa/soundtrack/4dn6ZVpJLxs/results.json",
+      "plannedBaseSamples": 25,
+      "successfulBaseSamples": 0,
+      "missingOrFailedBaseStartsSeconds": [
+        0,
+        20,
+        40,
+        120,
+        240,
+        360,
+        480,
+        600,
+        720,
+        840,
+        960,
+        1080,
+        1200,
+        1320,
+        1440,
+        1560,
+        1680,
+        1800,
+        1920,
+        2040,
+        2160,
+        2280,
+        2345.468,
+        2365.468,
+        2385.468
+      ],
+      "networkRequests": 0
+    },
+    {
+      "id": "9DHAOFrnOAM",
+      "results": "qa/soundtrack/9DHAOFrnOAM/results.json",
+      "plannedBaseSamples": 20,
+      "successfulBaseSamples": 0,
+      "missingOrFailedBaseStartsSeconds": [
+        0,
+        20,
+        40,
+        120,
+        240,
+        360,
+        480,
+        600,
+        720,
+        840,
+        960,
+        1080,
+        1200,
+        1320,
+        1440,
+        1560,
+        1680,
+        1717.168,
+        1737.168,
+        1757.168
+      ],
+      "networkRequests": 0
+    },
+    {
+      "id": "Yvl_7_Up7zU",
+      "results": "qa/soundtrack/Yvl_7_Up7zU/results.json",
+      "plannedBaseSamples": 22,
+      "successfulBaseSamples": 0,
+      "missingOrFailedBaseStartsSeconds": [
+        0,
+        20,
+        40,
+        120,
+        240,
+        360,
+        480,
+        600,
+        720,
+        840,
+        960,
+        1080,
+        1200,
+        1320,
+        1440,
+        1560,
+        1680,
+        1800,
+        1920,
+        1943.568,
+        1963.568,
+        1983.568
+      ],
+      "networkRequests": 0
+    },
+    {
+      "id": "UfVzbM3l7RQ",
+      "results": "qa/soundtrack/UfVzbM3l7RQ/results.json",
+      "plannedBaseSamples": 22,
+      "successfulBaseSamples": 0,
+      "missingOrFailedBaseStartsSeconds": [
+        0,
+        20,
+        40,
+        120,
+        240,
+        360,
+        480,
+        600,
+        720,
+        840,
+        960,
+        1080,
+        1200,
+        1320,
+        1440,
+        1560,
+        1680,
+        1800,
+        1905.528,
+        1920,
+        1925.528,
+        1945.528
+      ],
+      "networkRequests": 0
+    },
+    {
+      "id": "CEjozE--YrY",
+      "results": "qa/soundtrack/CEjozE--YrY/results.json",
+      "plannedBaseSamples": 30,
+      "successfulBaseSamples": 0,
+      "missingOrFailedBaseStartsSeconds": [
+        0,
+        20,
+        40,
+        120,
+        240,
+        360,
+        480,
+        600,
+        720,
+        840,
+        960,
+        1080,
+        1200,
+        1320,
+        1440,
+        1560,
+        1680,
+        1800,
+        1920,
+        2040,
+        2160,
+        2280,
+        2400,
+        2520,
+        2640,
+        2760,
+        2845.348,
+        2865.348,
+        2880,
+        2885.348
+      ],
+      "networkRequests": 0
+    }
+  ],
+  "limits": "HTTP429 stopped recognition without retry. Match candidates are not automatically accepted; stable derivative speech matches can be false soundtrack attributions. Fingerprint intervals are actual evidence windows, not cue boundaries. No listening or composer inference.",
+  "unrequestedIDs": [
+    "4dn6ZVpJLxs",
+    "9DHAOFrnOAM",
+    "Yvl_7_Up7zU",
+    "UfVzbM3l7RQ",
+    "CEjozE--YrY"
+  ],
+  "queuedAdditionalAdjacentJobsNotReached": 32
+}

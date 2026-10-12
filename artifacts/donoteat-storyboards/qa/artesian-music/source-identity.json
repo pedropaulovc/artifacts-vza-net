@@ -1,0 +1,46 @@
+{
+  "id": "5MrkfLP25Rg",
+  "path": "/home/pedro/src/tmp-donoteat/qa/audio-llm/sources/5MrkfLP25Rg.wav",
+  "sha256": "5e1e733704dfaa33c22db06f666cd4a2eb21e1ec926c23a5193d60f2e573c561",
+  "frames": 19754667,
+  "sampleRate": 16000,
+  "channels": 1,
+  "durationSeconds": 1234.6666875,
+  "mediaPath": "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+  "mediaSha256": "b354d4a8babc9ad5c3509531f2503adae77a0825ea550472b52f18c7c4a3bd3d",
+  "mediaStat": {
+    "size": 671655776,
+    "mtimeNs": 1791766050028777122
+  },
+  "sourceStat": {
+    "size": 39509412,
+    "mtimeNs": 1791779364555580052
+  },
+  "mediaDurationSeconds": 1234.688,
+  "durationDeltaSeconds": -0.021312500000021828,
+  "extractionCommand": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-nostdin",
+    "-y",
+    "-threads",
+    "2",
+    "-filter_threads",
+    "1",
+    "-i",
+    "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+    "-vn",
+    "-map",
+    "0:a:0",
+    "-ac",
+    "1",
+    "-ar",
+    "16000",
+    "-c:a",
+    "pcm_s16le",
+    "/home/pedro/src/tmp-donoteat/qa/audio-llm/sources/5MrkfLP25Rg.tmp.wav"
+  ],
+  "createdAt": "2026-10-12T04:29:25.219165+00:00"
+}

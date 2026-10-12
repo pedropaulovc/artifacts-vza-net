@@ -1,0 +1,1752 @@
+{
+  "id": "rseaKBPkRPU",
+  "title": "Cities: Skylines | Power, Politics, & Planning: Episode 2: Urban Freeways",
+  "requests": [
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 0,
+      "sampleEndSeconds": 20.0,
+      "requestedEndSeconds": 20,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/0.000-20.000.wav",
+      "sha256": "ac270029a995f38875ad541264140824c7c611bee83fe299419d24d030d25c88",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "0",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/0.000-20.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:02:14.051524+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 0,
+        "sourceEndSeconds": 12.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "358701973",
+            "offset": 11.844734375,
+            "timeskew": 8.106232e-05,
+            "frequencyskew": 0.0
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777735222,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "315585656",
+          "title": "Johannes Brahms: Tragic Overture, Op. 81",
+          "subtitle": "CLASSICAL MUSIC LIBRARY",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+            "joecolor": "b:002245p:dbbc74s:cdb87et:af9d6aq:a49a72"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/315585656"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Johannes Brahms: Tragic Overture, Op. 81 - CLASSICAL MUSIC LIBRARY",
+            "text": "Johannes Brahms: Tragic Overture, Op. 81 by CLASSICAL MUSIC LIBRARY",
+            "href": "https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Johannes Brahms: Tragic Overture, Op. 81 by CLASSICAL MUSIC LIBRARY.",
+            "html": "https://www.shazam.com/snippets/email-share/315585656?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/315585656"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1467946615"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/02/49/9d02496e-38e5-b171-14c6-5161411017c7/mzaf_18215531630499413995.plus.aac.ep.m4a"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/johannes-brahms-tragic-overture-op-81/1467946614?i=1467946615&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/johannes-brahms-tragic-overture-op-81/1467946614?i=1467946615&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+                  "caption": "Johannes Brahms: Tragic Overture, Op. 81"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Johannes Brahms: Tragic Overture, Op. 81 - EP"
+                },
+                {
+                  "title": "Label",
+                  "text": "Classical Music Library"
+                },
+                {
+                  "title": "Released",
+                  "text": "2019"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81",
+          "artists": [
+            {
+              "alias": "classical-music-library",
+              "id": "42",
+              "adamid": "355046986"
+            }
+          ],
+          "alias": "johannes-brahms-tragic-overture-op-81",
+          "genres": {
+            "primary": "Instrumental"
+          },
+          "urlparams": {
+            "{tracktitle}": "Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81",
+            "{trackartist}": "CLASSICAL+MUSIC+LIBRARY"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1467946614",
+          "trackadamid": "1467946615",
+          "releasedate": "14-05-2019",
+          "isrc": "GBSMU6408594"
+        },
+        "tagid": "A79B72BA-6362-42BA-87DD-6652D580833E"
+      },
+      "status": "match",
+      "match": {
+        "key": "315585656",
+        "title": "Johannes Brahms: Tragic Overture, Op. 81",
+        "artist": "CLASSICAL MUSIC LIBRARY",
+        "serviceURL": "https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+                "caption": "Johannes Brahms: Tragic Overture, Op. 81"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Johannes Brahms: Tragic Overture, Op. 81 - EP"
+              },
+              {
+                "title": "Label",
+                "text": "Classical Music Library"
+              },
+              {
+                "title": "Released",
+                "text": "2019"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/05A00DFE-15F5-4A3C-92A3-E35BFFFAD024/A79B72BA-6362-42BA-87DD-6652D580833E?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:02:17 GMT",
+          "X-Forensic-Id": "2130e439-27cd-4f2d-853c-43334919b492",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"358701973\",\"offset\":11.844734375,\"timeskew\":8.106232E-5,\"frequencyskew\":0.0}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777735222,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"315585656\",\"title\":\"Johannes Brahms: Tragic Overture, Op. 81\",\"subtitle\":\"CLASSICAL MUSIC LIBRARY\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"joecolor\":\"b:002245p:dbbc74s:cdb87et:af9d6aq:a49a72\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/315585656\"}]},\"share\":{\"subject\":\"Johannes Brahms: Tragic Overture, Op. 81 - CLASSICAL MUSIC LIBRARY\",\"text\":\"Johannes Brahms: Tragic Overture, Op. 81 by CLASSICAL MUSIC LIBRARY\",\"href\":\"https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Johannes Brahms: Tragic Overture, Op. 81 by CLASSICAL MUSIC LIBRARY.\",\"html\":\"https://www.shazam.com/snippets/email-share/315585656?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/315585656\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1467946615\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/02/49/9d02496e-38e5-b171-14c6-5161411017c7/mzaf_18215531630499413995.plus.aac.ep.m4a\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/johannes-brahms-tragic-overture-op-81/1467946614?i=1467946615&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/johannes-brahms-tragic-overture-op-81/1467946614?i=1467946615&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"caption\":\"Johannes Brahms: Tragic Overture, Op. 81\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Johannes Brahms: Tragic Overture, Op. 81 - EP\"},{\"title\":\"Label\",\"text\":\"Classical Music Library\"},{\"title\":\"Released\",\"text\":\"2019\"}]}],\"url\":\"https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81\",\"artists\":[{\"alias\":\"classical-music-library\",\"id\":\"42\",\"adamid\":\"355046986\"}],\"alias\":\"johannes-brahms-tragic-overture-op-81\",\"genres\":{\"primary\":\"Instrumental\"},\"urlparams\":{\"{tracktitle}\":\"Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81\",\"{trackartist}\":\"CLASSICAL+MUSIC+LIBRARY\"},\"highlightsurls\":{},\"albumadamid\":\"1467946614\",\"trackadamid\":\"1467946615\",\"releasedate\":\"14-05-2019\",\"isrc\":\"GBSMU6408594\"},\"tagid\":\"A79B72BA-6362-42BA-87DD-6652D580833E\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 20,
+      "sampleEndSeconds": 40.0,
+      "requestedEndSeconds": 40,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/20.000-40.000.wav",
+      "sha256": "9f8d91847a63e8c9623d1686a4a1a4c98418032763aacfbb16b8160c52892433",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "20",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/20.000-40.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:02:20.175554+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 20,
+        "sourceEndSeconds": 32.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "358701973",
+            "offset": 31.841585937,
+            "timeskew": -0.00079607964,
+            "frequencyskew": -8.0525875e-05
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777741427,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "315585656",
+          "title": "Johannes Brahms: Tragic Overture, Op. 81",
+          "subtitle": "CLASSICAL MUSIC LIBRARY",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+            "joecolor": "b:002245p:dbbc74s:cdb87et:af9d6aq:a49a72"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/315585656"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Johannes Brahms: Tragic Overture, Op. 81 - CLASSICAL MUSIC LIBRARY",
+            "text": "Johannes Brahms: Tragic Overture, Op. 81 by CLASSICAL MUSIC LIBRARY",
+            "href": "https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Johannes Brahms: Tragic Overture, Op. 81 by CLASSICAL MUSIC LIBRARY.",
+            "html": "https://www.shazam.com/snippets/email-share/315585656?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/315585656"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1467946615"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/02/49/9d02496e-38e5-b171-14c6-5161411017c7/mzaf_18215531630499413995.plus.aac.ep.m4a"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Johannes%20Brahms%3A%20Tragic%20Overture%2C%20Op.%2081%20CLASSICAL%20MUSIC%20LIBRARY"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in YouTube Music",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:youtubemusic:androiddeeplink",
+                    "type": "uri",
+                    "uri": "https://music.youtube.com/search?q=Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81+CLASSICAL+MUSIC+LIBRARY&feature=shazam"
+                  }
+                ],
+                "type": "YOUTUBEMUSIC"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81%27%20artist%3A%27CLASSICAL+MUSIC+LIBRARY%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "intent",
+                    "uri": "intent://music.apple.com/gb/album/johannes-brahms-tragic-overture-op-81/1467946614?i=1467946615&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end"
+                  },
+                  {
+                    "name": "hub:applemusic:connect",
+                    "type": "applemusicconnect",
+                    "id": "1467946615",
+                    "uri": "https://unsupported.shazam.com"
+                  },
+                  {
+                    "name": "hub:applemusic:androidstore",
+                    "type": "uri",
+                    "uri": "https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+                  "caption": "Johannes Brahms: Tragic Overture, Op. 81"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Johannes Brahms: Tragic Overture, Op. 81 - EP"
+                },
+                {
+                  "title": "Label",
+                  "text": "Classical Music Library"
+                },
+                {
+                  "title": "Released",
+                  "text": "2019"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "355046986"
+            }
+          ],
+          "genres": {
+            "primary": "Instrumental"
+          },
+          "urlparams": {
+            "{tracktitle}": "Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81",
+            "{trackartist}": "CLASSICAL+MUSIC+LIBRARY"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1467946614",
+          "isrc": "GBSMU6408594"
+        },
+        "tagid": "639B4E3D-3842-4306-B109-A83FF0EC6035"
+      },
+      "status": "match",
+      "match": {
+        "key": "315585656",
+        "title": "Johannes Brahms: Tragic Overture, Op. 81",
+        "artist": "CLASSICAL MUSIC LIBRARY",
+        "serviceURL": "https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+                "caption": "Johannes Brahms: Tragic Overture, Op. 81"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Johannes Brahms: Tragic Overture, Op. 81 - EP"
+              },
+              {
+                "title": "Label",
+                "text": "Classical Music Library"
+              },
+              {
+                "title": "Released",
+                "text": "2019"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/EB7CF6D3-432D-4519-8662-94E635BBA534/639B4E3D-3842-4306-B109-A83FF0EC6035?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:02:23 GMT",
+          "X-Forensic-Id": "58be4cb8-3021-4d9e-ab2b-bf8121bc4e2e",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"358701973\",\"offset\":31.841585937,\"timeskew\":-7.9607964E-4,\"frequencyskew\":-8.0525875E-5}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777741427,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"315585656\",\"title\":\"Johannes Brahms: Tragic Overture, Op. 81\",\"subtitle\":\"CLASSICAL MUSIC LIBRARY\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"joecolor\":\"b:002245p:dbbc74s:cdb87et:af9d6aq:a49a72\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/315585656\"}]},\"share\":{\"subject\":\"Johannes Brahms: Tragic Overture, Op. 81 - CLASSICAL MUSIC LIBRARY\",\"text\":\"Johannes Brahms: Tragic Overture, Op. 81 by CLASSICAL MUSIC LIBRARY\",\"href\":\"https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Johannes Brahms: Tragic Overture, Op. 81 by CLASSICAL MUSIC LIBRARY.\",\"html\":\"https://www.shazam.com/snippets/email-share/315585656?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/315585656\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1467946615\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/02/49/9d02496e-38e5-b171-14c6-5161411017c7/mzaf_18215531630499413995.plus.aac.ep.m4a\"}],\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Johannes%20Brahms%3A%20Tragic%20Overture%2C%20Op.%2081%20CLASSICAL%20MUSIC%20LIBRARY\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in YouTube Music\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:youtubemusic:androiddeeplink\",\"type\":\"uri\",\"uri\":\"https://music.youtube.com/search?q=Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81+CLASSICAL+MUSIC+LIBRARY&feature=shazam\"}],\"type\":\"YOUTUBEMUSIC\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81%27%20artist%3A%27CLASSICAL+MUSIC+LIBRARY%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"intent\",\"uri\":\"intent://music.apple.com/gb/album/johannes-brahms-tragic-overture-op-81/1467946614?i=1467946615&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end\"},{\"name\":\"hub:applemusic:connect\",\"type\":\"applemusicconnect\",\"id\":\"1467946615\",\"uri\":\"https://unsupported.shazam.com\"},{\"name\":\"hub:applemusic:androidstore\",\"type\":\"uri\",\"uri\":\"https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"caption\":\"Johannes Brahms: Tragic Overture, Op. 81\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Johannes Brahms: Tragic Overture, Op. 81 - EP\"},{\"title\":\"Label\",\"text\":\"Classical Music Library\"},{\"title\":\"Released\",\"text\":\"2019\"}]}],\"url\":\"https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81\",\"artists\":[{\"id\":\"42\",\"adamid\":\"355046986\"}],\"genres\":{\"primary\":\"Instrumental\"},\"urlparams\":{\"{tracktitle}\":\"Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81\",\"{trackartist}\":\"CLASSICAL+MUSIC+LIBRARY\"},\"highlightsurls\":{},\"albumadamid\":\"1467946614\",\"isrc\":\"GBSMU6408594\"},\"tagid\":\"639B4E3D-3842-4306-B109-A83FF0EC6035\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 40,
+      "sampleEndSeconds": 60.0,
+      "requestedEndSeconds": 60,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/40.000-60.000.wav",
+      "sha256": "d9df564b71731da118a8f8882d3941701b4deb13e49f5cbd90edfe3584b577c0",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "40",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/40.000-60.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:02:24.271887+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 40,
+        "sourceEndSeconds": 52.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777745491,
+        "timezone": "Europe/Moscow",
+        "tagid": "8393F439-9FD0-4D2B-B392-377B15074BAB"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/C670044A-FD1F-4B1D-96EB-1CAD34FBE5BB/8393F439-9FD0-4D2B-B392-377B15074BAB?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:02:29 GMT",
+          "X-Forensic-Id": "c8f68365-7019-4cb1-97cd-7471fb6028ca",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777745491,\"timezone\":\"Europe/Moscow\",\"tagid\":\"8393F439-9FD0-4D2B-B392-377B15074BAB\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 120,
+      "sampleEndSeconds": 140.0,
+      "requestedEndSeconds": 140,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/120.000-140.000.wav",
+      "sha256": "3563d2f4ae63c33823fea544420eb06e4662ee4e3e29c4eeb88b9acc00c49f1a",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "120",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/120.000-140.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:02:30.317755+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 120,
+        "sourceEndSeconds": 132.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777751626,
+        "timezone": "Europe/Moscow",
+        "tagid": "1337F724-BC74-4E56-A43B-1C7BA545E00C"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/1129C0DE-CF82-43D0-8572-CE34349406C1/1337F724-BC74-4E56-A43B-1C7BA545E00C?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:02:34 GMT",
+          "X-Forensic-Id": "93306d94-923c-4493-bede-6e126a135b29",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777751626,\"timezone\":\"Europe/Moscow\",\"tagid\":\"1337F724-BC74-4E56-A43B-1C7BA545E00C\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 240,
+      "sampleEndSeconds": 260.0,
+      "requestedEndSeconds": 260,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/240.000-260.000.wav",
+      "sha256": "dbaa2e6092c3c848959ae8e2f9e9a2a4af73d8b71ce0b1afcbb5a24fdd5a2ea5",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "240",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/240.000-260.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:02:36.305379+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 240,
+        "sourceEndSeconds": 252.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777757641,
+        "timezone": "Europe/Moscow",
+        "tagid": "1F319669-062E-41E4-96A1-0282588B205D"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/50EFDFCE-885A-42A7-AB24-18D848D408E1/1F319669-062E-41E4-96A1-0282588B205D?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:02:40 GMT",
+          "X-Forensic-Id": "bb5d4694-7d04-4c34-b533-ce6181ca2055",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777757641,\"timezone\":\"Europe/Moscow\",\"tagid\":\"1F319669-062E-41E4-96A1-0282588B205D\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 360,
+      "sampleEndSeconds": 380.0,
+      "requestedEndSeconds": 380,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/360.000-380.000.wav",
+      "sha256": "5fed1e6a3dfb11c4fab98aed8c6b5f6f8c76b3cc7a96585c05b49784548f7d85",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "360",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/360.000-380.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:02:42.346544+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 360,
+        "sourceEndSeconds": 372.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777763835,
+        "timezone": "Europe/Moscow",
+        "tagid": "52068385-3922-441C-A79B-1AECF9C02606"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/B5FC9BDF-1E4A-4AF0-BC9E-0C84182DBA60/52068385-3922-441C-A79B-1AECF9C02606?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:02:46 GMT",
+          "X-Forensic-Id": "6f2318f7-d5b2-452f-a35b-d6ce4344e26e",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777763835,\"timezone\":\"Europe/Moscow\",\"tagid\":\"52068385-3922-441C-A79B-1AECF9C02606\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 480,
+      "sampleEndSeconds": 500.0,
+      "requestedEndSeconds": 500,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/480.000-500.000.wav",
+      "sha256": "059d9f790819ad809fc493a6f916a7de08d09faeb2906755fcdc2bf53025e1f3",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "480",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/480.000-500.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:02:48.506862+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 480,
+        "sourceEndSeconds": 492.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777770037,
+        "timezone": "Europe/Moscow",
+        "tagid": "84F5501F-D673-4480-8539-1EBDE8AC380B"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/8CCB8872-F19D-4575-8E73-1C0A535CFC19/84F5501F-D673-4480-8539-1EBDE8AC380B?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:02:51 GMT",
+          "X-Forensic-Id": "ab92cb9f-bbcb-4955-84fd-0cfeef958096",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777770037,\"timezone\":\"Europe/Moscow\",\"tagid\":\"84F5501F-D673-4480-8539-1EBDE8AC380B\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 600,
+      "sampleEndSeconds": 620.0,
+      "requestedEndSeconds": 620,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/600.000-620.000.wav",
+      "sha256": "dce8101b97ebfae16439c3871f9c0436e9831ddd7a50ad958c68165e2ac0977b",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "600",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/600.000-620.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:02:52.559437+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 600,
+        "sourceEndSeconds": 612.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "358701973",
+            "offset": 284.713625,
+            "timeskew": -8.368492e-05,
+            "frequencyskew": -0.00016111135
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777774153,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "315585656",
+          "title": "Johannes Brahms: Tragic Overture, Op. 81",
+          "subtitle": "CLASSICAL MUSIC LIBRARY",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+            "joecolor": "b:002245p:dbbc74s:cdb87et:af9d6aq:a49a72"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/315585656"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Johannes Brahms: Tragic Overture, Op. 81 - CLASSICAL MUSIC LIBRARY",
+            "text": "Johannes Brahms: Tragic Overture, Op. 81 by CLASSICAL MUSIC LIBRARY",
+            "href": "https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Johannes Brahms: Tragic Overture, Op. 81 by CLASSICAL MUSIC LIBRARY.",
+            "html": "https://www.shazam.com/snippets/email-share/315585656?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/315585656"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1467946615"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/02/49/9d02496e-38e5-b171-14c6-5161411017c7/mzaf_18215531630499413995.plus.aac.ep.m4a"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Johannes%20Brahms%3A%20Tragic%20Overture%2C%20Op.%2081%20CLASSICAL%20MUSIC%20LIBRARY"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in YouTube Music",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:youtubemusic:androiddeeplink",
+                    "type": "uri",
+                    "uri": "https://music.youtube.com/search?q=Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81+CLASSICAL+MUSIC+LIBRARY&feature=shazam"
+                  }
+                ],
+                "type": "YOUTUBEMUSIC"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81%27%20artist%3A%27CLASSICAL+MUSIC+LIBRARY%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "intent",
+                    "uri": "intent://music.apple.com/gb/album/johannes-brahms-tragic-overture-op-81/1467946614?i=1467946615&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end"
+                  },
+                  {
+                    "name": "hub:applemusic:connect",
+                    "type": "applemusicconnect",
+                    "id": "1467946615",
+                    "uri": "https://unsupported.shazam.com"
+                  },
+                  {
+                    "name": "hub:applemusic:androidstore",
+                    "type": "uri",
+                    "uri": "https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+                  "caption": "Johannes Brahms: Tragic Overture, Op. 81"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Johannes Brahms: Tragic Overture, Op. 81 - EP"
+                },
+                {
+                  "title": "Label",
+                  "text": "Classical Music Library"
+                },
+                {
+                  "title": "Released",
+                  "text": "2019"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "355046986"
+            }
+          ],
+          "genres": {
+            "primary": "Instrumental"
+          },
+          "urlparams": {
+            "{tracktitle}": "Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81",
+            "{trackartist}": "CLASSICAL+MUSIC+LIBRARY"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1467946614",
+          "isrc": "GBSMU6408594"
+        },
+        "tagid": "14763DE3-1329-42F6-8158-39E7D6509B09"
+      },
+      "status": "match",
+      "match": {
+        "key": "315585656",
+        "title": "Johannes Brahms: Tragic Overture, Op. 81",
+        "artist": "CLASSICAL MUSIC LIBRARY",
+        "serviceURL": "https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg",
+                "caption": "Johannes Brahms: Tragic Overture, Op. 81"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Johannes Brahms: Tragic Overture, Op. 81 - EP"
+              },
+              {
+                "title": "Label",
+                "text": "Classical Music Library"
+              },
+              {
+                "title": "Released",
+                "text": "2019"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/36C61591-F0B8-4581-8B21-CBC691A60292/14763DE3-1329-42F6-8158-39E7D6509B09?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:02:57 GMT",
+          "X-Forensic-Id": "54b663a4-921b-479a-9328-58570e873b1e",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"358701973\",\"offset\":284.713625,\"timeskew\":-8.368492E-5,\"frequencyskew\":-1.6111135E-4}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777774153,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"315585656\",\"title\":\"Johannes Brahms: Tragic Overture, Op. 81\",\"subtitle\":\"CLASSICAL MUSIC LIBRARY\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"joecolor\":\"b:002245p:dbbc74s:cdb87et:af9d6aq:a49a72\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/315585656\"}]},\"share\":{\"subject\":\"Johannes Brahms: Tragic Overture, Op. 81 - CLASSICAL MUSIC LIBRARY\",\"text\":\"Johannes Brahms: Tragic Overture, Op. 81 by CLASSICAL MUSIC LIBRARY\",\"href\":\"https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Johannes Brahms: Tragic Overture, Op. 81 by CLASSICAL MUSIC LIBRARY.\",\"html\":\"https://www.shazam.com/snippets/email-share/315585656?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/315585656\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1467946615\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/02/49/9d02496e-38e5-b171-14c6-5161411017c7/mzaf_18215531630499413995.plus.aac.ep.m4a\"}],\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Johannes%20Brahms%3A%20Tragic%20Overture%2C%20Op.%2081%20CLASSICAL%20MUSIC%20LIBRARY\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in YouTube Music\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:youtubemusic:androiddeeplink\",\"type\":\"uri\",\"uri\":\"https://music.youtube.com/search?q=Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81+CLASSICAL+MUSIC+LIBRARY&feature=shazam\"}],\"type\":\"YOUTUBEMUSIC\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81%27%20artist%3A%27CLASSICAL+MUSIC+LIBRARY%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"intent\",\"uri\":\"intent://music.apple.com/gb/album/johannes-brahms-tragic-overture-op-81/1467946614?i=1467946615&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end\"},{\"name\":\"hub:applemusic:connect\",\"type\":\"applemusicconnect\",\"id\":\"1467946615\",\"uri\":\"https://unsupported.shazam.com\"},{\"name\":\"hub:applemusic:androidstore\",\"type\":\"uri\",\"uri\":\"https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0e/f3/bd/0ef3bd75-9d89-a1a1-2e6d-7db628f7d174/5057917728072_cover.jpg/400x400cc.jpg\",\"caption\":\"Johannes Brahms: Tragic Overture, Op. 81\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Johannes Brahms: Tragic Overture, Op. 81 - EP\"},{\"title\":\"Label\",\"text\":\"Classical Music Library\"},{\"title\":\"Released\",\"text\":\"2019\"}]}],\"url\":\"https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81\",\"artists\":[{\"id\":\"42\",\"adamid\":\"355046986\"}],\"genres\":{\"primary\":\"Instrumental\"},\"urlparams\":{\"{tracktitle}\":\"Johannes+Brahms%3A+Tragic+Overture%2C+Op.+81\",\"{trackartist}\":\"CLASSICAL+MUSIC+LIBRARY\"},\"highlightsurls\":{},\"albumadamid\":\"1467946614\",\"isrc\":\"GBSMU6408594\"},\"tagid\":\"14763DE3-1329-42F6-8158-39E7D6509B09\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 720,
+      "sampleEndSeconds": 740.0,
+      "requestedEndSeconds": 740,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/720.000-740.000.wav",
+      "sha256": "6905c7655aa70dc9e529582d76af652d709a6854601039cba420310a98f5bcaf",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "720",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/720.000-740.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:02:58.420465+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 720,
+        "sourceEndSeconds": 732.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777779588,
+        "timezone": "Europe/Moscow",
+        "tagid": "01BD9197-51EA-4E46-8FEE-5F4365839530"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/A54B57AC-A8E4-4216-BAD0-A061321C6153/01BD9197-51EA-4E46-8FEE-5F4365839530?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:03:02 GMT",
+          "X-Forensic-Id": "1c39504b-75dd-406b-8784-c51523bd79d4",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777779588,\"timezone\":\"Europe/Moscow\",\"tagid\":\"01BD9197-51EA-4E46-8FEE-5F4365839530\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 840,
+      "sampleEndSeconds": 860.0,
+      "requestedEndSeconds": 860,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/840.000-860.000.wav",
+      "sha256": "9b90bd15074978f51caa412054aca821bb473c3cd81e6c4b537b5bdc4d365507",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "840",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/840.000-860.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:03:04.454032+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 840,
+        "sourceEndSeconds": 852.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777785784,
+        "timezone": "Europe/Moscow",
+        "tagid": "5A463921-6EE2-48B4-A030-04B54920399D"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/AA2A5657-2739-40F6-BBE8-3FFB7697C171/5A463921-6EE2-48B4-A030-04B54920399D?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:03:08 GMT",
+          "X-Forensic-Id": "08ef5f93-4a2d-4fb3-b8b7-1c3329a4ba88",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777785784,\"timezone\":\"Europe/Moscow\",\"tagid\":\"5A463921-6EE2-48B4-A030-04B54920399D\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 960,
+      "sampleEndSeconds": 980.0,
+      "requestedEndSeconds": 980,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/960.000-980.000.wav",
+      "sha256": "adc5e3ee39d6b277dfd06d80dc795bac26f3a31b6e7e79f306ffc442cb66ef58",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "960",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/960.000-980.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:03:10.456839+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 960,
+        "sourceEndSeconds": 972.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777791739,
+        "timezone": "Europe/Moscow",
+        "tagid": "0A44C2D5-3D8C-4975-A778-FB57A709F11E"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/2A229A49-FB40-4270-A46A-E37CF80F6C2B/0A44C2D5-3D8C-4975-A778-FB57A709F11E?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:03:14 GMT",
+          "X-Forensic-Id": "fe06d107-c516-4ae8-98bf-2cbdcc6d930a",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777791739,\"timezone\":\"Europe/Moscow\",\"tagid\":\"0A44C2D5-3D8C-4975-A778-FB57A709F11E\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 988.708,
+      "sampleEndSeconds": 1008.708,
+      "requestedEndSeconds": 1008.708,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/988.708-1008.708.wav",
+      "sha256": "fade6b180cbe1ea773dc48ff460f604b83494b4344e4889815786df988a49f65",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "988.708",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/988.708-1008.708.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:03:16.438483+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 988.708,
+        "sourceEndSeconds": 1000.708
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777797724,
+        "timezone": "Europe/Moscow",
+        "tagid": "92150303-EDCA-4EED-9E6B-428D2A824AC9"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/9B0B2866-1B9C-4D40-8781-9A26448B40F7/92150303-EDCA-4EED-9E6B-428D2A824AC9?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:03:19 GMT",
+          "X-Forensic-Id": "32629f9e-3d18-41cd-86a3-e52fc9543bc0",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777797724,\"timezone\":\"Europe/Moscow\",\"tagid\":\"92150303-EDCA-4EED-9E6B-428D2A824AC9\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 1008.708,
+      "sampleEndSeconds": 1028.708,
+      "requestedEndSeconds": 1028.708,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/1008.708-1028.708.wav",
+      "sha256": "92f1353462f73a669f6b5f94cabc4d47496ce9df119fdb0e36ebdfc03f55c794",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1008.708",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20.000000000000114",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/1008.708-1028.708.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:03:20.613470+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1008.708,
+        "sourceEndSeconds": 1020.708
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777801971,
+        "timezone": "Europe/Moscow",
+        "tagid": "0DC6E836-88EA-4B41-B73C-4BE1D1D41339"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/E05426CA-9D87-4381-8C00-13FDCAD0A263/0DC6E836-88EA-4B41-B73C-4BE1D1D41339?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:03:25 GMT",
+          "X-Forensic-Id": "d57a5492-4fc9-4768-bb84-1c75e37e2ef0",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777801971,\"timezone\":\"Europe/Moscow\",\"tagid\":\"0DC6E836-88EA-4B41-B73C-4BE1D1D41339\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "sourceBytes": 443831184,
+        "sourceMtimeNs": 1791766089209272623
+      },
+      "sampleStartSeconds": 1028.708,
+      "sampleEndSeconds": 1048.6906880000001,
+      "requestedEndSeconds": 1048.708,
+      "clip": "qa/soundtrack/rseaKBPkRPU/clips/1028.708-1048.708.wav",
+      "sha256": "dea67935f264f8cf5731fecf6d85880c09f7e29787d3e471f4fd0d9c723f3a6e",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1028.708",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/rseaKBPkRPU/rseaKBPkRPU.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/rseaKBPkRPU/clips/1028.708-1048.708.wav"
+      ],
+      "actualAudioDurationSeconds": 19.982688,
+      "requestedAt": "2026-10-12T04:03:26.528160+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,gCX+ysZEOQqcAQAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAIDvBAAAAHwAAAAAQJwBAABAAANgNwAAAP9YCAAAAJwqMA0OdiomCQ6uJjgINYElQQluR0YjCQQxS8UMGY9D4AlTrSOxDwIhMM8IAL4gNAwAQQADYG4AAAD/RQgAAAAqHrkRFZQnfxsAbCIRLAE+KG4YAAIs3SIA1iRIJyxVHMUUCY0YcxELURbMEGkqStcSAW9L2yAAmUp2KRUMT34RABxJlxYAOUtQIxqKVboqACxdFi4Bz082EwDoT+UdAIROYiQBV1hVGgAAQgADYNIAAAD/WQgAAABbLv9pAd4p+EQAKiaMUgBcL3BYALowDF0AgC9TZQG3KTc0AY4kbj0iPBE1NhBOCDdUAVYF/mYD1QdPXAJ1CENqBY8KbVYBeAghbwMhDLU4Z1BRez0AcE2EQwCcRsZZAIVJtG4B20/qMQBBT8ZIAHdJFlQAaVSraAFSSs9fErxMB0sB+02WMwAyU1JEANNYbFAAOlLHZwTdR85cFwhMejQAD05qWAHOUNw3ALtQJz0ASllLQQBXW+NOANlSNFIA3E+pZAAwT9xsAXpLPlUAAA==",
+        "samplems": 19976,
+        "sampleRateHz": 16000,
+        "numberSamples": 319616,
+        "sourceStartSeconds": 1028.708,
+        "sourceEndSeconds": 1048.6840000000002
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777807940,
+        "timezone": "Europe/Moscow",
+        "tagid": "3482F30E-22FA-4556-B0A4-4462202E967B"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/EB15CD26-51EC-4552-9912-1A6EC86F6F0F/3482F30E-22FA-4556-B0A4-4462202E967B?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:03:31 GMT",
+          "X-Forensic-Id": "c68232dd-e17c-4018-850f-b6db110d7bc3",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777807940,\"timezone\":\"Europe/Moscow\",\"tagid\":\"3482F30E-22FA-4556-B0A4-4462202E967B\"}"
+      }
+    }
+  ],
+  "status": "probed",
+  "timingLimits": "Sample intervals and actual fingerprint intervals are evidence windows only, not cue boundaries. No listening claim.",
+  "recordingCandidates": [
+    {
+      "key": "315585656",
+      "title": "Johannes Brahms: Tragic Overture, Op. 81",
+      "artist": "CLASSICAL MUSIC LIBRARY",
+      "serviceURL": "https://www.shazam.com/track/315585656/johannes-brahms-tragic-overture-op-81",
+      "evidence": [
+        {
+          "sampleStartSeconds": 0,
+          "sampleEndSeconds": 20.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,gCX+yhmVIT+ICAAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAD9AgAAAHwAAAAAQIgIAABAAANgvgAAADoDVWEJHX9q0Q8IjHGXDBrPZY8KPtxmHgsHL3QdDi34YVgKOAh0JA4H92VwCSwEbocKABJqRhAJe21+DA21ZJ0JHKZ7Lw5El2s2CQJxcAcQJ1dp+Q0UX2yYCjnwb4AKAwd3Lg4fq29kDBR5cJQKL/x8GQ4MPnSMCpMaegwOPQ9++Q1bultuCUIOeRoOHVhwugwTyXaHCCapej8LIaFoaggQS30iDne/dT4LAql4jAgWF4MeDiP8d4cILfVtnAoAAEEAA2CAAgAAJwxIsSEQlk5PIw6aS1wcEe5f5RIIGl4wGQAJVkQqC05eQBUKKFnGHw+fU/4mAQlVQyEBylyAFgoKVrUqDjRM+SsKCGEWEwNMVzoZC79X7ykC9lY3IwEUYAIVDGZXByYpaW+pEACEYk0hBF1mCBUTSlnFIgGOZIoqDYRZTSMCL1TxGAkWa5QSA/dkqCEKGWsALSvfcv0qBrJpwxwBfnA7KgOWW3QgAZpXyyYHQGg3FQPMXZEiIGtvvRICuWpeFgTpa8UsBVZmyRwCAXBTLgW1ZlUcIa9wPyYDwWHIGgPvYXkfCE1iMiAAMnDGJQLVaxQTBl1vkioCkmxPFSXaYsgfBvxxGyQBxWUnHAG9dfARBQh2myoDIWoBFS/rbncRDXBorxgAh2o8HATSYjEjAmNafyYIO164LQrIaS4VGShmwR8L+1jYJh78adIqBERschEMEF5vHwOKcUkVAP9nUiMEz2GFGCAqckkcCpZUvi0GMHBHFTA3XbMYAfhxOyoFZWmbIwm8ZqcRBzJvKxUF4lrKJgfUYg0jDzlxSioCI3NGHDgFdI0cAWtixxIFVHNGKigIcDUVBExkTSM9S1mFJhtibb4RBzpqMSMFCnRMKgVqd18cAnlv+SwWSXh5Fg6oWmsmDQd7yRAC9GpLGQHqc8khF+d59ywMfGG3JQ3xc8ohA5p+chYicXVNHAJndlYqINNmMiYFLV28HwxhaFEZB7917SwBh2mbIRBQcXYtE/FwfCYIEV96IgP/cPIlC+V6zxAAcHdzFgFLa0QnB2ZzYioGHW9CIw4WcJUlAwdmRxkRFndNHAlPcO4lAhx46xAVD3c1FQ7kaMMRDuRrwiML7WjYH0IAA2AoBQAAGoguHVYKY0PJOBztQRIxDMxK2UsCfUb5NwHHQiRVBQtJezkBskejZAMXVXMyAg9JDzkB6VKyPAAzTAhEAfRDPFgDa1b0NAMVQbdfAypKqEQAp0euUwcpTgRAA6dNCzwA3z89XwGSQm5UCGk/jmAGHkcPbwLBStVNAStKRjcBhz6haQPHOuddB7NAKEkBwzrLWgLgPNNqCaxMq0IBN0ffSwIBUnsyACBSKj8EAkfUZA1+QAlYBWZAB1kC7E0BPgH7Vco4ASBWekYFEUWxTADZPzVdAYNQFy8Cw01AQgTSTcVjBpdQxi8V1Vc7VQjZShxQADxJC18EVWCWPwJjX9AyBJ1PP0kEtlsIVACyUChmAq1SSmoPi2FbOARZXc8wCdxH1E0CY1mMMQFGT349ACRO02IFcUxsZAM8Y2g5AB9W6EYHCWJHQwacZDs3A3BZs1kaHFECYwRITqtMA1ZkgzUBAlAyYALIZPA4A31HzmYAe1UtawFKTpZPAp5nFFYB1lWlSgBHVQ5qCCJSl0kJ113HMAC7YZU/BJBXnEYJ4VgRbw5WVvVrB5VcgzEAolB1YgDqUjxlAap4YzkBhlVKUgORVBxbAJhVCF4CLVuSRwXSYu1CAghhf0sn0XOXNgCxUChYA6ta30YCrHJ8NQHsZb8/APVgh08B8WlLawW5WUtUAPhdWF8A9kjvYwYeY5svJ9pb2C4A2k0uZQFlejg5ABtcQloBSlxZTgYpaApHAopd91gBvlGbXgLEYypVCPNl9D8hukswZwj7YhFVAUdgljQBDVbHYwUMb7Q5ADBhR0cAWFa0WwM+UzxOAWNUeWQEGmP2VQJOXA8/A6tWB00GF09oaQdrVu9QALlNHV8Ff29OOABEYY5GBlddjT8BYE93XwWKVblNBd5jdjEA3FULQwTaY35VKgRKAV8H8luDYwF4SXldBKNnGVYED1KvagK0XCxkCzdmGUcCP1L+aQVeYow/AdVsiTEGRVGvNAGMV/hbA2xycTkL+VzmTQeAYSlVCZZJyloG60pUWiLxXZBjBa5grz8EwlE9TQOAaWpVAz9rGEcBf3MBOQQua5kxAU5SUmoDTVTIWwN6Vg1OE3hRkG5A43xxOQ+HbhBVAUlQU2sJg2rURgYAYWZjBsdc0z8BInoXOQPBV9BNAbxogjEANWaTRQHiTgVZE21Tmz4Az1W6WwGhU7ZpNCtZlUwJV1VnXwJ5VKhsCEFpCEcJdFBYUQFTU7heA6lecmIEZ1KZawFPZX4xCtNZ/0sA0F3ZTgV4arJVAeVfyT8B6VD3aQv2VXxfBl54cTkLhGo7VQSRcro4ATZruDIERFVWSwDyYHtlDK5m7EYE2W/HQwVac/s5B2tRGGgBxFCNXgB3V7piB1djX1oHz3HvNwPFbkBDBEVcdU4CHVSKSgTyYnRZAYJYJGUEk0u4agSiZC5HBUBuyUMF7XH0OQlrW29jAYpaDU8ShWqaVAEDXE1iAXBPdF0BC3nPOALEacJVE+5fv2UNDHkTMwUBbK1DAgBjeT8C+2OMSwDEXVNaFSRO82kMB10eTRK8WKdOALls/VUDRmRDYwEdYqZLCn5kvj0EqlQZaAZNUUltAvpnPjEAHWEOQgNifZE4BSRv8UYBw1eHWwKbeUA5EJ1sRFUFR145XgUhYoFLAwNtgS8BrVDOaQOkXKxCBKRqrFQEfWIOTAELUo1oCtxfSUIBbGKzYwt8bQ1HAxRlUjUCcmZnMQN5bMtVBWRTr2oHuWLPNBNKXVFj",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 0,
+            "sourceEndSeconds": 12.0
+          },
+          "clip": "qa/soundtrack/rseaKBPkRPU/clips/0.000-20.000.wav"
+        },
+        {
+          "sampleStartSeconds": 20,
+          "sampleEndSeconds": 40.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 20,
+            "sourceEndSeconds": 32.0
+          },
+          "clip": "qa/soundtrack/rseaKBPkRPU/clips/20.000-40.000.wav"
+        },
+        {
+          "sampleStartSeconds": 600,
+          "sampleEndSeconds": 620.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 600,
+            "sourceEndSeconds": 612.0
+          },
+          "clip": "qa/soundtrack/rseaKBPkRPU/clips/600.000-620.000.wav"
+        }
+      ],
+      "adjacentIndependentConfirmation": true,
+      "independentMatchCount": 3,
+      "limits": "Recording candidate; evidence windows are not continuous cue boundaries."
+    }
+  ],
+  "fingerprintMethod": "python_legacy",
+  "legacyRustRequestCount": 0
+}

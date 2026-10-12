@@ -1,0 +1,2298 @@
+{
+  "id": "5MrkfLP25Rg",
+  "title": "Cities Skylines | Franklin Episode 6: Wooder",
+  "requests": [
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 0,
+      "sampleEndSeconds": 20.0,
+      "requestedEndSeconds": 20,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/0.000-20.000.wav",
+      "sha256": "d38e6d5ec01dbe869c10f3ed63cd9122ccc42afa24b49586aa629710a5bdb936",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "0",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/0.000-20.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:00:43.628476+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 0,
+        "sourceEndSeconds": 12.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "574462009",
+            "offset": -0.09105029999999999,
+            "timeskew": -4.208088e-05,
+            "frequencyskew": 0.0
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777645847,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "71188704",
+          "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+          "subtitle": "Passionata Symphony Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "joecolor": "b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/71188704"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro - Passionata Symphony Orchestra",
+            "text": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra",
+            "href": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/71188704?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/71188704"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1280339543"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/ad/5f/bfad5fd9-4f49-790b-1aa3-f5d5c43e3c77/mzaf_14470575942373263264.plus.aac.ep.m4a"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Symphony%20No.%205%20In%20C%20Minor%2C%20Op.%2067%3A%20IV.%20Allegro%20Passionata%20Symphony%20Orchestra"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in YouTube Music",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:youtubemusic:androiddeeplink",
+                    "type": "uri",
+                    "uri": "https://music.youtube.com/search?q=Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro+Passionata+Symphony+Orchestra&feature=shazam"
+                  }
+                ],
+                "type": "YOUTUBEMUSIC"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro%27%20artist%3A%27Passionata+Symphony+Orchestra%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "intent",
+                    "uri": "intent://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end"
+                  },
+                  {
+                    "name": "hub:applemusic:connect",
+                    "type": "applemusicconnect",
+                    "id": "1280339543",
+                    "uri": "https://unsupported.shazam.com"
+                  },
+                  {
+                    "name": "hub:applemusic:androidstore",
+                    "type": "uri",
+                    "uri": "https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                  "caption": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+                },
+                {
+                  "title": "Label",
+                  "text": "Maestro Music Distribution"
+                },
+                {
+                  "title": "Released",
+                  "text": "2012"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "1280339537"
+            }
+          ],
+          "genres": {
+            "primary": "Orchestral"
+          },
+          "urlparams": {
+            "{tracktitle}": "Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro",
+            "{trackartist}": "Passionata+Symphony+Orchestra"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1280338802",
+          "isrc": "DELJ81754945"
+        },
+        "tagid": "A9E5B991-78E2-4999-834B-639EEF98AD2A"
+      },
+      "status": "match",
+      "match": {
+        "key": "71188704",
+        "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+        "artist": "Passionata Symphony Orchestra",
+        "serviceURL": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                "caption": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+              },
+              {
+                "title": "Label",
+                "text": "Maestro Music Distribution"
+              },
+              {
+                "title": "Released",
+                "text": "2012"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/99DCAA89-1A0A-4694-87A9-35200402287C/A9E5B991-78E2-4999-834B-639EEF98AD2A?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:00:47 GMT",
+          "X-Forensic-Id": "a32b001e-c01e-47df-9d53-da5a34abdc37",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"574462009\",\"offset\":-0.09105029999999999,\"timeskew\":-4.208088E-5,\"frequencyskew\":0.0}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777645847,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"71188704\",\"title\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\",\"subtitle\":\"Passionata Symphony Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"joecolor\":\"b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/71188704\"}]},\"share\":{\"subject\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro - Passionata Symphony Orchestra\",\"text\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra\",\"href\":\"https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/71188704?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/71188704\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1280339543\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/ad/5f/bfad5fd9-4f49-790b-1aa3-f5d5c43e3c77/mzaf_14470575942373263264.plus.aac.ep.m4a\"}],\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Symphony%20No.%205%20In%20C%20Minor%2C%20Op.%2067%3A%20IV.%20Allegro%20Passionata%20Symphony%20Orchestra\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in YouTube Music\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:youtubemusic:androiddeeplink\",\"type\":\"uri\",\"uri\":\"https://music.youtube.com/search?q=Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro+Passionata+Symphony+Orchestra&feature=shazam\"}],\"type\":\"YOUTUBEMUSIC\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro%27%20artist%3A%27Passionata+Symphony+Orchestra%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"intent\",\"uri\":\"intent://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end\"},{\"name\":\"hub:applemusic:connect\",\"type\":\"applemusicconnect\",\"id\":\"1280339543\",\"uri\":\"https://unsupported.shazam.com\"},{\"name\":\"hub:applemusic:androidstore\",\"type\":\"uri\",\"uri\":\"https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"caption\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67\"},{\"title\":\"Label\",\"text\":\"Maestro Music Distribution\"},{\"title\":\"Released\",\"text\":\"2012\"}]}],\"url\":\"https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro\",\"artists\":[{\"id\":\"42\",\"adamid\":\"1280339537\"}],\"genres\":{\"primary\":\"Orchestral\"},\"urlparams\":{\"{tracktitle}\":\"Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro\",\"{trackartist}\":\"Passionata+Symphony+Orchestra\"},\"highlightsurls\":{},\"albumadamid\":\"1280338802\",\"isrc\":\"DELJ81754945\"},\"tagid\":\"A9E5B991-78E2-4999-834B-639EEF98AD2A\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 20,
+      "sampleEndSeconds": 40.0,
+      "requestedEndSeconds": 40,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/20.000-40.000.wav",
+      "sha256": "d0de1fa7dff83a3a34443b12dfb6c2f46baed1e2efd32855ed9307ccd9c216b4",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "20",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/20.000-40.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:00:49.889009+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 20,
+        "sourceEndSeconds": 32.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "574462009",
+            "offset": 19.879742187,
+            "timeskew": 0.0006453991,
+            "frequencyskew": -8.0525875e-05
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777651225,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "71188704",
+          "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+          "subtitle": "Passionata Symphony Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "joecolor": "b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/71188704"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro - Passionata Symphony Orchestra",
+            "text": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra",
+            "href": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/71188704?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/71188704"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1280339543"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/ad/5f/bfad5fd9-4f49-790b-1aa3-f5d5c43e3c77/mzaf_14470575942373263264.plus.aac.ep.m4a"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                  "caption": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+                },
+                {
+                  "title": "Label",
+                  "text": "Maestro Music Distribution"
+                },
+                {
+                  "title": "Released",
+                  "text": "2012"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+          "artists": [
+            {
+              "alias": "passionata-symphony-orchestra",
+              "id": "42",
+              "adamid": "1280339537"
+            }
+          ],
+          "alias": "symphony-no-5-in-c-minor-op-67-iv-allegro",
+          "genres": {
+            "primary": "Orchestral"
+          },
+          "urlparams": {
+            "{tracktitle}": "Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro",
+            "{trackartist}": "Passionata+Symphony+Orchestra"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1280338802",
+          "trackadamid": "1280339543",
+          "releasedate": "15-05-2012",
+          "isrc": "DELJ81754945"
+        },
+        "tagid": "E53CB2AC-17AE-4155-B67C-5F8DC693B081"
+      },
+      "status": "match",
+      "match": {
+        "key": "71188704",
+        "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+        "artist": "Passionata Symphony Orchestra",
+        "serviceURL": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                "caption": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+              },
+              {
+                "title": "Label",
+                "text": "Maestro Music Distribution"
+              },
+              {
+                "title": "Released",
+                "text": "2012"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/95784411-FCB6-45FE-80A5-057B53BDA239/E53CB2AC-17AE-4155-B67C-5F8DC693B081?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:00:53 GMT",
+          "X-Forensic-Id": "30724abb-b4dd-43ef-b098-dc7f83d0e3af",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"574462009\",\"offset\":19.879742187,\"timeskew\":6.453991E-4,\"frequencyskew\":-8.0525875E-5}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777651225,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"71188704\",\"title\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\",\"subtitle\":\"Passionata Symphony Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"joecolor\":\"b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/71188704\"}]},\"share\":{\"subject\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro - Passionata Symphony Orchestra\",\"text\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra\",\"href\":\"https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/71188704?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/71188704\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1280339543\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/ad/5f/bfad5fd9-4f49-790b-1aa3-f5d5c43e3c77/mzaf_14470575942373263264.plus.aac.ep.m4a\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"caption\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67\"},{\"title\":\"Label\",\"text\":\"Maestro Music Distribution\"},{\"title\":\"Released\",\"text\":\"2012\"}]}],\"url\":\"https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro\",\"artists\":[{\"alias\":\"passionata-symphony-orchestra\",\"id\":\"42\",\"adamid\":\"1280339537\"}],\"alias\":\"symphony-no-5-in-c-minor-op-67-iv-allegro\",\"genres\":{\"primary\":\"Orchestral\"},\"urlparams\":{\"{tracktitle}\":\"Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro\",\"{trackartist}\":\"Passionata+Symphony+Orchestra\"},\"highlightsurls\":{},\"albumadamid\":\"1280338802\",\"trackadamid\":\"1280339543\",\"releasedate\":\"15-05-2012\",\"isrc\":\"DELJ81754945\"},\"tagid\":\"E53CB2AC-17AE-4155-B67C-5F8DC693B081\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 40,
+      "sampleEndSeconds": 60.0,
+      "requestedEndSeconds": 60,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/40.000-60.000.wav",
+      "sha256": "b9ae3afbae7cbbbd39d6b0bc642d3a7bf1906381e90245e82993f5ab2cb3e361",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "40",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/40.000-60.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:00:55.703086+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 40,
+        "sourceEndSeconds": 52.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777657318,
+        "timezone": "Europe/Moscow",
+        "tagid": "D52A4B73-9424-4B14-B95C-DB329B382FFA"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/A6111692-5BFF-4405-B602-464DF06D896D/D52A4B73-9424-4B14-B95C-DB329B382FFA?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:00:59 GMT",
+          "X-Forensic-Id": "2e36792a-ef47-4cc9-b779-4faf415d085b",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777657318,\"timezone\":\"Europe/Moscow\",\"tagid\":\"D52A4B73-9424-4B14-B95C-DB329B382FFA\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 120,
+      "sampleEndSeconds": 140.0,
+      "requestedEndSeconds": 140,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/120.000-140.000.wav",
+      "sha256": "e2ae284591c0cb3a7e34d3fd33a854bb676d177648366f68d2d882b56d043438",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "120",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/120.000-140.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:00:59.869631+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 120,
+        "sourceEndSeconds": 132.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777661737,
+        "timezone": "Europe/Moscow",
+        "tagid": "1F7FE1F4-9E8E-4294-BCD8-0686FD471792"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/C274B26F-7111-4CD6-8C9C-51451722B621/1F7FE1F4-9E8E-4294-BCD8-0686FD471792?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:01:04 GMT",
+          "X-Forensic-Id": "6af95cd9-2ddc-4189-8221-2fd172809119",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777661737,\"timezone\":\"Europe/Moscow\",\"tagid\":\"1F7FE1F4-9E8E-4294-BCD8-0686FD471792\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 240,
+      "sampleEndSeconds": 260.0,
+      "requestedEndSeconds": 260,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/240.000-260.000.wav",
+      "sha256": "99decc93dfd5220588a38a5213df043d3633331a38f618238cb1048b33d21be9",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "240",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/240.000-260.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:01:05.998101+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 240,
+        "sourceEndSeconds": 252.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777667754,
+        "timezone": "Europe/Moscow",
+        "tagid": "02B8C8B0-5A3F-4204-BF54-F434312D5FCE"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/1BFC489F-8677-4C62-AE2D-871089D19C4D/02B8C8B0-5A3F-4204-BF54-F434312D5FCE?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:01:10 GMT",
+          "X-Forensic-Id": "ece453c0-728f-4f82-8d94-586da9a0e2f1",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777667754,\"timezone\":\"Europe/Moscow\",\"tagid\":\"02B8C8B0-5A3F-4204-BF54-F434312D5FCE\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 360,
+      "sampleEndSeconds": 380.0,
+      "requestedEndSeconds": 380,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/360.000-380.000.wav",
+      "sha256": "e988c666d2972f5eae88c448c37645a14b4d90798a3ae363bb24e37378c7650c",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "360",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/360.000-380.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:01:11.891227+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 360,
+        "sourceEndSeconds": 372.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777673374,
+        "timezone": "Europe/Moscow",
+        "tagid": "1E050A71-9820-40B6-85CB-A7C3AC683DCA"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/D5CB0E30-D157-444C-B1BB-FF892AFB2814/1E050A71-9820-40B6-85CB-A7C3AC683DCA?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:01:16 GMT",
+          "X-Forensic-Id": "0217d30a-87a6-4c5b-a4c5-e64156a770dd",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777673374,\"timezone\":\"Europe/Moscow\",\"tagid\":\"1E050A71-9820-40B6-85CB-A7C3AC683DCA\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 480,
+      "sampleEndSeconds": 500.0,
+      "requestedEndSeconds": 500,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/480.000-500.000.wav",
+      "sha256": "ee5abcda8754beb9218bb37164ca57be04cc39405d25b5aae6d98d648d0c11de",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "480",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/480.000-500.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:01:17.999745+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 480,
+        "sourceEndSeconds": 492.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777679488,
+        "timezone": "Europe/Moscow",
+        "tagid": "915C31BB-74C5-4674-9577-44742B6BC426"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/6731033B-139A-4295-AD0A-6FEBBE174007/915C31BB-74C5-4674-9577-44742B6BC426?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:01:21 GMT",
+          "X-Forensic-Id": "0fef6ed8-424d-420f-9266-394b3a497e42",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777679488,\"timezone\":\"Europe/Moscow\",\"tagid\":\"915C31BB-74C5-4674-9577-44742B6BC426\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 600,
+      "sampleEndSeconds": 620.0,
+      "requestedEndSeconds": 620,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/600.000-620.000.wav",
+      "sha256": "e7cce17681dd7d51b33a7ecdf7160d6c65ded4baedb53c757582271e14da611b",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "600",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/600.000-620.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:01:23.982054+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 600,
+        "sourceEndSeconds": 612.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777685430,
+        "timezone": "Europe/Moscow",
+        "tagid": "B8BE7C48-AC6C-4055-A7DF-9D55DFAD6AC1"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/A0915053-6035-4839-B66A-8E8CA17A76FD/B8BE7C48-AC6C-4055-A7DF-9D55DFAD6AC1?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:01:27 GMT",
+          "X-Forensic-Id": "74969f6f-c2bf-481a-8e5d-08d09ae32ac9",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777685430,\"timezone\":\"Europe/Moscow\",\"tagid\":\"B8BE7C48-AC6C-4055-A7DF-9D55DFAD6AC1\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 720,
+      "sampleEndSeconds": 740.0,
+      "requestedEndSeconds": 740,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/720.000-740.000.wav",
+      "sha256": "9a142fd099fb453fe0d6433e09d2a540ddf8905e68c471a0de4ccea165b5bcbd",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "720",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/720.000-740.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:01:28.113578+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 720,
+        "sourceEndSeconds": 732.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777689447,
+        "timezone": "Europe/Moscow",
+        "tagid": "6CF36D3F-01F3-46C8-9D6C-FA2CC41E6247"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/FDCF5AFB-4089-4979-85B7-E51CBF738E36/6CF36D3F-01F3-46C8-9D6C-FA2CC41E6247?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:01:32 GMT",
+          "X-Forensic-Id": "d3a71048-f87e-4996-add0-b7ad3299adb8",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777689447,\"timezone\":\"Europe/Moscow\",\"tagid\":\"6CF36D3F-01F3-46C8-9D6C-FA2CC41E6247\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 840,
+      "sampleEndSeconds": 860.0,
+      "requestedEndSeconds": 860,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/840.000-860.000.wav",
+      "sha256": "0aea33d510fec6a66da816d7ddd01b328db2f83ef069ed5a89eba46fb5dfc508",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "840",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/840.000-860.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:01:34.049318+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 840,
+        "sourceEndSeconds": 852.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777695585,
+        "timezone": "Europe/Moscow",
+        "tagid": "E8DF9C45-DD19-40DE-957B-4431EBBDBCB7"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/0BB04BDE-577A-402F-9210-BF5F77ADF313/E8DF9C45-DD19-40DE-957B-4431EBBDBCB7?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:01:38 GMT",
+          "X-Forensic-Id": "ea8b953f-b97d-438d-b520-c0d24f7dfb70",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777695585,\"timezone\":\"Europe/Moscow\",\"tagid\":\"E8DF9C45-DD19-40DE-957B-4431EBBDBCB7\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 960,
+      "sampleEndSeconds": 980.0,
+      "requestedEndSeconds": 980,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/960.000-980.000.wav",
+      "sha256": "d8febc49cd7766795291e3e76b98cba90aa8bbf9a78855420e3c830dad01d918",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "960",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/960.000-980.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:01:40.095200+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 960,
+        "sourceEndSeconds": 972.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777701386,
+        "timezone": "Europe/Moscow",
+        "tagid": "BD2A1AB3-384A-47D6-B51D-2D28C73FDB7B"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/64821CC1-8AA2-44A7-B692-21BA6282A249/BD2A1AB3-384A-47D6-B51D-2D28C73FDB7B?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:01:44 GMT",
+          "X-Forensic-Id": "037456f6-1add-4f07-9cb4-f207b47c1f00",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777701386,\"timezone\":\"Europe/Moscow\",\"tagid\":\"BD2A1AB3-384A-47D6-B51D-2D28C73FDB7B\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 1080,
+      "sampleEndSeconds": 1100.0,
+      "requestedEndSeconds": 1100,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/1080.000-1100.000.wav",
+      "sha256": "8c2ebed18c67101e2865f68f107b664f9361737fa075a7fb1d5c73610ae9c4b5",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1080",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/1080.000-1100.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:01:46.081327+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1080,
+        "sourceEndSeconds": 1092.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777707355,
+        "timezone": "Europe/Moscow",
+        "tagid": "443BAF34-49DD-4412-870E-9F90CF508A85"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/7E6C3DD0-C1A7-43C8-8C5D-57E852D28D27/443BAF34-49DD-4412-870E-9F90CF508A85?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:01:49 GMT",
+          "X-Forensic-Id": "bc312bff-8cd9-456c-8292-0eb4a9b36fb3",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777707355,\"timezone\":\"Europe/Moscow\",\"tagid\":\"443BAF34-49DD-4412-870E-9F90CF508A85\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 1174.688,
+      "sampleEndSeconds": 1194.688,
+      "requestedEndSeconds": 1194.688,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/1174.688-1194.688.wav",
+      "sha256": "c128c86641733b448dbe1be0778f5e5a48cf33fbf10b910ab9e81657aa62880c",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1174.688",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/1174.688-1194.688.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:01:52.019282+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1174.688,
+        "sourceEndSeconds": 1186.688
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "574462007",
+            "offset": 172.20321875,
+            "timeskew": 3.4570694e-06,
+            "frequencyskew": -8.0525875e-05
+          },
+          {
+            "id": "276265233",
+            "offset": 171.986,
+            "timeskew": 3.4451485e-05,
+            "frequencyskew": 0.0
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777713350,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "71192767",
+          "title": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro",
+          "subtitle": "Passionata Symphony Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "joecolor": "b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/71192767"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro - Passionata Symphony Orchestra",
+            "text": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro by Passionata Symphony Orchestra",
+            "href": "https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro by Passionata Symphony Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/71192767?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/71192767"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1280339542"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/8e/94/9d8e94b2-1500-5296-a394-6552349749f6/mzaf_3697499228768527047.plus.aac.ep.m4a"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                  "caption": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+                },
+                {
+                  "title": "Label",
+                  "text": "Maestro Music Distribution"
+                },
+                {
+                  "title": "Released",
+                  "text": "2012"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro",
+          "artists": [
+            {
+              "alias": "passionata-symphony-orchestra",
+              "id": "42",
+              "adamid": "1280339537"
+            }
+          ],
+          "alias": "symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro",
+          "genres": {
+            "primary": "Orchestral"
+          },
+          "urlparams": {
+            "{tracktitle}": "Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+III.+Scherzo%3A+Allegro",
+            "{trackartist}": "Passionata+Symphony+Orchestra"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1280338802",
+          "trackadamid": "1280339542",
+          "releasedate": "15-05-2012",
+          "isrc": "DELJ81754944"
+        },
+        "tagid": "DD0DD7B6-C1F7-41FB-A1D5-2DBA5D0037DC"
+      },
+      "status": "match",
+      "match": {
+        "key": "71192767",
+        "title": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro",
+        "artist": "Passionata Symphony Orchestra",
+        "serviceURL": "https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                "caption": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+              },
+              {
+                "title": "Label",
+                "text": "Maestro Music Distribution"
+              },
+              {
+                "title": "Released",
+                "text": "2012"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/FD80357B-E2F6-4A19-9D4F-3025C9813CCF/DD0DD7B6-C1F7-41FB-A1D5-2DBA5D0037DC?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:01:55 GMT",
+          "X-Forensic-Id": "d7e95ab3-121f-4b36-9675-8371d26c55e2",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"574462007\",\"offset\":172.20321875,\"timeskew\":3.4570694E-6,\"frequencyskew\":-8.0525875E-5},{\"id\":\"276265233\",\"offset\":171.986,\"timeskew\":3.4451485E-5,\"frequencyskew\":0.0}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777713350,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"71192767\",\"title\":\"Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro\",\"subtitle\":\"Passionata Symphony Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"joecolor\":\"b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/71192767\"}]},\"share\":{\"subject\":\"Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro - Passionata Symphony Orchestra\",\"text\":\"Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro by Passionata Symphony Orchestra\",\"href\":\"https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro by Passionata Symphony Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/71192767?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/71192767\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1280339542\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/8e/94/9d8e94b2-1500-5296-a394-6552349749f6/mzaf_3697499228768527047.plus.aac.ep.m4a\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"caption\":\"Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67\"},{\"title\":\"Label\",\"text\":\"Maestro Music Distribution\"},{\"title\":\"Released\",\"text\":\"2012\"}]}],\"url\":\"https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro\",\"artists\":[{\"alias\":\"passionata-symphony-orchestra\",\"id\":\"42\",\"adamid\":\"1280339537\"}],\"alias\":\"symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro\",\"genres\":{\"primary\":\"Orchestral\"},\"urlparams\":{\"{tracktitle}\":\"Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+III.+Scherzo%3A+Allegro\",\"{trackartist}\":\"Passionata+Symphony+Orchestra\"},\"highlightsurls\":{},\"albumadamid\":\"1280338802\",\"trackadamid\":\"1280339542\",\"releasedate\":\"15-05-2012\",\"isrc\":\"DELJ81754944\"},\"tagid\":\"DD0DD7B6-C1F7-41FB-A1D5-2DBA5D0037DC\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 1194.688,
+      "sampleEndSeconds": 1214.688,
+      "requestedEndSeconds": 1214.688,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/1194.688-1214.688.wav",
+      "sha256": "8172e8d7ac508fcba772c17b131078a14b3029770fdb0ccc310dbc58e94e59cf",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1194.688",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/1194.688-1214.688.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:01:56.134159+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1194.688,
+        "sourceEndSeconds": 1206.688
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "574462007",
+            "offset": 192.20534375,
+            "timeskew": -5.1498413e-05,
+            "frequencyskew": 0.0
+          },
+          {
+            "id": "276265233",
+            "offset": 191.986125,
+            "timeskew": 0.00020933151,
+            "frequencyskew": 0.0
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777717405,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "71192767",
+          "title": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro",
+          "subtitle": "Passionata Symphony Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "joecolor": "b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/71192767"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro - Passionata Symphony Orchestra",
+            "text": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro by Passionata Symphony Orchestra",
+            "href": "https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro by Passionata Symphony Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/71192767?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/71192767"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1280339542"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/8e/94/9d8e94b2-1500-5296-a394-6552349749f6/mzaf_3697499228768527047.plus.aac.ep.m4a"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Symphony%20No.%205%20In%20C%20Minor%2C%20Op.%2067%3A%20III.%20Scherzo%3A%20Allegro%20Passionata%20Symphony%20Orchestra"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+III.+Scherzo%3A+Allegro%27%20artist%3A%27Passionata+Symphony+Orchestra%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              },
+              {
+                "caption": "BUY",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "buy",
+                  "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                  "caption": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+                },
+                {
+                  "title": "Label",
+                  "text": "Maestro Music Distribution"
+                },
+                {
+                  "title": "Released",
+                  "text": "2012"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "1280339537"
+            }
+          ],
+          "genres": {
+            "primary": "Orchestral"
+          },
+          "urlparams": {
+            "{tracktitle}": "Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+III.+Scherzo%3A+Allegro",
+            "{trackartist}": "Passionata+Symphony+Orchestra"
+          },
+          "myshazam": {
+            "apple": {
+              "actions": [
+                {
+                  "name": "myshazam:apple",
+                  "type": "uri",
+                  "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                }
+              ]
+            }
+          },
+          "highlightsurls": {},
+          "albumadamid": "1280338802",
+          "isrc": "DELJ81754944"
+        },
+        "tagid": "52D514BB-E627-4D5C-914F-E4570B3733CB"
+      },
+      "status": "match",
+      "match": {
+        "key": "71192767",
+        "title": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro",
+        "artist": "Passionata Symphony Orchestra",
+        "serviceURL": "https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                "caption": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+              },
+              {
+                "title": "Label",
+                "text": "Maestro Music Distribution"
+              },
+              {
+                "title": "Released",
+                "text": "2012"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/6437AD5A-C52D-4180-B7D7-C222723C2538/52D514BB-E627-4D5C-914F-E4570B3733CB?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:02:01 GMT",
+          "X-Forensic-Id": "22e8280a-b746-43d8-bd3d-213fff47f1ac",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"574462007\",\"offset\":192.20534375,\"timeskew\":-5.1498413E-5,\"frequencyskew\":0.0},{\"id\":\"276265233\",\"offset\":191.986125,\"timeskew\":2.0933151E-4,\"frequencyskew\":0.0}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777717405,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"71192767\",\"title\":\"Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro\",\"subtitle\":\"Passionata Symphony Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"joecolor\":\"b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/71192767\"}]},\"share\":{\"subject\":\"Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro - Passionata Symphony Orchestra\",\"text\":\"Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro by Passionata Symphony Orchestra\",\"href\":\"https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro by Passionata Symphony Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/71192767?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/71192767\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1280339542\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/8e/94/9d8e94b2-1500-5296-a394-6552349749f6/mzaf_3697499228768527047.plus.aac.ep.m4a\"}],\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Symphony%20No.%205%20In%20C%20Minor%2C%20Op.%2067%3A%20III.%20Scherzo%3A%20Allegro%20Passionata%20Symphony%20Orchestra\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+III.+Scherzo%3A+Allegro%27%20artist%3A%27Passionata+Symphony+Orchestra%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"},{\"caption\":\"BUY\",\"actions\":[{\"type\":\"uri\",\"uri\":\"https://itunes.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"buy\",\"providername\":\"itunes\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"type\":\"buy\",\"listcaption\":\"Buy on iTunes\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"itunes\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"caption\":\"Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67\"},{\"title\":\"Label\",\"text\":\"Maestro Music Distribution\"},{\"title\":\"Released\",\"text\":\"2012\"}]}],\"url\":\"https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro\",\"artists\":[{\"id\":\"42\",\"adamid\":\"1280339537\"}],\"genres\":{\"primary\":\"Orchestral\"},\"urlparams\":{\"{tracktitle}\":\"Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+III.+Scherzo%3A+Allegro\",\"{trackartist}\":\"Passionata+Symphony+Orchestra\"},\"myshazam\":{\"apple\":{\"actions\":[{\"name\":\"myshazam:apple\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}]}},\"highlightsurls\":{},\"albumadamid\":\"1280338802\",\"isrc\":\"DELJ81754944\"},\"tagid\":\"52D514BB-E627-4D5C-914F-E4570B3733CB\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 1200,
+      "sampleEndSeconds": 1220.0,
+      "requestedEndSeconds": 1220,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/1200.000-1220.000.wav",
+      "sha256": "c0c4cda966ddb0b8fe72e42292c45fa7fb81784420dfa329f86278e025d2970e",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1200",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/1200.000-1220.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:02:02.172398+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,gCX+yqd67iZ0CQAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAD9AgAAAHwAAAAAQHQJAABAAANg0gAAADC4aK4MDVNSsA8ZlWY0C0MjWMsPAyJmgwpNgGswDgG5V4kKF/FcGQsLO15lCCOfWkwJK19lqwwLzVXhD0hhWDALCoNhCg4IWmNnCFDtXK4MBjBc5w5CZmIzCymfZS0OKBVXcwwVqVIKEBzVY2YJQrZlVggQ1FeuDG6nZ10IAN9npwxI6WWiDCwyWzMLGGpnaQgp1WE9CxXjYyYOF7NepwwDblyKDyQKX2UJQ05joAwhEWBrCApIWL4PMkdfbAgXmlzJDxosXXoJCCZgkgwR/FnBDwAAQQADYLwCAAAMakEWLgHPU68RAIJGURwDHVTmGAFpNvQpB+JU8SUT2UCKKwE9SpEfAZhOzRMD/0+BFyGIPacoBSdUtSEB11GzEgHbX8kVAHNP7ywDQEUYHBbsRfgkB3VP5hwA+lEZIAGEVQ4ZHqdNESoIlFYmFQEEWEsaHJ1TKCICi1M2FgE4WAYcAn9GAicJpE6qKhzhVlkaAtNUNRUGjE+oHwvUWAkcAjlVYhYK2FVUEga4WX0ZAZ5QryEhsVfOEgAlRysqAeRUfiUB1U2MLQNtXwweBthNVBcL/FR+GgP2TdosC0tZBRwDVlVJFhMyVSsVBpdA0CQP31N6GQAAUI4hBwtW5BACpUv+HgI2SM0lA5RXcxIRBUyHIAESXaQcAtNUgxUHV04IKgFuQewkBSdL5iwB2FWHFhYlWr0QAwVaORkJv1e7IQYBTTkUNqNJUiUBm1zbHQeaU20WAiBJ+CwCJUNFJhnwTUIhAQRaVBwDWVg6FR77SDMqBLpFbycCWUsaLQHVVV0WIKJKqiEWwlsEEReqP9crAc1esxIJnVHvGBkdUbQRBYNa+x8RWk8UHAVGOFMWAAxNdyUD0lK7EjYBR3cqAl9TABUF11/tEBXnT1oZCEpVlyEJUUcHKgFBRSomDktb6BAiy09IFgu4RFQdB/hVghUEw0/1JQq8W8wqGktUAR4DrlcxGQ0/U4UVBIJcxRACZ0zBIQrwTNglIHFSRBkKNkjJIQyVV9MQAmldahYGPEZMJxhNXQQtEvNcSBkNfUVJJwN9XrgWFm5nmCITcWSjIAWeWDUZC+Nl6iEFCViQFgA1XiYcAz9l+BIIhmn4JQjPXhEtKGVdGhwTvGU1IA3OaDwiEwdWTxkhm2g/JhF4ZyorCjxTPBUFgVA+GQcgWaUtLWtSFRkDmFjGHxnLXwkmAUlWexwS41j6EhKKU0UZQgADYMMFAAAKvTY6RgC/MxlRAnxDC0sAuzqbbgLJVpwyAjFTKj8DOkgxWAXtPHllAR1KsFYBSU4BQAHuS0A4DoY+eWQEXT0VRyPiPXxIAEBANFoCA0jHQQCzPSdlBOtVPjgATj6oThlDOUpbAow6YGoDMkRKNQI3R7xJAHREkVQBrk45PwCTO/leAAA7X2kDUUbBNRraPvFLAdJCGy8Awkl0OQFcUHNDAJU9WWIB7TwJWQA8N4ttASpHRjQDRUUHMB8oNu1dAd9Fkz0B3lcuMwBoPzlmBVhBCGME2lL0RgJ0UKxTAwlRAEMHBE9xQw3HRHZkAn9QVzoBZTnRTgLxOUJKALI+BloDKU3YLwyCQqk9AKwxdV8DaizsahJgPXBcBcc9aV0DaEHqNwlaTD9DAGw11GAFajioNg13RDNsBABIdkYAEjxGYwHBUeVKAE9O4lkBF0e6aAEST+s7AKNAqUEIWk+9OgLqSrxXADJFXVsAMT+nZAGBRjdJAaRFW20B3UG2RAPmS1Y+BFI7OmcHbk+UMgPtSTZDASlAUTcVIUnWLwCaRP8/Dzo3AF8Boz/BSwX3SqxDASxFYjsB9kTlWwHISoVTDFhDpUQPzEtNQANDRo9FAdY7dm0Cg0fJMQFgN4RNA6VP1FQFJkSyMwFoTkFGAFI7BFoCVUS5PAWbP4duA0lIhlMNsUK0YgElTblDAog+Fl0Bc07BOgEgQPdLCmFJJ0QLkkzwQg/WO8VtAhxQqzIIckK7ORNOOu5gAXVEsFYC5DWAaAEIO+NvAbM4S2wB3EBeUgDGRPpZAZNR+TsAE0PLSgHBNlFfAVhXRDQBQTPzaBgOMl1qBWA/klQBvD9oQgB2PUhbARBHczECgUZFOQELQOZPAZA9iEch80EGPQEpUEU4Ak4yl1YlrUa2MgVSSY1DAMk92GIBhEHrRgRCSS5UDqg8D2UO8SjRaQHPRqlACilazC8AbEFCOAa9PnBTBPM3qWMHjUCKbwXePBdKA/Y+lDcBET3+SwJ/NTVbADZGS2ALN0EPbwE+SDpfAYlAx0wBcDAPWgEAP3czCWBNTlAAUTSrZQZ4P2w4Cw0/S2IH6UEdQAKUQgNHCF5DhT8Fbz1sbg1ITrAxAwQ7rDoACy+kXALJSTlCBHxFhy4AKFA/VAOZPC82A5hI7y8ARzg9OwEnS99OBVZBMEABXkqNLwA8THZPAys+MW8CQUzrZAdgSkFEDyU9vV8HnECONQLbP1BNABE6dV4BqETVOBLhPVlpBtQ4zjoDrU19MgWPSr9LCqpAO1oBj0Q8QgnnOzw7BUJJqzEB6DtHNgEORrE+AuRI5koG0T9TawJZNQpHDINHfUQAQT/OaQFlQGhbD3JOmEsBJTqRWgLGSsZkBDY8ilkH6zJzbwEdSbQ7AWg7LVED0j04awEVROdVBCo6xl8FyT7GagEYSQ9AAuxHOUMFTkx9MgYWP7U3ANs5qUYAeUDMXApVNoxgDcpJRFQFwD+5QAaVN0M1AedE8VgB60XOQhD8P9tpB0NGhz8HuUDzbweQTVJaAnA4vE8CyTrDRwN2OXVkCeZKgTIARERySwSuRO1lBghBxUwIQTS/SAdASDpUA1ZZOzkIsS5FbAg+Q7laAAhGNWgEgjkoTgjgMhJSBodBhEEIq0plYQF1Mfs8Bbo7m2UDrEYtWgOrUOlDAp47QGYDcTxPawODLHdQCAxDP0sDHzcrVArfVxE5AfBLDl8Gbk+OMgDoR+lLDG1D+kwc2ktNQAH3S3pgBmFEr1kJdk5yRAcsR+ZmBd0qdlEGrE0+YQx9Tw9ECCZEU2YL8EZ+VQGaQ8lqBpk7SkwPZEdyVhD0PkJbD7ZHv0MAn0WbZQm0R4VmA/9AQkwShl6OMwBIQVtnBLdTO18EQDxObwrSQH1uCKI1bUIGNChHUwGJK4VZAptYBDkDHi4aRwITWU8vBPRBSWYBATvLTgKKYBczALUsV0YOaEkwPwA=",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1200,
+        "sourceEndSeconds": 1212.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "574462007",
+            "offset": 197.5166875,
+            "timeskew": -8.672476e-05,
+            "frequencyskew": -0.00016111135
+          },
+          {
+            "id": "276265233",
+            "offset": 197.29625,
+            "timeskew": 0.0005168915,
+            "frequencyskew": -4.029274e-05
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777723464,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "71192767",
+          "title": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro",
+          "subtitle": "Passionata Symphony Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "joecolor": "b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/71192767"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro - Passionata Symphony Orchestra",
+            "text": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro by Passionata Symphony Orchestra",
+            "href": "https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro by Passionata Symphony Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/71192767?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/71192767"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1280339542"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/8e/94/9d8e94b2-1500-5296-a394-6552349749f6/mzaf_3697499228768527047.plus.aac.ep.m4a"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                  "caption": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+                },
+                {
+                  "title": "Label",
+                  "text": "Maestro Music Distribution"
+                },
+                {
+                  "title": "Released",
+                  "text": "2012"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro",
+          "artists": [
+            {
+              "alias": "passionata-symphony-orchestra",
+              "id": "42",
+              "adamid": "1280339537"
+            }
+          ],
+          "alias": "symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro",
+          "genres": {
+            "primary": "Orchestral"
+          },
+          "urlparams": {
+            "{tracktitle}": "Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+III.+Scherzo%3A+Allegro",
+            "{trackartist}": "Passionata+Symphony+Orchestra"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1280338802",
+          "trackadamid": "1280339542",
+          "releasedate": "15-05-2012",
+          "isrc": "DELJ81754944"
+        },
+        "tagid": "3077908A-AB45-42DB-B1C1-71E481ECD38F"
+      },
+      "status": "match",
+      "match": {
+        "key": "71192767",
+        "title": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro",
+        "artist": "Passionata Symphony Orchestra",
+        "serviceURL": "https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                "caption": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+              },
+              {
+                "title": "Label",
+                "text": "Maestro Music Distribution"
+              },
+              {
+                "title": "Released",
+                "text": "2012"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/2AA52717-6155-4A96-88D3-6C8D19E3EACC/3077908A-AB45-42DB-B1C1-71E481ECD38F?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:02:06 GMT",
+          "X-Forensic-Id": "4dd3eedc-5c57-4415-9bd1-8c211be6ef7b",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"574462007\",\"offset\":197.5166875,\"timeskew\":-8.672476E-5,\"frequencyskew\":-1.6111135E-4},{\"id\":\"276265233\",\"offset\":197.29625,\"timeskew\":5.168915E-4,\"frequencyskew\":-4.029274E-5}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777723464,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"71192767\",\"title\":\"Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro\",\"subtitle\":\"Passionata Symphony Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"joecolor\":\"b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/71192767\"}]},\"share\":{\"subject\":\"Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro - Passionata Symphony Orchestra\",\"text\":\"Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro by Passionata Symphony Orchestra\",\"href\":\"https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro by Passionata Symphony Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/71192767?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/71192767\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1280339542\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/8e/94/9d8e94b2-1500-5296-a394-6552349749f6/mzaf_3697499228768527047.plus.aac.ep.m4a\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro/1280338802?i=1280339542&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"caption\":\"Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67\"},{\"title\":\"Label\",\"text\":\"Maestro Music Distribution\"},{\"title\":\"Released\",\"text\":\"2012\"}]}],\"url\":\"https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro\",\"artists\":[{\"alias\":\"passionata-symphony-orchestra\",\"id\":\"42\",\"adamid\":\"1280339537\"}],\"alias\":\"symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro\",\"genres\":{\"primary\":\"Orchestral\"},\"urlparams\":{\"{tracktitle}\":\"Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+III.+Scherzo%3A+Allegro\",\"{trackartist}\":\"Passionata+Symphony+Orchestra\"},\"highlightsurls\":{},\"albumadamid\":\"1280338802\",\"trackadamid\":\"1280339542\",\"releasedate\":\"15-05-2012\",\"isrc\":\"DELJ81754944\"},\"tagid\":\"3077908A-AB45-42DB-B1C1-71E481ECD38F\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "sourceBytes": 671655776,
+        "sourceMtimeNs": 1791766050028777122
+      },
+      "sampleStartSeconds": 1214.688,
+      "sampleEndSeconds": 1234.674688,
+      "requestedEndSeconds": 1234.688,
+      "clip": "qa/soundtrack/5MrkfLP25Rg/clips/1214.688-1234.688.wav",
+      "sha256": "deeb4530ab9a9c2bab52758947f965e81373581b30038434fc74e5e301ae4298",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1214.688",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/5MrkfLP25Rg/clips/1214.688-1234.688.wav"
+      ],
+      "actualAudioDurationSeconds": 19.986688,
+      "requestedAt": "2026-10-12T04:02:08.171733+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,gCX+yq2ZhOAsBQAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAACpBAAAAHwAAAAAQCwFAABAAANgZAAAAAqkTtgPBM5ZjAkAhGC1DLWrMXkMDtUosg8PJjY/C2j+XAgQA+o7NQkpnmasDDoRZm8JJr5I9w9hjk5wDW6WUIsMeswzEgkIFTH3C2FCN0cL/1kIAAAANis1DQ+MKiUJQyolPwlBAANgLAEAAAx0VwYTAExQkRwA3Ff1JQFJUBAgAVVJyRcAwE+tKkYUYHMtL35j+CUuKlnwHyZtWWsZIIdYSi0NDFmbFgGvMvMcDWVVKyYOwk87EyNJT/wfF8dXiBkHY04PJiwgUG8WBtNIySEJXTfuLA4oVnUcBXY6tyUGiVHNEhMqSc8fA7pQ6hcEa0H/J2VYLzkoBYZPCxQA20XGGgWGPnUhPvoedRcRnx+5JxU3Qw4ZAbtL5RIGWi17KwH4Ob0fCd8nPyUdeCMBJ0S+FzcnA0kjzx0BqBh0IwHVKawRAJksuRcEnxdHJmSTIiItA+MakBYBFh7XIQA6EXYnATYTfhwLKCITEQOkGfkW/1sIAAAAVCIALAGlJ38bAU0obxgA4SvOIgCLJEMnLIEduxQXDgtsJ0IAA2B6AwAACQoxjlUDrE7zOACuQQFMArxlBDMAbkHwXgFGMxNAFQQqU0gBhTe7ZhAxQJJlIo48+loClx7EaQ4IGvdtCDBGW0wC9B+fVhO7GjtpAttCoksOlSBINwA9HiRUAjggBzoJZT+OXwQNRco/CEk5iF4EPCYHVwy3GRFqAwQbM24EECc1WA9eSU1MBNk8CWYEvBxbUgF3VukyAmcbam0HszPwNwDMSTZbBrZJ10MN+EWAWguhGw5qCTEaymoGykpGOQeXQ3NfJuNU+i8DcELpXwFuP/8/DeVE+U8BICRCVQMBKNdkApEdk0cB9TqySw5LSqYyAokoSlgF0CloZQKkKdFYAg4gqEYBtztoPyHXKXpDBPY/RTgA9zIYWgmQK9lOBlI1bUIFDC9SVQKmJ8deA6wwUGgCuDPnOAEmOgYvCx4WUW4Qjyb5RwABIPpvA5U+7S8D1zr/NwINIPtPCc0fAUAEMhlKPBUPCqxsBagTUTQKqw7BTQK0C/RVCRoQMlgAzQyRXCBUEXVSA7MRpEkAuQxOXwJPFRBvAnchhTUBDhhOZAFbIhBDBPkdvFABpSZ7PAEoFY9rAQ8VI14EPTEtLxT0FLpUAN8TJFsBGhzBNwA0E/5HAAIX/kwHoBIkMwAtDlFgADkPyWkH/gzlZAs0DE9tCuYRmlMBYRHJQATwESthAqMaUjwBGRKqRQCJEYVSAa4QI0AB0Re8TgFdGjZdAx0RtGEDMg88VgEXC+VnAPsPdWwLQhLtRgGCC5VvBRcRdkoF6CrNMQAAExRkAl4YBT4EVhoKRAAbGC9MAS0pzzcAUBEEbCN+C1VoAIEM3m8BxhYBPABSE4VOAMEOUFQAiRZbWw2lCPxiNrAPd0oAqQ0ZVQDMDHtoAb8jH0IAVQpuWwHcGek7AfEWwjUC2BUjLwV+EzBIATUO6GcBLhB6XgDRDLJqCS0CAGQEPRAZOFcSBAhXAKIISF4AKQBAaAEDCuQ5AJwDPlIAIQL+ZAFgDLsyAWEK/D8D/wkcSgIdCRc0AMMEA0T/WwgAAACcKfREAPoliVIA+jAVXQCmL1VlAOgu+2kBoik5NAAiL3BYATYlbT0ikxA/NhLOBgFnAl4HQVwECA0BOgM3ClBWASQIW2wBhAcvbwJ4CqU4aF9RfD0APU2DQwArT7lIAF9JE1QAKEfEWQAOVK9oAB9Jtm4AAA==",
+        "samplems": 18848,
+        "sampleRateHz": 16000,
+        "numberSamples": 301568,
+        "sourceStartSeconds": 1214.688,
+        "sourceEndSeconds": 1233.536
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777729681,
+        "timezone": "Europe/Moscow",
+        "tagid": "EE2E7903-78A8-4464-9A38-58E1BA166B68"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/A979D395-6F57-44C0-B999-A4DDDE8E8819/EE2E7903-78A8-4464-9A38-58E1BA166B68?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:02:12 GMT",
+          "X-Forensic-Id": "62fc0e1f-3c6d-4beb-9a8a-33f48f36964e",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777729681,\"timezone\":\"Europe/Moscow\",\"tagid\":\"EE2E7903-78A8-4464-9A38-58E1BA166B68\"}"
+      }
+    }
+  ],
+  "status": "probed",
+  "timingLimits": "Sample intervals and actual fingerprint intervals are evidence windows only, not cue boundaries. No listening claim.",
+  "recordingCandidates": [
+    {
+      "key": "71188704",
+      "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+      "artist": "Passionata Symphony Orchestra",
+      "serviceURL": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+      "evidence": [
+        {
+          "sampleStartSeconds": 0,
+          "sampleEndSeconds": 20.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 0,
+            "sourceEndSeconds": 12.0
+          },
+          "clip": "qa/soundtrack/5MrkfLP25Rg/clips/0.000-20.000.wav"
+        },
+        {
+          "sampleStartSeconds": 20,
+          "sampleEndSeconds": 40.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 20,
+            "sourceEndSeconds": 32.0
+          },
+          "clip": "qa/soundtrack/5MrkfLP25Rg/clips/20.000-40.000.wav"
+        }
+      ],
+      "adjacentIndependentConfirmation": true,
+      "independentMatchCount": 2,
+      "limits": "Recording candidate; evidence windows are not continuous cue boundaries."
+    },
+    {
+      "key": "71192767",
+      "title": "Symphony No. 5 In C Minor, Op. 67: III. Scherzo: Allegro",
+      "artist": "Passionata Symphony Orchestra",
+      "serviceURL": "https://www.shazam.com/track/71192767/symphony-no-5-in-c-minor-op-67-iii-scherzo-allegro",
+      "evidence": [
+        {
+          "sampleStartSeconds": 1174.688,
+          "sampleEndSeconds": 1194.688,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1174.688,
+            "sourceEndSeconds": 1186.688
+          },
+          "clip": "qa/soundtrack/5MrkfLP25Rg/clips/1174.688-1194.688.wav"
+        },
+        {
+          "sampleStartSeconds": 1194.688,
+          "sampleEndSeconds": 1214.688,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1194.688,
+            "sourceEndSeconds": 1206.688
+          },
+          "clip": "qa/soundtrack/5MrkfLP25Rg/clips/1194.688-1214.688.wav"
+        },
+        {
+          "sampleStartSeconds": 1200,
+          "sampleEndSeconds": 1220.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1200,
+            "sourceEndSeconds": 1212.0
+          },
+          "clip": "qa/soundtrack/5MrkfLP25Rg/clips/1200.000-1220.000.wav"
+        }
+      ],
+      "adjacentIndependentConfirmation": true,
+      "independentMatchCount": 3,
+      "limits": "Recording candidate; evidence windows are not continuous cue boundaries."
+    }
+  ],
+  "fingerprintMethod": "python_legacy",
+  "legacyRustRequestCount": 0
+}

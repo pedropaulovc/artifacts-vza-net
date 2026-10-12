@@ -1,0 +1,26 @@
+{
+  "requestedURL": "https://c418.bandcamp.com/track/minecraft",
+  "finalURL": "https://c418.bandcamp.com/track/minecraft",
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "337908",
+    "server": "nginx",
+    "accept-ranges": "bytes",
+    "content-security-policy": "base-uri 'none'; object-src 'none'; report-uri https://bandcamp.com/api/cspreport/1/violation; script-src http: https: 'nonce-boSidNB0AE1l0G0QaWFhLw==' 'report-sample' 'strict-dynamic'",
+    "via": "1.1 varnish, 1.1 varnish",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "link": "<https://c418.bandcamp.com/track/minecraft>;   rel=\"canonical\"",
+    "content-type": "text/html; charset=UTF-8",
+    "cache-control": "no-cache, no-store",
+    "Date": "Mon, 12 Oct 2026 16:45:49 GMT",
+    "X-Served-By": "cache-bfi-krnt7300064-BFI, cache-bfi-krnt7300064-BFI, cache-bfi-krnt7300029-BFI",
+    "X-Cache": "MISS, MISS",
+    "X-Cache-Hits": "0, 0",
+    "X-Timer": "S1791823549.704713,VS0,VE731",
+    "Vary": "Accept-Encoding, Accept-Encoding",
+    "Strict-Transport-Security": "max-age=63072000"
+  },
+  "retrievedAt": "2026-10-12T16:45:50.320819+00:00",
+  "sha256": "cc8c5e0f35ac619d0baad1abd227423799191df41916f64aaa0fbbc10f3196c8"
+}

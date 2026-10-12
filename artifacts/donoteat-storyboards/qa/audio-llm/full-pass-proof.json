@@ -1,0 +1,888 @@
+{
+  "scope": "Data-only provenance and source-frame union verification of completed actual GPU outputs; no model/DSP rerun or software test/build/lint/formatter.",
+  "model": "Qwen/Qwen2.5-Omni-7B",
+  "revision": "ae9e1690543ffd5c0221dc27f79834d0294cba00",
+  "precision": "BF16",
+  "device": "cuda:0",
+  "promptVersion": "v2",
+  "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+  "manifestPath": "qa/audio-llm/manifest.json",
+  "status": "complete",
+  "videos": 24,
+  "processedWindows": 1293,
+  "totalWindows": 1293,
+  "unresolvedErrors": 0,
+  "decodedSourceDurationSeconds": 44922.7470625,
+  "containerDurationSeconds": 44923.332,
+  "inputWindowSecondsIncludingOverlap": 51267.7470625,
+  "all24ExactSourceFrameUnionsCovered": true,
+  "issues": [],
+  "nonemptyWindows": 280,
+  "emptyModelEventWindows": 1013,
+  "eventCountsByKindIncludingOverlaps": {
+    "music": 220,
+    "sound-effect": 64,
+    "speech-correction": 3
+  },
+  "eventCountIncludingOverlaps": 287,
+  "peakGpuAllocatedMiB": 17693.626953125,
+  "peakGpuReservedMiB": 18124.0,
+  "outputTokens": 17721,
+  "meanWindowSeconds": 1.62528591620521,
+  "elapsedSeconds": 2142.6823136360035,
+  "effectiveSourceRealtimeFactor": 20.965659153768243,
+  "finishedAt": "2026-10-12T06:21:38.551412+00:00",
+  "gpuInferenceService": {
+    "name": "audio-prompt-v2-followup",
+    "pid": 2740429,
+    "observedExitCode": 0,
+    "modelReleased": "Owned inference process exited normally; CUDA context/weights are no longer held by this process."
+  },
+  "semanticScope": "Unreviewed model observations. Coverage/JSON/EOS success do not establish semantic accuracy or exhaustive effect/gag recall. User-confirmed gags remain authoritative. Independent anthem reference matching is separate from model identity guesses.",
+  "perVideo": [
+    {
+      "id": "V44gkRzML9k",
+      "sourceSha256": "21eaf2dbab115e4830c1a21bca95135e8c47cb31b676215f4a17976fd1a1d684",
+      "sourceFrames": 65353045,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 4084.5653125,
+      "mediaDurationSeconds": 4084.588,
+      "decodedAudioMinusMediaSeconds": -0.022687500000301952,
+      "scheduledWindows": 117,
+      "processedWindows": 117,
+      "frameUnion": [
+        [
+          0,
+          65353045
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 22,
+      "nonemptyWindows": 22
+    },
+    {
+      "id": "7oeLnpAmmfI",
+      "sourceSha256": "962699b3b7163d7f4eb7eceff6abb1f2a6be1bacee9e4d03898ab4818849a561",
+      "sourceFrames": 61019819,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 3813.7386875,
+      "mediaDurationSeconds": 3813.768,
+      "decodedAudioMinusMediaSeconds": -0.029312499999832653,
+      "scheduledWindows": 109,
+      "processedWindows": 109,
+      "frameUnion": [
+        [
+          0,
+          61019819
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 25,
+      "nonemptyWindows": 25
+    },
+    {
+      "id": "cX-r5ulpoQQ",
+      "sourceSha256": "5f07d371745562bc6105045a1ba7933a0f78a0d13c9c95cd0363e124d0a05583",
+      "sourceFrames": 42747221,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 2671.7013125,
+      "mediaDurationSeconds": 2671.728,
+      "decodedAudioMinusMediaSeconds": -0.026687500000207365,
+      "scheduledWindows": 77,
+      "processedWindows": 77,
+      "frameUnion": [
+        [
+          0,
+          42747221
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 29,
+      "nonemptyWindows": 28
+    },
+    {
+      "id": "xqJbE1bvdgo",
+      "sourceSha256": "68e4114392678df049fd736610ed308e8d4dcb681eb83cca97c753ecbf8a8eb2",
+      "sourceFrames": 55664299,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 3479.0186875,
+      "mediaDurationSeconds": 3479.048,
+      "decodedAudioMinusMediaSeconds": -0.029312499999832653,
+      "scheduledWindows": 100,
+      "processedWindows": 100,
+      "frameUnion": [
+        [
+          0,
+          55664299
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 25,
+      "nonemptyWindows": 24
+    },
+    {
+      "id": "3HA3S_O_yxs",
+      "sourceSha256": "5d4f30b43dd52eb86d1335e108d4605ad892df5601b924680eb7a110c2363943",
+      "sourceFrames": 47783253,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 2986.4533125,
+      "mediaDurationSeconds": 2986.468,
+      "decodedAudioMinusMediaSeconds": -0.01468750000003638,
+      "scheduledWindows": 86,
+      "processedWindows": 86,
+      "frameUnion": [
+        [
+          0,
+          47783253
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 15,
+      "nonemptyWindows": 13
+    },
+    {
+      "id": "apk-K0sQutc",
+      "sourceSha256": "c5c0ebdb43c9cdd26fea1a3727a0129de9f5fd7a9ce095e99e967a8cadd1e665",
+      "sourceFrames": 1484459,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 92.7786875,
+      "mediaDurationSeconds": 92.808,
+      "decodedAudioMinusMediaSeconds": -0.029312500000003183,
+      "scheduledWindows": 3,
+      "processedWindows": 3,
+      "frameUnion": [
+        [
+          0,
+          1484459
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 0,
+      "nonemptyWindows": 0
+    },
+    {
+      "id": "0tLxb5rtmyM",
+      "sourceSha256": "cdd94e7d2a21b5ecb6ac62c1019277fea1503e05444262bcd4053fe2d057ff50",
+      "sourceFrames": 26379264,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 1648.704,
+      "mediaDurationSeconds": 1648.728,
+      "decodedAudioMinusMediaSeconds": -0.024000000000114596,
+      "scheduledWindows": 47,
+      "processedWindows": 47,
+      "frameUnion": [
+        [
+          0,
+          26379264
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 14,
+      "nonemptyWindows": 13
+    },
+    {
+      "id": "LdeirDrinWk",
+      "sourceSha256": "5c86c6f441a7850db1e5a7705521d37d677571a33f06168c902d898fdb36e452",
+      "sourceFrames": 26624683,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 1664.0426875,
+      "mediaDurationSeconds": 1664.068,
+      "decodedAudioMinusMediaSeconds": -0.02531249999992724,
+      "scheduledWindows": 48,
+      "processedWindows": 48,
+      "frameUnion": [
+        [
+          0,
+          26624683
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 5,
+      "nonemptyWindows": 5
+    },
+    {
+      "id": "97mS1SgI73k",
+      "sourceSha256": "8310b44b29c29535c2a2dae17489894a83be14d43c8d94d8927f60fe4c7f2091",
+      "sourceFrames": 20081174,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 1255.073375,
+      "mediaDurationSeconds": 1255.088,
+      "decodedAudioMinusMediaSeconds": -0.014625000000023647,
+      "scheduledWindows": 36,
+      "processedWindows": 36,
+      "frameUnion": [
+        [
+          0,
+          20081174
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 11,
+      "nonemptyWindows": 11
+    },
+    {
+      "id": "5MrkfLP25Rg",
+      "sourceSha256": "5e1e733704dfaa33c22db06f666cd4a2eb21e1ec926c23a5193d60f2e573c561",
+      "sourceFrames": 19754667,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 1234.6666875,
+      "mediaDurationSeconds": 1234.688,
+      "decodedAudioMinusMediaSeconds": -0.021312500000021828,
+      "scheduledWindows": 36,
+      "processedWindows": 36,
+      "frameUnion": [
+        [
+          0,
+          19754667
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 9,
+      "nonemptyWindows": 9
+    },
+    {
+      "id": "rseaKBPkRPU",
+      "sourceSha256": "9f89e0698cb2da3005888c64e55d28c26b951b69f0ce84ec28ff77878e328fc5",
+      "sourceFrames": 16778923,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 1048.6826875,
+      "mediaDurationSeconds": 1048.708,
+      "decodedAudioMinusMediaSeconds": -0.025312500000154614,
+      "scheduledWindows": 30,
+      "processedWindows": 30,
+      "frameUnion": [
+        [
+          0,
+          16778923
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 12,
+      "nonemptyWindows": 12
+    },
+    {
+      "id": "X_FU22yPyRE",
+      "sourceSha256": "f55f3d9a1372e3c6cb89a4dba0cbbc580d52e470949ff57bdcd90a482d1fdacb",
+      "sourceFrames": 12450816,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 778.176,
+      "mediaDurationSeconds": 778.208,
+      "decodedAudioMinusMediaSeconds": -0.03199999999992542,
+      "scheduledWindows": 23,
+      "processedWindows": 23,
+      "frameUnion": [
+        [
+          0,
+          12450816
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 6,
+      "nonemptyWindows": 6
+    },
+    {
+      "id": "6e-vfEif9LI",
+      "sourceSha256": "c07cb2e37c2ba79b62dcdd9bde7759b10edbb80e683d5b45c42df5905dd71a4a",
+      "sourceFrames": 18435072,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 1152.192,
+      "mediaDurationSeconds": 1152.208,
+      "decodedAudioMinusMediaSeconds": -0.016000000000076398,
+      "scheduledWindows": 33,
+      "processedWindows": 33,
+      "frameUnion": [
+        [
+          0,
+          18435072
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 11,
+      "nonemptyWindows": 10
+    },
+    {
+      "id": "0lvUByM-fZk",
+      "sourceSha256": "1c9fd512774fb1116accafe0f96d40682ea23ae0c54c2982654d5fd5f67686fe",
+      "sourceFrames": 12958964,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 809.93525,
+      "mediaDurationSeconds": 809.968,
+      "decodedAudioMinusMediaSeconds": -0.03274999999996453,
+      "scheduledWindows": 23,
+      "processedWindows": 23,
+      "frameUnion": [
+        [
+          0,
+          12958964
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 1,
+      "nonemptyWindows": 1
+    },
+    {
+      "id": "fLxHVF1uiOE",
+      "sourceSha256": "bbe347b3d2d0636f1c9685ca7d075bad3feaf386cda96cf2865899ddd0fa47d0",
+      "sourceFrames": 24953067,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 1559.5666875,
+      "mediaDurationSeconds": 1559.588,
+      "decodedAudioMinusMediaSeconds": -0.021312500000021828,
+      "scheduledWindows": 45,
+      "processedWindows": 45,
+      "frameUnion": [
+        [
+          0,
+          24953067
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 13,
+      "nonemptyWindows": 12
+    },
+    {
+      "id": "gQzfa4iXxZ4",
+      "sourceSha256": "58c2986d9f8eba819db050f6004d965802b73612b13b393a069303871532a6f5",
+      "sourceFrames": 21739520,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 1358.72,
+      "mediaDurationSeconds": 1358.748,
+      "decodedAudioMinusMediaSeconds": -0.02800000000002001,
+      "scheduledWindows": 39,
+      "processedWindows": 39,
+      "frameUnion": [
+        [
+          0,
+          21739520
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 11,
+      "nonemptyWindows": 11
+    },
+    {
+      "id": "KTfuA2hXi8s",
+      "sourceSha256": "3c4e08603cb98d0a4bf3354b4997e2fe5b389b2682e8ed435f881891530e2714",
+      "sourceFrames": 17056085,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 1066.0053125,
+      "mediaDurationSeconds": 1066.028,
+      "decodedAudioMinusMediaSeconds": -0.02268750000007458,
+      "scheduledWindows": 31,
+      "processedWindows": 31,
+      "frameUnion": [
+        [
+          0,
+          17056085
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 19,
+      "nonemptyWindows": 19
+    },
+    {
+      "id": "Vln5Ri4Zpgo",
+      "sourceSha256": "ceee85d5ef14ff049f32c868f3ad7af405a35afa63c681fe63596ab838b4682b",
+      "sourceFrames": 660190,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 41.261875,
+      "mediaDurationSeconds": 41.288,
+      "decodedAudioMinusMediaSeconds": -0.026124999999993292,
+      "scheduledWindows": 2,
+      "processedWindows": 2,
+      "frameUnion": [
+        [
+          0,
+          660190
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 2,
+      "nonemptyWindows": 2
+    },
+    {
+      "id": "8LysiXf-DJU",
+      "sourceSha256": "a938da69ecb84e40b66aa0eec6b4f2ec05ee0a98e5254743e9f4b731009b2154",
+      "sourceFrames": 49928192,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 3120.512,
+      "mediaDurationSeconds": 3120.528,
+      "decodedAudioMinusMediaSeconds": -0.01599999999962165,
+      "scheduledWindows": 90,
+      "processedWindows": 90,
+      "frameUnion": [
+        [
+          0,
+          49928192
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 8,
+      "nonemptyWindows": 8
+    },
+    {
+      "id": "4dn6ZVpJLxs",
+      "sourceSha256": "2b97fbc1e9ff6da97a76e95c4aad58d061ff69556e7f70b6a5b8a9cd0c06205c",
+      "sourceFrames": 38487040,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 2405.44,
+      "mediaDurationSeconds": 2405.468,
+      "decodedAudioMinusMediaSeconds": -0.027999999999792635,
+      "scheduledWindows": 69,
+      "processedWindows": 69,
+      "frameUnion": [
+        [
+          0,
+          38487040
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 16,
+      "nonemptyWindows": 16
+    },
+    {
+      "id": "9DHAOFrnOAM",
+      "sourceSha256": "72cb9b8a11fcb97a0308d86ea50f25999944e5ee4b809fd7498354dfe57e204a",
+      "sourceFrames": 28434432,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 1777.152,
+      "mediaDurationSeconds": 1777.168,
+      "decodedAudioMinusMediaSeconds": -0.015999999999849024,
+      "scheduledWindows": 51,
+      "processedWindows": 51,
+      "frameUnion": [
+        [
+          0,
+          28434432
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 4,
+      "nonemptyWindows": 4
+    },
+    {
+      "id": "Yvl_7_Up7zU",
+      "sourceSha256": "7a32b04553d261eb54d5ac72396f0c388a2a537184f8ad8ba9365bfc4ee2f8ae",
+      "sourceFrames": 32056541,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 2003.5338125,
+      "mediaDurationSeconds": 2003.568,
+      "decodedAudioMinusMediaSeconds": -0.034187499999916326,
+      "scheduledWindows": 58,
+      "processedWindows": 58,
+      "frameUnion": [
+        [
+          0,
+          32056541
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 12,
+      "nonemptyWindows": 12
+    },
+    {
+      "id": "UfVzbM3l7RQ",
+      "sourceSha256": "34ae9b257d9e7469598e520205e94b5c6e33c8066213ce41eecfbd4c27b8fcbc",
+      "sourceFrames": 31448064,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 1965.504,
+      "mediaDurationSeconds": 1965.528,
+      "decodedAudioMinusMediaSeconds": -0.024000000000114596,
+      "scheduledWindows": 57,
+      "processedWindows": 57,
+      "frameUnion": [
+        [
+          0,
+          31448064
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 3,
+      "nonemptyWindows": 3
+    },
+    {
+      "id": "CEjozE--YrY",
+      "sourceSha256": "d149b111e2e3ac318d06c3a646348e98add9a467913bb51072af479d7a6212f0",
+      "sourceFrames": 46485163,
+      "sampleRate": 16000,
+      "sourceDurationSeconds": 2905.3226875,
+      "mediaDurationSeconds": 2905.348,
+      "decodedAudioMinusMediaSeconds": -0.02531249999992724,
+      "scheduledWindows": 83,
+      "processedWindows": 83,
+      "frameUnion": [
+        [
+          0,
+          46485163
+        ]
+      ],
+      "checks": {
+        "allScheduledWindowsPresent": true,
+        "allWindowsValid": true,
+        "allWaveformHashesPresent": true,
+        "allWaveformLengthsMatchBounds": true,
+        "allAudioEncoderCallsObserved": true,
+        "allFullFeatureLengthsObserved": true,
+        "allActualEosObserved": true,
+        "allRawJsonMatchesCanonicalEvents": true,
+        "allPromptIdentitiesV2": true,
+        "sourceIdentityMatches": true,
+        "modelIdentityMatches": true,
+        "allSameDecoderConfiguration": true,
+        "allRawAttemptFilesExist": true,
+        "independentFrameUnionCoversExactSource": true
+      },
+      "eventCount": 14,
+      "nonemptyWindows": 14
+    }
+  ],
+  "loadedInferenceCodeSha256s": [
+    "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19"
+  ],
+  "capturedInferenceSourceNote": "The retained model captured its inference-code SHA before the standalone default prompt was changed; the live controller explicitly supplied the recorded v2 prompt. Code SHA is audit metadata, not a semantic resume identity."
+}

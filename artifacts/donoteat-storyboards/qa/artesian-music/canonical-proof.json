@@ -1,0 +1,664 @@
+{
+  "id": "5MrkfLP25Rg",
+  "panelHeading": "Artesian well: an intentionally crude diagram",
+  "panelStartSeconds": 122.09,
+  "requestedMusicWindowSeconds": [
+    122.1,
+    137
+  ],
+  "neighborWindowSeconds": [
+    99,
+    122.1
+  ],
+  "conclusion": {
+    "status": "confirmed-reference-recording-content",
+    "title": "Minecraft",
+    "album": "Minecraft - Volume Alpha",
+    "recordingArtist": "C418",
+    "composer": "Daniel Rosenfeld (C418)",
+    "performer": null,
+    "performerLimits": "Primary artist-hosted page credits the recording to C418 but names no distinct instrumental performer. Composer comes from explicit official-game composer credit, not an artist-to-composer inference."
+  },
+  "primaryCredits": {
+    "composerPrimaryURL": "https://www.minecraft.net/en-us/credits",
+    "composerExactContext": [
+      "Music composed by",
+      "Aaron Cherof",
+      "Amos Roddy",
+      "Daniel Rosenfeld",
+      "Ian Tsuchiura",
+      "Kumi Tanioka",
+      "Lena Raine",
+      "Paula Ruiz"
+    ],
+    "recordingPrimaryURL": "https://c418.bandcamp.com/track/minecraft",
+    "recordingExactContext": {
+      "artist": "C418",
+      "title": "Minecraft",
+      "credits": null,
+      "trackinfo": [
+        {
+          "title": "Minecraft",
+          "track_id": 1691975503,
+          "title_link": "/track/minecraft",
+          "duration": 254.0,
+          "artist": null
+        }
+      ]
+    },
+    "albumPrimaryURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+    "aliasSupportingURL": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Minecraft-Volume-Alpha_Grosser.pdf",
+    "aliasExactQuote": "Using Ableton Live, composer Daniel Rosenfeld (better known by his stage name “C418”) created a soundtrack of mostly simplistic, acoustic, sounds that use predominantly piano and strings to create an ambient, atmospheric aural experience.",
+    "aliasSourceRole": "Library of Congress-hosted guest essay; supporting alias evidence, not an original artist or game credit.",
+    "performerPolicy": "The matched primary recording is released by C418. No distinct pianist/instrumental performer is named in these primary pages; do not invent one or infer composer solely from by-artist metadata."
+  },
+  "sourceIdentity": {
+    "id": "5MrkfLP25Rg",
+    "path": "/home/pedro/src/tmp-donoteat/qa/audio-llm/sources/5MrkfLP25Rg.wav",
+    "sha256": "5e1e733704dfaa33c22db06f666cd4a2eb21e1ec926c23a5193d60f2e573c561",
+    "frames": 19754667,
+    "sampleRate": 16000,
+    "channels": 1,
+    "durationSeconds": 1234.6666875,
+    "mediaPath": "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+    "mediaSha256": "b354d4a8babc9ad5c3509531f2503adae77a0825ea550472b52f18c7c4a3bd3d",
+    "mediaStat": {
+      "size": 671655776,
+      "mtimeNs": 1791766050028777122
+    },
+    "sourceStat": {
+      "size": 39509412,
+      "mtimeNs": 1791779364555580052
+    },
+    "mediaDurationSeconds": 1234.688,
+    "durationDeltaSeconds": -0.021312500000021828,
+    "extractionCommand": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-nostdin",
+      "-y",
+      "-threads",
+      "2",
+      "-filter_threads",
+      "1",
+      "-i",
+      "/home/pedro/src/tmp-donoteat/videos/5MrkfLP25Rg/5MrkfLP25Rg.mkv",
+      "-vn",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "16000",
+      "-c:a",
+      "pcm_s16le",
+      "/home/pedro/src/tmp-donoteat/qa/audio-llm/sources/5MrkfLP25Rg.tmp.wav"
+    ],
+    "createdAt": "2026-10-12T04:29:25.219165+00:00"
+  },
+  "excerpts": [
+    {
+      "source": "qa/audio-llm/sources/5MrkfLP25Rg.wav",
+      "sourceStartSeconds": 99.0,
+      "sourceEndSeconds": 122.1,
+      "sourceStartFrame": 1584000,
+      "sourceEndFrame": 1953600,
+      "sampleRateHz": 16000,
+      "channels": 1,
+      "sampleWidthBytes": 2,
+      "clip": "qa/artesian-music/99.000-122.100.wav",
+      "clipSha256": "231551a8449b8b18c054d331e36de1d7fe0b54835ec2087b74400703b1b0c5f8",
+      "pcmSha256": "80690222e76e2844c6dcdff21771acd1f413d9aad5827a0bb6ecf1b756f780b4",
+      "method": "Exact PCM frame slice from cached continuous WAV; no filtering."
+    },
+    {
+      "source": "qa/audio-llm/sources/5MrkfLP25Rg.wav",
+      "sourceStartSeconds": 122.1,
+      "sourceEndSeconds": 137.0,
+      "sourceStartFrame": 1953600,
+      "sourceEndFrame": 2192000,
+      "sampleRateHz": 16000,
+      "channels": 1,
+      "sampleWidthBytes": 2,
+      "clip": "qa/artesian-music/122.100-137.000.wav",
+      "clipSha256": "eac4b7d727482919d53636f2f3356f2586e3dc00d9e1eb9682c241689ed44cd0",
+      "pcmSha256": "40873594af8196aa0200efc55d9b343709a2cad897adb85310bbdc9a5dda1f4f",
+      "method": "Exact PCM frame slice from cached continuous WAV; no filtering."
+    },
+    {
+      "source": "qa/audio-llm/sources/5MrkfLP25Rg.wav",
+      "sourceStartSeconds": 99.0,
+      "sourceEndSeconds": 137.0,
+      "sourceStartFrame": 1584000,
+      "sourceEndFrame": 2192000,
+      "sampleRateHz": 16000,
+      "channels": 1,
+      "sampleWidthBytes": 2,
+      "clip": "qa/artesian-music/99.000-137.000.wav",
+      "clipSha256": "ae35c0afca42925e7f516d05e9f9bdd69ec4c50fb6a7102e7dee51056674e13d",
+      "pcmSha256": "a687cfcb5ddeaebb894568b5efa19b9f6719496f1630aa9f522c724ca51a09f0",
+      "method": "Exact PCM frame slice from cached continuous WAV; no filtering."
+    }
+  ],
+  "referenceIdentity": {
+    "title": "Minecraft",
+    "artist": "C418",
+    "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+    "primaryTrackURL": "https://c418.bandcamp.com/track/minecraft",
+    "trackId": 1691975503,
+    "streamURL": "https://t4.bcbits.com/stream/cd40124529ee79cb822378cf03f75550/mp3-128/1691975503?p=0&ts=1791909398&t=fd5c4332fa09bd209ab9b968f4316caeaad4149b&token=1791909398_6a3dcd0140fdf554d6d8f60d77ef399b25c13af4",
+    "httpStatus": 200,
+    "headers": {
+      "Connection": "close",
+      "Content-Length": "4183864",
+      "content-type": "audio/mpeg",
+      "cache-control": "max-age=31536000",
+      "last-modified": "Tue, 08 Jul 2014 04:00:57 GMT",
+      "x-robots-tag": "noindex",
+      "Via": "1.1 varnish, 1.1 varnish",
+      "Accept-Ranges": "bytes",
+      "Age": "1053795",
+      "Date": "Mon, 12 Oct 2026 16:37:51 GMT",
+      "X-Served-By": "cache-chi-kmdw8640085-CHI, cache-bfi-krnt7300111-BFI",
+      "X-Cache": "HIT, HIT",
+      "X-Cache-Hits": "365, 0",
+      "X-Timer": "S1791823072.530582,VS0,VE87",
+      "Strict-Transport-Security": "max-age=63072000"
+    },
+    "retrievedAt": "2026-10-12T16:37:54.111037+00:00",
+    "path": "qa/artesian-music/references/minecraft.mp3",
+    "sha256": "f40609c75df83de1e3648d00acc79d2c263905044a26d173fd98202401594700",
+    "decodeCommand": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-nostdin",
+      "-threads",
+      "2",
+      "-filter_threads",
+      "1",
+      "-i",
+      "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/minecraft.mp3",
+      "-vn",
+      "-ac",
+      "1",
+      "-ar",
+      "8000",
+      "-f",
+      "f32le",
+      "-"
+    ],
+    "decodedDurationSeconds": 254.0,
+    "queryComparisons": [
+      {
+        "sourceWindowSeconds": [
+          99,
+          122.1
+        ],
+        "referenceStartSeconds": 16.320125,
+        "referenceEndSeconds": 39.420125,
+        "maxAbsoluteWaveformCorrelation": 0.15065224185193357,
+        "signedWaveformCorrelation": 0.15065224185193357
+      },
+      {
+        "sourceWindowSeconds": [
+          122.1,
+          137
+        ],
+        "referenceStartSeconds": 39.420125,
+        "referenceEndSeconds": 54.320125,
+        "maxAbsoluteWaveformCorrelation": 0.28888458247856014,
+        "signedWaveformCorrelation": 0.28888458247856014
+      }
+    ]
+  },
+  "waveformProof": {
+    "title": "Minecraft",
+    "primaryTrackURL": "https://c418.bandcamp.com/track/minecraft",
+    "path": "qa/artesian-music/references/minecraft.mp3",
+    "sha256": "f40609c75df83de1e3648d00acc79d2c263905044a26d173fd98202401594700",
+    "comparisons": [
+      {
+        "sourceWindowSeconds": [
+          99,
+          122.1
+        ],
+        "referenceStartSeconds": 16.320125,
+        "referenceEndSeconds": 39.420125,
+        "sourceMinusReferenceSeconds": 82.679875,
+        "maxAbsoluteWaveformCorrelation": 0.15065223294867913,
+        "signedWaveformCorrelation": 0.15065223294867913
+      },
+      {
+        "sourceWindowSeconds": [
+          122.1,
+          137
+        ],
+        "referenceStartSeconds": 39.420125,
+        "referenceEndSeconds": 54.320125,
+        "sourceMinusReferenceSeconds": 82.679875,
+        "maxAbsoluteWaveformCorrelation": 0.28888453660425306,
+        "signedWaveformCorrelation": 0.28888453660425306
+      },
+      {
+        "sourceWindowSeconds": [
+          99,
+          111
+        ],
+        "referenceStartSeconds": 16.320125,
+        "referenceEndSeconds": 28.320125,
+        "sourceMinusReferenceSeconds": 82.679875,
+        "maxAbsoluteWaveformCorrelation": 0.10094451942351551,
+        "signedWaveformCorrelation": 0.10094451942351551
+      },
+      {
+        "sourceWindowSeconds": [
+          111,
+          122.1
+        ],
+        "referenceStartSeconds": 28.320125,
+        "referenceEndSeconds": 39.420125,
+        "sourceMinusReferenceSeconds": 82.679875,
+        "maxAbsoluteWaveformCorrelation": 0.18473561272064318,
+        "signedWaveformCorrelation": 0.18473561272064318
+      },
+      {
+        "sourceWindowSeconds": [
+          122.1,
+          129.55
+        ],
+        "referenceStartSeconds": 39.420125,
+        "referenceEndSeconds": 46.870125,
+        "sourceMinusReferenceSeconds": 82.679875,
+        "maxAbsoluteWaveformCorrelation": 0.2449632903208119,
+        "signedWaveformCorrelation": 0.2449632903208119
+      },
+      {
+        "sourceWindowSeconds": [
+          129.55,
+          137
+        ],
+        "referenceStartSeconds": 46.870125,
+        "referenceEndSeconds": 54.320125000000004,
+        "sourceMinusReferenceSeconds": 82.67987500000001,
+        "maxAbsoluteWaveformCorrelation": 0.3242438068623011,
+        "signedWaveformCorrelation": 0.3242438068623011
+      }
+    ]
+  },
+  "wrongRecordingControls": [
+    {
+      "title": "Dry Hands",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/dry-hands",
+      "referenceSha256": "2dec4f5ec9d026c508ac4759800061deb0652d853472bc56f990fd617180af67",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 22.7065,
+          "referenceEndSeconds": 45.8065,
+          "sourceMinusReferenceSeconds": 76.2935,
+          "maxAbsoluteWaveformCorrelation": 0.031178489721500696,
+          "signedWaveformCorrelation": 0.031178489721500696
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 0.9315,
+          "referenceEndSeconds": 15.8315,
+          "sourceMinusReferenceSeconds": 121.1685,
+          "maxAbsoluteWaveformCorrelation": 0.04677319720392243,
+          "signedWaveformCorrelation": -0.04677319720392243
+        }
+      ]
+    },
+    {
+      "title": "Wet Hands",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/wet-hands",
+      "referenceSha256": "20a41f07c3fd18ecc87ffd8edebf68faadd752de49a45b4fa6a601d5e78c76ec",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 31.954,
+          "referenceEndSeconds": 55.054,
+          "sourceMinusReferenceSeconds": 67.04599999999999,
+          "maxAbsoluteWaveformCorrelation": 0.025077314468618137,
+          "signedWaveformCorrelation": 0.025077314468618137
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 1.737625,
+          "referenceEndSeconds": 16.637625,
+          "sourceMinusReferenceSeconds": 120.362375,
+          "maxAbsoluteWaveformCorrelation": 0.029092945534487713,
+          "signedWaveformCorrelation": 0.029092945534487713
+        }
+      ]
+    },
+    {
+      "title": "Sweden",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/sweden",
+      "referenceSha256": "0ac89e0fdd4c6285dfb17c7e7f214064114984bc5c361e38d57e7cce07be0fcd",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 121.638875,
+          "referenceEndSeconds": 144.738875,
+          "sourceMinusReferenceSeconds": -22.638875,
+          "maxAbsoluteWaveformCorrelation": 0.024778112123442983,
+          "signedWaveformCorrelation": 0.024778112123442983
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 106.564625,
+          "referenceEndSeconds": 121.46462500000001,
+          "sourceMinusReferenceSeconds": 15.535374999999988,
+          "maxAbsoluteWaveformCorrelation": 0.03964880826736406,
+          "signedWaveformCorrelation": -0.03964880826736406
+        }
+      ]
+    },
+    {
+      "title": "Clark",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/clark",
+      "referenceSha256": "28e01e14d2d823c3f0a9f57fa4b6d5dc1e4aa8537d23ab55643f0f8a177c5aec",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 124.31425,
+          "referenceEndSeconds": 147.41425,
+          "sourceMinusReferenceSeconds": -25.31425,
+          "maxAbsoluteWaveformCorrelation": 0.03698427557352371,
+          "signedWaveformCorrelation": -0.03698427557352371
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 147.59875,
+          "referenceEndSeconds": 162.49875,
+          "sourceMinusReferenceSeconds": -25.49875,
+          "maxAbsoluteWaveformCorrelation": 0.04908485092455614,
+          "signedWaveformCorrelation": 0.04908485092455614
+        }
+      ]
+    },
+    {
+      "title": "Mice on Venus",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/mice-on-venus",
+      "referenceSha256": "32d857aa90cc74550d46069130789146c745b3cd7846f5717457a5f150b9f9ec",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 44.352,
+          "referenceEndSeconds": 67.452,
+          "sourceMinusReferenceSeconds": 54.648,
+          "maxAbsoluteWaveformCorrelation": 0.0332685441527919,
+          "signedWaveformCorrelation": 0.0332685441527919
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 45.99225,
+          "referenceEndSeconds": 60.89225,
+          "sourceMinusReferenceSeconds": 76.10775,
+          "maxAbsoluteWaveformCorrelation": 0.04907709110103438,
+          "signedWaveformCorrelation": 0.04907709110103438
+        }
+      ]
+    },
+    {
+      "title": "Subwoofer Lullaby",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/subwoofer-lullaby",
+      "referenceSha256": "f6e162def2f0557898fcf8de15bf878a0a8aaacab04696d739c6272257ad1f1b",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 23.2515,
+          "referenceEndSeconds": 46.3515,
+          "sourceMinusReferenceSeconds": 75.7485,
+          "maxAbsoluteWaveformCorrelation": 0.05047868569051055,
+          "signedWaveformCorrelation": -0.05047868569051055
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 23.08475,
+          "referenceEndSeconds": 37.98475,
+          "sourceMinusReferenceSeconds": 99.01525,
+          "maxAbsoluteWaveformCorrelation": 0.055887081308185635,
+          "signedWaveformCorrelation": 0.055887081308185635
+        }
+      ]
+    },
+    {
+      "title": "Living Mice",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/living-mice",
+      "referenceSha256": "cc0e7f47f88c10db1b3220b3a8be35bb767a061ca763e1f86f361e6f9b9b86b1",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 62.890375,
+          "referenceEndSeconds": 85.990375,
+          "sourceMinusReferenceSeconds": 36.109625,
+          "maxAbsoluteWaveformCorrelation": 0.04361233426069949,
+          "signedWaveformCorrelation": -0.04361233426069949
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 144.758125,
+          "referenceEndSeconds": 159.658125,
+          "sourceMinusReferenceSeconds": -22.658125000000013,
+          "maxAbsoluteWaveformCorrelation": 0.04389467102712328,
+          "signedWaveformCorrelation": -0.04389467102712328
+        }
+      ]
+    },
+    {
+      "title": "Haggstrom",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/haggstrom",
+      "referenceSha256": "1d19d49263bd422338a644dd092998fb82014c2d95fccc7511631d78a3449f57",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 33.218625,
+          "referenceEndSeconds": 56.318625000000004,
+          "sourceMinusReferenceSeconds": 65.781375,
+          "maxAbsoluteWaveformCorrelation": 0.034244090085074924,
+          "signedWaveformCorrelation": -0.034244090085074924
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 29.369625,
+          "referenceEndSeconds": 44.269625,
+          "sourceMinusReferenceSeconds": 92.730375,
+          "maxAbsoluteWaveformCorrelation": 0.033335205027267514,
+          "signedWaveformCorrelation": 0.033335205027267514
+        }
+      ]
+    },
+    {
+      "title": "Danny",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/danny",
+      "referenceSha256": "3613bb1119208ceac9ca624637bae70e018530f0d428cce2f3da90a92336bae1",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 81.024125,
+          "referenceEndSeconds": 104.12412499999999,
+          "sourceMinusReferenceSeconds": 17.975875000000002,
+          "maxAbsoluteWaveformCorrelation": 0.04354044506544122,
+          "signedWaveformCorrelation": -0.04354044506544122
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 132.283125,
+          "referenceEndSeconds": 147.18312500000002,
+          "sourceMinusReferenceSeconds": -10.183125000000018,
+          "maxAbsoluteWaveformCorrelation": 0.06309972899587452,
+          "signedWaveformCorrelation": 0.06309972899587452
+        }
+      ]
+    },
+    {
+      "title": "Key",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/key",
+      "referenceSha256": "636709e713729fb7beeed4009d6251995cea0b693bc5ed0c29a42170ab82102d",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 5.277625,
+          "referenceEndSeconds": 28.377625000000002,
+          "sourceMinusReferenceSeconds": 93.722375,
+          "maxAbsoluteWaveformCorrelation": 0.015607822046354684,
+          "signedWaveformCorrelation": 0.015607822046354684
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 4.26325,
+          "referenceEndSeconds": 19.16325,
+          "sourceMinusReferenceSeconds": 117.83675,
+          "maxAbsoluteWaveformCorrelation": 0.022712335408136806,
+          "signedWaveformCorrelation": -0.022712335408136806
+        }
+      ]
+    },
+    {
+      "title": "Oxygène",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/oxyg-ne",
+      "referenceSha256": "6113d06287cd30ef350aba28a9334e8ac1303d6603a9088339292b9f58fb2faf",
+      "comparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 11.054625,
+          "referenceEndSeconds": 34.154625,
+          "sourceMinusReferenceSeconds": 87.945375,
+          "maxAbsoluteWaveformCorrelation": 0.019645860892498476,
+          "signedWaveformCorrelation": 0.019645860892498476
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 14.49475,
+          "referenceEndSeconds": 29.394750000000002,
+          "sourceMinusReferenceSeconds": 107.60525,
+          "maxAbsoluteWaveformCorrelation": 0.029829527557896276,
+          "signedWaveformCorrelation": 0.029829527557896276
+        }
+      ]
+    }
+  ],
+  "recognitionRequests": [
+    {
+      "evidencePath": "qa/artesian-music/cached-120-request.json",
+      "status": "unmatched",
+      "httpStatus": 200,
+      "fingerprint": {
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 120,
+        "sourceEndSeconds": 132.0
+      },
+      "rawTagId": "1F7FE1F4-9E8E-4294-BCD8-0686FD471792",
+      "meaning": "Unmatched signature does not establish absence of music or rule out the reference recording."
+    },
+    {
+      "evidencePath": "qa/artesian-music/recognition.json",
+      "status": "unmatched",
+      "httpStatus": 200,
+      "fingerprint": {
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 122.1,
+        "sourceEndSeconds": 134.1
+      },
+      "rawTagId": "F01EEC27-2B21-4BE9-B149-2378889F17B9",
+      "meaning": "Unmatched signature does not establish absence of music or rule out the reference recording."
+    }
+  ],
+  "freshRecognitionRequests": 1,
+  "freshRecognitionHTTP429": false,
+  "networkRetryCount": 0,
+  "listening": {
+    "directListeningPerformed": false,
+    "cueStartSeconds": null,
+    "cueEndSeconds": null,
+    "limits": "No human or model-specific listening claim. Numerical correspondence is confirmed in the listed source queries; it does not establish full cue bounds, actual onset at panel start, or uninterrupted playback outside those queries."
+  },
+  "method": "Source excerpts are exact 16 kHz mono s16 frame slices of the cached continuous WAV; all waveform comparisons use FFmpeg-decoded 8 kHz mono float samples and globally search each official artist-hosted reference independently. Four disjoint subwindows recover the same source-minus-reference offset 82.679875 seconds, within one 8 kHz sample. Narration remains in the source; no denoising, genre guess, or LLM work-name inference is used.",
+  "rawProofPaths": [
+    "qa/artesian-music/offline-waveform-proof.json",
+    "qa/artesian-music/reference-comparison.json",
+    "qa/artesian-music/credits.json",
+    "qa/artesian-music/recognition.json",
+    "qa/artesian-music/cached-120-request.json",
+    "qa/artesian-music/source-identity.json",
+    "qa/artesian-music/excerpts.json"
+  ],
+  "reproductionScript": "qa/artesian-music/compare.py",
+  "publicationLimits": "Curated JSON proof may be linked from the colophon. Reference MP3s, source WAVs, and raw primary HTML remain local research evidence; no new public audio hosting is authorized."
+}

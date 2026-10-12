@@ -3,21 +3,21 @@
   "title": "Cities: Skylines | Franklin, Episode 11: Banking & Commerce",
   "durationSeconds": 4084.588,
   "premise": "The presenter connects early American currency, national-bank power and contradictions of democratic Greek Revival to Franklin/Philadelphia’s concentration of commerce and its eventual shift to New York.",
-  "coverage": "All original169 contact sheets and2022 frames viewed chronologically, plus13 native targeted stills; four registered supplemental sheets/frames2023–2026 also actually viewed, bringing indexed coverage to2026 frames. Four QA payoff stills and one plan-only QA still additionally inspected. Complete timestamped speech inspected. Sampling is not continuous playback; camera descriptions rely on adjacent observed samples. Original97 meaningful panels retained plus four dedicated JUST, POST, sideways-bank and alligator payoff panels, total101; connected setup/payoff/callback captions accompany actual image selections. Shared renderer derives panel ends from successive starts and loads the complete transcript word stream, assigning every word exactly once and rendering full speech without authored excerpts or caps. Historical claims and proper-name interpretations remain presenter/ASR evidence, not independently verified facts. Every panel has sound; [] means unannotated audio, never established silence. Music credits derive from source description with approximate section anchors; no independent sound-effect listening audit performed. Supporting sheet: story-sheets/V44gkRzML9k.md; transcript: transcripts/V44gkRzML9k.json.",
+  "coverage": "Bank modeling, a projected architectural lecture, financial diagrams and city construction accompany early American banking history. Historical claims are the presenter’s. Brief inserts may be missed; cut times and musical cue boundaries are approximate.",
   "panels": [
     {
       "startSeconds": 0,
       "frameNumber": 2,
       "heading": "Franklin opening",
       "description": "Gold Franklin bell logo overlays oblique city views; the opening establishes the city whose financial geography will later be explained.",
-      "camera": "Across adjacent samples the viewpoint changes over rooftops; intro cuts establish different city angles.",
+      "camera": "The viewpoint moves over the rooftops, and intro cuts show the city from different angles.",
       "action": "Logo is superimposed; no presenter character is visible.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 2 at 00:00:05.005. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": [
         {
           "startSeconds": 0,
-          "text": "Source-description music credit: title music is Beethoven, Symphony No. 5, movement IV, performed by the Davis High School orchestra. This attaches the credited track to the opening/title sequence; 00:00 is a section anchor, not an independently audio-verified onset."
+          "text": "Title music: Beethoven’s Symphony No. 5, IV. Allegro, performed by the Davis High School Symphony Orchestra."
         }
       ]
     },
@@ -26,10 +26,10 @@
       "frameNumber": 7,
       "heading": "Banking & Commerce",
       "description": "Road-sign title reads 1776–1837, Episode 11, Banking & Commerce; subsequent desktop footage begins architectural asset construction.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 7 at 00:00:30.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -37,10 +37,10 @@
       "frameNumber": 33,
       "heading": "Hamilton hagiography",
       "description": "Gold poster for the Broadway musical Hamilton overlays Blender.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "The musical poster is the initial setup for later sarcastic returns.",
-      "notes": "Selected actually viewed index frame 33 at 00:01:15.008. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -48,10 +48,10 @@
       "frameNumber": 37,
       "heading": "What counts as money?",
       "description": "Mr. Krabs from SpongeBob SquarePants holds a dollar above the modeling desktop.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "Cartoon greed supplies the money motif; the dollar will be replaced by an IOU.",
-      "notes": "Selected actually viewed index frame 37 at 00:01:27.254. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -59,10 +59,10 @@
       "frameNumber": 40,
       "heading": "Currency beyond paper",
       "description": "Large holed stone currency follows a vault photograph; the presenter introduces money as power and stored value.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 40 at 00:01:34.494. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -70,10 +70,10 @@
       "frameNumber": 95,
       "heading": "Unequal colonial pounds",
       "description": "Colonial paper notes contrast two shillings and twenty shillings; labels make unlike units concrete.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 95 at 00:02:30.017. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -81,10 +81,10 @@
       "frameNumber": 101,
       "heading": "Specie",
       "description": "SPECIE text and subsequent gold coin images distinguish redemption metal from paper claims.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 101 at 00:02:45.032. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -92,10 +92,10 @@
       "frameNumber": 195,
       "heading": "Commodity currency",
       "description": "Commodity inserts include a modern whiskey bottle; tobacco, rice, sugar and whiskey substitute for cash.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 195 at 00:03:50.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -103,10 +103,10 @@
       "frameNumber": 201,
       "heading": "Country pay",
       "description": "COUNTRY PAY caption overlays Blender work, connecting agricultural goods to tax valuation.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 201 at 00:04:02.442. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -114,10 +114,10 @@
       "frameNumber": 262,
       "heading": "Continentals",
       "description": "Continental currency image illustrates printing without effective federal taxation.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 262 at 00:04:45.018. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -125,10 +125,10 @@
       "frameNumber": 283,
       "heading": "Spanish dollars",
       "description": "Spanish dollar insert is captioned pieces of eight or peso; the presenter contrasts surviving hard currency with depreciating bills.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 283 at 00:05:02.169. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -136,10 +136,10 @@
       "frameNumber": 301,
       "heading": "Inflation and requisitions",
       "description": "Unusual one-third, seven and fifty-five dollar bills illustrate the paper-money patchwork before army requisitions.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 301 at 00:05:20.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -147,10 +147,10 @@
       "frameNumber": 369,
       "heading": "Cash becomes an IOU",
       "description": "Mr. Krabs from SpongeBob SquarePants returns holding an IOU instead of his initial dollar.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "The cash-to-IOU substitution pays off the money motif and ridicules requisition finance.",
-      "notes": "Selected actually viewed index frame 369 at 00:06:18.612. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -161,7 +161,7 @@
       "camera": "Hard cut to a static black text card.",
       "action": "No character movement; the text is the payoff.",
       "visualGag": "Blunt editorial verdict follows the IOU cartoon.",
-      "notes": "Selected actually viewed index frame 373 at 00:06:20.013. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -169,10 +169,10 @@
       "frameNumber": 390,
       "heading": "Some rich guy",
       "description": "Robert Morris portrait receives RICH GUY and his superintendent-of-finance title.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "The informal wealth label undercuts the official title.",
-      "notes": "Selected actually viewed index frame 390 at 00:06:50.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -180,10 +180,10 @@
       "frameNumber": 393,
       "heading": "Morris probably said it",
       "description": "Robert Morris portrait carries THIS IS NOT A GREAT SYSTEM — ROBERT MORRIS, 1781 PROBABLY.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "The earlier verdict becomes an explicitly fake historical quotation.",
-      "notes": "Selected actually viewed index frame 393 at 00:07:05.025. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -191,10 +191,10 @@
       "frameNumber": 451,
       "heading": "Burke, go Heels",
       "description": "Thomas Burke portrait labels him North Carolina delegate, with GO HEELS appended.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "Anachronistic sports cheer interrupts a congressional biography.",
-      "notes": "Selected actually viewed index frame 451 at 00:08:25.005. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -202,10 +202,10 @@
       "frameNumber": 452,
       "heading": "The radical obvious idea",
       "description": "Burke slide proposes WHAT IF WE COULD TAX STUFF SO WE CAN PAY PEOPLE? GO HEELS.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "Calling elementary fiscal competence radical, then repeating the sports cheer, is the payoff.",
-      "notes": "Selected actually viewed index frame 452 at 00:08:30.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -213,10 +213,10 @@
       "frameNumber": 472,
       "heading": "Wrong Hamilton",
       "description": "Lewis Hamilton photograph in Mercedes racing clothing overlays the desktop.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "The surname substitutes an F1 driver for Alexander Hamilton.",
-      "notes": "Selected actually viewed index frame 472 at 00:08:44.290. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -224,10 +224,10 @@
       "frameNumber": 504,
       "heading": "Congress flees",
       "description": "Pennsylvania satellite map shows Rutter’s logos and a small historical group picture during the unpaid-soldier crisis.",
-      "camera": "Static satellite-map framing; logo and picture positions change across adjacent samples, rather than a geographical pan.",
+      "camera": "Static satellite-map framing; the logos and picture move around on the map.",
       "action": "Cutout markers relocate over the map.",
       "visualGag": "Modern regional convenience-store logos stand in for historical factions.",
-      "notes": "Selected actually viewed index frame 504 at 00:09:15.021. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -235,10 +235,10 @@
       "frameNumber": 526,
       "heading": "Washington and Royal Farms",
       "description": "Washington portrait and Royal Farms logo join the Rutter’s Pennsylvania map as federal troops enter the account.",
-      "camera": "Static map; overlays change position between samples.",
+      "camera": "Static map; the overlays shift position.",
       "action": "Washington and logo cutouts move; no literal soldiers are filmed.",
       "visualGag": "A rival modern chain extends the convenience-store-army joke.",
-      "notes": "Selected actually viewed index frame 526 at 00:10:00.033. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -246,10 +246,10 @@
       "frameNumber": 541,
       "heading": "Morris quits",
       "description": "Morris portrait carries FUCK THIS SHIT, I’M OUT — ROBERT MORRIS, 1783 PROBABLY.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "The fake-quote format returns as a resignation punch line.",
-      "notes": "Selected actually viewed index frame 541 at 00:10:15.014. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -257,10 +257,10 @@
       "frameNumber": 544,
       "heading": "Musical callback",
       "description": "The plain Hamilton Broadway-musical poster reappears after the unpaid-soldier story, setting up the JUST and POST sticker sequence shown in the next two panels.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
       "action": "The musical poster overlays architectural editing. Subsequent images relabel it JUST, then POST, before the @publius portraits appear.",
-      "visualGag": "Connected setup: the earlier musical dismissal returns, then turns into a JUST/POST-style instruction visualizing he started posting. The next sticker panels and @publius handle complete this joke.",
-      "notes": "Viewed original frame544 at10:20.019 is the plain-poster setup. Following registered images2023/2024 show the sticker payoffs. Full speech is renderer-derived; ASR is not independently verified.",
+      "visualGag": "The musical dismissed earlier comes back, about to be relabeled JUST and then POST to show that Hamilton “started posting.” The sticker panels and the @publius handle complete the joke.",
+      "notes": null,
       "sound": []
     },
     {
@@ -268,11 +268,11 @@
       "frameNumber": 2023,
       "heading": "JUST",
       "description": "A slanted white sticker reading JUST with an orange star covers the center of the Hamilton poster title.",
-      "camera": "Static editorial poster and sticker over the changing Blender viewport; no live character movement.",
+      "camera": "Static poster and sticker over the changing Blender viewport.",
       "action": "A JUST sticker is added to the previously plain musical poster; the following panel changes the sticker to POST.",
       "sound": [],
-      "visualGag": "Middle beat of the connected Hamilton posting joke: the musical poster is relabeled JUST before POST and the @publius handle. The precise larger slogan/reference is uncertain.",
-      "notes": "Actually viewed registered frame2023 at621.754; source-derived full speech continues without authored excerpts. Sticker words and star are readable."
+      "visualGag": "The middle beat of the Hamilton posting joke: the musical poster is relabeled JUST, with POST and the @publius handle still to come.",
+      "notes": "The larger slogan or reference is uncertain."
     },
     {
       "startSeconds": 623.089,
@@ -280,20 +280,20 @@
       "heading": "POST",
       "description": "The Hamilton poster now bears a black POST sticker with a blue star instead of the previous white JUST sticker.",
       "camera": "Static editorial poster/sticker; underlying Blender reference work continues.",
-      "action": "JUST changes to POST between inspected images; the next panel replaces the poster joke with the three @publius portraits.",
+      "action": "JUST changes to POST, followed by the three @publius portraits.",
       "sound": [],
       "visualGag": "Payoff of the two sticker beats: JUST then POST makes the musical hero into a poster, connecting the narration about posting to the @publius social-media joke immediately afterward.",
-      "notes": "Actually viewed registered frame2024 at623.089. Full speech is renderer-derived; this is a visual insert rather than an independently timed dialogue excerpt."
+      "notes": null
     },
     {
       "startSeconds": 624.5,
       "frameNumber": 547,
       "heading": "@publius",
       "description": "Hamilton, Jay and Madison portraits appear under @publius, following the JUST and POST stickers on the musical poster.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
-      "visualGag": "Payoff to the preceding JUST/POST poster relabeling: Hamilton's posting becomes an @publius Twitter-style handle for the three pamphleteers, and historical pamphlets become a massive tweet thread. The comic sequence connects the poster instruction, POST sticker and handle reveal rather than treating these as unrelated inserts.",
-      "notes": "Selected actually viewed index frame 547 at 00:10:24.991. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
+      "visualGag": "Payoff to the JUST/POST poster relabeling: Hamilton’s posting becomes an @publius Twitter-style handle for the three pamphleteers, and the historical pamphlets become a massive tweet thread.",
+      "notes": null,
       "sound": []
     },
     {
@@ -301,10 +301,10 @@
       "frameNumber": 574,
       "heading": "Shays, branded",
       "description": "New England satellite map displays Cumberland Farms west, Dunkin’ Donuts east, and Washington between them.",
-      "camera": "Static map framing; portrait/marker placement changes across adjacent samples.",
+      "camera": "Static map framing; portrait/marker placement changes between views.",
       "action": "Logos and Washington portrait are the only animated historical actors.",
       "visualGag": "A second rebellion repeats modern regional-brand armies.",
-      "notes": "Selected actually viewed index frame 574 at 00:11:05.031. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -312,21 +312,21 @@
       "frameNumber": 689,
       "heading": "Public credit and discrimination",
       "description": "IOU-holding Mr. Krabs from SpongeBob SquarePants returns as debt repayment distinguishes veterans from later speculators.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "The requisition IOU setup returns when its holders can be cheated out of repayment value.",
-      "notes": "Selected actually viewed index frame 689 at 00:13:00.013. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
       "startSeconds": 849,
       "frameNumber": 738,
       "heading": "Speculators race south",
-      "description": "Sailboat cutouts overlay the modeling viewport while informed buyers hurry down the coast to acquire debt claims. ",
-      "camera": "Desktop framing changes with modeling navigation; boat-cutout positions shift across adjacent samples.",
+      "description": "Sailboat cutouts overlay the modeling viewport while informed buyers hurry down the coast to acquire debt claims.",
+      "camera": "Desktop framing changes as the modeler navigates, and the boat cutouts shift position.",
       "action": "Boats are edited illustrations, not filmed travel.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 738 at 00:14:10.016. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -334,10 +334,10 @@
       "frameNumber": 764,
       "heading": "Hamilton skipped this part",
       "description": "Gold poster for the Broadway musical Hamilton again punctuates the veteran-debt speculation account.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "Repeated poster is a sarcastic counterpoint to the musical’s heroic framing.",
-      "notes": "Selected actually viewed index frame 764 at 00:14:45.017. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -345,10 +345,10 @@
       "frameNumber": 787,
       "heading": "Assumption and the bargain",
       "description": "Blender continues constructing classical architectural details while the narrator links state-debt assumption to the Potomac capital bargain and foreign bond investment.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 787 at 00:15:50.016. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -356,10 +356,10 @@
       "frameNumber": 883,
       "heading": "Financing the First Bank",
       "description": "First Bank photograph receives a numbered diagram of stock, government borrowing and private investment; explanatory text accumulates.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
-      "visualGag": "Setup for the circular-financing joke and later sin-tax error: the numbered diagram explains the government borrowing from the bank to buy stock in that bank. The accumulating text is explanatory; the independently observed error popup later literalizes the tax pun.",
-      "notes": "Selected actually viewed index frame 883 at 00:17:20.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
+      "visualGag": "Sets up the circular-financing joke and the later sin-tax error: the numbered diagram shows the government borrowing from the bank to buy stock in that same bank. The error popup that literalizes the tax pun comes later.",
+      "notes": null,
       "sound": []
     },
     {
@@ -367,10 +367,10 @@
       "frameNumber": 908,
       "heading": "Whiskey pays the loan",
       "description": "Modeling footage continues as the government’s bank loan leads back to whiskey excise.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "Setup for the next panel’s sin-tax/syntax-error visual pun: whiskey excise is introduced as financing the government loan; the computer-error insert supplies the payoff.",
-      "notes": "Selected actually viewed index frame 908 at 00:18:20.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -378,10 +378,10 @@
       "frameNumber": 925,
       "heading": "Sin tax error",
       "description": "Tilted Microsoft JScript compilation dialog says Syntax error over Blender.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "Computer syntax error literalizes the spoken sin-tax pun; this is an editorial insert, not a real modeling error.",
-      "notes": "Selected actually viewed index frame 925 at 00:18:35.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -389,10 +389,10 @@
       "frameNumber": 928,
       "heading": "Alcohol and cash-poor distillers",
       "description": "The Alcoholic Republic book cover accompanies the episode-three/drinking callback before small-distiller resistance.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "After the syntax-error popup payoff, this book insert returns to the substantive alcohol discussion and episode-three callback. The book itself is not claimed as another visual pun.",
-      "notes": "Selected actually viewed index frame 928 at 00:18:40.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -400,10 +400,10 @@
       "frameNumber": 968,
       "heading": "Feathering",
       "description": "Sesame Street’s Big Bird cutout fills the modeling viewport.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "A feathered cartoon bird literalizes the tarring-and-feathering account.",
-      "notes": "Selected actually viewed index frame 968 at 00:19:35.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -411,10 +411,10 @@
       "frameNumber": 974,
       "heading": "Here we go again",
       "description": "Pennsylvania satellite map pits Sheetz against Wawa; Washington portrait and GTA: San Andreas inset appear.",
-      "camera": "Static base map; inset cuts and marker positions change across adjacent samples.",
+      "camera": "Static base map; the inset cuts in and the markers move.",
       "action": "Edited logos and Washington move; GTA inset shows a game character, not the historical rebellion.",
       "visualGag": "The GTA subtitle Ah shit, here we go again pays off repeated Washington-led suppression and the branded maps.",
-      "notes": "Selected actually viewed index frame 974 at 00:19:55.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -422,10 +422,10 @@
       "frameNumber": 982,
       "heading": "Carpenters’ Hall",
       "description": "Photograph of brick Carpenters’ Hall supplies the bank’s initial home and the spoken why-not-wood aside.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
-      "visualGag": "The brick building photograph visibly grounds the spoken name/material joke: why is Carpenters’ Hall not made of wood? No separate cartoon insert is needed for this architectural incongruity.",
-      "notes": "Selected actually viewed index frame 982 at 00:20:20.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
+      "visualGag": "The brick building photograph grounds the spoken name-and-material joke: why is Carpenters’ Hall not made of wood?",
+      "notes": null,
       "sound": []
     },
     {
@@ -433,10 +433,10 @@
       "frameNumber": 988,
       "heading": "First Bank built form",
       "description": "Corner photograph shows the First Bank’s stone front and red-brick side, contrasting monumental frontage with the cheaper flank.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 988 at 00:20:40.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -444,10 +444,10 @@
       "frameNumber": 995,
       "heading": "Hamilton’s report card",
       "description": "Five accusations culminate in WAS A DUMB MORON IDIOT ASSHOLE over Blender.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "A historical indictment ends in a deliberately childish insult, escalating the list.",
-      "notes": "Selected actually viewed index frame 995 at 00:21:05.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -455,10 +455,10 @@
       "frameNumber": 1003,
       "heading": "Which Republicans?",
       "description": "Modern blue circular D logo appears with THE REPUBLICANS underneath.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "Contradictory present-day branding underlines historical Democratic-Republican naming confusion.",
-      "notes": "Selected actually viewed index frame 1003 at 00:21:30.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -466,10 +466,10 @@
       "frameNumber": 1013,
       "heading": "Burr’s revolver",
       "description": "Burr portrait carries a modern revolver; Hamilton’s portrait tips away toward the screen edge.",
-      "camera": "Desktop remains behind overlays; portrait rotation/displacement is visible across adjacent samples.",
+      "camera": "The desktop stays behind the overlays as Hamilton’s portrait rotates and slides away.",
       "action": "Hamilton portrait rotates/falls; Burr portrait stays upright with a pasted gun.",
       "visualGag": "Anachronistic gun and falling portrait literalize the death with cutout slapstick.",
-      "notes": "Selected actually viewed index frame 1013 at 00:22:05.830. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -477,32 +477,32 @@
       "frameNumber": 1024,
       "heading": "Bank shot dead",
       "description": "George Clinton portrait is juxtaposed with the upright First Bank photograph as its charter ends and the narrator says he shot Hamilton's bank dead; the next panel rotates the bank image sideways.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Clinton and the upright bank photograph set up the institutional death metaphor; the next inspected image turns the bank photograph sideways toward the right edge.",
-      "visualGag": "Connected setup for the bank-photo death payoff: shot dead extends the preceding Burr/revolver/falling-Hamilton joke from the man to his institution. No second gun insert is established.",
-      "notes": "Viewed original frame1024 at22:30.020 is upright. Following registered frame2025 shows the rotated bank. Full speech is renderer-derived; ASR is not independently verified.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Clinton and the upright bank set up the institution’s death metaphor; the photograph then turns sideways toward the right edge.",
+      "visualGag": "Connected setup for the bank-photo death payoff: “shot dead” extends the Burr, revolver and falling-Hamilton joke from the man to his institution. No second gun appears.",
+      "notes": null,
       "sound": []
     },
     {
       "startSeconds": 1351,
       "frameNumber": 2025,
       "heading": "The bank falls sideways",
-      "description": "The First Bank photograph is rotated about90degrees and partly exits the right edge over Blender editing.",
-      "camera": "Bank-photo overlay rotates relative to the preceding upright image; background viewport remains architectural editing. Exact continuous rotation path is not established.",
+      "description": "The First Bank photograph lies about 90 degrees sideways and partly leaves the right edge over Blender editing.",
+      "camera": "The bank photograph has rotated from its upright position; the architectural editing continues behind it.",
       "action": "The photograph turns sideways and leaves the right side, echoing Hamilton's earlier portrait rotation. No new gun is visible.",
       "sound": [],
-      "visualGag": "Visual payoff to he shot Hamilton's bank dead: the institution's photograph repeats Hamilton's portrait-death slapstick. Whether it is intended as a fall or a rotate-out transition remains uncertain.",
-      "notes": "Actually viewed registered frame2025 at1351.383, compared with upright original frame1024 at1350.020. Connected setup and payoff both retain source-derived full speech."
+      "visualGag": "Visual payoff to “he shot Hamilton’s bank dead”: the bank’s photograph repeats the slapstick of Hamilton’s falling portrait.",
+      "notes": "It is unclear whether the sideways photograph is a fall or a rotate-out transition."
     },
     {
       "startSeconds": 1355.5,
       "frameNumber": 1027,
       "heading": "Private purchase, public war",
-      "description": "Unlabeled financier portrait accompanies purchase of the bank and later war underwriting; ASR’s Steven Gerrard is likely Stephen Girard, not visually verified.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "description": "An unlabeled financier portrait illustrates the bank’s purchase and war underwriting. The intended figure appears to be Stephen Girard; the identity is uncertain.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1027 at 00:22:40.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. Financier portrait has no readable name label; Stephen Girard is contextual interpretation of ASR Steven Gerrard.",
+      "notes": null,
       "sound": []
     },
     {
@@ -510,10 +510,10 @@
       "frameNumber": 1081,
       "heading": "Good Feelings",
       "description": "Historical fair/crowd painting carries Era of Good Feelings caption, marking the setting for renewed national banking.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1081 at 00:24:15.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -521,10 +521,10 @@
       "frameNumber": 1106,
       "heading": "Year without a summer",
       "description": "Temperature-anomaly map and caldera photograph accompany Tambora and crop failure.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1106 at 00:24:40.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -532,10 +532,10 @@
       "frameNumber": 1139,
       "heading": "Agriculture and speculation",
       "description": "Transatlantic map precedes continued asset modeling as crop prices encourage cotton and land speculation, tied by the presenter to Native dispossession.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1139 at 00:25:00.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -543,10 +543,10 @@
       "frameNumber": 1221,
       "heading": "Speculative “money”",
       "description": "Monopoly banknotes appear with MONEY in quotation marks.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "Fake board-game currency is the visual payoff to unstable bank-created speculative money.",
-      "notes": "Selected actually viewed index frame 1221 at 00:26:05.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -554,10 +554,10 @@
       "frameNumber": 1324,
       "heading": "Get the projector",
       "description": "Slide-projector photograph overlays Blender to announce an architecture lecture.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "A literal projector image makes the classroom transition visible.",
-      "notes": "Selected actually viewed index frame 1324 at 00:27:15.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -565,10 +565,10 @@
       "frameNumber": 1326,
       "heading": "Greek Revival lecture",
       "description": "Projected title slide reads WILLIAM STRICKLAND, AMERICAN DEMOCRACY, AND GREEK REVIVAL above a temple-front building.",
-      "camera": "Hard cut from desktop to black-framed projected slide; focus resolves across adjacent samples.",
+      "camera": "Cut from desktop to a black-framed projected slide that comes into focus.",
       "action": "Static building photograph and title; no character action.",
       "visualGag": "Mock lecture apparatus is sustained by soft-focus-to-sharp slide changes.",
-      "notes": "Selected actually viewed index frame 1326 at 00:27:20.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -576,10 +576,10 @@
       "frameNumber": 1338,
       "heading": "Direct Athenian democracy",
       "description": "Assembly painting fills the projected slide as attendance, payment and sortition contrast with the founders’ representative institutions.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": "Visual setup for the later Knicks substitution: the static ancient assembly painting establishes Athens as the serious referent; the later New York Knicks logo interrupts this same image at the hill-name pun.",
-      "notes": "Selected actually viewed index frame 1338 at 00:28:10.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -587,10 +587,10 @@
       "frameNumber": 1361,
       "heading": "The undemocratic republic",
       "description": "The same static assembly painting remains while indirect Senate elections and rich-versus-poor power become the point of comparison.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": "Continuation of the ancient-assembly visual setup. Its serious political discussion precedes the Knicks logo intruding on the same painting; the logo, not the painting alone, is the joke’s payoff.",
-      "notes": "Selected actually viewed index frame 1361 at 00:30:05.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -598,10 +598,10 @@
       "frameNumber": 1371,
       "heading": "Knicks on the hill",
       "description": "New York Knicks logo intrudes on the ancient assembly painting at the hill-name reference.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
-      "visualGag": "Sound-alike sports logo substitutes Knicks for the ASR Nyx / likely Pnyx.",
-      "notes": "Selected actually viewed index frame 1371 at 00:30:55.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. Knicks logo verified in native still; ancient Pnyx spelling is contextual interpretation of ASR Nyx.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
+      "visualGag": "The Knicks logo makes a sound-alike joke about the assembly hill, apparently Pnyx.",
+      "notes": null,
       "sound": []
     },
     {
@@ -609,10 +609,10 @@
       "frameNumber": 1378,
       "heading": "The surviving emblem",
       "description": "Parthenon ruin photograph replaces the assembly; the presenter distinguishes enduring temple imagery from democratic institutions.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1378 at 00:31:20.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -620,10 +620,10 @@
       "frameNumber": 1400,
       "heading": "Ruined and reconstructed",
       "description": "Engraved reconstruction of the Parthenon follows the ruined photograph; conversion and explosion make its visual afterlife the subject.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1400 at 00:33:00.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -631,10 +631,10 @@
       "frameNumber": 1410,
       "heading": "Greek Revival vocabulary",
       "description": "Temple-front example fills the projection, illustrating the restriction to Greek forms and no arches.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1410 at 00:33:40.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -642,10 +642,10 @@
       "frameNumber": 1420,
       "heading": "Equality, plantations, banks",
       "description": "Large symmetrical classical building photograph illustrates the contradiction between Greek democratic associations and elite institutions.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
-      "visualGag": "Visual/ideological contradiction: a monumental elite building illustrates Greek Revival’s claims to equality/democracy while the narrator says “so naturally” the style goes on churches, plantation houses and banks. The image is evidence of the architectural mismatch, not a literal democratic assembly.",
-      "notes": "Selected actually viewed index frame 1420 at 00:34:20.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
+      "visualGag": "A monumental elite building stands for Greek Revival’s claims to equality and democracy while the narrator says that “so naturally” the style goes on churches, plantation houses and banks. The picture shows the mismatch between the style’s ideals and its uses.",
+      "notes": null,
       "sound": []
     },
     {
@@ -653,10 +653,10 @@
       "frameNumber": 1432,
       "heading": "Latrobe’s Pennsylvania bank",
       "description": "Historical Bank of Pennsylvania image introduces simple columns, sparse windows and restrained ornament, contrasting the First Bank.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1432 at 00:35:10.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -664,10 +664,10 @@
       "frameNumber": 1452,
       "heading": "Latrobe’s surviving work",
       "description": "Baltimore basilica photograph illustrates the architect’s later buildings after the loss of much Philadelphia work.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1452 at 00:36:40.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -675,10 +675,10 @@
       "frameNumber": 1462,
       "heading": "Strickland the pupil",
       "description": "Portrait of Strickland replaces the building slide; narrator stumbles from photo to picture to painting.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1462 at 00:37:25.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -686,10 +686,10 @@
       "frameNumber": 1470,
       "heading": "American Parthenon",
       "description": "Second Bank front photograph shows Doric temple front and no front windows; small satellite quarry inset briefly appears later.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1470 at 00:38:00.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -697,10 +697,10 @@
       "frameNumber": 1480,
       "heading": "Austere side",
       "description": "Second Bank side photograph shows plain marble wall and window openings, making the otherwise screened flank visible.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1480 at 00:38:40.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -708,10 +708,10 @@
       "frameNumber": 1490,
       "heading": "Exchange temple front",
       "description": "Merchants’ Exchange front photograph illustrates Corinthian columns and window bays adapting the temple formula.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1490 at 00:39:20.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -719,10 +719,10 @@
       "frameNumber": 1500,
       "heading": "Exchange rounded portico",
       "description": "Photograph of the rounded exchange portico and lantern shows the building’s distinctive response to its corner.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1500 at 00:40:00.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -730,10 +730,10 @@
       "frameNumber": 1513,
       "heading": "A bank becomes a bar",
       "description": "National Mechanics photograph shows the former bank’s current bar facade.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1513 at 00:41:00.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -741,10 +741,10 @@
       "frameNumber": 1518,
       "heading": "Capitol callback",
       "description": "Tennessee State Capitol photograph repeats the lantern motif before the lecture returns to financial machinery.",
-      "camera": "Static projected slide/insert; slide changes are cuts, with occasional blur-to-focus transitions. No pan or tilt of the pictured subject established.",
-      "action": "Static photograph/painting/text; no visible live character action.",
+      "camera": "Cuts between projected slides, sometimes blurred before coming into focus.",
+      "action": "The slide holds on screen.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1518 at 00:41:20.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -752,10 +752,10 @@
       "frameNumber": 1530,
       "heading": "Convertibility circuit",
       "description": "Treasury seal, national/private banks, individual icon, note and coins form a financial diagram over resumed Blender modeling.",
-      "camera": "Desktop viewpoint changes beneath fixed diagram anchors; cutout money relocates across adjacent samples.",
+      "camera": "The desktop viewpoint changes beneath the fixed diagram while the money cutouts move between its actors.",
       "action": "Banknote and coin illustrations move between labeled actors.",
-      "visualGag": "Explanatory visual setup for the later dollar-equals-itself caption/line: money cutouts circulate between national bank, private bank and Treasury. The diagram is not itself an independent joke.",
-      "notes": "Selected actually viewed index frame 1530 at 00:41:50.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "visualGag": "Explanatory setup for the dollar-equals-itself caption: money cutouts circulate between the national bank, a private bank and the Treasury.",
+      "notes": null,
       "sound": []
     },
     {
@@ -763,10 +763,10 @@
       "frameNumber": 1559,
       "heading": "A dollar equals a dollar",
       "description": "CONVERTIBILITY caption reads $1 = $1 REGARDLESS OF WHICH BANK ISSUED IT over Blender, after the animated Treasury/bank circuit.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": "Payoff to the convertibility circuit: the caption $1 = $1 REGARDLESS OF WHICH BANK ISSUED IT turns the hard-won monetary achievement into the absurd-sounding proposition that a dollar is worth one of itself.",
-      "notes": "Selected actually viewed index frame 1559 at 00:42:50.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -774,10 +774,10 @@
       "frameNumber": 1652,
       "heading": "Reserve failure",
       "description": "Blender detail work receives CHARTER REQUIRED $28 MILLION IN SPECIE / THEY GOT $2 MILLION, exposing the bank’s own weak start.",
-      "camera": "Static editorial insert over a Blender timelapse; the underlying viewport changes by orbit/zoom and cuts. The insert itself is not a live character shot.",
-      "action": "Architectural meshes are edited in the background; foreground cutouts/text appear and disappear as editorial illustrations.",
+      "camera": "Static insert over a Blender time-lapse. The viewport orbits, zooms and cuts between views.",
+      "action": "Architectural modeling continues behind changing cutouts and captions.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1652 at 00:44:30.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -785,10 +785,10 @@
       "frameNumber": 1700,
       "heading": "Assets enter Franklin",
       "description": "Cities: Skylines replaces Blender. First Bank and surrounding small buildings are placed in the neighborhood.",
-      "camera": "Cut to overhead/oblique gameplay; successive samples zoom closer and rotate around the bank block.",
+      "camera": "Cut to overhead and oblique gameplay that zooms closer and rotates around the bank block.",
       "action": "Building-selection previews turn into placed buildings.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1700 at 00:45:35.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -796,10 +796,10 @@
       "frameNumber": 1726,
       "heading": "Crisis beneath construction",
       "description": "Second Bank occupies a larger plot while surrounding houses and streets are adjusted; narration traces crop/land price collapse and foreclosures.",
-      "camera": "Overhead viewpoint rotates and shifts between neighboring blocks across samples.",
+      "camera": "The overhead viewpoint rotates and shifts between neighboring blocks.",
       "action": "Buildings are selected, moved and placed; lots are cleared.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1726 at 00:47:00.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -810,7 +810,7 @@
       "camera": "Gameplay zooms out, then shifts and rotates above exchange and banks.",
       "action": "Exchange building is placed; nearby road geometry and buildings are adjusted.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1738 at 00:47:55.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -818,10 +818,10 @@
       "frameNumber": 1759,
       "heading": "Jacksonian Democrats",
       "description": "Jackson portrait and JACKSONIAN DEMOCRATS heading overlay construction around the exchange.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "Oblique and overhead gameplay views zoom, rotate and reposition.",
+      "action": "The player places and details buildings, streets and market props beneath the overlaid text and images.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1759 at 00:49:10.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -829,10 +829,10 @@
       "frameNumber": 1770,
       "heading": "White manhood suffrage",
       "description": "Policy list begins UNIVERSAL WHITE MANHOOD SUFFRAGE; framing underlines its racial boundary rather than universal democracy.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "The gameplay view zooms, rotates and shifts between oblique and overhead angles.",
+      "action": "Construction and detailing continue under the editorial overlays.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1770 at 00:49:55.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -840,10 +840,10 @@
       "frameNumber": 1776,
       "heading": "Patronage / Patreon",
       "description": "Policy list reaches PATRONAGE and a large Patreon logo covers gameplay.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "Oblique and overhead gameplay, reframed by zooming and rotating.",
+      "action": "The player keeps placing and detailing buildings, streets and market props.",
       "visualGag": "Political patronage becomes creator patronage; the actual commercial comes later.",
-      "notes": "Selected actually viewed index frame 1776 at 00:50:20.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -851,14 +851,14 @@
       "frameNumber": 1782,
       "heading": "Six planks",
       "description": "Expanded Jacksonian list includes strict construction, laissez-faire and PARTY OF THE COMMON MAN in quotation marks.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "Oblique and overhead gameplay views zoom, rotate and reposition.",
+      "action": "The player places and details buildings, streets and market props beneath the overlaid text and images.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1782 at 00:50:50.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": [
         {
           "startSeconds": 3036.11,
-          "text": "French pronunciation gag: laissez-faire (3036.11–3036.97s), source-supported by the Jacksonian list. User-groundtruth poor-pronunciation observation; raw-word onset is a coarse annotation anchor, not independently auditioned or phonetically measured. Raw ASR remains unchanged."
+          "text": "The narrator gives “laissez-faire” a poor French pronunciation while the term sits in the on-screen Jacksonian list."
         }
       ]
     },
@@ -867,10 +867,10 @@
       "frameNumber": 1787,
       "heading": "Four-way election",
       "description": "1824 heading, candidate portraits and colored electoral map explain why Jackson’s plurality did not yield the presidency.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "The gameplay view zooms, rotates and shifts between oblique and overhead angles.",
+      "action": "Construction and detailing continue under the editorial overlays.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1787 at 00:51:10.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -878,10 +878,10 @@
       "frameNumber": 1794,
       "heading": "Adams infrastructure",
       "description": "B&O railroad logo and canal engraving illustrate Adams's infrastructure support, setting up the immediately following alligator interruption.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
+      "camera": "Oblique and overhead gameplay, reframed by zooming and rotating.",
       "action": "Infrastructure illustrations overlay continuing gameplay; the next panel adds a large static alligator photograph alongside the canal image.",
       "visualGag": "Connected setup: the serious railroad/canal investment list is about to be punctured by the White House alligator aside and literal animal photo. The alligator payoff is shown in its own next panel.",
-      "notes": "Viewed original frame1794 at51:40.030 precedes the animal. Registered frame2026 supplies the following alligator payoff. Full speech is renderer-derived; ASR is not independently verified.",
+      "notes": null,
       "sound": []
     },
     {
@@ -893,17 +893,17 @@
       "action": "The alligator insert covers much of the logo while the canal image remains alongside it, interrupting the infrastructure montage.",
       "sound": [],
       "visualGag": "Payoff to the infrastructure setup: he also kept an alligator at the White House is illustrated literally with an absurd animal photograph amid railroad and canal pictures. The serious policy list becomes presidential trivia.",
-      "notes": "Actually viewed registered frame2026 at3102.333. Narrative boundary3101 follows the ASR onset of the alligator aside; source-derived full speech continues into the subsequent context. Original regular samples bracketed and missed this short insert."
+      "notes": null
     },
     {
       "startSeconds": 3120,
       "frameNumber": 1799,
       "heading": "Tariff split",
       "description": "TARIFF OF 1828 captions give 38% foreign goods and 45% foreign raw materials; construction continues underneath.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "The gameplay view zooms, rotates and shifts between oblique and overhead angles.",
+      "action": "Construction and detailing continue under the editorial overlays.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1799 at 00:52:00.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -911,10 +911,10 @@
       "frameNumber": 1814,
       "heading": "Removal and expansion",
       "description": "THE FIVE CIVILIZED TRIBES heading lists Cherokee, Creek, Chickasaw, Choctaw and Seminole before the account of forced removal.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "Oblique and overhead gameplay, reframed by zooming and rotating.",
+      "action": "The player keeps placing and detailing buildings, streets and market props.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1814 at 00:53:05.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -922,10 +922,10 @@
       "frameNumber": 1826,
       "heading": "Bank War factions",
       "description": "PRO-BANK and ANTI-BANK columns build around Biddle/Clay portraits while market awnings and stalls are added.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "Oblique and overhead gameplay views zoom, rotate and reposition.",
+      "action": "The player places and details buildings, streets and market props beneath the overlaid text and images.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1826 at 00:54:00.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -933,10 +933,10 @@
       "frameNumber": 1840,
       "heading": "The incompatible coalition",
       "description": "Completed faction list includes stable-currency users versus financiers, farmers, private banks and Jackson.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "The gameplay view zooms, rotates and shifts between oblique and overhead angles.",
+      "action": "Construction and detailing continue under the editorial overlays.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1840 at 00:55:05.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -944,10 +944,10 @@
       "frameNumber": 1852,
       "heading": "Wreck the bank",
       "description": "TIME TO WRECK THE BANK! text overlays a row of detailed shops.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "Oblique and overhead gameplay, reframed by zooming and rotating.",
+      "action": "The player keeps placing and detailing buildings, streets and market props.",
       "visualGag": "Bombastic text sets up Jackson’s deposit attack; gameplay does not literally demolish the bank.",
-      "notes": "Selected actually viewed index frame 1852 at 00:56:00.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -955,10 +955,10 @@
       "frameNumber": 1855,
       "heading": "Pet banks",
       "description": "Orange-and-white kitten photo overlays awning-detail gameplay.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "Oblique and overhead gameplay views zoom, rotate and reposition.",
+      "action": "The player places and details buildings, streets and market props beneath the overlaid text and images.",
       "visualGag": "Pet banks become a literal pet kitten, deflating friendly-bank patronage.",
-      "notes": "Selected actually viewed index frame 1855 at 00:56:15.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -966,10 +966,10 @@
       "frameNumber": 1859,
       "heading": "Whigs oppose Jackson",
       "description": "GREAT WHIG MEETING broadside follows the kitten while opposition and censure develop.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "The gameplay view zooms, rotates and shifts between oblique and overhead angles.",
+      "action": "Construction and detailing continue under the editorial overlays.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1859 at 00:56:35.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -977,10 +977,10 @@
       "frameNumber": 1874,
       "heading": "Sir, how dare you",
       "description": "Huge SIR! SIR! HOW DARE YOU! caption overlays the bank neighborhood.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "Oblique and overhead gameplay, reframed by zooming and rotating.",
+      "action": "The player keeps placing and detailing buildings, streets and market props.",
       "visualGag": "Oversized scolding pays off the explanation that censure has little practical effect.",
-      "notes": "Selected actually viewed index frame 1874 at 00:57:35.020. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -988,10 +988,10 @@
       "frameNumber": 1888,
       "heading": "Jackson on national money",
       "description": "Jackson’s modern $20 bill dominates the screen.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "Oblique and overhead gameplay views zoom, rotate and reposition.",
+      "action": "The player places and details buildings, streets and market props beneath the overlaid text and images.",
       "visualGag": "Unified-currency opponent honored on unified currency is the visual irony.",
-      "notes": "Selected actually viewed index frame 1888 at 00:58:25.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -999,10 +999,10 @@
       "frameNumber": 1896,
       "heading": "Fragmentation returns",
       "description": "Gameplay reshapes streets near railroad tracks as private-note banking, Panic of 1837 and later Federal Reserve supply the historical outcome.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "The gameplay view zooms, rotates and shifts between oblique and overhead angles.",
+      "action": "Construction and detailing continue under the editorial overlays.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1896 at 00:59:00.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -1010,10 +1010,10 @@
       "frameNumber": 1909,
       "heading": "A city fits a stadium",
       "description": "Beaver Stadium/Penn State Google Maps image fills most of gameplay.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "Oblique and overhead gameplay, reframed by zooming and rotating.",
+      "action": "The player keeps placing and detailing buildings, streets and market props.",
       "visualGag": "A modern giant stadium literalizes the early city’s surprisingly compact population.",
-      "notes": "Selected actually viewed index frame 1909 at 00:59:55.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -1021,10 +1021,10 @@
       "frameNumber": 1915,
       "heading": "Why Franklin is the financial center",
       "description": "Bank/exchange neighborhood gameplay returns as easy local access to bankers explains infrastructure financing.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "Oblique and overhead gameplay views zoom, rotate and reposition.",
+      "action": "The player places and details buildings, streets and market props beneath the overlaid text and images.",
       "visualGag": "Setup for the next infrastructure/business collage: local financing for canals, turnpikes and railroads is initially serious; SpongeBob SquarePants’ Pretty Patties stand becomes the absurd business-example payoff.",
-      "notes": "Selected actually viewed index frame 1915 at 01:00:05.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -1032,10 +1032,10 @@
       "frameNumber": 1917,
       "heading": "Finance any venture",
       "description": "Collage includes canal boat, turnpike entrance sign, historic railroad and SpongeBob SquarePants’ Pretty Patties stand.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "The gameplay view zooms, rotates and shifts between oblique and overhead angles.",
+      "action": "Construction and detailing continue under the editorial overlays.",
       "visualGag": "Serious infrastructure examples set up an absurd cartoon business venture.",
-      "notes": "Selected actually viewed index frame 1917 at 01:00:15.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -1043,21 +1043,21 @@
       "frameNumber": 1923,
       "heading": "Finance moves to Gramercy",
       "description": "Overhead neighborhood gameplay continues as finance shifts to New York/Gramercy, concluding the geographic argument.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "Oblique and overhead gameplay, reframed by zooming and rotating.",
+      "action": "The player keeps placing and detailing buildings, streets and market props.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1923 at 01:00:40.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
       "startSeconds": 3653,
       "frameNumber": 1931,
       "heading": "The commercial",
-      "description": "Street/detail editing accompanies Patreon and podcast recommendations; no second Patreon logo insert is established in these samples.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
-      "visualGag": "Funding callback after the earlier PATRONAGE/Patreon-logo joke: this is the actual Patreon/podcast commercial. No second visual logo insert is established here; gameplay continues.",
-      "notes": "Selected actually viewed index frame 1931 at 01:01:20.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "description": "Street detailing accompanies Patreon and podcast recommendations.",
+      "camera": "Oblique and overhead gameplay views zoom, rotate and reposition.",
+      "action": "The player places and details buildings, streets and market props beneath the overlaid text and images.",
+      "visualGag": "The actual Patreon commercial recalls the earlier PATRONAGE/Patreon-logo gag while gameplay continues.",
+      "notes": null,
       "sound": []
     },
     {
@@ -1065,10 +1065,10 @@
       "frameNumber": 1949,
       "heading": "Assets, Twitter, next episode",
       "description": "Gameplay shows finalized market frontage and streets while the presenter mentions Steam assets, Roman-legion Twitter sarcasm and the next banker/architecture episode.",
-      "camera": "Oblique/overhead gameplay framing changes between adjacent samples by zoom, rotation and repositioning. Exact continuous path is not established.",
-      "action": "Player selects, places or details buildings/streets/market props in surrounding samples; editorial text/images remain separate from gameplay.",
+      "camera": "The gameplay view zooms, rotates and shifts between oblique and overhead angles.",
+      "action": "Construction and detailing continue under the editorial overlays.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1949 at 01:02:20.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -1076,14 +1076,14 @@
       "frameNumber": 1962,
       "heading": "Finished banks and exchange",
       "description": "UI-free oblique cinematic views reveal the constructed First Bank, Second Bank and exchange in their dense neighborhood.",
-      "camera": "Cut out of gameplay UI to cinematic views; adjacent samples change location and viewing angle.",
+      "camera": "Cut from the gameplay interface to cinematic views that change location and angle.",
       "action": "No construction menus; buildings remain fixed while the viewpoint travels.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1962 at 01:03:15.030. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": [
         {
           "startSeconds": 3780,
-          "text": "Source-description music credit: cinematics use Bach, Brandenburg Concerto No. 1, movement I. Timestamp anchors the sampled transition into the cinematic section, not an independently listened-to exact musical onset."
+          "text": "Cinematics music: Brandenburg Concerto No. 1, I. Allegro. The recording and performer are unknown."
         }
       ]
     },
@@ -1092,10 +1092,10 @@
       "frameNumber": 1973,
       "heading": "Ordinary houses, monumental exchange",
       "description": "Cinematics contrast small detached houses with the exchange’s rounded portico, lantern, stalls and carts.",
-      "camera": "Cuts between housing and exchange; consecutive exchange views change angle and distance, supporting an orbit/traveling view, not a static slide.",
+      "camera": "Cuts between housing and the exchange; the camera travels around the exchange, changing angle and distance.",
       "action": "City scenery remains fixed; camera passes around the exchange.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1973 at 01:04:05.010. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -1106,7 +1106,7 @@
       "camera": "Adjacent views shift across rooftops and around buildings; distinct cuts change subject.",
       "action": "Completed city is displayed without editing UI.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1985 at 01:05:05.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -1114,10 +1114,10 @@
       "frameNumber": 1999,
       "heading": "Supporter credits",
       "description": "White supporter-name columns on black replace the city montage.",
-      "camera": "Cut to black credit field; adjacent samples show different name positions/pages, not a camera pan.",
+      "camera": "Cut to a black credit field.",
       "action": "Names advance through the credit sequence.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 1999 at 01:06:15.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     },
     {
@@ -1125,10 +1125,10 @@
       "frameNumber": 2021,
       "heading": "One fare",
       "description": "Centered token on black reads GOOD FOR / DNE / ONE FARE beneath a translucent diagonal red band.",
-      "camera": "Static centered end card in the final adjacent samples.",
+      "camera": "Static centered end card.",
       "action": "No character action or further city-building.",
       "visualGag": null,
-      "notes": "Selected actually viewed index frame 2021 at 01:07:55.000. Panel start is a narrative grouping boundary, not a verified shot-cut onset. Full speech is supplied automatically from transcripts/V44gkRzML9k.json by the shared renderer; ASR words/timing and historical assertions are not independently certified. ",
+      "notes": null,
       "sound": []
     }
   ]

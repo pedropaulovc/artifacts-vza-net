@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "signature": "{\"version\":1,\"source\":{\"path\":\"videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv\",\"size\":1101248,\"mtimeMs\":1791766570701.3237},\"originals\":[0,5.005,10.01,15.015,20.02,25.025,30.03,35.002,40.007],\"hwaccel\":\"cuda\",\"mode\":{\"path\":\"/tmp/qaef/Vln5Ri4Zpgo.txt\",\"width\":320,\"threshold\":0.1,\"complete\":true,\"normalized\":false,\"size\":0,\"mtimeMs\":1791768333856.2844}}",
+  "complete": true,
+  "id": "Vln5Ri4Zpgo",
+  "title": "A new Cities: Skylines Series: Franklin",
+  "source": {
+    "path": "videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+    "size": 1101248,
+    "mtimeMs": 1791766570701.3237
+  },
+  "originalIndex": "visual/Vln5Ri4Zpgo/index.json",
+  "coverage": "Supplemental scene-cut candidates, NOT automatically identified gags or exhaustive coverage. Neighboring qualifying cuts 0.15–4 seconds apart with no original indexed frame strictly between, plus qualifying cuts with no original frame within 1 second after. No candidate cap. Gradual fades, small overlays, low-contrast changes and no-cut inserts may be missed; narration/audio-cue rereads and human image review remain essential. Original visual indices and authored storyboards are unchanged.",
+  "sampling": {
+    "requestedSceneThreshold": 0.15,
+    "sceneThreshold": 0.15,
+    "sceneDetectionWidth": 320,
+    "timestampOrigin": "first decoded source video frame = 0; frames store actual normalized presentation timestamps",
+    "pairSeconds": [
+      0.15,
+      4
+    ],
+    "afterCutCoverageSeconds": 1,
+    "duplicateToleranceSeconds": 0.001
+  },
+  "layout": {
+    "columns": 3,
+    "rows": 4,
+    "tileWidth": 480,
+    "tileHeight": 302
+  },
+  "scanProvenance": {
+    "kind": "reused-full-source-log",
+    "path": "/tmp/qaef/Vln5Ri4Zpgo.txt",
+    "width": 320,
+    "threshold": 0.1,
+    "complete": true,
+    "normalized": false,
+    "origin": 0,
+    "limitations": [
+      "Scores computed at a different width; .15 equivalence to 240px is not guaranteed."
+    ],
+    "effectiveAnalysisThreshold": 0.15,
+    "candidateDecoder": "cuda"
+  },
+  "summary": {
+    "id": "Vln5Ri4Zpgo",
+    "title": "A new Cities: Skylines Series: Franklin",
+    "cuts": 0,
+    "candidates": 0,
+    "sheets": [],
+    "index": "qa/brief/Vln5Ri4Zpgo/index.json",
+    "scanProvenance": {
+      "kind": "reused-full-source-log",
+      "path": "/tmp/qaef/Vln5Ri4Zpgo.txt",
+      "width": 320,
+      "threshold": 0.1,
+      "complete": true,
+      "normalized": false,
+      "origin": 0,
+      "limitations": [
+        "Scores computed at a different width; .15 equivalence to 240px is not guaranteed."
+      ],
+      "effectiveAnalysisThreshold": 0.15,
+      "candidateDecoder": "cuda"
+    }
+  },
+  "sheets": [],
+  "frames": []
+}

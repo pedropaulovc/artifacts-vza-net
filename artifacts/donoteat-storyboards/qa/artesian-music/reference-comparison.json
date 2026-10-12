@@ -1,0 +1,881 @@
+{
+  "method": "Zero-mean normalized waveform cross-correlation at 8 kHz. Searches full official artist-hosted reference recording for each exact source excerpt. No listening or cue-boundary claim.",
+  "references": [
+    {
+      "title": "Dry Hands",
+      "artist": "C418",
+      "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/dry-hands",
+      "trackId": 4284425828,
+      "streamURL": "https://t4.bcbits.com/stream/9f3efa192a881d19c7285bf95d7f5696/mp3-128/4284425828?p=0&ts=1791909398&t=51790f621082a1f0d9104f67032aca17c3593743&token=1791909398_a24f1c47d5c20409f4736bdfbb959c0354c644af",
+      "httpStatus": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "1215935",
+        "content-type": "audio/mpeg",
+        "cache-control": "max-age=31536000",
+        "last-modified": "Fri, 17 Oct 2014 16:38:10 GMT",
+        "x-robots-tag": "noindex",
+        "Via": "1.1 varnish, 1.1 varnish",
+        "Accept-Ranges": "bytes",
+        "Age": "409244",
+        "Date": "Mon, 12 Oct 2026 16:37:28 GMT",
+        "X-Served-By": "cache-chi-kmdw8640022-CHI, cache-bfi-krnt7300067-BFI",
+        "X-Cache": "HIT, HIT",
+        "X-Cache-Hits": "101, 0",
+        "X-Timer": "S1791823048.029186,VS0,VE2",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "retrievedAt": "2026-10-12T16:37:29.437134+00:00",
+      "path": "qa/artesian-music/references/dry-hands.mp3",
+      "sha256": "2dec4f5ec9d026c508ac4759800061deb0652d853472bc56f990fd617180af67",
+      "decodeCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/dry-hands.mp3",
+        "-vn",
+        "-ac",
+        "1",
+        "-ar",
+        "8000",
+        "-f",
+        "f32le",
+        "-"
+      ],
+      "decodedDurationSeconds": 68.5,
+      "queryComparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 22.7065,
+          "referenceEndSeconds": 45.8065,
+          "maxAbsoluteWaveformCorrelation": 0.031178480025084613,
+          "signedWaveformCorrelation": 0.031178480025084613
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 0.9315,
+          "referenceEndSeconds": 15.8315,
+          "maxAbsoluteWaveformCorrelation": 0.04677317897209126,
+          "signedWaveformCorrelation": -0.04677317897209126
+        }
+      ]
+    },
+    {
+      "title": "Wet Hands",
+      "artist": "C418",
+      "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/wet-hands",
+      "trackId": 3833157147,
+      "streamURL": "https://t4.bcbits.com/stream/7bb4edc24570ac4a7b74ffba07f333f2/mp3-128/3833157147?p=0&ts=1791909398&t=f42f50473fe3d718c63c70c2c322938590576e1e&token=1791909398_47251ee6f0c20705cbe4219ce54e89a382982aa5",
+      "httpStatus": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "1504620",
+        "content-type": "audio/mpeg",
+        "cache-control": "max-age=31536000",
+        "last-modified": "Sat, 16 Jul 2016 14:12:12 GMT",
+        "x-robots-tag": "noindex",
+        "Via": "1.1 varnish, 1.1 varnish",
+        "Accept-Ranges": "bytes",
+        "Age": "584514",
+        "Date": "Mon, 12 Oct 2026 16:37:28 GMT",
+        "X-Served-By": "cache-chi-klot8100047-CHI, cache-bfi-krnt7300045-BFI",
+        "X-Cache": "HIT, HIT",
+        "X-Cache-Hits": "158, 0",
+        "X-Timer": "S1791823049.676423,VS0,VE1",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "retrievedAt": "2026-10-12T16:37:30.160411+00:00",
+      "path": "qa/artesian-music/references/wet-hands.mp3",
+      "sha256": "20a41f07c3fd18ecc87ffd8edebf68faadd752de49a45b4fa6a601d5e78c76ec",
+      "decodeCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/wet-hands.mp3",
+        "-vn",
+        "-ac",
+        "1",
+        "-ar",
+        "8000",
+        "-f",
+        "f32le",
+        "-"
+      ],
+      "decodedDurationSeconds": 90.0,
+      "queryComparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 31.954,
+          "referenceEndSeconds": 55.054,
+          "maxAbsoluteWaveformCorrelation": 0.02507731952974905,
+          "signedWaveformCorrelation": 0.02507731952974905
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 1.737625,
+          "referenceEndSeconds": 16.637625,
+          "maxAbsoluteWaveformCorrelation": 0.029092918836750407,
+          "signedWaveformCorrelation": 0.029092918836750407
+        }
+      ]
+    },
+    {
+      "title": "Sweden",
+      "artist": "C418",
+      "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/sweden",
+      "trackId": 890894942,
+      "streamURL": "https://t4.bcbits.com/stream/2e9d2ec51ba9b24e0af2a656d743ca3d/mp3-128/890894942?p=0&ts=1791909398&t=2d3cf64cd88003c4fec1e2515802f18167d4ca81&token=1791909398_b4341b9a712568fa79741d8378be78072512bb3d",
+      "httpStatus": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "3512496",
+        "content-type": "audio/mpeg",
+        "cache-control": "max-age=31536000",
+        "last-modified": "Fri, 15 Jul 2016 17:07:20 GMT",
+        "x-robots-tag": "noindex",
+        "Via": "1.1 varnish, 1.1 varnish",
+        "Accept-Ranges": "bytes",
+        "Age": "75324",
+        "Date": "Mon, 12 Oct 2026 16:37:29 GMT",
+        "X-Served-By": "cache-chi-kigq8000064-CHI, cache-bfi-krnt7300104-BFI",
+        "X-Cache": "HIT, HIT",
+        "X-Cache-Hits": "2, 0",
+        "X-Timer": "S1791823049.345311,VS0,VE2",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "retrievedAt": "2026-10-12T16:37:31.739909+00:00",
+      "path": "qa/artesian-music/references/sweden.mp3",
+      "sha256": "0ac89e0fdd4c6285dfb17c7e7f214064114984bc5c361e38d57e7cce07be0fcd",
+      "decodeCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/sweden.mp3",
+        "-vn",
+        "-ac",
+        "1",
+        "-ar",
+        "8000",
+        "-f",
+        "f32le",
+        "-"
+      ],
+      "decodedDurationSeconds": 215.5,
+      "queryComparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 121.638875,
+          "referenceEndSeconds": 144.738875,
+          "maxAbsoluteWaveformCorrelation": 0.02477810762083989,
+          "signedWaveformCorrelation": 0.02477810762083989
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 106.564625,
+          "referenceEndSeconds": 121.46462500000001,
+          "maxAbsoluteWaveformCorrelation": 0.03964873245875502,
+          "signedWaveformCorrelation": -0.03964873245875502
+        }
+      ]
+    },
+    {
+      "title": "Minecraft",
+      "artist": "C418",
+      "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/minecraft",
+      "trackId": 1691975503,
+      "streamURL": "https://t4.bcbits.com/stream/cd40124529ee79cb822378cf03f75550/mp3-128/1691975503?p=0&ts=1791909398&t=fd5c4332fa09bd209ab9b968f4316caeaad4149b&token=1791909398_6a3dcd0140fdf554d6d8f60d77ef399b25c13af4",
+      "httpStatus": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "4183864",
+        "content-type": "audio/mpeg",
+        "cache-control": "max-age=31536000",
+        "last-modified": "Tue, 08 Jul 2014 04:00:57 GMT",
+        "x-robots-tag": "noindex",
+        "Via": "1.1 varnish, 1.1 varnish",
+        "Accept-Ranges": "bytes",
+        "Age": "1053795",
+        "Date": "Mon, 12 Oct 2026 16:37:51 GMT",
+        "X-Served-By": "cache-chi-kmdw8640085-CHI, cache-bfi-krnt7300111-BFI",
+        "X-Cache": "HIT, HIT",
+        "X-Cache-Hits": "365, 0",
+        "X-Timer": "S1791823072.530582,VS0,VE87",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "retrievedAt": "2026-10-12T16:37:54.111037+00:00",
+      "path": "qa/artesian-music/references/minecraft.mp3",
+      "sha256": "f40609c75df83de1e3648d00acc79d2c263905044a26d173fd98202401594700",
+      "decodeCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/minecraft.mp3",
+        "-vn",
+        "-ac",
+        "1",
+        "-ar",
+        "8000",
+        "-f",
+        "f32le",
+        "-"
+      ],
+      "decodedDurationSeconds": 254.0,
+      "queryComparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 16.320125,
+          "referenceEndSeconds": 39.420125,
+          "maxAbsoluteWaveformCorrelation": 0.15065224185193357,
+          "signedWaveformCorrelation": 0.15065224185193357
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 39.420125,
+          "referenceEndSeconds": 54.320125,
+          "maxAbsoluteWaveformCorrelation": 0.28888458247856014,
+          "signedWaveformCorrelation": 0.28888458247856014
+        }
+      ]
+    },
+    {
+      "title": "Clark",
+      "artist": "C418",
+      "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/clark",
+      "trackId": 3353184611,
+      "streamURL": "https://t4.bcbits.com/stream/1c5c5f0324cb277817fabe2407d2e248/mp3-128/3353184611?p=0&ts=1791909398&t=477594acc1ed786fdaa11bb94c5f2ae171cd68e6&token=1791909398_a0bcb39fec8d8a034bfed81aa566f39785333cd0",
+      "httpStatus": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "3132571",
+        "content-type": "audio/mpeg",
+        "cache-control": "max-age=31536000",
+        "last-modified": "Sat, 16 Jul 2016 14:12:15 GMT",
+        "x-robots-tag": "noindex",
+        "Via": "1.1 varnish, 1.1 varnish",
+        "Accept-Ranges": "bytes",
+        "Age": "236532",
+        "Date": "Mon, 12 Oct 2026 16:37:53 GMT",
+        "X-Served-By": "cache-chi-klot8100142-CHI, cache-bfi-krnt7300098-BFI",
+        "X-Cache": "HIT, MISS",
+        "X-Cache-Hits": "68, 0",
+        "X-Timer": "S1791823074.606478,VS0,VE60",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "retrievedAt": "2026-10-12T16:37:55.518232+00:00",
+      "path": "qa/artesian-music/references/clark.mp3",
+      "sha256": "28e01e14d2d823c3f0a9f57fa4b6d5dc1e4aa8537d23ab55643f0f8a177c5aec",
+      "decodeCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/clark.mp3",
+        "-vn",
+        "-ac",
+        "1",
+        "-ar",
+        "8000",
+        "-f",
+        "f32le",
+        "-"
+      ],
+      "decodedDurationSeconds": 191.75,
+      "queryComparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 124.31425,
+          "referenceEndSeconds": 147.41425,
+          "maxAbsoluteWaveformCorrelation": 0.03698425050887145,
+          "signedWaveformCorrelation": -0.03698425050887145
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 147.59875,
+          "referenceEndSeconds": 162.49875,
+          "maxAbsoluteWaveformCorrelation": 0.04908483933848805,
+          "signedWaveformCorrelation": 0.04908483933848805
+        }
+      ]
+    },
+    {
+      "title": "Mice on Venus",
+      "artist": "C418",
+      "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/mice-on-venus",
+      "trackId": 1757138908,
+      "streamURL": "https://t4.bcbits.com/stream/635d0a0acd16feeeeec92b8ec9a5b66c/mp3-128/1757138908?p=0&ts=1791909398&t=ebfc5a37f18d0812a891e32f5d9b9516b54de72f&token=1791909398_7c2f855bcc04ceac6b994e039d8a8e0d1f18e6f3",
+      "httpStatus": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "4624999",
+        "content-type": "audio/mpeg",
+        "cache-control": "max-age=31536000",
+        "last-modified": "Thu, 23 Jul 2015 00:52:29 GMT",
+        "x-robots-tag": "noindex",
+        "Via": "1.1 varnish, 1.1 varnish",
+        "Accept-Ranges": "bytes",
+        "Age": "1576277",
+        "Date": "Mon, 12 Oct 2026 16:37:54 GMT",
+        "X-Served-By": "cache-chi-kmdw8640064-CHI, cache-bfi-krnt7300069-BFI",
+        "X-Cache": "HIT, HIT",
+        "X-Cache-Hits": "484, 0",
+        "X-Timer": "S1791823075.918824,VS0,VE2",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "retrievedAt": "2026-10-12T16:37:57.802839+00:00",
+      "path": "qa/artesian-music/references/mice-on-venus.mp3",
+      "sha256": "32d857aa90cc74550d46069130789146c745b3cd7846f5717457a5f150b9f9ec",
+      "decodeCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/mice-on-venus.mp3",
+        "-vn",
+        "-ac",
+        "1",
+        "-ar",
+        "8000",
+        "-f",
+        "f32le",
+        "-"
+      ],
+      "decodedDurationSeconds": 281.5,
+      "queryComparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 44.352,
+          "referenceEndSeconds": 67.452,
+          "maxAbsoluteWaveformCorrelation": 0.033268579731438264,
+          "signedWaveformCorrelation": 0.033268579731438264
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 45.99225,
+          "referenceEndSeconds": 60.89225,
+          "maxAbsoluteWaveformCorrelation": 0.04907707316814943,
+          "signedWaveformCorrelation": 0.04907707316814943
+        }
+      ]
+    },
+    {
+      "title": "Subwoofer Lullaby",
+      "artist": "C418",
+      "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/subwoofer-lullaby",
+      "trackId": 3682947588,
+      "streamURL": "https://t4.bcbits.com/stream/884aa652510a6f2ba2aca00e1980ee90/mp3-128/3682947588?p=0&ts=1791909398&t=c8bcfd2c9367543e096a43f9372f40a42a5dc848&token=1791909398_3fad4e456433854adc394439f9764d6d59828a1b",
+      "httpStatus": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "3457033",
+        "content-type": "audio/mpeg",
+        "cache-control": "max-age=31536000",
+        "last-modified": "Tue, 29 Jul 2014 13:16:18 GMT",
+        "x-robots-tag": "noindex",
+        "Via": "1.1 varnish, 1.1 varnish",
+        "Accept-Ranges": "bytes",
+        "Age": "393692",
+        "Date": "Mon, 12 Oct 2026 16:37:57 GMT",
+        "X-Served-By": "cache-chi-kigq8000068-CHI, cache-bfi-krnt7300113-BFI",
+        "X-Cache": "HIT, HIT",
+        "X-Cache-Hits": "47, 0",
+        "X-Timer": "S1791823077.016785,VS0,VE4",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "retrievedAt": "2026-10-12T16:37:59.389100+00:00",
+      "path": "qa/artesian-music/references/subwoofer-lullaby.mp3",
+      "sha256": "f6e162def2f0557898fcf8de15bf878a0a8aaacab04696d739c6272257ad1f1b",
+      "decodeCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/subwoofer-lullaby.mp3",
+        "-vn",
+        "-ac",
+        "1",
+        "-ar",
+        "8000",
+        "-f",
+        "f32le",
+        "-"
+      ],
+      "decodedDurationSeconds": 208.5625,
+      "queryComparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 23.2515,
+          "referenceEndSeconds": 46.3515,
+          "maxAbsoluteWaveformCorrelation": 0.05047870585506357,
+          "signedWaveformCorrelation": -0.05047870585506357
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 23.08475,
+          "referenceEndSeconds": 37.98475,
+          "maxAbsoluteWaveformCorrelation": 0.055886865251069666,
+          "signedWaveformCorrelation": 0.055886865251069666
+        }
+      ]
+    },
+    {
+      "title": "Living Mice",
+      "artist": "C418",
+      "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/living-mice",
+      "trackId": 2964017241,
+      "streamURL": "https://t4.bcbits.com/stream/82bfb274adb02cd616d8b6794ab7a4e4/mp3-128/2964017241?p=0&ts=1791909398&t=4a3d49a31b075b9448ec21fb0d7f940b5a310073&token=1791909398_059b6d9fed99a9e36db06d092ceba18bc019c2e0",
+      "httpStatus": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "2904365",
+        "content-type": "audio/mpeg",
+        "cache-control": "max-age=31536000",
+        "last-modified": "Fri, 15 Jul 2016 15:52:57 GMT",
+        "x-robots-tag": "noindex",
+        "Via": "1.1 varnish, 1.1 varnish",
+        "Accept-Ranges": "bytes",
+        "Age": "49738",
+        "Date": "Mon, 12 Oct 2026 16:37:58 GMT",
+        "X-Served-By": "cache-chi-klot8100162-CHI, cache-bfi-krnt7300101-BFI",
+        "X-Cache": "MISS, HIT",
+        "X-Cache-Hits": "0, 0",
+        "X-Timer": "S1791823078.467380,VS0,VE1",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "retrievedAt": "2026-10-12T16:38:00.756264+00:00",
+      "path": "qa/artesian-music/references/living-mice.mp3",
+      "sha256": "cc0e7f47f88c10db1b3220b3a8be35bb767a061ca763e1f86f361e6f9b9b86b1",
+      "decodeCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/living-mice.mp3",
+        "-vn",
+        "-ac",
+        "1",
+        "-ar",
+        "8000",
+        "-f",
+        "f32le",
+        "-"
+      ],
+      "decodedDurationSeconds": 177.5,
+      "queryComparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 62.890375,
+          "referenceEndSeconds": 85.990375,
+          "maxAbsoluteWaveformCorrelation": 0.04361234369083009,
+          "signedWaveformCorrelation": -0.04361234369083009
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 144.758125,
+          "referenceEndSeconds": 159.658125,
+          "maxAbsoluteWaveformCorrelation": 0.04389450361821046,
+          "signedWaveformCorrelation": -0.04389450361821046
+        }
+      ]
+    },
+    {
+      "title": "Haggstrom",
+      "artist": "C418",
+      "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/haggstrom",
+      "trackId": 1150244227,
+      "streamURL": "https://t4.bcbits.com/stream/dce29d7ff3422dd63c7514de92a8389a/mp3-128/1150244227?p=0&ts=1791909398&t=fce234c8598565de7f05ce57ed254aefce4379db&token=1791909398_a2f54a6c3c402ab1141db270e14ee6585f006000",
+      "httpStatus": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "3328594",
+        "content-type": "audio/mpeg",
+        "cache-control": "max-age=31536000",
+        "last-modified": "Sat, 16 Jul 2016 14:11:53 GMT",
+        "x-robots-tag": "noindex",
+        "Via": "1.1 varnish, 1.1 varnish",
+        "Accept-Ranges": "bytes",
+        "Age": "354883",
+        "Date": "Mon, 12 Oct 2026 16:37:59 GMT",
+        "X-Served-By": "cache-chi-klot8100158-CHI, cache-bfi-krnt7300042-BFI",
+        "X-Cache": "HIT, HIT",
+        "X-Cache-Hits": "120, 0",
+        "X-Timer": "S1791823080.710984,VS0,VE2",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "retrievedAt": "2026-10-12T16:38:02.263427+00:00",
+      "path": "qa/artesian-music/references/haggstrom.mp3",
+      "sha256": "1d19d49263bd422338a644dd092998fb82014c2d95fccc7511631d78a3449f57",
+      "decodeCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/haggstrom.mp3",
+        "-vn",
+        "-ac",
+        "1",
+        "-ar",
+        "8000",
+        "-f",
+        "f32le",
+        "-"
+      ],
+      "decodedDurationSeconds": 204.0,
+      "queryComparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 33.218625,
+          "referenceEndSeconds": 56.318625000000004,
+          "maxAbsoluteWaveformCorrelation": 0.03424405178493418,
+          "signedWaveformCorrelation": -0.03424405178493418
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 29.369625,
+          "referenceEndSeconds": 44.269625,
+          "maxAbsoluteWaveformCorrelation": 0.0333352629180145,
+          "signedWaveformCorrelation": 0.0333352629180145
+        }
+      ]
+    },
+    {
+      "title": "Danny",
+      "artist": "C418",
+      "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/danny",
+      "trackId": 2267453503,
+      "streamURL": "https://t4.bcbits.com/stream/d05eba6398d97fa214eb0d9809076230/mp3-128/2267453503?p=0&ts=1791909398&t=75eff76d1666d115a4c2fc6203c90624006fd8b8&token=1791909398_7bc2dd3f33bf501a537cae2688e8812201890423",
+      "httpStatus": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "4136509",
+        "content-type": "audio/mpeg",
+        "cache-control": "max-age=31536000",
+        "last-modified": "Tue, 16 Feb 2016 16:16:54 GMT",
+        "x-robots-tag": "noindex",
+        "Via": "1.1 varnish, 1.1 varnish",
+        "Accept-Ranges": "bytes",
+        "Age": "1594528",
+        "Date": "Mon, 12 Oct 2026 16:38:01 GMT",
+        "X-Served-By": "cache-chi-kigq8000068-CHI, cache-bfi-krnt7300062-BFI",
+        "X-Cache": "HIT, HIT",
+        "X-Cache-Hits": "347, 0",
+        "X-Timer": "S1791823081.105407,VS0,VE1",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "retrievedAt": "2026-10-12T16:38:04.462122+00:00",
+      "path": "qa/artesian-music/references/danny.mp3",
+      "sha256": "3613bb1119208ceac9ca624637bae70e018530f0d428cce2f3da90a92336bae1",
+      "decodeCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/danny.mp3",
+        "-vn",
+        "-ac",
+        "1",
+        "-ar",
+        "8000",
+        "-f",
+        "f32le",
+        "-"
+      ],
+      "decodedDurationSeconds": 254.5,
+      "queryComparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 81.024125,
+          "referenceEndSeconds": 104.12412499999999,
+          "maxAbsoluteWaveformCorrelation": 0.043540475546669295,
+          "signedWaveformCorrelation": -0.043540475546669295
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 132.283125,
+          "referenceEndSeconds": 147.18312500000002,
+          "maxAbsoluteWaveformCorrelation": 0.06309998568862955,
+          "signedWaveformCorrelation": 0.06309998568862955
+        }
+      ]
+    },
+    {
+      "title": "Key",
+      "artist": "C418",
+      "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/key",
+      "trackId": 1660675500,
+      "streamURL": "https://t4.bcbits.com/stream/e606cae91814a4e7190f639ecc6240b6/mp3-128/1660675500?p=0&ts=1791909398&t=091d1622c0f8c0640b5fc2ab042942e754412360&token=1791909398_b3499415103389883855d0cbdebd30f311838cb5",
+      "httpStatus": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "1159929",
+        "content-type": "audio/mpeg",
+        "cache-control": "max-age=31536000",
+        "last-modified": "Sat, 12 Jul 2014 05:02:05 GMT",
+        "x-robots-tag": "noindex",
+        "Via": "1.1 varnish, 1.1 varnish",
+        "Accept-Ranges": "bytes",
+        "Age": "1563180",
+        "Date": "Mon, 12 Oct 2026 16:38:03 GMT",
+        "X-Served-By": "cache-chi-klot8100160-CHI, cache-bfi-krnt7300054-BFI",
+        "X-Cache": "HIT, HIT",
+        "X-Cache-Hits": "902, 0",
+        "X-Timer": "S1791823083.109012,VS0,VE5",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "retrievedAt": "2026-10-12T16:38:05.054632+00:00",
+      "path": "qa/artesian-music/references/key.mp3",
+      "sha256": "636709e713729fb7beeed4009d6251995cea0b693bc5ed0c29a42170ab82102d",
+      "decodeCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/key.mp3",
+        "-vn",
+        "-ac",
+        "1",
+        "-ar",
+        "8000",
+        "-f",
+        "f32le",
+        "-"
+      ],
+      "decodedDurationSeconds": 65.0,
+      "queryComparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 5.277625,
+          "referenceEndSeconds": 28.377625000000002,
+          "maxAbsoluteWaveformCorrelation": 0.015607837730955495,
+          "signedWaveformCorrelation": 0.015607837730955495
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 4.26325,
+          "referenceEndSeconds": 19.16325,
+          "maxAbsoluteWaveformCorrelation": 0.022712352776724603,
+          "signedWaveformCorrelation": -0.022712352776724603
+        }
+      ]
+    },
+    {
+      "title": "Oxygène",
+      "artist": "C418",
+      "primaryAlbumURL": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+      "primaryTrackURL": "https://c418.bandcamp.com/track/oxyg-ne",
+      "trackId": 189485533,
+      "streamURL": "https://t4.bcbits.com/stream/779da4ed90c49a59adeb798a8773db83/mp3-128/189485533?p=0&ts=1791909398&t=d5e1840301ad20e7a10cea9a662d4f03e31ca7f7&token=1791909398_eb3232c4250f1956119489e90fdceef7b5c08213",
+      "httpStatus": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "1106723",
+        "content-type": "audio/mpeg",
+        "cache-control": "max-age=31536000",
+        "last-modified": "Sat, 16 Jul 2016 14:12:01 GMT",
+        "x-robots-tag": "noindex",
+        "Via": "1.1 varnish, 1.1 varnish",
+        "Accept-Ranges": "bytes",
+        "Age": "740142",
+        "Date": "Mon, 12 Oct 2026 16:38:03 GMT",
+        "X-Served-By": "cache-chi-kmdw8640064-CHI, cache-bfi-krnt7300058-BFI",
+        "X-Cache": "HIT, HIT",
+        "X-Cache-Hits": "199, 0",
+        "X-Timer": "S1791823084.669160,VS0,VE2",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "retrievedAt": "2026-10-12T16:38:05.669478+00:00",
+      "path": "qa/artesian-music/references/oxyg-ne.mp3",
+      "sha256": "6113d06287cd30ef350aba28a9334e8ac1303d6603a9088339292b9f58fb2faf",
+      "decodeCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/qa/artesian-music/references/oxyg-ne.mp3",
+        "-vn",
+        "-ac",
+        "1",
+        "-ar",
+        "8000",
+        "-f",
+        "f32le",
+        "-"
+      ],
+      "decodedDurationSeconds": 65.125,
+      "queryComparisons": [
+        {
+          "sourceWindowSeconds": [
+            99,
+            122.1
+          ],
+          "referenceStartSeconds": 11.054625,
+          "referenceEndSeconds": 34.154625,
+          "maxAbsoluteWaveformCorrelation": 0.019645833778802368,
+          "signedWaveformCorrelation": 0.019645833778802368
+        },
+        {
+          "sourceWindowSeconds": [
+            122.1,
+            137
+          ],
+          "referenceStartSeconds": 14.49475,
+          "referenceEndSeconds": 29.394750000000002,
+          "maxAbsoluteWaveformCorrelation": 0.029829497200210317,
+          "signedWaveformCorrelation": 0.029829497200210317
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "signature": "{\"version\":1,\"source\":{\"path\":\"videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv\",\"size\":1101248,\"mtimeMs\":1791766570701.3237},\"originals\":[0,5.005,10.01,15.015,20.02,25.025,30.03,35.002,40.007],\"hwaccel\":\"cuda\",\"mode\":{\"path\":\"/tmp/qaef/Vln5Ri4Zpgo.txt\",\"width\":320,\"threshold\":0.1,\"complete\":true,\"normalized\":false,\"size\":0,\"mtimeMs\":1791768333856.2844}}",
+  "nextSeconds": 41.288,
+  "complete": true,
+  "cuts": [],
+  "provenance": {
+    "kind": "reused-full-source-log",
+    "path": "/tmp/qaef/Vln5Ri4Zpgo.txt",
+    "width": 320,
+    "threshold": 0.1,
+    "complete": true,
+    "normalized": false,
+    "origin": 0,
+    "limitations": [
+      "Scores computed at a different width; .15 equivalence to 240px is not guaranteed."
+    ],
+    "effectiveAnalysisThreshold": 0.15,
+    "candidateDecoder": "cuda"
+  }
+}

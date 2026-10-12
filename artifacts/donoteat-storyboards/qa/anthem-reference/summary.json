@@ -1,0 +1,128 @@
+{
+  "reference": {
+    "url": "https://www.youtube.com/watch?v=UctriMuXYS0",
+    "wavSha256": "0cad0b6364986b9ed7497ee4978d69e3fafb73b2ea2a72ec1dc293ae9603b267",
+    "downloadSha256": "c6f8f15bbdb845dab974b3c51847bea64065310cb2a9146e97d4f1776f82544a"
+  },
+  "sources": {
+    "8LysiXf-DJU": {
+      "path": "/home/pedro/src/tmp-donoteat/qa/audio-llm/sources/8LysiXf-DJU.wav",
+      "sha256": "a938da69ecb84e40b66aa0eec6b4f2ec05ee0a98e5254743e9f4b731009b2154"
+    },
+    "LdeirDrinWk": {
+      "path": "/home/pedro/src/tmp-donoteat/qa/audio-llm/sources/LdeirDrinWk.wav",
+      "sha256": "5c86c6f441a7850db1e5a7705521d37d677571a33f06168c902d898fdb36e452"
+    }
+  },
+  "controls": {
+    "known_reference_25_43": {
+      "spectral": {
+        "frame": 2500,
+        "referenceSeconds": 25.0,
+        "score": 0.9999999403953552
+      },
+      "waveform": {
+        "referenceSeconds": 25.0,
+        "signedCorrelation": 1.000000083074114
+      }
+    },
+    "reversed_reference_excerpt": {
+      "spectral": {
+        "frame": 3503,
+        "referenceSeconds": 35.03,
+        "score": 0.3884279727935791
+      },
+      "waveform": {
+        "referenceSeconds": 29.7073125,
+        "signedCorrelation": 0.04631804699567081
+      }
+    },
+    "unrelated_source_8L_100_118": {
+      "spectral": {
+        "frame": 4747,
+        "referenceSeconds": 47.47,
+        "score": 0.23483489453792572
+      },
+      "waveform": {
+        "referenceSeconds": 34.1699375,
+        "signedCorrelation": -0.024550810631750738
+      }
+    },
+    "unrelated_source_Lde_100_118": {
+      "spectral": {
+        "frame": 3683,
+        "referenceSeconds": 36.83,
+        "score": 0.24797967076301575
+      },
+      "waveform": {
+        "referenceSeconds": 37.6569375,
+        "signedCorrelation": 0.0249246686535858
+      }
+    },
+    "SYNTHETIC_QA_interference_rms1": {
+      "spectral": {
+        "frame": 2500,
+        "referenceSeconds": 25.0,
+        "score": 0.8374233841896057
+      },
+      "waveform": {
+        "referenceSeconds": 25.0,
+        "signedCorrelation": 0.7073284025040623
+      }
+    },
+    "SYNTHETIC_QA_interference_rms3": {
+      "spectral": {
+        "frame": 2500,
+        "referenceSeconds": 25.0,
+        "score": 0.7009944319725037
+      },
+      "waveform": {
+        "referenceSeconds": 25.0,
+        "signedCorrelation": 0.31676294671097033
+      }
+    },
+    "SYNTHETIC_QA_interference_rms10": {
+      "spectral": {
+        "frame": 2500,
+        "referenceSeconds": 25.0,
+        "score": 0.5748951435089111
+      },
+      "waveform": {
+        "referenceSeconds": 25.0,
+        "signedCorrelation": 0.10012132332861562
+      }
+    }
+  },
+  "targets": {
+    "8LysiXf-DJU": {
+      "sourceInterval": [
+        47.5,
+        65.5
+      ],
+      "spectral": {
+        "frame": 1168,
+        "referenceSeconds": 11.68,
+        "score": 0.4363107979297638
+      },
+      "waveform": {
+        "referenceSeconds": 11.67925,
+        "signedCorrelation": 0.14584047353877783
+      }
+    },
+    "LdeirDrinWk": {
+      "sourceInterval": [
+        1200.5,
+        1218.5
+      ],
+      "spectral": {
+        "frame": 1297,
+        "referenceSeconds": 12.97,
+        "score": 0.6928887367248535
+      },
+      "waveform": {
+        "referenceSeconds": 12.9688125,
+        "signedCorrelation": 0.6087710986750893
+      }
+    }
+  }
+}

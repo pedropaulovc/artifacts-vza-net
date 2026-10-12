@@ -1,0 +1,2303 @@
+{
+  "id": "6e-vfEif9LI",
+  "title": "Cities Skylines | Franklin, Episode 4: Revolution",
+  "requests": [
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 0,
+      "sampleEndSeconds": 20.0,
+      "requestedEndSeconds": 20,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/0.000-20.000.wav",
+      "sha256": "1762c31f038b5d559cfeb9743bc6b05ee5dc421764f9ce6b65c1cc366a056de7",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "0",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/0.000-20.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:04:34.726289+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 0,
+        "sourceEndSeconds": 12.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777875986,
+        "timezone": "Europe/Moscow",
+        "tagid": "7D32565E-DCE3-469A-B39D-F6EC68F9146A"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/C78B6872-32D9-4958-ACD5-8BA79D3F9521/7D32565E-DCE3-469A-B39D-F6EC68F9146A?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:04:38 GMT",
+          "X-Forensic-Id": "e3b0ec85-8ce4-499b-95af-05cb8e7070a9",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777875986,\"timezone\":\"Europe/Moscow\",\"tagid\":\"7D32565E-DCE3-469A-B39D-F6EC68F9146A\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 20,
+      "sampleEndSeconds": 40.0,
+      "requestedEndSeconds": 40,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/20.000-40.000.wav",
+      "sha256": "e5135441036620890e966bd06f21b353a4a7c83d4ac0283bd909a78ff7063475",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "20",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/20.000-40.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:04:40.840665+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 20,
+        "sourceEndSeconds": 32.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777882246,
+        "timezone": "Europe/Moscow",
+        "tagid": "AB56FEF4-6B11-473B-AE26-BA8DB122E473"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/C49CA8FA-10D7-48F7-A745-A118100535DE/AB56FEF4-6B11-473B-AE26-BA8DB122E473?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:04:44 GMT",
+          "X-Forensic-Id": "f666e265-c54a-4f33-adc8-ef8676143063",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777882246,\"timezone\":\"Europe/Moscow\",\"tagid\":\"AB56FEF4-6B11-473B-AE26-BA8DB122E473\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 40,
+      "sampleEndSeconds": 60.0,
+      "requestedEndSeconds": 60,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/40.000-60.000.wav",
+      "sha256": "8e307a3545a17ad5ce79cd7165f85b17f064b4d804a8008bce1aaac2cbc1ed56",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "40",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/40.000-60.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:04:44.916811+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 40,
+        "sourceEndSeconds": 52.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777886226,
+        "timezone": "Europe/Moscow",
+        "tagid": "F4B5BF22-13FD-4AD3-8B5F-B850D50B5167"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/DDE015D9-5E49-4157-953E-6DFF2C12288B/F4B5BF22-13FD-4AD3-8B5F-B850D50B5167?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:04:49 GMT",
+          "X-Forensic-Id": "a795ce82-7ed4-4fee-ad64-b25cb30a8849",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777886226,\"timezone\":\"Europe/Moscow\",\"tagid\":\"F4B5BF22-13FD-4AD3-8B5F-B850D50B5167\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 120,
+      "sampleEndSeconds": 140.0,
+      "requestedEndSeconds": 140,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/120.000-140.000.wav",
+      "sha256": "6b4f5d4181cbb810f3f98d2fb646a8aa2c372d2bfdba192e8ad9186cadd8ac73",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "120",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/120.000-140.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:04:50.929253+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 120,
+        "sourceEndSeconds": 132.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "574462009",
+            "offset": 8.43162207,
+            "timeskew": 5.7816505e-05,
+            "frequencyskew": 0.0
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777892278,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "71188704",
+          "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+          "subtitle": "Passionata Symphony Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "joecolor": "b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/71188704"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro - Passionata Symphony Orchestra",
+            "text": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra",
+            "href": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/71188704?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/71188704"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1280339543"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/ad/5f/bfad5fd9-4f49-790b-1aa3-f5d5c43e3c77/mzaf_14470575942373263264.plus.aac.ep.m4a"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                  "caption": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+                },
+                {
+                  "title": "Label",
+                  "text": "Maestro Music Distribution"
+                },
+                {
+                  "title": "Released",
+                  "text": "2012"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+          "artists": [
+            {
+              "alias": "passionata-symphony-orchestra",
+              "id": "42",
+              "adamid": "1280339537"
+            }
+          ],
+          "alias": "symphony-no-5-in-c-minor-op-67-iv-allegro",
+          "genres": {
+            "primary": "Orchestral"
+          },
+          "urlparams": {
+            "{tracktitle}": "Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro",
+            "{trackartist}": "Passionata+Symphony+Orchestra"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1280338802",
+          "trackadamid": "1280339543",
+          "releasedate": "15-05-2012",
+          "isrc": "DELJ81754945"
+        },
+        "tagid": "36037E92-D14A-4D18-AC0E-F055BE34D524"
+      },
+      "status": "match",
+      "match": {
+        "key": "71188704",
+        "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+        "artist": "Passionata Symphony Orchestra",
+        "serviceURL": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg",
+                "caption": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67"
+              },
+              {
+                "title": "Label",
+                "text": "Maestro Music Distribution"
+              },
+              {
+                "title": "Released",
+                "text": "2012"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/413044D9-B15B-4F44-8B25-817F8C2B25BF/36037E92-D14A-4D18-AC0E-F055BE34D524?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:04:55 GMT",
+          "X-Forensic-Id": "b7dd9cdb-ef5b-460c-bd26-4eff6c683d3f",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"574462009\",\"offset\":8.43162207,\"timeskew\":5.7816505E-5,\"frequencyskew\":0.0}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777892278,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"71188704\",\"title\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\",\"subtitle\":\"Passionata Symphony Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"joecolor\":\"b:69380cp:f0e1a0s:e4d096t:d5bf83q:cbb17b\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/71188704\"}]},\"share\":{\"subject\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro - Passionata Symphony Orchestra\",\"text\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra\",\"href\":\"https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Symphony No. 5 In C Minor, Op. 67: IV. Allegro by Passionata Symphony Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/71188704?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/71188704\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1280339543\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/ad/5f/bfad5fd9-4f49-790b-1aa3-f5d5c43e3c77/mzaf_14470575942373263264.plus.aac.ep.m4a\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/symphony-no-5-in-c-minor-op-67-iv-allegro/1280338802?i=1280339543&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/8e/84/f28e84ce-6f90-f4ed-f236-8c09624a344b/cover_4050215296862.jpg/400x400cc.jpg\",\"caption\":\"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Ludwig Van Beethoven: Symphony No. 5 In C Minor, Op. 67\"},{\"title\":\"Label\",\"text\":\"Maestro Music Distribution\"},{\"title\":\"Released\",\"text\":\"2012\"}]}],\"url\":\"https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro\",\"artists\":[{\"alias\":\"passionata-symphony-orchestra\",\"id\":\"42\",\"adamid\":\"1280339537\"}],\"alias\":\"symphony-no-5-in-c-minor-op-67-iv-allegro\",\"genres\":{\"primary\":\"Orchestral\"},\"urlparams\":{\"{tracktitle}\":\"Symphony+No.+5+In+C+Minor%2C+Op.+67%3A+IV.+Allegro\",\"{trackartist}\":\"Passionata+Symphony+Orchestra\"},\"highlightsurls\":{},\"albumadamid\":\"1280338802\",\"trackadamid\":\"1280339543\",\"releasedate\":\"15-05-2012\",\"isrc\":\"DELJ81754945\"},\"tagid\":\"36037E92-D14A-4D18-AC0E-F055BE34D524\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 240,
+      "sampleEndSeconds": 260.0,
+      "requestedEndSeconds": 260,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/240.000-260.000.wav",
+      "sha256": "b05f8727aa4baa1f26a7ecccf86a857059b75c6ec9cfe5208e42c26aad636996",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "240",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/240.000-260.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:04:56.910915+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,gCX+yoKDOdP4CAAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAD9AgAAAHwAAAAAQPgIAABAAANgJwEAACgle+gIAFh6qA0iG3fsDwStc3ILL6p2Rgoe7YD3CgPVg6YOG8R/AgpEUXfaCQBUdEMQBBtwugwVDXVUCyHub1cMAZpxXgkRF2/KDQMNeEgKKSlqkA8a6XnGDQbzfRAKaa12ywoPLXPQDSbrbD4IHZRmcQ4KHHUFCjaVcMgJA1Ns+g8oBIGbCgnSffoJBUd7tgwLWnhAC1JAbGINBIV4BwoQyWxzDAK5b7gPLYNstQgA3XFyDgOzcJYLCKZ1Jg0CKHfQCQHSdGwQVARHGQpVmGMICTcQcsEJBnhxewwHmHBACgjddcMPNE94YQgAAnOJDD5ddHYNA7V7RQousG/GCCpXeBgPAQl15woQc3OKCQLjdpMMCoJ2hAszjXyXCgO7e4UOELN+0w0AQQADYDUCAAAJvGp9EwAcSQccAHJIHycAjVENLAFpRSAjRWN7BhMBVU9YHgCIUw4iAsRHkyVKom7xFQgXVikaAPBbtB0BhHc5EgJYVYEhAw9SlCQx8HWKEgdnYQwnB8V3KhQAxmpsIgzUeywTDJRj7ixIVHN8EQWdeL8UAVpwNhgAK1v3HgC9cLIsAmZjVCIkzHd1EwAMZZgqAZFjtyIAgVzpJgHGau8WFCJWIhwBYWb6FAHua4IRH91Y0SQIP0hjLAPZdEkTBc5ijyMzPFTNLQHOTikgAWZMoBwAiEZYJwHHewUSAttVLxkJCVBCKwtUQtImRmFczSAA8V9sJAJRXtEcAD1eYygAoWTdKwHlbQgSB6ptcRQn2lgCIAmkUfQdBK9VgiEFRXUzEypfX5QRD7BZ9hIGb0ANJwLGPAIgWO513hAN+Vc1IS9ybskRAHdU9yYDVmGrIgNcXJMfBB9JCRgDj1ywIABQWl8kAipoEi6mb1rzIQH+Z4IVAzBXTR4CnUscLQJWWRMnBf1LOCwDQFiQJgEVY3sjATlRgR0BrG6VFC6dXAwfCxNemSQBlXewEgOnX3QsND1RlB0AnF73KgENVloZLpVWFRwDAXz+EgY9aGkjBbdhyCgBunfHEAClV4oeBMtZ9hcNX3/FEwNWdgEXBQVv8iwCq3V1FgFXa5spAqJj2Rw9d0gBHgJ9UxUtAqhOTyEEN1Q2GAKBdXESAR5NjR5LnmZ0FQC7UOAcAKdVSSEBt1MpGQGQdhYSAAAAQgADYHgFAAAKekjpSgNMRhszCDNLPWgDOU+wbAOMSIxfDWRTOzohmlK7OwCuWpRWBclMQ0gA/FkHVwDIS8NeAFRaLm4BsGQlNQC6UtI8AFpTkkAANk5hRAC7UvBLAM1SWmYBElyDTwJGXAwwIB1RwF8GK1bJYgDdUwdqOKRStDgLeFV6PwjwXDsvAbtYUTUCdlQ2OgRAXAdDA3dTe00CNlEVWgTjW0dsCelRI1cED1hOSQN1XPNiA4dRvGoOhVlLZgLZXGYwBDlg2DQAmVUVRQG8XYIxAJdXLDgAwFi6PgUHWR06M8xTTlQFk1ciUBFQYAZOBJRgjUsAH1EQXQAxVH9gAaBljzMAgF2OOgCXWPg9AMhdeUEAKGA8SABKVDlWAM9TjlkAZ1zrYwDNYVdnAC1oxWoAm200bgHsagowAA9a1UQHeF2ASgTHS25bAfdYSEQBNklvXgFTXKQ4GEZXNzIAfly6SRWrP0xcA/NLGVgePEsRVA5kVpBtAh46tEEAI1JzTzS1X/U1Ad9VETIBKmN2OQAYW9BoAStiFW8BDWgzPQCRXUVLAD5TOV0B9Vs6RAA7YulOAJlaPFYBZ2OpQAbXT+8uAMJgak8LIVjvNANwWgtVAWNlrjgAa12rPwBeVU1DAPBafVEBN2ZKPADzXsNYAV9bDVwKMlpPSACtXDBOBFJagmECuFi2SjUJY/IuA+lguTQECVQDWABEVVxbAHNWX2IAtFTIZQC0UDNpANxTnmwBomT2OQDWVuNKAJFYPU4B61BqUQAGUZFUDmhURUMkQVyaLgSLXD00AvVdgDcAFlLzSgFQVh1OAE5Rim4MGVCsVwBaQ1VeEQ9OSFsGck0sWAEPTbZUATtXgE0CAF63QgA5VnBpAS9dKz8BB1WNSQAiVsZsDgpa9TYHHle5MQX0Vhs1B6hLzEoBuU2GYQK6Si9XACZYom48o0w7ZwCIVrZuDmpP3i4A2ljdPwFmWEhXAQ1Ji2EAjUrgZAHgYRQ7AL9Qn1EBG1NgTgDbVUhUAeta7zYdzE6mVQC9TjFcAepLWWIBe0lpaAB5Sq5rAYJPr24TVULEZgB2Qh9tFSRaoTQB6VZEPQABQ/VKAOpCZGwCyFcuQAGiRaRfT0BAR04AMj9cUQC2Py5UAHw9Y1kAODaKYAEGNUBBAOA40WQAbDYZbQN/PVU4AWo6wTMGAjqxNwOHNlEyR4ZHlT8B8UBrMwGcQEg5A5ZMGkkBT1joawVSQ3o4ADBKSUEBWkBUNQC3Qj07CUY/LzYaLEatVQCkQepZAuJNcWIa8077PwA8S+lDAOtbOE0AbEPBXAGLSyQ8AGpayWgA3WK/bAHRXmgwAJRXQDQA7lFROADjTulYAP1S1mQZNkx0VhseShRNAJdPaVEBhGGmLwA0VXczAGFHmEQAMEj6SAEjUWpUEotOKmYBW1OKawKyTQxjAWhIzV8BxUZZXAPcUYpWIHVk9zII02XNMwTOWSg/BX5LAFUA31z+bgEPZzg0AH1bREsA6VmFTgCWUHJYASNg5zAAmVw6PgAGXotBAN9a8UcAlVKpWwBjXTliAHxkgGUA/V/sawEqX7REAN9jvmgIBk/UWQFbVfo8ABheM0AAMGNlQwADUAxNAPxjo2YBT1XSSQBGT0RQAM5QulYALmJ3YwGMTzhdM39XPGsCXmLbWA1VXDU1B/5iJjoCq16TTAJDZjBAAVRQglwBzVvVTwBxVzZpAftXekkB9GJQQwJKVrliAedXymUC3FjAaABVYcxuAohaOE4B6WCBQgE3WWhIO5FQKEsAME/NTgB8U89nAERWa2sBSEoNXQBtUwNkAYxayy4CZUUaQwLJSmxbBYhREzsAtkqaPgBIVe5WAfNZvTcAwFPIbw==",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 240,
+        "sourceEndSeconds": 252.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777898371,
+        "timezone": "Europe/Moscow",
+        "tagid": "861A50A4-19FA-41F7-97C0-7A501C67FBE5"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/B768FAD4-39F2-4F43-9442-5C6421450CB7/861A50A4-19FA-41F7-97C0-7A501C67FBE5?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:05:01 GMT",
+          "X-Forensic-Id": "49e1a027-5276-4eed-b7cb-d4a44ee1c9ad",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777898371,\"timezone\":\"Europe/Moscow\",\"tagid\":\"861A50A4-19FA-41F7-97C0-7A501C67FBE5\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 360,
+      "sampleEndSeconds": 380.0,
+      "requestedEndSeconds": 380,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/360.000-380.000.wav",
+      "sha256": "16c73c9d255f769c169d60fd3f6408c69f8927dcfb343e16742c9e486cf7fef1",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "360",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/360.000-380.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:05:02.941802+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 360,
+        "sourceEndSeconds": 372.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777904206,
+        "timezone": "Europe/Moscow",
+        "tagid": "D8063896-618A-4081-AAE0-6F735DC78054"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/F31C6B94-5AC7-4A52-ACA0-97B99238A1F9/D8063896-618A-4081-AAE0-6F735DC78054?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:05:06 GMT",
+          "X-Forensic-Id": "2265eee0-a0c9-49ea-a00c-ec73bac0a462",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777904206,\"timezone\":\"Europe/Moscow\",\"tagid\":\"D8063896-618A-4081-AAE0-6F735DC78054\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 480,
+      "sampleEndSeconds": 500.0,
+      "requestedEndSeconds": 500,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/480.000-500.000.wav",
+      "sha256": "c5a9a91e9ec961cfc8f380f631dd385e0a07b10f33f4703beb07a9e2b35de759",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "480",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/480.000-500.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:05:08.936801+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 480,
+        "sourceEndSeconds": 492.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777910172,
+        "timezone": "Europe/Moscow",
+        "tagid": "8D0DCAF6-6185-457F-B988-BC7F51A33174"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/5988B98A-0A8F-44F0-B2D6-D957A0151A23/8D0DCAF6-6185-457F-B988-BC7F51A33174?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:05:12 GMT",
+          "X-Forensic-Id": "7d3429bf-b428-41e6-a234-d29ad0c4404c",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777910172,\"timezone\":\"Europe/Moscow\",\"tagid\":\"8D0DCAF6-6185-457F-B988-BC7F51A33174\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 600,
+      "sampleEndSeconds": 620.0,
+      "requestedEndSeconds": 620,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/600.000-620.000.wav",
+      "sha256": "43465698f828f36e5b423059333ab8630d9d7b045665c4148a4a792ca33dc578",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "600",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/600.000-620.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:05:13.117282+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 600,
+        "sourceEndSeconds": 612.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777914419,
+        "timezone": "Europe/Moscow",
+        "tagid": "9600054A-98D3-44A1-AA2A-3EFDF6924AF9"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/5448770A-1220-4451-9037-AF9B9FA69E90/9600054A-98D3-44A1-AA2A-3EFDF6924AF9?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:05:18 GMT",
+          "X-Forensic-Id": "ec529b43-275e-4c0e-8bf0-ca2fb9141e7a",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777914419,\"timezone\":\"Europe/Moscow\",\"tagid\":\"9600054A-98D3-44A1-AA2A-3EFDF6924AF9\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 720,
+      "sampleEndSeconds": 740.0,
+      "requestedEndSeconds": 740,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/720.000-740.000.wav",
+      "sha256": "8b0ca90e759900ed2d79caa486132750b1135065d59647bb6aa2897ed893ffa0",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "720",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/720.000-740.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:05:19.279301+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 720,
+        "sourceEndSeconds": 732.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777921026,
+        "timezone": "Europe/Moscow",
+        "tagid": "98BA0AE3-C630-4D70-B45A-15BF37434D86"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/6215A802-1479-43D3-AB5E-C8AB8844168D/98BA0AE3-C630-4D70-B45A-15BF37434D86?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:05:23 GMT",
+          "X-Forensic-Id": "aedecf02-4f7b-40c9-82f5-1b9536a81a3c",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777921026,\"timezone\":\"Europe/Moscow\",\"tagid\":\"98BA0AE3-C630-4D70-B45A-15BF37434D86\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 840,
+      "sampleEndSeconds": 860.0,
+      "requestedEndSeconds": 860,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/840.000-860.000.wav",
+      "sha256": "313c7a56973bad45444f90cf94072935fa208506a489d70e07e8116980f3bf24",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "840",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/840.000-860.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:05:25.387866+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 840,
+        "sourceEndSeconds": 852.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777927734,
+        "timezone": "Europe/Moscow",
+        "tagid": "6DF67512-BA94-41A7-A99C-F538C3A7E554"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/B285F56C-FFA5-4BD0-9B1C-F8E19C8B6297/6DF67512-BA94-41A7-A99C-F538C3A7E554?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:05:29 GMT",
+          "X-Forensic-Id": "06cb9b01-78d6-4079-a270-b01221509cb4",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777927734,\"timezone\":\"Europe/Moscow\",\"tagid\":\"6DF67512-BA94-41A7-A99C-F538C3A7E554\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 960,
+      "sampleEndSeconds": 980.0,
+      "requestedEndSeconds": 980,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/960.000-980.000.wav",
+      "sha256": "31bd5d94683ce4af94429380a31319be08234b50f998c8b3075a940d9fac84cc",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "960",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/960.000-980.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:05:31.719764+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 960,
+        "sourceEndSeconds": 972.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "629566411",
+            "offset": 61.25125,
+            "timeskew": 3.4689903e-05,
+            "frequencyskew": 0.0
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777936666,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "308430397",
+          "title": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood",
+          "subtitle": "Vienna Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "joecolor": "b:0d0e0bp:e6eef4s:e0e2e4t:bac1c5q:b6b8b9"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/308430397"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood - Vienna Orchestra",
+            "text": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra",
+            "href": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/308430397?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/308430397"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1441605707"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/10/74/ef/1074efee-68d8-2f23-5b5e-46f2afcf3a9f/mzaf_18033846011463781383.plus.aac.ep.m4a"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+                  "caption": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Grieg: Peer Gynt Suite No. 1, Op. 46 - EP"
+                },
+                {
+                  "title": "Label",
+                  "text": "Vienna Orchestra"
+                },
+                {
+                  "title": "Released",
+                  "text": "2018"
+                }
+              ]
+            },
+            {
+              "type": "RELATED",
+              "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/web/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=",
+              "tabname": "Related"
+            }
+          ],
+          "url": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+          "artists": [
+            {
+              "alias": "vienna-orchestra",
+              "id": "42",
+              "adamid": "528293465"
+            }
+          ],
+          "alias": "peer-gynt-suite-no-1-op-46-i-morning-mood",
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood",
+            "{trackartist}": "Vienna+Orchestra"
+          },
+          "highlightsurls": {},
+          "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/web/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=",
+          "albumadamid": "1441605705",
+          "trackadamid": "1441605707",
+          "releasedate": "08-11-2018",
+          "isrc": "QZ22B2024018"
+        },
+        "tagid": "373BAC08-2143-4E9B-9394-5CD136BF5CB2"
+      },
+      "status": "match",
+      "match": {
+        "key": "308430397",
+        "title": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood",
+        "artist": "Vienna Orchestra",
+        "serviceURL": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+                "caption": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Grieg: Peer Gynt Suite No. 1, Op. 46 - EP"
+              },
+              {
+                "title": "Label",
+                "text": "Vienna Orchestra"
+              },
+              {
+                "title": "Released",
+                "text": "2018"
+              }
+            ]
+          },
+          {
+            "type": "RELATED",
+            "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/web/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=",
+            "tabname": "Related"
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/A171BD83-E36C-40FF-996F-D6DB460FDD5A/373BAC08-2143-4E9B-9394-5CD136BF5CB2?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:05:35 GMT",
+          "X-Forensic-Id": "0c14ab76-8198-4a0b-ba32-eeef31ba1ceb",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"629566411\",\"offset\":61.25125,\"timeskew\":3.4689903E-5,\"frequencyskew\":0.0}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777936666,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"308430397\",\"title\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood\",\"subtitle\":\"Vienna Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"joecolor\":\"b:0d0e0bp:e6eef4s:e0e2e4t:bac1c5q:b6b8b9\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/308430397\"}]},\"share\":{\"subject\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood - Vienna Orchestra\",\"text\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra\",\"href\":\"https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/308430397?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/308430397\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1441605707\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/10/74/ef/1074efee-68d8-2f23-5b5e-46f2afcf3a9f/mzaf_18033846011463781383.plus.aac.ep.m4a\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"caption\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Grieg: Peer Gynt Suite No. 1, Op. 46 - EP\"},{\"title\":\"Label\",\"text\":\"Vienna Orchestra\"},{\"title\":\"Released\",\"text\":\"2018\"}]},{\"type\":\"RELATED\",\"url\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/web/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=\",\"tabname\":\"Related\"}],\"url\":\"https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood\",\"artists\":[{\"alias\":\"vienna-orchestra\",\"id\":\"42\",\"adamid\":\"528293465\"}],\"alias\":\"peer-gynt-suite-no-1-op-46-i-morning-mood\",\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood\",\"{trackartist}\":\"Vienna+Orchestra\"},\"highlightsurls\":{},\"relatedtracksurl\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/web/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=\",\"albumadamid\":\"1441605705\",\"trackadamid\":\"1441605707\",\"releasedate\":\"08-11-2018\",\"isrc\":\"QZ22B2024018\"},\"tagid\":\"373BAC08-2143-4E9B-9394-5CD136BF5CB2\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 1080,
+      "sampleEndSeconds": 1100.0,
+      "requestedEndSeconds": 1100,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/1080.000-1100.000.wav",
+      "sha256": "19f89e2bbd56b53e31423bd7096d417afaea2425e9a601916a8d777a87123245",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1080",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/1080.000-1100.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:05:37.679278+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1080,
+        "sourceEndSeconds": 1092.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "629566411",
+            "offset": 181.25378125,
+            "timeskew": -0.00018125772,
+            "frequencyskew": -4.6014786e-05
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777938011,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "308430397",
+          "title": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood",
+          "subtitle": "Vienna Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "joecolor": "b:0d0e0bp:e6eef4s:e0e2e4t:bac1c5q:b6b8b9"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/308430397"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood - Vienna Orchestra",
+            "text": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra",
+            "href": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/308430397?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/308430397"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1441605707"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/10/74/ef/1074efee-68d8-2f23-5b5e-46f2afcf3a9f/mzaf_18033846011463781383.plus.aac.ep.m4a"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Peer%20Gynt%20Suite%20No.%201%2C%20Op.%2046%3A%20I.%20Morning%20Mood%20Vienna%20Orchestra"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in YouTube Music",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:youtubemusic:androiddeeplink",
+                    "type": "uri",
+                    "uri": "https://music.youtube.com/search?q=Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood+Vienna+Orchestra&feature=shazam"
+                  }
+                ],
+                "type": "YOUTUBEMUSIC"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood%27%20artist%3A%27Vienna+Orchestra%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "intent",
+                    "uri": "intent://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end"
+                  },
+                  {
+                    "name": "hub:applemusic:connect",
+                    "type": "applemusicconnect",
+                    "id": "1441605707",
+                    "uri": "https://unsupported.shazam.com"
+                  },
+                  {
+                    "name": "hub:applemusic:androidstore",
+                    "type": "uri",
+                    "uri": "https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+                  "caption": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Grieg: Peer Gynt Suite No. 1, Op. 46 - EP"
+                },
+                {
+                  "title": "Label",
+                  "text": "Vienna Orchestra"
+                },
+                {
+                  "title": "Released",
+                  "text": "2018"
+                }
+              ]
+            },
+            {
+              "type": "RELATED",
+              "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=",
+              "tabname": "Related"
+            }
+          ],
+          "url": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "528293465"
+            }
+          ],
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood",
+            "{trackartist}": "Vienna+Orchestra"
+          },
+          "highlightsurls": {},
+          "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=",
+          "albumadamid": "1441605705",
+          "isrc": "QZ22B2024018"
+        },
+        "tagid": "29DC28CB-5C1F-4857-A47D-5A5A5B7D4AD4"
+      },
+      "status": "match",
+      "match": {
+        "key": "308430397",
+        "title": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood",
+        "artist": "Vienna Orchestra",
+        "serviceURL": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+                "caption": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Grieg: Peer Gynt Suite No. 1, Op. 46 - EP"
+              },
+              {
+                "title": "Label",
+                "text": "Vienna Orchestra"
+              },
+              {
+                "title": "Released",
+                "text": "2018"
+              }
+            ]
+          },
+          {
+            "type": "RELATED",
+            "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=",
+            "tabname": "Related"
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/91459231-B371-4438-9588-CDA0EF108FA9/29DC28CB-5C1F-4857-A47D-5A5A5B7D4AD4?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:05:40 GMT",
+          "X-Forensic-Id": "3b73270f-f357-4981-97ea-9d4176dc6dfa",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"629566411\",\"offset\":181.25378125,\"timeskew\":-1.8125772E-4,\"frequencyskew\":-4.6014786E-5}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777938011,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"308430397\",\"title\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood\",\"subtitle\":\"Vienna Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"joecolor\":\"b:0d0e0bp:e6eef4s:e0e2e4t:bac1c5q:b6b8b9\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/308430397\"}]},\"share\":{\"subject\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood - Vienna Orchestra\",\"text\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra\",\"href\":\"https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/308430397?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/308430397\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1441605707\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/10/74/ef/1074efee-68d8-2f23-5b5e-46f2afcf3a9f/mzaf_18033846011463781383.plus.aac.ep.m4a\"}],\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Peer%20Gynt%20Suite%20No.%201%2C%20Op.%2046%3A%20I.%20Morning%20Mood%20Vienna%20Orchestra\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in YouTube Music\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:youtubemusic:androiddeeplink\",\"type\":\"uri\",\"uri\":\"https://music.youtube.com/search?q=Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood+Vienna+Orchestra&feature=shazam\"}],\"type\":\"YOUTUBEMUSIC\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood%27%20artist%3A%27Vienna+Orchestra%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"intent\",\"uri\":\"intent://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end\"},{\"name\":\"hub:applemusic:connect\",\"type\":\"applemusicconnect\",\"id\":\"1441605707\",\"uri\":\"https://unsupported.shazam.com\"},{\"name\":\"hub:applemusic:androidstore\",\"type\":\"uri\",\"uri\":\"https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"caption\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Grieg: Peer Gynt Suite No. 1, Op. 46 - EP\"},{\"title\":\"Label\",\"text\":\"Vienna Orchestra\"},{\"title\":\"Released\",\"text\":\"2018\"}]},{\"type\":\"RELATED\",\"url\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=\",\"tabname\":\"Related\"}],\"url\":\"https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood\",\"artists\":[{\"id\":\"42\",\"adamid\":\"528293465\"}],\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood\",\"{trackartist}\":\"Vienna+Orchestra\"},\"highlightsurls\":{},\"relatedtracksurl\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=\",\"albumadamid\":\"1441605705\",\"isrc\":\"QZ22B2024018\"},\"tagid\":\"29DC28CB-5C1F-4857-A47D-5A5A5B7D4AD4\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 1092.208,
+      "sampleEndSeconds": 1112.208,
+      "requestedEndSeconds": 1112.208,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/1092.208-1112.208.wav",
+      "sha256": "0fde407ac68373182304689481a7873e14d3c24211bb1fe2568125f047ef93f3",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1092.208",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/1092.208-1112.208.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:05:41.644729+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1092.208,
+        "sourceEndSeconds": 1104.208
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "629566411",
+            "offset": 193.460546875,
+            "timeskew": 0.00017297268,
+            "frequencyskew": -8.0525875e-05
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777944080,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "308430397",
+          "title": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood",
+          "subtitle": "Vienna Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "joecolor": "b:0d0e0bp:e6eef4s:e0e2e4t:bac1c5q:b6b8b9"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/308430397"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood - Vienna Orchestra",
+            "text": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra",
+            "href": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/308430397?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/308430397"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1441605707"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/10/74/ef/1074efee-68d8-2f23-5b5e-46f2afcf3a9f/mzaf_18033846011463781383.plus.aac.ep.m4a"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Peer%20Gynt%20Suite%20No.%201%2C%20Op.%2046%3A%20I.%20Morning%20Mood%20Vienna%20Orchestra"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood%27%20artist%3A%27Vienna+Orchestra%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              },
+              {
+                "caption": "BUY",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "buy",
+                  "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+                  "caption": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Grieg: Peer Gynt Suite No. 1, Op. 46 - EP"
+                },
+                {
+                  "title": "Label",
+                  "text": "Vienna Orchestra"
+                },
+                {
+                  "title": "Released",
+                  "text": "2018"
+                }
+              ]
+            },
+            {
+              "type": "RELATED",
+              "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=",
+              "tabname": "Related"
+            }
+          ],
+          "url": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "528293465"
+            }
+          ],
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood",
+            "{trackartist}": "Vienna+Orchestra"
+          },
+          "myshazam": {
+            "apple": {
+              "actions": [
+                {
+                  "name": "myshazam:apple",
+                  "type": "uri",
+                  "uri": "https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                }
+              ]
+            }
+          },
+          "highlightsurls": {},
+          "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=",
+          "albumadamid": "1441605705",
+          "isrc": "QZ22B2024018"
+        },
+        "tagid": "8AA8DD8D-D690-4B1F-9ACA-CE7A990A357D"
+      },
+      "status": "match",
+      "match": {
+        "key": "308430397",
+        "title": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood",
+        "artist": "Vienna Orchestra",
+        "serviceURL": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+                "caption": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Grieg: Peer Gynt Suite No. 1, Op. 46 - EP"
+              },
+              {
+                "title": "Label",
+                "text": "Vienna Orchestra"
+              },
+              {
+                "title": "Released",
+                "text": "2018"
+              }
+            ]
+          },
+          {
+            "type": "RELATED",
+            "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=",
+            "tabname": "Related"
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/214F5B1A-E651-4DDD-A7F2-6496243FD427/8AA8DD8D-D690-4B1F-9ACA-CE7A990A357D?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:05:46 GMT",
+          "X-Forensic-Id": "77e116ed-c750-4dd9-b9cc-e7d8118e8904",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"629566411\",\"offset\":193.460546875,\"timeskew\":1.7297268E-4,\"frequencyskew\":-8.0525875E-5}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777944080,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"308430397\",\"title\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood\",\"subtitle\":\"Vienna Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"joecolor\":\"b:0d0e0bp:e6eef4s:e0e2e4t:bac1c5q:b6b8b9\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/308430397\"}]},\"share\":{\"subject\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood - Vienna Orchestra\",\"text\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra\",\"href\":\"https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/308430397?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/308430397\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1441605707\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/10/74/ef/1074efee-68d8-2f23-5b5e-46f2afcf3a9f/mzaf_18033846011463781383.plus.aac.ep.m4a\"}],\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Peer%20Gynt%20Suite%20No.%201%2C%20Op.%2046%3A%20I.%20Morning%20Mood%20Vienna%20Orchestra\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood%27%20artist%3A%27Vienna+Orchestra%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"},{\"caption\":\"BUY\",\"actions\":[{\"type\":\"uri\",\"uri\":\"https://itunes.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"buy\",\"providername\":\"itunes\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"type\":\"buy\",\"listcaption\":\"Buy on iTunes\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"itunes\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"caption\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Grieg: Peer Gynt Suite No. 1, Op. 46 - EP\"},{\"title\":\"Label\",\"text\":\"Vienna Orchestra\"},{\"title\":\"Released\",\"text\":\"2018\"}]},{\"type\":\"RELATED\",\"url\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=\",\"tabname\":\"Related\"}],\"url\":\"https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood\",\"artists\":[{\"id\":\"42\",\"adamid\":\"528293465\"}],\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood\",\"{trackartist}\":\"Vienna+Orchestra\"},\"myshazam\":{\"apple\":{\"actions\":[{\"name\":\"myshazam:apple\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}]}},\"highlightsurls\":{},\"relatedtracksurl\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=\",\"albumadamid\":\"1441605705\",\"isrc\":\"QZ22B2024018\"},\"tagid\":\"8AA8DD8D-D690-4B1F-9ACA-CE7A990A357D\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 1112.208,
+      "sampleEndSeconds": 1132.208,
+      "requestedEndSeconds": 1132.208,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/1112.208-1132.208.wav",
+      "sha256": "604f9f93fc96118fc904ca76ca0c11545ad3e6e308f12b5bd628bb4e1fd9426d",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1112.208",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/1112.208-1132.208.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:05:47.378801+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1112.208,
+        "sourceEndSeconds": 1124.208
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "629566411",
+            "offset": 213.45840625,
+            "timeskew": 4.6133995e-05,
+            "frequencyskew": -0.000120818615
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777949773,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "308430397",
+          "title": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood",
+          "subtitle": "Vienna Orchestra",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "joecolor": "b:0d0e0bp:e6eef4s:e0e2e4t:bac1c5q:b6b8b9"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/308430397"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood - Vienna Orchestra",
+            "text": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra",
+            "href": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra.",
+            "html": "https://www.shazam.com/snippets/email-share/308430397?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/308430397"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1441605707"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/10/74/ef/1074efee-68d8-2f23-5b5e-46f2afcf3a9f/mzaf_18033846011463781383.plus.aac.ep.m4a"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Peer%20Gynt%20Suite%20No.%201%2C%20Op.%2046%3A%20I.%20Morning%20Mood%20Vienna%20Orchestra"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood%27%20artist%3A%27Vienna+Orchestra%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              },
+              {
+                "caption": "BUY",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "buy",
+                  "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+                  "caption": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "Grieg: Peer Gynt Suite No. 1, Op. 46 - EP"
+                },
+                {
+                  "title": "Label",
+                  "text": "Vienna Orchestra"
+                },
+                {
+                  "title": "Released",
+                  "text": "2018"
+                }
+              ]
+            },
+            {
+              "type": "RELATED",
+              "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=",
+              "tabname": "Related"
+            }
+          ],
+          "url": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "528293465"
+            }
+          ],
+          "genres": {
+            "primary": "Classical"
+          },
+          "urlparams": {
+            "{tracktitle}": "Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood",
+            "{trackartist}": "Vienna+Orchestra"
+          },
+          "myshazam": {
+            "apple": {
+              "actions": [
+                {
+                  "name": "myshazam:apple",
+                  "type": "uri",
+                  "uri": "https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                }
+              ]
+            }
+          },
+          "highlightsurls": {},
+          "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=",
+          "albumadamid": "1441605705",
+          "isrc": "QZ22B2024018"
+        },
+        "tagid": "C1DAE37B-5DBE-4A1B-951F-2083EA5E00FE"
+      },
+      "status": "match",
+      "match": {
+        "key": "308430397",
+        "title": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood",
+        "artist": "Vienna Orchestra",
+        "serviceURL": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg",
+                "caption": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "Grieg: Peer Gynt Suite No. 1, Op. 46 - EP"
+              },
+              {
+                "title": "Label",
+                "text": "Vienna Orchestra"
+              },
+              {
+                "title": "Released",
+                "text": "2018"
+              }
+            ]
+          },
+          {
+            "type": "RELATED",
+            "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=",
+            "tabname": "Related"
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/A817056A-30D3-43ED-80EC-598012143A41/C1DAE37B-5DBE-4A1B-951F-2083EA5E00FE?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:05:51 GMT",
+          "X-Forensic-Id": "60617b1b-b4d6-412b-80dc-66b8b3c77143",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"629566411\",\"offset\":213.45840625,\"timeskew\":4.6133995E-5,\"frequencyskew\":-1.20818615E-4}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777949773,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"308430397\",\"title\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood\",\"subtitle\":\"Vienna Orchestra\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"joecolor\":\"b:0d0e0bp:e6eef4s:e0e2e4t:bac1c5q:b6b8b9\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/308430397\"}]},\"share\":{\"subject\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood - Vienna Orchestra\",\"text\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra\",\"href\":\"https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Peer Gynt Suite No. 1, Op. 46: I. Morning Mood by Vienna Orchestra.\",\"html\":\"https://www.shazam.com/snippets/email-share/308430397?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/308430397\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1441605707\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/10/74/ef/1074efee-68d8-2f23-5b5e-46f2afcf3a9f/mzaf_18033846011463781383.plus.aac.ep.m4a\"}],\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Peer%20Gynt%20Suite%20No.%201%2C%20Op.%2046%3A%20I.%20Morning%20Mood%20Vienna%20Orchestra\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood%27%20artist%3A%27Vienna+Orchestra%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"applemusicopen\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"},{\"name\":\"hub:applemusic:deeplink\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"},{\"caption\":\"BUY\",\"actions\":[{\"type\":\"uri\",\"uri\":\"https://itunes.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios\"}],\"beacondata\":{\"type\":\"buy\",\"providername\":\"itunes\"},\"image\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"type\":\"buy\",\"listcaption\":\"Buy on iTunes\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"itunes\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/15/fe/35/15fe352c-0f4f-cd11-c7d2-7f4b3600c104/ee902eee-0b28-44d7-afae-2ef5898fd0ff.jpg/400x400cc.jpg\",\"caption\":\"Peer Gynt Suite No. 1, Op. 46: I. Morning Mood\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"Grieg: Peer Gynt Suite No. 1, Op. 46 - EP\"},{\"title\":\"Label\",\"text\":\"Vienna Orchestra\"},{\"title\":\"Released\",\"text\":\"2018\"}]},{\"type\":\"RELATED\",\"url\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=\",\"tabname\":\"Related\"}],\"url\":\"https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood\",\"artists\":[{\"id\":\"42\",\"adamid\":\"528293465\"}],\"genres\":{\"primary\":\"Classical\"},\"urlparams\":{\"{tracktitle}\":\"Peer+Gynt+Suite+No.+1%2C+Op.+46%3A+I.+Morning+Mood\",\"{trackartist}\":\"Vienna+Orchestra\"},\"myshazam\":{\"apple\":{\"actions\":[{\"name\":\"myshazam:apple\",\"type\":\"uri\",\"uri\":\"https://music.apple.com/gb/album/peer-gynt-suite-no-1-op-46-i-morning-mood/1441605705?i=1441605707&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios\"}]}},\"highlightsurls\":{},\"relatedtracksurl\":\"https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-308430397?startFrom=0&pageSize=20&connected=\",\"albumadamid\":\"1441605705\",\"isrc\":\"QZ22B2024018\"},\"tagid\":\"C1DAE37B-5DBE-4A1B-951F-2083EA5E00FE\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "sourceBytes": 438026523,
+        "sourceMtimeNs": 1791766138274230718
+      },
+      "sampleStartSeconds": 1132.208,
+      "sampleEndSeconds": 1152.2,
+      "requestedEndSeconds": 1152.208,
+      "clip": "qa/soundtrack/6e-vfEif9LI/clips/1132.208-1152.208.wav",
+      "sha256": "f35d47322945e9f50f4ab2b1d93d7cdda2cb9b581ffd1e535558ad26d6714517",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1132.208",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/6e-vfEif9LI/6e-vfEif9LI.mkv",
+        "-t",
+        "20.0",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/6e-vfEif9LI/clips/1132.208-1152.208.wav"
+      ],
+      "actualAudioDurationSeconds": 19.992,
+      "requestedAt": "2026-10-12T04:05:53.345389+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,gCX+yjEfsc+QAQAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAIDwBAAAAHwAAAAAQJABAABAAANgMgAAAP9YCAAAADMqNA0PxiohCQ2rJjkINskkQglvdUYhCQP6S8UMGbNC4AlTDCSwDwGaMM8IAABBAANgaQAAAP9FCAAAABIexBEWqSeAGwDNK/QiAIAiTSwBZShxGABvJEMnLXQcrhQWYg1uJ2WSSHQkAd5KfikBskvZIBQ0T30RAOlIkxYBFkpMIxogUEETAOBOUyQAIlalKgBEXRsuAQpZURoA7k/mHQAAAEIAA2DNAAAA/1kIAAAAYC4FagC3K8ltAagp+EQAwiWGUgDeMBhdAPAvVmUBsSk2NAD6LnNYAbIkaz0zAwYwVAiADf45ALgGhlwB8glRVgGrBzlNa0FRdj0BWE/tMQC1TIFDAE1PvUgA90kWVAA+VK9oAKtKvG4B80nRXwHiRjBbEohMkjMAXVNPRAAUWWpQACxSzGcBqUh0WQNlSMVcGBVZUEEAf0sMSACETlRYAMpROWgBSlHmNwA4URs9AJRb5k4AX1I0UgBPS0tVAHxPsGQArEzhbAAAAA==",
+        "samplems": 19992,
+        "sampleRateHz": 16000,
+        "numberSamples": 319872,
+        "sourceStartSeconds": 1132.208,
+        "sourceEndSeconds": 1152.2
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791777955398,
+        "timezone": "Europe/Moscow",
+        "tagid": "A7469CA8-4FC1-4347-946F-C5ED81F4CB9B"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/A2D091B8-DBFB-4610-A688-D6BA5A3F0E9D/A7469CA8-4FC1-4347-946F-C5ED81F4CB9B?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:05:57 GMT",
+          "X-Forensic-Id": "d005f0c6-6a8e-4a61-85cf-7e42135636c3",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791777955398,\"timezone\":\"Europe/Moscow\",\"tagid\":\"A7469CA8-4FC1-4347-946F-C5ED81F4CB9B\"}"
+      }
+    }
+  ],
+  "status": "probed",
+  "timingLimits": "Sample intervals and actual fingerprint intervals are evidence windows only, not cue boundaries. No listening claim.",
+  "recordingCandidates": [
+    {
+      "key": "71188704",
+      "title": "Symphony No. 5 In C Minor, Op. 67: IV. Allegro",
+      "artist": "Passionata Symphony Orchestra",
+      "serviceURL": "https://www.shazam.com/track/71188704/symphony-no-5-in-c-minor-op-67-iv-allegro",
+      "evidence": [
+        {
+          "sampleStartSeconds": 120,
+          "sampleEndSeconds": 140.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 120,
+            "sourceEndSeconds": 132.0
+          },
+          "clip": "qa/soundtrack/6e-vfEif9LI/clips/120.000-140.000.wav"
+        }
+      ],
+      "adjacentIndependentConfirmation": false,
+      "independentMatchCount": 1,
+      "limits": "Recording candidate; evidence windows are not continuous cue boundaries."
+    },
+    {
+      "key": "308430397",
+      "title": "Peer Gynt Suite No. 1, Op. 46: I. Morning Mood",
+      "artist": "Vienna Orchestra",
+      "serviceURL": "https://www.shazam.com/track/308430397/peer-gynt-suite-no-1-op-46-i-morning-mood",
+      "evidence": [
+        {
+          "sampleStartSeconds": 960,
+          "sampleEndSeconds": 980.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 960,
+            "sourceEndSeconds": 972.0
+          },
+          "clip": "qa/soundtrack/6e-vfEif9LI/clips/960.000-980.000.wav"
+        },
+        {
+          "sampleStartSeconds": 1080,
+          "sampleEndSeconds": 1100.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1080,
+            "sourceEndSeconds": 1092.0
+          },
+          "clip": "qa/soundtrack/6e-vfEif9LI/clips/1080.000-1100.000.wav"
+        },
+        {
+          "sampleStartSeconds": 1092.208,
+          "sampleEndSeconds": 1112.208,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1092.208,
+            "sourceEndSeconds": 1104.208
+          },
+          "clip": "qa/soundtrack/6e-vfEif9LI/clips/1092.208-1112.208.wav"
+        },
+        {
+          "sampleStartSeconds": 1112.208,
+          "sampleEndSeconds": 1132.208,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 1112.208,
+            "sourceEndSeconds": 1124.208
+          },
+          "clip": "qa/soundtrack/6e-vfEif9LI/clips/1112.208-1132.208.wav"
+        }
+      ],
+      "adjacentIndependentConfirmation": true,
+      "independentMatchCount": 4,
+      "limits": "Recording candidate; evidence windows are not continuous cue boundaries."
+    }
+  ],
+  "fingerprintMethod": "python_legacy",
+  "legacyRustRequestCount": 0
+}

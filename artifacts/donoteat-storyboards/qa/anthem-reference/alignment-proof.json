@@ -1,0 +1,327 @@
+{
+  "purpose": "Independent nonoverlapping short blocks and fixed sample-offset proof; bounded source windows only; no whole-media scan",
+  "targets": {
+    "8LysiXf-DJU": {
+      "sourceToReferenceOffsetSeconds": 35.820750000000004,
+      "offsetFormula": "reference time = source time - sourceToReferenceOffsetSeconds",
+      "selectedSourceInterval": [
+        47.5,
+        65.5
+      ],
+      "selectedReferenceInterval": [
+        11.67925,
+        29.67925
+      ],
+      "independentTwoSecondBlocks": [
+        {
+          "sourceInterval": [
+            45.0,
+            47.0
+          ],
+          "globalBestReferenceSeconds": 83.6025625,
+          "globalBestSignedNcc": 0.09269948223353591,
+          "expectedReferenceSeconds": 9.17925,
+          "fixedOffsetNcc": -0.014234613200633421,
+          "peakOffsetDeviationSeconds": 74.4233125
+        },
+        {
+          "sourceInterval": [
+            47.0,
+            49.0
+          ],
+          "globalBestReferenceSeconds": 62.801875,
+          "globalBestSignedNcc": 0.09858060188890132,
+          "expectedReferenceSeconds": 11.17925,
+          "fixedOffsetNcc": 0.012131478427406901,
+          "peakOffsetDeviationSeconds": 51.622625
+        },
+        {
+          "sourceInterval": [
+            49.0,
+            51.0
+          ],
+          "globalBestReferenceSeconds": 10.0210625,
+          "globalBestSignedNcc": 0.09314921040293123,
+          "expectedReferenceSeconds": 13.17925,
+          "fixedOffsetNcc": -0.015484370409783874,
+          "peakOffsetDeviationSeconds": -3.1581875
+        },
+        {
+          "sourceInterval": [
+            51.0,
+            53.0
+          ],
+          "globalBestReferenceSeconds": 49.0620625,
+          "globalBestSignedNcc": 0.10401858421640922,
+          "expectedReferenceSeconds": 15.17925,
+          "fixedOffsetNcc": 0.05671077510679513,
+          "peakOffsetDeviationSeconds": 33.8828125
+        },
+        {
+          "sourceInterval": [
+            53.0,
+            55.0
+          ],
+          "globalBestReferenceSeconds": 17.17925,
+          "globalBestSignedNcc": 0.191871610706106,
+          "expectedReferenceSeconds": 17.17925,
+          "fixedOffsetNcc": 0.191871610706106,
+          "peakOffsetDeviationSeconds": 0.0
+        },
+        {
+          "sourceInterval": [
+            55.0,
+            57.0
+          ],
+          "globalBestReferenceSeconds": 19.17925,
+          "globalBestSignedNcc": 0.4832030236966924,
+          "expectedReferenceSeconds": 19.17925,
+          "fixedOffsetNcc": 0.4832030236966924,
+          "peakOffsetDeviationSeconds": 0.0
+        },
+        {
+          "sourceInterval": [
+            57.0,
+            59.0
+          ],
+          "globalBestReferenceSeconds": 21.17925,
+          "globalBestSignedNcc": 0.6048829471756232,
+          "expectedReferenceSeconds": 21.17925,
+          "fixedOffsetNcc": 0.6048829471756232,
+          "peakOffsetDeviationSeconds": 0.0
+        },
+        {
+          "sourceInterval": [
+            59.0,
+            61.0
+          ],
+          "globalBestReferenceSeconds": 23.17925,
+          "globalBestSignedNcc": 0.38950004580189207,
+          "expectedReferenceSeconds": 23.17925,
+          "fixedOffsetNcc": 0.38950004580189207,
+          "peakOffsetDeviationSeconds": 0.0
+        },
+        {
+          "sourceInterval": [
+            61.0,
+            63.0
+          ],
+          "globalBestReferenceSeconds": 83.423875,
+          "globalBestSignedNcc": 0.11679169281356529,
+          "expectedReferenceSeconds": 25.17925,
+          "fixedOffsetNcc": 0.0012893551461404414,
+          "peakOffsetDeviationSeconds": 58.244625
+        },
+        {
+          "sourceInterval": [
+            63.0,
+            65.0
+          ],
+          "globalBestReferenceSeconds": 63.0053125,
+          "globalBestSignedNcc": -0.11194023900565961,
+          "expectedReferenceSeconds": 27.17925,
+          "fixedOffsetNcc": 0.01277421095649559,
+          "peakOffsetDeviationSeconds": 35.8260625
+        },
+        {
+          "sourceInterval": [
+            65.0,
+            67.0
+          ],
+          "globalBestReferenceSeconds": 49.2838125,
+          "globalBestSignedNcc": -0.14153771756935124,
+          "expectedReferenceSeconds": 29.17925,
+          "fixedOffsetNcc": -0.008792034845657179,
+          "peakOffsetDeviationSeconds": 20.1045625
+        },
+        {
+          "sourceInterval": [
+            67.0,
+            69.0
+          ],
+          "globalBestReferenceSeconds": 48.499875,
+          "globalBestSignedNcc": 0.09037440172145848,
+          "expectedReferenceSeconds": 31.17925,
+          "fixedOffsetNcc": 0.013325435319849213,
+          "peakOffsetDeviationSeconds": 17.320625
+        }
+      ],
+      "excerptPath": "/home/pedro/src/tmp-donoteat/qa/anthem-reference/8LysiXf-DJU_PROVEN_47.5-65.5.wav",
+      "excerptSha256": "d8813e8c083b234490e6f8c5e5034303e0209704dd33fe324ad65eccf66fb220",
+      "alignedReferencePath": "/home/pedro/src/tmp-donoteat/qa/anthem-reference/8LysiXf-DJU_ALIGNED_REFERENCE.wav",
+      "alignedReferenceSha256": "b521c06721526f2b2316231de73eabc9aa4806879a2ac2fa3c4274eba685d117"
+    },
+    "LdeirDrinWk": {
+      "sourceToReferenceOffsetSeconds": 1187.5311875,
+      "offsetFormula": "reference time = source time - sourceToReferenceOffsetSeconds",
+      "selectedSourceInterval": [
+        1200.5,
+        1218.5
+      ],
+      "selectedReferenceInterval": [
+        12.9688125,
+        30.9688125
+      ],
+      "independentTwoSecondBlocks": [
+        {
+          "sourceInterval": [
+            1197.0,
+            1199.0
+          ],
+          "globalBestReferenceSeconds": 48.5995,
+          "globalBestSignedNcc": -0.10878967318998928,
+          "expectedReferenceSeconds": 9.4688125,
+          "fixedOffsetNcc": 0.010541110773206469,
+          "peakOffsetDeviationSeconds": 39.1306875
+        },
+        {
+          "sourceInterval": [
+            1199.0,
+            1201.0
+          ],
+          "globalBestReferenceSeconds": 5.5653125,
+          "globalBestSignedNcc": -0.11078107800917734,
+          "expectedReferenceSeconds": 11.4688125,
+          "fixedOffsetNcc": 0.006323083602007174,
+          "peakOffsetDeviationSeconds": -5.9035
+        },
+        {
+          "sourceInterval": [
+            1201.0,
+            1203.0
+          ],
+          "globalBestReferenceSeconds": 82.500875,
+          "globalBestSignedNcc": -0.1045954838843338,
+          "expectedReferenceSeconds": 13.4688125,
+          "fixedOffsetNcc": -0.0014945551236648345,
+          "peakOffsetDeviationSeconds": 69.0320625
+        },
+        {
+          "sourceInterval": [
+            1203.0,
+            1205.0
+          ],
+          "globalBestReferenceSeconds": 15.4688125,
+          "globalBestSignedNcc": 0.8439592590945293,
+          "expectedReferenceSeconds": 15.4688125,
+          "fixedOffsetNcc": 0.8439592590945293,
+          "peakOffsetDeviationSeconds": 0.0
+        },
+        {
+          "sourceInterval": [
+            1205.0,
+            1207.0
+          ],
+          "globalBestReferenceSeconds": 17.4688125,
+          "globalBestSignedNcc": 0.9862166992478294,
+          "expectedReferenceSeconds": 17.4688125,
+          "fixedOffsetNcc": 0.9862166992478294,
+          "peakOffsetDeviationSeconds": 0.0
+        },
+        {
+          "sourceInterval": [
+            1207.0,
+            1209.0
+          ],
+          "globalBestReferenceSeconds": 19.4688125,
+          "globalBestSignedNcc": 0.9911995259892304,
+          "expectedReferenceSeconds": 19.4688125,
+          "fixedOffsetNcc": 0.9911995259892304,
+          "peakOffsetDeviationSeconds": 0.0
+        },
+        {
+          "sourceInterval": [
+            1209.0,
+            1211.0
+          ],
+          "globalBestReferenceSeconds": 21.4688125,
+          "globalBestSignedNcc": 0.9877827460791356,
+          "expectedReferenceSeconds": 21.4688125,
+          "fixedOffsetNcc": 0.9877827460791356,
+          "peakOffsetDeviationSeconds": 0.0
+        },
+        {
+          "sourceInterval": [
+            1211.0,
+            1213.0
+          ],
+          "globalBestReferenceSeconds": 23.4688125,
+          "globalBestSignedNcc": 0.9870931768192712,
+          "expectedReferenceSeconds": 23.4688125,
+          "fixedOffsetNcc": 0.9870931768192712,
+          "peakOffsetDeviationSeconds": 0.0
+        },
+        {
+          "sourceInterval": [
+            1213.0,
+            1215.0
+          ],
+          "globalBestReferenceSeconds": 25.4688125,
+          "globalBestSignedNcc": 0.3083559276427151,
+          "expectedReferenceSeconds": 25.4688125,
+          "fixedOffsetNcc": 0.3083559276427151,
+          "peakOffsetDeviationSeconds": 0.0
+        },
+        {
+          "sourceInterval": [
+            1215.0,
+            1217.0
+          ],
+          "globalBestReferenceSeconds": 42.810625,
+          "globalBestSignedNcc": -0.10412101018760848,
+          "expectedReferenceSeconds": 27.4688125,
+          "fixedOffsetNcc": 0.025747490362634677,
+          "peakOffsetDeviationSeconds": 15.3418125
+        },
+        {
+          "sourceInterval": [
+            1217.0,
+            1219.0
+          ],
+          "globalBestReferenceSeconds": 0.3400625,
+          "globalBestSignedNcc": -0.09783122307602889,
+          "expectedReferenceSeconds": 29.4688125,
+          "fixedOffsetNcc": -0.01741284421256052,
+          "peakOffsetDeviationSeconds": -29.12875
+        },
+        {
+          "sourceInterval": [
+            1219.0,
+            1221.0
+          ],
+          "globalBestReferenceSeconds": 49.0940625,
+          "globalBestSignedNcc": -0.10778528382752586,
+          "expectedReferenceSeconds": 31.4688125,
+          "fixedOffsetNcc": -0.0107792054595582,
+          "peakOffsetDeviationSeconds": 17.62525
+        },
+        {
+          "sourceInterval": [
+            1221.0,
+            1223.0
+          ],
+          "globalBestReferenceSeconds": 83.71025,
+          "globalBestSignedNcc": 0.12959942733876584,
+          "expectedReferenceSeconds": 33.4688125,
+          "fixedOffsetNcc": -0.0020888629933153535,
+          "peakOffsetDeviationSeconds": 50.2414375
+        },
+        {
+          "sourceInterval": [
+            1223.0,
+            1225.0
+          ],
+          "globalBestReferenceSeconds": 48.7799375,
+          "globalBestSignedNcc": -0.11983550572847523,
+          "expectedReferenceSeconds": 35.4688125,
+          "fixedOffsetNcc": 0.022859315900626783,
+          "peakOffsetDeviationSeconds": 13.311125
+        }
+      ],
+      "excerptPath": "/home/pedro/src/tmp-donoteat/qa/anthem-reference/LdeirDrinWk_PROVEN_1200.5-1218.5.wav",
+      "excerptSha256": "99482b658e5e3ceb75651a50de068f6e058a092eab8246c4a1f69c5e1198fad6",
+      "alignedReferencePath": "/home/pedro/src/tmp-donoteat/qa/anthem-reference/LdeirDrinWk_ALIGNED_REFERENCE.wav",
+      "alignedReferenceSha256": "3449beda3257c5adb680e53ed9420868d31992e7460f5a96cd549a745d4f9436"
+    }
+  }
+}

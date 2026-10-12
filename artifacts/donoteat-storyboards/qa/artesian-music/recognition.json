@@ -1,0 +1,60 @@
+{
+  "id": "5MrkfLP25Rg",
+  "requestedAt": "2026-10-12T16:35:35.053587+00:00",
+  "purpose": "User-requested targeted music identity check at 122.1–137 seconds.",
+  "sourceWindow": {
+    "source": "qa/audio-llm/sources/5MrkfLP25Rg.wav",
+    "sourceStartSeconds": 122.1,
+    "sourceEndSeconds": 137.0,
+    "sourceStartFrame": 1953600,
+    "sourceEndFrame": 2192000,
+    "sampleRateHz": 16000,
+    "channels": 1,
+    "sampleWidthBytes": 2,
+    "clip": "qa/artesian-music/122.100-137.000.wav",
+    "clipSha256": "eac4b7d727482919d53636f2f3356f2586e3dc00d9e1eb9682c241689ed44cd0",
+    "pcmSha256": "40873594af8196aa0200efc55d9b343709a2cad897adb85310bbdc9a5dda1f4f",
+    "method": "Exact PCM frame slice from cached continuous WAV; no filtering."
+  },
+  "fingerprintMethod": "python_legacy",
+  "requestLimit": 1,
+  "noRetries": true,
+  "limits": "Submitted signature interval only, not full cue bounds. No listening claim.",
+  "fingerprint": {
+    "uri": "data:audio/vnd.shazam.sig;base64,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",
+    "samplems": 12000,
+    "sampleRateHz": 16000,
+    "numberSamples": 192000,
+    "sourceStartSeconds": 122.1,
+    "sourceEndSeconds": 134.1
+  },
+  "rawResponse": {
+    "matches": [],
+    "location": {
+      "accuracy": 0.01
+    },
+    "timestamp": 1791822936358,
+    "timezone": "Europe/Moscow",
+    "tagid": "F01EEC27-2B21-4BE9-B149-2378889F17B9"
+  },
+  "status": "unmatched",
+  "http": {
+    "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/52D1132D-758E-4722-BC49-B47A18C0973D/F01EEC27-2B21-4BE9-B149-2378889F17B9?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json;charset=utf-8",
+      "Vary": "Accept-Encoding",
+      "Date": "Mon, 12 Oct 2026 16:35:35 GMT",
+      "X-Forensic-Id": "a9193775-d8be-49c2-88bc-487417d5e732",
+      "x-shazam-location": "uc1",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Content-Encoding": "gzip",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Transfer-Encoding": "chunked"
+    },
+    "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791822936358,\"timezone\":\"Europe/Moscow\",\"tagid\":\"F01EEC27-2B21-4BE9-B149-2378889F17B9\"}"
+  },
+  "rateLimited": false,
+  "networkStopped": true
+}

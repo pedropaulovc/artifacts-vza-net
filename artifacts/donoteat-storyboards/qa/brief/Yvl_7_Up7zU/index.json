@@ -1,0 +1,4330 @@
+{
+  "version": 1,
+  "signature": "{\"version\":1,\"source\":{\"path\":\"videos/Yvl_7_Up7zU/Yvl_7_Up7zU.mkv\",\"size\":459283928,\"mtimeMs\":1791766803104.3608},\"originals\":[0,5,10,15,20,25,30,35,40,45,50,55,59.433,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180,185,190,195,200,205,210,215,220,225,230,235,240,245,250,255,260,265,270,275,277.6,280,285,290,295,300,305,310,315,320,325,330,335,340,345,350,355,360,365,370,375,380,385,390,393.433,395,400,404.367,405,410,415,420,422,425,430,435,440,443.067,445,450,455,460,465,470,475,480,485,488.967,490,493.933,495,500,505,510,515,520,525,530,535,540,545,550,555,560,565,570,575,580,585,590,595,600,605,610,615,620,625,630,635,640,645,650,655,660,665,670,675,680,685,690,695,697.333,699.633,700,705,710,715,720,725,730,735,740,745,750,755,760,765,770,775,780,785,790,793.667,795,800,805,810,813.5,815,820,825,830,835,840,845,850,855,860,865,870,875,880,885,885.7,890,890.667,895,900,905,910,915,920,925,930,935,940,942.767,945,947.733,950,955,960,965,970,975,980,985,990,995,1000,1005,1010,1015,1020,1025,1030,1035,1040,1045,1050,1055,1060,1065,1070,1075,1080,1085,1090,1095,1100,1105,1110,1115,1120,1125,1130,1135,1140,1145,1150,1155,1160,1165,1168.17,1170,1173.13,1175,1180,1185,1190,1195,1200,1205,1210,1215,1220,1225,1230,1235,1240,1245,1250,1255,1260,1265,1270,1275,1280,1283.2,1285,1288.17,1290,1295,1300,1301.73,1305,1306.7,1310,1315,1320,1325,1330,1335,1340,1345,1350,1355,1360,1365,1370,1375,1379.07,1380,1385,1390,1390.4,1395,1395.13,1400,1401.27,1405,1406.67,1410,1411.63,1415,1416.6,1420,1422.17,1424.1,1425,1430,1435,1440,1445,1450,1453.5,1455,1459,1460,1465,1470,1475,1476.5,1480,1481.83,1485,1485.6,1488.6,1490,1494.43,1495,1495.17,1500,1501.53,1505,1510,1515,1515.97,1516.43,1520,1525,1530,1533,1535,1535.6,1540,1545,1546.53,1549.23,1550,1555,1559.33,1560,1565,1570,1575,1580,1585,1590,1595,1600,1605,1609.43,1609.5,1610,1615,1620,1625,1630,1631.2,1635,1637.67,1640,1645,1650,1655,1656.4,1658.33,1660,1665,1670,1675,1680,1685,1690,1695,1700,1703.9,1705,1710,1715,1720,1725,1730,1735,1740,1745,1750,1753.2,1755,1760,1765,1770,1775,1780,1781.1,1785,1790,1790.77,1795,1798.3,1800,1805,1810,1815,1815.7,1820,1825,1827.83,1830,1835,1840,1842.43,1845,1850,1855,1860,1865,1870,1875,1880,1885,1890,1895,1900,1905,1910,1915,1920,1925,1930,1935,1940,1945,1950,1955,1960,1965,1970,1975,1980,1985,1990,1995,2000],\"hwaccel\":\"cuda\",\"mode\":{\"path\":\"/tmp/qa/scene12_Yvl_7_Up7zU.txt\",\"width\":240,\"threshold\":0.12,\"complete\":true,\"normalized\":false,\"format\":\"times\",\"size\":2597,\"mtimeMs\":1791770500143.3733}}",
+  "complete": true,
+  "id": "Yvl_7_Up7zU",
+  "title": "donoteat this BONUS EPISODE 2: KILLDOZER!",
+  "source": {
+    "path": "videos/Yvl_7_Up7zU/Yvl_7_Up7zU.mkv",
+    "size": 459283928,
+    "mtimeMs": 1791766803104.3608
+  },
+  "originalIndex": "visual/Yvl_7_Up7zU/index.json",
+  "coverage": "Supplemental scene-cut candidates, NOT automatically identified gags or exhaustive coverage. Neighboring qualifying cuts 0.15–4 seconds apart with no original indexed frame strictly between, plus qualifying cuts with no original frame within 1 second after. No candidate cap. Gradual fades, small overlays, low-contrast changes and no-cut inserts may be missed; narration/audio-cue rereads and human image review remain essential. Original visual indices and authored storyboards are unchanged.",
+  "sampling": {
+    "requestedSceneThreshold": 0.15,
+    "sceneThreshold": 0.12,
+    "sceneDetectionWidth": 240,
+    "timestampOrigin": "first decoded source video frame = 0; frames store actual normalized presentation timestamps",
+    "pairSeconds": [
+      0.15,
+      4
+    ],
+    "afterCutCoverageSeconds": 1,
+    "duplicateToleranceSeconds": 0.001
+  },
+  "layout": {
+    "columns": 3,
+    "rows": 4,
+    "tileWidth": 480,
+    "tileHeight": 302
+  },
+  "scanProvenance": {
+    "kind": "reused-full-source-log",
+    "path": "/tmp/qa/scene12_Yvl_7_Up7zU.txt",
+    "width": 240,
+    "threshold": 0.12,
+    "complete": true,
+    "normalized": false,
+    "format": "times",
+    "origin": 0,
+    "limitations": [
+      "Time-only log has no exact scene scores. All cuts captured above 0.12 are analyzed (not filtered as if exact score >=.15); score:null and scoreLowerBound:0.12 preserve this uncertainty."
+    ],
+    "effectiveAnalysisThreshold": 0.12,
+    "candidateDecoder": "cuda"
+  },
+  "summary": {
+    "id": "Yvl_7_Up7zU",
+    "title": "donoteat this BONUS EPISODE 2: KILLDOZER!",
+    "cuts": 344,
+    "candidates": 233,
+    "sheets": [
+      "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "qa/brief/Yvl_7_Up7zU/sheet-0020.jpg"
+    ],
+    "index": "qa/brief/Yvl_7_Up7zU/index.json",
+    "scanProvenance": {
+      "kind": "reused-full-source-log",
+      "path": "/tmp/qa/scene12_Yvl_7_Up7zU.txt",
+      "width": 240,
+      "threshold": 0.12,
+      "complete": true,
+      "normalized": false,
+      "format": "times",
+      "origin": 0,
+      "limitations": [
+        "Time-only log has no exact scene scores. All cuts captured above 0.12 are analyzed (not filtered as if exact score >=.15); score:null and scoreLowerBound:0.12 preserve this uncertainty."
+      ],
+      "effectiveAnalysisThreshold": 0.12,
+      "candidateDecoder": "cuda"
+    }
+  },
+  "sheets": [
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "firstCandidate": 1,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "firstCandidate": 13,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "firstCandidate": 25,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "firstCandidate": 37,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "firstCandidate": 49,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "firstCandidate": 61,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "firstCandidate": 73,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "firstCandidate": 85,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "firstCandidate": 97,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "firstCandidate": 109,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "firstCandidate": 121,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "firstCandidate": 133,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "firstCandidate": 145,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "firstCandidate": 157,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "firstCandidate": 169,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "firstCandidate": 181,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "firstCandidate": 193,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "firstCandidate": 205,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "firstCandidate": 217,
+      "candidateCount": 12
+    },
+    {
+      "path": "qa/brief/Yvl_7_Up7zU/sheet-0020.jpg",
+      "firstCandidate": 229,
+      "candidateCount": 5
+    }
+  ],
+  "frames": [
+    {
+      "requestedTimestampSeconds": 385.333,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        385.033
+      ],
+      "number": 1,
+      "timestampSeconds": 385.333,
+      "timestamp": "00:06:25.333",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000001.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 390.3,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        390,
+        393.433
+      ],
+      "number": 2,
+      "timestampSeconds": 390.3,
+      "timestamp": "00:06:30.300",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000002.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 448.333,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        448.033
+      ],
+      "number": 3,
+      "timestampSeconds": 448.333,
+      "timestamp": "00:07:28.333",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000003.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 464.267,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        463.967
+      ],
+      "number": 4,
+      "timestampSeconds": 464.267,
+      "timestamp": "00:07:44.267",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000004.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 467.567,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        467.267
+      ],
+      "number": 5,
+      "timestampSeconds": 467.567,
+      "timestamp": "00:07:47.567",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000005.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 510.367,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        510.067
+      ],
+      "number": 6,
+      "timestampSeconds": 510.367,
+      "timestamp": "00:08:30.367",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000006.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 515.6999999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        515.4
+      ],
+      "number": 7,
+      "timestampSeconds": 515.7,
+      "timestamp": "00:08:35.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000007.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 520.5329999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        520.233
+      ],
+      "number": 8,
+      "timestampSeconds": 520.533,
+      "timestamp": "00:08:40.533",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000008.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 555.25,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        555.2
+      ],
+      "number": 9,
+      "timestampSeconds": 555.267,
+      "timestamp": "00:09:15.267",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000009.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 555.5999999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        555.3
+      ],
+      "number": 10,
+      "timestampSeconds": 555.6,
+      "timestamp": "00:09:15.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000010.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 627.4,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        627.1,
+        628.4
+      ],
+      "number": 11,
+      "timestampSeconds": 627.4,
+      "timestamp": "00:10:27.400",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000011.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 628.6999999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        628.4
+      ],
+      "number": 12,
+      "timestampSeconds": 628.7,
+      "timestamp": "00:10:28.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000012.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0001.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 638.4,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        638.1
+      ],
+      "number": 13,
+      "timestampSeconds": 638.4,
+      "timestamp": "00:10:38.400",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000013.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 662.5329999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        662.233,
+        663.3
+      ],
+      "number": 14,
+      "timestampSeconds": 662.533,
+      "timestamp": "00:11:02.533",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000014.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 663.5999999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        663.3
+      ],
+      "number": 15,
+      "timestampSeconds": 663.6,
+      "timestamp": "00:11:03.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000015.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 696.433,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        696.133,
+        697.333
+      ],
+      "number": 16,
+      "timestampSeconds": 696.433,
+      "timestamp": "00:11:36.433",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000016.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 697.6329999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        697.333,
+        699.633
+      ],
+      "number": 17,
+      "timestampSeconds": 697.633,
+      "timestamp": "00:11:37.633",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000017.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 721.433,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        721.133,
+        724.333
+      ],
+      "number": 18,
+      "timestampSeconds": 721.433,
+      "timestamp": "00:12:01.433",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000018.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 724.5664999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        724.333,
+        724.8
+      ],
+      "number": 19,
+      "timestampSeconds": 724.567,
+      "timestamp": "00:12:04.567",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000019.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 728.333,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        728.033,
+        728.633
+      ],
+      "number": 20,
+      "timestampSeconds": 728.333,
+      "timestamp": "00:12:08.333",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000020.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 728.7,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        728.633
+      ],
+      "number": 21,
+      "timestampSeconds": 728.7,
+      "timestamp": "00:12:08.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000021.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 729.067,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        728.767
+      ],
+      "number": 22,
+      "timestampSeconds": 729.067,
+      "timestamp": "00:12:09.067",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000022.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 750.5,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        750.2
+      ],
+      "number": 23,
+      "timestampSeconds": 750.5,
+      "timestamp": "00:12:30.500",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000023.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 758.467,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        758.167
+      ],
+      "number": 24,
+      "timestampSeconds": 758.467,
+      "timestamp": "00:12:38.467",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000024.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0002.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 764.067,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        763.767
+      ],
+      "number": 25,
+      "timestampSeconds": 764.067,
+      "timestamp": "00:12:44.067",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000025.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 775.8,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        775.5
+      ],
+      "number": 26,
+      "timestampSeconds": 775.8,
+      "timestamp": "00:12:55.800",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000026.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 783.2669999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        782.967,
+        784.467
+      ],
+      "number": 27,
+      "timestampSeconds": 783.267,
+      "timestamp": "00:13:03.267",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000027.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 788.067,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        787.767
+      ],
+      "number": 28,
+      "timestampSeconds": 788.067,
+      "timestamp": "00:13:08.067",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000028.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 800.733,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        800.433
+      ],
+      "number": 29,
+      "timestampSeconds": 800.733,
+      "timestamp": "00:13:20.733",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000029.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 820.5999999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        820.3
+      ],
+      "number": 30,
+      "timestampSeconds": 820.6,
+      "timestamp": "00:13:40.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000030.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 827.1669999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        826.867,
+        827.533
+      ],
+      "number": 31,
+      "timestampSeconds": 827.167,
+      "timestamp": "00:13:47.167",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000031.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 827.833,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        827.533
+      ],
+      "number": 32,
+      "timestampSeconds": 827.833,
+      "timestamp": "00:13:47.833",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000032.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 842.067,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        841.767
+      ],
+      "number": 33,
+      "timestampSeconds": 842.067,
+      "timestamp": "00:14:02.067",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000033.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 852.867,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        852.567
+      ],
+      "number": 34,
+      "timestampSeconds": 852.867,
+      "timestamp": "00:14:12.867",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000034.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 855.9,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        855.6
+      ],
+      "number": 35,
+      "timestampSeconds": 855.9,
+      "timestamp": "00:14:15.900",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000035.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 861.2,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        861.1,
+        861.3
+      ],
+      "number": 36,
+      "timestampSeconds": 861.2,
+      "timestamp": "00:14:21.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000036.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0003.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 861.5999999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        861.3
+      ],
+      "number": 37,
+      "timestampSeconds": 861.6,
+      "timestamp": "00:14:21.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000037.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 875.4000000000001,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        875.267,
+        875.533
+      ],
+      "number": 38,
+      "timestampSeconds": 875.433,
+      "timestamp": "00:14:35.433",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000038.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 875.833,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        875.533
+      ],
+      "number": 39,
+      "timestampSeconds": 875.833,
+      "timestamp": "00:14:35.833",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000039.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 881.0329999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        880.733
+      ],
+      "number": 40,
+      "timestampSeconds": 881.033,
+      "timestamp": "00:14:41.033",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000040.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 890.967,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        890.667,
+        894.133
+      ],
+      "number": 41,
+      "timestampSeconds": 890.967,
+      "timestamp": "00:14:50.967",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000041.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 894.3,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        894.133,
+        894.467
+      ],
+      "number": 42,
+      "timestampSeconds": 894.3,
+      "timestamp": "00:14:54.300",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000042.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 912.1999999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        911.9
+      ],
+      "number": 43,
+      "timestampSeconds": 912.2,
+      "timestamp": "00:15:12.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000043.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 923.1329999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        922.833,
+        924.733
+      ],
+      "number": 44,
+      "timestampSeconds": 923.133,
+      "timestamp": "00:15:23.133",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000044.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 933.933,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        933.633
+      ],
+      "number": 45,
+      "timestampSeconds": 933.933,
+      "timestamp": "00:15:33.933",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000045.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 936.6329999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        936.333,
+        937.233
+      ],
+      "number": 46,
+      "timestampSeconds": 936.633,
+      "timestamp": "00:15:36.633",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000046.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 937.5329999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        937.233
+      ],
+      "number": 47,
+      "timestampSeconds": 937.533,
+      "timestamp": "00:15:37.533",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000047.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 940.333,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        940.033,
+        941.767
+      ],
+      "number": 48,
+      "timestampSeconds": 940.333,
+      "timestamp": "00:15:40.333",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000048.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0004.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 942.067,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        941.767,
+        942.767
+      ],
+      "number": 49,
+      "timestampSeconds": 942.067,
+      "timestamp": "00:15:42.067",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000049.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 953.0999999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        952.8
+      ],
+      "number": 50,
+      "timestampSeconds": 953.1,
+      "timestamp": "00:15:53.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000050.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 962.0999999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        961.8,
+        964.133
+      ],
+      "number": 51,
+      "timestampSeconds": 962.1,
+      "timestamp": "00:16:02.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000051.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 966.5835,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        966.467,
+        966.7
+      ],
+      "number": 52,
+      "timestampSeconds": 966.6,
+      "timestamp": "00:16:06.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000052.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 967,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        966.7
+      ],
+      "number": 53,
+      "timestampSeconds": 967,
+      "timestamp": "00:16:07.000",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000053.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 973.867,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        973.567
+      ],
+      "number": 54,
+      "timestampSeconds": 973.867,
+      "timestamp": "00:16:13.867",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000054.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 985.367,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        985.067
+      ],
+      "number": 55,
+      "timestampSeconds": 985.367,
+      "timestamp": "00:16:25.367",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000055.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 990.9,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        990.6
+      ],
+      "number": 56,
+      "timestampSeconds": 990.9,
+      "timestamp": "00:16:30.900",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000056.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1017,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1016.7
+      ],
+      "number": 57,
+      "timestampSeconds": 1017,
+      "timestamp": "00:16:57.000",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000057.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1025.97,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1025.67,
+        1029.5
+      ],
+      "number": 58,
+      "timestampSeconds": 1026,
+      "timestamp": "00:17:06.000",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000058.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1044.07,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1043.77
+      ],
+      "number": 59,
+      "timestampSeconds": 1044.1,
+      "timestamp": "00:17:24.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000059.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1058.8999999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1058.6
+      ],
+      "number": 60,
+      "timestampSeconds": 1058.9,
+      "timestamp": "00:17:38.900",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000060.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0005.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1067.97,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1067.67,
+        1068.33
+      ],
+      "number": 61,
+      "timestampSeconds": 1068,
+      "timestamp": "00:17:48.000",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000061.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1068.6299999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1068.33,
+        1069.27
+      ],
+      "number": 62,
+      "timestampSeconds": 1068.633,
+      "timestamp": "00:17:48.633",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000062.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1069.5349999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1069.27,
+        1069.8
+      ],
+      "number": 63,
+      "timestampSeconds": 1069.567,
+      "timestamp": "00:17:49.567",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000063.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1070.7350000000001,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1070.57,
+        1070.9
+      ],
+      "number": 64,
+      "timestampSeconds": 1070.767,
+      "timestamp": "00:17:50.767",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000064.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1071.2,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1070.9,
+        1073.23
+      ],
+      "number": 65,
+      "timestampSeconds": 1071.2,
+      "timestamp": "00:17:51.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000065.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1073.53,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1073.23
+      ],
+      "number": 66,
+      "timestampSeconds": 1073.533,
+      "timestamp": "00:17:53.533",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000066.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1081.77,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1081.47
+      ],
+      "number": 67,
+      "timestampSeconds": 1081.8,
+      "timestamp": "00:18:01.800",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000067.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1085.43,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1085.13
+      ],
+      "number": 68,
+      "timestampSeconds": 1085.433,
+      "timestamp": "00:18:05.433",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000068.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1105.33,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1105.03,
+        1109.03
+      ],
+      "number": 69,
+      "timestampSeconds": 1105.333,
+      "timestamp": "00:18:25.333",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000069.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1109.33,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1109.03,
+        1109.83
+      ],
+      "number": 70,
+      "timestampSeconds": 1109.333,
+      "timestamp": "00:18:29.333",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000070.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1112.77,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1112.47
+      ],
+      "number": 71,
+      "timestampSeconds": 1112.8,
+      "timestamp": "00:18:32.800",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000071.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1115.8,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1115.5
+      ],
+      "number": 72,
+      "timestampSeconds": 1115.8,
+      "timestamp": "00:18:35.800",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000072.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0006.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1121.57,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1121.27
+      ],
+      "number": 73,
+      "timestampSeconds": 1121.6,
+      "timestamp": "00:18:41.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000073.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1128.8,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1128.5,
+        1129.17
+      ],
+      "number": 74,
+      "timestampSeconds": 1128.8,
+      "timestamp": "00:18:48.800",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000074.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1143.4850000000001,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1143.2,
+        1143.77
+      ],
+      "number": 75,
+      "timestampSeconds": 1143.5,
+      "timestamp": "00:19:03.500",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000075.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1144.07,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1143.77
+      ],
+      "number": 76,
+      "timestampSeconds": 1144.1,
+      "timestamp": "00:19:04.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000076.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1145.83,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1145.53
+      ],
+      "number": 77,
+      "timestampSeconds": 1145.833,
+      "timestamp": "00:19:05.833",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000077.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1156.6299999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1156.33,
+        1159.57
+      ],
+      "number": 78,
+      "timestampSeconds": 1156.633,
+      "timestamp": "00:19:16.633",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000078.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1166.3,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1166,
+        1168.17
+      ],
+      "number": 79,
+      "timestampSeconds": 1166.3,
+      "timestamp": "00:19:26.300",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000079.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1179.23,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1178.93
+      ],
+      "number": 80,
+      "timestampSeconds": 1179.233,
+      "timestamp": "00:19:39.233",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000080.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1183.07,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1182.77
+      ],
+      "number": 81,
+      "timestampSeconds": 1183.1,
+      "timestamp": "00:19:43.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000081.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1185.93,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1185.63
+      ],
+      "number": 82,
+      "timestampSeconds": 1185.933,
+      "timestamp": "00:19:45.933",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000082.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1193.1,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1192.83,
+        1193.37
+      ],
+      "number": 83,
+      "timestampSeconds": 1193.1,
+      "timestamp": "00:19:53.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000083.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1193.6699999999998,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1193.37
+      ],
+      "number": 84,
+      "timestampSeconds": 1193.7,
+      "timestamp": "00:19:53.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000084.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0007.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1207.83,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1207.53
+      ],
+      "number": 85,
+      "timestampSeconds": 1207.833,
+      "timestamp": "00:20:07.833",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000085.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1220.33,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1220.03,
+        1223.43
+      ],
+      "number": 86,
+      "timestampSeconds": 1220.333,
+      "timestamp": "00:20:20.333",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000086.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1223.73,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1223.43
+      ],
+      "number": 87,
+      "timestampSeconds": 1223.733,
+      "timestamp": "00:20:23.733",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000087.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1227.1699999999998,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1226.87,
+        1229.03
+      ],
+      "number": 88,
+      "timestampSeconds": 1227.2,
+      "timestamp": "00:20:27.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000088.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1235.97,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1235.67
+      ],
+      "number": 89,
+      "timestampSeconds": 1236,
+      "timestamp": "00:20:36.000",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000089.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1242.47,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1242.17,
+        1244.13
+      ],
+      "number": 90,
+      "timestampSeconds": 1242.5,
+      "timestamp": "00:20:42.500",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000090.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1255.8999999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1255.6
+      ],
+      "number": 91,
+      "timestampSeconds": 1255.9,
+      "timestamp": "00:20:55.900",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000091.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1261.6,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1261.43,
+        1261.77
+      ],
+      "number": 92,
+      "timestampSeconds": 1261.6,
+      "timestamp": "00:21:01.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000092.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1262.07,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1261.77,
+        1264.07
+      ],
+      "number": 93,
+      "timestampSeconds": 1262.1,
+      "timestamp": "00:21:02.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000093.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1266.03,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1265.73,
+        1266.93
+      ],
+      "number": 94,
+      "timestampSeconds": 1266.033,
+      "timestamp": "00:21:06.033",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000094.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1267.23,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1266.93,
+        1267.7
+      ],
+      "number": 95,
+      "timestampSeconds": 1267.233,
+      "timestamp": "00:21:07.233",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000095.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1268,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1267.7,
+        1269.3
+      ],
+      "number": 96,
+      "timestampSeconds": 1268,
+      "timestamp": "00:21:08.000",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000096.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0008.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1270.73,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1270.43
+      ],
+      "number": 97,
+      "timestampSeconds": 1270.733,
+      "timestamp": "00:21:10.733",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000097.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1281.77,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1281.47,
+        1283.2
+      ],
+      "number": 98,
+      "timestampSeconds": 1281.8,
+      "timestamp": "00:21:21.800",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000098.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1288.5349999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1288.27,
+        1288.8
+      ],
+      "number": 99,
+      "timestampSeconds": 1288.567,
+      "timestamp": "00:21:28.567",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000099.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1289.0349999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1288.8,
+        1289.27
+      ],
+      "number": 100,
+      "timestampSeconds": 1289.067,
+      "timestamp": "00:21:29.067",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000100.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1289.57,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1289.27,
+        1290
+      ],
+      "number": 101,
+      "timestampSeconds": 1289.6,
+      "timestamp": "00:21:29.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000101.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1290.165,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1290,
+        1290.33
+      ],
+      "number": 102,
+      "timestampSeconds": 1290.167,
+      "timestamp": "00:21:30.167",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000102.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1290.6299999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1290.33,
+        1291.47
+      ],
+      "number": 103,
+      "timestampSeconds": 1290.633,
+      "timestamp": "00:21:30.633",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000103.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1291.67,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1291.47,
+        1291.87
+      ],
+      "number": 104,
+      "timestampSeconds": 1291.7,
+      "timestamp": "00:21:31.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000104.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1292.12,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1291.87,
+        1292.37
+      ],
+      "number": 105,
+      "timestampSeconds": 1292.133,
+      "timestamp": "00:21:32.133",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000105.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1292.6699999999998,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1292.37,
+        1294.67
+      ],
+      "number": 106,
+      "timestampSeconds": 1292.7,
+      "timestamp": "00:21:32.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000106.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1295.45,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1295.17,
+        1295.73
+      ],
+      "number": 107,
+      "timestampSeconds": 1295.467,
+      "timestamp": "00:21:35.467",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000107.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1296.03,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1295.73
+      ],
+      "number": 108,
+      "timestampSeconds": 1296.033,
+      "timestamp": "00:21:36.033",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000108.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0009.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1311.6299999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1311.33
+      ],
+      "number": 109,
+      "timestampSeconds": 1311.633,
+      "timestamp": "00:21:51.633",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000109.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1319.2199999999998,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1319.07,
+        1319.37
+      ],
+      "number": 110,
+      "timestampSeconds": 1319.233,
+      "timestamp": "00:21:59.233",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000110.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1321.97,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1321.67
+      ],
+      "number": 111,
+      "timestampSeconds": 1322,
+      "timestamp": "00:22:02.000",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000111.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1328.785,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1328.67,
+        1328.9
+      ],
+      "number": 112,
+      "timestampSeconds": 1328.8,
+      "timestamp": "00:22:08.800",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000112.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1329.2,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1328.9
+      ],
+      "number": 113,
+      "timestampSeconds": 1329.2,
+      "timestamp": "00:22:09.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000113.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1330.93,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1330.63
+      ],
+      "number": 114,
+      "timestampSeconds": 1330.933,
+      "timestamp": "00:22:10.933",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000114.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1341.47,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1341.17,
+        1344.07
+      ],
+      "number": 115,
+      "timestampSeconds": 1341.5,
+      "timestamp": "00:22:21.500",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000115.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1348.6,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1348.3
+      ],
+      "number": 116,
+      "timestampSeconds": 1348.6,
+      "timestamp": "00:22:28.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000116.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1351.83,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1351.53
+      ],
+      "number": 117,
+      "timestampSeconds": 1351.833,
+      "timestamp": "00:22:31.833",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000117.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1363.73,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1363.43
+      ],
+      "number": 118,
+      "timestampSeconds": 1363.733,
+      "timestamp": "00:22:43.733",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000118.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1365.885,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1365.6,
+        1366.17
+      ],
+      "number": 119,
+      "timestampSeconds": 1365.9,
+      "timestamp": "00:22:45.900",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000119.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1366.47,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1366.17
+      ],
+      "number": 120,
+      "timestampSeconds": 1366.5,
+      "timestamp": "00:22:46.500",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000120.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0010.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1377.75,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1377.47,
+        1378.03
+      ],
+      "number": 121,
+      "timestampSeconds": 1377.767,
+      "timestamp": "00:22:57.767",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000121.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1378.33,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1378.03,
+        1378.8
+      ],
+      "number": 122,
+      "timestampSeconds": 1378.333,
+      "timestamp": "00:22:58.333",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000122.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1378.935,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1378.8,
+        1379.07
+      ],
+      "number": 123,
+      "timestampSeconds": 1378.967,
+      "timestamp": "00:22:58.967",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000123.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1381.085,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1380.97,
+        1381.2
+      ],
+      "number": 124,
+      "timestampSeconds": 1381.1,
+      "timestamp": "00:23:01.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000124.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1381.5,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1381.2,
+        1382.57
+      ],
+      "number": 125,
+      "timestampSeconds": 1381.5,
+      "timestamp": "00:23:01.500",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000125.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1382.6999999999998,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1382.57,
+        1382.83
+      ],
+      "number": 126,
+      "timestampSeconds": 1382.7,
+      "timestamp": "00:23:02.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000126.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1383.1299999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1382.83
+      ],
+      "number": 127,
+      "timestampSeconds": 1383.133,
+      "timestamp": "00:23:03.133",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000127.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1422.47,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1422.17,
+        1424.1
+      ],
+      "number": 128,
+      "timestampSeconds": 1422.5,
+      "timestamp": "00:23:42.500",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000128.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1485.8999999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1485.6,
+        1488.6
+      ],
+      "number": 129,
+      "timestampSeconds": 1485.9,
+      "timestamp": "00:24:45.900",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000129.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1488.8999999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1488.6,
+        1489.67
+      ],
+      "number": 130,
+      "timestampSeconds": 1488.9,
+      "timestamp": "00:24:48.900",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000130.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1491.07,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1490.77,
+        1494.43
+      ],
+      "number": 131,
+      "timestampSeconds": 1491.1,
+      "timestamp": "00:24:51.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000131.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1495.47,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1495.17,
+        1496.4
+      ],
+      "number": 132,
+      "timestampSeconds": 1495.5,
+      "timestamp": "00:24:55.500",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000132.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0011.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1496.585,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1496.4,
+        1496.77
+      ],
+      "number": 133,
+      "timestampSeconds": 1496.6,
+      "timestamp": "00:24:56.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000133.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1497.07,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1496.77,
+        1498.23
+      ],
+      "number": 134,
+      "timestampSeconds": 1497.1,
+      "timestamp": "00:24:57.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000134.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1498.5149999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1498.23,
+        1498.8
+      ],
+      "number": 135,
+      "timestampSeconds": 1498.533,
+      "timestamp": "00:24:58.533",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000135.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1499.1,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1498.8
+      ],
+      "number": 136,
+      "timestampSeconds": 1499.1,
+      "timestamp": "00:24:59.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000136.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1505.57,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1505.27
+      ],
+      "number": 137,
+      "timestampSeconds": 1505.6,
+      "timestamp": "00:25:05.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000137.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1516.2,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1515.97,
+        1516.43
+      ],
+      "number": 138,
+      "timestampSeconds": 1516.2,
+      "timestamp": "00:25:16.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000138.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1516.5149999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1516.43,
+        1516.6
+      ],
+      "number": 139,
+      "timestampSeconds": 1516.533,
+      "timestamp": "00:25:16.533",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000139.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1516.635,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1516.6
+      ],
+      "number": 140,
+      "timestampSeconds": 1516.667,
+      "timestamp": "00:25:16.667",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000140.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1516.7,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1516.67
+      ],
+      "number": 141,
+      "timestampSeconds": 1516.7,
+      "timestamp": "00:25:16.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000141.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1516.7649999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1516.73
+      ],
+      "number": 142,
+      "timestampSeconds": 1516.767,
+      "timestamp": "00:25:16.767",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000142.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1516.835,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1516.8
+      ],
+      "number": 143,
+      "timestampSeconds": 1516.867,
+      "timestamp": "00:25:16.867",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000143.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1517.07,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1516.87,
+        1517.27
+      ],
+      "number": 144,
+      "timestampSeconds": 1517.1,
+      "timestamp": "00:25:17.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000144.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0012.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1517.3,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1517.27
+      ],
+      "number": 145,
+      "timestampSeconds": 1517.3,
+      "timestamp": "00:25:17.300",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000145.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1517.465,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1517.33,
+        1517.6
+      ],
+      "number": 146,
+      "timestampSeconds": 1517.467,
+      "timestamp": "00:25:17.467",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000146.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1517.865,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1517.6,
+        1518.13
+      ],
+      "number": 147,
+      "timestampSeconds": 1517.867,
+      "timestamp": "00:25:17.867",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000147.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1518.43,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1518.13,
+        1519.07
+      ],
+      "number": 148,
+      "timestampSeconds": 1518.433,
+      "timestamp": "00:25:18.433",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000148.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1520.1,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1520.07
+      ],
+      "number": 149,
+      "timestampSeconds": 1520.1,
+      "timestamp": "00:25:20.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000149.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1520.2,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1520.13
+      ],
+      "number": 150,
+      "timestampSeconds": 1520.2,
+      "timestamp": "00:25:20.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000150.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1520.3,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1520.27
+      ],
+      "number": 151,
+      "timestampSeconds": 1520.3,
+      "timestamp": "00:25:20.300",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000151.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1520.365,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1520.33
+      ],
+      "number": 152,
+      "timestampSeconds": 1520.367,
+      "timestamp": "00:25:20.367",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000152.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1520.435,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1520.4
+      ],
+      "number": 153,
+      "timestampSeconds": 1520.467,
+      "timestamp": "00:25:20.467",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000153.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1520.5349999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1520.47
+      ],
+      "number": 154,
+      "timestampSeconds": 1520.567,
+      "timestamp": "00:25:20.567",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000154.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1520.635,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1520.6
+      ],
+      "number": 155,
+      "timestampSeconds": 1520.667,
+      "timestamp": "00:25:20.667",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000155.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1520.7,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1520.67
+      ],
+      "number": 156,
+      "timestampSeconds": 1520.7,
+      "timestamp": "00:25:20.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000156.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0013.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1520.7649999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1520.73
+      ],
+      "number": 157,
+      "timestampSeconds": 1520.767,
+      "timestamp": "00:25:20.767",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000157.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1521.1,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1520.8
+      ],
+      "number": 158,
+      "timestampSeconds": 1521.1,
+      "timestamp": "00:25:21.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000158.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1526.03,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1525.73
+      ],
+      "number": 159,
+      "timestampSeconds": 1526.033,
+      "timestamp": "00:25:26.033",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000159.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1546.83,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1546.53,
+        1549.23
+      ],
+      "number": 160,
+      "timestampSeconds": 1546.833,
+      "timestamp": "00:25:46.833",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000160.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1572.0700000000002,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1571.97,
+        1572.17
+      ],
+      "number": 161,
+      "timestampSeconds": 1572.1,
+      "timestamp": "00:26:12.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000161.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1572.2,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1572.17
+      ],
+      "number": 162,
+      "timestampSeconds": 1572.2,
+      "timestamp": "00:26:12.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000162.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1572.2649999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1572.23
+      ],
+      "number": 163,
+      "timestampSeconds": 1572.267,
+      "timestamp": "00:26:12.267",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000163.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1572.6,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1572.3,
+        1572.9
+      ],
+      "number": 164,
+      "timestampSeconds": 1572.6,
+      "timestamp": "00:26:12.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000164.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1572.935,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1572.9
+      ],
+      "number": 165,
+      "timestampSeconds": 1572.967,
+      "timestamp": "00:26:12.967",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000165.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1573,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1572.97
+      ],
+      "number": 166,
+      "timestampSeconds": 1573,
+      "timestamp": "00:26:13.000",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000166.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1573.065,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1573.03
+      ],
+      "number": 167,
+      "timestampSeconds": 1573.067,
+      "timestamp": "00:26:13.067",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000167.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1573.3999999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1573.1
+      ],
+      "number": 168,
+      "timestampSeconds": 1573.4,
+      "timestamp": "00:26:13.400",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000168.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0014.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1575.33,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1575.03
+      ],
+      "number": 169,
+      "timestampSeconds": 1575.333,
+      "timestamp": "00:26:15.333",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000169.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1580.3999999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1580.1
+      ],
+      "number": 170,
+      "timestampSeconds": 1580.4,
+      "timestamp": "00:26:20.400",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000170.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1585.065,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1585.03
+      ],
+      "number": 171,
+      "timestampSeconds": 1585.067,
+      "timestamp": "00:26:25.067",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000171.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1585.135,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1585.1
+      ],
+      "number": 172,
+      "timestampSeconds": 1585.167,
+      "timestamp": "00:26:25.167",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000172.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1585.2,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1585.17
+      ],
+      "number": 173,
+      "timestampSeconds": 1585.2,
+      "timestamp": "00:26:25.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000173.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1585.53,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1585.23
+      ],
+      "number": 174,
+      "timestampSeconds": 1585.533,
+      "timestamp": "00:26:25.533",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000174.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1592.835,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1592.77
+      ],
+      "number": 175,
+      "timestampSeconds": 1592.867,
+      "timestamp": "00:26:32.867",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000175.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1593.2,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1592.9,
+        1594.7
+      ],
+      "number": 176,
+      "timestampSeconds": 1593.2,
+      "timestamp": "00:26:33.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000176.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1594.885,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1594.77,
+        1595
+      ],
+      "number": 177,
+      "timestampSeconds": 1594.9,
+      "timestamp": "00:26:34.900",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000177.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1601.335,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1601.17,
+        1601.5
+      ],
+      "number": 178,
+      "timestampSeconds": 1601.367,
+      "timestamp": "00:26:41.367",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000178.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1601.5349999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1601.5
+      ],
+      "number": 179,
+      "timestampSeconds": 1601.567,
+      "timestamp": "00:26:41.567",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000179.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1601.87,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1601.57
+      ],
+      "number": 180,
+      "timestampSeconds": 1601.9,
+      "timestamp": "00:26:41.900",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000180.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0015.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1605.53,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1605.23,
+        1606.63
+      ],
+      "number": 181,
+      "timestampSeconds": 1605.533,
+      "timestamp": "00:26:45.533",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000181.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1606.83,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1606.63,
+        1607.03
+      ],
+      "number": 182,
+      "timestampSeconds": 1606.833,
+      "timestamp": "00:26:46.833",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000182.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1607.065,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1607.03
+      ],
+      "number": 183,
+      "timestampSeconds": 1607.067,
+      "timestamp": "00:26:47.067",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000183.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1607.135,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1607.1
+      ],
+      "number": 184,
+      "timestampSeconds": 1607.167,
+      "timestamp": "00:26:47.167",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000184.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1607.2,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1607.17
+      ],
+      "number": 185,
+      "timestampSeconds": 1607.2,
+      "timestamp": "00:26:47.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000185.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1607.2649999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1607.23
+      ],
+      "number": 186,
+      "timestampSeconds": 1607.267,
+      "timestamp": "00:26:47.267",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000186.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1607.435,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1607.3,
+        1607.57
+      ],
+      "number": 187,
+      "timestampSeconds": 1607.467,
+      "timestamp": "00:26:47.467",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000187.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1607.6,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1607.57
+      ],
+      "number": 188,
+      "timestampSeconds": 1607.6,
+      "timestamp": "00:26:47.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000188.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1607.73,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1607.63,
+        1607.83
+      ],
+      "number": 189,
+      "timestampSeconds": 1607.733,
+      "timestamp": "00:26:47.733",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000189.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1607.865,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1607.83
+      ],
+      "number": 190,
+      "timestampSeconds": 1607.867,
+      "timestamp": "00:26:47.867",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000190.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1607.935,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1607.9
+      ],
+      "number": 191,
+      "timestampSeconds": 1607.967,
+      "timestamp": "00:26:47.967",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000191.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1608,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1607.97
+      ],
+      "number": 192,
+      "timestampSeconds": 1608,
+      "timestamp": "00:26:48.000",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000192.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0016.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1608.3,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1608.03,
+        1608.57
+      ],
+      "number": 193,
+      "timestampSeconds": 1608.3,
+      "timestamp": "00:26:48.300",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000193.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1608.7350000000001,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1608.57,
+        1608.9
+      ],
+      "number": 194,
+      "timestampSeconds": 1608.767,
+      "timestamp": "00:26:48.767",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000194.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1609.2649999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1609.1,
+        1609.43
+      ],
+      "number": 195,
+      "timestampSeconds": 1609.267,
+      "timestamp": "00:26:49.267",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000195.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1611.8,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1611.5
+      ],
+      "number": 196,
+      "timestampSeconds": 1611.8,
+      "timestamp": "00:26:51.800",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000196.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1620.865,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1620.83
+      ],
+      "number": 197,
+      "timestampSeconds": 1620.867,
+      "timestamp": "00:27:00.867",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000197.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1620.935,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1620.9
+      ],
+      "number": 198,
+      "timestampSeconds": 1620.967,
+      "timestamp": "00:27:00.967",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000198.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1621,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1620.97
+      ],
+      "number": 199,
+      "timestampSeconds": 1621,
+      "timestamp": "00:27:01.000",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000199.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1621.1,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1621.03
+      ],
+      "number": 200,
+      "timestampSeconds": 1621.1,
+      "timestamp": "00:27:01.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000200.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1621.47,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1621.17
+      ],
+      "number": 201,
+      "timestampSeconds": 1621.5,
+      "timestamp": "00:27:01.500",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000201.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1637.97,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1637.67,
+        1639.6
+      ],
+      "number": 202,
+      "timestampSeconds": 1638,
+      "timestamp": "00:27:18.000",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000202.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1640.365,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1640.33
+      ],
+      "number": 203,
+      "timestampSeconds": 1640.367,
+      "timestamp": "00:27:20.367",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000203.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1640.7,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1640.4,
+        1641.47
+      ],
+      "number": 204,
+      "timestampSeconds": 1640.7,
+      "timestamp": "00:27:20.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000204.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0017.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1641.77,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1641.47
+      ],
+      "number": 205,
+      "timestampSeconds": 1641.8,
+      "timestamp": "00:27:21.800",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000205.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1654.03,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1653.73
+      ],
+      "number": 206,
+      "timestampSeconds": 1654.033,
+      "timestamp": "00:27:34.033",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000206.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1656.7,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1656.4,
+        1658.33
+      ],
+      "number": 207,
+      "timestampSeconds": 1656.7,
+      "timestamp": "00:27:36.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000207.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1665.5349999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1665.47
+      ],
+      "number": 208,
+      "timestampSeconds": 1665.567,
+      "timestamp": "00:27:45.567",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000208.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1665.8999999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1665.6,
+        1667.4
+      ],
+      "number": 209,
+      "timestampSeconds": 1665.9,
+      "timestamp": "00:27:45.900",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000209.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1667.435,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1667.4
+      ],
+      "number": 210,
+      "timestampSeconds": 1667.467,
+      "timestamp": "00:27:47.467",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000210.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1667.77,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1667.47,
+        1669.33
+      ],
+      "number": 211,
+      "timestampSeconds": 1667.8,
+      "timestamp": "00:27:47.800",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000211.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1679.1699999999998,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1678.87
+      ],
+      "number": 212,
+      "timestampSeconds": 1679.2,
+      "timestamp": "00:27:59.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000212.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1681.2,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1681,
+        1681.4
+      ],
+      "number": 213,
+      "timestampSeconds": 1681.2,
+      "timestamp": "00:28:01.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000213.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1681.7,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1681.4,
+        1684.47
+      ],
+      "number": 214,
+      "timestampSeconds": 1681.7,
+      "timestamp": "00:28:01.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000214.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1685.1,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1685.07
+      ],
+      "number": 215,
+      "timestampSeconds": 1685.1,
+      "timestamp": "00:28:05.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000215.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1685.165,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1685.13
+      ],
+      "number": 216,
+      "timestampSeconds": 1685.167,
+      "timestamp": "00:28:05.167",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000216.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0018.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1685.2350000000001,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1685.2
+      ],
+      "number": 217,
+      "timestampSeconds": 1685.267,
+      "timestamp": "00:28:05.267",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000217.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1685.3,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1685.27
+      ],
+      "number": 218,
+      "timestampSeconds": 1685.3,
+      "timestamp": "00:28:05.300",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000218.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1685.6299999999999,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1685.33,
+        1686.4
+      ],
+      "number": 219,
+      "timestampSeconds": 1685.633,
+      "timestamp": "00:28:05.633",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000219.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1686.435,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1686.4
+      ],
+      "number": 220,
+      "timestampSeconds": 1686.467,
+      "timestamp": "00:28:06.467",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000220.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1686.77,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1686.47
+      ],
+      "number": 221,
+      "timestampSeconds": 1686.8,
+      "timestamp": "00:28:06.800",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000221.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1691.57,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1691.27,
+        1694.8
+      ],
+      "number": 222,
+      "timestampSeconds": 1691.6,
+      "timestamp": "00:28:11.600",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000222.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1698.5,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1698.47
+      ],
+      "number": 223,
+      "timestampSeconds": 1698.5,
+      "timestamp": "00:28:18.500",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000223.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1698.565,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1698.53
+      ],
+      "number": 224,
+      "timestampSeconds": 1698.567,
+      "timestamp": "00:28:18.567",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000224.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1698.635,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1698.6
+      ],
+      "number": 225,
+      "timestampSeconds": 1698.667,
+      "timestamp": "00:28:18.667",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000225.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1698.7,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1698.67
+      ],
+      "number": 226,
+      "timestampSeconds": 1698.7,
+      "timestamp": "00:28:18.700",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000226.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1698.7649999999999,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1698.73
+      ],
+      "number": 227,
+      "timestampSeconds": 1698.767,
+      "timestamp": "00:28:18.767",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000227.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1698.935,
+      "reasons": [
+        "unindexed-neighbor-cut-pair",
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1698.8,
+        1699.07
+      ],
+      "number": 228,
+      "timestampSeconds": 1698.967,
+      "timestamp": "00:28:18.967",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000228.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0019.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1722.1,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1721.8
+      ],
+      "number": 229,
+      "timestampSeconds": 1722.1,
+      "timestamp": "00:28:42.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000229.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0020.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1791.07,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1790.77,
+        1793.87
+      ],
+      "number": 230,
+      "timestampSeconds": 1791.1,
+      "timestamp": "00:29:51.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000230.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0020.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "requestedTimestampSeconds": 1794.1699999999998,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1793.87
+      ],
+      "number": 231,
+      "timestampSeconds": 1794.2,
+      "timestamp": "00:29:54.200",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000231.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0020.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "requestedTimestampSeconds": 1816,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        1815.7,
+        1818.8
+      ],
+      "number": 232,
+      "timestampSeconds": 1816,
+      "timestamp": "00:30:16.000",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000232.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0020.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "requestedTimestampSeconds": 1819.1,
+      "reasons": [
+        "cut-without-indexed-frame-in-next-second"
+      ],
+      "cutTimes": [
+        1818.8
+      ],
+      "number": 233,
+      "timestampSeconds": 1819.1,
+      "timestamp": "00:30:19.100",
+      "image": "qa/brief/Yvl_7_Up7zU/candidate-000233.jpg",
+      "sheet": "qa/brief/Yvl_7_Up7zU/sheet-0020.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    }
+  ]
+}

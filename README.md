@@ -54,9 +54,9 @@ npm run deploy:production
 
 ## Donoteat storyboards
 
-`https://artifacts.vza.net/donoteat-storyboards/` contains 24 illustrated storyboards for Franklin, Power, Politics & Planning, and the selected bonus videos. Search full transcripts from the main page; matching excerpts link to their storyboard panels. Video titles, series, episode labels and IDs are also searchable. Each panel starts with its title and time range above the frame; full dialogue appears immediately below the frame, followed by camera, action, visual-gag and audio notes. Story sheets, transcripts and supporting evidence are included; source-video links open YouTube.
+`https://artifacts.vza.net/donoteat-storyboards/` is donoteat01 illustrated storyboards, a collection of 24 Franklin, Power, Politics & Planning and bonus videos. Search the transcripts to find a passage and open its storyboard panel. Titles sit above the frames, with dialogue and scene notes below. Source-video links open YouTube.
 
-Soundtrack identifications retain their credit or matched-recording provenance. Generative audio observations are explicitly unverified candidates; complete processing does not establish that every sound or gag was detected.
+The [colophon](https://artifacts.vza.net/donoteat-storyboards/colophon) explains the transcription, frame selection, music identification and corrections. Working notes and source files are linked there; processing logs and tagging progress stay off the reading pages.
 
 ## QR reader artifact
 

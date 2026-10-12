@@ -1,0 +1,44 @@
+[
+  {
+    "source": "qa/audio-llm/sources/5MrkfLP25Rg.wav",
+    "sourceStartSeconds": 99.0,
+    "sourceEndSeconds": 122.1,
+    "sourceStartFrame": 1584000,
+    "sourceEndFrame": 1953600,
+    "sampleRateHz": 16000,
+    "channels": 1,
+    "sampleWidthBytes": 2,
+    "clip": "qa/artesian-music/99.000-122.100.wav",
+    "clipSha256": "231551a8449b8b18c054d331e36de1d7fe0b54835ec2087b74400703b1b0c5f8",
+    "pcmSha256": "80690222e76e2844c6dcdff21771acd1f413d9aad5827a0bb6ecf1b756f780b4",
+    "method": "Exact PCM frame slice from cached continuous WAV; no filtering."
+  },
+  {
+    "source": "qa/audio-llm/sources/5MrkfLP25Rg.wav",
+    "sourceStartSeconds": 122.1,
+    "sourceEndSeconds": 137.0,
+    "sourceStartFrame": 1953600,
+    "sourceEndFrame": 2192000,
+    "sampleRateHz": 16000,
+    "channels": 1,
+    "sampleWidthBytes": 2,
+    "clip": "qa/artesian-music/122.100-137.000.wav",
+    "clipSha256": "eac4b7d727482919d53636f2f3356f2586e3dc00d9e1eb9682c241689ed44cd0",
+    "pcmSha256": "40873594af8196aa0200efc55d9b343709a2cad897adb85310bbdc9a5dda1f4f",
+    "method": "Exact PCM frame slice from cached continuous WAV; no filtering."
+  },
+  {
+    "source": "qa/audio-llm/sources/5MrkfLP25Rg.wav",
+    "sourceStartSeconds": 99.0,
+    "sourceEndSeconds": 137.0,
+    "sourceStartFrame": 1584000,
+    "sourceEndFrame": 2192000,
+    "sampleRateHz": 16000,
+    "channels": 1,
+    "sampleWidthBytes": 2,
+    "clip": "qa/artesian-music/99.000-137.000.wav",
+    "clipSha256": "ae35c0afca42925e7f516d05e9f9bdd69ec4c50fb6a7102e7dee51056674e13d",
+    "pcmSha256": "a687cfcb5ddeaebb894568b5efa19b9f6719496f1630aa9f522c724ca51a09f0",
+    "method": "Exact PCM frame slice from cached continuous WAV; no filtering."
+  }
+]

@@ -1,0 +1,1840 @@
+{
+  "id": "8LysiXf-DJU",
+  "title": "donoteat DESTROYS cities:skylines industries DLC with FACTS & LOGIC",
+  "requests": [
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 0,
+      "sampleEndSeconds": 20.0,
+      "requestedEndSeconds": 20,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/0.000-20.000.wav",
+      "sha256": "0c2878234760e4ba86b6eb2e3ae588030e7bd87f8b70ac33f087439c0abefee6",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "0",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/0.000-20.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:10:50.914625+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 0,
+        "sourceEndSeconds": 12.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778252142,
+        "timezone": "Europe/Moscow",
+        "tagid": "5A1FFBA9-AB5D-419A-88C5-CEEE6C115A96"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/2152EAE8-E65A-4651-B240-B5EC9CD7807A/5A1FFBA9-AB5D-419A-88C5-CEEE6C115A96?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:10:52 GMT",
+          "X-Forensic-Id": "2c47bb63-609a-46bc-ab9a-9d729cc02ce7",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778252142,\"timezone\":\"Europe/Moscow\",\"tagid\":\"5A1FFBA9-AB5D-419A-88C5-CEEE6C115A96\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 20,
+      "sampleEndSeconds": 40.0,
+      "requestedEndSeconds": 40,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/20.000-40.000.wav",
+      "sha256": "3adb25c38f071a6c1691d544799d4f0965239f483e4c54c9a5cc771f09b78898",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "20",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/20.000-40.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:10:53.033840+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 20,
+        "sourceEndSeconds": 32.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778254209,
+        "timezone": "Europe/Moscow",
+        "tagid": "49BB7655-6CA9-4939-ACC8-1B70DE271C67"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/C04CB5A9-1BE8-494A-A4D9-BAA3B8C07ECA/49BB7655-6CA9-4939-ACC8-1B70DE271C67?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:10:54 GMT",
+          "X-Forensic-Id": "c85f3a24-b512-47fd-8af4-f9ebaca2f5ba",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778254209,\"timezone\":\"Europe/Moscow\",\"tagid\":\"49BB7655-6CA9-4939-ACC8-1B70DE271C67\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 40,
+      "sampleEndSeconds": 60.0,
+      "requestedEndSeconds": 60,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/40.000-60.000.wav",
+      "sha256": "ea8727605ef7b1a08a247e802c194281add8450bd99039a3dc09df2d043ae469",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "40",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/40.000-60.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:10:55.089222+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 40,
+        "sourceEndSeconds": 52.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778256369,
+        "timezone": "Europe/Moscow",
+        "tagid": "C9EF242C-1252-4721-B6B5-EFFCC096BB65"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/3A05593B-FEB1-48E5-9244-877EB4ADA150/C9EF242C-1252-4721-B6B5-EFFCC096BB65?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:10:55 GMT",
+          "X-Forensic-Id": "c8e51e9f-05b0-472f-b398-d5f9be68b8f3",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778256369,\"timezone\":\"Europe/Moscow\",\"tagid\":\"C9EF242C-1252-4721-B6B5-EFFCC096BB65\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 120,
+      "sampleEndSeconds": 140.0,
+      "requestedEndSeconds": 140,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/120.000-140.000.wav",
+      "sha256": "7ccf6d54015fb00b36a1aa35f6de239f29510ea8fce06380b12e76e0cd081fde",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "120",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/120.000-140.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:10:57.068656+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,gCX+ygGszUWoCQAAAJwRlAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAD9AgAAAHwAAAAAQKgJAABAAANg0gAAACwBXfcOEk9lCww31mn2DALaZJsJAr90OhBy21/zCACjXfkLbq95kwwRtXnDC3RGbMIMCZll1goB5ml9Di/lZXQKD0Vufg0W2V5JCR23YYcLOOZrAQ4MDW77CQA2cEMNEKtmgAweSW1eEArDcYwOME5gfwk08GDQCQJJbXEQEvdpEA0nzV+bEBzAayENAcdf2wlkkmlLCgrneEYNhYh1hBAOKnN9DStTd5EQEhJnwAkDpHXNDCkeaLALA7dp9Q4gJnD+DCOYYAYJOyNrKg4FwW+cCgAAQQADYAIDAAAop0IlGAH3Zv8RAIc/MSoCRT9uLRJdMDUkPLBeCSMFNXZpEwDRYgYdAXpewBkH4GTvIQGAXoUbBVZz7hQCn1a4LAFYW+ImCYxbiShLTFiZJQitbPIUAIVh+xcAQVfsHQAJW/wjABdV7CYA7FblKQn5UTEjBOtXhRoAVlhRJgDcUzUsATNZcx0DcG6IFAJmYPcoBtpqahFIQWrOFgSSaKwcA9pZ5yECgoO1EACFXJAqA5Fk/BQGoVa2KADjXDcsBAxYhSMECFFCHwHJZXwbARtjmRMyJm6SEgNCW7EjAb1tbRUAp11kHAH5TzwgABdn0SoBSGbdGANiYL0tP9NZ6RsDwWJzFQBXWaUgAWhhaSQDvGLMKB8ZXMUaAhdbEx4JIHXFFADIW8cbAG1kAiMEjXZiEQAtV1sYAABfriYDAWc1KgHJaFUtC5NTTSgAbFuUKwFhc7kQTEZfdCICO2FAGAAzZTomAodtxBQAi2W1GwB+bM0pAQJQNh8BkWlALQgobakRRElaUyoGhV5gJAvGWeErHXFaLR0DrWT+IAMIcwsUAJtbwRoD3G+6EABeWXAlAylmpCgxNWXZEQuLUwoXAKFCchoonlNyJAObYBESARpWPRgAek4IHgB5ShEhBVBXACoCQGE4EwJ0V8ctAmtX/RYBumHVEwAsU48ab/9g7RUL314vGANQa5cUAQd9KhEBXWiOGwSxXA4fBfBf9CEBfVcMJQPUYXsrLrNuXBEAlmE9KQJab5cUA6dV4BoALE8zHgDwUYchIBBP/CMtxFRxHAXCX/AWBQ5ZvBsCAXRHEQD6Y8gUAWVakh8Fu18RKQHWZXAsIepJ/hwB1W1uEwc5TKMaAYRZMRcAIFNPIQAVUp4kAEtg8ScA9WQeKwiOSoEcAAVkMSkBgFkzFgBbZHgsMndRtBwGplJ1IwMyWi0qA5l0lBIBoFD0GCIuaPcQF0RsYxICL1tZIQE/akQVAOtSLBsB3ViBJAS1abQUAPtYPSYDA1clKTYzWrkRAD9MRxUghUXWLAAAQgADYK8FAAAjlUG/bgE6RfZIAN87hWgCwT4xWgHTSZVRAgY7Nl4Bn1J/PAEGRHU2ErhHs1QAn0e5VxI0OVBlIldLRGoBUTu/WwDbSFFtA4BEklQG2UZKYAXdRRZeAWpGQ2EBI0yGRwk0TLtBAa1Ft2UBk0xpPgHHUGE7CNZWcDAAOVc2M0j7Nu5ZAfRLMkwEXETuMAc2Qus1AO040FYASDnDXwHGROtBAH5O+UcAi075SgE/TNIvALdA0zgAZkPVOwB5QdU+CGBErDcAzkdTQwAqT0JGAAJUH0kBw039LgPHO8pUARhRWWoBz0X9NADWN7taACs8T14BxkO6OgHEOdhXAZhEgz0AAURuQAVvSqUxVNth5i4ARUfpXAEhWFc/APtZikMAnGTVRwDaTm5UAJlMDWEAA1t2ZQG0Y8syAPNe2TYADFkVOwDGXvdLAhtZnGkAcl+0bQL4Xq1KETFOWlYFFk99VQwjW/drAQxYvmYBWkwHXww+U2BBAOJQgUUAoEXaXQE6VxQ3Em9K2EMBg1e2PwHkV3E8E85DUVoBa0+8TwDgRqNgBDJHO2AsyVQUaAD2T7lrAEFPLW8BKzwOWgCcR1hhAZ5NR08BC0YDUwJBP6dELQNKE2UBjmRaNABKVko7AKJEpj4BdzkVXgtkPjpQAVJShEAAbDvjVAGJYgcvADlJ2UYXm0NjTgHiOV1gAv85wVIBhjgNVzVDVKlIAEJN/0sBk0LqWQEwWgg0AH5QKkUA2UGDVgBtUupgAA5XcWQAeFzlZwDQVltrAMlU0G4BTVAVOwAXTIhdB9FNVUAAHFGtRwA4RHxVAAlVuWoBoWESMgK5W/E4APlLQE4A7Dy5WABYSK9fAfJVw0oAYETaUQrOUiw2BWBjiDEBuz7ZWwQVWYk3Az5aDzwCG09MQgH9PDNZAaVKUU8AMUOuUiFpRzFAArw9IFUFP03BSwCwQAFeDH5J+G8FBlHANABBSwo6FiU7QWYCATzwYgfOTzM7BPtHTmgBPUI7ZQFKXMw1AOI9MUMBF1spLwAQWHcyIsZJEGcAiE6FbgYFUXZrCA9VszYF21LRPwFMT487AGlW6U4F91OERQAtRq5pAVVFhVkArkcOYAJiSUlmFV9PBzMBwUsUOyC6RSxhADQ9yWoBEFDoQgCDOYlaABBDu2cCQVB5RgCDPqhTAzlUyjQBlzqoVwFqP9FRBHBSwDMOmVJSMQSUT8M7AaE7hmMBZ00qQgHgRBdPAZdNYEUDUEDObhd2PFRpCIg4OFYA8DScWgMHRi42BtxFgC8B1T2cXgGRMs1ZA580BlcsmUggOgNcUxAzA51bzi8HO1wELwiXXoQwABVNeT0B8VvNNgvpSdVDAQdPSU4AYlIkVQBtUfxhAIxYgmcA2lf9bQKQTRtfDCxZzT4Ab0x2RwEkVFs7AZtbVDQP9U50QALFU0YyATBZ8i4AJ1P3OBLfSMBOJCNL8lYAa1YcbAFTQzJQATZOOmIKDkUSRBw4ZKkvAbVd5TICj2L+NQIrW5k8DI9G5l0AP0gSYgAiTvBpAvpJKUsAAkwITwhITopEAb1Je2cCa1UEOAf6SBRmAyddDjUBS2WQLgH/XMkxCgFd5zIFTVemOwNUTrFFAbJLTUkCRFMpQQBtR89tAqBFGVQA/kLdYAt7Qu5SDM1EukoA4kJ+XQGdTlJPGOFKwF8CjWHpMgC3YD42AJFZvzkAIkESVgBiRCdsAXZZijwAdVTzQgCGSTJGAAJKPEkAa0rlYgH7WPc/GbZLDFABPkaJawDcSsFuHapL6TwDmU13QAbcSK4xAR9LWEYd2Uw0bAH5RNdUACJESF8B9TtmWwsOP2hWAJRBo2ABtVCzPwCwQ5lPAbFKyjsCAVFbLwKnTkMyAVhQVjYFE1PYPAJYVRBEABZLekcAg07zSgA6RMljALVLo2cB7EwRawJ4SH9VAA5AuFgA",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 120,
+        "sourceEndSeconds": 132.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778258263,
+        "timezone": "Europe/Moscow",
+        "tagid": "D4CEC85A-791A-4FFC-91C1-C235700BB84E"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/2F213BE0-CF6B-4C9A-83F6-636F9336ACCE/D4CEC85A-791A-4FFC-91C1-C235700BB84E?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:10:57 GMT",
+          "X-Forensic-Id": "24317183-6b48-4739-86b4-a1a5b79c8f0a",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778258263,\"timezone\":\"Europe/Moscow\",\"tagid\":\"D4CEC85A-791A-4FFC-91C1-C235700BB84E\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 240,
+      "sampleEndSeconds": 260.0,
+      "requestedEndSeconds": 260,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/240.000-260.000.wav",
+      "sha256": "1d8cb4f93cc761331d38cd43a405e9a44dbdc3d38ff0f41523f5897e129e1dca",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "240",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/240.000-260.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:10:59.117249+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 240,
+        "sourceEndSeconds": 252.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778260327,
+        "timezone": "Europe/Moscow",
+        "tagid": "63DC627C-08CD-4F82-B31F-706CFB336138"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/6236719D-C85C-4508-BFCF-BCFAD136EA25/63DC627C-08CD-4F82-B31F-706CFB336138?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:10:59 GMT",
+          "X-Forensic-Id": "6901ea8e-8fcd-4c55-b635-d5166d25ef76",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778260327,\"timezone\":\"Europe/Moscow\",\"tagid\":\"63DC627C-08CD-4F82-B31F-706CFB336138\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 360,
+      "sampleEndSeconds": 380.0,
+      "requestedEndSeconds": 380,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/360.000-380.000.wav",
+      "sha256": "d6277a4124a254fb17d4a3b748994619f13fa3736b579c41604dd71abf3b2f55",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "360",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/360.000-380.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:01.119980+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 360,
+        "sourceEndSeconds": 372.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778262287,
+        "timezone": "Europe/Moscow",
+        "tagid": "1FC22625-097F-4460-9B74-1E5D9509D29E"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/7169E50F-5AF3-4350-A285-6C3F512FFE82/1FC22625-097F-4460-9B74-1E5D9509D29E?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:01 GMT",
+          "X-Forensic-Id": "3554cb12-344e-46d5-b078-0af2668f26eb",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778262287,\"timezone\":\"Europe/Moscow\",\"tagid\":\"1FC22625-097F-4460-9B74-1E5D9509D29E\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 480,
+      "sampleEndSeconds": 500.0,
+      "requestedEndSeconds": 500,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/480.000-500.000.wav",
+      "sha256": "54c691ca8f339ae1bb3f081478e11875783b9c54bc145d8241befbe215c5dcd2",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "480",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/480.000-500.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:03.156534+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 480,
+        "sourceEndSeconds": 492.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778264413,
+        "timezone": "Europe/Moscow",
+        "tagid": "66441B06-B27B-40A6-A82F-DA0B332B343C"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/3D30BC58-AB4F-41FA-85E1-8A93D6057022/66441B06-B27B-40A6-A82F-DA0B332B343C?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:03 GMT",
+          "X-Forensic-Id": "6d380b1e-4e7e-4191-a6db-3b614dd9ecb8",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778264413,\"timezone\":\"Europe/Moscow\",\"tagid\":\"66441B06-B27B-40A6-A82F-DA0B332B343C\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 600,
+      "sampleEndSeconds": 620.0,
+      "requestedEndSeconds": 620,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/600.000-620.000.wav",
+      "sha256": "8dbb0b41e58e721cb1537d41c08cb672f726a3693009b12ee1a576acb97b383b",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "600",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/600.000-620.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:05.126064+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 600,
+        "sourceEndSeconds": 612.0
+      },
+      "rawResponse": {
+        "matches": [
+          {
+            "id": "317672685",
+            "offset": 48.007359375,
+            "timeskew": 0.001696825,
+            "frequencyskew": 0.0003222227
+          },
+          {
+            "id": "484309503",
+            "offset": 47.779023437000006,
+            "timeskew": 0.0009714365,
+            "frequencyskew": -0.00060391426
+          },
+          {
+            "id": "310840612",
+            "offset": 47.16678906200001,
+            "timeskew": -0.02398038,
+            "frequencyskew": -0.025400996
+          },
+          {
+            "id": "64192358",
+            "offset": 48.024453125,
+            "timeskew": 0.0019425154,
+            "frequencyskew": 0.00024163723
+          },
+          {
+            "id": "828515689",
+            "offset": 46.596367187000006,
+            "timeskew": -0.025012732,
+            "frequencyskew": -0.024935484
+          }
+        ],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778266394,
+        "timezone": "Europe/Moscow",
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "64192358",
+          "title": "Gary, Indiana",
+          "subtitle": "Robert Preston & Meredith Willson",
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/e3/43/e4e3438e-38ba-4adc-fce7-7dede27d7d63/cover.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/e3/43/e4e3438e-38ba-4adc-fce7-7dede27d7d63/cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/e3/43/e4e3438e-38ba-4adc-fce7-7dede27d7d63/cover.jpg/400x400cc.jpg",
+            "joecolor": "b:fbfbfbp:302d2bs:343433t:595655q:5c5b5b"
+          },
+          "display": {
+            "actions": [
+              {
+                "name": "display:updateshazam",
+                "type": "webview",
+                "uri": "https://www.shazam.com/inapp/updatenow/64192358"
+              }
+            ]
+          },
+          "share": {
+            "subject": "Gary, Indiana - Robert Preston & Meredith Willson",
+            "text": "Gary, Indiana by Robert Preston & Meredith Willson",
+            "href": "https://www.shazam.com/track/64192358/gary-indiana",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/e3/43/e4e3438e-38ba-4adc-fce7-7dede27d7d63/cover.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Gary, Indiana by Robert Preston & Meredith Willson.",
+            "html": "https://www.shazam.com/snippets/email-share/64192358?lang=en-US&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/64192358"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1514003874"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/22/53/b7225314-feb6-b20b-43c7-a19dbe9446ad/mzaf_6719063654768721660.plus.aac.p.m4a"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Gary%2C%20Indiana%20Robert%20Preston"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in YouTube Music",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:youtubemusic:androiddeeplink",
+                    "type": "uri",
+                    "uri": "https://music.youtube.com/search?q=Gary%2C+Indiana+Robert+Preston++Meredith+Willson&feature=shazam"
+                  }
+                ],
+                "type": "YOUTUBEMUSIC"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Gary%2C+Indiana%27%20artist%3A%27Robert+Preston++Meredith+Willson%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+              {
+                "caption": "OPEN IN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "intent",
+                    "uri": "intent://music.apple.com/gb/album/gary-indiana/1514003635?i=1514003874&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end"
+                  },
+                  {
+                    "name": "hub:applemusic:connect",
+                    "type": "applemusicconnect",
+                    "id": "1514003874",
+                    "uri": "https://unsupported.shazam.com"
+                  },
+                  {
+                    "name": "hub:applemusic:androidstore",
+                    "type": "uri",
+                    "uri": "https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "type": "SONG",
+              "metapages": [
+                {
+                  "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/e3/43/e4e3438e-38ba-4adc-fce7-7dede27d7d63/cover.jpg/400x400cc.jpg",
+                  "caption": "Gary, Indiana"
+                }
+              ],
+              "tabname": "Song",
+              "metadata": [
+                {
+                  "title": "Album",
+                  "text": "The Music Man (Motion-Picture Soundtrack)"
+                },
+                {
+                  "title": "Label",
+                  "text": "Digital Gramophone"
+                },
+                {
+                  "title": "Released",
+                  "text": "1962"
+                }
+              ]
+            }
+          ],
+          "url": "https://www.shazam.com/track/64192358/gary-indiana",
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "2691995"
+            }
+          ],
+          "genres": {
+            "primary": "Soundtrack"
+          },
+          "urlparams": {
+            "{tracktitle}": "Gary%2C+Indiana",
+            "{trackartist}": "Robert+Preston+%26+Meredith+Willson"
+          },
+          "highlightsurls": {},
+          "albumadamid": "1514003635",
+          "isrc": "GBH5G2100042"
+        },
+        "tagid": "91B3C920-C063-4176-9644-DF0F458102E3"
+      },
+      "status": "match",
+      "match": {
+        "key": "64192358",
+        "title": "Gary, Indiana",
+        "artist": "Robert Preston & Meredith Willson",
+        "serviceURL": "https://www.shazam.com/track/64192358/gary-indiana",
+        "sections": [
+          {
+            "type": "SONG",
+            "metapages": [
+              {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/e3/43/e4e3438e-38ba-4adc-fce7-7dede27d7d63/cover.jpg/400x400cc.jpg",
+                "caption": "Gary, Indiana"
+              }
+            ],
+            "tabname": "Song",
+            "metadata": [
+              {
+                "title": "Album",
+                "text": "The Music Man (Motion-Picture Soundtrack)"
+              },
+              {
+                "title": "Label",
+                "text": "Digital Gramophone"
+              },
+              {
+                "title": "Released",
+                "text": "1962"
+              }
+            ]
+          }
+        ]
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/DB752F7F-E9E2-48AE-81D9-1BE8A18ED71A/91B3C920-C063-4176-9644-DF0F458102E3?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:05 GMT",
+          "X-Forensic-Id": "ca09b5dc-4997-4ce7-8632-126caf3c952c",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[{\"id\":\"317672685\",\"offset\":48.007359375,\"timeskew\":0.001696825,\"frequencyskew\":3.222227E-4},{\"id\":\"484309503\",\"offset\":47.779023437000006,\"timeskew\":9.714365E-4,\"frequencyskew\":-6.0391426E-4},{\"id\":\"310840612\",\"offset\":47.16678906200001,\"timeskew\":-0.02398038,\"frequencyskew\":-0.025400996},{\"id\":\"64192358\",\"offset\":48.024453125,\"timeskew\":0.0019425154,\"frequencyskew\":2.4163723E-4},{\"id\":\"828515689\",\"offset\":46.596367187000006,\"timeskew\":-0.025012732,\"frequencyskew\":-0.024935484}],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778266394,\"timezone\":\"Europe/Moscow\",\"track\":{\"layout\":\"5\",\"type\":\"MUSIC\",\"key\":\"64192358\",\"title\":\"Gary, Indiana\",\"subtitle\":\"Robert Preston & Meredith Willson\",\"images\":{\"background\":\"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/e3/43/e4e3438e-38ba-4adc-fce7-7dede27d7d63/cover.jpg/400x400cc.jpg\",\"coverart\":\"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/e3/43/e4e3438e-38ba-4adc-fce7-7dede27d7d63/cover.jpg/400x400cc.jpg\",\"coverarthq\":\"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/e3/43/e4e3438e-38ba-4adc-fce7-7dede27d7d63/cover.jpg/400x400cc.jpg\",\"joecolor\":\"b:fbfbfbp:302d2bs:343433t:595655q:5c5b5b\"},\"display\":{\"actions\":[{\"name\":\"display:updateshazam\",\"type\":\"webview\",\"uri\":\"https://www.shazam.com/inapp/updatenow/64192358\"}]},\"share\":{\"subject\":\"Gary, Indiana - Robert Preston & Meredith Willson\",\"text\":\"Gary, Indiana by Robert Preston & Meredith Willson\",\"href\":\"https://www.shazam.com/track/64192358/gary-indiana\",\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/e3/43/e4e3438e-38ba-4adc-fce7-7dede27d7d63/cover.jpg/400x400cc.jpg\",\"twitter\":\"I used @Shazam to discover Gary, Indiana by Robert Preston & Meredith Willson.\",\"html\":\"https://www.shazam.com/snippets/email-share/64192358?lang=en-US&country=GB\",\"snapchat\":\"https://www.shazam.com/partner/sc/track/64192358\"},\"hub\":{\"type\":\"APPLEMUSIC\",\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png\",\"actions\":[{\"name\":\"apple\",\"type\":\"applemusicplay\",\"id\":\"1514003874\"},{\"name\":\"apple\",\"type\":\"uri\",\"uri\":\"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/22/53/b7225314-feb6-b20b-43c7-a19dbe9446ad/mzaf_6719063654768721660.plus.aac.p.m4a\"}],\"providers\":[{\"caption\":\"Open in Spotify\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:spotify:searchdeeplink\",\"type\":\"uri\",\"uri\":\"spotify:search:Gary%2C%20Indiana%20Robert%20Preston\"}],\"type\":\"SPOTIFY\"},{\"caption\":\"Open in YouTube Music\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:youtubemusic:androiddeeplink\",\"type\":\"uri\",\"uri\":\"https://music.youtube.com/search?q=Gary%2C+Indiana+Robert+Preston++Meredith+Willson&feature=shazam\"}],\"type\":\"YOUTUBEMUSIC\"},{\"caption\":\"Open in Deezer\",\"images\":{\"overflow\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png\",\"default\":\"https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png\"},\"actions\":[{\"name\":\"hub:deezer:searchdeeplink\",\"type\":\"uri\",\"uri\":\"deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Gary%2C+Indiana%27%20artist%3A%27Robert+Preston++Meredith+Willson%27%7D\"}],\"type\":\"DEEZER\"}],\"explicit\":false,\"displayname\":\"APPLE MUSIC\",\"options\":[{\"caption\":\"OPEN IN\",\"actions\":[{\"name\":\"hub:applemusic:deeplink\",\"type\":\"intent\",\"uri\":\"intent://music.apple.com/gb/album/gary-indiana/1514003635?i=1514003874&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end\"},{\"name\":\"hub:applemusic:connect\",\"type\":\"applemusicconnect\",\"id\":\"1514003874\",\"uri\":\"https://unsupported.shazam.com\"},{\"name\":\"hub:applemusic:androidstore\",\"type\":\"uri\",\"uri\":\"https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am\"}],\"beacondata\":{\"type\":\"open\",\"providername\":\"applemusic\"},\"image\":\"https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png\",\"type\":\"open\",\"listcaption\":\"Open in Apple Music\",\"overflowimage\":\"https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png\",\"colouroverflowimage\":false,\"providername\":\"applemusic\"}]},\"sections\":[{\"type\":\"SONG\",\"metapages\":[{\"image\":\"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/e3/43/e4e3438e-38ba-4adc-fce7-7dede27d7d63/cover.jpg/400x400cc.jpg\",\"caption\":\"Gary, Indiana\"}],\"tabname\":\"Song\",\"metadata\":[{\"title\":\"Album\",\"text\":\"The Music Man (Motion-Picture Soundtrack)\"},{\"title\":\"Label\",\"text\":\"Digital Gramophone\"},{\"title\":\"Released\",\"text\":\"1962\"}]}],\"url\":\"https://www.shazam.com/track/64192358/gary-indiana\",\"artists\":[{\"id\":\"42\",\"adamid\":\"2691995\"}],\"genres\":{\"primary\":\"Soundtrack\"},\"urlparams\":{\"{tracktitle}\":\"Gary%2C+Indiana\",\"{trackartist}\":\"Robert+Preston+%26+Meredith+Willson\"},\"highlightsurls\":{},\"albumadamid\":\"1514003635\",\"isrc\":\"GBH5G2100042\"},\"tagid\":\"91B3C920-C063-4176-9644-DF0F458102E3\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 720,
+      "sampleEndSeconds": 740.0,
+      "requestedEndSeconds": 740,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/720.000-740.000.wav",
+      "sha256": "fb95caf0dfcfb1b22d9b65046738ac8b04ed4f1711b1b128ad5a51b2a0bb35e5",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "720",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/720.000-740.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:07.159107+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 720,
+        "sourceEndSeconds": 732.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778268371,
+        "timezone": "Europe/Moscow",
+        "tagid": "79980675-15B5-43BD-B883-217B5BE0DD14"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/D3925225-45E8-428B-ACC8-99AACFE27348/79980675-15B5-43BD-B883-217B5BE0DD14?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:07 GMT",
+          "X-Forensic-Id": "10727973-ec14-4c9e-a45e-848adf53cdbb",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778268371,\"timezone\":\"Europe/Moscow\",\"tagid\":\"79980675-15B5-43BD-B883-217B5BE0DD14\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 840,
+      "sampleEndSeconds": 860.0,
+      "requestedEndSeconds": 860,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/840.000-860.000.wav",
+      "sha256": "bb460607524b6424654f460ec55614ca21d69159a90f4443bdb7288a028292c2",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "840",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/840.000-860.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:09.078318+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 840,
+        "sourceEndSeconds": 852.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778270275,
+        "timezone": "Europe/Moscow",
+        "tagid": "2A0DABD3-7392-4DA5-8855-9D71A381B768"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/3291DB97-4A66-437C-A7AA-6A94490A89E0/2A0DABD3-7392-4DA5-8855-9D71A381B768?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:09 GMT",
+          "X-Forensic-Id": "f42d26c0-1c4a-4a8f-ac72-dff50581989e",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778270275,\"timezone\":\"Europe/Moscow\",\"tagid\":\"2A0DABD3-7392-4DA5-8855-9D71A381B768\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 960,
+      "sampleEndSeconds": 980.0,
+      "requestedEndSeconds": 980,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/960.000-980.000.wav",
+      "sha256": "aeb842be697b73bd144e872875c268686e6202f318fa05f003efb8dca8d3e410",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "960",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/960.000-980.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:11.152102+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 960,
+        "sourceEndSeconds": 972.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778272297,
+        "timezone": "Europe/Moscow",
+        "tagid": "36499A9B-4496-464C-8B5C-5362008F9DB4"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/0F4998AB-4A00-4015-952B-A4903EE08000/36499A9B-4496-464C-8B5C-5362008F9DB4?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:10 GMT",
+          "X-Forensic-Id": "a9a2f26c-0932-4fda-88cd-1c5a588bdbaa",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778272297,\"timezone\":\"Europe/Moscow\",\"tagid\":\"36499A9B-4496-464C-8B5C-5362008F9DB4\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 1080,
+      "sampleEndSeconds": 1100.0,
+      "requestedEndSeconds": 1100,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/1080.000-1100.000.wav",
+      "sha256": "0ec242b4b79ec33597f781b9d259c528f709abbdfce0992a305b24cc4ab46af8",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1080",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/1080.000-1100.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:13.155952+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1080,
+        "sourceEndSeconds": 1092.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778274232,
+        "timezone": "Europe/Moscow",
+        "tagid": "34807A07-C0FB-42E5-8085-5568456E60CA"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/33EE22F1-9EE3-49D7-91DB-8D2E45A828E4/34807A07-C0FB-42E5-8085-5568456E60CA?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:12 GMT",
+          "X-Forensic-Id": "ef0a386c-0e6c-4285-8906-a1b5217543ca",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778274232,\"timezone\":\"Europe/Moscow\",\"tagid\":\"34807A07-C0FB-42E5-8085-5568456E60CA\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 1200,
+      "sampleEndSeconds": 1220.0,
+      "requestedEndSeconds": 1220,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/1200.000-1220.000.wav",
+      "sha256": "ddd7a554365c453792e304dc3f06ac5662908cc656d97967ebcf89e7c0deaf8e",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1200",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/1200.000-1220.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:15.139401+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1200,
+        "sourceEndSeconds": 1212.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778274383,
+        "timezone": "Europe/Moscow",
+        "tagid": "8A4A24D5-7C45-44E9-B64C-9C6368302987"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/0A0F7243-3DEA-4BF6-A36F-B9A6AB4C65EF/8A4A24D5-7C45-44E9-B64C-9C6368302987?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:14 GMT",
+          "X-Forensic-Id": "bef178f9-f149-4d12-bcc5-6081ba85f4ce",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778274383,\"timezone\":\"Europe/Moscow\",\"tagid\":\"8A4A24D5-7C45-44E9-B64C-9C6368302987\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 1320,
+      "sampleEndSeconds": 1340.0,
+      "requestedEndSeconds": 1340,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/1320.000-1340.000.wav",
+      "sha256": "ed307277b7d5bdaee12fc94015b73feaa191fa2ea76a0f9453c91fb3b4c0c8e2",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1320",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/1320.000-1340.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:15.288607+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1320,
+        "sourceEndSeconds": 1332.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778276400,
+        "timezone": "Europe/Moscow",
+        "tagid": "37534DE1-24B6-41A8-BC8B-FE994E82DACB"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/web/-/tag/D40D4E84-39E8-41D2-9F31-175EFDE49146/37534DE1-24B6-41A8-BC8B-FE994E82DACB?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:16 GMT",
+          "X-Forensic-Id": "a46147a8-807f-4a60-896e-4b4785a55d98",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778276400,\"timezone\":\"Europe/Moscow\",\"tagid\":\"37534DE1-24B6-41A8-BC8B-FE994E82DACB\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 1440,
+      "sampleEndSeconds": 1460.0,
+      "requestedEndSeconds": 1460,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/1440.000-1460.000.wav",
+      "sha256": "f8488132e2452fcd8796dc0157f85053cd28e8f7f310e6cc4e279fdc79b45244",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1440",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/1440.000-1460.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:17.258290+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1440,
+        "sourceEndSeconds": 1452.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778278347,
+        "timezone": "Europe/Moscow",
+        "tagid": "71E22E51-E700-4377-9CF3-A709A757DEC4"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/48373082-11D2-4099-B3E9-C9B18AB716DD/71E22E51-E700-4377-9CF3-A709A757DEC4?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:18 GMT",
+          "X-Forensic-Id": "5a779292-7f8d-4995-adee-5cdc0f1a1cc2",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778278347,\"timezone\":\"Europe/Moscow\",\"tagid\":\"71E22E51-E700-4377-9CF3-A709A757DEC4\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 1560,
+      "sampleEndSeconds": 1580.0,
+      "requestedEndSeconds": 1580,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/1560.000-1580.000.wav",
+      "sha256": "fd3c3d0647fb08b19d8d915664c8656c1ecf7f18fd80780e87907bce7b8ffaf5",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1560",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/1560.000-1580.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:19.290391+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1560,
+        "sourceEndSeconds": 1572.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778280446,
+        "timezone": "Europe/Moscow",
+        "tagid": "5373B325-EE7C-4C9D-A5EB-7A801DE68FB3"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/96EA7B78-1581-4F47-9F18-F99F0477B8D0/5373B325-EE7C-4C9D-A5EB-7A801DE68FB3?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:20 GMT",
+          "X-Forensic-Id": "d7cffc13-6493-4c3a-9550-400fad710621",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778280446,\"timezone\":\"Europe/Moscow\",\"tagid\":\"5373B325-EE7C-4C9D-A5EB-7A801DE68FB3\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 1680,
+      "sampleEndSeconds": 1700.0,
+      "requestedEndSeconds": 1700,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/1680.000-1700.000.wav",
+      "sha256": "b6406985d06e763053dccf905ef0b647fd970cde72fd4141452d2d150a25bfcd",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1680",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/1680.000-1700.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:21.343044+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1680,
+        "sourceEndSeconds": 1692.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778282487,
+        "timezone": "Europe/Moscow",
+        "tagid": "E582B0C5-372F-43CA-A50A-5118DBE3434F"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/iphone/-/tag/ECFCD9FF-C3C6-4399-8786-81C1FF529399/E582B0C5-372F-43CA-A50A-5118DBE3434F?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:22 GMT",
+          "X-Forensic-Id": "61631766-bf3c-4b2e-b29a-a385c6c7e396",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778282487,\"timezone\":\"Europe/Moscow\",\"tagid\":\"E582B0C5-372F-43CA-A50A-5118DBE3434F\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 1800,
+      "sampleEndSeconds": 1820.0,
+      "requestedEndSeconds": 1820,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/1800.000-1820.000.wav",
+      "sha256": "65922855d36e80750c54b4af756949c01a22b41ec95de9ec99db50f3e4c17f58",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1800",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/1800.000-1820.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:23.329166+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1800,
+        "sourceEndSeconds": 1812.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778284434,
+        "timezone": "Europe/Moscow",
+        "tagid": "714E5EDA-AA50-491C-8B64-30217831B5C8"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/74426BDD-03E4-45FA-BF23-B41307094DFB/714E5EDA-AA50-491C-8B64-30217831B5C8?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:24 GMT",
+          "X-Forensic-Id": "5d489c84-0e7e-4f35-82d1-2aec7e8170c1",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778284434,\"timezone\":\"Europe/Moscow\",\"tagid\":\"714E5EDA-AA50-491C-8B64-30217831B5C8\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 1920,
+      "sampleEndSeconds": 1940.0,
+      "requestedEndSeconds": 1940,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/1920.000-1940.000.wav",
+      "sha256": "19eeb216afcf07bb860ce4d489a70a67450f2c955be5d63ba337222c587b646a",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "1920",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/1920.000-1940.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:25.272049+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 1920,
+        "sourceEndSeconds": 1932.0
+      },
+      "rawResponse": {
+        "matches": [],
+        "location": {
+          "accuracy": 0.01
+        },
+        "timestamp": 1791778286390,
+        "timezone": "Europe/Moscow",
+        "tagid": "B14DBAEB-DB03-456B-A63C-C2D80BADA171"
+      },
+      "status": "unmatched",
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/737225AD-8402-43BB-AEA2-AF6FA6770C7E/B14DBAEB-DB03-456B-A63C-C2D80BADA171?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=utf-8",
+          "Vary": "Accept-Encoding",
+          "Date": "Mon, 12 Oct 2026 04:11:26 GMT",
+          "X-Forensic-Id": "45fe10a8-3d7a-4d68-9968-fb12003778dd",
+          "x-shazam-location": "uc1",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000",
+          "Transfer-Encoding": "chunked"
+        },
+        "body": "{\"matches\":[],\"location\":{\"accuracy\":0.01},\"timestamp\":1791778286390,\"timezone\":\"Europe/Moscow\",\"tagid\":\"B14DBAEB-DB03-456B-A63C-C2D80BADA171\"}"
+      }
+    },
+    {
+      "sourceIdentity": {
+        "source": "videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "sourceBytes": 1132932670,
+        "sourceMtimeNs": 1791766649105008840
+      },
+      "sampleStartSeconds": 2040,
+      "sampleEndSeconds": 2060.0,
+      "requestedEndSeconds": 2060,
+      "clip": "qa/soundtrack/8LysiXf-DJU/clips/2040.000-2060.000.wav",
+      "sha256": "2ce910af7fb1234f848c258a575cbb4878a45e2119ed0677839e70ae042b0c7d",
+      "ffmpegCommand": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-y",
+        "-threads",
+        "2",
+        "-filter_threads",
+        "1",
+        "-ss",
+        "2040",
+        "-i",
+        "/home/pedro/src/tmp-donoteat/videos/8LysiXf-DJU/8LysiXf-DJU.mkv",
+        "-t",
+        "20",
+        "-vn",
+        "-map",
+        "0:a:0",
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-c:a",
+        "pcm_s16le",
+        "/home/pedro/src/tmp-donoteat/qa/soundtrack/8LysiXf-DJU/clips/2040.000-2060.000.wav"
+      ],
+      "actualAudioDurationSeconds": 20.0,
+      "requestedAt": "2026-10-12T04:11:27.403377+00:00",
+      "mode": "all",
+      "fingerprintMethod": "python_legacy",
+      "fingerprint": {
+        "uri": "data:audio/vnd.shazam.sig;base64,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",
+        "samplems": 12000,
+        "sampleRateHz": 16000,
+        "numberSamples": 192000,
+        "sourceStartSeconds": 2040,
+        "sourceEndSeconds": 2052.0
+      },
+      "status": "error",
+      "error": {
+        "type": "ClientResponseError",
+        "message": "429, message='Too Many Requests', url='https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/440BC3A6-2B56-4F79-B1ED-4E34F1EF1B14/26FA7886-3CF5-4ACC-A8AA-DFB37F11F502?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3'"
+      },
+      "http": {
+        "url": "https://amp.shazam.com/discovery/v5/en-US/GB/android/-/tag/440BC3A6-2B56-4F79-B1ED-4E34F1EF1B14/26FA7886-3CF5-4ACC-A8AA-DFB37F11F502?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3",
+        "status": 429,
+        "headers": {
+          "Content-Length": "142",
+          "Content-Type": "text/html; charset=UTF-8",
+          "Date": "Mon, 12 Oct 2026 04:11:28 GMT",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "body": "<!doctype html><meta charset=\"utf-8\"><meta name=viewport content=\"width=device-width, initial-scale=1\"><title>429</title>429 Too Many Requests"
+      }
+    }
+  ],
+  "status": "probed",
+  "timingLimits": "Sample intervals and actual fingerprint intervals are evidence windows only, not cue boundaries. No listening claim.",
+  "recordingCandidates": [
+    {
+      "key": "64192358",
+      "title": "Gary, Indiana",
+      "artist": "Robert Preston & Meredith Willson",
+      "serviceURL": "https://www.shazam.com/track/64192358/gary-indiana",
+      "evidence": [
+        {
+          "sampleStartSeconds": 600,
+          "sampleEndSeconds": 620.0,
+          "fingerprintInterval": {
+            "uri": "data:audio/vnd.shazam.sig;base64,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",
+            "samplems": 12000,
+            "sampleRateHz": 16000,
+            "numberSamples": 192000,
+            "sourceStartSeconds": 600,
+            "sourceEndSeconds": 612.0
+          },
+          "clip": "qa/soundtrack/8LysiXf-DJU/clips/600.000-620.000.wav"
+        }
+      ],
+      "adjacentIndependentConfirmation": false,
+      "independentMatchCount": 1,
+      "limits": "Recording candidate; evidence windows are not continuous cue boundaries."
+    }
+  ],
+  "fingerprintMethod": "python_legacy",
+  "legacyRustRequestCount": 0
+}

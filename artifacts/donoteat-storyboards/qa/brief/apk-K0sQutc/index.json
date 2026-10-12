@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "signature": "{\"version\":1,\"source\":{\"path\":\"videos/apk-K0sQutc/apk-K0sQutc.mkv\",\"size\":3575717,\"mtimeMs\":1791765703224.3315},\"originals\":[0,5,10,15,20,25,30,35,40,45,49.067,50,54.067,55,56.4,58,60,63,65,70,75,80,85,90],\"hwaccel\":\"cuda\",\"mode\":null}",
+  "complete": true,
+  "id": "apk-K0sQutc",
+  "title": "Episode 4 of Power, Planning, and Politics is on Bsquiklehausen's channel",
+  "source": {
+    "path": "videos/apk-K0sQutc/apk-K0sQutc.mkv",
+    "size": 3575717,
+    "mtimeMs": 1791765703224.3315
+  },
+  "originalIndex": "visual/apk-K0sQutc/index.json",
+  "coverage": "Supplemental scene-cut candidates, NOT automatically identified gags or exhaustive coverage. Neighboring qualifying cuts 0.15–4 seconds apart with no original indexed frame strictly between, plus qualifying cuts with no original frame within 1 second after. No candidate cap. Gradual fades, small overlays, low-contrast changes and no-cut inserts may be missed; narration/audio-cue rereads and human image review remain essential. Original visual indices and authored storyboards are unchanged.",
+  "sampling": {
+    "requestedSceneThreshold": 0.15,
+    "sceneThreshold": 0.15,
+    "sceneDetectionWidth": 240,
+    "timestampOrigin": "first decoded source video frame = 0; frames store actual normalized presentation timestamps",
+    "pairSeconds": [
+      0.15,
+      4
+    ],
+    "afterCutCoverageSeconds": 1,
+    "duplicateToleranceSeconds": 0.001
+  },
+  "layout": {
+    "columns": 3,
+    "rows": 4,
+    "tileWidth": 480,
+    "tileHeight": 302
+  },
+  "scanProvenance": {
+    "kind": "chunked-source-scan",
+    "width": 240,
+    "threshold": 0.15,
+    "origin": 0,
+    "decoder": "cuda"
+  },
+  "summary": {
+    "id": "apk-K0sQutc",
+    "title": "Episode 4 of Power, Planning, and Politics is on Bsquiklehausen's channel",
+    "cuts": 5,
+    "candidates": 1,
+    "sheets": [
+      "qa/brief/apk-K0sQutc/sheet-0001.jpg"
+    ],
+    "index": "qa/brief/apk-K0sQutc/index.json",
+    "scanProvenance": {
+      "kind": "chunked-source-scan",
+      "width": 240,
+      "threshold": 0.15,
+      "origin": 0,
+      "decoder": "cuda"
+    }
+  },
+  "sheets": [
+    {
+      "path": "qa/brief/apk-K0sQutc/sheet-0001.jpg",
+      "firstCandidate": 1,
+      "candidateCount": 1
+    }
+  ],
+  "frames": [
+    {
+      "requestedTimestampSeconds": 56.699999999999996,
+      "reasons": [
+        "unindexed-neighbor-cut-pair"
+      ],
+      "cutTimes": [
+        56.4,
+        58
+      ],
+      "number": 1,
+      "timestampSeconds": 56.7,
+      "timestamp": "00:00:56.700",
+      "image": "qa/brief/apk-K0sQutc/candidate-000001.jpg",
+      "sheet": "qa/brief/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    }
+  ]
+}
