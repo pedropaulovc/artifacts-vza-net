@@ -154,6 +154,22 @@ p { margin: 0 0 var(--space-xs); }
 .entry-text { min-width: 0; }
 .entry .sources { font-size: var(--text-xs); }
 
+/* Style page: prose items with linked example panels */
+.style-section { padding-block: var(--space-lg); border-bottom: var(--rule-hair) solid var(--color-rule); min-width: 0; }
+.style-section > h2 { font-size: var(--text-xl); margin: 0 0 var(--space-sm); }
+.style-section > p { max-width: 46rem; }
+.style-item { padding-top: var(--space-md); margin-top: var(--space-md); border-top: var(--rule-hair) solid var(--color-rule); min-width: 0; }
+.style-item h3 { font-size: var(--text-lg); margin: 0 0 var(--space-2xs); }
+.style-item > p { max-width: 46rem; }
+.style-examples { list-style: none; margin: var(--space-sm) 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 9.5rem), 1fr)); gap: var(--space-md); }
+.style-example { min-width: 0; font-size: var(--text-sm); overflow-wrap: anywhere; }
+.style-example a { display: block; text-decoration: none; }
+.style-example a:hover .style-where { text-decoration: underline; }
+.style-example p { margin: var(--space-2xs) 0 0; }
+.style-where { display: block; font-family: var(--font-mono); font-size: var(--text-xs); margin-top: var(--space-2xs); }
+.crop { display: block; position: relative; overflow: hidden; width: 100%; background: var(--color-frame); }
+.crop img { position: absolute; max-width: none; height: auto; }
+
 @media (min-width: 48rem) {
   .entries { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-md) var(--space-lg); }
 }
