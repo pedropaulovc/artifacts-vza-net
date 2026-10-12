@@ -1,0 +1,80 @@
+{
+  "id": "LdeirDrinWk",
+  "title": "Cities: Skylines | Power, Politics, & Planning: Episode 3: Gentrification",
+  "coverage": "Source-description credits (where present) plus accepted work-level audio fingerprints (where corroborated); source credits remain untimed. Fingerprint samples are actual submitted 12-second signature intervals, not the full 20-second extraction windows or track cue boundaries. Catalogue artists are preserved in evidence, not promoted to composer/performer; contradictory recording labels do not override source performance credits. Music between samples, exact recordings, and full cue boundaries remain unresolved.  Recognition manifest qa/soundtrack/all-summary.json records 19 saved requests against 19 planned base samples for this video. The full network queue did not finish: HTTP429 Too Many Requests at 8LysiXf-DJU extraction2040s stopped subsequent requests; no automatic retry. Missing/unmatched requests do not establish absent music. Unrelated mixed-speech catalogue suggestions are not accepted. User-confirmed effects remain separate. Exact missing and failed base-sample starts are enumerated in qa/soundtrack/coverage.json; qa/soundtrack/local-summary.json records local extraction provenance for all501 planned clips, which is not API recognition coverage. Independent offline credited-reference evidence confirms March of the Volunteers (Chinese national anthem) in bounded two-second query windows; audio-reference-match is distinct from Shazam fingerprints and user observations. These windows are not full cue boundaries. Source-minus-reference offset 1187.5311875s remains consistent across matched windows; reference uploader is not performer identity.",
+  "tracks": [
+    {
+      "title": "Tragic Overture, Op. 81",
+      "composer": "Johannes Brahms",
+      "performer": "Musopen Symphony",
+      "identification": "audio-fingerprint",
+      "evidence": "videos/LdeirDrinWk/LdeirDrinWk.description:3: \"The intro music is Tragic Overture, Op. 81, by Johannes Brahms. It is the version by the Musopen Symphony, and is in the public domain.\" Supplementary work-level fingerprint evidence in qa/soundtrack/LdeirDrinWk/results.json: Shazam record key 315585656, raw title \"Johannes Brahms: Tragic Overture, Op. 81\", raw catalogue artist \"CLASSICAL MUSIC LIBRARY\". Work identity is corroborated; catalogue artist is NOT substituted for credited composer/performer and the exact recording remains unresolved.",
+      "samples": [
+        {
+          "startSeconds": 0,
+          "endSeconds": 12.0,
+          "evidence": "qa/soundtrack/LdeirDrinWk/results.json requests[0], rawResponse.track.key=315585656, tagid=0F94B28A-6ED4-41A3-934A-4267123B7CDD; fingerprint.sourceStartSeconds=0, sourceEndSeconds=12.0, samplems=12000. Submitted signature interval only; extracted clip 0–20.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 20,
+          "endSeconds": 32.0,
+          "evidence": "qa/soundtrack/LdeirDrinWk/results.json requests[1], rawResponse.track.key=315585656, tagid=C917935D-D0BE-467B-A247-78EC377978A7; fingerprint.sourceStartSeconds=20, sourceEndSeconds=32.0, samplems=12000. Submitted signature interval only; extracted clip 20–40.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 1604.068,
+          "endSeconds": 1616.068,
+          "evidence": "qa/soundtrack/LdeirDrinWk/results.json requests[16], rawResponse.track.key=315585656, tagid=AED62B0B-16B9-43CC-9C6E-64D031201F75; fingerprint.sourceStartSeconds=1604.068, sourceEndSeconds=1616.068, samplems=12000. Submitted signature interval only; extracted clip 1604.068–1624.068s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 1624.068,
+          "endSeconds": 1636.068,
+          "evidence": "qa/soundtrack/LdeirDrinWk/results.json requests[17], rawResponse.track.key=315585656, tagid=DF830622-950F-43B6-A2F0-6035C6B45C2F; fingerprint.sourceStartSeconds=1624.068, sourceEndSeconds=1636.068, samplems=12000. Submitted signature interval only; extracted clip 1624.068–1644.068s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 1644.068,
+          "endSeconds": 1656.068,
+          "evidence": "qa/soundtrack/LdeirDrinWk/results.json requests[18], rawResponse.track.key=315585656, tagid=79A2F88D-1DDF-4472-B706-6D36EF9FFA11; fingerprint.sourceStartSeconds=1644.068, sourceEndSeconds=1656.068, samplems=12000. Submitted signature interval only; extracted clip 1644.068–1664.050688s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        }
+      ]
+    },
+    {
+      "title": "March of the Volunteers",
+      "composer": null,
+      "performer": null,
+      "identification": "audio-reference-match",
+      "evidence": " Same-recording offline acoustic match to credited reference UctriMuXYS0, title \"China National anthem Chinese & English lyrics\"; videos/8LysiXf-DJU/8LysiXf-DJU.description:10 explicitly credits \"March of the Volunteers\" and this reference. Work is the Chinese national anthem. Reference uploader VocalNationalAnthems is NOT a performer attribution; composer and ensemble/choir remain unknown. qa/anthem-reference/canonical-proof.json, results.json, alignment-proof.json and controls.json: independent two-second queries recover identical source-to-reference offset; waveform peaks, not spectral score alone, support recording identity. Reference download SHA256c6f8f15bbdb845dab974b3c51847bea64065310cb2a9146e97d4f1776f82544a; WAV SHA2560cad0b6364986b9ed7497ee4978d69e3fafb73b2ea2a72ec1dc293ae9603b267. Positive known-reference25–43s recovers25s/NCC1.0; synthetic10x narration-containing mixture recovers25s/NCC0.10012; reversed-reference maxAbsNCC0.046318 and unrelated narration controls0.02455/0.024925. Finite controls do not establish a universal false-positive probability. No claim of a continuous18-second anthem cue. Supplemental earlier catalogue candidate qa/soundtrack/LdeirDrinWk/results.json returned raw title \"Chinese National Anthem\", key694623907, raw artist \"ayoub hajji\" at fingerprint1200–1212s. That artist is not a performer/composer assertion and the solitary catalogue result was not the recording-identification proof; credited-reference waveform alignment supplies the proof.",
+      "samples": [
+        {
+          "startSeconds": 1203.0,
+          "endSeconds": 1205.0,
+          "evidence": "qa/anthem-reference/alignment-proof.json targets.LdeirDrinWk.independentTwoSecondBlocks[3]: source 1203–1205s globally matches reference 15.4688125–17.4688125s, waveform NCC0.8439592590945293, peakOffsetDeviationSeconds0. Source-minus-reference offset1187.5311875s. Matched query window, not full cue onset/end; edge windows can include nonmusic margins. qa/anthem-reference/canonical-proof.json sources[1] records source/excerpt SHA256 provenance."
+        },
+        {
+          "startSeconds": 1205.0,
+          "endSeconds": 1207.0,
+          "evidence": "qa/anthem-reference/alignment-proof.json targets.LdeirDrinWk.independentTwoSecondBlocks[4]: source 1205–1207s globally matches reference 17.4688125–19.4688125s, waveform NCC0.9862166992478294, peakOffsetDeviationSeconds0. Source-minus-reference offset1187.5311875s. Matched query window, not full cue onset/end; edge windows can include nonmusic margins. qa/anthem-reference/canonical-proof.json sources[1] records source/excerpt SHA256 provenance."
+        },
+        {
+          "startSeconds": 1207.0,
+          "endSeconds": 1209.0,
+          "evidence": "qa/anthem-reference/alignment-proof.json targets.LdeirDrinWk.independentTwoSecondBlocks[5]: source 1207–1209s globally matches reference 19.4688125–21.4688125s, waveform NCC0.9911995259892304, peakOffsetDeviationSeconds0. Source-minus-reference offset1187.5311875s. Matched query window, not full cue onset/end; edge windows can include nonmusic margins. qa/anthem-reference/canonical-proof.json sources[1] records source/excerpt SHA256 provenance."
+        },
+        {
+          "startSeconds": 1209.0,
+          "endSeconds": 1211.0,
+          "evidence": "qa/anthem-reference/alignment-proof.json targets.LdeirDrinWk.independentTwoSecondBlocks[6]: source 1209–1211s globally matches reference 21.4688125–23.4688125s, waveform NCC0.9877827460791356, peakOffsetDeviationSeconds0. Source-minus-reference offset1187.5311875s. Matched query window, not full cue onset/end; edge windows can include nonmusic margins. qa/anthem-reference/canonical-proof.json sources[1] records source/excerpt SHA256 provenance."
+        },
+        {
+          "startSeconds": 1211.0,
+          "endSeconds": 1213.0,
+          "evidence": "qa/anthem-reference/alignment-proof.json targets.LdeirDrinWk.independentTwoSecondBlocks[7]: source 1211–1213s globally matches reference 23.4688125–25.4688125s, waveform NCC0.9870931768192712, peakOffsetDeviationSeconds0. Source-minus-reference offset1187.5311875s. Matched query window, not full cue onset/end; edge windows can include nonmusic margins. qa/anthem-reference/canonical-proof.json sources[1] records source/excerpt SHA256 provenance."
+        },
+        {
+          "startSeconds": 1213.0,
+          "endSeconds": 1215.0,
+          "evidence": "qa/anthem-reference/alignment-proof.json targets.LdeirDrinWk.independentTwoSecondBlocks[8]: source 1213–1215s globally matches reference 25.4688125–27.4688125s, waveform NCC0.3083559276427151, peakOffsetDeviationSeconds0. Source-minus-reference offset1187.5311875s. Matched query window, not full cue onset/end; edge windows can include nonmusic margins. qa/anthem-reference/canonical-proof.json sources[1] records source/excerpt SHA256 provenance."
+        }
+      ]
+    }
+  ]
+}

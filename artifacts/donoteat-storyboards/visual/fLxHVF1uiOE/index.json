@@ -1,0 +1,5580 @@
+{
+  "version": 1,
+  "signature": "{\"version\":1,\"source\":{\"path\":\"videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv\",\"size\":622838416,\"mtimeMs\":1791766442834.0264},\"interval\":5,\"threshold\":0.3,\"width\":480}",
+  "complete": true,
+  "id": "fLxHVF1uiOE",
+  "title": "Cities: Skylines | Franklin, Episode 3: Founding Franklin",
+  "source": {
+    "path": "videos/fLxHVF1uiOE/fLxHVF1uiOE.mkv",
+    "size": 622838416,
+    "mtimeMs": 1791766442834.0264,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 1559.588
+  },
+  "coverage": "One first available frame in every 5-second bin, plus frames with FFmpeg scene score > 0.30. Scene scores are computed at 480px width. This is sparse visual evidence, not exhaustive gag coverage: brief overlays, gradual changes, and gags between samples can be missed. Read source video around relevant moments and use still for precise timestamp rereads.",
+  "sampling": {
+    "intervalSeconds": 5,
+    "regularRule": "first available frame in each 5-second bin",
+    "sceneThreshold": 0.3,
+    "sceneDetectionWidth": 480,
+    "timestampOrigin": "first source video frame = 0; actual selected PTS, not idealized sample times"
+  },
+  "layout": {
+    "columns": 3,
+    "rows": 4,
+    "tileWidth": 480,
+    "tileHeight": 302,
+    "pictureHeight": 270,
+    "tileIndexBase": 0,
+    "readingOrder": "left-to-right, then top-to-bottom"
+  },
+  "targetedRereadCommand": "bun visual-extract.ts still fLxHVF1uiOE <seconds-or-HH:MM:SS.mmm> [...]",
+  "sheets": [
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "firstFrame": 1,
+      "frameCount": 12,
+      "startSeconds": 0,
+      "endSeconds": 55
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "firstFrame": 13,
+      "frameCount": 12,
+      "startSeconds": 60,
+      "endSeconds": 90
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "firstFrame": 25,
+      "frameCount": 12,
+      "startSeconds": 95,
+      "endSeconds": 145
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "firstFrame": 37,
+      "frameCount": 12,
+      "startSeconds": 150,
+      "endSeconds": 205
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "firstFrame": 49,
+      "frameCount": 12,
+      "startSeconds": 210,
+      "endSeconds": 260
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "firstFrame": 61,
+      "frameCount": 12,
+      "startSeconds": 263.4,
+      "endSeconds": 300
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "firstFrame": 73,
+      "frameCount": 12,
+      "startSeconds": 305,
+      "endSeconds": 350
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "firstFrame": 85,
+      "frameCount": 12,
+      "startSeconds": 354.333,
+      "endSeconds": 387.033
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "firstFrame": 97,
+      "frameCount": 12,
+      "startSeconds": 388.1,
+      "endSeconds": 420
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "firstFrame": 109,
+      "frameCount": 12,
+      "startSeconds": 425,
+      "endSeconds": 460
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "firstFrame": 121,
+      "frameCount": 12,
+      "startSeconds": 465,
+      "endSeconds": 505
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "firstFrame": 133,
+      "frameCount": 12,
+      "startSeconds": 510,
+      "endSeconds": 555
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "firstFrame": 145,
+      "frameCount": 12,
+      "startSeconds": 560,
+      "endSeconds": 595
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "firstFrame": 157,
+      "frameCount": 12,
+      "startSeconds": 600,
+      "endSeconds": 650
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "firstFrame": 169,
+      "frameCount": 12,
+      "startSeconds": 655,
+      "endSeconds": 710
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "firstFrame": 181,
+      "frameCount": 12,
+      "startSeconds": 715,
+      "endSeconds": 740
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "firstFrame": 193,
+      "frameCount": 12,
+      "startSeconds": 745,
+      "endSeconds": 790
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "firstFrame": 205,
+      "frameCount": 12,
+      "startSeconds": 795,
+      "endSeconds": 850
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "firstFrame": 217,
+      "frameCount": 12,
+      "startSeconds": 855,
+      "endSeconds": 895
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "firstFrame": 229,
+      "frameCount": 12,
+      "startSeconds": 900,
+      "endSeconds": 945
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "firstFrame": 241,
+      "frameCount": 12,
+      "startSeconds": 950,
+      "endSeconds": 978.033
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "firstFrame": 253,
+      "frameCount": 12,
+      "startSeconds": 980,
+      "endSeconds": 1028
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "firstFrame": 265,
+      "frameCount": 12,
+      "startSeconds": 1030,
+      "endSeconds": 1078.5
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "firstFrame": 277,
+      "frameCount": 12,
+      "startSeconds": 1080,
+      "endSeconds": 1130
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "firstFrame": 289,
+      "frameCount": 12,
+      "startSeconds": 1135,
+      "endSeconds": 1163.23
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "firstFrame": 301,
+      "frameCount": 12,
+      "startSeconds": 1164.3,
+      "endSeconds": 1195
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "firstFrame": 313,
+      "frameCount": 12,
+      "startSeconds": 1200,
+      "endSeconds": 1240
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "firstFrame": 325,
+      "frameCount": 12,
+      "startSeconds": 1245,
+      "endSeconds": 1300
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "firstFrame": 337,
+      "frameCount": 12,
+      "startSeconds": 1305,
+      "endSeconds": 1345
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "firstFrame": 349,
+      "frameCount": 12,
+      "startSeconds": 1350,
+      "endSeconds": 1397.63
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "firstFrame": 361,
+      "frameCount": 12,
+      "startSeconds": 1400,
+      "endSeconds": 1450
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "firstFrame": 373,
+      "frameCount": 12,
+      "startSeconds": 1455,
+      "endSeconds": 1500
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "firstFrame": 385,
+      "frameCount": 12,
+      "startSeconds": 1505,
+      "endSeconds": 1550
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/sheet-0034.jpg",
+      "firstFrame": 397,
+      "frameCount": 1,
+      "startSeconds": 1555,
+      "endSeconds": 1555
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/extra-000398.jpg",
+      "firstFrame": 398,
+      "frameCount": 1,
+      "startSeconds": 1197.7,
+      "endSeconds": 1197.7
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/extra-000399.jpg",
+      "firstFrame": 399,
+      "frameCount": 1,
+      "startSeconds": 141.7,
+      "endSeconds": 141.7
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/extra-000400.jpg",
+      "firstFrame": 400,
+      "frameCount": 1,
+      "startSeconds": 827.6,
+      "endSeconds": 827.6
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/extra-000401.jpg",
+      "firstFrame": 401,
+      "frameCount": 1,
+      "startSeconds": 1236.5,
+      "endSeconds": 1236.5
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/extra-000402.jpg",
+      "firstFrame": 402,
+      "frameCount": 1,
+      "startSeconds": 1241.3,
+      "endSeconds": 1241.3
+    },
+    {
+      "path": "visual/fLxHVF1uiOE/extra-000403.jpg",
+      "firstFrame": 403,
+      "frameCount": 1,
+      "startSeconds": 827.4,
+      "endSeconds": 827.4
+    }
+  ],
+  "frames": [
+    {
+      "number": 1,
+      "timestampSeconds": 0,
+      "timestamp": "00:00:00.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 2,
+      "timestampSeconds": 5,
+      "timestamp": "00:00:05.000",
+      "sceneScore": 0.002788,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 3,
+      "timestampSeconds": 10,
+      "timestamp": "00:00:10.000",
+      "sceneScore": 0.00126,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 4,
+      "timestampSeconds": 15,
+      "timestamp": "00:00:15.000",
+      "sceneScore": 0.001581,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 5,
+      "timestampSeconds": 20,
+      "timestamp": "00:00:20.000",
+      "sceneScore": 0.000899,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 6,
+      "timestampSeconds": 25,
+      "timestamp": "00:00:25.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 7,
+      "timestampSeconds": 30,
+      "timestamp": "00:00:30.000",
+      "sceneScore": 0.000002,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 8,
+      "timestampSeconds": 35,
+      "timestamp": "00:00:35.000",
+      "sceneScore": 0.000991,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 9,
+      "timestampSeconds": 40,
+      "timestamp": "00:00:40.000",
+      "sceneScore": 0.002301,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 10,
+      "timestampSeconds": 45,
+      "timestamp": "00:00:45.000",
+      "sceneScore": 0.000209,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 11,
+      "timestampSeconds": 50,
+      "timestamp": "00:00:50.000",
+      "sceneScore": 0.015364,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 12,
+      "timestampSeconds": 55,
+      "timestamp": "00:00:55.000",
+      "sceneScore": 0.003889,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0001.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 13,
+      "timestampSeconds": 60,
+      "timestamp": "00:01:00.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 14,
+      "timestampSeconds": 65,
+      "timestamp": "00:01:05.000",
+      "sceneScore": 0.00045,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 15,
+      "timestampSeconds": 70,
+      "timestamp": "00:01:10.000",
+      "sceneScore": 0.021646,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 16,
+      "timestampSeconds": 75,
+      "timestamp": "00:01:15.000",
+      "sceneScore": 0.000174,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 17,
+      "timestampSeconds": 80,
+      "timestamp": "00:01:20.000",
+      "sceneScore": 0.002165,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 18,
+      "timestampSeconds": 82.733,
+      "timestamp": "00:01:22.733",
+      "sceneScore": 0.662485,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 19,
+      "timestampSeconds": 85,
+      "timestamp": "00:01:25.000",
+      "sceneScore": 0.032452,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 20,
+      "timestampSeconds": 85.966,
+      "timestamp": "00:01:25.966",
+      "sceneScore": 0.509872,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 21,
+      "timestampSeconds": 88.266,
+      "timestamp": "00:01:28.266",
+      "sceneScore": 0.335287,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 22,
+      "timestampSeconds": 88.466,
+      "timestamp": "00:01:28.466",
+      "sceneScore": 0.333673,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 23,
+      "timestampSeconds": 89.4,
+      "timestamp": "00:01:29.400",
+      "sceneScore": 0.602852,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 24,
+      "timestampSeconds": 90,
+      "timestamp": "00:01:30.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0002.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 25,
+      "timestampSeconds": 95,
+      "timestamp": "00:01:35.000",
+      "sceneScore": 0.000004,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 26,
+      "timestampSeconds": 100,
+      "timestamp": "00:01:40.000",
+      "sceneScore": 0.000031,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 27,
+      "timestampSeconds": 105,
+      "timestamp": "00:01:45.000",
+      "sceneScore": 0.000023,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 28,
+      "timestampSeconds": 110,
+      "timestamp": "00:01:50.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 29,
+      "timestampSeconds": 115,
+      "timestamp": "00:01:55.000",
+      "sceneScore": 0.002712,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 30,
+      "timestampSeconds": 120,
+      "timestamp": "00:02:00.000",
+      "sceneScore": 0.000289,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 31,
+      "timestampSeconds": 125,
+      "timestamp": "00:02:05.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 32,
+      "timestampSeconds": 130,
+      "timestamp": "00:02:10.000",
+      "sceneScore": 0.000329,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 33,
+      "timestampSeconds": 135,
+      "timestamp": "00:02:15.000",
+      "sceneScore": 0.000629,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 34,
+      "timestampSeconds": 140,
+      "timestamp": "00:02:20.000",
+      "sceneScore": 0.051763,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 35,
+      "timestampSeconds": 144.633,
+      "timestamp": "00:02:24.633",
+      "sceneScore": 0.309916,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 36,
+      "timestampSeconds": 145,
+      "timestamp": "00:02:25.000",
+      "sceneScore": 0.000016,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0003.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 37,
+      "timestampSeconds": 150,
+      "timestamp": "00:02:30.000",
+      "sceneScore": 0.002328,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 38,
+      "timestampSeconds": 155,
+      "timestamp": "00:02:35.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 39,
+      "timestampSeconds": 160,
+      "timestamp": "00:02:40.000",
+      "sceneScore": 0.003241,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 40,
+      "timestampSeconds": 165,
+      "timestamp": "00:02:45.000",
+      "sceneScore": 0.073794,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 41,
+      "timestampSeconds": 170,
+      "timestamp": "00:02:50.000",
+      "sceneScore": 0.000087,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 42,
+      "timestampSeconds": 175,
+      "timestamp": "00:02:55.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 43,
+      "timestampSeconds": 180,
+      "timestamp": "00:03:00.000",
+      "sceneScore": 0.006038,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 44,
+      "timestampSeconds": 185,
+      "timestamp": "00:03:05.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 45,
+      "timestampSeconds": 190,
+      "timestamp": "00:03:10.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 46,
+      "timestampSeconds": 195,
+      "timestamp": "00:03:15.000",
+      "sceneScore": 0.000001,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 47,
+      "timestampSeconds": 200,
+      "timestamp": "00:03:20.000",
+      "sceneScore": 0.000242,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 48,
+      "timestampSeconds": 205,
+      "timestamp": "00:03:25.000",
+      "sceneScore": 0.000036,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0004.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 49,
+      "timestampSeconds": 210,
+      "timestamp": "00:03:30.000",
+      "sceneScore": 0.103308,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 50,
+      "timestampSeconds": 215,
+      "timestamp": "00:03:35.000",
+      "sceneScore": 0.000296,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 51,
+      "timestampSeconds": 220,
+      "timestamp": "00:03:40.000",
+      "sceneScore": 0.068976,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 52,
+      "timestampSeconds": 225,
+      "timestamp": "00:03:45.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 53,
+      "timestampSeconds": 228.267,
+      "timestamp": "00:03:48.267",
+      "sceneScore": 0.674316,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 54,
+      "timestampSeconds": 230,
+      "timestamp": "00:03:50.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 55,
+      "timestampSeconds": 235,
+      "timestamp": "00:03:55.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 56,
+      "timestampSeconds": 240,
+      "timestamp": "00:04:00.000",
+      "sceneScore": 0.000905,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 57,
+      "timestampSeconds": 245,
+      "timestamp": "00:04:05.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 58,
+      "timestampSeconds": 250,
+      "timestamp": "00:04:10.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 59,
+      "timestampSeconds": 255,
+      "timestamp": "00:04:15.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 60,
+      "timestampSeconds": 260,
+      "timestamp": "00:04:20.000",
+      "sceneScore": 0.000001,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0005.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 61,
+      "timestampSeconds": 263.4,
+      "timestamp": "00:04:23.400",
+      "sceneScore": 0.637934,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 62,
+      "timestampSeconds": 264.633,
+      "timestamp": "00:04:24.633",
+      "sceneScore": 0.316156,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 63,
+      "timestampSeconds": 265,
+      "timestamp": "00:04:25.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 64,
+      "timestampSeconds": 270,
+      "timestamp": "00:04:30.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 65,
+      "timestampSeconds": 275,
+      "timestamp": "00:04:35.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 66,
+      "timestampSeconds": 280,
+      "timestamp": "00:04:40.000",
+      "sceneScore": 0.000001,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 67,
+      "timestampSeconds": 285,
+      "timestamp": "00:04:45.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 68,
+      "timestampSeconds": 290,
+      "timestamp": "00:04:50.000",
+      "sceneScore": 0.000001,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 69,
+      "timestampSeconds": 294.8,
+      "timestamp": "00:04:54.800",
+      "sceneScore": 0.301902,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 70,
+      "timestampSeconds": 295,
+      "timestamp": "00:04:55.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 71,
+      "timestampSeconds": 295.766,
+      "timestamp": "00:04:55.766",
+      "sceneScore": 0.838415,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 72,
+      "timestampSeconds": 300,
+      "timestamp": "00:05:00.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0006.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 73,
+      "timestampSeconds": 305,
+      "timestamp": "00:05:05.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 74,
+      "timestampSeconds": 310,
+      "timestamp": "00:05:10.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 75,
+      "timestampSeconds": 315,
+      "timestamp": "00:05:15.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 76,
+      "timestampSeconds": 320,
+      "timestamp": "00:05:20.000",
+      "sceneScore": 0.000983,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 77,
+      "timestampSeconds": 323.5,
+      "timestamp": "00:05:23.500",
+      "sceneScore": 0.814138,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 78,
+      "timestampSeconds": 325,
+      "timestamp": "00:05:25.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 79,
+      "timestampSeconds": 327.166,
+      "timestamp": "00:05:27.166",
+      "sceneScore": 0.627544,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 80,
+      "timestampSeconds": 330,
+      "timestamp": "00:05:30.000",
+      "sceneScore": 0.000467,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 81,
+      "timestampSeconds": 335,
+      "timestamp": "00:05:35.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 82,
+      "timestampSeconds": 340,
+      "timestamp": "00:05:40.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 83,
+      "timestampSeconds": 345,
+      "timestamp": "00:05:45.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 84,
+      "timestampSeconds": 350,
+      "timestamp": "00:05:50.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0007.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 85,
+      "timestampSeconds": 354.333,
+      "timestamp": "00:05:54.333",
+      "sceneScore": 0.583308,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 86,
+      "timestampSeconds": 355,
+      "timestamp": "00:05:55.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 87,
+      "timestampSeconds": 360,
+      "timestamp": "00:06:00.000",
+      "sceneScore": 0.000009,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 88,
+      "timestampSeconds": 363.9,
+      "timestamp": "00:06:03.900",
+      "sceneScore": 1,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 89,
+      "timestampSeconds": 365,
+      "timestamp": "00:06:05.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 90,
+      "timestampSeconds": 370,
+      "timestamp": "00:06:10.000",
+      "sceneScore": 0.000002,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 91,
+      "timestampSeconds": 373.533,
+      "timestamp": "00:06:13.533",
+      "sceneScore": 0.986331,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 92,
+      "timestampSeconds": 374.5,
+      "timestamp": "00:06:14.500",
+      "sceneScore": 1,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 93,
+      "timestampSeconds": 375,
+      "timestamp": "00:06:15.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 94,
+      "timestampSeconds": 380,
+      "timestamp": "00:06:20.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 95,
+      "timestampSeconds": 385,
+      "timestamp": "00:06:25.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 96,
+      "timestampSeconds": 387.033,
+      "timestamp": "00:06:27.033",
+      "sceneScore": 0.964242,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0008.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 97,
+      "timestampSeconds": 388.1,
+      "timestamp": "00:06:28.100",
+      "sceneScore": 0.881045,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 98,
+      "timestampSeconds": 390,
+      "timestamp": "00:06:30.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 99,
+      "timestampSeconds": 395,
+      "timestamp": "00:06:35.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 100,
+      "timestampSeconds": 396.067,
+      "timestamp": "00:06:36.067",
+      "sceneScore": 0.852965,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 101,
+      "timestampSeconds": 397.034,
+      "timestamp": "00:06:37.034",
+      "sceneScore": 0.446315,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 102,
+      "timestampSeconds": 400,
+      "timestamp": "00:06:40.000",
+      "sceneScore": 0.001042,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 103,
+      "timestampSeconds": 405,
+      "timestamp": "00:06:45.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 104,
+      "timestampSeconds": 410,
+      "timestamp": "00:06:50.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 105,
+      "timestampSeconds": 412.667,
+      "timestamp": "00:06:52.667",
+      "sceneScore": 0.415383,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 106,
+      "timestampSeconds": 414.334,
+      "timestamp": "00:06:54.334",
+      "sceneScore": 0.725886,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 107,
+      "timestampSeconds": 415,
+      "timestamp": "00:06:55.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 108,
+      "timestampSeconds": 420,
+      "timestamp": "00:07:00.000",
+      "sceneScore": 0.000001,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0009.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 109,
+      "timestampSeconds": 425,
+      "timestamp": "00:07:05.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 110,
+      "timestampSeconds": 427.434,
+      "timestamp": "00:07:07.434",
+      "sceneScore": 0.689224,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 111,
+      "timestampSeconds": 428.934,
+      "timestamp": "00:07:08.934",
+      "sceneScore": 0.660437,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 112,
+      "timestampSeconds": 430,
+      "timestamp": "00:07:10.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 113,
+      "timestampSeconds": 435,
+      "timestamp": "00:07:15.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 114,
+      "timestampSeconds": 440,
+      "timestamp": "00:07:20.000",
+      "sceneScore": 0.000012,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 115,
+      "timestampSeconds": 442.533,
+      "timestamp": "00:07:22.533",
+      "sceneScore": 0.642164,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 116,
+      "timestampSeconds": 443.967,
+      "timestamp": "00:07:23.967",
+      "sceneScore": 0.550355,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 117,
+      "timestampSeconds": 445,
+      "timestamp": "00:07:25.000",
+      "sceneScore": 0.00001,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 118,
+      "timestampSeconds": 450,
+      "timestamp": "00:07:30.000",
+      "sceneScore": 0.000005,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 119,
+      "timestampSeconds": 455,
+      "timestamp": "00:07:35.000",
+      "sceneScore": 0.000003,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 120,
+      "timestampSeconds": 460,
+      "timestamp": "00:07:40.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0010.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 121,
+      "timestampSeconds": 465,
+      "timestamp": "00:07:45.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 122,
+      "timestampSeconds": 465.267,
+      "timestamp": "00:07:45.267",
+      "sceneScore": 0.525366,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 123,
+      "timestampSeconds": 470,
+      "timestamp": "00:07:50.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 124,
+      "timestampSeconds": 475,
+      "timestamp": "00:07:55.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 125,
+      "timestampSeconds": 480,
+      "timestamp": "00:08:00.000",
+      "sceneScore": 0.000442,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 126,
+      "timestampSeconds": 485,
+      "timestamp": "00:08:05.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 127,
+      "timestampSeconds": 487.6,
+      "timestamp": "00:08:07.600",
+      "sceneScore": 0.494717,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 128,
+      "timestampSeconds": 490,
+      "timestamp": "00:08:10.000",
+      "sceneScore": 0.000007,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 129,
+      "timestampSeconds": 495,
+      "timestamp": "00:08:15.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 130,
+      "timestampSeconds": 500,
+      "timestamp": "00:08:20.000",
+      "sceneScore": 0.000001,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 131,
+      "timestampSeconds": 504.5,
+      "timestamp": "00:08:24.500",
+      "sceneScore": 0.475267,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 132,
+      "timestampSeconds": 505,
+      "timestamp": "00:08:25.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0011.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 133,
+      "timestampSeconds": 510,
+      "timestamp": "00:08:30.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 134,
+      "timestampSeconds": 515,
+      "timestamp": "00:08:35.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 135,
+      "timestampSeconds": 520,
+      "timestamp": "00:08:40.000",
+      "sceneScore": 0.000296,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 136,
+      "timestampSeconds": 525,
+      "timestamp": "00:08:45.000",
+      "sceneScore": 0.006802,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 137,
+      "timestampSeconds": 525.8,
+      "timestamp": "00:08:45.800",
+      "sceneScore": 1,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 138,
+      "timestampSeconds": 530,
+      "timestamp": "00:08:50.000",
+      "sceneScore": 0.000003,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 139,
+      "timestampSeconds": 533.033,
+      "timestamp": "00:08:53.033",
+      "sceneScore": 1,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 140,
+      "timestampSeconds": 535,
+      "timestamp": "00:08:55.000",
+      "sceneScore": 0.017236,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 141,
+      "timestampSeconds": 540,
+      "timestamp": "00:09:00.000",
+      "sceneScore": 0.000087,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 142,
+      "timestampSeconds": 545,
+      "timestamp": "00:09:05.000",
+      "sceneScore": 0.02927,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 143,
+      "timestampSeconds": 550,
+      "timestamp": "00:09:10.000",
+      "sceneScore": 0.000715,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 144,
+      "timestampSeconds": 555,
+      "timestamp": "00:09:15.000",
+      "sceneScore": 0.01339,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0012.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 145,
+      "timestampSeconds": 560,
+      "timestamp": "00:09:20.000",
+      "sceneScore": 0.026551,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 146,
+      "timestampSeconds": 562.533,
+      "timestamp": "00:09:22.533",
+      "sceneScore": 0.30372,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 147,
+      "timestampSeconds": 564.4,
+      "timestamp": "00:09:24.400",
+      "sceneScore": 0.997081,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 148,
+      "timestampSeconds": 565,
+      "timestamp": "00:09:25.000",
+      "sceneScore": 0.00006,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 149,
+      "timestampSeconds": 569.4,
+      "timestamp": "00:09:29.400",
+      "sceneScore": 0.982221,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 150,
+      "timestampSeconds": 570,
+      "timestamp": "00:09:30.000",
+      "sceneScore": 0.000028,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 151,
+      "timestampSeconds": 575,
+      "timestamp": "00:09:35.000",
+      "sceneScore": 0.000571,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 152,
+      "timestampSeconds": 580,
+      "timestamp": "00:09:40.000",
+      "sceneScore": 0.004897,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 153,
+      "timestampSeconds": 584.833,
+      "timestamp": "00:09:44.833",
+      "sceneScore": 0.306514,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 154,
+      "timestampSeconds": 585,
+      "timestamp": "00:09:45.000",
+      "sceneScore": 0.027321,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 155,
+      "timestampSeconds": 590,
+      "timestamp": "00:09:50.000",
+      "sceneScore": 0.006042,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 156,
+      "timestampSeconds": 595,
+      "timestamp": "00:09:55.000",
+      "sceneScore": 0.000107,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0013.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 157,
+      "timestampSeconds": 600,
+      "timestamp": "00:10:00.000",
+      "sceneScore": 0.038594,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 158,
+      "timestampSeconds": 605,
+      "timestamp": "00:10:05.000",
+      "sceneScore": 0.010247,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 159,
+      "timestampSeconds": 610,
+      "timestamp": "00:10:10.000",
+      "sceneScore": 0.00667,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 160,
+      "timestampSeconds": 615,
+      "timestamp": "00:10:15.000",
+      "sceneScore": 0.008491,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 161,
+      "timestampSeconds": 615.966,
+      "timestamp": "00:10:15.966",
+      "sceneScore": 0.319309,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 162,
+      "timestampSeconds": 620,
+      "timestamp": "00:10:20.000",
+      "sceneScore": 0.000047,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 163,
+      "timestampSeconds": 625,
+      "timestamp": "00:10:25.000",
+      "sceneScore": 0.000797,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 164,
+      "timestampSeconds": 630,
+      "timestamp": "00:10:30.000",
+      "sceneScore": 0.000951,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 165,
+      "timestampSeconds": 635,
+      "timestamp": "00:10:35.000",
+      "sceneScore": 0.001838,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 166,
+      "timestampSeconds": 640,
+      "timestamp": "00:10:40.000",
+      "sceneScore": 0.003149,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 167,
+      "timestampSeconds": 645,
+      "timestamp": "00:10:45.000",
+      "sceneScore": 0.004133,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 168,
+      "timestampSeconds": 650,
+      "timestamp": "00:10:50.000",
+      "sceneScore": 0.113931,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0014.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 169,
+      "timestampSeconds": 655,
+      "timestamp": "00:10:55.000",
+      "sceneScore": 0.027584,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 170,
+      "timestampSeconds": 660,
+      "timestamp": "00:11:00.000",
+      "sceneScore": 0.012289,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 171,
+      "timestampSeconds": 665,
+      "timestamp": "00:11:05.000",
+      "sceneScore": 0.000246,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 172,
+      "timestampSeconds": 670,
+      "timestamp": "00:11:10.000",
+      "sceneScore": 0.000825,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 173,
+      "timestampSeconds": 675,
+      "timestamp": "00:11:15.000",
+      "sceneScore": 0.001966,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 174,
+      "timestampSeconds": 680,
+      "timestamp": "00:11:20.000",
+      "sceneScore": 0.000835,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 175,
+      "timestampSeconds": 685,
+      "timestamp": "00:11:25.000",
+      "sceneScore": 0.000621,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 176,
+      "timestampSeconds": 690,
+      "timestamp": "00:11:30.000",
+      "sceneScore": 0.000835,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 177,
+      "timestampSeconds": 695,
+      "timestamp": "00:11:35.000",
+      "sceneScore": 0.002295,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 178,
+      "timestampSeconds": 700,
+      "timestamp": "00:11:40.000",
+      "sceneScore": 0.003095,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 179,
+      "timestampSeconds": 705,
+      "timestamp": "00:11:45.000",
+      "sceneScore": 0.000766,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 180,
+      "timestampSeconds": 710,
+      "timestamp": "00:11:50.000",
+      "sceneScore": 0.000457,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0015.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 181,
+      "timestampSeconds": 715,
+      "timestamp": "00:11:55.000",
+      "sceneScore": 0.011794,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 182,
+      "timestampSeconds": 720,
+      "timestamp": "00:12:00.000",
+      "sceneScore": 0.004939,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 183,
+      "timestampSeconds": 724.033,
+      "timestamp": "00:12:04.033",
+      "sceneScore": 0.608182,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 184,
+      "timestampSeconds": 725,
+      "timestamp": "00:12:05.000",
+      "sceneScore": 0.000917,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 185,
+      "timestampSeconds": 726.433,
+      "timestamp": "00:12:06.433",
+      "sceneScore": 0.860208,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 186,
+      "timestampSeconds": 727.333,
+      "timestamp": "00:12:07.333",
+      "sceneScore": 0.408827,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 187,
+      "timestampSeconds": 730,
+      "timestamp": "00:12:10.000",
+      "sceneScore": 0.024939,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 188,
+      "timestampSeconds": 730.3,
+      "timestamp": "00:12:10.300",
+      "sceneScore": 0.391178,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 189,
+      "timestampSeconds": 732.767,
+      "timestamp": "00:12:12.767",
+      "sceneScore": 0.312578,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 190,
+      "timestampSeconds": 733.167,
+      "timestamp": "00:12:13.167",
+      "sceneScore": 0.307857,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 191,
+      "timestampSeconds": 735,
+      "timestamp": "00:12:15.000",
+      "sceneScore": 0.006077,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 192,
+      "timestampSeconds": 740,
+      "timestamp": "00:12:20.000",
+      "sceneScore": 0.000606,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0016.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 193,
+      "timestampSeconds": 745,
+      "timestamp": "00:12:25.000",
+      "sceneScore": 0.005355,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 194,
+      "timestampSeconds": 750,
+      "timestamp": "00:12:30.000",
+      "sceneScore": 0.001129,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 195,
+      "timestampSeconds": 755,
+      "timestamp": "00:12:35.000",
+      "sceneScore": 0.178219,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 196,
+      "timestampSeconds": 760,
+      "timestamp": "00:12:40.000",
+      "sceneScore": 0.181233,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 197,
+      "timestampSeconds": 763.734,
+      "timestamp": "00:12:43.734",
+      "sceneScore": 0.304343,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 198,
+      "timestampSeconds": 764,
+      "timestamp": "00:12:44.000",
+      "sceneScore": 0.319897,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 199,
+      "timestampSeconds": 765,
+      "timestamp": "00:12:45.000",
+      "sceneScore": 0.057879,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 200,
+      "timestampSeconds": 770,
+      "timestamp": "00:12:50.000",
+      "sceneScore": 0.002496,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 201,
+      "timestampSeconds": 775,
+      "timestamp": "00:12:55.000",
+      "sceneScore": 0.00095,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 202,
+      "timestampSeconds": 780,
+      "timestamp": "00:13:00.000",
+      "sceneScore": 0.000023,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 203,
+      "timestampSeconds": 785,
+      "timestamp": "00:13:05.000",
+      "sceneScore": 0.002478,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 204,
+      "timestampSeconds": 790,
+      "timestamp": "00:13:10.000",
+      "sceneScore": 0.013849,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0017.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 205,
+      "timestampSeconds": 795,
+      "timestamp": "00:13:15.000",
+      "sceneScore": 0.016691,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 206,
+      "timestampSeconds": 800,
+      "timestamp": "00:13:20.000",
+      "sceneScore": 0.021355,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 207,
+      "timestampSeconds": 805,
+      "timestamp": "00:13:25.000",
+      "sceneScore": 0.002796,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 208,
+      "timestampSeconds": 810,
+      "timestamp": "00:13:30.000",
+      "sceneScore": 0.024522,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 209,
+      "timestampSeconds": 815,
+      "timestamp": "00:13:35.000",
+      "sceneScore": 0.017928,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 210,
+      "timestampSeconds": 820,
+      "timestamp": "00:13:40.000",
+      "sceneScore": 0.000387,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 211,
+      "timestampSeconds": 825,
+      "timestamp": "00:13:45.000",
+      "sceneScore": 0.016427,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 212,
+      "timestampSeconds": 830,
+      "timestamp": "00:13:50.000",
+      "sceneScore": 0.002333,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 213,
+      "timestampSeconds": 835,
+      "timestamp": "00:13:55.000",
+      "sceneScore": 0.00124,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 214,
+      "timestampSeconds": 840,
+      "timestamp": "00:14:00.000",
+      "sceneScore": 0.013721,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 215,
+      "timestampSeconds": 845,
+      "timestamp": "00:14:05.000",
+      "sceneScore": 0.021778,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 216,
+      "timestampSeconds": 850,
+      "timestamp": "00:14:10.000",
+      "sceneScore": 0.001052,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0018.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 217,
+      "timestampSeconds": 855,
+      "timestamp": "00:14:15.000",
+      "sceneScore": 0.046834,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 218,
+      "timestampSeconds": 856.9,
+      "timestamp": "00:14:16.900",
+      "sceneScore": 0.388413,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 219,
+      "timestampSeconds": 858.9,
+      "timestamp": "00:14:18.900",
+      "sceneScore": 0.303783,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 220,
+      "timestampSeconds": 860,
+      "timestamp": "00:14:20.000",
+      "sceneScore": 0.010511,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 221,
+      "timestampSeconds": 865,
+      "timestamp": "00:14:25.000",
+      "sceneScore": 0.103225,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 222,
+      "timestampSeconds": 870,
+      "timestamp": "00:14:30.000",
+      "sceneScore": 0.006928,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 223,
+      "timestampSeconds": 875,
+      "timestamp": "00:14:35.000",
+      "sceneScore": 0.003633,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 224,
+      "timestampSeconds": 876.867,
+      "timestamp": "00:14:36.867",
+      "sceneScore": 0.314212,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 225,
+      "timestampSeconds": 880,
+      "timestamp": "00:14:40.000",
+      "sceneScore": 0.008456,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 226,
+      "timestampSeconds": 885,
+      "timestamp": "00:14:45.000",
+      "sceneScore": 0.003333,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 227,
+      "timestampSeconds": 890,
+      "timestamp": "00:14:50.000",
+      "sceneScore": 0.000046,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 228,
+      "timestampSeconds": 895,
+      "timestamp": "00:14:55.000",
+      "sceneScore": 0.002252,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0019.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 229,
+      "timestampSeconds": 900,
+      "timestamp": "00:15:00.000",
+      "sceneScore": 0.081409,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 230,
+      "timestampSeconds": 905,
+      "timestamp": "00:15:05.000",
+      "sceneScore": 0.262245,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 231,
+      "timestampSeconds": 910,
+      "timestamp": "00:15:10.000",
+      "sceneScore": 0.021728,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 232,
+      "timestampSeconds": 915,
+      "timestamp": "00:15:15.000",
+      "sceneScore": 0.009251,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 233,
+      "timestampSeconds": 920,
+      "timestamp": "00:15:20.000",
+      "sceneScore": 0.018833,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 234,
+      "timestampSeconds": 925,
+      "timestamp": "00:15:25.000",
+      "sceneScore": 0.004228,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 235,
+      "timestampSeconds": 930,
+      "timestamp": "00:15:30.000",
+      "sceneScore": 0.031665,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 236,
+      "timestampSeconds": 935,
+      "timestamp": "00:15:35.000",
+      "sceneScore": 0.005832,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 237,
+      "timestampSeconds": 935.466,
+      "timestamp": "00:15:35.466",
+      "sceneScore": 0.313245,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 238,
+      "timestampSeconds": 937.666,
+      "timestamp": "00:15:37.666",
+      "sceneScore": 0.34847,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 239,
+      "timestampSeconds": 940,
+      "timestamp": "00:15:40.000",
+      "sceneScore": 0.003079,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 240,
+      "timestampSeconds": 945,
+      "timestamp": "00:15:45.000",
+      "sceneScore": 0.000043,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0020.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 241,
+      "timestampSeconds": 950,
+      "timestamp": "00:15:50.000",
+      "sceneScore": 0.061404,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 242,
+      "timestampSeconds": 950.666,
+      "timestamp": "00:15:50.666",
+      "sceneScore": 0.319077,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 243,
+      "timestampSeconds": 952.733,
+      "timestamp": "00:15:52.733",
+      "sceneScore": 0.305552,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 244,
+      "timestampSeconds": 953.1,
+      "timestamp": "00:15:53.100",
+      "sceneScore": 0.301397,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 245,
+      "timestampSeconds": 955,
+      "timestamp": "00:15:55.000",
+      "sceneScore": 0.1015,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 246,
+      "timestampSeconds": 955.534,
+      "timestamp": "00:15:55.534",
+      "sceneScore": 0.33322,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 247,
+      "timestampSeconds": 960,
+      "timestamp": "00:16:00.000",
+      "sceneScore": 0.244093,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 248,
+      "timestampSeconds": 965,
+      "timestamp": "00:16:05.000",
+      "sceneScore": 0.22795,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 249,
+      "timestampSeconds": 970,
+      "timestamp": "00:16:10.000",
+      "sceneScore": 0.00088,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 250,
+      "timestampSeconds": 971.934,
+      "timestamp": "00:16:11.934",
+      "sceneScore": 0.601718,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 251,
+      "timestampSeconds": 975,
+      "timestamp": "00:16:15.000",
+      "sceneScore": 0.000011,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 252,
+      "timestampSeconds": 978.033,
+      "timestamp": "00:16:18.033",
+      "sceneScore": 0.786746,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0021.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 253,
+      "timestampSeconds": 980,
+      "timestamp": "00:16:20.000",
+      "sceneScore": 0.241307,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 254,
+      "timestampSeconds": 982.266,
+      "timestamp": "00:16:22.266",
+      "sceneScore": 0.303116,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 255,
+      "timestampSeconds": 985,
+      "timestamp": "00:16:25.000",
+      "sceneScore": 0.011541,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 256,
+      "timestampSeconds": 990,
+      "timestamp": "00:16:30.000",
+      "sceneScore": 0.000478,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 257,
+      "timestampSeconds": 995,
+      "timestamp": "00:16:35.000",
+      "sceneScore": 0.036236,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 258,
+      "timestampSeconds": 1000,
+      "timestamp": "00:16:40.000",
+      "sceneScore": 0.059784,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 259,
+      "timestampSeconds": 1005,
+      "timestamp": "00:16:45.000",
+      "sceneScore": 0.000233,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 260,
+      "timestampSeconds": 1010,
+      "timestamp": "00:16:50.000",
+      "sceneScore": 0.002549,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 261,
+      "timestampSeconds": 1015,
+      "timestamp": "00:16:55.000",
+      "sceneScore": 0.011896,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 262,
+      "timestampSeconds": 1020,
+      "timestamp": "00:17:00.000",
+      "sceneScore": 0.007546,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 263,
+      "timestampSeconds": 1025,
+      "timestamp": "00:17:05.000",
+      "sceneScore": 0.002159,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 264,
+      "timestampSeconds": 1028,
+      "timestamp": "00:17:08.000",
+      "sceneScore": 0.305093,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0022.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 265,
+      "timestampSeconds": 1030,
+      "timestamp": "00:17:10.000",
+      "sceneScore": 0.004409,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 266,
+      "timestampSeconds": 1035,
+      "timestamp": "00:17:15.000",
+      "sceneScore": 0.000777,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 267,
+      "timestampSeconds": 1040,
+      "timestamp": "00:17:20.000",
+      "sceneScore": 0.00795,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 268,
+      "timestampSeconds": 1045,
+      "timestamp": "00:17:25.000",
+      "sceneScore": 0.038008,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 269,
+      "timestampSeconds": 1050,
+      "timestamp": "00:17:30.000",
+      "sceneScore": 0.000132,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 270,
+      "timestampSeconds": 1050.77,
+      "timestamp": "00:17:30.770",
+      "sceneScore": 0.304097,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 271,
+      "timestampSeconds": 1055,
+      "timestamp": "00:17:35.000",
+      "sceneScore": 0.243924,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 272,
+      "timestampSeconds": 1060,
+      "timestamp": "00:17:40.000",
+      "sceneScore": 0.041381,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 273,
+      "timestampSeconds": 1065,
+      "timestamp": "00:17:45.000",
+      "sceneScore": 0.004724,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 274,
+      "timestampSeconds": 1070,
+      "timestamp": "00:17:50.000",
+      "sceneScore": 0.043657,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 275,
+      "timestampSeconds": 1075,
+      "timestamp": "00:17:55.000",
+      "sceneScore": 0.0102,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 276,
+      "timestampSeconds": 1078.5,
+      "timestamp": "00:17:58.500",
+      "sceneScore": 0.554493,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0023.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 277,
+      "timestampSeconds": 1080,
+      "timestamp": "00:18:00.000",
+      "sceneScore": 0.00079,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 278,
+      "timestampSeconds": 1085,
+      "timestamp": "00:18:05.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 279,
+      "timestampSeconds": 1090,
+      "timestamp": "00:18:10.000",
+      "sceneScore": 0.006123,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 280,
+      "timestampSeconds": 1095,
+      "timestamp": "00:18:15.000",
+      "sceneScore": 0.002653,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 281,
+      "timestampSeconds": 1100,
+      "timestamp": "00:18:20.000",
+      "sceneScore": 0.023472,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 282,
+      "timestampSeconds": 1105,
+      "timestamp": "00:18:25.000",
+      "sceneScore": 0.000589,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 283,
+      "timestampSeconds": 1110,
+      "timestamp": "00:18:30.000",
+      "sceneScore": 0.00038,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 284,
+      "timestampSeconds": 1115,
+      "timestamp": "00:18:35.000",
+      "sceneScore": 0.001056,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 285,
+      "timestampSeconds": 1120,
+      "timestamp": "00:18:40.000",
+      "sceneScore": 0.005902,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 286,
+      "timestampSeconds": 1122.97,
+      "timestamp": "00:18:42.970",
+      "sceneScore": 0.333912,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 287,
+      "timestampSeconds": 1125,
+      "timestamp": "00:18:45.000",
+      "sceneScore": 0.000176,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 288,
+      "timestampSeconds": 1130,
+      "timestamp": "00:18:50.000",
+      "sceneScore": 0.000635,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0024.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 289,
+      "timestampSeconds": 1135,
+      "timestamp": "00:18:55.000",
+      "sceneScore": 0.006907,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 290,
+      "timestampSeconds": 1140,
+      "timestamp": "00:19:00.000",
+      "sceneScore": 0.033996,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 291,
+      "timestampSeconds": 1145,
+      "timestamp": "00:19:05.000",
+      "sceneScore": 0.002365,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 292,
+      "timestampSeconds": 1146.7,
+      "timestamp": "00:19:06.700",
+      "sceneScore": 0.300121,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 293,
+      "timestampSeconds": 1148.33,
+      "timestamp": "00:19:08.330",
+      "sceneScore": 0.313953,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 294,
+      "timestampSeconds": 1149.4,
+      "timestamp": "00:19:09.400",
+      "sceneScore": 0.304365,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 295,
+      "timestampSeconds": 1150,
+      "timestamp": "00:19:10.000",
+      "sceneScore": 0.044799,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 296,
+      "timestampSeconds": 1152.23,
+      "timestamp": "00:19:12.230",
+      "sceneScore": 0.325163,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 297,
+      "timestampSeconds": 1155,
+      "timestamp": "00:19:15.000",
+      "sceneScore": 0.034185,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 298,
+      "timestampSeconds": 1160,
+      "timestamp": "00:19:20.000",
+      "sceneScore": 0.003717,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 299,
+      "timestampSeconds": 1162.33,
+      "timestamp": "00:19:22.330",
+      "sceneScore": 0.368653,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 300,
+      "timestampSeconds": 1163.23,
+      "timestamp": "00:19:23.230",
+      "sceneScore": 0.314128,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0025.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 301,
+      "timestampSeconds": 1164.3,
+      "timestamp": "00:19:24.300",
+      "sceneScore": 0.305789,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 302,
+      "timestampSeconds": 1164.57,
+      "timestamp": "00:19:24.570",
+      "sceneScore": 0.310663,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 303,
+      "timestampSeconds": 1165,
+      "timestamp": "00:19:25.000",
+      "sceneScore": 0.002758,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 304,
+      "timestampSeconds": 1170,
+      "timestamp": "00:19:30.000",
+      "sceneScore": 0.000661,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 305,
+      "timestampSeconds": 1171.8,
+      "timestamp": "00:19:31.800",
+      "sceneScore": 0.344783,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 306,
+      "timestampSeconds": 1175,
+      "timestamp": "00:19:35.000",
+      "sceneScore": 0.015766,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 307,
+      "timestampSeconds": 1180,
+      "timestamp": "00:19:40.000",
+      "sceneScore": 0.00115,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 308,
+      "timestampSeconds": 1182.83,
+      "timestamp": "00:19:42.830",
+      "sceneScore": 0.331656,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 309,
+      "timestampSeconds": 1185,
+      "timestamp": "00:19:45.000",
+      "sceneScore": 0.176944,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 310,
+      "timestampSeconds": 1190,
+      "timestamp": "00:19:50.000",
+      "sceneScore": 0.00021,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 311,
+      "timestampSeconds": 1190.33,
+      "timestamp": "00:19:50.330",
+      "sceneScore": 0.318042,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 312,
+      "timestampSeconds": 1195,
+      "timestamp": "00:19:55.000",
+      "sceneScore": 0.009961,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0026.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 313,
+      "timestampSeconds": 1200,
+      "timestamp": "00:20:00.000",
+      "sceneScore": 0.012816,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 314,
+      "timestampSeconds": 1205,
+      "timestamp": "00:20:05.000",
+      "sceneScore": 0.003025,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 315,
+      "timestampSeconds": 1210,
+      "timestamp": "00:20:10.000",
+      "sceneScore": 0.022212,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 316,
+      "timestampSeconds": 1215,
+      "timestamp": "00:20:15.000",
+      "sceneScore": 0.000309,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 317,
+      "timestampSeconds": 1220,
+      "timestamp": "00:20:20.000",
+      "sceneScore": 0.001691,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 318,
+      "timestampSeconds": 1225,
+      "timestamp": "00:20:25.000",
+      "sceneScore": 0.000359,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 319,
+      "timestampSeconds": 1225.73,
+      "timestamp": "00:20:25.730",
+      "sceneScore": 0.303041,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 320,
+      "timestampSeconds": 1226.17,
+      "timestamp": "00:20:26.170",
+      "sceneScore": 0.308139,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 321,
+      "timestampSeconds": 1227.03,
+      "timestamp": "00:20:27.030",
+      "sceneScore": 0.30792,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 322,
+      "timestampSeconds": 1230,
+      "timestamp": "00:20:30.000",
+      "sceneScore": 0.000123,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 323,
+      "timestampSeconds": 1235,
+      "timestamp": "00:20:35.000",
+      "sceneScore": 0.006373,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 324,
+      "timestampSeconds": 1240,
+      "timestamp": "00:20:40.000",
+      "sceneScore": 0.010738,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0027.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 325,
+      "timestampSeconds": 1245,
+      "timestamp": "00:20:45.000",
+      "sceneScore": 0.013061,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 326,
+      "timestampSeconds": 1250,
+      "timestamp": "00:20:50.000",
+      "sceneScore": 0.00002,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 327,
+      "timestampSeconds": 1255,
+      "timestamp": "00:20:55.000",
+      "sceneScore": 0.002663,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 328,
+      "timestampSeconds": 1260,
+      "timestamp": "00:21:00.000",
+      "sceneScore": 0.000085,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 329,
+      "timestampSeconds": 1265,
+      "timestamp": "00:21:05.000",
+      "sceneScore": 0.000345,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 330,
+      "timestampSeconds": 1270,
+      "timestamp": "00:21:10.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 331,
+      "timestampSeconds": 1275,
+      "timestamp": "00:21:15.000",
+      "sceneScore": 0.050421,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 332,
+      "timestampSeconds": 1280,
+      "timestamp": "00:21:20.000",
+      "sceneScore": 0.004713,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 333,
+      "timestampSeconds": 1285,
+      "timestamp": "00:21:25.000",
+      "sceneScore": 0.153325,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 334,
+      "timestampSeconds": 1290,
+      "timestamp": "00:21:30.000",
+      "sceneScore": 0.000174,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 335,
+      "timestampSeconds": 1295,
+      "timestamp": "00:21:35.000",
+      "sceneScore": 0.036481,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 336,
+      "timestampSeconds": 1300,
+      "timestamp": "00:21:40.000",
+      "sceneScore": 0.000584,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0028.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 337,
+      "timestampSeconds": 1305,
+      "timestamp": "00:21:45.000",
+      "sceneScore": 0.024038,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 338,
+      "timestampSeconds": 1310,
+      "timestamp": "00:21:50.000",
+      "sceneScore": 0.002897,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 339,
+      "timestampSeconds": 1315,
+      "timestamp": "00:21:55.000",
+      "sceneScore": 0.003148,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 340,
+      "timestampSeconds": 1318.67,
+      "timestamp": "00:21:58.670",
+      "sceneScore": 0.327358,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 341,
+      "timestampSeconds": 1320,
+      "timestamp": "00:22:00.000",
+      "sceneScore": 0.000714,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 342,
+      "timestampSeconds": 1325,
+      "timestamp": "00:22:05.000",
+      "sceneScore": 0.127473,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 343,
+      "timestampSeconds": 1327.3,
+      "timestamp": "00:22:07.300",
+      "sceneScore": 0.564745,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 344,
+      "timestampSeconds": 1328.07,
+      "timestamp": "00:22:08.070",
+      "sceneScore": 0.589979,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 345,
+      "timestampSeconds": 1330,
+      "timestamp": "00:22:10.000",
+      "sceneScore": 0.007653,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 346,
+      "timestampSeconds": 1335,
+      "timestamp": "00:22:15.000",
+      "sceneScore": 0.047905,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 347,
+      "timestampSeconds": 1340,
+      "timestamp": "00:22:20.000",
+      "sceneScore": 0.000526,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 348,
+      "timestampSeconds": 1345,
+      "timestamp": "00:22:25.000",
+      "sceneScore": 0.000686,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0029.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 349,
+      "timestampSeconds": 1350,
+      "timestamp": "00:22:30.000",
+      "sceneScore": 0.001659,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 350,
+      "timestampSeconds": 1355,
+      "timestamp": "00:22:35.000",
+      "sceneScore": 0.00026,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 351,
+      "timestampSeconds": 1360,
+      "timestamp": "00:22:40.000",
+      "sceneScore": 0.006095,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 352,
+      "timestampSeconds": 1365,
+      "timestamp": "00:22:45.000",
+      "sceneScore": 0.079907,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 353,
+      "timestampSeconds": 1370,
+      "timestamp": "00:22:50.000",
+      "sceneScore": 0.000038,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 354,
+      "timestampSeconds": 1375,
+      "timestamp": "00:22:55.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 355,
+      "timestampSeconds": 1376.67,
+      "timestamp": "00:22:56.670",
+      "sceneScore": 0.878678,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 356,
+      "timestampSeconds": 1380,
+      "timestamp": "00:23:00.000",
+      "sceneScore": 0.001329,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 357,
+      "timestampSeconds": 1385,
+      "timestamp": "00:23:05.000",
+      "sceneScore": 0.029574,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 358,
+      "timestampSeconds": 1390,
+      "timestamp": "00:23:10.000",
+      "sceneScore": 0.025064,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 359,
+      "timestampSeconds": 1395,
+      "timestamp": "00:23:15.000",
+      "sceneScore": 0.016911,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 360,
+      "timestampSeconds": 1397.63,
+      "timestamp": "00:23:17.630",
+      "sceneScore": 0.609605,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0030.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 361,
+      "timestampSeconds": 1400,
+      "timestamp": "00:23:20.000",
+      "sceneScore": 0.045041,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 362,
+      "timestampSeconds": 1405,
+      "timestamp": "00:23:25.000",
+      "sceneScore": 0.026465,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 363,
+      "timestampSeconds": 1410,
+      "timestamp": "00:23:30.000",
+      "sceneScore": 0.030157,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 364,
+      "timestampSeconds": 1415,
+      "timestamp": "00:23:35.000",
+      "sceneScore": 0.02725,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 365,
+      "timestampSeconds": 1420,
+      "timestamp": "00:23:40.000",
+      "sceneScore": 0.041758,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 366,
+      "timestampSeconds": 1425,
+      "timestamp": "00:23:45.000",
+      "sceneScore": 0.037368,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 367,
+      "timestampSeconds": 1430,
+      "timestamp": "00:23:50.000",
+      "sceneScore": 0.033736,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 368,
+      "timestampSeconds": 1435,
+      "timestamp": "00:23:55.000",
+      "sceneScore": 0.02826,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 369,
+      "timestampSeconds": 1440,
+      "timestamp": "00:24:00.000",
+      "sceneScore": 0.018615,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 370,
+      "timestampSeconds": 1443.33,
+      "timestamp": "00:24:03.330",
+      "sceneScore": 0.420658,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 371,
+      "timestampSeconds": 1445,
+      "timestamp": "00:24:05.000",
+      "sceneScore": 0.022065,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 372,
+      "timestampSeconds": 1450,
+      "timestamp": "00:24:10.000",
+      "sceneScore": 0.023637,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0031.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 373,
+      "timestampSeconds": 1455,
+      "timestamp": "00:24:15.000",
+      "sceneScore": 0.029069,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 374,
+      "timestampSeconds": 1460,
+      "timestamp": "00:24:20.000",
+      "sceneScore": 0.023214,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 375,
+      "timestampSeconds": 1465,
+      "timestamp": "00:24:25.000",
+      "sceneScore": 0.017586,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 376,
+      "timestampSeconds": 1470,
+      "timestamp": "00:24:30.000",
+      "sceneScore": 0.001602,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 377,
+      "timestampSeconds": 1475,
+      "timestamp": "00:24:35.000",
+      "sceneScore": 0.035249,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 378,
+      "timestampSeconds": 1478.53,
+      "timestamp": "00:24:38.530",
+      "sceneScore": 0.432109,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 379,
+      "timestampSeconds": 1480,
+      "timestamp": "00:24:40.000",
+      "sceneScore": 0.001352,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 380,
+      "timestampSeconds": 1481.6,
+      "timestamp": "00:24:41.600",
+      "sceneScore": 0.453986,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 381,
+      "timestampSeconds": 1485,
+      "timestamp": "00:24:45.000",
+      "sceneScore": 0.01545,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 382,
+      "timestampSeconds": 1490,
+      "timestamp": "00:24:50.000",
+      "sceneScore": 0.002071,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 383,
+      "timestampSeconds": 1495,
+      "timestamp": "00:24:55.000",
+      "sceneScore": 0.02514,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 384,
+      "timestampSeconds": 1500,
+      "timestamp": "00:25:00.000",
+      "sceneScore": 0.000076,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0032.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 385,
+      "timestampSeconds": 1505,
+      "timestamp": "00:25:05.000",
+      "sceneScore": 0.027623,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 386,
+      "timestampSeconds": 1510,
+      "timestamp": "00:25:10.000",
+      "sceneScore": 0.028751,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 387,
+      "timestampSeconds": 1511.8,
+      "timestamp": "00:25:11.800",
+      "sceneScore": 0.326898,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 388,
+      "timestampSeconds": 1515,
+      "timestamp": "00:25:15.000",
+      "sceneScore": 0.003533,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 389,
+      "timestampSeconds": 1516.73,
+      "timestamp": "00:25:16.730",
+      "sceneScore": 0.352158,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 390,
+      "timestampSeconds": 1520,
+      "timestamp": "00:25:20.000",
+      "sceneScore": 0.019949,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 391,
+      "timestampSeconds": 1525,
+      "timestamp": "00:25:25.000",
+      "sceneScore": 0.008236,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 392,
+      "timestampSeconds": 1530,
+      "timestamp": "00:25:30.000",
+      "sceneScore": 0.000124,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 393,
+      "timestampSeconds": 1535,
+      "timestamp": "00:25:35.000",
+      "sceneScore": 0.00017,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 394,
+      "timestampSeconds": 1540,
+      "timestamp": "00:25:40.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 395,
+      "timestampSeconds": 1545,
+      "timestamp": "00:25:45.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 396,
+      "timestampSeconds": 1550,
+      "timestamp": "00:25:50.000",
+      "sceneScore": 0.001419,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0033.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 397,
+      "timestampSeconds": 1555,
+      "timestamp": "00:25:55.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/sheet-0034.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 398,
+      "timestampSeconds": 1197.7,
+      "timestamp": "00:19:57.700",
+      "sceneScore": 0,
+      "reasons": [
+        "targeted-reread",
+        "supplemental; first decoded source frame at/after requested time; timestamp is actual source PTS relative to first video frame"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/extra-000398.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0,
+      "requestedTimestampSeconds": 1197.7,
+      "sourcePtsSeconds": 1197.7,
+      "sourceTimestampOriginSeconds": 0
+    },
+    {
+      "number": 399,
+      "timestampSeconds": 141.7,
+      "timestamp": "00:02:21.700",
+      "sceneScore": 0,
+      "reasons": [
+        "targeted-reread",
+        "supplemental; first decoded source frame at/after requested time; timestamp is actual source PTS relative to first video frame"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/extra-000399.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0,
+      "requestedTimestampSeconds": 141.7,
+      "sourcePtsSeconds": 141.7,
+      "sourceTimestampOriginSeconds": 0
+    },
+    {
+      "number": 400,
+      "timestampSeconds": 827.6,
+      "timestamp": "00:13:47.600",
+      "sceneScore": 0,
+      "reasons": [
+        "targeted-reread",
+        "supplemental; first decoded source frame at/after requested time; timestamp is actual source PTS relative to first video frame"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/extra-000400.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0,
+      "requestedTimestampSeconds": 827.6,
+      "sourcePtsSeconds": 827.6,
+      "sourceTimestampOriginSeconds": 0
+    },
+    {
+      "number": 401,
+      "timestampSeconds": 1236.5,
+      "timestamp": "00:20:36.500",
+      "sceneScore": 0,
+      "reasons": [
+        "targeted-reread",
+        "supplemental; first decoded source frame at/after requested time; timestamp is actual source PTS relative to first video frame"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/extra-000401.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0,
+      "requestedTimestampSeconds": 1236.5,
+      "sourcePtsSeconds": 1236.5,
+      "sourceTimestampOriginSeconds": 0
+    },
+    {
+      "number": 402,
+      "timestampSeconds": 1241.3,
+      "timestamp": "00:20:41.300",
+      "sceneScore": 0,
+      "reasons": [
+        "targeted-reread",
+        "supplemental; first decoded source frame at/after requested time; timestamp is actual source PTS relative to first video frame"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/extra-000402.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0,
+      "requestedTimestampSeconds": 1241.3,
+      "sourcePtsSeconds": 1241.3,
+      "sourceTimestampOriginSeconds": 0
+    },
+    {
+      "number": 403,
+      "timestampSeconds": 827.4,
+      "timestamp": "00:13:47.400",
+      "sceneScore": 0,
+      "reasons": [
+        "targeted-reread",
+        "supplemental; first decoded source frame at/after requested time; timestamp is actual source PTS relative to first video frame"
+      ],
+      "sheet": "visual/fLxHVF1uiOE/extra-000403.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0,
+      "requestedTimestampSeconds": 827.4,
+      "sourcePtsSeconds": 827.4,
+      "sourceTimestampOriginSeconds": 0
+    }
+  ]
+}

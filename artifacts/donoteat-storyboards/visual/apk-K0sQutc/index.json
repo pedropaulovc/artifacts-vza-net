@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "signature": "{\"version\":1,\"source\":{\"path\":\"videos/apk-K0sQutc/apk-K0sQutc.mkv\",\"size\":3575717,\"mtimeMs\":1791765703224.3315},\"interval\":5,\"threshold\":0.3,\"width\":480}",
+  "complete": true,
+  "id": "apk-K0sQutc",
+  "title": "Episode 4 of Power, Planning, and Politics is on Bsquiklehausen's channel",
+  "source": {
+    "path": "videos/apk-K0sQutc/apk-K0sQutc.mkv",
+    "size": 3575717,
+    "mtimeMs": 1791765703224.3315,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 92.808
+  },
+  "coverage": "One first available frame in every 5-second bin, plus frames with FFmpeg scene score > 0.30. Scene scores are computed at 480px width. This is sparse visual evidence, not exhaustive gag coverage: brief overlays, gradual changes, and gags between samples can be missed. Read source video around relevant moments and use still for precise timestamp rereads.",
+  "sampling": {
+    "intervalSeconds": 5,
+    "regularRule": "first available frame in each 5-second bin",
+    "sceneThreshold": 0.3,
+    "sceneDetectionWidth": 480,
+    "timestampOrigin": "first source video frame = 0; actual selected PTS, not idealized sample times"
+  },
+  "layout": {
+    "columns": 3,
+    "rows": 4,
+    "tileWidth": 480,
+    "tileHeight": 302,
+    "pictureHeight": 270,
+    "tileIndexBase": 0,
+    "readingOrder": "left-to-right, then top-to-bottom"
+  },
+  "targetedRereadCommand": "bun visual-extract.ts still apk-K0sQutc <seconds-or-HH:MM:SS.mmm> [...]",
+  "sheets": [
+    {
+      "path": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "firstFrame": 1,
+      "frameCount": 12,
+      "startSeconds": 0,
+      "endSeconds": 50
+    },
+    {
+      "path": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "firstFrame": 13,
+      "frameCount": 12,
+      "startSeconds": 54.067,
+      "endSeconds": 90
+    }
+  ],
+  "frames": [
+    {
+      "number": 1,
+      "timestampSeconds": 0,
+      "timestamp": "00:00:00.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 2,
+      "timestampSeconds": 5,
+      "timestamp": "00:00:05.000",
+      "sceneScore": 0.000005,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 3,
+      "timestampSeconds": 10,
+      "timestamp": "00:00:10.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 4,
+      "timestampSeconds": 15,
+      "timestamp": "00:00:15.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 5,
+      "timestampSeconds": 20,
+      "timestamp": "00:00:20.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 6,
+      "timestampSeconds": 25,
+      "timestamp": "00:00:25.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 7,
+      "timestampSeconds": 30,
+      "timestamp": "00:00:30.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 8,
+      "timestampSeconds": 35,
+      "timestamp": "00:00:35.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 9,
+      "timestampSeconds": 40,
+      "timestamp": "00:00:40.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 10,
+      "timestampSeconds": 45,
+      "timestamp": "00:00:45.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 11,
+      "timestampSeconds": 49.067,
+      "timestamp": "00:00:49.067",
+      "sceneScore": 0.562442,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 12,
+      "timestampSeconds": 50,
+      "timestamp": "00:00:50.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0001.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    },
+    {
+      "number": 13,
+      "timestampSeconds": 54.067,
+      "timestamp": "00:00:54.067",
+      "sceneScore": 0.562477,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 14,
+      "timestampSeconds": 55,
+      "timestamp": "00:00:55.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 15,
+      "timestampSeconds": 56.4,
+      "timestamp": "00:00:56.400",
+      "sceneScore": 0.563832,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 16,
+      "timestampSeconds": 58,
+      "timestamp": "00:00:58.000",
+      "sceneScore": 0.565477,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 17,
+      "timestampSeconds": 60,
+      "timestamp": "00:01:00.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 18,
+      "timestampSeconds": 63,
+      "timestamp": "00:01:03.000",
+      "sceneScore": 0.699561,
+      "reasons": [
+        "scene-change"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 19,
+      "timestampSeconds": 65,
+      "timestamp": "00:01:05.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 20,
+      "timestampSeconds": 70,
+      "timestamp": "00:01:10.000",
+      "sceneScore": 0.000001,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 21,
+      "timestampSeconds": 75,
+      "timestamp": "00:01:15.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    },
+    {
+      "number": 22,
+      "timestampSeconds": 80,
+      "timestamp": "00:01:20.000",
+      "sceneScore": 0.000247,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "tile": 9,
+      "row": 3,
+      "column": 0
+    },
+    {
+      "number": 23,
+      "timestampSeconds": 85,
+      "timestamp": "00:01:25.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "tile": 10,
+      "row": 3,
+      "column": 1
+    },
+    {
+      "number": 24,
+      "timestampSeconds": 90,
+      "timestamp": "00:01:30.000",
+      "sceneScore": 0.002513,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/apk-K0sQutc/sheet-0002.jpg",
+      "tile": 11,
+      "row": 3,
+      "column": 2
+    }
+  ]
+}

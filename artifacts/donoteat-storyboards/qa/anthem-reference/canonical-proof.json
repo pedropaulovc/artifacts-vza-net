@@ -1,0 +1,51 @@
+{
+  "conclusion": "Both prioritized videos contain the same recording as the credited March of the Volunteers reference UctriMuXYS0. This is recording-level acoustic evidence, not an LLM identity guess. The recalled single video cannot be uniquely chosen because both match. No tested source contains a demonstrated continuous 18-second cue: the 18-second query/excerpt windows include margins.",
+  "reference": {
+    "url": "https://www.youtube.com/watch?v=UctriMuXYS0",
+    "title": "China National anthem Chinese & English lyrics",
+    "channel": "VocalNationalAnthems",
+    "work": "March of the Volunteers",
+    "workAttribution": "Reference metadata and 8LysiXf-DJU source description line 10; confirmed same-recording audio association",
+    "downloadSha256": "c6f8f15bbdb845dab974b3c51847bea64065310cb2a9146e97d4f1776f82544a",
+    "wavSha256": "0cad0b6364986b9ed7497ee4978d69e3fafb73b2ea2a72ec1dc293ae9603b267"
+  },
+  "sources": [
+    {
+      "id": "8LysiXf-DJU",
+      "url": "https://www.youtube.com/watch?v=8LysiXf-DJU&t=53s",
+      "title": "donoteat DESTROYS cities:skylines industries DLC with FACTS & LOGIC",
+      "sourceWavSha256": "a938da69ecb84e40b66aa0eec6b4f2ec05ee0a98e5254743e9f4b731009b2154",
+      "originalMediaSha256FromExistingProvenance": "e22add9d8298ecedb5c57f465f26141e990b85ffa75f502f67a406be75566589",
+      "sourceToReferenceOffsetSeconds": 35.82075,
+      "offsetFormula": "reference time = source time - 35.82075",
+      "recommendedExcerptSeconds": [53, 61],
+      "excerptPath": "qa/anthem-reference/8LysiXf-DJU_MATCHED_CORE_53-61.wav",
+      "excerptSha256": "783539312abb3a09832528762c2c926de2135f03299a2aae4bbc60833bb6a102",
+      "quarterSecondBoundaryObservation": "First strong fixed-offset quarter-second bin at 52.5–52.75; voiceover obscures exact onset. Sustained near-exact match 57.75–60.5, NCC 0.9568–0.9852; 60.5–60.75 NCC 0.7905, then 60.75–61 NCC 0.0163. Do not infer entire 45–70 window is anthem.",
+      "independentTwoSecondProof": "53–55,55–57,57–59,59–61 all globally locate the identical reference offset at sample precision; NCC 0.1919,0.4832,0.6049,0.3895.",
+      "eighteenSecondQuery": {"sourceInterval": [47.5,65.5], "referenceInterval": [11.67925,29.67925], "waveformNcc": 0.14584047353877783, "spectralScore": 0.4363107979297638, "containsNonAnthemMargins": true}
+    },
+    {
+      "id": "LdeirDrinWk",
+      "url": "https://www.youtube.com/watch?v=LdeirDrinWk&t=1203s",
+      "title": "Cities: Skylines | Power, Politics, & Planning: Episode 3: Gentrification",
+      "sourceWavSha256": "5c86c6f441a7850db1e5a7705521d37d677571a33f06168c902d898fdb36e452",
+      "originalMediaSha256FromExistingProvenance": "4f1b01bedec9c0616e5dd241790a7c1c6bb8abe8b53e49da8ff2f34577243ce0",
+      "sourceToReferenceOffsetSeconds": 1187.5311875,
+      "offsetFormula": "reference time = source time - 1187.5311875",
+      "recommendedExcerptSeconds": [1203,1215],
+      "excerptPath": "qa/anthem-reference/LdeirDrinWk_MATCHED_CORE_1203-1215.wav",
+      "excerptSha256": "5e9c9be715438efaf5a1a796f275eea07a70ea23b9ac39369021d831d7568a57",
+      "quarterSecondBoundaryObservation": "Correlated recording starts in bin 1203.25–1203.5 (NCC .9448), after 1203–1203.25 NCC .0224; ends during 1214–1214.25 (NCC .5245), before 1214.25–1214.5 NCC -.0026. Near-exact intervening quarter-second NCC mostly .984–.997. Boundary accuracy limited to .25s bins, not exact edit points.",
+      "independentTwoSecondProof": "1203–1205 through1213–1215 globally locate identical sample offset; NCC .844,.986,.991,.988,.987,.308.",
+      "eighteenSecondQuery": {"sourceInterval": [1200.5,1218.5], "referenceInterval": [12.9688125,30.9688125], "waveformNcc": 0.6087710986750893, "spectralScore": 0.6928887367248535, "containsNonAnthemMargins": true}
+    }
+  ],
+  "calibration": {
+    "exactKnownReference25to43": {"locatedReferenceSeconds": 25, "waveformNcc": 1.000000083074114, "spectralScore": 0.9999999403953552},
+    "syntheticNarrationContainingInterference": "QA ONLY. Known reference25–43 mixed with8L100–118 at interference/reference RMS1,3,10. Interference was not speech-isolated. All recover reference25.0 exactly; waveform NCC .7073,.3168,.1001; spectral .8374,.7010,.5749.",
+    "distinctControls": "Reversed reference excerpt waveform max abs NCC .0463; unrelated8L100–118 .0246; unrelatedLde100–118 .0249. Reversed spectral .3884 demonstrates spectral score alone cannot prove identity.",
+    "limitations": "Finite controls establish this comparison, not a universal false-positive rate. Short bins support exact recording association where waveform nearly identical; no composition-across-recordings DTW needed or claimed. Raw audio excerpts retain narration; no GPU or separation used. Unmatched margins do not establish absence of other music. Both candidates match, so recalled-video uniqueness and exact18-second duration remain unresolved."
+  },
+  "rawEvidence": ["qa/anthem-reference/acquisition.json", "qa/anthem-reference/UctriMuXYS0.info.json", "qa/anthem-reference/controls.json", "qa/anthem-reference/results.json", "qa/anthem-reference/summary.json", "qa/anthem-reference/alignment-proof.json", "qa/anthem-reference/boundaries.json", "qa/anthem-reference/match.py", "qa/anthem-reference/refine.py", "qa/anthem-reference/boundaries.py", "artifact://988", "artifact://990", "artifact://994"]
+}

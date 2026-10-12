@@ -1,0 +1,29 @@
+{
+  "id": "Yvl_7_Up7zU",
+  "corrections": [
+    {
+      "startSeconds": 698.36,
+      "endSeconds": 699.2,
+      "originalText": " Chucky R. Law,",
+      "replacementText": "Tiocfaidh ár lá,",
+      "evidence": "User confirms the phrase following 'unrelated' in the approximately11:37.5 Catholic/Irish-republican cutaway sequence is the Irish slogan 'Tiocfaidh ár lá' ('our day will come'), not a person. Exact correction span is anchored to the three raw ASR word slots at698.36–699.2s, not an independently measured audio onset. Original transcript remains immutable.",
+      "provenance": "user-observation"
+    },
+    {
+      "startSeconds": 1533.7,
+      "endSeconds": 1534.64,
+      "originalText": " Chucky R. Law,",
+      "replacementText": "Tiocfaidh ár lá,",
+      "evidence": "User confirms the same 'Tiocfaidh ár lá' ('our day will come') slogan repeats in the Catholic Church/armed-woman cutaway callback, not a person named Chucky R. Law. Exact correction span is anchored to the three raw ASR word slots at1533.7–1534.64s, not independently measured audio timing. Original transcript remains immutable.",
+      "provenance": "user-observation"
+    },
+    {
+      "startSeconds": 1656.84,
+      "endSeconds": 1657.74,
+      "originalText": " Chucky R. Law.",
+      "replacementText": "Tiocfaidh ár lá.",
+      "evidence": "User confirms the same 'Tiocfaidh ár lá' ('our day will come') slogan repeats with the explicitly labeled Irish Republican Army graphic, not a person named Chucky R. Law. Exact correction span is anchored to the three raw ASR word slots at1656.84–1657.74s, not independently measured audio timing. Identification explains the recurring gag and does not endorse an armed group. Original transcript remains immutable.",
+      "provenance": "user-observation"
+    }
+  ]
+}

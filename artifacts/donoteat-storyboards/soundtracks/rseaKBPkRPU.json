@@ -1,0 +1,31 @@
+{
+  "id": "rseaKBPkRPU",
+  "title": "Cities: Skylines | Power, Politics, & Planning: Episode 2: Urban Freeways",
+  "coverage": "Source-description credits (where present) plus accepted work-level audio fingerprints (where corroborated); source credits remain untimed. Fingerprint samples are actual submitted 12-second signature intervals, not the full 20-second extraction windows or track cue boundaries. Catalogue artists are preserved in evidence, not promoted to composer/performer; contradictory recording labels do not override source performance credits. Music between samples, exact recordings, and full cue boundaries remain unresolved.  Recognition manifest qa/soundtrack/all-summary.json records 14 saved requests against 14 planned base samples for this video. The full network queue did not finish: HTTP429 Too Many Requests at 8LysiXf-DJU extraction2040s stopped subsequent requests; no automatic retry. Missing/unmatched requests do not establish absent music. Unrelated mixed-speech catalogue suggestions are not accepted. User-confirmed effects remain separate. Exact missing and failed base-sample starts are enumerated in qa/soundtrack/coverage.json; qa/soundtrack/local-summary.json records local extraction provenance for all501 planned clips, which is not API recognition coverage.",
+  "tracks": [
+    {
+      "title": "Tragic Overture, Op. 81",
+      "composer": "Johannes Brahms",
+      "performer": "Musopen Symphony",
+      "identification": "audio-fingerprint",
+      "evidence": "videos/rseaKBPkRPU/rseaKBPkRPU.description:3: \"The intro music is Tragic Overture, Op. 81, by Johannes Brahms. It is the version by the Musopen Symphony, and is in the public domain.\" Supplementary work-level fingerprint evidence in qa/soundtrack/rseaKBPkRPU/results.json: Shazam record key 315585656, raw title \"Johannes Brahms: Tragic Overture, Op. 81\", raw catalogue artist \"CLASSICAL MUSIC LIBRARY\". Work identity is corroborated; catalogue artist is NOT substituted for credited composer/performer and the exact recording remains unresolved.",
+      "samples": [
+        {
+          "startSeconds": 0,
+          "endSeconds": 12.0,
+          "evidence": "qa/soundtrack/rseaKBPkRPU/results.json requests[0], rawResponse.track.key=315585656, tagid=A79B72BA-6362-42BA-87DD-6652D580833E; fingerprint.sourceStartSeconds=0, sourceEndSeconds=12.0, samplems=12000. Submitted signature interval only; extracted clip 0–20.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 20,
+          "endSeconds": 32.0,
+          "evidence": "qa/soundtrack/rseaKBPkRPU/results.json requests[1], rawResponse.track.key=315585656, tagid=639B4E3D-3842-4306-B109-A83FF0EC6035; fingerprint.sourceStartSeconds=20, sourceEndSeconds=32.0, samplems=12000. Submitted signature interval only; extracted clip 20–40.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 600,
+          "endSeconds": 612.0,
+          "evidence": "qa/soundtrack/rseaKBPkRPU/results.json requests[7], rawResponse.track.key=315585656, tagid=14763DE3-1329-42F6-8158-39E7D6509B09; fingerprint.sourceStartSeconds=600, sourceEndSeconds=612.0, samplems=12000. Submitted signature interval only; extracted clip 600–620.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        }
+      ]
+    }
+  ]
+}

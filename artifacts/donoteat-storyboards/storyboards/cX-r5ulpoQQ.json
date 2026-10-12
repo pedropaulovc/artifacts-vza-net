@@ -1,0 +1,924 @@
+{
+  "id": "cX-r5ulpoQQ",
+  "title": "Cities: Skylines | Franklin, Episode 10: Law & Order",
+  "durationSeconds": 2671.728,
+  "premise": "Donoteat01 uses a modeled Eastern State Penitentiary to argue that isolation, surveillance and compulsory labor connect nineteenth-century prison reform to coercive contemporary incarceration; historical and political assertions are attributed to him.",
+  "coverage": "Personally inspected all 85 original contact sheets containing1,014 frames, plus supplemental sheets extra-001015 and extra-001016 showing recovered first-Sargon and Big Chungus inserts,10 native targeted stills, one brief-audit sheet, and the user's Big Chungus screenshot. Total1,016 indexed frames viewed. Sparse sampling demonstrably missed both inserts, recovered at170.533 and967.000 by user/audit/native evidence. Full speech is renderer-derived from all timestamped transcript words; no authored dialogue/endSeconds. Sound[] means unannotated. User identifies DUN-DUN, projector/slide-change sounds and the hesitation callback; peer RMS refines sting timing without identifying sound. Modern Sargon figures are user-identified as Paul Joseph Watson and Carl Benjamin. Historical assertions and the ancient artifact's exact museum attribution remain qualified.",
+  "panels": [
+    {
+      "startSeconds": 0,
+      "frameNumber": 1,
+      "heading": "Series emblem",
+      "description": "Orange Franklin lettering and Liberty Bell emblem on black.",
+      "camera": "Static title graphic.",
+      "action": "No character action.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:00:00.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 10,
+      "frameNumber": 3,
+      "heading": "Introduce the prison",
+      "description": "Aerial view of the modeled prison carries a DONOTEAT series overlay.",
+      "camera": "Opening cuts from logo to aerial model; sampled views reframe the complex.",
+      "action": "Title overlay; prison remains stationary.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:00:10.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 27.79,
+      "frameNumber": 7,
+      "heading": "1836: Law & Order",
+      "description": "Episode title overlays the Blender prison model.",
+      "camera": "Cut to desktop capture; fixed interface with viewport reframing.",
+      "action": "Presenter begins the episode while the model is edited.",
+      "visualGag": "Audiovisual setup: announcing “law and order” triggers the recognizable television-series DUN-DUN sound sting over the modeler; the next panel immediately repeats and comments on the gag.",
+      "notes": "Speech uses exact ASR word starts. User-reported DUN-DUN is authoritative; VAD text does not transcribe the effect. Sound timestamp is a coarse phrase-end anchor, not a falsely precise audio measurement. Sound placement updated from peer RMS signal evidence (first burst 43.8–45.3, second 48.0–49.9, third 128.3–129.5, fourth 2178.5–2180.2); signal alone does not identify a sting.",
+      "sound": [
+        {
+          "startSeconds": 43.8,
+          "text": "Law & Order DUN-DUN sting: identity user-confirmed; approximate burst/decay timing from GagAssociationAudit RMS signal measurement, not independently listened to here."
+        }
+      ]
+    },
+    {
+      "startSeconds": 45.9,
+      "frameNumber": 36,
+      "heading": "Law & Order repeats: every time",
+      "description": "The prison asset/reference desktop work remains visible while the title phrase and television sting recur. The running joke is auditory, not inferred from the still.",
+      "camera": "Desktop reference/model capture reframes across neighboring samples; no acted presenter scene.",
+      "action": "On-screen asset/reference work continues beneath the narrator’s self-aware callback.",
+      "sound": [
+        {
+          "startSeconds": 48.0,
+          "text": "Law & Order DUN-DUN sting: identity user-confirmed; approximate burst/decay timing from GagAssociationAudit RMS signal measurement, not independently listened to here."
+        }
+      ],
+      "visualGag": "Immediate audiovisual payoff: repeating “law and order” repeats the sting, followed by the self-aware every-time reaction/callback. Its function is clear without asserting whether the exact spoken wording is a statement or question.",
+      "notes": "Representative tile is an inspected frame within this range. The user reports the reaction as “is it going to do this every time”; machine ASR instead renders “I'm gonna do that every time”. Exact wording has not been independently auditioned here. Preserve all raw machine transcript words unchanged, without claiming the user is wrong. Sound placement updated from peer RMS signal evidence (first burst 43.8–45.3, second 48.0–49.9, third 128.3–129.5, fourth 2178.5–2180.2); signal alone does not identify a sting."
+    },
+    {
+      "startSeconds": 60,
+      "frameNumber": 45,
+      "heading": "The game’s simple crime loop",
+      "description": "Roads, rowhouses and a small police-looking vehicle illustrate the game system.",
+      "camera": "Game views change framing as the car proceeds along streets across adjacent samples.",
+      "action": "Vehicle travels through the modeled neighborhood; narration questions deterrence.",
+      "visualGag": "Continuation of the opening audiovisual gag: the phrase “law and order” returns while the narrator critiques the game, invoking the previously established DUN-DUN/every-time motif; visuals remain gameplay/reference illustration.",
+      "notes": "Selected inspected sample at 00:01:00.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries. Sound placement updated from peer RMS signal evidence (first burst 43.8–45.3, second 48.0–49.9, third 128.3–129.5, fourth 2178.5–2180.2); signal alone does not identify a sting.",
+      "sound": [
+        {
+          "startSeconds": 128.3,
+          "text": "Law & Order DUN-DUN sting: identity user-confirmed; approximate burst/decay timing from GagAssociationAudit RMS signal measurement, not independently listened to here."
+        }
+      ]
+    },
+    {
+      "startSeconds": 140,
+      "frameNumber": 126,
+      "heading": "Architecture, not policing yet",
+      "description": "Blender workspace shows the developing stone prison facade.",
+      "camera": "Desktop capture, reframed model viewport; no continuous camera trajectory established.",
+      "action": "Mesh construction continues beneath the explanation of the time-lapse premise.",
+      "visualGag": "User-identified audiovisual callback: while introducing a brief history, the narrator approaches the established “law and order” trigger, then hesitates/self-corrects to “law and … uh, imprisonment” to avoid repeating that phrase and its DUN-DUN/every-time joke. Blender construction remains the visual background; this is not a new music track or a claim about whether any effect is absent.",
+      "notes": "Selected inspected sample at00:02:20.000. User explicitly identifies the hesitation and callback intent; it has not been independently auditioned here. Existing ASR places the sentence at161.43s, “law” at164.53s, “and” at164.87s, and “imprisonment” at165.39s, but omits the user-heard “uh”. Full raw machine words remain unchanged and renderer-derived; the sound caption supplements rather than rewrites them.",
+      "sound": [
+        {
+          "startSeconds": 164.87,
+          "text": "User-observed speech/audio gag: “law and … uh, imprisonment” hesitates/self-corrects away from the Law & Order trigger, linking back to the DUN-DUN/every-time callback. Coarse placement anchored to existing ASR “and” onset164.87s, not a measured hesitation onset; the user's2:41.4 context matches the sentence beginning161.43s. ASR omits the user-heard “uh”. Raw ASR remains unchanged. No new sting or negative claim about audio is inferred."
+        }
+      ]
+    },
+    {
+      "startSeconds": 169.74,
+      "frameNumber": 140,
+      "heading": "Sargon mistaken-identity setup",
+      "description": "Blender model precedes a three-image Sargon joke: Paul Joseph Watson against a map, YouTuber Sargon of Akkad (Carl Benjamin) at a podcast microphone, then an ancient bronze head representing the historical Sargon.",
+      "camera": "Desktop capture with model viewport; no face insert in this selected 02:50 sample.",
+      "action": "Modeling continues beneath narration.",
+      "visualGag": "Name setup contrasts modern public figures Paul Joseph Watson and YouTuber Sargon of Akkad (Carl Benjamin) with historical ancient Sargon. Both modern candidates are rejected before the ancient-head reveal. The first modern image was recovered at170.533 after sparse indexing missed it.",
+      "notes": "Frame140@170 precedes the first insert; the next panel uses viewed supplemental frame1015@170.533. Modern identities are explicitly supplied by the user, not inferred from unlabeled faces.",
+      "sound": []
+    },
+    {
+      "startSeconds": 170.233,
+      "frameNumber": 1015,
+      "heading": "First wrong Sargon: Paul Joseph Watson",
+      "description": "Paul Joseph Watson, identified by the user, wears a light-blue shirt and appears against a world-map backdrop over the Blender model.",
+      "camera": "Static photo/webcam-style insert; cut replaces desktop-only setup. Cut170.233 is auditor-derived; actual registered image is170.533.",
+      "action": "Frozen front-facing modern man; no acted historical scene.",
+      "sound": [],
+      "visualGag": "First rejection in the three-image Sargon sequence: the ancient ruler's name summons modern public figure Paul Joseph Watson, followed by “No, not that guy”. Next comes Carl Benjamin, the YouTuber named Sargon of Akkad, before the historical ancient-Sargon reveal.",
+      "notes": "Actual viewed supplemental frame1015@170.533 and native source still establish the image. Identification as Paul Joseph Watson is user-provided. The panel groups the first modern candidate and correction; full raw ASR is source-derived and unchanged."
+    },
+    {
+      "startSeconds": 174.44,
+      "frameNumber": 141,
+      "heading": "Second wrong Sargon: YouTuber Sargon of Akkad (Carl Benjamin)",
+      "description": "YouTuber Sargon of Akkad, Carl Benjamin, appears bearded and headphone-wearing at a podcast microphone against red curtains. The user identifies him as the anti-feminist YouTuber selected as a UKIP election candidate.",
+      "camera": "Static photograph insert over moving modeling capture.",
+      "action": "Man is frozen beside a microphone; no acted scene.",
+      "visualGag": "Second rejection: “No, not that guy either” dismisses Carl Benjamin, the modern YouTuber who uses Sargon of Akkad as his name. The first rejection concerned Paul Joseph Watson; the following ancient-head image supplies historical Sargon rather than either modern public figure.",
+      "notes": "Frame141@174.667 and native174.700 establish this image; speech cue174.44–176.06 fits its grouping. Carl Benjamin's identity and the anti-feminist YouTuber/UKIP-candidate context are explicitly user-provided, not newly researched or inferred from the still.",
+      "sound": []
+    },
+    {
+      "startSeconds": 176.14,
+      "frameNumber": 143,
+      "heading": "The real Sargon: ancient-head payoff",
+      "description": "Bronze-colored ancient bearded head with damaged eyes replaces the two modern faces as narration says the real guy.",
+      "camera": "Cut between static inserts; underlying viewport changes.",
+      "action": "Artifact is a static image.",
+      "visualGag": "Historical payoff: after rejecting modern public figures Paul Joseph Watson and YouTuber Sargon of Akkad (Carl Benjamin), the ancient artifact represents the historical Sargon. This is the real-guy reveal, not another rejected candidate.",
+      "notes": "Frame143@176.933 and native176.950 establish the ancient-head insert; real-guy clause starts176.14. Exact museum artifact attribution is not independently established.",
+      "sound": []
+    },
+    {
+      "startSeconds": 190,
+      "frameNumber": 151,
+      "heading": "Ur-Nammu: law before prisons",
+      "description": "Exhibit photograph of the Ur-Nammu law tablet overlays the desktop.",
+      "camera": "Static historical insert.",
+      "action": "No character action; narration explains early punishment.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:03:10.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 200,
+      "frameNumber": 157,
+      "heading": "Hammurabi and class",
+      "description": "Dark inscribed stele image illustrates the next legal code.",
+      "camera": "Static historical insert, cut from previous illustration.",
+      "action": "No character action; presenter contrasts legal equality rhetoric with classes.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:03:20.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 250,
+      "frameNumber": 180,
+      "heading": "Lex talionis",
+      "description": "A Torah scroll illustration accompanies the ancient-law discussion.",
+      "camera": "Static insert over modeling.",
+      "action": "No character action; transition toward Greek and Roman imprisonment.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:04:10.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 295,
+      "frameNumber": 208,
+      "heading": "Rome’s holding prison",
+      "description": "Stone chamber and altar/red cross illustrate the Mamertine prison.",
+      "camera": "Static photograph.",
+      "action": "No character action; holding/death-row function is described.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:04:55.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 340,
+      "frameNumber": 239,
+      "heading": "Britain: bodily punishment",
+      "description": "A stocks photograph illustrates public corporal punishment.",
+      "camera": "Static photo insert; hard cut rather than camera movement.",
+      "action": "No moving prisoner is observed.",
+      "visualGag": "Serious punishment-image setup for the later monarchist pun: the following Burger King insert replaces historical authority with a commercial fake king.",
+      "notes": "Selected inspected sample at 00:05:40.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 401.4,
+      "frameNumber": 291,
+      "heading": "Monarchist punishment",
+      "description": "Burger King mascot holds two burgers, wearing a branded crown.",
+      "camera": "Static image overlay above the Blender interface.",
+      "action": "Mascot pose is frozen.",
+      "visualGag": "A commercial fake king literalizes the criticism of monarchist punishment.",
+      "notes": "Selected inspected sample at 00:06:45.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 450,
+      "frameNumber": 322,
+      "heading": "Walnut Street Jail",
+      "description": "Historical jail engraving overlays the asset creation.",
+      "camera": "Static engraving insert.",
+      "action": "No character action; presenter explains crowded undifferentiated incarceration.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:07:30.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 498.9,
+      "frameNumber": 355,
+      "heading": "The expected Foucault lecture",
+      "description": "Black-and-white Foucault portrait appears over Blender.",
+      "camera": "Static portrait overlay.",
+      "action": "No character action; presenter refuses to pretend to have read the book.",
+      "visualGag": "Connected audiovisual sequence: the anticipated Panopticon/Michel Foucault lecture is illustrated by his portrait, then undercut by “that’s where you’re wrong, kiddo”; the following projector panel turns the reversal into a physical/audio slide-lecture gag.",
+      "notes": "Viewed original frame355@503.5 shows the Foucault portrait. Grouping begins498.9 to retain the anticipatory question, not to assert the portrait appears that early.",
+      "sound": [
+        {
+          "startSeconds": 502.8,
+          "text": "User-observed French-pronunciation audio gag: “Michel Foucault”. Coarse annotation anchored to raw ASR word onset 502.8s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        }
+      ]
+    },
+    {
+      "startSeconds": 507.1,
+      "frameNumber": 357,
+      "heading": "Get out the projector",
+      "description": "Photograph of a carousel slide projector overlays the desktop.",
+      "camera": "Static insert followed by cut to simulated projection.",
+      "action": "No projector operator is visible.",
+      "visualGag": "Connected audiovisual setup: a literal carousel-projector photograph and user-confirmed projector sound turn the spoken invitation into an old-fashioned lecture performance; the following title and slides provide the payoff.",
+      "notes": "Selected inspected sample at 00:08:30.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": [
+        {
+          "startSeconds": 508.5,
+          "text": "Slide-projector audio gag begins around the projector setup; effect identity explicitly user-confirmed. Placement is a coarse setup-region annotation, not an independently measured sound onset."
+        },
+        {
+          "startSeconds": 515,
+          "text": "User-observed French-pronunciation audio gag: “Foucault”. Coarse annotation anchored to raw ASR word onset 515s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        }
+      ]
+    },
+    {
+      "startSeconds": 520,
+      "frameNumber": 366,
+      "heading": "Architecture lecture begins",
+      "description": "Rounded illuminated slide on black reads NEOCLASSICISM, PRISONS AND THE ARCHITECTURE OF SOCIAL CONTROL.",
+      "camera": "Mock projection uses focus/blur and dark slide-change transitions across adjacent samples.",
+      "action": "Static title slide; presenter directs imagined slide changes.",
+      "visualGag": "Audiovisual payoff of getting out the projector: simulated illuminated slides, focus/dark transitions and user-confirmed slide-change/projector audio sustain the lecture cosplay through the architectural detour.",
+      "notes": "Selected inspected sample at 00:08:40.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": [
+        {
+          "startSeconds": 520,
+          "text": "Recurring projector/slide-change audio accompanies the simulated lecture and subsequent slide sequence; explicitly user-confirmed. This caption marks the sequence region, not a measured individual click or a claim of continuous sound."
+        }
+      ]
+    },
+    {
+      "startSeconds": 555,
+      "frameNumber": 375,
+      "heading": "Piranesi",
+      "description": "Engraved architect portrait begins the historical slide sequence.",
+      "camera": "Static projected slide; cuts separate slides.",
+      "action": "No character action; Piranesi is introduced.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:09:15.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 595,
+      "frameNumber": 385,
+      "heading": "Imaginary prisons",
+      "description": "Carceri engraving presents enormous stairs, vaults and complicated spatial relationships.",
+      "camera": "Static projected architectural engraving.",
+      "action": "Figures/building are drawn, not moving; narrator distinguishes fantasy from feasible prison design.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:09:55.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": [
+        {
+          "startSeconds": 650.66,
+          "text": "User-observed French-pronunciation audio gag: “Louis XIV”. Coarse annotation anchored to raw ASR word onset 650.66s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        }
+      ]
+    },
+    {
+      "startSeconds": 660,
+      "frameNumber": 404,
+      "heading": "Baroque versus neoclassical",
+      "description": "Labeled architectural examples appear in the lecture format.",
+      "camera": "Static slide comparison.",
+      "action": "No character action; presenter distinguishes stylistic categories.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:11:00.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": [
+        {
+          "startSeconds": 674.43,
+          "text": "User-observed French-pronunciation audio gag: “Beaux-Arts”. Coarse annotation anchored to raw ASR word onset 674.43s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        },
+        {
+          "startSeconds": 691.62,
+          "text": "User-observed French-pronunciation audio gag: “Claude-Nicolas Ledoux”. Coarse annotation anchored to raw ASR word onset 691.62s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        },
+        {
+          "startSeconds": 699.8,
+          "text": "User-observed French-pronunciation audio gag: “Rotonde de la Villette”. Coarse annotation anchored to raw ASR word onset 699.8s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        },
+        {
+          "startSeconds": 712.56,
+          "text": "User-observed French-pronunciation audio gag: “Ledoux”. Coarse annotation anchored to raw ASR word onset 712.56s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        },
+        {
+          "startSeconds": 717.88,
+          "text": "User-observed French-pronunciation audio gag: “Ferme générale”. Coarse annotation anchored to raw ASR word onset 717.88s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        }
+      ]
+    },
+    {
+      "startSeconds": 725,
+      "frameNumber": 420,
+      "heading": "Ledoux in the workshop",
+      "description": "Workshop screenshot introduces the available Rotonde asset.",
+      "camera": "Cut from historical imagery to static interface screenshot.",
+      "action": "No live download action established; modder credit accompanies example.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:12:05.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": [
+        {
+          "startSeconds": 736.54,
+          "text": "User-observed French-pronunciation audio gag: “Arc-et-Senans”. Coarse annotation anchored to raw ASR word onset 736.54s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        }
+      ]
+    },
+    {
+      "startSeconds": 780,
+      "frameNumber": 435,
+      "heading": "Saltworks as surveillance",
+      "description": "Semicircular plan diagrams industrial buildings, housing and central supervision.",
+      "camera": "Static plan slide.",
+      "action": "No character action; narrator traces social control through the plan.",
+      "visualGag": "Architectural lecture context/setup: plans make social functions legible, leading through architecture parlante to the later penis-shaped brothel payoff; this plan itself is not a sexual joke.",
+      "notes": "Selected inspected sample at 00:13:00.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": [
+        {
+          "startSeconds": 810.62,
+          "text": "User-observed French-pronunciation audio gag: “Claude Ledoux”. Coarse annotation anchored to raw ASR word onset 810.62s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        },
+        {
+          "startSeconds": 813.16,
+          "text": "User-observed French-pronunciation audio gag: “architecture parlante”. Coarse annotation anchored to raw ASR word onset 813.16s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        }
+      ]
+    },
+    {
+      "startSeconds": 825,
+      "frameNumber": 446,
+      "heading": "Architecture parlante setup",
+      "description": "Visionary spherical building drawing demonstrates expressive geometric architecture.",
+      "camera": "Static projected drawing.",
+      "action": "No moving figures; buildings illustrate ideas rather than a construction sequence.",
+      "visualGag": "Setup: a building can announce its function through its shape.",
+      "notes": "Selected inspected sample at 00:13:45.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": [
+        {
+          "startSeconds": 829.68,
+          "text": "User-observed French-pronunciation audio gag: “Ledoux”. Coarse annotation anchored to raw ASR word onset 829.68s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        },
+        {
+          "startSeconds": 831.52,
+          "text": "User-observed French-pronunciation audio gag: “Chaux”. Coarse annotation anchored to raw ASR word onset 831.52s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged. The following spoken letter spelling at 832.76–835.22s belongs to this same occurrence; no ASR spelling correction is asserted."
+        },
+        {
+          "startSeconds": 853.58,
+          "text": "User-observed French-pronunciation audio gag: “Ledoux”. Coarse annotation anchored to raw ASR word onset 853.58s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        }
+      ]
+    },
+    {
+      "startSeconds": 880.867,
+      "frameNumber": 459,
+      "heading": "State brothel payoff",
+      "description": "Brothel plan has a long central shaft, oval end and paired round chambers at its base.",
+      "camera": "Static plan in rounded projection aperture.",
+      "action": "No character action.",
+      "visualGag": "Penis-shaped plan makes architecture parlante a visual sexual punchline.",
+      "notes": "Selected inspected sample at 00:14:45.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": [
+        {
+          "startSeconds": 884.51,
+          "text": "User-observed French-pronunciation audio gag: “architecture parlante”. Coarse annotation anchored to raw ASR word onset 884.51s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        },
+        {
+          "startSeconds": 908.03,
+          "text": "User-observed French-pronunciation audio gag: “Étienne-Louis Boullée”. Coarse annotation anchored to raw ASR word onset 908.03s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        }
+      ]
+    },
+    {
+      "startSeconds": 910,
+      "frameNumber": 467,
+      "heading": "Boullée’s library",
+      "description": "Grand vaulted library drawing replaces the brothel plan.",
+      "camera": "Cut between static architectural drawings.",
+      "action": "No moving people; presenter questions the open-roof construction.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:15:10.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": [
+        {
+          "startSeconds": 925.56,
+          "text": "User-observed French-pronunciation audio gag: “Boullée”. Coarse annotation anchored to raw ASR word onset 925.56s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        }
+      ]
+    },
+    {
+      "startSeconds": 945,
+      "frameNumber": 476,
+      "heading": "The sublime",
+      "description": "Huge severe monumental facade accompanies the scale/sublime discussion.",
+      "camera": "Static projected architectural drawing.",
+      "action": "Static architectural drawing supplies the scale setup; no character action. The next panel shows an actual comic overlay.",
+      "visualGag": "Plain monumental-facade architecture slides establish a serious scale discussion, setting up the anachronistic fake PS4 Big Chungus cover that appears over the facade in the following dedicated payoff panel. The narration associates the design with a cemetery entrance; that purpose is voice evidence, not deduced from appearance.",
+      "notes": "Selected inspected sample at 00:15:45.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": [
+        {
+          "startSeconds": 953.32,
+          "text": "User-observed French-pronunciation audio gag: “Boullée”. Coarse annotation anchored to raw ASR word onset 953.32s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        }
+      ]
+    },
+    {
+      "startSeconds": 965.11,
+      "frameNumber": 1016,
+      "heading": "Big Chungus: fake PS4 cover payoff",
+      "description": "A bright blue PS4-style game box labeled BIG CHUNGUS, showing an inflated Bugs Bunny/Looney Tunes figure, is pasted over the center of the monochrome Egyptian-style monumental-facade architecture slide inside the rounded projector vignette.",
+      "camera": "Static architectural slide with an added centered game-cover insert; native967.000 frame and the user screenshot show the overlay. No camera pan or character animation established.",
+      "action": "The historical-looking facade remains static behind the pasted meme cover. Bugs Bunny is a still illustration, not an animated character performing here.",
+      "sound": [],
+      "visualGag": "Actual visual payoff to the preceding scale lecture: calling the oversized monument a big chungus becomes a literal, anachronistic fake PS4 BIG CHUNGUS game-cover overlay. The joke contrasts high-minded architecture/projector presentation with an inflated Bugs Bunny internet meme. This is not a real PS4 release.",
+      "notes": "User-provided screenshot identified the missed overlay; registered and personally viewed source frame1016@967.000 plus native still. Grouping begins at existing ASR965.11 to retain the complete punchline. Source is the Big Chungus/inflated Bugs Bunny meme; exact cartoon episode/year or image creator is not established. Full raw ASR is unchanged; no new sound is inferred."
+    },
+    {
+      "startSeconds": 969.933,
+      "frameNumber": 483,
+      "heading": "Newton’s immense cenotaph",
+      "description": "Giant spherical monument drawing dominates the slide.",
+      "camera": "Static projected drawing.",
+      "action": "No character action; enormous scale illustrates visionary ambition.",
+      "visualGag": "Follow-through/callback after the actual fake PS4 Big Chungus cover payoff: the giant cenotaph sphere continues the oversized-monument joke, while this selected slide returns to historical architectural imagery rather than carrying the cover.",
+      "notes": "Selected inspected sample at 00:16:25.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": [
+        {
+          "startSeconds": 995.67,
+          "text": "User-observed French-pronunciation audio gag: “Ledoux”. Coarse annotation anchored to raw ASR word onset 995.67s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        },
+        {
+          "startSeconds": 999.77,
+          "text": "User-observed French-pronunciation audio gag: “Ferme générale”. Coarse annotation anchored to raw ASR word onset 999.77s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        },
+        {
+          "startSeconds": 1011.11,
+          "text": "User-observed French-pronunciation audio gag: “Boullée”. Coarse annotation anchored to raw ASR word onset 1011.11s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        }
+      ]
+    },
+    {
+      "startSeconds": 1035,
+      "frameNumber": 500,
+      "heading": "Ideas travel to Russia",
+      "description": "Photograph of Ostankino Palace follows the French-revolution discussion.",
+      "camera": "Static photograph slide.",
+      "action": "No visible character action; presenter discusses wooden construction resembling stone.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:17:15.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1100,
+      "frameNumber": 517,
+      "heading": "The Panopticon",
+      "description": "Circular prison plan and section explain central observation.",
+      "camera": "Static architectural diagram.",
+      "action": "No guards/prisoners acting; narrator explains uncertainty of surveillance.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:18:20.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": [
+        {
+          "startSeconds": 1108.23,
+          "text": "User-observed French-pronunciation audio gag: “Ledoux”. Coarse annotation anchored to raw ASR word onset 1108.23s, not independently auditioned or phonetically measured; source-supported canonical name/term only, raw dialogue unchanged."
+        }
+      ]
+    },
+    {
+      "startSeconds": 1180,
+      "frameNumber": 534,
+      "heading": "Pugin: Gothic alternative",
+      "description": "Architect portrait introduces the counter-position to neoclassicism.",
+      "camera": "Static portrait slide.",
+      "action": "No character action; presenter frames Gothic as Christian alternative.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:19:40.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1190.17,
+      "frameNumber": 539,
+      "heading": "Westminster and the bell",
+      "description": "Photograph of the Westminster clock tower illustrates Pugin’s work.",
+      "camera": "Static photograph; cut from Westminster imagery.",
+      "action": "No character action; Big Ben correction is spoken.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:19:50.170. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1225,
+      "frameNumber": 548,
+      "heading": "Contrasts: new bad, old good",
+      "description": "Comparative plate pairs circular modern workhouse above monastic provision.",
+      "camera": "Static projected comparative drawing.",
+      "action": "Drawn figures do not act; narrator interprets the polemic.",
+      "visualGag": "Existing visual polemic supports the modern-posting analogy; marginal text not fully transcribed.",
+      "notes": "Selected inspected sample at 00:20:25.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1280,
+      "frameNumber": 560,
+      "heading": "Haviland’s commission",
+      "description": "Portrait introduces John Haviland and his route to Philadelphia.",
+      "camera": "Static portrait slide.",
+      "action": "No character action; narration qualifies the claimed chain of influence.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:21:20.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1340,
+      "frameNumber": 573,
+      "heading": "Why a Gothic prison?",
+      "description": "Historical Eastern State exterior engraving displays gate and tall walls.",
+      "camera": "Static engraving, followed by exterior reference photographs.",
+      "action": "No moving figures; the brothel callback is spoken, not a replay.",
+      "visualGag": "Spoken callback to the earlier penis-shaped brothel/architecture-parlante detour. This panel shows the prison exterior, not a replay of the brothel plan; visual payoff was in the earlier state-brothel panel.",
+      "notes": "Selected inspected sample at 00:22:20.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1425,
+      "frameNumber": 600,
+      "heading": "Intimidation outside, utility inside",
+      "description": "Interior architectural section replaces exterior views.",
+      "camera": "Static diagram slide; hard cuts between examples.",
+      "action": "No character action; narration turns from appearance to function.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:23:45.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1450,
+      "frameNumber": 609,
+      "heading": "The separate system",
+      "description": "PENNSYLVANIA SYSTEM / SEPARATE SYSTEM captions accompany resumed Blender capture.",
+      "camera": "Cut back from slides to desktop model capture.",
+      "action": "Model editing continues; captions name the institution’s regime.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:24:10.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1500,
+      "frameNumber": 641,
+      "heading": "Isolation by design",
+      "description": "Radial plan uses red highlights to mark cell areas.",
+      "camera": "Static diagram with changed color overlay across samples.",
+      "action": "Graphic highlights explain solitary cells and private yards.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:25:00.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1525,
+      "frameNumber": 653,
+      "heading": "Technology minimizes contact",
+      "description": "Cell toilet/heating photograph illustrates amenities and infrastructure.",
+      "camera": "Static photograph insert.",
+      "action": "No prisoner action shown; narration explains reducing guard contact.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:25:25.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1540,
+      "frameNumber": 659,
+      "heading": "Prison logic and schools",
+      "description": "University City High School architectural drawing follows prison plan/aerial comparisons.",
+      "camera": "Cuts between static plan and aerial images, not pans.",
+      "action": "No character action; presenter extends the spatial comparison to schools.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:25:40.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1615,
+      "frameNumber": 703,
+      "heading": "Whole Pennsylvania setup",
+      "description": "Complete Pennsylvania outline is labeled PENNSYLVANIA over Blender.",
+      "camera": "Static map insert.",
+      "action": "Full state/name shown before truncation.",
+      "visualGag": "Setup for literalizing eastern Pennsylvania.",
+      "notes": "Selected inspected sample at 00:26:55.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1620,
+      "frameNumber": 704,
+      "heading": "Eastern half payoff",
+      "description": "Only eastern outline remains; intact remaining lettering reads VANIA with a clipped left fragment.",
+      "camera": "Map changes between sampled inserts; no continuous wipe established.",
+      "action": "Western half and corresponding letters disappear.",
+      "visualGag": "The geographic half-state becomes a half-name joke.",
+      "notes": "Selected inspected sample at 00:27:00.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1690,
+      "frameNumber": 731,
+      "heading": "Numbered lives, work as favor",
+      "description": "Blender/reference imagery continues while narration describes prison numbers, restricted visits and required labor.",
+      "camera": "Viewport/reference cuts and reframing; no narrated hood or prisoner performance shown.",
+      "action": "Asset construction continues; narration supplies human conditions.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:28:10.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1784.69,
+      "frameNumber": 773,
+      "heading": "Did it work?",
+      "description": "White DID IT WORK? caption overlays the modeler.",
+      "camera": "Static caption above changing viewport.",
+      "action": "No prisoner resistance is literally enacted.",
+      "visualGag": "Question card sets up the deadpan negative answer.",
+      "notes": "Selected inspected sample at 00:29:45.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1835,
+      "frameNumber": 801,
+      "heading": "Auburn’s competing system",
+      "description": "Historic tiered-cell interior photograph illustrates communal prison alternative.",
+      "camera": "Static photograph insert.",
+      "action": "No visible acted scene; silent communal labor and contractors are narrated.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:30:35.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1880,
+      "frameNumber": 828,
+      "heading": "From model to city",
+      "description": "Cities: Skylines replaces Blender as the prison is placed in local terrain.",
+      "camera": "Cut into game; overhead oblique view changes across adjacent samples.",
+      "action": "Placement and local landscape editing begin.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:31:20.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1950,
+      "frameNumber": 847,
+      "heading": "Farm plots outside the walls",
+      "description": "Rectangular agricultural parcels surround the newly placed walled prison.",
+      "camera": "Top-down/oblique game reframing across samples; continuous path not established.",
+      "action": "Player lays out fields and adjoining streets while labor economics continue.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:32:30.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 1974.67,
+      "frameNumber": 855,
+      "heading": "Capacity: BIG and SMALL",
+      "description": "Prison plan carries rough green BIG and red SMALL labels.",
+      "camera": "Static annotated plan overlay.",
+      "action": "Graphic labels distinguish taller and shorter cellblocks.",
+      "visualGag": "Low-tech labels puncture the scholarly tone while explaining capacity changes.",
+      "notes": "Selected inspected sample at 00:32:55.770. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2025.27,
+      "frameNumber": 871,
+      "heading": "Prison tourism setup",
+      "description": "Niagara Falls photograph accompanies a comparison of visitor popularity.",
+      "camera": "Static insert over game capture.",
+      "action": "No tourist performance shown.",
+      "visualGag": "Tourism discussion sets up the Buscemi audio-tour recommendation and the following fellow-kids meme; Niagara image itself is a factual illustration, not an independent joke.",
+      "notes": "Selected inspected sample at 00:33:45.270. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2041.08,
+      "frameNumber": 876,
+      "heading": "Buscemi audio-tour payoff",
+      "description": "Buscemi wears red backward cap/hoodie, carries skateboard, and sports MUSIC lightning BAND shirt.",
+      "camera": "Static meme photograph overlay.",
+      "action": "Frozen pose, not an in-game character.",
+      "visualGag": "Audio-tour narrator’s name triggers the familiar fellow-kids meme; no subtitle appears.",
+      "notes": "Selected inspected sample at 00:34:05.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2084.39,
+      "frameNumber": 890,
+      "heading": "Modern prison work",
+      "description": "Agricultural-worker photograph illustrates crop picking.",
+      "camera": "Static insert, quickly replaced by other job illustrations in adjacent scene samples.",
+      "action": "Photographed workers frozen; job descriptions are narrated.",
+      "visualGag": "Setup in the modern prison-labor image montage: serious worker/product illustrations establish a sober job list before the headset-wearing SpongeBob call-center punchline.",
+      "notes": "Selected inspected sample at 00:34:45.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2085.65,
+      "frameNumber": 891,
+      "heading": "Meatpacking",
+      "description": "Industrial meat-processing photograph continues the labor montage.",
+      "camera": "Hard cut between still images.",
+      "action": "No motion or working conditions inferred beyond the image.",
+      "visualGag": "Setup in the modern prison-labor image montage: serious worker/product illustrations establish a sober job list before the headset-wearing SpongeBob call-center punchline.",
+      "notes": "Selected inspected sample at 00:34:46.500. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2087.37,
+      "frameNumber": 892,
+      "heading": "Furniture for universities",
+      "description": "Iowa Loft Bed product page lists $745 and IPI Fort Madison Furniture.",
+      "camera": "Static webpage screenshot overlay.",
+      "action": "No shopping action; page illustrates the narrated furniture example.",
+      "visualGag": "Setup in the modern prison-labor image montage: serious worker/product illustrations establish a sober job list before the headset-wearing SpongeBob call-center punchline.",
+      "notes": "Selected inspected sample at 00:34:50.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2089.75,
+      "frameNumber": 894,
+      "heading": "Call-center cartoon punchline",
+      "description": "SpongeBob sits at an office desk wearing a headset with telephone and paperwork.",
+      "camera": "Cut from photographs/product page to static cartoon insert.",
+      "action": "Frozen cartoon work pose.",
+      "visualGag": "Serious labor list ends in a deliberately incongruous cartoon call-center worker.",
+      "notes": "Selected inspected sample at 00:34:50.170. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2150,
+      "frameNumber": 906,
+      "heading": "Internal outsourcing argument",
+      "description": "Game detailing continues around the prison and surrounding farms.",
+      "camera": "Oblique overhead framing shifts across adjacent samples.",
+      "action": "Player edits landscape/neighborhood; no actual contemporary prisoners are depicted.",
+      "visualGag": "Closing callback to the opening Law & Order phrase/DUN-DUN/every-time gag before the commercial; game detailing remains the visual background.",
+      "notes": "Selected inspected sample at 00:35:50.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries. Sound placement updated from peer RMS signal evidence (first burst 43.8–45.3, second 48.0–49.9, third 128.3–129.5, fourth 2178.5–2180.2); signal alone does not identify a sting.",
+      "sound": [
+        {
+          "startSeconds": 2178.5,
+          "text": "Law & Order DUN-DUN sting: identity user-confirmed; approximate burst/decay timing from GagAssociationAudit RMS signal measurement, not independently listened to here."
+        }
+      ]
+    },
+    {
+      "startSeconds": 2215,
+      "frameNumber": 919,
+      "heading": "Commercial and current imprisonment",
+      "description": "Game view remains the background for the coworking/socialism-app joke and Manning appeal.",
+      "camera": "Changing game viewport; no commercial skit or Manning portrait in inspected samples.",
+      "action": "City detailing continues; speech changes topic.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:36:55.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2270,
+      "frameNumber": 930,
+      "heading": "Supporters and bonus episodes",
+      "description": "Neighborhood/farm build continues beneath the Patreon/bonus episode pitch.",
+      "camera": "Overhead game view reframes, not a slide lecture.",
+      "action": "Player continues detailing; lobster/PewDiePie jokes are speech-only in inspected images.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:37:50.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2325,
+      "frameNumber": 941,
+      "heading": "Social sign-off",
+      "description": "White @donoteat1 handle overlays the city.",
+      "camera": "Static text overlay; next sample changes to Mastodon handle.",
+      "action": "No character action; presenter gives social links.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:38:45.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2330,
+      "frameNumber": 942,
+      "heading": "Mastodon and workshop",
+      "description": "White @donoteat@mastodon.social text accompanies final links.",
+      "camera": "Static text overlay over game.",
+      "action": "No character action; speech ends shortly afterward.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:38:50.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2370,
+      "frameNumber": 950,
+      "heading": "Finished prison reveal",
+      "description": "Interface-free cinematic presents finished stone entrance and surrounding fields.",
+      "camera": "Cut from UI to cinematic; adjacent samples change framing and reveal hub/blocks.",
+      "action": "No construction tools visible; finished model is showcased.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:39:30.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2400,
+      "frameNumber": 957,
+      "heading": "Radial architecture payoff",
+      "description": "Elevated view reveals central hub, radial blocks, enclosure and neighboring farms.",
+      "camera": "Adjacent views move from closer prison detail to elevated overall framing; exact pan/zoom path uncertain.",
+      "action": "Buildings stationary; cinematic viewpoint changes.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:40:00.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2430,
+      "frameNumber": 964,
+      "heading": "City beyond the prison",
+      "description": "Rowhouse blocks with enclosed rear gardens and nearby industry occupy the aerial view.",
+      "camera": "Changing oblique aerial perspectives across 40:21–40:45 samples.",
+      "action": "No individual character action resolved; camera surveys city fabric.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:40:30.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2450,
+      "frameNumber": 969,
+      "heading": "Gate and approach",
+      "description": "Frontal stone gate is centered at the end of a road between fields.",
+      "camera": "Successive 40:49–41:05 views pull back to show more road, fields and houses.",
+      "action": "Stationary prison; viewpoint retreats.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:40:50.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2480,
+      "frameNumber": 976,
+      "heading": "Plan from above",
+      "description": "Near-vertical view shows the prison’s radial layout and rectangular field neighbors.",
+      "camera": "Cut to overhead then changing orientation/coverage across adjacent samples.",
+      "action": "Stationary complex; cinematic changes viewpoint.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:41:20.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2505,
+      "frameNumber": 981,
+      "heading": "Infrastructure surrounding confinement",
+      "description": "Overhead cinematic shows river-side works and rectangular water basin amid woods.",
+      "camera": "Aerial framing changes from riverfront to basin and back toward prison across samples.",
+      "action": "Infrastructure stationary; no human action resolved.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:41:45.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2550,
+      "frameNumber": 990,
+      "heading": "The whole city",
+      "description": "Wide aerial shows rail/industrial district, residential blocks and distant riverfront.",
+      "camera": "Successive samples broaden and shift the view toward the riverfront; exact motion path not established.",
+      "action": "Stationary city; moving viewpoint supplies final contextual scale.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:42:30.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2580,
+      "frameNumber": 996,
+      "heading": "Patron credits",
+      "description": "My Patreons heading and dense white name columns appear on black.",
+      "camera": "Hard cut from city to credits; names scroll upward across subsequent samples.",
+      "action": "Text rolls; no character action.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:43:00.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    },
+    {
+      "startSeconds": 2655,
+      "frameNumber": 1011,
+      "heading": "Branded penny ending",
+      "description": "DNE / ONE PENNY coin emerges against black after the credits.",
+      "camera": "Graphic fade-in, then position drops toward bottom edge by 44:30 samples.",
+      "action": "Coin graphic descends; continuous animation timing not established.",
+      "visualGag": null,
+      "notes": "Selected inspected sample at 00:44:15.000. Full speech is renderer-derived from transcript words; machine names/timing may be uncertain. Full speech is not manually excerpted; the renderer assigns every transcript word by chronological panel boundaries.",
+      "sound": []
+    }
+  ]
+}

@@ -1,0 +1,5154 @@
+{
+  "id": "0tLxb5rtmyM",
+  "model": {
+    "name": "Qwen/Qwen2.5-Omni-7B",
+    "revision": "ae9e1690543ffd5c0221dc27f79834d0294cba00",
+    "precision": "BF16",
+    "device": "cuda:0",
+    "gpuName": "NVIDIA GeForce RTX 3090",
+    "loader": "Qwen2_5OmniThinkerForConditionalGeneration",
+    "audioOutput": false,
+    "attentionImplementation": "sdpa",
+    "loadSeconds": 14.545282728038728,
+    "audioEncoderDtype": "torch.bfloat16",
+    "generationSettings": {
+      "doSample": false,
+      "maxNewTokens": 4096,
+      "useCache": true,
+      "eosTokenId": 151645,
+      "padTokenId": 151643,
+      "formatConstraint": "lm-format-enforcer-json-schema",
+      "formatEnforcerVersion": "0.11.3",
+      "jsonSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "events"
+        ],
+        "properties": {
+          "events": {
+            "type": "array",
+            "maxItems": 6,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "description",
+                "evidence"
+              ],
+              "properties": {
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "audio-gag-candidate",
+                    "music",
+                    "sound-effect",
+                    "speech-correction",
+                    "vocal-delivery"
+                  ]
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 240
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 240
+                }
+              }
+            }
+          }
+        }
+      },
+      "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+    },
+    "packages": {
+      "torch": "2.7.1",
+      "torchvision": "0.22.1",
+      "transformers": "4.57.6",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "soundfile": "0.14.0",
+      "numpy": "2.5.4",
+      "lm-format-enforcer": "0.11.3"
+    },
+    "promptVersion": "v2",
+    "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+    "prompt": "Listen directly to the supplied audio waveform. Annotate physical, nonroutine things that can actually be heard, not the subject of the narration or guessed intentions.\n\nPriorities: background music and its audible instrumentation/rhythm/mood/transitions; brief NONVERBAL stings or impacts; clicks, mechanical/projector-like sounds; conspicuous echo/reverb or other voice-processing changes; clearly salient vocal departures from the ordinary local narration. Omit routine background hiss unless it conspicuously changes.\n\nORDINARY SPEECH IS NOT AN EVENT: do not report normal narration, argument development, topic changes, clear articulation, the narrator's baseline voice, ordinary pauses, contractions, or the words Okay, basically, uh, um, I mean or similar fillers just because they occur. A pause or filler does not establish a correction, emphasis, joke or intention. If the clip contains only ordinary speech with no nonroutine audible event, return {\"events\":[]}.\n\nKinds:\n- music: describe actually audible musical features and transitions, not a guessed catalogue identity.\n- sound-effect: describe a distinct nonverbal sound/sting/click/impact and its physical audible character.\n- vocal-delivery: describe a salient acoustic departure such as an unusual abrupt pitch/volume change, deliberate elongation, laughter, echo or reverb; not routine speech delivery.\n- speech-correction: ONLY an AUDIBLE spoken self-repair where a mistaken word/phrase is rejected and replaced by a DIFFERENT audible word/phrase. Quote the before -> after words in evidence. Repeating the same word, continuing a sentence, a contraction, a topic change, a pause, Okay or uh is NOT self-repair. No ASR text is supplied, so you cannot propose a written transcript correction.\n- audio-gag-candidate: require a distinct audible event plus specific audible incongruity. Do not infer a gag or comic intention from a pause, filler, political topic or unusual argument alone.\n\nFirst listen for nonverbal/background audio even when speech is foregrounded. For every event, state what physical sound is heard and the actual audible features supporting it. Separate audible features from any uncertain interpretation. Do not invent visual details or infer sound from the meaning of spoken words. Unfamiliar pronunciation may be described through actually heard syllables, not presumed incorrectness from written spellings.\n\nReturn ONLY JSON in this schema: {\"events\":[{\"kind\":\"music|sound-effect|vocal-delivery|speech-correction|audio-gag-candidate\",\"description\":\"concise physical audible observation\",\"evidence\":\"specific actually heard acoustic features; before -> after words for genuine self-repair\"}]}. Use one allowed kind, not the vertical-bar list. At most 6 event clusters; group repeated similar sounds. Be concise. Empty events is allowed for ordinary speech/no nonroutine events, not for uncertainty about a sound you actually hear. These are coarse clip bounds, NOT precise event-onset timestamps.\n\nWe are also searching across the collection for possible Chinese anthem March of the Volunteers (义勇军进行曲), DISTINCT from North Korea's Aegukka. A named musical work is only an UNCONFIRMED CANDIDATE when recognisable audible melody or lyrics supports it; supply those heard features. A march, brass, choir, national/political narration or a guessed song title alone is not identification evidence. Do not assert an exact composer/work/catalogue identity.",
+    "controllerSha256": "55036ae4aecb91e5d4056514688136cef4fe2bc914bd9485e49fa94063e7e63d",
+    "controllerPath": "/home/pedro/src/tmp-donoteat/qa/audio-llm/prompt-calibration.py",
+    "trialDirectory": "/home/pedro/src/tmp-donoteat/qa/audio-llm/calibration/trials/6fa192191a1d47a1b6224691ddf5bb98",
+    "v1Archive": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1",
+    "loadedPipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+    "physicalInstanceId": "2318840b0e5345c391aa96ea3d7361fa"
+  },
+  "source": {
+    "id": "0tLxb5rtmyM",
+    "path": "/home/pedro/src/tmp-donoteat/qa/audio-llm/sources/0tLxb5rtmyM.wav",
+    "sha256": "cdd94e7d2a21b5ecb6ac62c1019277fea1503e05444262bcd4053fe2d057ff50",
+    "frames": 26379264,
+    "sampleRate": 16000,
+    "channels": 1,
+    "durationSeconds": 1648.704,
+    "mediaPath": "/home/pedro/src/tmp-donoteat/videos/0tLxb5rtmyM/0tLxb5rtmyM.mkv",
+    "mediaSha256": "8616a4f84df4ab00f6974b64f5f5ce91671935a79dcead6c6fadb24278f5bd4a",
+    "mediaStat": {
+      "size": 667832513,
+      "mtimeNs": 1791765924821480274
+    },
+    "sourceStat": {
+      "size": 52758606,
+      "mtimeNs": 1791779339244135619
+    },
+    "mediaDurationSeconds": 1648.728,
+    "durationDeltaSeconds": -0.024000000000114596,
+    "extractionCommand": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-nostdin",
+      "-y",
+      "-threads",
+      "2",
+      "-filter_threads",
+      "1",
+      "-i",
+      "/home/pedro/src/tmp-donoteat/videos/0tLxb5rtmyM/0tLxb5rtmyM.mkv",
+      "-vn",
+      "-map",
+      "0:a:0",
+      "-ac",
+      "1",
+      "-ar",
+      "16000",
+      "-c:a",
+      "pcm_s16le",
+      "/home/pedro/src/tmp-donoteat/qa/audio-llm/sources/0tLxb5rtmyM.tmp.wav"
+    ],
+    "createdAt": "2026-10-12T04:28:59.795117+00:00"
+  },
+  "coverage": {
+    "status": "complete",
+    "sourceDurationSeconds": 1648.704,
+    "windowSeconds": 40,
+    "overlapSeconds": 5,
+    "processedWindows": 47,
+    "totalWindows": 47,
+    "erroredWindows": 0,
+    "unionProof": {
+      "coveredSeconds": 1648.704,
+      "intervals": [
+        [
+          0.0,
+          1648.704
+        ]
+      ],
+      "gaps": [],
+      "fullDurationCovered": true
+    }
+  },
+  "windows": [
+    {
+      "startSeconds": 0.0,
+      "endSeconds": 40.0,
+      "startFrame": 0,
+      "endFrame": 640000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "5db7f87b16e2afb4220b9f35e58f5ca3168673f48f30ba3ca75eef31ca9409ce",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:48:34.565646+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.7882965300232172,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18104.0,
+      "windowIndex": 0
+    },
+    {
+      "startSeconds": 35.0,
+      "endSeconds": 75.0,
+      "startFrame": 560000,
+      "endFrame": 1200000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "403ac98f4b84f6c704cfae3c5754325c976e8dba47bdfa43b3f0e1ac9ca03b32",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[{\"kind\":\"music\",\"description\":\"Orchestral music with a grand and majestic mood\",\"evidence\":\"The music is composed of various instruments like strings, brass, and percussion, creating a rich and powerful sound\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:49:30.445661+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 47,
+      "outputTokenIds": [
+        4913,
+        12389,
+        66582,
+        15314,
+        3252,
+        31161,
+        2198,
+        4684,
+        3252,
+        2195,
+        26320,
+        3461,
+        4627,
+        448,
+        264,
+        6662,
+        323,
+        80289,
+        19671,
+        2198,
+        68,
+        27480,
+        3252,
+        785,
+        4627,
+        374,
+        23415,
+        315,
+        5257,
+        23316,
+        1075,
+        9069,
+        11,
+        36038,
+        11,
+        323,
+        83749,
+        11,
+        6825,
+        264,
+        9080,
+        323,
+        7988,
+        5112,
+        9207,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[{\"kind\":\"music\",\"description\":\"Orchestral music with a grand and majestic mood\",\"evidence\":\"The music is composed of various instruments like strings, brass, and percussion, creating a rich and powerful sound\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "Orchestral music with a grand and majestic mood",
+          "evidence": "The music is composed of various instruments like strings, brass, and percussion, creating a rich and powerful sound"
+        }
+      ],
+      "elapsedSeconds": 3.3880431529833004,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18104.0,
+      "windowIndex": 1
+    },
+    {
+      "startSeconds": 70.0,
+      "endSeconds": 110.0,
+      "startFrame": 1120000,
+      "endFrame": 1760000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "07557ecee1ca9b5584d6c605d9b09dc1b38038f66a673210439523caac0075fc",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:50:01.219451+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.7977612760150805,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 2
+    },
+    {
+      "startSeconds": 105.0,
+      "endSeconds": 145.0,
+      "startFrame": 1680000,
+      "endFrame": 2320000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "42ad7c90f6a5d990de8bd50466e686940856471be4f97c8a6f17f331b264d402",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:50:28.389015+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.8259799809893593,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 3
+    },
+    {
+      "startSeconds": 140.0,
+      "endSeconds": 180.0,
+      "startFrame": 2240000,
+      "endFrame": 2880000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "e959c81f581b139aac93ed9ad4e83af3e68c825bc39c6f14ca1004179c84075d",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:50:54.989838+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.7631971730152145,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 4
+    },
+    {
+      "startSeconds": 175.0,
+      "endSeconds": 215.0,
+      "startFrame": 2800000,
+      "endFrame": 3440000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "e9ed8d7a330b7c0a985d820727e2ed657a9447f1b8150e3de05c8b5f3749f85f",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\": []}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:51:19.334892+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 6,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        3056,
+        92,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\": []}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 1.2131423180107959,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 5
+    },
+    {
+      "startSeconds": 210.0,
+      "endSeconds": 250.0,
+      "startFrame": 3360000,
+      "endFrame": 4000000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "60eb32cdf7517def2414e4902a3e0072a8b43ac5ad0b231b683709382a376ab1",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:51:57.619325+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.9375849909847602,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 6
+    },
+    {
+      "startSeconds": 245.0,
+      "endSeconds": 285.0,
+      "startFrame": 3920000,
+      "endFrame": 4560000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "2034d32ff250da59315784835b7a85e61940a7cf407b24c737fba83f942cbf25",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\": []}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:52:24.438481+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 6,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        3056,
+        92,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\": []}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 1.0408923369832337,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 7
+    },
+    {
+      "startSeconds": 280.0,
+      "endSeconds": 320.0,
+      "startFrame": 4480000,
+      "endFrame": 5120000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "4bf0b9d65416ccca03d2ce66191d8f9ad6b3c2ee1a54959f58cdf72f50ae3aa6",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\": [{\"kind\": \"music\", \"description\": \"background music\", \"evidence\": \"rhythm, mood, transitions\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:52:43.676770+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 30,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        61753,
+        15314,
+        788,
+        330,
+        31161,
+        497,
+        330,
+        4684,
+        788,
+        330,
+        6742,
+        4627,
+        497,
+        330,
+        68,
+        27480,
+        788,
+        330,
+        81,
+        60154,
+        11,
+        19671,
+        11,
+        33592,
+        9207,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\": [{\"kind\": \"music\", \"description\": \"background music\", \"evidence\": \"rhythm, mood, transitions\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "background music",
+          "evidence": "rhythm, mood, transitions"
+        }
+      ],
+      "elapsedSeconds": 3.6940257329843007,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 8
+    },
+    {
+      "startSeconds": 315.0,
+      "endSeconds": 355.0,
+      "startFrame": 5040000,
+      "endFrame": 5680000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "411a2298583d8a5a90ffeb4eb8a954996697665182c16868322335a075c383ef",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\": []}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:53:11.870701+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 6,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        3056,
+        92,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\": []}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 1.0381384840002283,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 9
+    },
+    {
+      "startSeconds": 350.0,
+      "endSeconds": 390.0,
+      "startFrame": 5600000,
+      "endFrame": 6240000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "9fa5feb74c9a04cb4dce4a3ad60c12f655fa33b2ecd7d16ed67ddddbf0c1f4fd",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\": [{\"kind\": \"music\", \"description\": \"background music\", \"evidence\": \"continuous presence throughout the audio\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:53:39.215160+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 29,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        61753,
+        15314,
+        788,
+        330,
+        31161,
+        497,
+        330,
+        4684,
+        788,
+        330,
+        6742,
+        4627,
+        497,
+        330,
+        68,
+        27480,
+        788,
+        330,
+        78589,
+        9362,
+        6814,
+        279,
+        7699,
+        9207,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\": [{\"kind\": \"music\", \"description\": \"background music\", \"evidence\": \"continuous presence throughout the audio\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "background music",
+          "evidence": "continuous presence throughout the audio"
+        }
+      ],
+      "elapsedSeconds": 4.26306286000181,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 10
+    },
+    {
+      "startSeconds": 385.0,
+      "endSeconds": 425.0,
+      "startFrame": 6160000,
+      "endFrame": 6800000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "a76ce48d888e6897c3ec8117e891434416f8dc9619c428274b03484482026ea4",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\": [{\"kind\": \"music\", \"description\": \"Background music is present throughout the audio, creating a mood that seems to be somewhat dramatic or suspenseful. There are no distinct instrumental features mentioned, but it transitions smoothly as the audio progresses.\" , \"evidence\": \"The music is continuous and serves as a backdrop to the narration.\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:54:11.146341+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 73,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        61753,
+        15314,
+        788,
+        330,
+        31161,
+        497,
+        330,
+        4684,
+        788,
+        330,
+        8706,
+        4627,
+        374,
+        3042,
+        6814,
+        279,
+        7699,
+        11,
+        6825,
+        264,
+        19671,
+        429,
+        4977,
+        311,
+        387,
+        14400,
+        21771,
+        476,
+        71830,
+        1262,
+        13,
+        2619,
+        525,
+        902,
+        12460,
+        40945,
+        4419,
+        9733,
+        11,
+        714,
+        432,
+        33592,
+        38411,
+        438,
+        279,
+        7699,
+        67611,
+        1189,
+        1154,
+        330,
+        68,
+        27480,
+        788,
+        330,
+        785,
+        4627,
+        374,
+        19259,
+        323,
+        17045,
+        438,
+        264,
+        38477,
+        311,
+        279,
+        85080,
+        1189,
+        92,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\": [{\"kind\": \"music\", \"description\": \"Background music is present throughout the audio, creating a mood that seems to be somewhat dramatic or suspenseful. There are no distinct instrumental features mentioned, but it transitions smoothly as the audio progresses.\" , \"evidence\": \"The music is continuous and serves as a backdrop to the narration.\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "Background music is present throughout the audio, creating a mood that seems to be somewhat dramatic or suspenseful. There are no distinct instrumental features mentioned, but it transitions smoothly as the audio progresses.",
+          "evidence": "The music is continuous and serves as a backdrop to the narration."
+        }
+      ],
+      "elapsedSeconds": 9.650537039036863,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 11
+    },
+    {
+      "startSeconds": 420.0,
+      "endSeconds": 460.0,
+      "startFrame": 6720000,
+      "endFrame": 7360000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "fe515ed88847a668342eab024e49ca8f19e4b6c2badabffd0ce0827f58b1f339",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:54:53.411708+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 1.1980878899921663,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 12
+    },
+    {
+      "startSeconds": 455.0,
+      "endSeconds": 495.0,
+      "startFrame": 7280000,
+      "endFrame": 7920000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "fe8deb2aff84d2d2d4d6c3f3e19064ae9235e91d351045432966052d58f46c74",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\": [{\"kind\": \"music\", \"description\": \"background music\", \"evidence\": \"rhythm, mood, transitions\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:55:36.008771+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 30,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        61753,
+        15314,
+        788,
+        330,
+        31161,
+        497,
+        330,
+        4684,
+        788,
+        330,
+        6742,
+        4627,
+        497,
+        330,
+        68,
+        27480,
+        788,
+        330,
+        81,
+        60154,
+        11,
+        19671,
+        11,
+        33592,
+        9207,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\": [{\"kind\": \"music\", \"description\": \"background music\", \"evidence\": \"rhythm, mood, transitions\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "background music",
+          "evidence": "rhythm, mood, transitions"
+        }
+      ],
+      "elapsedSeconds": 4.015610856004059,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 13
+    },
+    {
+      "startSeconds": 490.0,
+      "endSeconds": 530.0,
+      "startFrame": 7840000,
+      "endFrame": 8480000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "e9c6b292161ae7f5af4c27a4b1124ef591508fb35b233e73765fb6385dd33026",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:56:24.825348+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.9867808110429905,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 14
+    },
+    {
+      "startSeconds": 525.0,
+      "endSeconds": 565.0,
+      "startFrame": 8400000,
+      "endFrame": 9040000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "f1a33558804027754513feb1441faab224b5a36c7faf6992be44cc25dd90ad7f",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:57:02.793276+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.9346349349943921,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 15
+    },
+    {
+      "startSeconds": 560.0,
+      "endSeconds": 600.0,
+      "startFrame": 8960000,
+      "endFrame": 9600000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "ef25f3e4bd7bdfc7ea9535fc2ff2080b21738c14e6318f1e843fda5ed0bbe93b",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:57:54.345958+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 1.0398076319834217,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 16
+    },
+    {
+      "startSeconds": 595.0,
+      "endSeconds": 635.0,
+      "startFrame": 9520000,
+      "endFrame": 10160000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "56f8b1b96697d0c00ccdd7f92a043d28725726df5bea154f2e3958a8ef6caabf",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:59:03.029266+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.9104841569787823,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 17
+    },
+    {
+      "startSeconds": 630.0,
+      "endSeconds": 670.0,
+      "startFrame": 10080000,
+      "endFrame": 10720000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "5249812edd1f81147c609aa49d791d0279de9fd9b0a8a4ab31f6d6872ecb4075",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T05:59:39.174156+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.8942494970397092,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 18
+    },
+    {
+      "startSeconds": 665.0,
+      "endSeconds": 705.0,
+      "startFrame": 10640000,
+      "endFrame": 11280000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "316a057b4c31109bca6f0d59d82d67dbd6e0e8e08278c867b1e7a61c6c9c3060",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:00:09.837266+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.8981107649742626,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 19
+    },
+    {
+      "startSeconds": 700.0,
+      "endSeconds": 740.0,
+      "startFrame": 11200000,
+      "endFrame": 11840000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "ca5313e9c02578d7fbc517d915b833be28c3fa8de83f55d3b185791b5430730e",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:00:45.501405+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.8853194130351767,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 20
+    },
+    {
+      "startSeconds": 735.0,
+      "endSeconds": 775.0,
+      "startFrame": 11760000,
+      "endFrame": 12400000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "b90f0cc54b2a42557395d3de7571553eeaf08d1ca906bf13337ba5d429473bc1",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:01:18.297688+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 1.0118760440382175,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 21
+    },
+    {
+      "startSeconds": 770.0,
+      "endSeconds": 810.0,
+      "startFrame": 12320000,
+      "endFrame": 12960000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "8562a9cd5e07f03a546517d6ed1a466183a0bc1a08f127f9654b81bb0e4499cc",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:01:56.099534+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.8994582279701717,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 22
+    },
+    {
+      "startSeconds": 805.0,
+      "endSeconds": 845.0,
+      "startFrame": 12880000,
+      "endFrame": 13520000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "4afd954465a9c502de5bb343c2782476b899a6e14ef408d284fb55b8bf6d0524",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:02:26.927986+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.9387350379838608,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 23
+    },
+    {
+      "startSeconds": 840.0,
+      "endSeconds": 880.0,
+      "startFrame": 13440000,
+      "endFrame": 14080000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "86c1e161d1b8b9053e67c92d3bc3e92f9ddb1f996c316b29fd70fd3933c32d2d",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:02:51.165710+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.9007645579986274,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 24
+    },
+    {
+      "startSeconds": 875.0,
+      "endSeconds": 915.0,
+      "startFrame": 14000000,
+      "endFrame": 14640000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "51d4a4c05181eeae6228e2a9883bc53b4260a55ae6a68e17ffb649586a0533a7",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:03:08.961809+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.8262410120223649,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 25
+    },
+    {
+      "startSeconds": 910.0,
+      "endSeconds": 950.0,
+      "startFrame": 14560000,
+      "endFrame": 15200000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "ab1d5737eeff69054222aa9c554188dc5862e3a68966202edcfbaf7b3059aaff",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\": []}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:03:31.686902+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 6,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        3056,
+        92,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\": []}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.9226034240564331,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 26
+    },
+    {
+      "startSeconds": 945.0,
+      "endSeconds": 985.0,
+      "startFrame": 15120000,
+      "endFrame": 15760000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "26ec7d06430356fb21807c51aed68044c4c8a735fa3748e010fe54e781f1683c",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\": []}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:03:54.963543+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 6,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        3056,
+        92,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\": []}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.8971399220172316,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 27
+    },
+    {
+      "startSeconds": 980.0,
+      "endSeconds": 1020.0,
+      "startFrame": 15680000,
+      "endFrame": 16320000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "edc82b30b129c5af06413567db8d60a7488fda9b84a162e1dfd2feeda138c778",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:04:21.123532+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.8394805840216577,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 28
+    },
+    {
+      "startSeconds": 1015.0,
+      "endSeconds": 1055.0,
+      "startFrame": 16240000,
+      "endFrame": 16880000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "d5c97eef17229e96ef6f19d4c3a5a1a9a2208fdfc8c5a8d26d60ddd39a96ba1e",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:04:48.536379+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.7736290469765663,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 29
+    },
+    {
+      "startSeconds": 1050.0,
+      "endSeconds": 1090.0,
+      "startFrame": 16800000,
+      "endFrame": 17440000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "000ec7f736e7da0ba63d5127912e3966fe1f1b3e6cd8ff56f52f6766fdb9b62b",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:05:19.032504+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.890194580948446,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 30
+    },
+    {
+      "startSeconds": 1085.0,
+      "endSeconds": 1125.0,
+      "startFrame": 17360000,
+      "endFrame": 18000000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "3db325b4f821e8c666d7689792ead08f6af734096e5ed8a8649bcb7ebed583bb",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\": []}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:05:56.692380+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 6,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        3056,
+        92,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\": []}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.9141295290319249,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 31
+    },
+    {
+      "startSeconds": 1120.0,
+      "endSeconds": 1160.0,
+      "startFrame": 17920000,
+      "endFrame": 18560000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "62bcce72e0fa17c9df17a11feed17937f61bad581d613d2a79214ae7333dba2f",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:06:37.989100+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.8253669699770398,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 32
+    },
+    {
+      "startSeconds": 1155.0,
+      "endSeconds": 1195.0,
+      "startFrame": 18480000,
+      "endFrame": 19120000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "c9b221353d7ce393288dbc825b6df684a553e6e667b35a7fe235915f7442cdbb",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:07:08.692729+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.8342989539960399,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 33
+    },
+    {
+      "startSeconds": 1190.0,
+      "endSeconds": 1230.0,
+      "startFrame": 19040000,
+      "endFrame": 19680000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "4c767156a8f3606c533390500a4cf5714f02a8b4a67a2437d19f17a4ec48ac61",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:07:32.920426+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.7457404850283638,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 34
+    },
+    {
+      "startSeconds": 1225.0,
+      "endSeconds": 1265.0,
+      "startFrame": 19600000,
+      "endFrame": 20240000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "633d9ebfb47c1d7bce442c3ddd66e8a45d086425b36ec31350ba815845dfd147",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:08:02.562735+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.7195511240279302,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 35
+    },
+    {
+      "startSeconds": 1260.0,
+      "endSeconds": 1300.0,
+      "startFrame": 20160000,
+      "endFrame": 20800000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "1d1ba7b1ede0fef908fdf13e07a46d8b595dcda9101382bb43b1cc36627fb9f8",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:08:21.663043+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.7657684960286133,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 36
+    },
+    {
+      "startSeconds": 1295.0,
+      "endSeconds": 1335.0,
+      "startFrame": 20720000,
+      "endFrame": 21360000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "9e69dad751638f65d1bdd13f75739cac38b98363550fce31ecc4bfd1ad973410",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:08:35.948066+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.8762147249653935,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 37
+    },
+    {
+      "startSeconds": 1330.0,
+      "endSeconds": 1370.0,
+      "startFrame": 21280000,
+      "endFrame": 21920000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "428407e066aa71cca1e7da0cd49839fb00ad3ccb47e77de580151b1650164a68",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:08:51.581984+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 5,
+      "outputTokenIds": [
+        4913,
+        12389,
+        788,
+        66277,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [],
+      "elapsedSeconds": 0.8403971049701795,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 38
+    },
+    {
+      "startSeconds": 1365.0,
+      "endSeconds": 1405.0,
+      "startFrame": 21840000,
+      "endFrame": 22480000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "75085f4c2fa9925d11c0a230da748e97cdd6f12cf2771d9d6f4c005040f2dbca",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[{\"kind\":\"music\",\"description\":\"background music\",\"evidence\":\"music playing throughout the audio\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:09:06.583699+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 23,
+      "outputTokenIds": [
+        4913,
+        12389,
+        66582,
+        15314,
+        3252,
+        31161,
+        2198,
+        4684,
+        3252,
+        6742,
+        4627,
+        2198,
+        68,
+        27480,
+        3252,
+        31161,
+        5619,
+        6814,
+        279,
+        7699,
+        9207,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[{\"kind\":\"music\",\"description\":\"background music\",\"evidence\":\"music playing throughout the audio\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "background music",
+          "evidence": "music playing throughout the audio"
+        }
+      ],
+      "elapsedSeconds": 1.9245538910035975,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 39
+    },
+    {
+      "startSeconds": 1400.0,
+      "endSeconds": 1440.0,
+      "startFrame": 22400000,
+      "endFrame": 23040000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "20c831b18559d5c14d09534aeca472e6ba2b1c9d6fbfcbad6a6c6c911b658acb",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[{\"kind\":\"music\",\"description\":\"A slow, melancholic piece with a string section and a flute melody\",\"evidence\":\"The music has a slow tempo, the strings are prominent, and there's a flute playing a melody\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:09:25.774206+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 50,
+      "outputTokenIds": [
+        4913,
+        12389,
+        66582,
+        15314,
+        3252,
+        31161,
+        2198,
+        4684,
+        3252,
+        32,
+        6301,
+        11,
+        86063,
+        7762,
+        6573,
+        448,
+        264,
+        914,
+        3772,
+        323,
+        264,
+        95712,
+        61584,
+        2198,
+        68,
+        27480,
+        3252,
+        785,
+        4627,
+        702,
+        264,
+        6301,
+        23230,
+        11,
+        279,
+        9069,
+        525,
+        20469,
+        11,
+        323,
+        1052,
+        594,
+        264,
+        95712,
+        5619,
+        264,
+        61584,
+        9207,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[{\"kind\":\"music\",\"description\":\"A slow, melancholic piece with a string section and a flute melody\",\"evidence\":\"The music has a slow tempo, the strings are prominent, and there's a flute playing a melody\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "A slow, melancholic piece with a string section and a flute melody",
+          "evidence": "The music has a slow tempo, the strings are prominent, and there's a flute playing a melody"
+        }
+      ],
+      "elapsedSeconds": 4.1821094490005635,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 40
+    },
+    {
+      "startSeconds": 1435.0,
+      "endSeconds": 1475.0,
+      "startFrame": 22960000,
+      "endFrame": 23600000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "fcbec2ec1c14af064b90a19c59ea24428e418769f866b5188ca797f6f407b6b6",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[{\"kind\":\"music\",\"description\":\"Orchestral music with a slow tempo and a somber mood\",\"evidence\":\"The music features strings, brass, and woodwinds, with a gradual build-up and a soft, melancholic melody\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:09:46.258960+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 53,
+      "outputTokenIds": [
+        4913,
+        12389,
+        66582,
+        15314,
+        3252,
+        31161,
+        2198,
+        4684,
+        3252,
+        2195,
+        26320,
+        3461,
+        4627,
+        448,
+        264,
+        6301,
+        23230,
+        323,
+        264,
+        1757,
+        652,
+        19671,
+        2198,
+        68,
+        27480,
+        3252,
+        785,
+        4627,
+        4419,
+        9069,
+        11,
+        36038,
+        11,
+        323,
+        7579,
+        86,
+        8673,
+        11,
+        448,
+        264,
+        52622,
+        1936,
+        5239,
+        323,
+        264,
+        8413,
+        11,
+        86063,
+        7762,
+        61584,
+        9207,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[{\"kind\":\"music\",\"description\":\"Orchestral music with a slow tempo and a somber mood\",\"evidence\":\"The music features strings, brass, and woodwinds, with a gradual build-up and a soft, melancholic melody\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "Orchestral music with a slow tempo and a somber mood",
+          "evidence": "The music features strings, brass, and woodwinds, with a gradual build-up and a soft, melancholic melody"
+        }
+      ],
+      "elapsedSeconds": 4.383707127009984,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 41
+    },
+    {
+      "startSeconds": 1470.0,
+      "endSeconds": 1510.0,
+      "startFrame": 23520000,
+      "endFrame": 24160000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "dd578da386cb96cc4b4c68ed0d85cfa460cacb5134b7c7075a59a30eedec9dd2",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[{\"kind\":\"music\",\"description\":\"A slow, somber orchestral piece with strings and brass\",\"evidence\":\"The music has a slow tempo, with a focus on strings and brass instruments, creating a melancholic mood\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:10:07.864816+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 49,
+      "outputTokenIds": [
+        4913,
+        12389,
+        66582,
+        15314,
+        3252,
+        31161,
+        2198,
+        4684,
+        3252,
+        32,
+        6301,
+        11,
+        1757,
+        652,
+        69884,
+        3461,
+        6573,
+        448,
+        9069,
+        323,
+        36038,
+        2198,
+        68,
+        27480,
+        3252,
+        785,
+        4627,
+        702,
+        264,
+        6301,
+        23230,
+        11,
+        448,
+        264,
+        5244,
+        389,
+        9069,
+        323,
+        36038,
+        23316,
+        11,
+        6825,
+        264,
+        86063,
+        7762,
+        19671,
+        9207,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[{\"kind\":\"music\",\"description\":\"A slow, somber orchestral piece with strings and brass\",\"evidence\":\"The music has a slow tempo, with a focus on strings and brass instruments, creating a melancholic mood\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "A slow, somber orchestral piece with strings and brass",
+          "evidence": "The music has a slow tempo, with a focus on strings and brass instruments, creating a melancholic mood"
+        }
+      ],
+      "elapsedSeconds": 3.7940118809929118,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 42
+    },
+    {
+      "startSeconds": 1505.0,
+      "endSeconds": 1545.0,
+      "startFrame": 24080000,
+      "endFrame": 24720000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "4218b3c94e08a90cdffd277817b46ccb3b2aeb72408bca2cf387860d14d570a9",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[{\"kind\":\"music\",\"description\":\"Orchestral music with a slow, somber mood\",\"evidence\":\"The music has a slow tempo, with a focus on strings and brass instruments, creating a melancholic atmosphere\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:10:30.066174+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 48,
+      "outputTokenIds": [
+        4913,
+        12389,
+        66582,
+        15314,
+        3252,
+        31161,
+        2198,
+        4684,
+        3252,
+        2195,
+        26320,
+        3461,
+        4627,
+        448,
+        264,
+        6301,
+        11,
+        1757,
+        652,
+        19671,
+        2198,
+        68,
+        27480,
+        3252,
+        785,
+        4627,
+        702,
+        264,
+        6301,
+        23230,
+        11,
+        448,
+        264,
+        5244,
+        389,
+        9069,
+        323,
+        36038,
+        23316,
+        11,
+        6825,
+        264,
+        86063,
+        7762,
+        16566,
+        9207,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[{\"kind\":\"music\",\"description\":\"Orchestral music with a slow, somber mood\",\"evidence\":\"The music has a slow tempo, with a focus on strings and brass instruments, creating a melancholic atmosphere\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "Orchestral music with a slow, somber mood",
+          "evidence": "The music has a slow tempo, with a focus on strings and brass instruments, creating a melancholic atmosphere"
+        }
+      ],
+      "elapsedSeconds": 4.005741522007156,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 43
+    },
+    {
+      "startSeconds": 1540.0,
+      "endSeconds": 1580.0,
+      "startFrame": 24640000,
+      "endFrame": 25280000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "a6d8af70aa490b3e169777ded3adcba888cf59ec54a10b2edae83e3a8dc3755b",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[{\"kind\":\"music\",\"description\":\"Orchestral music with a grand and dramatic mood, featuring strings, brass, and percussion. There are transitions between different sections of the music, such as a shift from a more subdued section to a more intense one with a prominent cim\", \"evidence\":\"The music has a rich orchestral sound with distinct sections. There are changes in dynamics and instrumentation.\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:10:46.657143+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 85,
+      "outputTokenIds": [
+        4913,
+        12389,
+        66582,
+        15314,
+        3252,
+        31161,
+        2198,
+        4684,
+        3252,
+        2195,
+        26320,
+        3461,
+        4627,
+        448,
+        264,
+        6662,
+        323,
+        21771,
+        19671,
+        11,
+        16445,
+        9069,
+        11,
+        36038,
+        11,
+        323,
+        83749,
+        13,
+        2619,
+        525,
+        33592,
+        1948,
+        2155,
+        14158,
+        315,
+        279,
+        4627,
+        11,
+        1741,
+        438,
+        264,
+        6407,
+        504,
+        264,
+        803,
+        92419,
+        3772,
+        311,
+        264,
+        803,
+        18894,
+        825,
+        448,
+        264,
+        20469,
+        272,
+        318,
+        497,
+        330,
+        68,
+        27480,
+        3252,
+        785,
+        4627,
+        702,
+        264,
+        9080,
+        69884,
+        3461,
+        5112,
+        448,
+        12460,
+        14158,
+        13,
+        2619,
+        525,
+        4344,
+        304,
+        29195,
+        323,
+        77033,
+        1189,
+        92,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[{\"kind\":\"music\",\"description\":\"Orchestral music with a grand and dramatic mood, featuring strings, brass, and percussion. There are transitions between different sections of the music, such as a shift from a more subdued section to a more intense one with a prominent cim\", \"evidence\":\"The music has a rich orchestral sound with distinct sections. There are changes in dynamics and instrumentation.\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "Orchestral music with a grand and dramatic mood, featuring strings, brass, and percussion. There are transitions between different sections of the music, such as a shift from a more subdued section to a more intense one with a prominent cim",
+          "evidence": "The music has a rich orchestral sound with distinct sections. There are changes in dynamics and instrumentation."
+        }
+      ],
+      "elapsedSeconds": 6.116432134003844,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 44
+    },
+    {
+      "startSeconds": 1575.0,
+      "endSeconds": 1615.0,
+      "startFrame": 25200000,
+      "endFrame": 25840000,
+      "samples": 640000,
+      "sampleRate": 16000,
+      "inputSha256": "0007bd8c6d0daa153789bb323828dcd50c97db9622bca5452ceda8074138040d",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[{\"kind\":\"music\",\"description\":\"Orchestral music with strings, brass, and percussion\",\"evidence\":\"The music has a grand and dramatic mood, with transitions between different sections of the orchestra. There are distinct sections of strings, brass, and percussion that contribute to the overall sound.\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:11:03.443678+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        4000
+      ],
+      "audioFeatureFrames": 4000,
+      "inputTokens": 1746,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 63,
+      "outputTokenIds": [
+        4913,
+        12389,
+        66582,
+        15314,
+        3252,
+        31161,
+        2198,
+        4684,
+        3252,
+        2195,
+        26320,
+        3461,
+        4627,
+        448,
+        9069,
+        11,
+        36038,
+        11,
+        323,
+        83749,
+        2198,
+        68,
+        27480,
+        3252,
+        785,
+        4627,
+        702,
+        264,
+        6662,
+        323,
+        21771,
+        19671,
+        11,
+        448,
+        33592,
+        1948,
+        2155,
+        14158,
+        315,
+        279,
+        68055,
+        13,
+        2619,
+        525,
+        12460,
+        14158,
+        315,
+        9069,
+        11,
+        36038,
+        11,
+        323,
+        83749,
+        429,
+        16792,
+        311,
+        279,
+        8084,
+        5112,
+        1189,
+        92,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[{\"kind\":\"music\",\"description\":\"Orchestral music with strings, brass, and percussion\",\"evidence\":\"The music has a grand and dramatic mood, with transitions between different sections of the orchestra. There are distinct sections of strings, brass, and percussion that contribute to the overall sound.\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "Orchestral music with strings, brass, and percussion",
+          "evidence": "The music has a grand and dramatic mood, with transitions between different sections of the orchestra. There are distinct sections of strings, brass, and percussion that contribute to the overall sound."
+        }
+      ],
+      "elapsedSeconds": 4.72369139699731,
+      "peakGpuAllocatedMiB": 17693.26904296875,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 45
+    },
+    {
+      "startSeconds": 1610.0,
+      "endSeconds": 1648.704,
+      "startFrame": 25760000,
+      "endFrame": 26379264,
+      "samples": 619264,
+      "sampleRate": 16000,
+      "inputSha256": "ad2f70c3c098bd15d33ee1723ff37fff53128ea45c29fb561ff3cd07d3cf4907",
+      "inputHashFormat": "mono little-endian float32 waveform bytes",
+      "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+      "rawResponse": "{\"events\":[{\"kind\":\"music\",\"description\":\"Orchestral music with strings and woodwinds\",\"evidence\":\"Melodic, flowing, and harmonious\"},{\"kind\":\"sound-effect\",\"description\":\"Clicking sound\",\"evidence\":\"Distinct, sharp, and brief\"}]}",
+      "status": "valid",
+      "createdAt": "2026-10-12T06:11:24.234808+00:00",
+      "pipelineSha256": "301dd3896a5cf70dccfd912371baa77ac482873b1079961639c4c128dc021b19",
+      "inputFeatureShape": [
+        1,
+        128,
+        3870
+      ],
+      "audioFeatureFrames": 3870,
+      "inputTokens": 1713,
+      "generationSettings": {
+        "doSample": false,
+        "maxNewTokens": 4096,
+        "useCache": true,
+        "eosTokenId": 151645,
+        "padTokenId": 151643,
+        "formatConstraint": "lm-format-enforcer-json-schema",
+        "formatEnforcerVersion": "0.11.3",
+        "jsonSchema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "events"
+          ],
+          "properties": {
+            "events": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "audio-gag-candidate",
+                      "music",
+                      "sound-effect",
+                      "speech-correction",
+                      "vocal-delivery"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 240
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jsonSchemaSha256": "b0f0150526b9a538f72a63dabc348fd81fdbbf15c432e97d9369892667783f5d"
+      },
+      "outputTokens": 55,
+      "outputTokenIds": [
+        4913,
+        12389,
+        66582,
+        15314,
+        3252,
+        31161,
+        2198,
+        4684,
+        3252,
+        2195,
+        26320,
+        3461,
+        4627,
+        448,
+        9069,
+        323,
+        7579,
+        86,
+        8673,
+        2198,
+        68,
+        27480,
+        3252,
+        39149,
+        52760,
+        11,
+        35512,
+        11,
+        323,
+        17774,
+        1223,
+        36509,
+        15314,
+        3252,
+        27532,
+        23067,
+        2198,
+        4684,
+        3252,
+        2612,
+        287,
+        5112,
+        2198,
+        68,
+        27480,
+        3252,
+        72767,
+        11,
+        17232,
+        11,
+        323,
+        9814,
+        9207,
+        13989,
+        151645
+      ],
+      "generationEosTokenId": 151645,
+      "rawResponseWithSpecialTokens": "{\"events\":[{\"kind\":\"music\",\"description\":\"Orchestral music with strings and woodwinds\",\"evidence\":\"Melodic, flowing, and harmonious\"},{\"kind\":\"sound-effect\",\"description\":\"Clicking sound\",\"evidence\":\"Distinct, sharp, and brief\"}]}<|im_end|>",
+      "audioEncoderForwardCalls": 1,
+      "events": [
+        {
+          "kind": "music",
+          "description": "Orchestral music with strings and woodwinds",
+          "evidence": "Melodic, flowing, and harmonious"
+        },
+        {
+          "kind": "sound-effect",
+          "description": "Clicking sound",
+          "evidence": "Distinct, sharp, and brief"
+        }
+      ],
+      "elapsedSeconds": 3.778538398037199,
+      "peakGpuAllocatedMiB": 17683.443359375,
+      "peakGpuReservedMiB": 18124.0,
+      "windowIndex": 46
+    }
+  ],
+  "prompt": "Listen directly to the supplied audio waveform. Annotate physical, nonroutine things that can actually be heard, not the subject of the narration or guessed intentions.\n\nPriorities: background music and its audible instrumentation/rhythm/mood/transitions; brief NONVERBAL stings or impacts; clicks, mechanical/projector-like sounds; conspicuous echo/reverb or other voice-processing changes; clearly salient vocal departures from the ordinary local narration. Omit routine background hiss unless it conspicuously changes.\n\nORDINARY SPEECH IS NOT AN EVENT: do not report normal narration, argument development, topic changes, clear articulation, the narrator's baseline voice, ordinary pauses, contractions, or the words Okay, basically, uh, um, I mean or similar fillers just because they occur. A pause or filler does not establish a correction, emphasis, joke or intention. If the clip contains only ordinary speech with no nonroutine audible event, return {\"events\":[]}.\n\nKinds:\n- music: describe actually audible musical features and transitions, not a guessed catalogue identity.\n- sound-effect: describe a distinct nonverbal sound/sting/click/impact and its physical audible character.\n- vocal-delivery: describe a salient acoustic departure such as an unusual abrupt pitch/volume change, deliberate elongation, laughter, echo or reverb; not routine speech delivery.\n- speech-correction: ONLY an AUDIBLE spoken self-repair where a mistaken word/phrase is rejected and replaced by a DIFFERENT audible word/phrase. Quote the before -> after words in evidence. Repeating the same word, continuing a sentence, a contraction, a topic change, a pause, Okay or uh is NOT self-repair. No ASR text is supplied, so you cannot propose a written transcript correction.\n- audio-gag-candidate: require a distinct audible event plus specific audible incongruity. Do not infer a gag or comic intention from a pause, filler, political topic or unusual argument alone.\n\nFirst listen for nonverbal/background audio even when speech is foregrounded. For every event, state what physical sound is heard and the actual audible features supporting it. Separate audible features from any uncertain interpretation. Do not invent visual details or infer sound from the meaning of spoken words. Unfamiliar pronunciation may be described through actually heard syllables, not presumed incorrectness from written spellings.\n\nReturn ONLY JSON in this schema: {\"events\":[{\"kind\":\"music|sound-effect|vocal-delivery|speech-correction|audio-gag-candidate\",\"description\":\"concise physical audible observation\",\"evidence\":\"specific actually heard acoustic features; before -> after words for genuine self-repair\"}]}. Use one allowed kind, not the vertical-bar list. At most 6 event clusters; group repeated similar sounds. Be concise. Empty events is allowed for ordinary speech/no nonroutine events, not for uncertainty about a sound you actually hear. These are coarse clip bounds, NOT precise event-onset timestamps.\n\nWe are also searching across the collection for possible Chinese anthem March of the Volunteers (义勇军进行曲), DISTINCT from North Korea's Aegukka. A named musical work is only an UNCONFIRMED CANDIDATE when recognisable audible melody or lyrics supports it; supply those heard features. A march, brass, choir, national/political narration or a guessed song title alone is not identification evidence. Do not assert an exact composer/work/catalogue identity.",
+  "systemPrompt": "You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.",
+  "resumeIdentity": {
+    "sourceSha256": "cdd94e7d2a21b5ecb6ac62c1019277fea1503e05444262bcd4053fe2d057ff50",
+    "modelRevision": "ae9e1690543ffd5c0221dc27f79834d0294cba00",
+    "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be",
+    "systemSha256": "bc6a4e9906415f08930cbe9f543a281112f3fd112e28f439a94fce0da306ef73",
+    "windowSeconds": 40,
+    "overlapSeconds": 5,
+    "precision": "BF16"
+  },
+  "timingPolicy": "Coarse source-window bounds only; no model-generated event onsets are promoted to cue boundaries.",
+  "createdAt": "2026-10-12T05:48:16.808169+00:00",
+  "pipelineSha256": "d2ff4c23cb8017048598018db21746f82379dd41dec5a247af1b757eb54b8d21",
+  "updatedAt": "2026-10-12T06:11:26.064097+00:00"
+}

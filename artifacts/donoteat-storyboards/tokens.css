@@ -1,0 +1,37 @@
+/* Hallmark · macrostructure: Long Document (storyboard catalogue) · tone: editorial working document · anchor hue: ink-blue 250 */
+:root {
+  --color-paper: oklch(98.5% 0.004 85);
+  --color-panel: oklch(100% 0 0);
+  --color-ink: oklch(22% 0.01 85);
+  --color-ink-muted: oklch(46% 0.01 85);
+  --color-rule: oklch(86% 0.008 85);
+  --color-frame: oklch(14% 0 0);
+  --color-accent: oklch(44% 0.12 250);
+  --color-focus: oklch(50% 0.18 250);
+  --color-ok: oklch(45% 0.1 150);
+  --color-wait: oklch(48% 0.09 70);
+  --color-bad: oklch(48% 0.16 25);
+
+  --font-display: "Iowan Old Style", "Charter", "Bitstream Charter", "Georgia", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", "DejaVu Sans Mono", Menlo, Consolas, monospace;
+
+  --text-xs: 0.78rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.2rem;
+  --text-xl: 1.5rem;
+  --text-2xl: clamp(1.6rem, 1.2rem + 1.8vw, 2.4rem);
+
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  --measure: 72rem;
+  --rule-hair: 1px;
+  --radius-sm: 2px;
+}

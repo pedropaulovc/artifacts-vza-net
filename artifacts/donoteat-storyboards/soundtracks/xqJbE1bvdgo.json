@@ -1,0 +1,41 @@
+{
+  "id": "xqJbE1bvdgo",
+  "title": "Cities: Skylines | Power, Politics, & Planning: Episode 5: Public Housing Part 1",
+  "coverage": "Source-description credits (where present) plus accepted work-level audio fingerprints (where corroborated); source credits remain untimed. Fingerprint samples are actual submitted 12-second signature intervals, not the full 20-second extraction windows or track cue boundaries. Catalogue artists are preserved in evidence, not promoted to composer/performer; contradictory recording labels do not override source performance credits. Music between samples, exact recordings, and full cue boundaries remain unresolved.  Recognition manifest qa/soundtrack/all-summary.json records 34 saved requests against 34 planned base samples for this video. The full network queue did not finish: HTTP429 Too Many Requests at 8LysiXf-DJU extraction2040s stopped subsequent requests; no automatic retry. Missing/unmatched requests do not establish absent music. Unrelated mixed-speech catalogue suggestions are not accepted. User-confirmed effects remain separate. Exact missing and failed base-sample starts are enumerated in qa/soundtrack/coverage.json; qa/soundtrack/local-summary.json records local extraction provenance for all501 planned clips, which is not API recognition coverage.",
+  "tracks": [
+    {
+      "title": "Tragic Overture, Op. 81",
+      "composer": "Johannes Brahms",
+      "performer": "Musopen Symphony",
+      "identification": "audio-fingerprint",
+      "evidence": "videos/xqJbE1bvdgo/xqJbE1bvdgo.description:14: \"The intro music is Tragic Overture, Op. 81, by Johannes Brahms. It is the version by the Musopen Symphony, and is in the public domain.\" Supplementary work-level fingerprint evidence in qa/soundtrack/xqJbE1bvdgo/results.json: Shazam record key 315585656, raw title \"Johannes Brahms: Tragic Overture, Op. 81\", raw catalogue artist \"CLASSICAL MUSIC LIBRARY\". Work identity is corroborated; catalogue artist is NOT substituted for credited composer/performer and the exact recording remains unresolved.",
+      "samples": [
+        {
+          "startSeconds": 0,
+          "endSeconds": 12.0,
+          "evidence": "qa/soundtrack/xqJbE1bvdgo/results.json requests[0], rawResponse.track.key=315585656, tagid=BFF85830-E0A3-4751-A6C7-78FF0F28BFBA; fingerprint.sourceStartSeconds=0, sourceEndSeconds=12.0, samplems=12000. Submitted signature interval only; extracted clip 0–20.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 20,
+          "endSeconds": 32.0,
+          "evidence": "qa/soundtrack/xqJbE1bvdgo/results.json requests[1], rawResponse.track.key=315585656, tagid=E157AAC2-DA94-452D-9CB2-05C470B32F2D; fingerprint.sourceStartSeconds=20, sourceEndSeconds=32.0, samplems=12000. Submitted signature interval only; extracted clip 20–40.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 3419.048,
+          "endSeconds": 3431.048,
+          "evidence": "qa/soundtrack/xqJbE1bvdgo/results.json requests[31], rawResponse.track.key=315585656, tagid=763F1AA2-3464-456F-98BC-BBC144E81646; fingerprint.sourceStartSeconds=3419.048, sourceEndSeconds=3431.048, samplems=12000. Submitted signature interval only; extracted clip 3419.048–3439.048s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 3439.048,
+          "endSeconds": 3451.048,
+          "evidence": "qa/soundtrack/xqJbE1bvdgo/results.json requests[32], rawResponse.track.key=315585656, tagid=F6DCA515-C8B8-43F9-A4A1-07445BF7853C; fingerprint.sourceStartSeconds=3439.048, sourceEndSeconds=3451.048, samplems=12000. Submitted signature interval only; extracted clip 3439.048–3459.048s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 3459.048,
+          "endSeconds": 3471.048,
+          "evidence": "qa/soundtrack/xqJbE1bvdgo/results.json requests[33], rawResponse.track.key=315585656, tagid=FB3BC945-DE23-40E7-9604-4E7915C3C9E9; fingerprint.sourceStartSeconds=3459.048, sourceEndSeconds=3471.048, samplems=12000. Submitted signature interval only; extracted clip 3459.048–3479.026688s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        }
+      ]
+    }
+  ]
+}

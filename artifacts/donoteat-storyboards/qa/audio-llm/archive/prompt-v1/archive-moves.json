@@ -1,0 +1,89 @@
+{
+  "createdAt": "2026-10-12T05:48:16.757125+00:00",
+  "status": "complete",
+  "trialDirectory": "/home/pedro/src/tmp-donoteat/qa/audio-llm/calibration/trials/6fa192191a1d47a1b6224691ddf5bb98",
+  "controllerSha256": "55036ae4aecb91e5d4056514688136cef4fe2bc914bd9485e49fa94063e7e63d",
+  "promptV1": {
+    "version": "v1",
+    "prompt": "Listen to the supplied waveform, not a transcript. Describe audible nonroutine music and sounds, and distinctive voice delivery. Report music instrumentation, rhythm, mood, transitions; sound effects/stings/clicks; hesitation, emphasis, laughter, echo or reverb; speech/music incongruity and possible audio jokes. Do not invent sounds or name a song/composer from contextual guesses. Omit routine narration and generic 'male voice speaking'. Keep only clearly heard observations, at most 6 events. No precise event timestamps: this entire clip is a coarse review interval. Return ONLY JSON in this exact schema: {\"events\":[{\"kind\":\"music|sound-effect|vocal-delivery|speech-correction|audio-gag-candidate\",\"description\":\"what is heard\",\"evidence\":\"specific audible features supporting this description\"}]}. Use one allowed kind per event, not the vertical-bar list. Empty events is valid only if no nonroutine events are audible. A speech correction needs the actual heard words, not speculation.\nFor vocal-delivery events, report distinctive deviations or changes, not the narrator's routine baseline voice. Describe unusual pronunciation or foreign-language words only with actually heard syllables/features; do not assume correctness from a person's identity or from written spellings.\nAcross the collection we are also looking for possible Chinese anthem 'March of the Volunteers' (义勇军进行曲), distinct from North Korea's anthem 'Aegukka'. Only if the audible melody, lyrics or instrumentation actually supports a candidate, describe those heard features and label the identity UNCONFIRMED CANDIDATE. Do not treat a march or brass alone as proof, do not assert exact song/composer/catalogue identity.",
+    "promptSha256": "13f3ba2d5e3186feb68803d07712f4547477d1da2202bdd4559e21a8fb622086"
+  },
+  "promptV2": {
+    "version": "v2",
+    "prompt": "Listen directly to the supplied audio waveform. Annotate physical, nonroutine things that can actually be heard, not the subject of the narration or guessed intentions.\n\nPriorities: background music and its audible instrumentation/rhythm/mood/transitions; brief NONVERBAL stings or impacts; clicks, mechanical/projector-like sounds; conspicuous echo/reverb or other voice-processing changes; clearly salient vocal departures from the ordinary local narration. Omit routine background hiss unless it conspicuously changes.\n\nORDINARY SPEECH IS NOT AN EVENT: do not report normal narration, argument development, topic changes, clear articulation, the narrator's baseline voice, ordinary pauses, contractions, or the words Okay, basically, uh, um, I mean or similar fillers just because they occur. A pause or filler does not establish a correction, emphasis, joke or intention. If the clip contains only ordinary speech with no nonroutine audible event, return {\"events\":[]}.\n\nKinds:\n- music: describe actually audible musical features and transitions, not a guessed catalogue identity.\n- sound-effect: describe a distinct nonverbal sound/sting/click/impact and its physical audible character.\n- vocal-delivery: describe a salient acoustic departure such as an unusual abrupt pitch/volume change, deliberate elongation, laughter, echo or reverb; not routine speech delivery.\n- speech-correction: ONLY an AUDIBLE spoken self-repair where a mistaken word/phrase is rejected and replaced by a DIFFERENT audible word/phrase. Quote the before -> after words in evidence. Repeating the same word, continuing a sentence, a contraction, a topic change, a pause, Okay or uh is NOT self-repair. No ASR text is supplied, so you cannot propose a written transcript correction.\n- audio-gag-candidate: require a distinct audible event plus specific audible incongruity. Do not infer a gag or comic intention from a pause, filler, political topic or unusual argument alone.\n\nFirst listen for nonverbal/background audio even when speech is foregrounded. For every event, state what physical sound is heard and the actual audible features supporting it. Separate audible features from any uncertain interpretation. Do not invent visual details or infer sound from the meaning of spoken words. Unfamiliar pronunciation may be described through actually heard syllables, not presumed incorrectness from written spellings.\n\nReturn ONLY JSON in this schema: {\"events\":[{\"kind\":\"music|sound-effect|vocal-delivery|speech-correction|audio-gag-candidate\",\"description\":\"concise physical audible observation\",\"evidence\":\"specific actually heard acoustic features; before -> after words for genuine self-repair\"}]}. Use one allowed kind, not the vertical-bar list. At most 6 event clusters; group repeated similar sounds. Be concise. Empty events is allowed for ordinary speech/no nonroutine events, not for uncertainty about a sound you actually hear. These are coarse clip bounds, NOT precise event-onset timestamps.\n\nWe are also searching across the collection for possible Chinese anthem March of the Volunteers (义勇军进行曲), DISTINCT from North Korea's Aegukka. A named musical work is only an UNCONFIRMED CANDIDATE when recognisable audible melody or lyrics supports it; supply those heard features. A march, brass, choir, national/political narration or a guessed song title alone is not identification evidence. Do not assert an exact composer/work/catalogue identity.",
+    "promptSha256": "a4076e3bb69a8df7867edb8b9276b86752b0fd3a6dcfcd0abd7ef7e3f0b023be"
+  },
+  "moves": [
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/generation-limit-cutover.json",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/generation-limit-cutover.json",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/load-failure-bf16.json",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/load-failure-bf16.json",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/manifest.json",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/manifest.json",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/model-provenance.json",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/model-provenance.json",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/progress.json",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/progress.json",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/resume-cutover.json",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/resume-cutover.json",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/run.log",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/run.log",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/runtime-code-provenance.json",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/runtime-code-provenance.json",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/smoke-bf16.json",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/smoke-bf16.json",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/smoke.json",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/smoke.json",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/validation-scope.json",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/validation-scope.json",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/raw",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/raw",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/qa/audio-llm/smoke",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/smoke",
+      "moved": true
+    },
+    {
+      "source": "/home/pedro/src/tmp-donoteat/audio-annotations",
+      "destination": "/home/pedro/src/tmp-donoteat/qa/audio-llm/archive/prompt-v1/canonical",
+      "moved": true
+    }
+  ],
+  "finishedAt": "2026-10-12T05:48:16.790231+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "97mS1SgI73k",
+  "title": "Cities Skylines | Franklin Episode 7: Liberalism",
+  "coverage": "Source-description credits (where present) plus accepted work-level audio fingerprints (where corroborated); source credits remain untimed. Fingerprint samples are actual submitted 12-second signature intervals, not the full 20-second extraction windows or track cue boundaries. Catalogue artists are preserved in evidence, not promoted to composer/performer; contradictory recording labels do not override source performance credits. Music between samples, exact recordings, and full cue boundaries remain unresolved.  Recognition manifest qa/soundtrack/all-summary.json records 16 saved requests against 16 planned base samples for this video. The full network queue did not finish: HTTP429 Too Many Requests at 8LysiXf-DJU extraction2040s stopped subsequent requests; no automatic retry. Missing/unmatched requests do not establish absent music. Unrelated mixed-speech catalogue suggestions are not accepted. User-confirmed effects remain separate. Exact missing and failed base-sample starts are enumerated in qa/soundtrack/coverage.json; qa/soundtrack/local-summary.json records local extraction provenance for all501 planned clips, which is not API recognition coverage.",
+  "tracks": [
+    {
+      "title": "Symphony no. 5 in Cm, Op. 67 - IV. Allegro",
+      "composer": "Beethoven",
+      "performer": "Davis High School Symphony Orchestra",
+      "identification": "audio-fingerprint",
+      "evidence": "videos/97mS1SgI73k/97mS1SgI73k.description:8: \"The title music is Beethoven's Symphony no. 5 in Cm, Op. 67 - IV. Allegro, performed by the Davis High School Symphony Orchestra.\" Cm is the source abbreviation for C minor; IV identifies the fourth movement. Supplementary work-level fingerprint evidence in qa/soundtrack/97mS1SgI73k/results.json: Shazam record key 71188704, raw title \"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\", raw catalogue artist \"Passionata Symphony Orchestra\". Work identity is corroborated; catalogue artist is NOT substituted for credited composer/performer and the exact recording remains unresolved.",
+      "samples": [
+        {
+          "startSeconds": 120,
+          "endSeconds": 132.0,
+          "evidence": "qa/soundtrack/97mS1SgI73k/results.json requests[3], rawResponse.track.key=71188704, tagid=635BE51D-98E1-421F-B958-4E41E0F8ADA0; fingerprint.sourceStartSeconds=120, sourceEndSeconds=132.0, samplems=12000. Submitted signature interval only; extracted clip 120–140.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        }
+      ]
+    },
+    {
+      "title": "The Hebrides (Die Hebriden), Op. 26",
+      "composer": "Felix Mendelssohn",
+      "performer": "Musopen Symphony",
+      "identification": "audio-fingerprint",
+      "evidence": "videos/97mS1SgI73k/97mS1SgI73k.description:10: \"The cinematics music is Felix Mendelssohn's The Hebrides (Die Hebriden), Op. 26, performed by the Musopen Symphony.\" Supplementary work-level fingerprint evidence in qa/soundtrack/97mS1SgI73k/results.json: Shazam record key 154925680, raw title \"Hebrides Overture Fingal's Cave\", raw catalogue artist \"Felix Mendelssohn\". Work identity is corroborated; catalogue artist is NOT substituted for credited composer/performer and the exact recording remains unresolved.",
+      "samples": [
+        {
+          "startSeconds": 1080,
+          "endSeconds": 1092.0,
+          "evidence": "qa/soundtrack/97mS1SgI73k/results.json requests[11], rawResponse.track.key=154925680, tagid=45DDEAEB-6B53-44FC-BB8E-A7BE05C5577E; fingerprint.sourceStartSeconds=1080, sourceEndSeconds=1092.0, samplems=12000. Submitted signature interval only; extracted clip 1080–1100.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 1195.088,
+          "endSeconds": 1207.088,
+          "evidence": "qa/soundtrack/97mS1SgI73k/results.json requests[12], rawResponse.track.key=154925680, tagid=555FDE10-63FE-44D4-ADF0-931560BFB8D1; fingerprint.sourceStartSeconds=1195.088, sourceEndSeconds=1207.088, samplems=12000. Submitted signature interval only; extracted clip 1195.088–1215.088s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 1200,
+          "endSeconds": 1212.0,
+          "evidence": "qa/soundtrack/97mS1SgI73k/results.json requests[13], rawResponse.track.key=154925680, tagid=F310B386-A553-40B3-BF46-C255B16CA706; fingerprint.sourceStartSeconds=1200, sourceEndSeconds=1212.0, samplems=12000. Submitted signature interval only; extracted clip 1200–1220.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 1215.088,
+          "endSeconds": 1227.088,
+          "evidence": "qa/soundtrack/97mS1SgI73k/results.json requests[14], rawResponse.track.key=154925680, tagid=690C2478-7415-4573-A646-4733BAB1EE86; fingerprint.sourceStartSeconds=1215.088, sourceEndSeconds=1227.088, samplems=12000. Submitted signature interval only; extracted clip 1215.088–1235.088s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 1235.088,
+          "endSeconds": 1247.088,
+          "evidence": "qa/soundtrack/97mS1SgI73k/results.json requests[15], rawResponse.track.key=154925680, tagid=95D4FA1F-C58C-422C-BA24-E58853460FD3; fingerprint.sourceStartSeconds=1235.088, sourceEndSeconds=1247.088, samplems=12000. Submitted signature interval only; extracted clip 1235.088–1255.081375s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        }
+      ]
+    }
+  ]
+}

@@ -52,6 +52,12 @@ npm run deploy:ppe
 npm run deploy:production
 ```
 
+## Donoteat storyboards
+
+`https://artifacts.vza.net/donoteat-storyboards/` contains 24 illustrated storyboards for Franklin, Power, Politics & Planning, and the selected bonus videos. Full dialogue appears beneath each frame, followed by camera, action, visual-gag and audio notes. Story sheets, transcripts and supporting evidence are included; source-video links open YouTube rather than hosting video downloads.
+
+Soundtrack identifications retain their credit or matched-recording provenance. Generative audio observations are explicitly unverified candidates; complete processing does not establish that every sound or gag was detected.
+
 ## QR reader artifact
 
 `artifacts/qr-gov-br/index.html` is the source for the standalone browser reader. Its public entry URL is `https://artifacts.vza.net/qr-gov-br`; Cloudflare redirects it to the canonical trailing-slash folder URL. The `.html` filename is not the public entry URL.

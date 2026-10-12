@@ -1,0 +1,1697 @@
+{
+  "id": "apk-K0sQutc",
+  "title": "Episode 4 of Power, Planning, and Politics is on Bsquiklehausen's channel",
+  "url": "https://www.youtube.com/watch?v=apk-K0sQutc",
+  "complete": true,
+  "source": {
+    "path": "/home/pedro/src/tmp-donoteat/videos/apk-K0sQutc/apk-K0sQutc.mkv",
+    "size": 3575717,
+    "mtime_ns": 1791765703224331617
+  },
+  "settings": {
+    "model": "large-v3",
+    "language": "en",
+    "batch_size": 8,
+    "beam_size": 5,
+    "device": "cuda",
+    "compute_type": "float16",
+    "vad_filter": true,
+    "word_timestamps": true
+  },
+  "started_at": "2026-10-12T00:45:58.949091+00:00",
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 26.48,
+      "text": " Uh, hi everyone. The video isn't on my channel. That's because it's on Bisquickle House's channel, because I was talking to him. So, click the link to go to the video on his channel. Basically, I had five beers, and we talked about the past 300 years of urban history. This one is a pretty broad overview, and isn't too terribly political.",
+      "tokens": [
+        4019,
+        11,
+        4879,
+        1518,
+        13,
+        440,
+        960,
+        1943,
+        380,
+        322,
+        452,
+        2269,
+        13,
+        663,
+        311,
+        570,
+        309,
+        311,
+        322,
+        25271,
+        358,
+        618,
+        306,
+        4928,
+        311,
+        2269,
+        11,
+        570,
+        286,
+        390,
+        1417,
+        281,
+        796,
+        13,
+        407,
+        11,
+        2052,
+        264,
+        2113,
+        281,
+        352,
+        281,
+        264,
+        960,
+        322,
+        702,
+        2269,
+        13,
+        8537,
+        11,
+        286,
+        632,
+        1732,
+        34159,
+        11,
+        293,
+        321,
+        2825,
+        466,
+        264,
+        1791,
+        6641,
+        924,
+        295,
+        9681,
+        2503,
+        13,
+        639,
+        472,
+        307,
+        257,
+        1238,
+        4152,
+        12492,
+        11,
+        293,
+        1943,
+        380,
+        886,
+        22903,
+        3905,
+        13
+      ],
+      "avg_logprob": -0.09506776875042054,
+      "compression_ratio": 1.5315315315315314,
+      "no_speech_prob": 0.07342529296875,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.42,
+          "word": " Uh,",
+          "probability": 0.28173828125
+        },
+        {
+          "start": 0.5,
+          "end": 0.74,
+          "word": " hi",
+          "probability": 0.8583984375
+        },
+        {
+          "start": 0.74,
+          "end": 1.14,
+          "word": " everyone.",
+          "probability": 0.91162109375
+        },
+        {
+          "start": 1.66,
+          "end": 2.3,
+          "word": " The",
+          "probability": 0.97119140625
+        },
+        {
+          "start": 2.3,
+          "end": 2.66,
+          "word": " video",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 2.66,
+          "end": 3.5,
+          "word": " isn't",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 3.5,
+          "end": 3.72,
+          "word": " on",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 3.72,
+          "end": 4.04,
+          "word": " my",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 4.04,
+          "end": 4.54,
+          "word": " channel.",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 4.82,
+          "end": 5.46,
+          "word": " That's",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 5.46,
+          "end": 5.74,
+          "word": " because",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 5.74,
+          "end": 6.16,
+          "word": " it's",
+          "probability": 0.9853515625
+        },
+        {
+          "start": 6.16,
+          "end": 6.26,
+          "word": " on",
+          "probability": 0.99609375
+        },
+        {
+          "start": 6.26,
+          "end": 6.94,
+          "word": " Bisquickle",
+          "probability": 0.830322265625
+        },
+        {
+          "start": 6.94,
+          "end": 7.32,
+          "word": " House's",
+          "probability": 0.719482421875
+        },
+        {
+          "start": 7.32,
+          "end": 7.72,
+          "word": " channel,",
+          "probability": 0.99267578125
+        },
+        {
+          "start": 7.86,
+          "end": 8.06,
+          "word": " because",
+          "probability": 0.56591796875
+        },
+        {
+          "start": 8.06,
+          "end": 8.3,
+          "word": " I",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 8.3,
+          "end": 8.5,
+          "word": " was",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 8.5,
+          "end": 8.84,
+          "word": " talking",
+          "probability": 0.98193359375
+        },
+        {
+          "start": 8.84,
+          "end": 9.1,
+          "word": " to",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 9.1,
+          "end": 9.4,
+          "word": " him.",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 9.62,
+          "end": 10.26,
+          "word": " So,",
+          "probability": 0.994140625
+        },
+        {
+          "start": 10.32,
+          "end": 10.64,
+          "word": " click",
+          "probability": 0.9921875
+        },
+        {
+          "start": 10.64,
+          "end": 10.86,
+          "word": " the",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 10.86,
+          "end": 11.2,
+          "word": " link",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 11.2,
+          "end": 11.64,
+          "word": " to",
+          "probability": 0.994140625
+        },
+        {
+          "start": 11.64,
+          "end": 11.84,
+          "word": " go",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 11.84,
+          "end": 12.1,
+          "word": " to",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 12.1,
+          "end": 12.28,
+          "word": " the",
+          "probability": 0.998046875
+        },
+        {
+          "start": 12.28,
+          "end": 12.66,
+          "word": " video",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 12.66,
+          "end": 12.98,
+          "word": " on",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 12.98,
+          "end": 13.24,
+          "word": " his",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 13.24,
+          "end": 13.76,
+          "word": " channel.",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 14.62,
+          "end": 15.26,
+          "word": " Basically,",
+          "probability": 0.42333984375
+        },
+        {
+          "start": 15.52,
+          "end": 15.76,
+          "word": " I",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 15.76,
+          "end": 15.96,
+          "word": " had",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 15.96,
+          "end": 16.24,
+          "word": " five",
+          "probability": 0.9140625
+        },
+        {
+          "start": 16.24,
+          "end": 16.78,
+          "word": " beers,",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 16.9,
+          "end": 17.06,
+          "word": " and",
+          "probability": 0.97265625
+        },
+        {
+          "start": 17.06,
+          "end": 17.26,
+          "word": " we",
+          "probability": 0.908203125
+        },
+        {
+          "start": 17.26,
+          "end": 17.58,
+          "word": " talked",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 17.58,
+          "end": 17.9,
+          "word": " about",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 17.9,
+          "end": 18.1,
+          "word": " the",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 18.1,
+          "end": 18.4,
+          "word": " past",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 18.4,
+          "end": 19.16,
+          "word": " 300",
+          "probability": 0.9453125
+        },
+        {
+          "start": 19.16,
+          "end": 19.86,
+          "word": " years",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 19.86,
+          "end": 20.36,
+          "word": " of",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 20.36,
+          "end": 20.72,
+          "word": " urban",
+          "probability": 0.994140625
+        },
+        {
+          "start": 20.72,
+          "end": 21.16,
+          "word": " history.",
+          "probability": 1.0
+        },
+        {
+          "start": 21.7,
+          "end": 22.34,
+          "word": " This",
+          "probability": 0.91015625
+        },
+        {
+          "start": 22.34,
+          "end": 22.62,
+          "word": " one",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 22.62,
+          "end": 22.84,
+          "word": " is",
+          "probability": 0.99609375
+        },
+        {
+          "start": 22.84,
+          "end": 22.98,
+          "word": " a",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 22.98,
+          "end": 23.16,
+          "word": " pretty",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 23.16,
+          "end": 23.52,
+          "word": " broad",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 23.52,
+          "end": 24.1,
+          "word": " overview,",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 24.24,
+          "end": 24.82,
+          "word": " and",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 24.82,
+          "end": 25.24,
+          "word": " isn't",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 25.24,
+          "end": 25.4,
+          "word": " too",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 25.4,
+          "end": 25.98,
+          "word": " terribly",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 25.98,
+          "end": 26.48,
+          "word": " political.",
+          "probability": 0.99951171875
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 2684,
+      "start": 27.1,
+      "end": 58.13,
+      "text": " so the normies can watch it and then come here and watch my videos so I can shovel propaganda at them. Rest assured the politics are coming back next week in a big way in the Franklin Organized Labor episode. Then the week after that's going to be a Power Politics and Planning episode with the left-wing critique of MTRAC. Also, I'm debating whether to do this month's $1 Patreon bonus episode on Red Vienna or Killdozer.",
+      "tokens": [
+        370,
+        264,
+        2026,
+        530,
+        393,
+        1159,
+        309,
+        293,
+        550,
+        808,
+        510,
+        293,
+        1159,
+        452,
+        2145,
+        370,
+        286,
+        393,
+        29789,
+        22968,
+        412,
+        552,
+        13,
+        13094,
+        23426,
+        264,
+        7341,
+        366,
+        1348,
+        646,
+        958,
+        1243,
+        294,
+        257,
+        955,
+        636,
+        294,
+        264,
+        22010,
+        12538,
+        1602,
+        17250,
+        3500,
+        13,
+        1396,
+        264,
+        1243,
+        934,
+        300,
+        311,
+        516,
+        281,
+        312,
+        257,
+        7086,
+        45348,
+        293,
+        29308,
+        3500,
+        365,
+        264,
+        1411,
+        12,
+        7904,
+        25673,
+        295,
+        37333,
+        3750,
+        34,
+        13,
+        2743,
+        11,
+        286,
+        478,
+        40647,
+        1968,
+        281,
+        360,
+        341,
+        1618,
+        311,
+        1848,
+        16,
+        15692,
+        10882,
+        3500,
+        322,
+        4477,
+        31024,
+        420,
+        17526,
+        2595,
+        4527,
+        13
+      ],
+      "avg_logprob": -0.04150904628791307,
+      "compression_ratio": 1.5326086956521738,
+      "no_speech_prob": 0.002147674560546875,
+      "words": [
+        {
+          "start": 27.1,
+          "end": 27.36,
+          "word": " so",
+          "probability": 0.6943359375
+        },
+        {
+          "start": 27.36,
+          "end": 27.6,
+          "word": " the",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 27.6,
+          "end": 28.06,
+          "word": " normies",
+          "probability": 0.988525390625
+        },
+        {
+          "start": 28.06,
+          "end": 28.22,
+          "word": " can",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 28.22,
+          "end": 28.5,
+          "word": " watch",
+          "probability": 1.0
+        },
+        {
+          "start": 28.5,
+          "end": 28.76,
+          "word": " it",
+          "probability": 1.0
+        },
+        {
+          "start": 28.76,
+          "end": 28.86,
+          "word": " and",
+          "probability": 0.86865234375
+        },
+        {
+          "start": 28.86,
+          "end": 29.02,
+          "word": " then",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 29.02,
+          "end": 29.24,
+          "word": " come",
+          "probability": 1.0
+        },
+        {
+          "start": 29.24,
+          "end": 29.54,
+          "word": " here",
+          "probability": 1.0
+        },
+        {
+          "start": 29.54,
+          "end": 29.8,
+          "word": " and",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 29.8,
+          "end": 30.02,
+          "word": " watch",
+          "probability": 1.0
+        },
+        {
+          "start": 30.02,
+          "end": 30.3,
+          "word": " my",
+          "probability": 1.0
+        },
+        {
+          "start": 30.3,
+          "end": 30.76,
+          "word": " videos",
+          "probability": 1.0
+        },
+        {
+          "start": 30.76,
+          "end": 31.46,
+          "word": " so",
+          "probability": 0.716796875
+        },
+        {
+          "start": 31.46,
+          "end": 31.6,
+          "word": " I",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 31.6,
+          "end": 31.78,
+          "word": " can",
+          "probability": 1.0
+        },
+        {
+          "start": 31.78,
+          "end": 32.08,
+          "word": " shovel",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 32.08,
+          "end": 32.62,
+          "word": " propaganda",
+          "probability": 1.0
+        },
+        {
+          "start": 32.62,
+          "end": 33.16,
+          "word": " at",
+          "probability": 1.0
+        },
+        {
+          "start": 33.16,
+          "end": 33.46,
+          "word": " them.",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 34.64,
+          "end": 35.24,
+          "word": " Rest",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 35.24,
+          "end": 35.72,
+          "word": " assured",
+          "probability": 1.0
+        },
+        {
+          "start": 35.72,
+          "end": 35.98,
+          "word": " the",
+          "probability": 0.7626953125
+        },
+        {
+          "start": 35.98,
+          "end": 36.44,
+          "word": " politics",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 36.44,
+          "end": 36.8,
+          "word": " are",
+          "probability": 1.0
+        },
+        {
+          "start": 36.8,
+          "end": 37.04,
+          "word": " coming",
+          "probability": 1.0
+        },
+        {
+          "start": 37.04,
+          "end": 37.32,
+          "word": " back",
+          "probability": 1.0
+        },
+        {
+          "start": 37.32,
+          "end": 37.72,
+          "word": " next",
+          "probability": 1.0
+        },
+        {
+          "start": 37.72,
+          "end": 38.04,
+          "word": " week",
+          "probability": 1.0
+        },
+        {
+          "start": 38.04,
+          "end": 38.22,
+          "word": " in",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 38.22,
+          "end": 38.34,
+          "word": " a",
+          "probability": 1.0
+        },
+        {
+          "start": 38.34,
+          "end": 38.48,
+          "word": " big",
+          "probability": 1.0
+        },
+        {
+          "start": 38.48,
+          "end": 38.76,
+          "word": " way",
+          "probability": 1.0
+        },
+        {
+          "start": 38.76,
+          "end": 39.44,
+          "word": " in",
+          "probability": 0.955078125
+        },
+        {
+          "start": 39.44,
+          "end": 39.56,
+          "word": " the",
+          "probability": 1.0
+        },
+        {
+          "start": 39.56,
+          "end": 39.94,
+          "word": " Franklin",
+          "probability": 0.998046875
+        },
+        {
+          "start": 39.94,
+          "end": 40.86,
+          "word": " Organized",
+          "probability": 0.771484375
+        },
+        {
+          "start": 40.86,
+          "end": 41.16,
+          "word": " Labor",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 41.16,
+          "end": 41.88,
+          "word": " episode.",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 42.5,
+          "end": 43.1,
+          "word": " Then",
+          "probability": 0.99609375
+        },
+        {
+          "start": 43.1,
+          "end": 43.28,
+          "word": " the",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 43.28,
+          "end": 43.48,
+          "word": " week",
+          "probability": 1.0
+        },
+        {
+          "start": 43.48,
+          "end": 43.82,
+          "word": " after",
+          "probability": 1.0
+        },
+        {
+          "start": 43.82,
+          "end": 44.24,
+          "word": " that's",
+          "probability": 0.90869140625
+        },
+        {
+          "start": 44.24,
+          "end": 44.34,
+          "word": " going",
+          "probability": 0.9072265625
+        },
+        {
+          "start": 44.34,
+          "end": 44.44,
+          "word": " to",
+          "probability": 1.0
+        },
+        {
+          "start": 44.44,
+          "end": 44.58,
+          "word": " be",
+          "probability": 1.0
+        },
+        {
+          "start": 44.58,
+          "end": 44.68,
+          "word": " a",
+          "probability": 1.0
+        },
+        {
+          "start": 44.68,
+          "end": 44.96,
+          "word": " Power",
+          "probability": 0.64013671875
+        },
+        {
+          "start": 44.96,
+          "end": 45.5,
+          "word": " Politics",
+          "probability": 0.83544921875
+        },
+        {
+          "start": 45.5,
+          "end": 45.84,
+          "word": " and",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 45.84,
+          "end": 46.08,
+          "word": " Planning",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 46.08,
+          "end": 46.64,
+          "word": " episode",
+          "probability": 1.0
+        },
+        {
+          "start": 46.64,
+          "end": 47.48,
+          "word": " with",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 47.48,
+          "end": 47.64,
+          "word": " the",
+          "probability": 0.955078125
+        },
+        {
+          "start": 47.64,
+          "end": 47.98,
+          "word": " left",
+          "probability": 0.998046875
+        },
+        {
+          "start": 47.98,
+          "end": 48.22,
+          "word": "-wing",
+          "probability": 0.975830078125
+        },
+        {
+          "start": 48.22,
+          "end": 48.66,
+          "word": " critique",
+          "probability": 1.0
+        },
+        {
+          "start": 48.66,
+          "end": 49.08,
+          "word": " of",
+          "probability": 1.0
+        },
+        {
+          "start": 49.08,
+          "end": 49.66,
+          "word": " MTRAC.",
+          "probability": 0.8850911458333334
+        },
+        {
+          "start": 51.33,
+          "end": 51.93,
+          "word": " Also,",
+          "probability": 1.0
+        },
+        {
+          "start": 51.99,
+          "end": 52.15,
+          "word": " I'm",
+          "probability": 1.0
+        },
+        {
+          "start": 52.15,
+          "end": 52.51,
+          "word": " debating",
+          "probability": 1.0
+        },
+        {
+          "start": 52.51,
+          "end": 52.87,
+          "word": " whether",
+          "probability": 1.0
+        },
+        {
+          "start": 52.87,
+          "end": 53.05,
+          "word": " to",
+          "probability": 1.0
+        },
+        {
+          "start": 53.05,
+          "end": 53.23,
+          "word": " do",
+          "probability": 1.0
+        },
+        {
+          "start": 53.23,
+          "end": 53.43,
+          "word": " this",
+          "probability": 1.0
+        },
+        {
+          "start": 53.43,
+          "end": 53.81,
+          "word": " month's",
+          "probability": 1.0
+        },
+        {
+          "start": 53.81,
+          "end": 53.91,
+          "word": " $1",
+          "probability": 0.989990234375
+        },
+        {
+          "start": 53.91,
+          "end": 54.71,
+          "word": " Patreon",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 54.71,
+          "end": 55.23,
+          "word": " bonus",
+          "probability": 0.994140625
+        },
+        {
+          "start": 55.23,
+          "end": 55.81,
+          "word": " episode",
+          "probability": 1.0
+        },
+        {
+          "start": 55.81,
+          "end": 56.11,
+          "word": " on",
+          "probability": 1.0
+        },
+        {
+          "start": 56.11,
+          "end": 56.35,
+          "word": " Red",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 56.35,
+          "end": 56.63,
+          "word": " Vienna",
+          "probability": 0.9814453125
+        },
+        {
+          "start": 56.63,
+          "end": 57.23,
+          "word": " or",
+          "probability": 1.0
+        },
+        {
+          "start": 57.23,
+          "end": 58.13,
+          "word": " Killdozer.",
+          "probability": 0.9129231770833334
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 5662,
+      "start": 58.92,
+      "end": 88.47,
+      "text": " I'm kind of leaning towards Killdozer. Y'all may have to work to convince me otherwise. If for some reason you're still watching this, please watch the video which is in the link right there on the video. Or in the description if for some reason you don't see the link on the video itself. Then go subscribe to my Patreon and follow me on the social medias. Okay, I'm going to stop talking now so you can go watch the video. Bye.",
+      "tokens": [
+        286,
+        478,
+        733,
+        295,
+        23390,
+        3030,
+        17526,
+        2595,
+        4527,
+        13,
+        398,
+        6,
+        336,
+        815,
+        362,
+        281,
+        589,
+        281,
+        13447,
+        385,
+        5911,
+        13,
+        759,
+        337,
+        512,
+        1778,
+        291,
+        434,
+        920,
+        1976,
+        341,
+        11,
+        1767,
+        1159,
+        264,
+        960,
+        597,
+        307,
+        294,
+        264,
+        2113,
+        558,
+        456,
+        322,
+        264,
+        960,
+        13,
+        1610,
+        294,
+        264,
+        3855,
+        498,
+        337,
+        512,
+        1778,
+        291,
+        500,
+        380,
+        536,
+        264,
+        2113,
+        322,
+        264,
+        960,
+        2564,
+        13,
+        1396,
+        352,
+        3022,
+        281,
+        452,
+        15692,
+        293,
+        1524,
+        385,
+        322,
+        264,
+        2093,
+        1205,
+        4609,
+        13,
+        1033,
+        11,
+        286,
+        478,
+        516,
+        281,
+        1590,
+        1417,
+        586,
+        370,
+        291,
+        393,
+        352,
+        1159,
+        264,
+        960,
+        13,
+        4621,
+        13
+      ],
+      "avg_logprob": -0.044051672119905454,
+      "compression_ratio": 1.7063492063492063,
+      "no_speech_prob": 0.0025882720947265625,
+      "words": [
+        {
+          "start": 58.92,
+          "end": 59.44,
+          "word": " I'm",
+          "probability": 0.85205078125
+        },
+        {
+          "start": 59.44,
+          "end": 59.72,
+          "word": " kind",
+          "probability": 0.5302734375
+        },
+        {
+          "start": 59.72,
+          "end": 59.9,
+          "word": " of",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 59.9,
+          "end": 60.14,
+          "word": " leaning",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 60.14,
+          "end": 60.56,
+          "word": " towards",
+          "probability": 0.96435546875
+        },
+        {
+          "start": 60.56,
+          "end": 61.4,
+          "word": " Killdozer.",
+          "probability": 0.82373046875
+        },
+        {
+          "start": 61.78,
+          "end": 62.3,
+          "word": " Y",
+          "probability": 0.72412109375
+        },
+        {
+          "start": 62.3,
+          "end": 62.38,
+          "word": "'all",
+          "probability": 0.996826171875
+        },
+        {
+          "start": 62.38,
+          "end": 62.58,
+          "word": " may",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 62.58,
+          "end": 62.78,
+          "word": " have",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 62.78,
+          "end": 63.02,
+          "word": " to",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 63.02,
+          "end": 63.36,
+          "word": " work",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 63.36,
+          "end": 63.56,
+          "word": " to",
+          "probability": 0.99609375
+        },
+        {
+          "start": 63.56,
+          "end": 63.88,
+          "word": " convince",
+          "probability": 0.998046875
+        },
+        {
+          "start": 63.88,
+          "end": 64.16,
+          "word": " me",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 64.16,
+          "end": 64.44,
+          "word": " otherwise.",
+          "probability": 0.990234375
+        },
+        {
+          "start": 66.46,
+          "end": 66.98,
+          "word": " If",
+          "probability": 0.88916015625
+        },
+        {
+          "start": 66.98,
+          "end": 67.18,
+          "word": " for",
+          "probability": 0.982421875
+        },
+        {
+          "start": 67.18,
+          "end": 67.38,
+          "word": " some",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 67.38,
+          "end": 67.76,
+          "word": " reason",
+          "probability": 1.0
+        },
+        {
+          "start": 67.76,
+          "end": 68.02,
+          "word": " you're",
+          "probability": 0.986328125
+        },
+        {
+          "start": 68.02,
+          "end": 68.22,
+          "word": " still",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 68.22,
+          "end": 68.62,
+          "word": " watching",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 68.62,
+          "end": 68.86,
+          "word": " this,",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 68.94,
+          "end": 69.12,
+          "word": " please",
+          "probability": 0.994140625
+        },
+        {
+          "start": 69.12,
+          "end": 69.46,
+          "word": " watch",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 69.46,
+          "end": 69.76,
+          "word": " the",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 69.76,
+          "end": 70.02,
+          "word": " video",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 70.02,
+          "end": 70.28,
+          "word": " which",
+          "probability": 0.59375
+        },
+        {
+          "start": 70.28,
+          "end": 70.42,
+          "word": " is",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 70.42,
+          "end": 70.54,
+          "word": " in",
+          "probability": 0.99609375
+        },
+        {
+          "start": 70.54,
+          "end": 70.62,
+          "word": " the",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 70.62,
+          "end": 70.88,
+          "word": " link",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 70.88,
+          "end": 71.16,
+          "word": " right",
+          "probability": 0.99365234375
+        },
+        {
+          "start": 71.16,
+          "end": 71.44,
+          "word": " there",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 71.44,
+          "end": 71.66,
+          "word": " on",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 71.66,
+          "end": 71.8,
+          "word": " the",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 71.8,
+          "end": 72.08,
+          "word": " video.",
+          "probability": 1.0
+        },
+        {
+          "start": 72.5,
+          "end": 73.02,
+          "word": " Or",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 73.02,
+          "end": 73.44,
+          "word": " in",
+          "probability": 0.9462890625
+        },
+        {
+          "start": 73.44,
+          "end": 73.56,
+          "word": " the",
+          "probability": 1.0
+        },
+        {
+          "start": 73.56,
+          "end": 74.04,
+          "word": " description",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 74.04,
+          "end": 74.38,
+          "word": " if",
+          "probability": 0.8818359375
+        },
+        {
+          "start": 74.38,
+          "end": 74.52,
+          "word": " for",
+          "probability": 0.99609375
+        },
+        {
+          "start": 74.52,
+          "end": 74.7,
+          "word": " some",
+          "probability": 1.0
+        },
+        {
+          "start": 74.7,
+          "end": 75.02,
+          "word": " reason",
+          "probability": 1.0
+        },
+        {
+          "start": 75.02,
+          "end": 75.22,
+          "word": " you",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 75.22,
+          "end": 75.48,
+          "word": " don't",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 75.48,
+          "end": 75.64,
+          "word": " see",
+          "probability": 1.0
+        },
+        {
+          "start": 75.64,
+          "end": 75.8,
+          "word": " the",
+          "probability": 1.0
+        },
+        {
+          "start": 75.8,
+          "end": 76.06,
+          "word": " link",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 76.06,
+          "end": 76.3,
+          "word": " on",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 76.3,
+          "end": 76.48,
+          "word": " the",
+          "probability": 1.0
+        },
+        {
+          "start": 76.48,
+          "end": 76.74,
+          "word": " video",
+          "probability": 1.0
+        },
+        {
+          "start": 76.74,
+          "end": 77.02,
+          "word": " itself.",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 77.58,
+          "end": 78.1,
+          "word": " Then",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 78.1,
+          "end": 78.48,
+          "word": " go",
+          "probability": 0.99169921875
+        },
+        {
+          "start": 78.48,
+          "end": 78.94,
+          "word": " subscribe",
+          "probability": 1.0
+        },
+        {
+          "start": 78.94,
+          "end": 79.22,
+          "word": " to",
+          "probability": 1.0
+        },
+        {
+          "start": 79.22,
+          "end": 79.32,
+          "word": " my",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 79.32,
+          "end": 79.68,
+          "word": " Patreon",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 79.68,
+          "end": 80.14,
+          "word": " and",
+          "probability": 0.978515625
+        },
+        {
+          "start": 80.14,
+          "end": 80.54,
+          "word": " follow",
+          "probability": 1.0
+        },
+        {
+          "start": 80.54,
+          "end": 80.78,
+          "word": " me",
+          "probability": 1.0
+        },
+        {
+          "start": 80.78,
+          "end": 80.96,
+          "word": " on",
+          "probability": 1.0
+        },
+        {
+          "start": 80.96,
+          "end": 81.18,
+          "word": " the",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 81.18,
+          "end": 81.42,
+          "word": " social",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 81.42,
+          "end": 82.08,
+          "word": " medias.",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 83.75,
+          "end": 84.27,
+          "word": " Okay,",
+          "probability": 0.97216796875
+        },
+        {
+          "start": 84.33,
+          "end": 84.55,
+          "word": " I'm",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 84.55,
+          "end": 84.63,
+          "word": " going",
+          "probability": 0.63671875
+        },
+        {
+          "start": 84.63,
+          "end": 84.77,
+          "word": " to",
+          "probability": 1.0
+        },
+        {
+          "start": 84.77,
+          "end": 85.01,
+          "word": " stop",
+          "probability": 1.0
+        },
+        {
+          "start": 85.01,
+          "end": 85.57,
+          "word": " talking",
+          "probability": 1.0
+        },
+        {
+          "start": 85.57,
+          "end": 85.81,
+          "word": " now",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 85.81,
+          "end": 86.07,
+          "word": " so",
+          "probability": 0.9697265625
+        },
+        {
+          "start": 86.07,
+          "end": 86.31,
+          "word": " you",
+          "probability": 1.0
+        },
+        {
+          "start": 86.31,
+          "end": 86.49,
+          "word": " can",
+          "probability": 1.0
+        },
+        {
+          "start": 86.49,
+          "end": 86.67,
+          "word": " go",
+          "probability": 1.0
+        },
+        {
+          "start": 86.67,
+          "end": 86.97,
+          "word": " watch",
+          "probability": 1.0
+        },
+        {
+          "start": 86.97,
+          "end": 87.23,
+          "word": " the",
+          "probability": 1.0
+        },
+        {
+          "start": 87.23,
+          "end": 87.53,
+          "word": " video.",
+          "probability": 1.0
+        },
+        {
+          "start": 87.95,
+          "end": 88.47,
+          "word": " Bye.",
+          "probability": 0.99951171875
+        }
+      ],
+      "temperature": 0.0
+    }
+  ],
+  "provenance": {
+    "kind": "speech_transcription",
+    "engine": "faster-whisper",
+    "captions_used": false,
+    "audio_start_seconds": 0,
+    "yt_dlp_info": "/home/pedro/src/tmp-donoteat/videos/apk-K0sQutc/apk-K0sQutc.info.json",
+    "yt_dlp_duration": 93,
+    "engine_version": "1.2.1"
+  },
+  "duration": 92.808,
+  "audio_duration": 92.7786875,
+  "language": "en",
+  "language_probability": 1,
+  "completed_at": "2026-10-12T00:46:03.695322+00:00"
+}

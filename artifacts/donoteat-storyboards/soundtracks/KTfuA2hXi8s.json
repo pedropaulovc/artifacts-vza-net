@@ -1,0 +1,23 @@
+{
+  "id": "KTfuA2hXi8s",
+  "title": "Cities Skylines | Franklin, Episode 1: Prehistory",
+  "coverage": "Source-description credits (where present) plus accepted work-level audio fingerprints (where corroborated); source credits remain untimed. Fingerprint samples are actual submitted 12-second signature intervals, not the full 20-second extraction windows or track cue boundaries. Catalogue artists are preserved in evidence, not promoted to composer/performer; contradictory recording labels do not override source performance credits. Music between samples, exact recordings, and full cue boundaries remain unresolved.  The repeated catalogue response \"Peer Gynt Suite No. 1, Op. 46 (III. Anitra's Dream)\" (key316644433, artist Luis Burgado) differs from credited \"Anitra's Dance\"; it remains an unaccepted supplementary candidate, not a renamed work or confirmed recording. Recognition manifest qa/soundtrack/all-summary.json records 14 saved requests against 14 planned base samples for this video. The full network queue did not finish: HTTP429 Too Many Requests at 8LysiXf-DJU extraction2040s stopped subsequent requests; no automatic retry. Missing/unmatched requests do not establish absent music. Unrelated mixed-speech catalogue suggestions are not accepted. User-confirmed effects remain separate. Exact missing and failed base-sample starts are enumerated in qa/soundtrack/coverage.json; qa/soundtrack/local-summary.json records local extraction provenance for all501 planned clips, which is not API recognition coverage.",
+  "tracks": [
+    {
+      "title": "Anitra's Dance",
+      "composer": "Edvard Grieg",
+      "performer": null,
+      "identification": "video-credit",
+      "evidence": "videos/KTfuA2hXi8s/KTfuA2hXi8s.description:5: \"Note to copyright guys: the music is a public domain recording of Edvard Greig's \"Anitra's Dance\" from Musopen -- I did not steal your music.\" Composer spelling normalized from source \"Edvard Greig\". Musopen is credited as recording source, not as performer; no movement/key/opus is stated for this work in the prose credit.",
+      "samples": []
+    },
+    {
+      "title": "Night on a Bald Mountain",
+      "composer": "Mussorgsky",
+      "performer": "Philadelphia Orchestra; conducted by Leopold Stokowski",
+      "identification": "video-credit",
+      "evidence": "videos/KTfuA2hXi8s/KTfuA2hXi8s.description:7: \"And the title music is a recording of Mussorgsky's \"Night on a Bald Mountain\", conducted by Leopold Stokowski with the Philadelphia Orchestra in 1940. I believe it is well out of copyright.\" The source explicitly dates this recording to 1940.",
+      "samples": []
+    }
+  ]
+}

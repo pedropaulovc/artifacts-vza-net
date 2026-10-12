@@ -1,0 +1,58 @@
+{
+  "id": "8LysiXf-DJU",
+  "title": "donoteat DESTROYS cities:skylines industries DLC with FACTS & LOGIC",
+  "coverage": "Source-description credits (where present) plus accepted work-level audio fingerprints (where corroborated); source credits remain untimed. Fingerprint samples are actual submitted 12-second signature intervals, not the full 20-second extraction windows or track cue boundaries. Catalogue artists are preserved in evidence, not promoted to composer/performer; contradictory recording labels do not override source performance credits. Music between samples, exact recordings, and full cue boundaries remain unresolved.  Description line 12 says \"and I stole like 8 seconds from the music man\"; it names no individual song/recording or actual interval, so no guessed Music Man cue is listed. The \"Gary, Indiana\" response (key64192358) at submitted600–612s is accepted as a song excerpt because catalogue album The Music Man, source Music Man credit, and matching ASR lyrics corroborate it. Exact recording and performer roles remain unresolved; the signature interval is not continuous song duration. Recognition manifest qa/soundtrack/all-summary.json records 20 saved requests against 31 planned base samples for this video. The full network queue did not finish: HTTP429 Too Many Requests at 8LysiXf-DJU extraction2040s stopped subsequent requests; no automatic retry. Missing/unmatched requests do not establish absent music. Unrelated mixed-speech catalogue suggestions are not accepted. User-confirmed effects remain separate. Exact missing and failed base-sample starts are enumerated in qa/soundtrack/coverage.json; qa/soundtrack/local-summary.json records local extraction provenance for all501 planned clips, which is not API recognition coverage. Independent offline credited-reference evidence confirms March of the Volunteers (Chinese national anthem) in bounded two-second query windows; audio-reference-match is distinct from Shazam fingerprints and user observations. These windows are not full cue boundaries. Source-minus-reference offset 35.820750000000004s remains consistent across matched windows; reference uploader is not performer identity.",
+  "tracks": [
+    {
+      "title": "Local Forecast",
+      "composer": null,
+      "performer": null,
+      "identification": "video-credit",
+      "evidence": "videos/8LysiXf-DJU/8LysiXf-DJU.description:8: \"the music: Kevin MacLeold -- Local Forecast --\" Source attribution \"Kevin MacLeold\" retained as written; composer/performer role is not explicit.",
+      "samples": []
+    },
+    {
+      "title": "March of the Volunteers",
+      "composer": null,
+      "performer": null,
+      "identification": "audio-reference-match",
+      "evidence": "videos/8LysiXf-DJU/8LysiXf-DJU.description:10: \"March of the Volunteers --\" Same-recording offline acoustic match to credited reference UctriMuXYS0, title \"China National anthem Chinese & English lyrics\"; videos/8LysiXf-DJU/8LysiXf-DJU.description:10 explicitly credits \"March of the Volunteers\" and this reference. Work is the Chinese national anthem. Reference uploader VocalNationalAnthems is NOT a performer attribution; composer and ensemble/choir remain unknown. qa/anthem-reference/canonical-proof.json, results.json, alignment-proof.json and controls.json: independent two-second queries recover identical source-to-reference offset; waveform peaks, not spectral score alone, support recording identity. Reference download SHA256c6f8f15bbdb845dab974b3c51847bea64065310cb2a9146e97d4f1776f82544a; WAV SHA2560cad0b6364986b9ed7497ee4978d69e3fafb73b2ea2a72ec1dc293ae9603b267. Positive known-reference25–43s recovers25s/NCC1.0; synthetic10x narration-containing mixture recovers25s/NCC0.10012; reversed-reference maxAbsNCC0.046318 and unrelated narration controls0.02455/0.024925. Finite controls do not establish a universal false-positive probability. No claim of a continuous18-second anthem cue.",
+      "samples": [
+        {
+          "startSeconds": 53.0,
+          "endSeconds": 55.0,
+          "evidence": "qa/anthem-reference/alignment-proof.json targets.8LysiXf-DJU.independentTwoSecondBlocks[4]: source 53–55s globally matches reference 17.17925–19.17925s, waveform NCC0.191871610706106, peakOffsetDeviationSeconds0. Source-minus-reference offset35.820750000000004s. Matched query window, not full cue onset/end; edge windows can include nonmusic margins. qa/anthem-reference/canonical-proof.json sources[0] records source/excerpt SHA256 provenance."
+        },
+        {
+          "startSeconds": 55.0,
+          "endSeconds": 57.0,
+          "evidence": "qa/anthem-reference/alignment-proof.json targets.8LysiXf-DJU.independentTwoSecondBlocks[5]: source 55–57s globally matches reference 19.17925–21.17925s, waveform NCC0.4832030236966924, peakOffsetDeviationSeconds0. Source-minus-reference offset35.820750000000004s. Matched query window, not full cue onset/end; edge windows can include nonmusic margins. qa/anthem-reference/canonical-proof.json sources[0] records source/excerpt SHA256 provenance."
+        },
+        {
+          "startSeconds": 57.0,
+          "endSeconds": 59.0,
+          "evidence": "qa/anthem-reference/alignment-proof.json targets.8LysiXf-DJU.independentTwoSecondBlocks[6]: source 57–59s globally matches reference 21.17925–23.17925s, waveform NCC0.6048829471756232, peakOffsetDeviationSeconds0. Source-minus-reference offset35.820750000000004s. Matched query window, not full cue onset/end; edge windows can include nonmusic margins. qa/anthem-reference/canonical-proof.json sources[0] records source/excerpt SHA256 provenance."
+        },
+        {
+          "startSeconds": 59.0,
+          "endSeconds": 61.0,
+          "evidence": "qa/anthem-reference/alignment-proof.json targets.8LysiXf-DJU.independentTwoSecondBlocks[7]: source 59–61s globally matches reference 23.17925–25.17925s, waveform NCC0.38950004580189207, peakOffsetDeviationSeconds0. Source-minus-reference offset35.820750000000004s. Matched query window, not full cue onset/end; edge windows can include nonmusic margins. qa/anthem-reference/canonical-proof.json sources[0] records source/excerpt SHA256 provenance."
+        }
+      ]
+    },
+    {
+      "title": "Gary, Indiana",
+      "composer": null,
+      "performer": null,
+      "identification": "audio-fingerprint",
+      "evidence": "qa/soundtrack/8LysiXf-DJU/results.json requests[7], rawResponse.track.key=64192358, tagid=91B3C920-C063-4176-9644-DF0F458102E3: raw title \"Gary, Indiana\", catalogue artist \"Robert Preston & Meredith Willson\", SONG Album \"The Music Man (Motion-Picture Soundtrack)\", Released \"1962\". Corroborated by videos/8LysiXf-DJU/8LysiXf-DJU.description:12, \"and I stole like 8 seconds from the music man\", and transcripts/8LysiXf-DJU.json segments577.53–606.4 (\"Gary, Indiana, Gary\") and607.1–633 (\"Indiana, not Louisiana, Paris, France, New York, or Rome\"). Catalogue names do not establish composer/performer roles; exact recording unresolved.",
+      "samples": [
+        {
+          "startSeconds": 600,
+          "endSeconds": 612.0,
+          "evidence": "qa/soundtrack/8LysiXf-DJU/results.json requests[7].fingerprint: sourceStartSeconds600, sourceEndSeconds612, samplems12000; extraction600–620s. Actual submitted signature interval containing the corroborated song excerpt, not a claim that music fills all12s or of full cue boundaries."
+        }
+      ]
+    }
+  ]
+}

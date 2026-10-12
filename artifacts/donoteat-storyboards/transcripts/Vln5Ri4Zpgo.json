@@ -1,0 +1,68 @@
+{
+  "id": "Vln5Ri4Zpgo",
+  "title": "A new Cities: Skylines Series: Franklin",
+  "url": "https://www.youtube.com/watch?v=Vln5Ri4Zpgo",
+  "complete": true,
+  "source": {
+    "path": "/home/pedro/src/tmp-donoteat/videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+    "size": 1101248,
+    "mtime_ns": 1791766570701323747
+  },
+  "settings": {
+    "model": "large-v3",
+    "language": "en",
+    "batch_size": 8,
+    "beam_size": 5,
+    "device": "cuda",
+    "compute_type": "float16",
+    "vad_filter": true,
+    "word_timestamps": true
+  },
+  "started_at": "2026-10-12T00:57:03.233767+00:00",
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.34,
+      "end": 4.64,
+      "text": " Thank you.",
+      "tokens": [
+        1044,
+        291,
+        13
+      ],
+      "avg_logprob": -0.6440429538488388,
+      "compression_ratio": 0.5789473684210527,
+      "no_speech_prob": 0.90869140625,
+      "words": [
+        {
+          "start": 4.34,
+          "end": 4.64,
+          "word": " Thank",
+          "probability": 0.0882568359375
+        },
+        {
+          "start": 4.64,
+          "end": 4.64,
+          "word": " you.",
+          "probability": 0.99609375
+        }
+      ],
+      "temperature": 0.0
+    }
+  ],
+  "provenance": {
+    "kind": "speech_transcription",
+    "engine": "faster-whisper",
+    "captions_used": false,
+    "audio_start_seconds": 0,
+    "yt_dlp_info": "/home/pedro/src/tmp-donoteat/videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.info.json",
+    "yt_dlp_duration": 41,
+    "engine_version": "1.2.1"
+  },
+  "duration": 41.288,
+  "audio_duration": 41.261875,
+  "language": "en",
+  "language_probability": 1,
+  "completed_at": "2026-10-12T00:57:04.259531+00:00"
+}

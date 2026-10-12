@@ -1,0 +1,63 @@
+{
+  "id": "0tLxb5rtmyM",
+  "title": "Cities: Skylines | Franklin, Episode 8: TRAINS!",
+  "coverage": "Source-description credits (where present) plus accepted work-level audio fingerprints (where corroborated); source credits remain untimed. Fingerprint samples are actual submitted 12-second signature intervals, not the full 20-second extraction windows or track cue boundaries. Catalogue artists are preserved in evidence, not promoted to composer/performer; contradictory recording labels do not override source performance credits. Music between samples, exact recordings, and full cue boundaries remain unresolved.  Recognition manifest qa/soundtrack/all-summary.json records 19 saved requests against 19 planned base samples for this video. The full network queue did not finish: HTTP429 Too Many Requests at 8LysiXf-DJU extraction2040s stopped subsequent requests; no automatic retry. Missing/unmatched requests do not establish absent music. Unrelated mixed-speech catalogue suggestions are not accepted. User-confirmed effects remain separate. Exact missing and failed base-sample starts are enumerated in qa/soundtrack/coverage.json; qa/soundtrack/local-summary.json records local extraction provenance for all501 planned clips, which is not API recognition coverage.",
+  "tracks": [
+    {
+      "title": "Tragic Overture, Op. 81",
+      "composer": "Johannes Brahms",
+      "performer": "Musopen Symphony",
+      "identification": "video-credit",
+      "evidence": "videos/0tLxb5rtmyM/0tLxb5rtmyM.description:6: \"The music during the Whyte System sequence is Tragic Overture, Op. 81, by Johannes Brahms. It is the version by the Musopen Symphony, and is in the public domain.\"",
+      "samples": []
+    },
+    {
+      "title": "Symphony no. 5 in Cm, Op. 67 - IV. Allegro",
+      "composer": "Beethoven",
+      "performer": "Davis High School Symphony Orchestra",
+      "identification": "audio-fingerprint",
+      "evidence": "videos/0tLxb5rtmyM/0tLxb5rtmyM.description:4: \"The title music is Beethoven's Symphony no. 5 in Cm, Op. 67 - IV. Allegro, performed by the Davis High School Symphony Orchestra.\" Cm is the source abbreviation for C minor; IV identifies the fourth movement. Supplementary work-level fingerprint evidence in qa/soundtrack/0tLxb5rtmyM/results.json: Shazam record key 71188704, raw title \"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\", raw catalogue artist \"Passionata Symphony Orchestra\". Work identity is corroborated; catalogue artist is NOT substituted for credited composer/performer and the exact recording remains unresolved.",
+      "samples": [
+        {
+          "startSeconds": 40,
+          "endSeconds": 52.0,
+          "evidence": "qa/soundtrack/0tLxb5rtmyM/results.json requests[2], rawResponse.track.key=71188704, tagid=3F600B22-937C-4079-B1DA-A97361C1E9A2; fingerprint.sourceStartSeconds=40, sourceEndSeconds=52.0, samplems=12000. Submitted signature interval only; extracted clip 40–60.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        }
+      ]
+    },
+    {
+      "title": "The Hebrides (Die Hebriden), Op. 26",
+      "composer": "Felix Mendelssohn",
+      "performer": "Musopen Symphony",
+      "identification": "audio-fingerprint",
+      "evidence": "videos/0tLxb5rtmyM/0tLxb5rtmyM.description:9: \"The cinematics music is Felix Mendelssohn's The Hebrides (Die Hebriden), Op. 26, performed by the Musopen Symphony.\" Supplementary work-level fingerprint evidence in qa/soundtrack/0tLxb5rtmyM/results.json: Shazam record key 154925680, raw title \"Hebrides Overture Fingal's Cave\", raw catalogue artist \"Felix Mendelssohn\". Work identity is corroborated; catalogue artist is NOT substituted for credited composer/performer and the exact recording remains unresolved.",
+      "samples": [
+        {
+          "startSeconds": 1440,
+          "endSeconds": 1452.0,
+          "evidence": "qa/soundtrack/0tLxb5rtmyM/results.json requests[14], rawResponse.track.key=154925680, tagid=D5A36571-6A60-447A-A991-C5AD86FDF3E8; fingerprint.sourceStartSeconds=1440, sourceEndSeconds=1452.0, samplems=12000. Submitted signature interval only; extracted clip 1440–1460.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 1560,
+          "endSeconds": 1572.0,
+          "evidence": "qa/soundtrack/0tLxb5rtmyM/results.json requests[15], rawResponse.track.key=154925680, tagid=C8E97E7F-6FA4-4EA0-A7A2-24197ADD4350; fingerprint.sourceStartSeconds=1560, sourceEndSeconds=1572.0, samplems=12000. Submitted signature interval only; extracted clip 1560–1580.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 1588.728,
+          "endSeconds": 1600.728,
+          "evidence": "qa/soundtrack/0tLxb5rtmyM/results.json requests[16], rawResponse.track.key=154925680, tagid=035E7873-0A7F-489A-900B-6991C9A912A8; fingerprint.sourceStartSeconds=1588.728, sourceEndSeconds=1600.728, samplems=12000. Submitted signature interval only; extracted clip 1588.728–1608.728s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 1608.728,
+          "endSeconds": 1620.728,
+          "evidence": "qa/soundtrack/0tLxb5rtmyM/results.json requests[17], rawResponse.track.key=154925680, tagid=3DCDAF42-A831-4A23-B641-F7529F51C268; fingerprint.sourceStartSeconds=1608.728, sourceEndSeconds=1620.728, samplems=12000. Submitted signature interval only; extracted clip 1608.728–1628.728s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 1628.728,
+          "endSeconds": 1640.728,
+          "evidence": "qa/soundtrack/0tLxb5rtmyM/results.json requests[18], rawResponse.track.key=154925680, tagid=6FE30C96-9647-474C-90B1-D0F41BE9AE19; fingerprint.sourceStartSeconds=1628.728, sourceEndSeconds=1640.728, samplems=12000. Submitted signature interval only; extracted clip 1628.728–1648.712s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        }
+      ]
+    }
+  ]
+}

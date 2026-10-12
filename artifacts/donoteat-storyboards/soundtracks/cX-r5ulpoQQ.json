@@ -1,0 +1,68 @@
+{
+  "id": "cX-r5ulpoQQ",
+  "title": "Cities: Skylines | Franklin, Episode 10: Law & Order",
+  "coverage": "Source-description credits (where present) plus accepted work-level audio fingerprints (where corroborated); source credits remain untimed. Fingerprint samples are actual submitted 12-second signature intervals, not the full 20-second extraction windows or track cue boundaries. Catalogue artists are preserved in evidence, not promoted to composer/performer; contradictory recording labels do not override source performance credits. Music between samples, exact recordings, and full cue boundaries remain unresolved.  Recognition manifest qa/soundtrack/all-summary.json records 28 saved requests against 28 planned base samples for this video. The full network queue did not finish: HTTP429 Too Many Requests at 8LysiXf-DJU extraction2040s stopped subsequent requests; no automatic retry. Missing/unmatched requests do not establish absent music. Unrelated mixed-speech catalogue suggestions are not accepted. User-confirmed effects remain separate. Exact missing and failed base-sample starts are enumerated in qa/soundtrack/coverage.json; qa/soundtrack/local-summary.json records local extraction provenance for all501 planned clips, which is not API recognition coverage.",
+  "tracks": [
+    {
+      "title": "Symphony no. 5 in Cm, Op. 67 - IV. Allegro",
+      "composer": "Beethoven",
+      "performer": "Davis High School Symphony Orchestra",
+      "identification": "audio-fingerprint",
+      "evidence": "videos/cX-r5ulpoQQ/cX-r5ulpoQQ.description:11: \"The title music is Beethoven's Symphony no. 5 in Cm, Op. 67 - IV. Allegro, performed by the Davis High School Symphony Orchestra.\" Cm is the source abbreviation for C minor; IV identifies the fourth movement. Supplementary work-level fingerprint evidence in qa/soundtrack/cX-r5ulpoQQ/results.json: Shazam record key 71188704, raw title \"Symphony No. 5 In C Minor, Op. 67: IV. Allegro\", raw catalogue artist \"Passionata Symphony Orchestra\". Work identity is corroborated; catalogue artist is NOT substituted for credited composer/performer and the exact recording remains unresolved.",
+      "samples": [
+        {
+          "startSeconds": 0,
+          "endSeconds": 12.0,
+          "evidence": "qa/soundtrack/cX-r5ulpoQQ/results.json requests[0], rawResponse.track.key=71188704, tagid=88C09DD8-EE94-48EE-9DFD-809CCCB26C2A; fingerprint.sourceStartSeconds=0, sourceEndSeconds=12.0, samplems=12000. Submitted signature interval only; extracted clip 0–20.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 20,
+          "endSeconds": 32.0,
+          "evidence": "qa/soundtrack/cX-r5ulpoQQ/results.json requests[1], rawResponse.track.key=71188704, tagid=40041795-84DD-4B43-81AC-E1A19905D3EA; fingerprint.sourceStartSeconds=20, sourceEndSeconds=32.0, samplems=12000. Submitted signature interval only; extracted clip 20–40.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        }
+      ]
+    },
+    {
+      "title": "Ouverture Solonnelle Op. 49",
+      "composer": "Tchaikovsky",
+      "performer": null,
+      "identification": "video-credit",
+      "evidence": "videos/cX-r5ulpoQQ/cX-r5ulpoQQ.description:13: \"The cinematics music is Tchaikovsky's Ouverture Solonnelle Op. 49, Carpriccio Italien Op. 45.\" Work spelling retained from source. Both works share this cinematics credit; it gives neither individual timing nor performer.",
+      "samples": []
+    },
+    {
+      "title": "Carpriccio Italien Op. 45",
+      "composer": "Tchaikovsky",
+      "performer": null,
+      "identification": "audio-fingerprint",
+      "evidence": "videos/cX-r5ulpoQQ/cX-r5ulpoQQ.description:13: \"The cinematics music is Tchaikovsky's Ouverture Solonnelle Op. 49, Carpriccio Italien Op. 45.\" Work spelling retained from source. Both works share this cinematics credit; it gives neither individual timing nor performer. Supplementary work-level fingerprint evidence in qa/soundtrack/cX-r5ulpoQQ/results.json: Shazam record key 51033740, raw title \"Capriccio italien, Op. 45\", raw catalogue artist \"Royal Concertgebouw Orchestra & Paul van Kempen\". Work identity is corroborated; catalogue artist is NOT substituted for credited composer/performer and the exact recording remains unresolved.",
+      "samples": [
+        {
+          "startSeconds": 2400,
+          "endSeconds": 2412.0,
+          "evidence": "qa/soundtrack/cX-r5ulpoQQ/results.json requests[22], rawResponse.track.key=51033740, tagid=ECC6DD63-2441-42DE-BC9C-060387788C07; fingerprint.sourceStartSeconds=2400, sourceEndSeconds=2412.0, samplems=12000. Submitted signature interval only; extracted clip 2400–2420.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 2520,
+          "endSeconds": 2532.0,
+          "evidence": "qa/soundtrack/cX-r5ulpoQQ/results.json requests[23], rawResponse.track.key=51033740, tagid=9EAA0FF1-7D88-4C8B-8A1E-7CECFA7FB4C0; fingerprint.sourceStartSeconds=2520, sourceEndSeconds=2532.0, samplems=12000. Submitted signature interval only; extracted clip 2520–2540.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 2611.728,
+          "endSeconds": 2623.728,
+          "evidence": "qa/soundtrack/cX-r5ulpoQQ/results.json requests[24], rawResponse.track.key=51033740, tagid=F1E8DC43-B3CA-4273-B513-9C7507C0E6DE; fingerprint.sourceStartSeconds=2611.728, sourceEndSeconds=2623.728, samplems=12000. Submitted signature interval only; extracted clip 2611.728–2631.728s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 2631.728,
+          "endSeconds": 2643.728,
+          "evidence": "qa/soundtrack/cX-r5ulpoQQ/results.json requests[25], rawResponse.track.key=51033740, tagid=5C487CF7-8669-48CB-AB93-6E4080FB4DBF; fingerprint.sourceStartSeconds=2631.728, sourceEndSeconds=2643.728, samplems=12000. Submitted signature interval only; extracted clip 2631.728–2651.728s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 2640,
+          "endSeconds": 2652.0,
+          "evidence": "qa/soundtrack/cX-r5ulpoQQ/results.json requests[26], rawResponse.track.key=51033740, tagid=A77880CE-4D35-44B8-B0BB-98E4233B3FF9; fingerprint.sourceStartSeconds=2640, sourceEndSeconds=2652.0, samplems=12000. Submitted signature interval only; extracted clip 2640–2660.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        }
+      ]
+    }
+  ]
+}

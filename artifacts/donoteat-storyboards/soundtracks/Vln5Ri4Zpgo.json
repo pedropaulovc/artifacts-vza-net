@@ -1,0 +1,36 @@
+{
+  "id": "Vln5Ri4Zpgo",
+  "title": "A new Cities: Skylines Series: Franklin",
+  "coverage": "Source-description credits (where present) plus accepted work-level audio fingerprints (where corroborated); source credits remain untimed. Fingerprint samples are actual submitted 12-second signature intervals, not the full 20-second extraction windows or track cue boundaries. Catalogue artists are preserved in evidence, not promoted to composer/performer; contradictory recording labels do not override source performance credits. Music between samples, exact recordings, and full cue boundaries remain unresolved.  Recognition manifest qa/soundtrack/all-summary.json records 5 saved requests against 5 planned base samples for this video. The full network queue did not finish: HTTP429 Too Many Requests at 8LysiXf-DJU extraction2040s stopped subsequent requests; no automatic retry. Missing/unmatched requests do not establish absent music. Unrelated mixed-speech catalogue suggestions are not accepted. User-confirmed effects remain separate. Exact missing and failed base-sample starts are enumerated in qa/soundtrack/coverage.json; qa/soundtrack/local-summary.json records local extraction provenance for all501 planned clips, which is not API recognition coverage.",
+  "tracks": [
+    {
+      "title": "Night on the Bare Mountain",
+      "composer": null,
+      "performer": null,
+      "identification": "audio-fingerprint",
+      "evidence": "Repeated source-audio fingerprint catalogue title; this description has no music credit. Composer and recording roles are not established by the catalogue artist field. Supplementary work-level fingerprint evidence in qa/soundtrack/Vln5Ri4Zpgo/results.json: Shazam record key 56677947, raw title \"Night on the Bare Mountain\", raw catalogue artist \"Leopold Stokovski & The Philadelphia Orchestra\". Work identity is corroborated; catalogue artist is NOT substituted for credited composer/performer and the exact recording remains unresolved.",
+      "samples": [
+        {
+          "startSeconds": 0,
+          "endSeconds": 12.0,
+          "evidence": "qa/soundtrack/Vln5Ri4Zpgo/results.json requests[0], rawResponse.track.key=56677947, tagid=CCA2F469-6054-421A-95F9-465A4F4BD4D6; fingerprint.sourceStartSeconds=0, sourceEndSeconds=12.0, samplems=12000. Submitted signature interval only; extracted clip 0–20.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 1.288,
+          "endSeconds": 13.288,
+          "evidence": "qa/soundtrack/Vln5Ri4Zpgo/results.json requests[1], rawResponse.track.key=56677947, tagid=6DBD7268-1860-4E46-9A5E-553B9A780A5C; fingerprint.sourceStartSeconds=1.288, sourceEndSeconds=13.288, samplems=12000. Submitted signature interval only; extracted clip 1.288–21.288s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 20,
+          "endSeconds": 32.0,
+          "evidence": "qa/soundtrack/Vln5Ri4Zpgo/results.json requests[2], rawResponse.track.key=56677947, tagid=E13651EC-6A82-4607-89F8-CA67C69F2F90; fingerprint.sourceStartSeconds=20, sourceEndSeconds=32.0, samplems=12000. Submitted signature interval only; extracted clip 20–40.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 21.288,
+          "endSeconds": 33.288,
+          "evidence": "qa/soundtrack/Vln5Ri4Zpgo/results.json requests[3], rawResponse.track.key=56677947, tagid=988D26FE-5A6F-47DE-A3AA-D6E3349DC594; fingerprint.sourceStartSeconds=21.288, sourceEndSeconds=33.288, samplems=12000. Submitted signature interval only; extracted clip 21.288–41.269875s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        }
+      ]
+    }
+  ]
+}

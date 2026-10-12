@@ -1,0 +1,573 @@
+{
+  "updatedAt": "2026-10-12T06:21:38.546661+00:00",
+  "model": "Qwen/Qwen2.5-Omni-7B",
+  "revision": "ae9e1690543ffd5c0221dc27f79834d0294cba00",
+  "status": "complete",
+  "videos": [
+    {
+      "id": "V44gkRzML9k",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/V44gkRzML9k.json",
+      "sourceSha256": "21eaf2dbab115e4830c1a21bca95135e8c47cb31b676215f4a17976fd1a1d684",
+      "status": "complete",
+      "sourceDurationSeconds": 4084.5653125,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 117,
+      "totalWindows": 117,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 4084.5653125,
+        "intervals": [
+          [
+            0.0,
+            4084.5653125
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "7oeLnpAmmfI",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/7oeLnpAmmfI.json",
+      "sourceSha256": "962699b3b7163d7f4eb7eceff6abb1f2a6be1bacee9e4d03898ab4818849a561",
+      "status": "complete",
+      "sourceDurationSeconds": 3813.7386875,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 109,
+      "totalWindows": 109,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 3813.7386875,
+        "intervals": [
+          [
+            0.0,
+            3813.7386875
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "cX-r5ulpoQQ",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/cX-r5ulpoQQ.json",
+      "sourceSha256": "5f07d371745562bc6105045a1ba7933a0f78a0d13c9c95cd0363e124d0a05583",
+      "status": "complete",
+      "sourceDurationSeconds": 2671.7013125,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 77,
+      "totalWindows": 77,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 2671.7013125,
+        "intervals": [
+          [
+            0.0,
+            2671.7013125
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "xqJbE1bvdgo",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/xqJbE1bvdgo.json",
+      "sourceSha256": "68e4114392678df049fd736610ed308e8d4dcb681eb83cca97c753ecbf8a8eb2",
+      "status": "complete",
+      "sourceDurationSeconds": 3479.0186875,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 100,
+      "totalWindows": 100,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 3479.0186875,
+        "intervals": [
+          [
+            0.0,
+            3479.0186875
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "3HA3S_O_yxs",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/3HA3S_O_yxs.json",
+      "sourceSha256": "5d4f30b43dd52eb86d1335e108d4605ad892df5601b924680eb7a110c2363943",
+      "status": "complete",
+      "sourceDurationSeconds": 2986.4533125,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 86,
+      "totalWindows": 86,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 2986.4533125,
+        "intervals": [
+          [
+            0.0,
+            2986.4533125
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "apk-K0sQutc",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/apk-K0sQutc.json",
+      "sourceSha256": "c5c0ebdb43c9cdd26fea1a3727a0129de9f5fd7a9ce095e99e967a8cadd1e665",
+      "status": "complete",
+      "sourceDurationSeconds": 92.7786875,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 3,
+      "totalWindows": 3,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 92.7786875,
+        "intervals": [
+          [
+            0.0,
+            92.7786875
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "0tLxb5rtmyM",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/0tLxb5rtmyM.json",
+      "sourceSha256": "cdd94e7d2a21b5ecb6ac62c1019277fea1503e05444262bcd4053fe2d057ff50",
+      "status": "complete",
+      "sourceDurationSeconds": 1648.704,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 47,
+      "totalWindows": 47,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 1648.704,
+        "intervals": [
+          [
+            0.0,
+            1648.704
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "LdeirDrinWk",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/LdeirDrinWk.json",
+      "sourceSha256": "5c86c6f441a7850db1e5a7705521d37d677571a33f06168c902d898fdb36e452",
+      "status": "complete",
+      "sourceDurationSeconds": 1664.0426875,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 48,
+      "totalWindows": 48,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 1664.0426875,
+        "intervals": [
+          [
+            0.0,
+            1664.0426875
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "97mS1SgI73k",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/97mS1SgI73k.json",
+      "sourceSha256": "8310b44b29c29535c2a2dae17489894a83be14d43c8d94d8927f60fe4c7f2091",
+      "status": "complete",
+      "sourceDurationSeconds": 1255.073375,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 36,
+      "totalWindows": 36,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 1255.073375,
+        "intervals": [
+          [
+            0.0,
+            1255.073375
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "5MrkfLP25Rg",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/5MrkfLP25Rg.json",
+      "sourceSha256": "5e1e733704dfaa33c22db06f666cd4a2eb21e1ec926c23a5193d60f2e573c561",
+      "status": "complete",
+      "sourceDurationSeconds": 1234.6666875,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 36,
+      "totalWindows": 36,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 1234.6666875,
+        "intervals": [
+          [
+            0.0,
+            1234.6666875
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "rseaKBPkRPU",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/rseaKBPkRPU.json",
+      "sourceSha256": "9f89e0698cb2da3005888c64e55d28c26b951b69f0ce84ec28ff77878e328fc5",
+      "status": "complete",
+      "sourceDurationSeconds": 1048.6826875,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 30,
+      "totalWindows": 30,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 1048.6826875,
+        "intervals": [
+          [
+            0.0,
+            1048.6826875
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "X_FU22yPyRE",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/X_FU22yPyRE.json",
+      "sourceSha256": "f55f3d9a1372e3c6cb89a4dba0cbbc580d52e470949ff57bdcd90a482d1fdacb",
+      "status": "complete",
+      "sourceDurationSeconds": 778.176,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 23,
+      "totalWindows": 23,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 778.176,
+        "intervals": [
+          [
+            0.0,
+            778.176
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "6e-vfEif9LI",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/6e-vfEif9LI.json",
+      "sourceSha256": "c07cb2e37c2ba79b62dcdd9bde7759b10edbb80e683d5b45c42df5905dd71a4a",
+      "status": "complete",
+      "sourceDurationSeconds": 1152.192,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 33,
+      "totalWindows": 33,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 1152.192,
+        "intervals": [
+          [
+            0.0,
+            1152.192
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "0lvUByM-fZk",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/0lvUByM-fZk.json",
+      "sourceSha256": "1c9fd512774fb1116accafe0f96d40682ea23ae0c54c2982654d5fd5f67686fe",
+      "status": "complete",
+      "sourceDurationSeconds": 809.93525,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 23,
+      "totalWindows": 23,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 809.93525,
+        "intervals": [
+          [
+            0.0,
+            809.93525
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "fLxHVF1uiOE",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/fLxHVF1uiOE.json",
+      "sourceSha256": "bbe347b3d2d0636f1c9685ca7d075bad3feaf386cda96cf2865899ddd0fa47d0",
+      "status": "complete",
+      "sourceDurationSeconds": 1559.5666875,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 45,
+      "totalWindows": 45,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 1559.5666875,
+        "intervals": [
+          [
+            0.0,
+            1559.5666875
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "gQzfa4iXxZ4",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/gQzfa4iXxZ4.json",
+      "sourceSha256": "58c2986d9f8eba819db050f6004d965802b73612b13b393a069303871532a6f5",
+      "status": "complete",
+      "sourceDurationSeconds": 1358.72,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 39,
+      "totalWindows": 39,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 1358.72,
+        "intervals": [
+          [
+            0.0,
+            1358.72
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "KTfuA2hXi8s",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/KTfuA2hXi8s.json",
+      "sourceSha256": "3c4e08603cb98d0a4bf3354b4997e2fe5b389b2682e8ed435f881891530e2714",
+      "status": "complete",
+      "sourceDurationSeconds": 1066.0053125,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 31,
+      "totalWindows": 31,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 1066.0053125,
+        "intervals": [
+          [
+            0.0,
+            1066.0053125
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "Vln5Ri4Zpgo",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/Vln5Ri4Zpgo.json",
+      "sourceSha256": "ceee85d5ef14ff049f32c868f3ad7af405a35afa63c681fe63596ab838b4682b",
+      "status": "complete",
+      "sourceDurationSeconds": 41.261875,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 2,
+      "totalWindows": 2,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 41.261875,
+        "intervals": [
+          [
+            0.0,
+            41.261875
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "8LysiXf-DJU",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/8LysiXf-DJU.json",
+      "sourceSha256": "a938da69ecb84e40b66aa0eec6b4f2ec05ee0a98e5254743e9f4b731009b2154",
+      "status": "complete",
+      "sourceDurationSeconds": 3120.512,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 90,
+      "totalWindows": 90,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 3120.512,
+        "intervals": [
+          [
+            0.0,
+            3120.512
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "4dn6ZVpJLxs",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/4dn6ZVpJLxs.json",
+      "sourceSha256": "2b97fbc1e9ff6da97a76e95c4aad58d061ff69556e7f70b6a5b8a9cd0c06205c",
+      "status": "complete",
+      "sourceDurationSeconds": 2405.44,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 69,
+      "totalWindows": 69,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 2405.44,
+        "intervals": [
+          [
+            0.0,
+            2405.44
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "9DHAOFrnOAM",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/9DHAOFrnOAM.json",
+      "sourceSha256": "72cb9b8a11fcb97a0308d86ea50f25999944e5ee4b809fd7498354dfe57e204a",
+      "status": "complete",
+      "sourceDurationSeconds": 1777.152,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 51,
+      "totalWindows": 51,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 1777.152,
+        "intervals": [
+          [
+            0.0,
+            1777.152
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "Yvl_7_Up7zU",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/Yvl_7_Up7zU.json",
+      "sourceSha256": "7a32b04553d261eb54d5ac72396f0c388a2a537184f8ad8ba9365bfc4ee2f8ae",
+      "status": "complete",
+      "sourceDurationSeconds": 2003.5338125,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 58,
+      "totalWindows": 58,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 2003.5338125,
+        "intervals": [
+          [
+            0.0,
+            2003.5338125
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "UfVzbM3l7RQ",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/UfVzbM3l7RQ.json",
+      "sourceSha256": "34ae9b257d9e7469598e520205e94b5c6e33c8066213ce41eecfbd4c27b8fcbc",
+      "status": "complete",
+      "sourceDurationSeconds": 1965.504,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 57,
+      "totalWindows": 57,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 1965.504,
+        "intervals": [
+          [
+            0.0,
+            1965.504
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    },
+    {
+      "id": "CEjozE--YrY",
+      "annotationPath": "/home/pedro/src/tmp-donoteat/audio-annotations/CEjozE--YrY.json",
+      "sourceSha256": "d149b111e2e3ac318d06c3a646348e98add9a467913bb51072af479d7a6212f0",
+      "status": "complete",
+      "sourceDurationSeconds": 2905.3226875,
+      "windowSeconds": 40,
+      "overlapSeconds": 5,
+      "processedWindows": 83,
+      "totalWindows": 83,
+      "erroredWindows": 0,
+      "unionProof": {
+        "coveredSeconds": 2905.3226875,
+        "intervals": [
+          [
+            0.0,
+            2905.3226875
+          ]
+        ],
+        "gaps": [],
+        "fullDurationCovered": true
+      }
+    }
+  ],
+  "selectedVideos": 24,
+  "completeVideos": 24,
+  "processedWindows": 1293,
+  "totalWindows": 1293,
+  "erroredWindows": 0,
+  "sourceDurationSeconds": 44922.7470625,
+  "coveredSourceSeconds": 44922.7470625,
+  "measuredWindowsThisRun": 1293,
+  "meanWindowSeconds": 1.62528591620521,
+  "etaSeconds": 0.0,
+  "elapsedSeconds": 2142.6823136360035,
+  "all24FullDurationCovered": true,
+  "finishedAt": "2026-10-12T06:21:38.551412+00:00"
+}

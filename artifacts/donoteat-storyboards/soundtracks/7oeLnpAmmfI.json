@@ -1,0 +1,59 @@
+{
+  "id": "7oeLnpAmmfI",
+  "title": "Cities: Skylines | Power, Politics, & Planning: Episode 6: Public Housing Part 2",
+  "coverage": "Source-description credits (where present) plus accepted work-level audio fingerprints (where corroborated); source credits remain untimed. Separate explicit user-observation identifies the North Korean anthem; reported panel range is context only. Fingerprint samples are actual submitted 12-second signature intervals, not the full 20-second extraction windows or track cue boundaries. Catalogue artists are preserved in evidence, not promoted to composer/performer; contradictory recording labels do not override source performance credits. Music between samples, exact recordings, and full cue boundaries remain unresolved.  Recognition manifest qa/soundtrack/all-summary.json records 37 saved requests against 37 planned base samples for this video. The full network queue did not finish: HTTP429 Too Many Requests at 8LysiXf-DJU extraction2040s stopped subsequent requests; no automatic retry. Missing/unmatched requests do not establish absent music. Unrelated mixed-speech catalogue suggestions are not accepted. User-confirmed effects remain separate. Exact missing and failed base-sample starts are enumerated in qa/soundtrack/coverage.json; qa/soundtrack/local-summary.json records local extraction provenance for all501 planned clips, which is not API recognition coverage.",
+  "tracks": [
+    {
+      "title": "Tragic Overture, Op. 81",
+      "composer": "Johannes Brahms",
+      "performer": "Musopen Symphony",
+      "identification": "audio-fingerprint",
+      "evidence": "videos/7oeLnpAmmfI/7oeLnpAmmfI.description:13: \"The intro music is Tragic Overture, Op. 81, by Johannes Brahms. It is the version by the Musopen Symphony, and is in the public domain.\" Supplementary work-level fingerprint evidence in qa/soundtrack/7oeLnpAmmfI/results.json: Shazam record key 315585656, raw title \"Johannes Brahms: Tragic Overture, Op. 81\", raw catalogue artist \"CLASSICAL MUSIC LIBRARY\". Work identity is corroborated; catalogue artist is NOT substituted for credited composer/performer and the exact recording remains unresolved.",
+      "samples": [
+        {
+          "startSeconds": 0,
+          "endSeconds": 12.0,
+          "evidence": "qa/soundtrack/7oeLnpAmmfI/results.json requests[0], rawResponse.track.key=315585656, tagid=58C889C6-439E-4D67-9303-EF403D19EF5C; fingerprint.sourceStartSeconds=0, sourceEndSeconds=12.0, samplems=12000. Submitted signature interval only; extracted clip 0–20.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 20,
+          "endSeconds": 32.0,
+          "evidence": "qa/soundtrack/7oeLnpAmmfI/results.json requests[1], rawResponse.track.key=315585656, tagid=6E66BDEC-B053-4235-9F7B-F600FB62A689; fingerprint.sourceStartSeconds=20, sourceEndSeconds=32.0, samplems=12000. Submitted signature interval only; extracted clip 20–40.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 2880,
+          "endSeconds": 2892.0,
+          "evidence": "qa/soundtrack/7oeLnpAmmfI/results.json requests[26], rawResponse.track.key=315585656, tagid=73C9A69F-C89A-4431-A652-ADA0E2CE7E99; fingerprint.sourceStartSeconds=2880, sourceEndSeconds=2892.0, samplems=12000. Submitted signature interval only; extracted clip 2880–2900.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 3720,
+          "endSeconds": 3732.0,
+          "evidence": "qa/soundtrack/7oeLnpAmmfI/results.json requests[33], rawResponse.track.key=315585656, tagid=62EB074B-1F4E-4547-920E-037AB85B1B4F; fingerprint.sourceStartSeconds=3720, sourceEndSeconds=3732.0, samplems=12000. Submitted signature interval only; extracted clip 3720–3740.0s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 3753.768,
+          "endSeconds": 3765.768,
+          "evidence": "qa/soundtrack/7oeLnpAmmfI/results.json requests[34], rawResponse.track.key=315585656, tagid=3774728A-6521-4B52-80FB-BE198542B607; fingerprint.sourceStartSeconds=3753.768, sourceEndSeconds=3765.768, samplems=12000. Submitted signature interval only; extracted clip 3753.768–3773.768s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 3773.768,
+          "endSeconds": 3785.768,
+          "evidence": "qa/soundtrack/7oeLnpAmmfI/results.json requests[35], rawResponse.track.key=315585656, tagid=FEFB12BF-B827-49F6-B310-0E1026D7CFFC; fingerprint.sourceStartSeconds=3773.768, sourceEndSeconds=3785.768, samplems=12000. Submitted signature interval only; extracted clip 3773.768–3793.768s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        },
+        {
+          "startSeconds": 3793.768,
+          "endSeconds": 3805.768,
+          "evidence": "qa/soundtrack/7oeLnpAmmfI/results.json requests[36], rawResponse.track.key=315585656, tagid=FB69DBAE-DDCF-467C-838F-E804A7623E30; fingerprint.sourceStartSeconds=3793.768, sourceEndSeconds=3805.768, samplems=12000. Submitted signature interval only; extracted clip 3793.768–3813.746688s is larger. Not full cue boundaries; catalogue artist/version unverified."
+        }
+      ]
+    },
+    {
+      "title": "North Korean national anthem",
+      "composer": null,
+      "performer": null,
+      "identification": "user-observation",
+      "evidence": "User reports the background music as the North Korean national anthem in the panel \"A soothing explanation?\", 7:44.3–9:30 (464.3–570 seconds). This music creates a contrast with the soothing-explanation framing. User-observed identification, not independently auditioned or fingerprinted here; composer, performer, exact recording, and full cue boundaries are not established.",
+      "samples": []
+    }
+  ]
+}

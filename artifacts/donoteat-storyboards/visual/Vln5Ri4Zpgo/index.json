@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "signature": "{\"version\":1,\"source\":{\"path\":\"videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv\",\"size\":1101248,\"mtimeMs\":1791766570701.3237},\"interval\":5,\"threshold\":0.3,\"width\":480}",
+  "complete": true,
+  "id": "Vln5Ri4Zpgo",
+  "title": "A new Cities: Skylines Series: Franklin",
+  "source": {
+    "path": "videos/Vln5Ri4Zpgo/Vln5Ri4Zpgo.mkv",
+    "size": 1101248,
+    "mtimeMs": 1791766570701.3237,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 41.288
+  },
+  "coverage": "One first available frame in every 5-second bin, plus frames with FFmpeg scene score > 0.30. Scene scores are computed at 480px width. This is sparse visual evidence, not exhaustive gag coverage: brief overlays, gradual changes, and gags between samples can be missed. Read source video around relevant moments and use still for precise timestamp rereads.",
+  "sampling": {
+    "intervalSeconds": 5,
+    "regularRule": "first available frame in each 5-second bin",
+    "sceneThreshold": 0.3,
+    "sceneDetectionWidth": 480,
+    "timestampOrigin": "first source video frame = 0; actual selected PTS, not idealized sample times"
+  },
+  "layout": {
+    "columns": 3,
+    "rows": 4,
+    "tileWidth": 480,
+    "tileHeight": 302,
+    "pictureHeight": 270,
+    "tileIndexBase": 0,
+    "readingOrder": "left-to-right, then top-to-bottom"
+  },
+  "targetedRereadCommand": "bun visual-extract.ts still Vln5Ri4Zpgo <seconds-or-HH:MM:SS.mmm> [...]",
+  "sheets": [
+    {
+      "path": "visual/Vln5Ri4Zpgo/sheet-0001.jpg",
+      "firstFrame": 1,
+      "frameCount": 9,
+      "startSeconds": 0,
+      "endSeconds": 40.007
+    }
+  ],
+  "frames": [
+    {
+      "number": 1,
+      "timestampSeconds": 0,
+      "timestamp": "00:00:00.000",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/Vln5Ri4Zpgo/sheet-0001.jpg",
+      "tile": 0,
+      "row": 0,
+      "column": 0
+    },
+    {
+      "number": 2,
+      "timestampSeconds": 5.005,
+      "timestamp": "00:00:05.005",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/Vln5Ri4Zpgo/sheet-0001.jpg",
+      "tile": 1,
+      "row": 0,
+      "column": 1
+    },
+    {
+      "number": 3,
+      "timestampSeconds": 10.01,
+      "timestamp": "00:00:10.010",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/Vln5Ri4Zpgo/sheet-0001.jpg",
+      "tile": 2,
+      "row": 0,
+      "column": 2
+    },
+    {
+      "number": 4,
+      "timestampSeconds": 15.015,
+      "timestamp": "00:00:15.015",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/Vln5Ri4Zpgo/sheet-0001.jpg",
+      "tile": 3,
+      "row": 1,
+      "column": 0
+    },
+    {
+      "number": 5,
+      "timestampSeconds": 20.02,
+      "timestamp": "00:00:20.020",
+      "sceneScore": 0.000007,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/Vln5Ri4Zpgo/sheet-0001.jpg",
+      "tile": 4,
+      "row": 1,
+      "column": 1
+    },
+    {
+      "number": 6,
+      "timestampSeconds": 25.025,
+      "timestamp": "00:00:25.025",
+      "sceneScore": 0.000015,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/Vln5Ri4Zpgo/sheet-0001.jpg",
+      "tile": 5,
+      "row": 1,
+      "column": 2
+    },
+    {
+      "number": 7,
+      "timestampSeconds": 30.03,
+      "timestamp": "00:00:30.030",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/Vln5Ri4Zpgo/sheet-0001.jpg",
+      "tile": 6,
+      "row": 2,
+      "column": 0
+    },
+    {
+      "number": 8,
+      "timestampSeconds": 35.002,
+      "timestamp": "00:00:35.002",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/Vln5Ri4Zpgo/sheet-0001.jpg",
+      "tile": 7,
+      "row": 2,
+      "column": 1
+    },
+    {
+      "number": 9,
+      "timestampSeconds": 40.007,
+      "timestamp": "00:00:40.007",
+      "sceneScore": 0,
+      "reasons": [
+        "regular-5-second-bin"
+      ],
+      "sheet": "visual/Vln5Ri4Zpgo/sheet-0001.jpg",
+      "tile": 8,
+      "row": 2,
+      "column": 2
+    }
+  ]
+}
