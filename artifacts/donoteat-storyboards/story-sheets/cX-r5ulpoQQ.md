@@ -40,7 +40,7 @@ Donoteat01 uses the creation and placement of an Eastern State Penitentiary asse
 
 ## Notable spoken jokes, motifs, and callbacks
 
-- **00:40–00:52; 02:07–02:09; 36:17–36:20:** “Law and order” triggers the television DUN-DUN sting. When it fires again straight away, the narrator reacts with “is it going to do this every time”, and later repetitions become callbacks.
+- **00:40–00:52; 02:07–02:09; 36:17–36:20:** “Law and order” triggers the television DUN-DUN sting. When it fires again straight away, the narrator reacts with “is it going to do this every time”, and later repetitions become callbacks. The last one comes in the sign-off at 36:15.9, “Right, so that was the Law and Order episode”: the sting fires after “Law and Order” and the narrator grunts “urgh” before finishing “episode.”
 - **02:41.43 setup; about 02:44.53–02:46.37 payoff:** “law and … uh, imprisonment” swerves away from the familiar Law & Order trigger, and the self-correction calls back the DUN-DUN and every-time joke.
 - **02:49-03:16:** “Sargon of Akkad. No, not that guy. No, not that guy either. … the real guy” sets up a mistaken-identity joke. The images show who the wrong guys are: Paul Joseph Watson, then Carl Benjamin.
 - **05:05-05:51:** Britain's default punishment is deadpanned as “just murder you”; transportation is the lucky alternative to hanging.
