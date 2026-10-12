@@ -265,8 +265,13 @@
       "description": "NFL quarterback Mark Brunell in a number-eight jersey is deliberately mislabeled MARC BRUNEL, the engineer’s name.",
       "camera": "Cut to static portrait.",
       "action": "No movement.",
-      "sound": [],
-      "visualGag": "The engineer Marc Brunel's name is attached to NFL quarterback Mark Brunell, beginning the mistaken-identity running joke.",
+      "sound": [
+        {
+          "startSeconds": 239.3,
+          "text": "A stadium crowd cheers under the football player mislabeled as the engineer."
+        }
+      ],
+      "visualGag": "The engineer Marc Brunel's name is attached to NFL quarterback Mark Brunell, beginning the mistaken-identity running joke. A stadium crowd cheers as though the engineer had just taken the field.",
       "notes": null
     },
     {
@@ -298,8 +303,13 @@
       "description": "Mark Brunell football card and Saints celebration photograph replace the engineer imagery.",
       "camera": "Cuts between card and parade photograph.",
       "action": "The football card and parade photograph hold on screen.",
-      "sound": [],
-      "visualGag": "The narrator gives the quarterback's draft and Super Bowl career as though he were still recounting the engineer's biography.",
+      "sound": [
+        {
+          "startSeconds": 263.9,
+          "text": "The stadium crowd cheers again as the quarterback's draft and Pro Bowl career are read out."
+        }
+      ],
+      "visualGag": "The narrator gives the quarterback's draft and Super Bowl career as though he were still recounting the engineer's biography, and the stadium cheering returns.",
       "notes": null
     },
     {

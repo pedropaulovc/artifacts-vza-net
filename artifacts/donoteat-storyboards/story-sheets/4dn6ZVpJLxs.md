@@ -98,10 +98,10 @@ The Auto Train advertisement returns after the unbuilt-rail proposals, moving fr
 - 02:59.1: Skeptic collage. Dawkins and Hitchens join pundits, a THE RUBIN REPORT image, a helmet and Sargon of Akkad's cigar-smoking cartoon king. The avatar continues the Carl-of-Akkad joke amid the criticism of political baggage. Some other faces remain unidentified.
 - 03:44.6: Hard rock. A Hard Rock Cafe photograph illustrates tunneling through hard rock, substituting the restaurant brand for the geological term.
 - 03:46.3: Explosive tunneling. A Minecraft first-person stone corridor contains TNT and flint-and-steel. Game mining illustrates nineteenth-century tunneling with a deliberately crude example.
-- 03:58.9: Marc Brunel?. NFL quarterback Mark Brunell in a number-eight jersey is labeled MARC BRUNEL. Attaching the engineer's name to the football player begins the mistaken-identity running joke.
+- 03:58.9: Marc Brunel?. NFL quarterback Mark Brunell in a number-eight jersey is labeled MARC BRUNEL. Attaching the engineer's name to the football player begins the mistaken-identity running joke. At 03:59.3 a stadium crowd cheers on the soundtrack.
 - 04:02.5: The Thames shield. Historical tunnel and shielding illustrations replace the athlete, keeping the false engineering biography going between football inserts.
 - 04:18.8: The actual son. Isambard Kingdom Brunel's familiar chainside photograph briefly restores the engineering story between the Brunel/Brunell jokes.
-- 04:23.8: Drafted into the NFL. A Mark Brunell football card and Saints celebration photograph appear as the narrator gives the quarterback's draft and Super Bowl career as though he were still recounting the engineer's biography.
+- 04:23.8: Drafted into the NFL. A Mark Brunell football card and Saints celebration photograph appear as the narrator gives the quarterback's draft and Super Bowl career as though he were still recounting the engineer's biography. The stadium cheering returns at 04:23.9.
 - 04:47.4: A long engineering name. A Beaumont portrait gains the title MAJOR FREDERICK EDWARD BLACKETT BEAUMONT, leading into the pronunciation joke and French-surname aside.
 - 04:54: Why the French surname?. WHY DOES AN ENGLISH GUY HAVE A FRENCH LAST NAME? appears beneath Beaumont's name, answering the presenter's pronunciation uncertainty.
 - 05:02.3: The invasion tunnel. An English Channel map has teacup icons in England and baguettes spreading across from France. Food caricatures stand in for the feared French invasion.
