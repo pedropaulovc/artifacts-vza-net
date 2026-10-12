@@ -54,9 +54,9 @@ The completed forts supply a visual payoff to the construction while the conclus
 - 00:25, Episode 2 / New Norway: EPISODE 2 / NEW NORWAY ribbon with 1638 and 1655 over the wooded shore.
 - 00:38, Establishing a colonial waterfront: A timber harbor selected in blue sits beside a road on a sparsely wooded shoreline. Narration establishes approximately 1650 and settler colonialism.
 - 00:53.6, Spain / violence insert: Historical engraving of an armed European man and violent scenes replaces the game view. Its exact subject is unidentified. A Wilhelm scream follows “the Spanish.”
-- 00:54.9, Return to building / England cue: Blue-selected cottage at the waterfront between historical images. A different scream follows “the English.”
+- 00:54.9, Return to building / England cue: Blue-selected cottage at the waterfront between historical images. Hollywood Edge’s “Man, Insane Tantrum” scream (PE134601) follows “the English.”
 - 00:56.13, England / mounted soldiers: Painting of mounted soldiers including a red-coated rider illustrates the next colonial power.
-- 00:59.63, Belgium cue / third insert setup: Gameplay returns to the cottage-and-dock settlement before the Belgian colonial image. A third distinct scream follows “the Belgians.”
+- 00:59.63, Belgium cue / third insert setup: Gameplay returns to the cottage-and-dock settlement before the Belgian colonial image. The Howie scream (PE134401) follows “the Belgians.”
 - 01:01.17, Belgium / colonial photograph: Black-and-white image of white-suited, hat-wearing man beside a bare-chested Black man, in front of a thatched building.
 - 01:06.03, Profit and conquest / building continues: Selected cottage and road grid on green ground while the presenter condemns conquest of Native peoples as profit-driven.
 - 01:29.58, New Sweden model: Delaware-region map overlaid on gameplay shows shaded colonial territory and named forts/settlements.

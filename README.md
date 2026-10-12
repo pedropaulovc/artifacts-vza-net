@@ -56,6 +56,8 @@ npm run deploy:production
 
 `https://artifacts.vza.net/donoteat-storyboards/` is donoteat01 illustrated storyboards, a collection of 24 Franklin, Power, Politics & Planning and bonus videos. Search the transcripts to find a passage and open its storyboard panel. Titles sit above the frames, with dialogue and scene notes below. Source-video links open YouTube.
 
+Shared links use an illustrated social preview. Copyright notices credit Justin Gibs Roczniak for dialogue and original graphics, with separate rights for third-party material.
+
 The [colophon](https://artifacts.vza.net/donoteat-storyboards/colophon) explains the transcription, frame selection, music identification and corrections. Working notes and source files are linked there; processing logs and tagging progress stay off the reading pages.
 
 ## QR reader artifact

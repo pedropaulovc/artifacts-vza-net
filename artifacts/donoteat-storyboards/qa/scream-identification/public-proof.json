@@ -1,0 +1,1081 @@
+{
+  "videoId": "gQzfa4iXxZ4",
+  "sourceMedia": {
+    "originalVideo": {
+      "bytes": 471556897,
+      "sha256": "dd66aa14c5d8be5558751d4c5b8eb525b7907843fb32259c0c55f325b4d4b941"
+    },
+    "cachedMonoAudio": {
+      "bytes": 43479118,
+      "sha256": "58c2986d9f8eba819db050f6004d965802b73612b13b393a069303871532a6f5"
+    },
+    "queryExcerpt": {
+      "sourceQuerySeconds": [
+        48,
+        67
+      ],
+      "bytes": 608078,
+      "sha256": "aa1c933957a22db60e8d08c76bc60c6144fe8e194b1dd6af52bbfe23616008d0"
+    }
+  },
+  "methods": {
+    "sampleRateHz": 16000,
+    "channels": 1,
+    "comparison": "Zero-mean normalized waveform cross-correlation on original-speed decoded waveforms. Near-silent windows excluded from normalization.",
+    "independence": "Each nonoverlapping 0.4-second reference query was independently searched throughout source seconds 48–67. Additional fixed one-second source queries were independently searched throughout each reference.",
+    "identityEvidence": "Multiple independent raw subwindows of each matched recording share the same source-minus-reference alignment. The retained scores are signed raw waveform correlations.",
+    "transformations": "No reversal, pitch shifting or time stretching. Equal 800–6500 Hz bandpass on both full signals was only corroborative; the identity proof here retains raw scores.",
+    "timingQualification": "Query and correlation-alignment windows are not independently adjudicated exact effect onset/end bounds. Storyboard 55.5/59.9 anchors remain dialogue-cue associations; the screams follow those lines and extend beyond the initially associated panels."
+  },
+  "matchedRecordings": [
+    {
+      "association": "Belgians",
+      "name": "Howie scream",
+      "catalogDescription": "Screams 3; Man, Gut-Wrenching Scream and Fall Into Distance.",
+      "catalogId": "PE134401",
+      "publisher": "Sound Ideas / Hollywood Edge",
+      "publisherPageURL": "https://soundideas.sourceaudio.com/track/11473863",
+      "referenceMedia": {
+        "bytes": 116781,
+        "sha256": "9755dde0195f08a27287962f93b8b264b0e5866d90e2366fccfd04f82c0e9314"
+      },
+      "independentRawSubwindows": [
+        {
+          "referenceQuerySeconds": [
+            0,
+            0.4
+          ],
+          "sourceQuerySeconds": [
+            60.993875,
+            61.393875
+          ],
+          "sourceMinusReferenceSeconds": 60.993875,
+          "rawWaveformCorrelation": 0.8214179542966216
+        },
+        {
+          "referenceQuerySeconds": [
+            0.4,
+            0.8
+          ],
+          "sourceQuerySeconds": [
+            61.393875,
+            61.793875
+          ],
+          "sourceMinusReferenceSeconds": 60.993875,
+          "rawWaveformCorrelation": 0.9395611824258087
+        },
+        {
+          "referenceQuerySeconds": [
+            0.8,
+            1.2
+          ],
+          "sourceQuerySeconds": [
+            61.793875,
+            62.193875
+          ],
+          "sourceMinusReferenceSeconds": 60.993875,
+          "rawWaveformCorrelation": 0.9530904650603068
+        },
+        {
+          "referenceQuerySeconds": [
+            1.2,
+            1.6
+          ],
+          "sourceQuerySeconds": [
+            62.193875,
+            62.593875
+          ],
+          "sourceMinusReferenceSeconds": 60.993874999999996,
+          "rawWaveformCorrelation": 0.940581234328837
+        },
+        {
+          "referenceQuerySeconds": [
+            1.6,
+            2
+          ],
+          "sourceQuerySeconds": [
+            62.593875,
+            62.993874999999996
+          ],
+          "sourceMinusReferenceSeconds": 60.993874999999996,
+          "rawWaveformCorrelation": 0.9402297064003465
+        },
+        {
+          "referenceQuerySeconds": [
+            2,
+            2.4
+          ],
+          "sourceQuerySeconds": [
+            62.993875,
+            63.393875
+          ],
+          "sourceMinusReferenceSeconds": 60.993875,
+          "rawWaveformCorrelation": 0.9404136267117197
+        },
+        {
+          "referenceQuerySeconds": [
+            2.4,
+            2.8
+          ],
+          "sourceQuerySeconds": [
+            63.393875,
+            63.793875
+          ],
+          "sourceMinusReferenceSeconds": 60.993875,
+          "rawWaveformCorrelation": 0.9475276756548969
+        },
+        {
+          "referenceQuerySeconds": [
+            2.8,
+            3.2
+          ],
+          "sourceQuerySeconds": [
+            63.793875,
+            64.193875
+          ],
+          "sourceMinusReferenceSeconds": 60.993875,
+          "rawWaveformCorrelation": 0.9496428931461137
+        },
+        {
+          "referenceQuerySeconds": [
+            3.2,
+            3.6
+          ],
+          "sourceQuerySeconds": [
+            64.19387499999999,
+            64.593875
+          ],
+          "sourceMinusReferenceSeconds": 60.99387499999999,
+          "rawWaveformCorrelation": 0.9455460045684653
+        },
+        {
+          "referenceQuerySeconds": [
+            3.6,
+            4
+          ],
+          "sourceQuerySeconds": [
+            64.593875,
+            64.993875
+          ],
+          "sourceMinusReferenceSeconds": 60.993874999999996,
+          "rawWaveformCorrelation": 0.9316324454464378
+        },
+        {
+          "referenceQuerySeconds": [
+            4,
+            4.4
+          ],
+          "sourceQuerySeconds": [
+            64.993875,
+            65.39387500000001
+          ],
+          "sourceMinusReferenceSeconds": 60.993875,
+          "rawWaveformCorrelation": 0.9403955711633932
+        },
+        {
+          "referenceQuerySeconds": [
+            4.4,
+            4.8
+          ],
+          "sourceQuerySeconds": [
+            65.39387500000001,
+            65.79387500000001
+          ],
+          "sourceMinusReferenceSeconds": 60.99387500000001,
+          "rawWaveformCorrelation": 0.9396715411697614
+        },
+        {
+          "referenceQuerySeconds": [
+            4.8,
+            5.2
+          ],
+          "sourceQuerySeconds": [
+            65.793875,
+            66.193875
+          ],
+          "sourceMinusReferenceSeconds": 60.993875,
+          "rawWaveformCorrelation": 0.9306508615959227
+        },
+        {
+          "referenceQuerySeconds": [
+            5.2,
+            5.6
+          ],
+          "sourceQuerySeconds": [
+            66.19387499999999,
+            66.593875
+          ],
+          "sourceMinusReferenceSeconds": 60.99387499999999,
+          "rawWaveformCorrelation": 0.9269323907280194
+        }
+      ],
+      "independentSustainedQueries": [
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            0.4,
+            1.4
+          ],
+          "rawWaveformCorrelation": 0.9452486147886973
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            2.4,
+            3.4
+          ],
+          "rawWaveformCorrelation": 0.9490684037551215
+        }
+      ]
+    },
+    {
+      "association": "English",
+      "name": "Hollywood Edge “Man, Insane Tantrum” scream",
+      "catalogDescription": "Screams 5; Man, Insane Tantrum, Medium Perspective.",
+      "catalogId": "PE134601",
+      "publisher": "Sound Ideas / Hollywood Edge",
+      "publisherPageURL": "https://soundideas.sourceaudio.com/track/11473859",
+      "referenceMedia": {
+        "bytes": 141741,
+        "sha256": "77a8e640d35bb26a9285bacf8adeb289dfb5ed2ae49a84cd5d1a01ccb2c6c317"
+      },
+      "independentRawSubwindows": [
+        {
+          "referenceQuerySeconds": [
+            0,
+            0.4
+          ],
+          "sourceQuerySeconds": [
+            56.2368125,
+            56.6368125
+          ],
+          "sourceMinusReferenceSeconds": 56.2368125,
+          "rawWaveformCorrelation": 0.9796022387861891
+        },
+        {
+          "referenceQuerySeconds": [
+            0.4,
+            0.8
+          ],
+          "sourceQuerySeconds": [
+            56.6368125,
+            57.036812499999996
+          ],
+          "sourceMinusReferenceSeconds": 56.2368125,
+          "rawWaveformCorrelation": 0.9462240334236581
+        },
+        {
+          "referenceQuerySeconds": [
+            0.8,
+            1.2
+          ],
+          "sourceQuerySeconds": [
+            57.036812499999996,
+            57.436812499999995
+          ],
+          "sourceMinusReferenceSeconds": 56.2368125,
+          "rawWaveformCorrelation": 0.9660198540296653
+        },
+        {
+          "referenceQuerySeconds": [
+            1.2,
+            1.6
+          ],
+          "sourceQuerySeconds": [
+            57.4368125,
+            57.8368125
+          ],
+          "sourceMinusReferenceSeconds": 56.2368125,
+          "rawWaveformCorrelation": 0.9488482088721857
+        },
+        {
+          "referenceQuerySeconds": [
+            1.6,
+            2
+          ],
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.2368125
+          ],
+          "sourceMinusReferenceSeconds": 56.2368125,
+          "rawWaveformCorrelation": 0.9620240500127655
+        },
+        {
+          "referenceQuerySeconds": [
+            2,
+            2.4
+          ],
+          "sourceQuerySeconds": [
+            58.2368125,
+            58.6368125
+          ],
+          "sourceMinusReferenceSeconds": 56.2368125,
+          "rawWaveformCorrelation": 0.9729177513449995
+        },
+        {
+          "referenceQuerySeconds": [
+            2.4,
+            2.8
+          ],
+          "sourceQuerySeconds": [
+            58.6368125,
+            59.036812499999996
+          ],
+          "sourceMinusReferenceSeconds": 56.2368125,
+          "rawWaveformCorrelation": 0.9542037182063166
+        },
+        {
+          "referenceQuerySeconds": [
+            2.8,
+            3.2
+          ],
+          "sourceQuerySeconds": [
+            59.036812499999996,
+            59.436812499999995
+          ],
+          "sourceMinusReferenceSeconds": 56.2368125,
+          "rawWaveformCorrelation": 0.9330470941051988
+        }
+      ],
+      "independentSustainedQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            0,
+            1
+          ],
+          "rawWaveformCorrelation": 0.9706803781946914
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            1.6,
+            2.6
+          ],
+          "rawWaveformCorrelation": 0.9634616167100949
+        }
+      ]
+    }
+  ],
+  "sustainedWrongCandidateControls": [
+    {
+      "name": "Wilhelm-current",
+      "referenceMedia": {
+        "bytes": 48391,
+        "sha256": "360097c9715f55abcc26ab73f12f69b730c660fbf019fc63caa685bfa9b6585b"
+      },
+      "sustainedRawQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            0.436375,
+            1.436375
+          ],
+          "rawWaveformCorrelation": -0.09173678319902204
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            0.0360625,
+            1.0360624999999999
+          ],
+          "rawWaveformCorrelation": -0.051866084829526815
+        },
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            0.0509375,
+            1.0509375
+          ],
+          "rawWaveformCorrelation": 0.12089307638868614
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            0.2090625,
+            1.2090625
+          ],
+          "rawWaveformCorrelation": -0.10939653963942925
+        }
+      ]
+    },
+    {
+      "name": "Wilhelm-old",
+      "referenceMedia": {
+        "bytes": 14438,
+        "sha256": "254dd748b7e747373381867fe9d38c2e91bda66bb648cc7ed4601aee1cbd354c"
+      },
+      "sustainedRawQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            0.013625,
+            1.013625
+          ],
+          "rawWaveformCorrelation": -0.014719832878987763
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            0.015125,
+            1.015125
+          ],
+          "rawWaveformCorrelation": -0.03408437288211359
+        },
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            0.0295,
+            1.0295
+          ],
+          "rawWaveformCorrelation": -0.1020363528802384
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            0.058875,
+            1.058875
+          ],
+          "rawWaveformCorrelation": 0.07793851837182311
+        }
+      ]
+    },
+    {
+      "name": "Wilhelm-session",
+      "referenceMedia": {
+        "bytes": 5657018,
+        "sha256": "7556ab21a83cdb92628aad4bcec7f6951a7258614e49458df880b87a14ae7b13"
+      },
+      "sustainedRawQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            35.9510625,
+            36.9510625
+          ],
+          "rawWaveformCorrelation": 0.14193564485803634
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            35.4948125,
+            36.4948125
+          ],
+          "rawWaveformCorrelation": -0.1370072289078172
+        },
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            27.28075,
+            28.28075
+          ],
+          "rawWaveformCorrelation": 0.12098048049334006
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            31.0796875,
+            32.0796875
+          ],
+          "rawWaveformCorrelation": -0.12033003804744892
+        }
+      ]
+    },
+    {
+      "name": "Howie-Wikipedia",
+      "referenceMedia": {
+        "bytes": 40757,
+        "sha256": "7bae0a8108f0d0b919e88fa4903f70eae84285ef580a00dabef91068e511974d"
+      },
+      "sustainedRawQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            0.0478125,
+            1.0478125
+          ],
+          "rawWaveformCorrelation": -0.05949180930864035
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            1.2310625,
+            2.2310625
+          ],
+          "rawWaveformCorrelation": 0.04778654809530953
+        },
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            0.189375,
+            1.189375
+          ],
+          "rawWaveformCorrelation": 0.13493616181330928
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            1.2313125,
+            2.2313125
+          ],
+          "rawWaveformCorrelation": 0.21173609807885277
+        }
+      ]
+    },
+    {
+      "name": "Tarzan-Weissmuller",
+      "referenceMedia": {
+        "bytes": 89443,
+        "sha256": "3f89165453f4fc630fa817ee1a1677959b041286684e8062d0b2787bafd969ba"
+      },
+      "sustainedRawQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            0.1014375,
+            1.1014375
+          ],
+          "rawWaveformCorrelation": -0.12282018249182719
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            0.9835625,
+            1.9835625000000001
+          ],
+          "rawWaveformCorrelation": 0.10349285429918187
+        },
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            0.5085,
+            1.5085
+          ],
+          "rawWaveformCorrelation": 0.059399497381924495
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            0.713375,
+            1.713375
+          ],
+          "rawWaveformCorrelation": -0.06917373245483395
+        }
+      ]
+    },
+    {
+      "name": "Goofy-classic",
+      "referenceMedia": {
+        "bytes": 28829,
+        "sha256": "cc862f7e8f187ae563215f79d50cd6254a82c9766b54c8886f65d53debf0c1a7"
+      },
+      "sustainedRawQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            0.9921875,
+            1.9921875
+          ],
+          "rawWaveformCorrelation": -0.24897983133577326
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            0.63375,
+            1.63375
+          ],
+          "rawWaveformCorrelation": 0.05148047139328307
+        },
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            0.6056875,
+            1.6056875000000002
+          ],
+          "rawWaveformCorrelation": -0.04727952623750576
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            0.2238125,
+            1.2238125
+          ],
+          "rawWaveformCorrelation": -0.027278935810388358
+        }
+      ]
+    },
+    {
+      "name": "Goofy-Farmer",
+      "referenceMedia": {
+        "bytes": 47706,
+        "sha256": "2ee22398484e7a789dde14b431be8f8f54fff4e9a4d883ae5e3fa26b65185504"
+      },
+      "sustainedRawQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            0.864125,
+            1.864125
+          ],
+          "rawWaveformCorrelation": -0.11105379132292183
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            0.087125,
+            1.087125
+          ],
+          "rawWaveformCorrelation": -0.060480572430055425
+        },
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            2.754625,
+            3.754625
+          ],
+          "rawWaveformCorrelation": 0.14377730962604338
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            0.1176875,
+            1.1176875
+          ],
+          "rawWaveformCorrelation": -0.050142530789312044
+        }
+      ]
+    },
+    {
+      "name": "Goofy-yodel",
+      "referenceMedia": {
+        "bytes": 27008,
+        "sha256": "513a8ee38a47a3edeaaa6fe0bcf1dc8185d2b35a1d6abaa1428075f9412d294d"
+      },
+      "sustainedRawQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            1.390875,
+            2.3908750000000003
+          ],
+          "rawWaveformCorrelation": 0.14990002379797196
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            1.166,
+            2.166
+          ],
+          "rawWaveformCorrelation": 0.18015108922416065
+        },
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            1.7185625,
+            2.7185625
+          ],
+          "rawWaveformCorrelation": -0.07118039974523839
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            2.0491875,
+            3.0491875
+          ],
+          "rawWaveformCorrelation": -0.07451066831644447
+        }
+      ]
+    },
+    {
+      "name": "Goofy-LionDown",
+      "referenceMedia": {
+        "bytes": 33614,
+        "sha256": "24e524d5b4d9b92442a719715fbca7451af5ff676977f47d4e1cccbb595056c0"
+      },
+      "sustainedRawQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            0.986125,
+            1.986125
+          ],
+          "rawWaveformCorrelation": 0.12177630048523662
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            0.3738125,
+            1.3738125
+          ],
+          "rawWaveformCorrelation": 0.15969156605342838
+        },
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            1.0648125,
+            2.0648125
+          ],
+          "rawWaveformCorrelation": 0.048403179924572534
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            0.4455625,
+            1.4455624999999999
+          ],
+          "rawWaveformCorrelation": 0.03981988106865184
+        }
+      ]
+    },
+    {
+      "name": "PE134201-primary",
+      "catalogId": "PE134201",
+      "publisherPageURL": "https://soundideas.sourceaudio.com/track/11473866",
+      "referenceMedia": {
+        "bytes": 64941,
+        "sha256": "2eb9e72bd9b162f0e0e79a2f15d32c21355d03d47cbaebad53bc00659dfad1c1"
+      },
+      "sustainedRawQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            0.01625,
+            1.01625
+          ],
+          "rawWaveformCorrelation": 0.03114974110847643
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            0.1920625,
+            1.1920625
+          ],
+          "rawWaveformCorrelation": -0.09111124231176203
+        },
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            0.1435,
+            1.1435
+          ],
+          "rawWaveformCorrelation": 0.0845255203061434
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            0.3915,
+            1.3915
+          ],
+          "rawWaveformCorrelation": 0.09004767528997075
+        }
+      ]
+    },
+    {
+      "name": "PE134301-primary",
+      "catalogId": "PE134301",
+      "publisherPageURL": "https://soundideas.sourceaudio.com/track/11473867",
+      "referenceMedia": {
+        "bytes": 76845,
+        "sha256": "53e1c87ca61700df0514448ff15badb1f9e9b3eaebadc6e00843f926127e537d"
+      },
+      "sustainedRawQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            0.0255,
+            1.0255
+          ],
+          "rawWaveformCorrelation": 0.04127955322217833
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            2.575875,
+            3.575875
+          ],
+          "rawWaveformCorrelation": 0.08533877988804442
+        },
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            0.07025,
+            1.07025
+          ],
+          "rawWaveformCorrelation": 0.0816239372820073
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            0.2499375,
+            1.2499375
+          ],
+          "rawWaveformCorrelation": 0.08317423886432705
+        }
+      ]
+    },
+    {
+      "name": "PE134501-primary",
+      "catalogId": "PE134501",
+      "publisherPageURL": "https://soundideas.sourceaudio.com/track/11473861",
+      "referenceMedia": {
+        "bytes": 119469,
+        "sha256": "2ac09e19f310b3fa30541a159101fb6fa610ab2b8720264ad43fc0b13de413c6"
+      },
+      "sustainedRawQueries": [
+        {
+          "sourceQuerySeconds": [
+            56.2368125,
+            57.2368125
+          ],
+          "referenceQuerySeconds": [
+            1.375125,
+            2.3751249999999997
+          ],
+          "rawWaveformCorrelation": -0.110973476412477
+        },
+        {
+          "sourceQuerySeconds": [
+            57.8368125,
+            58.8368125
+          ],
+          "referenceQuerySeconds": [
+            1.92225,
+            2.92225
+          ],
+          "rawWaveformCorrelation": 0.07896365196604067
+        },
+        {
+          "sourceQuerySeconds": [
+            61.393875,
+            62.393875
+          ],
+          "referenceQuerySeconds": [
+            1.78675,
+            2.78675
+          ],
+          "rawWaveformCorrelation": -0.0645194632846417
+        },
+        {
+          "sourceQuerySeconds": [
+            63.393875,
+            64.393875
+          ],
+          "referenceQuerySeconds": [
+            0.482125,
+            1.482125
+          ],
+          "rawWaveformCorrelation": 0.07544294085232875
+        }
+      ]
+    }
+  ],
+  "spanishPositiveControl": {
+    "name": "Wilhelm scream",
+    "referenceMedia": {
+      "bytes": 48391,
+      "sha256": "360097c9715f55abcc26ab73f12f69b730c660fbf019fc63caa685bfa9b6585b"
+    },
+    "rawQueries": [
+      {
+        "referenceQuerySeconds": [
+          0.1,
+          0.5
+        ],
+        "sourceQuerySeconds": [
+          53.80275,
+          54.20275
+        ],
+        "rawWaveformCorrelation": 0.22146352959753518
+      },
+      {
+        "referenceQuerySeconds": [
+          0.5,
+          0.9
+        ],
+        "sourceQuerySeconds": [
+          54.2455,
+          54.6455
+        ],
+        "rawWaveformCorrelation": 0.35407795144844995
+      },
+      {
+        "referenceQuerySeconds": [
+          0.9,
+          1.3
+        ],
+        "sourceQuerySeconds": [
+          54.6096875,
+          55.0096875
+        ],
+        "rawWaveformCorrelation": 0.7430923422788556
+      },
+      {
+        "referenceQuerySeconds": [
+          0.1,
+          1.3
+        ],
+        "sourceQuerySeconds": [
+          53.78625,
+          54.986250000000005
+        ],
+        "rawWaveformCorrelation": 0.18373918764652658
+      }
+    ],
+    "longerSustainedQuery": {
+      "sourceQuerySeconds": [
+        53.8,
+        54.9
+      ],
+      "referenceQuerySeconds": [
+        0.0555,
+        1.1555000000000002
+      ],
+      "rawWaveformCorrelation": -0.18503128073972278
+    },
+    "qualification": "Partial tail waveform correspondence, strongest raw 0.4-second window r=0.7430923422788556; this downloaded digitization is not established as full-recording digital equivalence. Longer sustained comparison is weak. Do not infer an exact effect onset from these matches."
+  }
+}

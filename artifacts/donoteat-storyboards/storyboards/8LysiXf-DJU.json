@@ -621,7 +621,12 @@
       "description": "Historic postcard of dense oil derricks is overlaid on the highway-building game view.",
       "camera": "Cut to a held image.",
       "action": "The still image holds.",
-      "sound": [],
+      "sound": [
+        {
+          "startSeconds": 745.75,
+          "text": "“Oil” is pronounced with an exaggerated heavy accent before the crude-oil explanation."
+        }
+      ],
       "visualGag": null,
       "notes": null
     },
@@ -1262,10 +1267,10 @@
       "sound": [
         {
           "startSeconds": 1502.5,
-          "text": "A possible chant or sung pause accompanies the SOCIAL DEMOCRATS card; the sound’s identity is unknown."
+          "text": "An audience-booing effect supplies the students' reaction to the SOCIAL DEMOCRATS card."
         }
       ],
-      "visualGag": "The SOCIAL DEMOCRATS card extends the wood-pulp/pulpwood naming joke before the political emblem. A possible vocal or musical pause accompanies it; the sound is unidentified.",
+      "visualGag": "The SOCIAL DEMOCRATS card extends the wood-pulp/pulpwood naming joke before the political emblem.",
       "notes": null
     },
     {

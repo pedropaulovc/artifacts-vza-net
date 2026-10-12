@@ -1,0 +1,13 @@
+{
+  "id": "8LysiXf-DJU",
+  "corrections": [
+    {
+      "startSeconds": 745.75,
+      "endSeconds": 746.31,
+      "originalText": " Oh.",
+      "replacementText": "Oil.",
+      "evidence": "User identifies the approximately 12:25.8 chapter-opening dialogue transcribed as 'Oh. So there’s crude oil in the ground...' and confirms the actual word is 'Oil', spoken with an exaggerated heavy accent as an audio gag. Exact correction span is anchored to the single raw ASR word slot at 745.75–746.31s (zero-based segments[27].words[59], flattened word index 1904), not independently measured audio timing. No accent, dialect, character or film origin is identified. Original transcript remains immutable.",
+      "provenance": "user-observation"
+    }
+  ]
+}

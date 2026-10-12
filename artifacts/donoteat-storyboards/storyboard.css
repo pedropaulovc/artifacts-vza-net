@@ -42,6 +42,8 @@ p { margin: 0 0 var(--space-xs); }
 .footer-links { margin: var(--space-md) 0 0; font-size: var(--text-sm); }
 .footer-links a { white-space: nowrap; }
 .colophon > .footer-links:first-child { margin-top: 0; }
+.copyright { color: var(--color-ink-muted); font-size: var(--text-sm); margin: var(--space-md) 0 0; }
+.colophon > .copyright:first-child { margin-top: 0; }
 
 .toc { display: flex; flex-wrap: wrap; gap: var(--space-2xs) var(--space-lg); font-size: var(--text-sm); }
 .toc a { white-space: nowrap; }

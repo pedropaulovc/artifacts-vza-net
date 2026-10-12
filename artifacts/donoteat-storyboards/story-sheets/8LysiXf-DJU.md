@@ -42,6 +42,7 @@ Donoteat treats Cities: Skylines' Industries expansion as a “State Capitalism 
 - **03:29–03:56:** The shrunken truck cab leads to Oompa Loompa drivers and ore as chocolate, complete with a Willy Wonka & the Chocolate Factory insert.
 - **06:06–06:25:** Germany's lignite use becomes sarcastic “progress.” **06:55–07:23:** start draglines one at a time to avoid blacking out towns.
 - **10:07–10:33:** Gary, Indiana/Music Man geographical lyric; **10:34–11:04:** two “not that type of coke” reversals.
+- **12:25.75:** “Oil. So there's crude oil in the ground.” “Oil” is pronounced with an exaggerated heavy accent before the crude-oil explanation, making the chapter opening an audio gag.
 - **15:26–15:56:** lead-poisoning joke escalates from walking into lampposts and stepping on rakes to buying timeshares, before a much darker worker-exposure account.
 - **24:44–25:14:** pulpwood/wood pulp compared with social democrats/democratic socialists; **25:14–25:41:** Kraft process/mac-and-cheese pun.
 - **29:10–30:03:** repeated “pig shit lagoon” wording shifts technical explanation into disgust and environmental consequences, not a light visual joke.
@@ -95,7 +96,7 @@ A giant **RENT CONTROL** card leads into four-column Patreon supporter credits. 
 - 24:05.23: Or at least cheaper. Black card reads (OR AT LEAST CHEAPER). Visual-only deadpan qualification interrupts the strength claim, connected to preceding engineered-wood photos.
 - 24:39.27: Biomass mismatch callback. BIOMASS PELLET PLANT label overlays yellow conveyors and containers. The biomass plant returns to the paper-output mismatch before the real-pellet reveal.
 - 24:57.07: Wood pulp / pulpwood. WOOD PULP / PULPWOOD labels stacked over forestry district. Word-reversal setup for social democrats/democratic socialists comparison.
-- 25:00.4: Social democrats. White SOCIAL DEMOCRATS on black. The SOCIAL DEMOCRATS card extends the wood-pulp/pulpwood naming joke before the political emblem. A possible vocal or musical pause accompanies it; the sound is unidentified.
+- 25:00.4: Social democrats. White SOCIAL DEMOCRATS on black. The card extends the wood-pulp/pulpwood naming joke before the political emblem. At 25:02.5, an audience-booing effect supplies the students' reaction.
 - 25:08.07: Political rose. White rose above black-and-white handshake on red square. Political-emblem payoff to wood-pulp/pulpwood versus social-democratic/socialist label comparison. Exact organization identity is uncertain.
 - 25:20: Kraft process / setup. Forestry district placement during process-name explanation. The Kraft process name sets up the grocery-brand pun.
 - 25:23.03: Kraft mac and cheese. Blue-and-yellow Kraft macaroni & cheese box centered on white against black. The Kraft macaroni & cheese box turns the pulp-making process name into a grocery-brand joke.
