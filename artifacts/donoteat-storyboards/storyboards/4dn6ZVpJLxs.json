@@ -372,8 +372,13 @@
       "description": "Brunell in a Jacksonville Jaguars jersey follows the completed tunnel.",
       "camera": "Cut to static sports photograph.",
       "action": "No movement.",
-      "sound": [],
-      "visualGag": "The final football callback pairs the tunnel's 1994 completion with the quarterback's trade to Jacksonville.",
+      "sound": [
+        {
+          "startSeconds": 311.7,
+          "text": "The stadium crowd cheers a third time for the quarterback's trade to Jacksonville."
+        }
+      ],
+      "visualGag": "The final football callback pairs the tunnel's 1994 completion with the quarterback's trade to Jacksonville, and the stadium crowd cheers one more time.",
       "notes": null
     },
     {

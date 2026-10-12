@@ -106,7 +106,7 @@ The Auto Train advertisement returns after the unbuilt-rail proposals, moving fr
 - 04:54: Why the French surname?. WHY DOES AN ENGLISH GUY HAVE A FRENCH LAST NAME? appears beneath Beaumont's name, answering the presenter's pronunciation uncertainty.
 - 05:02.3: The invasion tunnel. An English Channel map has teacup icons in England and baguettes spreading across from France. Food caricatures stand in for the feared French invasion.
 - 05:07.4: Channel Tunnel completed. A photograph of tunnel portals and a train replaces the map's invading baguettes with the completed tunnel.
-- 05:11.5: Jacksonville callback. Brunell in a Jacksonville Jaguars jersey follows the tunnel photograph, pairing the tunnel's 1994 completion with the quarterback's trade.
+- 05:11.5: Jacksonville callback. Brunell in a Jacksonville Jaguars jersey follows the tunnel photograph, pairing the tunnel's 1994 completion with the quarterback's trade. The stadium crowd cheers again at 05:11.7.
 - 05:20: How a TBM works. A hand-drawn cross-section labels CUTTING HEAD and shows spoil wagons beneath a smiling sun wearing sunglasses. The cool sun adds a playful recurring figure to the crude engineering diagrams.
 - 06:05: Shield and spoil. The cartoon labels SHIELD, then LITTLE TRAIN, with the cool sun still above the practical explanation.
 - 06:55.3: Multiple access shafts. TBMs face one another from different access points in a cartoon mountain section, again beneath the cool sun.
